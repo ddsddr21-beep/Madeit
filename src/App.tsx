@@ -229,13 +229,21 @@ export default function App() {
     }
   };
 
-  // Normalization Helpers
+  // Surface Form vs Normalization Helpers
+  const getSurfaceForm = (word: string): string => {
+    return word
+      .replace(/^[\s\p{P}«»“”()\[\]{}،.:؛!؟-]+/gu, '')
+      .replace(/[\s\p{P}«»“”()\[\]{}،.:؛!؟-]+$/gu, '')
+      .trim();
+  };
+
+  const stripDiacritics = (word: string): string => {
+    return word.replace(/[\u064B-\u0652\u0640]/g, '');
+  };
+
   const cleanArabicWord = (word: string): string => {
-    // 1. Strip vowels/harakat
-    let clean = word.replace(/[\u064B-\u0652\u0640]/g, '');
-    // 2. Clean punctuation/whitespaces from ends
-    clean = clean.replace(/^[\s\p{P}«»“”()\[\]]+/gu, '').replace(/[\s\p{P}«»“”()\[\]]+$/gu, '');
-    return clean.trim().toLowerCase();
+    const surface = getSurfaceForm(word);
+    return stripDiacritics(surface).toLowerCase();
   };
 
   const normalizeArabicWordForLookup = (word: string): string => {
@@ -243,6 +251,7 @@ export default function App() {
     normalized = normalized.replace(/[أإآٱ]/g, 'ا');
     normalized = normalized.replace(/ى/g, 'ي');
     normalized = normalized.replace(/ة/g, 'ه');
+    normalized = normalized.replace(/ھ/g, 'ه');
     return normalized;
   };
 
@@ -278,53 +287,131 @@ export default function App() {
     return [];
   };
 
-  // Search local dictionary with morphological resolution
-  const findWordInList = (normalizedWord: string, list: DictionaryEntry[]): DictionaryEntry | null => {
-    const exact = list.find(entry => normalizeArabicWordForLookup(entry.word) === normalizedWord);
-    if (exact) return exact;
-
-    const rootMatch = list.find(entry => entry.root && normalizeArabicWordForLookup(entry.root) === normalizedWord);
-    if (rootMatch) return rootMatch;
-
-    const displayMatch = list.find(entry => normalizeArabicWordForLookup(entry.displayWord) === normalizedWord);
-    if (displayMatch) return displayMatch;
-
-    return null;
+  // Find all candidate matches for a normalized word (without using Array.find)
+  const findCandidatesInList = (normalizedWord: string, list: DictionaryEntry[]): DictionaryEntry[] => {
+    return list.filter(entry => {
+      const normWord = normalizeArabicWordForLookup(entry.word);
+      const normDisplay = normalizeArabicWordForLookup(entry.displayWord);
+      const normRoot = entry.root ? normalizeArabicWordForLookup(entry.root) : '';
+      return normWord === normalizedWord || normDisplay === normalizedWord || normRoot === normalizedWord;
+    });
   };
 
-  const localDictionaryLookup = (word: string, entries: DictionaryEntry[]): DictionaryEntry | null => {
-    const normalized = normalizeArabicWordForLookup(word);
+  // Combine all matching candidate entries for a word preserving original dictionary file order
+  const rankAndSelectEntries = (surfaceWord: string, candidates: DictionaryEntry[]): DictionaryEntry | null => {
+    if (!candidates || candidates.length === 0) return null;
+
+    const hasHarakat = /[\u064B-\u0652]/.test(surfaceWord);
+
+    // Filter by exact surface match if surfaceWord has harakat
+    let matchingCandidates = candidates;
+    if (hasHarakat) {
+      const exactMatches = candidates.filter(
+        entry => (entry.displayWord && entry.displayWord === surfaceWord) || entry.word === surfaceWord
+      );
+      if (exactMatches.length > 0) {
+        matchingCandidates = exactMatches;
+      }
+    }
+
+    // Preserve the original dictionary file order
+    // Collect all unique translations from matching candidates
+    const uniqueTranslations: string[] = [];
+    const seenTrans = new Set<string>();
+
+    for (const entry of matchingCandidates) {
+      const rawTrans = entry.translation ? entry.translation.trim() : '';
+      if (!rawTrans) continue;
+
+      const normTransKey = rawTrans.toLowerCase();
+      if (!seenTrans.has(normTransKey)) {
+        seenTrans.add(normTransKey);
+        uniqueTranslations.push(rawTrans);
+      }
+    }
+
+    if (uniqueTranslations.length === 0) {
+      return null;
+    }
+
+    // Combine all unique translations preserving dictionary order
+    let combinedTranslation = '';
+    if (uniqueTranslations.length === 1) {
+      combinedTranslation = uniqueTranslations[0];
+    } else {
+      combinedTranslation = uniqueTranslations.map((t, i) => `${i + 1}) ${t}`).join('\n');
+    }
+
+    // Aggregate examples from all matching candidates without duplicates
+    const aggregatedExamples: { ar: string; en: string; source?: string }[] = [];
+    const seenExamples = new Set<string>();
+
+    for (const entry of matchingCandidates) {
+      if (entry.examples && Array.isArray(entry.examples)) {
+        for (const ex of entry.examples) {
+          if (ex && ex.ar) {
+            const key = `${ex.ar.trim()}|${(ex.en || '').trim()}`;
+            if (!seenExamples.has(key)) {
+              seenExamples.add(key);
+              aggregatedExamples.push(ex);
+            }
+          }
+        }
+      }
+    }
+
+    const primaryEntry = matchingCandidates[0];
+
+    return {
+      word: primaryEntry.word,
+      displayWord: primaryEntry.displayWord || primaryEntry.word,
+      root: primaryEntry.root || primaryEntry.word,
+      translation: combinedTranslation,
+      examples: aggregatedExamples
+    };
+  };
+
+  const localDictionaryLookup = (surfaceWord: string, entries: DictionaryEntry[]): DictionaryEntry | null => {
+    const normalized = normalizeArabicWordForLookup(surfaceWord);
     if (!normalized) return null;
 
-    // 1. Direct match
-    let found = findWordInList(normalized, entries);
-    if (found) return found;
+    // Level 1: Direct match without stemming
+    let candidates = findCandidatesInList(normalized, entries);
+    if (candidates.length > 0) {
+      return rankAndSelectEntries(surfaceWord, candidates);
+    }
 
-    // 2. Morphological prefix/suffix stripping rules
+    // Level 2: Prefix / Suffix stripping (Morphological Stemming Fallback)
     // Prefix "ال"
     if (normalized.startsWith('ال') && normalized.length > 3) {
       const stripped = normalized.substring(2);
-      found = findWordInList(stripped, entries);
-      if (found) return found;
+      candidates = findCandidatesInList(stripped, entries);
+      if (candidates.length > 0) {
+        return rankAndSelectEntries(surfaceWord, candidates);
+      }
     }
 
-    // Coordinating prefixes: "و", "ب", "ف", "ل", "ك"
+    // Coordinating prefixes
     const prefixes = ['وال', 'بال', 'فال', 'لال', 'كال', 'و', 'ب', 'ف', 'ل', 'ك'];
     for (const prefix of prefixes) {
       if (normalized.startsWith(prefix) && normalized.length > prefix.length + 1) {
         const stripped = normalized.substring(prefix.length);
-        found = findWordInList(stripped, entries);
-        if (found) return found;
+        candidates = findCandidatesInList(stripped, entries);
+        if (candidates.length > 0) {
+          return rankAndSelectEntries(surfaceWord, candidates);
+        }
       }
     }
 
-    // Suffixes: "ون", "ين", "ات", "ان", "ها", "هم", "كم", "نا", "ه", "ت"
+    // Suffixes
     const suffixes = ['ون', 'ين', 'ات', 'ان', 'ها', 'هم', 'كم', 'نا', 'ه', 'ت'];
     for (const suffix of suffixes) {
       if (normalized.endsWith(suffix) && normalized.length > suffix.length + 2) {
         const stripped = normalized.substring(0, normalized.length - suffix.length);
-        found = findWordInList(stripped, entries);
-        if (found) return found;
+        candidates = findCandidatesInList(stripped, entries);
+        if (candidates.length > 0) {
+          return rankAndSelectEntries(surfaceWord, candidates);
+        }
       }
     }
 
@@ -334,8 +421,10 @@ export default function App() {
       for (const suffix of suffixes) {
         if (strippedPrefix.endsWith(suffix) && strippedPrefix.length > suffix.length + 2) {
           const strippedBoth = strippedPrefix.substring(0, strippedPrefix.length - suffix.length);
-          found = findWordInList(strippedBoth, entries);
-          if (found) return found;
+          candidates = findCandidatesInList(strippedBoth, entries);
+          if (candidates.length > 0) {
+            return rankAndSelectEntries(surfaceWord, candidates);
+          }
         }
       }
     }
@@ -345,10 +434,10 @@ export default function App() {
 
   // Click handler for Arabic words in Reader view
   const handleWordClick = async (word: string, rowIndex: number, row: AlignedUnit) => {
-    const cleaned = cleanArabicWord(word);
-    if (!cleaned) return;
+    const surfaceWord = getSurfaceForm(word);
+    if (!surfaceWord) return;
 
-    setClickedWord(word);
+    setClickedWord(surfaceWord);
     setClickedWordRowIndex(rowIndex);
     setClickedWordRow(row);
     setClickedWordData(null);
@@ -356,9 +445,9 @@ export default function App() {
     setAiError(null);
     setIsDictionaryLoading(true);
 
-    const letter = getNormalizedFirstLetter(cleaned);
+    const letter = getNormalizedFirstLetter(surfaceWord);
     const entries = await fetchLetterEntries(letter);
-    const lookupResult = localDictionaryLookup(cleaned, entries);
+    const lookupResult = localDictionaryLookup(surfaceWord, entries);
 
     setClickedWordData(lookupResult);
     setIsDictionaryLoading(false);
@@ -641,10 +730,10 @@ export default function App() {
     setIsSearchingDirect(true);
     setDirectSearchResult([]);
 
-    const cleaned = cleanArabicWord(searchTerm);
-    const letter = getNormalizedFirstLetter(cleaned);
+    const surfaceWord = getSurfaceForm(searchTerm);
+    const letter = getNormalizedFirstLetter(surfaceWord);
     const entries = await fetchLetterEntries(letter);
-    const match = localDictionaryLookup(cleaned, entries);
+    const match = localDictionaryLookup(surfaceWord, entries);
 
     if (match) {
       setDirectSearchResult([match]);
@@ -1168,7 +1257,7 @@ export default function App() {
                             {clickedWordData ? (
                               <div className="bg-white p-4 rounded-lg border border-stone-200">
                                 <span className="text-[10px] text-stone-400 block font-mono">المعنى المعجمي الموثق:</span>
-                                <p className="text-lg font-bold text-stone-900 capitalize dir-ltr text-left">
+                                <p className="text-lg font-bold text-stone-900 capitalize dir-ltr text-left whitespace-pre-line">
                                   {clickedWordData.translation}
                                 </p>
                               </div>
@@ -1445,7 +1534,7 @@ export default function App() {
                   <div className="space-y-3">
                     <div>
                       <span className="text-xs font-bold text-stone-400 font-mono">الترجمة المباشرة (Direct Translation)</span>
-                      <p className="text-xl font-bold text-stone-900 capitalize text-left dir-ltr">
+                      <p className="text-xl font-bold text-stone-900 capitalize text-left dir-ltr whitespace-pre-line">
                         {directSearchResult[0].translation}
                       </p>
                     </div>
