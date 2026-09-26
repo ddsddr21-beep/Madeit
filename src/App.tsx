@@ -1199,15 +1199,16 @@ export default function App() {
                   </div>
                 )}
 
-                {/* --- FLOATING DICTIONARY CARD MODAL/DIALOG --- */}
+                {/* --- FLOATING DICTIONARY CARD MODAL/DIALOG (Fixed Bottom Viewport Overlay) --- */}
                 {clickedWord && (
-                  <div className="mt-6 p-5 rounded-xl border border-amber-250 bg-[#FCFAF0] shadow-md text-right relative space-y-4 animate-in fade-in slide-in-from-bottom-2 duration-150">
+                  <div className="fixed bottom-4 left-4 right-4 md:left-auto md:right-6 md:max-w-xl z-50 p-5 rounded-2xl border-2 border-amber-800/80 bg-[#FCFAF0] shadow-2xl text-right relative space-y-4 animate-in fade-in slide-in-from-bottom-4 duration-200">
                     
                     <button 
                       onClick={() => { setClickedWord(null); setClickedWordLexicalMeanings(null); setAiContextResult(null); }}
-                      className="absolute top-4 left-4 p-1 text-stone-400 hover:text-stone-600 hover:bg-stone-100 rounded-md"
+                      className="absolute top-4 left-4 p-1.5 text-stone-400 hover:text-stone-700 hover:bg-stone-200/60 rounded-lg transition-colors"
+                      title="إغلاق بطاقة المعجم"
                     >
-                      <X className="w-4 h-4" />
+                      <X className="w-5 h-5" />
                     </button>
 
                     <div className="flex flex-wrap items-center justify-between gap-4 border-b border-stone-200 pb-3">
