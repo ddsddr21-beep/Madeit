@@ -297,6 +297,40 @@ export default function App() {
     });
   };
 
+  // Clean up raw dictionary translation text for readable user-friendly display without losing original content
+  const formatTranslationForDisplay = (text: string): string => {
+    if (!text) return '';
+
+    let cleaned = text;
+
+    // 1. Remove non-printable control characters (such as ASCII 0x1F unit separators)
+    cleaned = cleaned.replace(/[\u0000-\u001F\u007F-\u009F]/g, '');
+
+    // 2. Replace raw pipe symbols '│' used in Hans Wehr as sense/idiom separators with clean '; '
+    cleaned = cleaned.replace(/\s*│\s*/g, ' ; ');
+
+    // 3. Expand standard dictionary abbreviations for clear reading
+    cleaned = cleaned.replace(/\bs\.o\./gi, 'someone');
+    cleaned = cleaned.replace(/\bs\.th\./gi, 'something');
+    cleaned = cleaned.replace(/\bs\.t\./gi, 'something');
+    cleaned = cleaned.replace(/\bo\.s\./gi, 'oneself');
+
+    // 4. Remove isolated typography/OCR placeholder marks like 'ھ' or 'هـ' inside English parentheticals
+    cleaned = cleaned.replace(/\(\s*[ھهـ]\s*/g, '(');
+    cleaned = cleaned.replace(/\s+[ھهـ]\s+/g, ' ');
+
+    // 5. Clean up weird spaces before punctuation and ensure single space after
+    cleaned = cleaned.replace(/\s+([,;:.!?])/g, '$1');
+    cleaned = cleaned.replace(/([,;:.!?])(?=[a-zA-Z])/g, '$1 ');
+    cleaned = cleaned.replace(/\s{2,}/g, ' ');
+
+    // 6. Clean up leading/trailing orphan punctuation
+    cleaned = cleaned.replace(/^[;,.\s]+/, '');
+    cleaned = cleaned.replace(/[;,.\s]+$/, '');
+
+    return cleaned.trim();
+  };
+
   // Combine all matching candidate entries for a word preserving original dictionary file order
   const rankAndSelectEntries = (surfaceWord: string, candidates: DictionaryEntry[]): DictionaryEntry | null => {
     if (!candidates || candidates.length === 0) return null;
@@ -323,10 +357,13 @@ export default function App() {
       const rawTrans = entry.translation ? entry.translation.trim() : '';
       if (!rawTrans) continue;
 
-      const normTransKey = rawTrans.toLowerCase();
+      const formattedTrans = formatTranslationForDisplay(rawTrans);
+      if (!formattedTrans) continue;
+
+      const normTransKey = formattedTrans.toLowerCase();
       if (!seenTrans.has(normTransKey)) {
         seenTrans.add(normTransKey);
-        uniqueTranslations.push(rawTrans);
+        uniqueTranslations.push(formattedTrans);
       }
     }
 
