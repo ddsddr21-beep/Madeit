@@ -34,17 +34,30 @@ async function startServer() {
     return res.json({ available: !!apiKey });
   });
 
-  // Arabic-English Lexical Dictionary (DrAbdulmalek dataset)
+  // Arabic-English & English-Arabic Lexical Dictionaries (DrAbdulmalek dataset)
   let lexiconMap: Record<string, string[]> = {};
+  let enArLexiconMap: Record<string, string[]> = {};
+  
   try {
     const lexiconPath = path.resolve(__dirname, 'public/dictionary/ar_en_lexicon.json');
     if (fs.existsSync(lexiconPath)) {
       const raw = fs.readFileSync(lexiconPath, 'utf-8');
       lexiconMap = JSON.parse(raw);
-      console.log(`Loaded ${Object.keys(lexiconMap).length} lexical dictionary entries into memory.`);
+      console.log(`Loaded ${Object.keys(lexiconMap).length} Arabic->English entries into memory.`);
     }
   } catch (e) {
     console.error('Failed to load ar_en_lexicon.json in server:', e);
+  }
+
+  try {
+    const enArLexiconPath = path.resolve(__dirname, 'public/dictionary/en_ar_lexicon.json');
+    if (fs.existsSync(enArLexiconPath)) {
+      const raw = fs.readFileSync(enArLexiconPath, 'utf-8');
+      enArLexiconMap = JSON.parse(raw);
+      console.log(`Loaded ${Object.keys(enArLexiconMap).length} English->Arabic entries into memory.`);
+    }
+  } catch (e) {
+    console.error('Failed to load en_ar_lexicon.json in server:', e);
   }
 
   function normalizeArabicWord(str: string): string {
@@ -56,6 +69,15 @@ async function startServer() {
       .replace(/ة/g, 'ه')
       .replace(/ک/g, 'ك')
       .replace(/ی/g, 'ي')
+      .trim();
+  }
+
+  function normalizeEnglishWord(str: string): string {
+    if (!str) return '';
+    return str
+      .replace(/^[\s\p{P}«»“”"''`()\[\]{}،.:؛!؟\-_—–]+/gu, '')
+      .replace(/[\s\p{P}«»“”"''`()\[\]{}،.:؛!؟\-_—–]+$/gu, '')
+      .toLowerCase()
       .trim();
   }
 
@@ -101,8 +123,73 @@ async function startServer() {
     return { word: clean, normalized: norm, meanings: [] };
   }
 
+  function lookupEnglishLexicon(rawWord: string): { word: string; normalized: string; meanings: string[] } {
+    if (!rawWord) return { word: '', normalized: '', meanings: [] };
+    const norm = normalizeEnglishWord(rawWord);
+    if (!norm) return { word: rawWord, normalized: '', meanings: [] };
+
+    // Exact match
+    if (enArLexiconMap[norm]) {
+      return { word: rawWord, normalized: norm, meanings: enArLexiconMap[norm].slice(0, 3) };
+    }
+
+    // Stemming checks
+    if (norm.endsWith('s') && norm.length > 3 && enArLexiconMap[norm.slice(0, -1)]) {
+      return { word: rawWord, normalized: norm.slice(0, -1), meanings: enArLexiconMap[norm.slice(0, -1)].slice(0, 3) };
+    }
+    if (norm.endsWith('es') && norm.length > 4 && enArLexiconMap[norm.slice(0, -2)]) {
+      return { word: rawWord, normalized: norm.slice(0, -2), meanings: enArLexiconMap[norm.slice(0, -2)].slice(0, 3) };
+    }
+    if (norm.endsWith('ed') && norm.length > 4) {
+      if (enArLexiconMap[norm.slice(0, -2)]) {
+        return { word: rawWord, normalized: norm.slice(0, -2), meanings: enArLexiconMap[norm.slice(0, -2)].slice(0, 3) };
+      }
+      if (enArLexiconMap[norm.slice(0, -1)]) {
+        return { word: rawWord, normalized: norm.slice(0, -1), meanings: enArLexiconMap[norm.slice(0, -1)].slice(0, 3) };
+      }
+    }
+    if (norm.endsWith('ing') && norm.length > 5) {
+      if (enArLexiconMap[norm.slice(0, -3)]) {
+        return { word: rawWord, normalized: norm.slice(0, -3), meanings: enArLexiconMap[norm.slice(0, -3)].slice(0, 3) };
+      }
+      if (enArLexiconMap[norm.slice(0, -3) + 'e']) {
+        return { word: rawWord, normalized: norm.slice(0, -3) + 'e', meanings: enArLexiconMap[norm.slice(0, -3) + 'e'].slice(0, 3) };
+      }
+    }
+    if (norm.endsWith('ly') && norm.length > 4 && enArLexiconMap[norm.slice(0, -2)]) {
+      return { word: rawWord, normalized: norm.slice(0, -2), meanings: enArLexiconMap[norm.slice(0, -2)].slice(0, 3) };
+    }
+
+    return { word: rawWord, normalized: norm, meanings: [] };
+  }
+
   // Local Arabic -> English Lexical Dictionary (DrAbdulmalek dataset)
   app.get('/api/lexicon', (req, res) => {
+    const word = (req.query.word || req.query.q || req.query.term || '').toString();
+    const dir = (req.query.dir || req.query.direction || '').toString();
+    if (!word) {
+      return res.status(400).json({ error: 'word parameter is required', word: '', meanings: [] });
+    }
+    if (dir === 'en-ar' || /^[a-zA-Z]/.test(word.trim())) {
+      const result = lookupEnglishLexicon(word);
+      return res.json(result);
+    }
+    const result = lookupLexicon(word);
+    return res.json(result);
+  });
+
+  // Dedicated English -> Arabic Lexicon Endpoint
+  app.get('/api/lexicon/en-ar', (req, res) => {
+    const word = (req.query.word || req.query.q || req.query.term || '').toString();
+    if (!word) {
+      return res.status(400).json({ error: 'word parameter is required', word: '', meanings: [] });
+    }
+    const result = lookupEnglishLexicon(word);
+    return res.json(result);
+  });
+
+  // Dedicated Arabic -> English Lexicon Endpoint
+  app.get('/api/lexicon/ar-en', (req, res) => {
     const word = (req.query.word || req.query.q || req.query.term || '').toString();
     if (!word) {
       return res.status(400).json({ error: 'word parameter is required', word: '', meanings: [] });

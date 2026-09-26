@@ -132,11 +132,12 @@ export default function App() {
   const [manifest, setManifest] = useState<any>(null);
   const [dictionaryCache, setDictionaryCache] = useState<{ [letter: string]: Record<string, string[]> }>({});
   const [searchTerm, setSearchTerm] = useState('');
-  const [directLexicalResult, setDirectLexicalResult] = useState<{ word: string; meanings: string[] } | null>(null);
+  const [directLexicalResult, setDirectLexicalResult] = useState<{ word: string; meanings: string[]; dir?: 'ar-en' | 'en-ar' } | null>(null);
   const [isSearchingDirect, setIsSearchingDirect] = useState(false);
 
   // Clicked Word Popover / Dialog
   const [clickedWord, setClickedWord] = useState<string | null>(null);
+  const [clickedWordLang, setClickedWordLang] = useState<'ar' | 'en'>('ar');
   const [clickedWordLexicalMeanings, setClickedWordLexicalMeanings] = useState<string[] | null>(null);
   const [clickedWordRowIndex, setClickedWordRowIndex] = useState<number | null>(null);
   const [clickedWordRow, setClickedWordRow] = useState<AlignedUnit | null>(null);
@@ -229,6 +230,17 @@ export default function App() {
       .trim();
   };
 
+  const cleanEnglishWord = (word: string): string => {
+    return word
+      .replace(/^[\s\p{P}«»“”"''`()\[\]{}،.:؛!؟\-_—–]+/gu, '')
+      .replace(/[\s\p{P}«»“”"''`()\[\]{}،.:؛!؟\-_—–]+$/gu, '')
+      .trim();
+  };
+
+  const normalizeEnglishWordForLookup = (word: string): string => {
+    return cleanEnglishWord(word).toLowerCase();
+  };
+
   const stripDiacritics = (word: string): string => {
     return word.replace(/[\u064B-\u0652\u0640]/g, '');
   };
@@ -261,10 +273,11 @@ export default function App() {
     return 'ا';
   };
 
-  // Lexical Cache Ref for instant lookup
+  // Lexical Cache Refs for instant lookup
   const lexicalCacheRef = useRef<Map<string, string[]>>(new Map());
+  const enLexicalCacheRef = useRef<Map<string, string[]>>(new Map());
 
-  // Fetch 2-3 concise English lexical meanings from DrAbdulmalek dataset
+  // Fetch 2-3 concise English lexical meanings from DrAbdulmalek dataset (Arabic -> English)
   const fetchLexicalMeanings = async (surfaceWord: string): Promise<string[]> => {
     if (!surfaceWord) return [];
     const clean = cleanArabicWord(surfaceWord);
@@ -276,7 +289,7 @@ export default function App() {
     }
 
     try {
-      const res = await fetch(`/api/lexicon?word=${encodeURIComponent(surfaceWord)}`);
+      const res = await fetch(`/api/lexicon/ar-en?word=${encodeURIComponent(surfaceWord)}`);
       if (res.ok) {
         const data = await res.json();
         const meanings: string[] = data.meanings || [];
@@ -284,7 +297,7 @@ export default function App() {
         return meanings;
       }
     } catch (e) {
-      console.error('Failed to fetch from /api/lexicon:', e);
+      console.error('Failed to fetch from /api/lexicon/ar-en:', e);
     }
 
     // Client-side fallback to /dictionary/ar_en_lexicon.json
@@ -305,12 +318,54 @@ export default function App() {
     return [];
   };
 
+  // Fetch 1-3 concise Arabic lexical meanings from DrAbdulmalek dataset (English -> Arabic)
+  const fetchEnglishLexicalMeanings = async (surfaceWord: string): Promise<string[]> => {
+    if (!surfaceWord) return [];
+    const clean = cleanEnglishWord(surfaceWord);
+    const norm = normalizeEnglishWordForLookup(clean);
+    if (!norm) return [];
+
+    if (enLexicalCacheRef.current.has(norm)) {
+      return enLexicalCacheRef.current.get(norm)!;
+    }
+
+    try {
+      const res = await fetch(`/api/lexicon/en-ar?word=${encodeURIComponent(clean)}`);
+      if (res.ok) {
+        const data = await res.json();
+        const meanings: string[] = data.meanings || [];
+        enLexicalCacheRef.current.set(norm, meanings);
+        return meanings;
+      }
+    } catch (e) {
+      console.error('Failed to fetch from /api/lexicon/en-ar:', e);
+    }
+
+    // Client-side fallback to /dictionary/en_ar_lexicon.json
+    try {
+      const res = await fetch('/dictionary/en_ar_lexicon.json');
+      if (res.ok) {
+        const fullEnLexicon = await res.json();
+        const meanings = fullEnLexicon[norm] || fullEnLexicon[clean.toLowerCase()] || [];
+        const top3 = meanings.slice(0, 3);
+        enLexicalCacheRef.current.set(norm, top3);
+        return top3;
+      }
+    } catch (e) {
+      console.error('Fallback English lexical lookup failed:', e);
+    }
+
+    enLexicalCacheRef.current.set(norm, []);
+    return [];
+  };
+
   // Click handler for Arabic words in Reader view
   const handleWordClick = async (word: string, rowIndex: number, row: AlignedUnit) => {
     const surfaceWord = getSurfaceForm(word);
     if (!surfaceWord) return;
 
     setClickedWord(surfaceWord);
+    setClickedWordLang('ar');
     setClickedWordRowIndex(rowIndex);
     setClickedWordRow(row);
     setClickedWordLexicalMeanings(null);
@@ -325,9 +380,30 @@ export default function App() {
     setIsDictionaryLoading(false);
   };
 
-  // AI Context Interpretation Call
+  // Click handler for English words in Reader view
+  const handleEnglishWordClick = async (word: string, rowIndex: number, row: AlignedUnit) => {
+    const surfaceWord = cleanEnglishWord(word);
+    if (!surfaceWord) return;
+
+    setClickedWord(surfaceWord);
+    setClickedWordLang('en');
+    setClickedWordRowIndex(rowIndex);
+    setClickedWordRow(row);
+    setClickedWordLexicalMeanings(null);
+    setAiContextResult(null);
+    setAiError(null);
+    setIsDictionaryLoading(true);
+
+    // Instant local lexical dictionary lookup from DrAbdulmalek dataset (English -> Arabic)
+    const lexicalMeanings = await fetchEnglishLexicalMeanings(surfaceWord);
+    setClickedWordLexicalMeanings(lexicalMeanings);
+
+    setIsDictionaryLoading(false);
+  };
+
+  // AI Context Interpretation Call (Arabic words only)
   const handleAiInterpret = async () => {
-    if (!selectedBook || !clickedWord || clickedWordRowIndex === null || !clickedWordRow) return;
+    if (!selectedBook || !clickedWord || clickedWordRowIndex === null || !clickedWordRow || clickedWordLang !== 'ar') return;
     
     setIsAiLoading(true);
     setAiError(null);
@@ -365,11 +441,10 @@ export default function App() {
     }
   };
 
-  // Helper to split sentence into individual interactive words
+  // Helper to split sentence into individual interactive words (Arabic)
   const renderInteractiveArabicText = (sentence: string, rowIndex: number, row: AlignedUnit) => {
     if (!sentence) return <span className="text-stone-300 italic">مساحة فارغة (محاذاة يدوية)</span>;
     
-    // Split by space to get tokens
     const tokens = sentence.split(/(\s+)/);
     
     return (
@@ -385,13 +460,52 @@ export default function App() {
             return <span key={i} className="text-stone-500">{token}</span>;
           }
 
-          const isCurrentlyClicked = clickedWord === token && clickedWordRowIndex === rowIndex;
+          const isCurrentlyClicked = clickedWord === getSurfaceForm(token) && clickedWordRowIndex === rowIndex && clickedWordLang === 'ar';
 
           return (
             <span
               key={i}
               onClick={() => handleWordClick(token, rowIndex, row)}
               className={`cursor-pointer transition-all duration-150 rounded px-1 ${
+                isCurrentlyClicked 
+                  ? 'bg-amber-700 text-white font-semibold scale-105 shadow-sm' 
+                  : 'hover:bg-amber-100 hover:text-amber-900 focus:bg-amber-100 focus:text-amber-900'
+              }`}
+            >
+              {token}
+            </span>
+          );
+        })}
+      </p>
+    );
+  };
+
+  // Helper to split English sentence into individual interactive words (English)
+  const renderInteractiveEnglishText = (sentence: string, rowIndex: number, row: AlignedUnit) => {
+    if (!sentence) return <p className="text-stone-300 italic text-sm">Spacer (Empty align unit)</p>;
+    
+    const tokens = sentence.split(/(\s+)/);
+    
+    return (
+      <p className="font-serif text-lg leading-relaxed text-left text-stone-700 font-medium">
+        {tokens.map((token, i) => {
+          const isSpace = /\s+/.test(token);
+          if (isSpace) {
+            return token;
+          }
+          
+          const clean = cleanEnglishWord(token);
+          if (!clean) {
+            return <span key={i} className="text-stone-500">{token}</span>;
+          }
+
+          const isCurrentlyClicked = clickedWord?.toLowerCase() === clean.toLowerCase() && clickedWordRowIndex === rowIndex && clickedWordLang === 'en';
+
+          return (
+            <span
+              key={i}
+              onClick={() => handleEnglishWordClick(token, rowIndex, row)}
+              className={`cursor-pointer transition-all duration-150 rounded px-1 inline-block ${
                 isCurrentlyClicked 
                   ? 'bg-amber-700 text-white font-semibold scale-105 shadow-sm' 
                   : 'hover:bg-amber-100 hover:text-amber-900 focus:bg-amber-100 focus:text-amber-900'
@@ -602,21 +716,26 @@ export default function App() {
     setIsSearchingDirect(true);
     setDirectLexicalResult(null);
 
-    const surfaceWord = getSurfaceForm(searchTerm);
+    const isEnglish = /^[a-zA-Z]/.test(searchTerm.trim());
 
-    // Check local lexical dictionary (DrAbdulmalek dataset)
-    const lexicalMeanings = await fetchLexicalMeanings(surfaceWord);
-    if (lexicalMeanings && lexicalMeanings.length > 0) {
+    if (isEnglish) {
+      const surfaceWord = cleanEnglishWord(searchTerm);
+      const meanings = await fetchEnglishLexicalMeanings(surfaceWord);
       setDirectLexicalResult({
         word: surfaceWord,
-        meanings: lexicalMeanings
+        meanings: meanings || [],
+        dir: 'en-ar'
       });
     } else {
+      const surfaceWord = getSurfaceForm(searchTerm);
+      const meanings = await fetchLexicalMeanings(surfaceWord);
       setDirectLexicalResult({
         word: surfaceWord,
-        meanings: []
+        meanings: meanings || [],
+        dir: 'ar-en'
       });
     }
+
     setIsSearchingDirect(false);
   };
 
@@ -1012,7 +1131,7 @@ export default function App() {
                     {/* English Column Container */}
                     <div className="flex flex-col h-full bg-[#FAF8F4] border border-stone-200/80 rounded-xl overflow-hidden shadow-xs">
                       <div className="p-3 bg-stone-50 border-b border-stone-200/60 font-semibold text-sm text-stone-700 flex items-center justify-between">
-                        <span>English Translation</span>
+                        <span>English Translation (انقر على الكلمات المظللة للترجمة)</span>
                         <span className="text-xs font-mono font-normal">dir: ltr</span>
                       </div>
                       
@@ -1023,16 +1142,12 @@ export default function App() {
                         onMouseLeave={() => { activeScrollSource.current = null; }}
                         className="flex-1 p-6 overflow-y-auto space-y-6 dir-ltr text-left font-serif text-lg leading-relaxed text-stone-700"
                       >
-                        {selectedBook.alignedRows.map((row) => (
+                        {selectedBook.alignedRows.map((row, index) => (
                           <div 
                             key={row.id} 
                             className="pb-4 border-b border-stone-100 last:border-0 hover:bg-stone-100/40 p-2 rounded-lg transition-colors min-h-[46px] flex items-center"
                           >
-                            {row.english ? (
-                              <p className="font-medium">{row.english}</p>
-                            ) : (
-                              <p className="text-stone-300 italic text-sm">Spacer (Empty align unit)</p>
-                            )}
+                            {renderInteractiveEnglishText(row.english, index, row)}
                           </div>
                         ))}
                       </div>
@@ -1054,7 +1169,7 @@ export default function App() {
                         </div>
                         {row.english && (
                           <div className="pt-2 border-t border-stone-200/60 text-left font-serif text-base text-stone-600 pl-8 dir-ltr">
-                            {row.english}
+                            {renderInteractiveEnglishText(row.english, index, row)}
                           </div>
                         )}
                       </div>
@@ -1076,13 +1191,9 @@ export default function App() {
                 {/* Mode D: English Only */}
                 {readerMode === 'englishOnly' && (
                   <div className="bg-[#FAF8F4] border border-stone-200/80 rounded-xl p-8 max-h-[65vh] overflow-y-auto space-y-6 text-left dir-ltr font-serif text-lg leading-relaxed text-stone-700">
-                    {selectedBook.alignedRows.map((row) => (
+                    {selectedBook.alignedRows.map((row, index) => (
                       <div key={row.id} className="pb-4 border-b border-stone-100 last:border-0">
-                        {row.english ? (
-                          <p className="font-medium">{row.english}</p>
-                        ) : (
-                          <p className="text-stone-300 italic text-sm">Spacer</p>
-                        )}
+                        {renderInteractiveEnglishText(row.english, index, row)}
                       </div>
                     ))}
                   </div>
@@ -1101,12 +1212,18 @@ export default function App() {
 
                     <div className="flex flex-wrap items-center justify-between gap-4 border-b border-stone-200 pb-3">
                       <div className="flex items-center gap-3">
-                        <span className="text-xs text-amber-800 font-mono">الكلمة المحددة:</span>
-                        <h4 className="text-2xl font-bold font-amiri text-stone-900 bg-amber-50 px-3 py-1 rounded-lg border border-amber-100">{clickedWord}</h4>
+                        <span className="text-xs text-amber-800 font-mono">
+                          {clickedWordLang === 'en' ? 'الكلمة المحددة (English):' : 'الكلمة المحددة (عربي):'}
+                        </span>
+                        <h4 className={`text-2xl font-bold bg-amber-50 px-3 py-1 rounded-lg border border-amber-100 ${
+                          clickedWordLang === 'en' ? 'font-sans dir-ltr text-stone-900' : 'font-amiri text-stone-900'
+                        }`}>
+                          {clickedWord}
+                        </h4>
                       </div>
                       
-                      {/* AI Context activator when available */}
-                      {isAiAvailable && (
+                      {/* AI Context activator when available (Arabic words only) */}
+                      {clickedWordLang === 'ar' && isAiAvailable && (
                         <button
                           onClick={handleAiInterpret}
                           disabled={isAiLoading}
@@ -1120,30 +1237,46 @@ export default function App() {
 
                     <div className="pt-1 space-y-4">
                       
-                      {/* SECTION: القاموس المعجمي (عربي → إنجليزي) من Dataset */}
+                      {/* SECTION: القاموس المعجمي من Dataset */}
                       <div className="space-y-2">
                         <div className="flex items-center justify-between border-b border-stone-200 pb-1">
                           <span className="text-xs font-bold text-amber-900 font-mono flex items-center gap-1.5">
                             <BookOpenCheck className="w-4 h-4 text-amber-800" />
-                            القاموس المعجمي (عربي → إنجليزي)
+                            {clickedWordLang === 'en' ? 'القاموس المعجمي (إنجليزي ← عربي)' : 'القاموس المعجمي (عربي ← إنجليزي)'}
                           </span>
                           <span className="text-[10px] text-stone-500 font-mono bg-amber-50 px-2 py-0.5 rounded border border-amber-200/60">DrAbdulmalek Dataset</span>
                         </div>
 
                         {clickedWordLexicalMeanings && clickedWordLexicalMeanings.length > 0 ? (
                           <div className="bg-white p-4 rounded-xl border border-amber-200 shadow-xs space-y-2">
-                            <span className="text-[11px] text-stone-500 block font-mono">أبرز 2–3 معانٍ إنجليزية مختصرة:</span>
-                            <div className="flex flex-wrap gap-2 dir-ltr text-left">
-                              {clickedWordLexicalMeanings.map((meaning, idx) => (
-                                <span 
-                                  key={idx} 
-                                  className="inline-flex items-center px-3 py-1.5 rounded-lg text-sm font-bold bg-amber-50 text-amber-950 border border-amber-300 font-sans shadow-2xs"
-                                >
-                                  <span className="text-[10px] font-mono text-amber-700 mr-1.5">{idx + 1}.</span>
-                                  {meaning}
-                                </span>
-                              ))}
-                            </div>
+                            <span className="text-[11px] text-stone-500 block font-mono">
+                              {clickedWordLang === 'en' ? 'أبرز 1–3 معانٍ عربية مختصرة:' : 'أبرز 2–3 معانٍ إنجليزية مختصرة:'}
+                            </span>
+                            {clickedWordLang === 'en' ? (
+                              <div className="flex flex-wrap gap-2 dir-rtl text-right">
+                                {clickedWordLexicalMeanings.map((meaning, idx) => (
+                                  <span 
+                                    key={idx} 
+                                    className="inline-flex items-center px-3.5 py-1.5 rounded-lg text-base font-bold bg-amber-50 text-amber-950 border border-amber-300 font-amiri shadow-2xs"
+                                  >
+                                    <span className="text-[11px] font-mono text-amber-700 ml-2">{idx + 1}.</span>
+                                    {meaning}
+                                  </span>
+                                ))}
+                              </div>
+                            ) : (
+                              <div className="flex flex-wrap gap-2 dir-ltr text-left">
+                                {clickedWordLexicalMeanings.map((meaning, idx) => (
+                                  <span 
+                                    key={idx} 
+                                    className="inline-flex items-center px-3 py-1.5 rounded-lg text-sm font-bold bg-amber-50 text-amber-950 border border-amber-300 font-sans shadow-2xs"
+                                  >
+                                    <span className="text-[10px] font-mono text-amber-700 mr-1.5">{idx + 1}.</span>
+                                    {meaning}
+                                  </span>
+                                ))}
+                              </div>
+                            )}
                           </div>
                         ) : isDictionaryLoading ? (
                           <div className="p-3 text-center text-xs text-stone-400 animate-pulse">
@@ -1156,8 +1289,8 @@ export default function App() {
                         )}
                       </div>
 
-                      {/* SECTION: الترجمة السياقية بالذكاء الاصطناعي (عند الطلب) */}
-                      {(isAiLoading || aiContextResult || aiError) && (
+                      {/* SECTION: الترجمة السياقية بالذكاء الاصطناعي (عربي فقط وعند الطلب) */}
+                      {clickedWordLang === 'ar' && (isAiLoading || aiContextResult || aiError) && (
                         <div className="space-y-3 pt-1 border-t border-stone-150">
                           <span className="text-xs font-bold text-amber-900 font-mono block border-b border-stone-100 pb-1 flex items-center gap-1.5">
                             <Sparkles className="w-3.5 h-3.5 text-amber-700" />
@@ -1361,9 +1494,9 @@ export default function App() {
           <div className="space-y-6">
             
             <div className="text-right space-y-2">
-              <h2 className="text-2xl font-bold font-amiri text-stone-900">القاموس المعجمي المباشر (عربي ← إنجليزي)</h2>
+              <h2 className="text-2xl font-bold font-amiri text-stone-900">القاموس المعجمي المباشر (مزدوج: عربي ⇄ إنجليزي)</h2>
               <p className="text-stone-500 text-sm max-w-2xl leading-relaxed">
-                ابحث عن أي كلمة عربية (مثال: عين، عمل، كتاب، بت، ميسرة، بأس، موكل) للاطلاع الفوري على المعاني الإنجليزية المعجمية (2–3 معانٍ رئيسية مقتضبة).
+                ابحث عن أي كلمة عربية أو إنجليزية (مثال: عين، عمل، كتاب، book, spring, peace, courage) للاطلاع الفوري على المعاني المعجمية المختصرة (1–3 معانٍ رئيسية).
               </p>
             </div>
 
@@ -1374,9 +1507,8 @@ export default function App() {
                   type="text"
                   value={searchTerm}
                   onChange={e => setSearchTerm(e.target.value)}
-                  placeholder="اكتب الكلمة العربية هنا (مثال: عين، عمل، كتاب، بت، ميسرة)..."
-                  dir="rtl"
-                  className="w-full pl-24 pr-4 py-3 border border-stone-300 rounded-xl text-base font-amiri bg-white shadow-xs focus:outline-hidden focus:border-amber-800 focus:ring-1 focus:ring-amber-800"
+                  placeholder="اكتب الكلمة هنا (عربية مثل: كتاب، عين أو إنجليزية مثل: book, eye)..."
+                  className="w-full pl-24 pr-4 py-3 border border-stone-300 rounded-xl text-base bg-white shadow-xs focus:outline-hidden focus:border-amber-800 focus:ring-1 focus:ring-amber-800"
                   required
                 />
                 <button
@@ -1403,24 +1535,44 @@ export default function App() {
                     <div className="flex items-center justify-between border-b border-amber-200/80 pb-3">
                       <span className="text-xs text-amber-900 font-bold font-mono flex items-center gap-1.5">
                         <BookOpenCheck className="w-4 h-4 text-amber-800" />
-                        القاموس المعجمي (DrAbdulmalek Dataset)
+                        {directLexicalResult.dir === 'en-ar' ? 'القاموس المعجمي (إنجليزي ← عربي)' : 'القاموس المعجمي (عربي ← إنجليزي)'}
                       </span>
-                      <h3 className="text-2xl font-bold font-amiri text-stone-900 bg-white px-3 py-1 rounded-lg border border-amber-200">{directLexicalResult.word}</h3>
+                      <h3 className={`text-2xl font-bold bg-white px-3 py-1 rounded-lg border border-amber-200 text-stone-900 ${
+                        directLexicalResult.dir === 'en-ar' ? 'font-sans dir-ltr' : 'font-amiri'
+                      }`}>
+                        {directLexicalResult.word}
+                      </h3>
                     </div>
 
                     <div className="space-y-2">
-                      <span className="text-xs font-bold text-stone-500 font-mono">أبرز المعاني الإنجليزية (2–3 معانٍ):</span>
-                      <div className="flex flex-wrap gap-2 dir-ltr text-left pt-1">
-                        {directLexicalResult.meanings.map((m, idx) => (
-                          <span 
-                            key={idx} 
-                            className="inline-flex items-center px-3.5 py-1.5 rounded-lg text-base font-bold bg-white text-amber-950 border border-amber-300 shadow-2xs font-sans"
-                          >
-                            <span className="text-xs font-mono text-amber-600 mr-2">{idx + 1}.</span>
-                            {m}
-                          </span>
-                        ))}
-                      </div>
+                      <span className="text-xs font-bold text-stone-500 font-mono">
+                        {directLexicalResult.dir === 'en-ar' ? 'أبرز 1–3 معانٍ عربية مختصرة:' : 'أبرز 2–3 معانٍ إنجليزية مختصرة:'}
+                      </span>
+                      {directLexicalResult.dir === 'en-ar' ? (
+                        <div className="flex flex-wrap gap-2 dir-rtl text-right pt-1">
+                          {directLexicalResult.meanings.map((m, idx) => (
+                            <span 
+                              key={idx} 
+                              className="inline-flex items-center px-3.5 py-1.5 rounded-lg text-base font-bold bg-white text-amber-950 border border-amber-300 shadow-2xs font-amiri"
+                            >
+                              <span className="text-xs font-mono text-amber-700 ml-2">{idx + 1}.</span>
+                              {m}
+                            </span>
+                          ))}
+                        </div>
+                      ) : (
+                        <div className="flex flex-wrap gap-2 dir-ltr text-left pt-1">
+                          {directLexicalResult.meanings.map((m, idx) => (
+                            <span 
+                              key={idx} 
+                              className="inline-flex items-center px-3.5 py-1.5 rounded-lg text-base font-bold bg-white text-amber-950 border border-amber-300 shadow-2xs font-sans"
+                            >
+                              <span className="text-xs font-mono text-amber-600 mr-2">{idx + 1}.</span>
+                              {m}
+                            </span>
+                          ))}
+                        </div>
+                      )}
                     </div>
                   </div>
 
@@ -1428,9 +1580,9 @@ export default function App() {
               ) : searchTerm && directLexicalResult ? (
                 <div className="bg-stone-50 p-8 rounded-xl border border-stone-200 text-center space-y-1">
                   <Info className="w-8 h-8 text-stone-400 mx-auto mb-2" />
-                  <p className="text-stone-600 font-semibold">لم نعثر على معانٍ إنجليزية لـ "{searchTerm}"</p>
+                  <p className="text-stone-600 font-semibold">لم نعثر على مدخل معجمي لـ "{searchTerm}"</p>
                   <p className="text-stone-400 text-xs max-w-sm mx-auto leading-relaxed">
-                    تأكد من كتابة الكلمة العربية بشكل صحيح أو جرب صيغة مجردة.
+                    تأكد من كتابة الكلمة بشكل صحيح (سواء بالعربية أو الإنجليزية) أو جرب صيغة مجردة.
                   </p>
                 </div>
               ) : null}
@@ -1446,10 +1598,10 @@ export default function App() {
                 <span className="text-[10px] bg-stone-200 text-stone-700 px-2 py-0.5 rounded font-mono">Apache 2.0 / Open Access</span>
               </div>
               <p className="leading-relaxed">
-                مستخرج ومُنقّح من قاعدة بيانات <span className="font-mono text-amber-900 font-semibold">DrAbdulmalek/arabic-dictionaries-master</span> على Hugging Face، ومخصص حصراً للبحث المعجمي الفوري عن معاني المفردات الفردية (Word Lookup) بحد أقصى 3 معانٍ موجزة ومباشرة دون استخدام في ترجمة الجمل.
+                مستخرج ومُنقّح من قاعدة بيانات <span className="font-mono text-amber-900 font-semibold">DrAbdulmalek/arabic-dictionaries-master</span> على Hugging Face، ومخصص حصراً للبحث المعجمي الفوري المتبادل بين اللغتين (عربي ⇄ إنجليزي) بحد أقصى 3 معانٍ موجزة ومباشرة للمفردات.
               </p>
               <div className="flex items-center justify-between text-[11px] text-stone-500 pt-1 font-mono">
-                <span>المداخل المعجمية المنقحة: 74,447+ كلمة</span>
+                <span>المداخل المعجمية المنقحة: 98,000+ مدخل متبادل</span>
                 <a 
                   href="https://huggingface.co/datasets/DrAbdulmalek/arabic-dictionaries-master" 
                   target="_blank" 
@@ -1470,7 +1622,7 @@ export default function App() {
             
             <div className="space-y-2">
               <h2 className="text-2xl font-bold font-amiri text-stone-900">دليل ومبادئ مِحراب القراءة الموازية</h2>
-              <p className="text-stone-500 text-sm">أهداف وطريقة عمل التطبيق لقراءة النصوص اللغوية ومحاذاتها يدوياً.</p>
+              <p className="text-stone-500 text-sm">أهداف وطريقة عمل التطبيق لقراءة النصوص اللغوية ومحاذاتها يدوياً والمعجم المزدوج.</p>
             </div>
 
             <div className="space-y-6 bg-white p-6 rounded-xl border border-stone-200 text-stone-700 leading-relaxed text-sm">
@@ -1486,29 +1638,30 @@ export default function App() {
               </div>
 
               <div className="space-y-2 pt-4 border-t border-stone-150">
-                <h3 className="font-bold text-base text-stone-900">2. المعجم المحلي وسرعة الاستعلام</h3>
+                <h3 className="font-bold text-base text-stone-900">2. النقر على الكلمات والمعجم المزدوج (عربي ⇄ إنجليزي)</h3>
                 <p>
-                  لضمان بقاء التطبيق خفيفاً وسريعاً وخالياً من التعقيد، لا يضم قاعدة بيانات معجمية عملاقة داخل ملف تشغيل واحد. بدلاً من ذلك، تم تقسيم القاموس لملفات JSON مستقلة تحمل اسم الحرف الأول من الكلمة (ا.json، ب.json، إلخ).
+                  عند قراءة أي نص داخل القارئ، يمكنك النقر المباشر على <strong>أي كلمة عربية</strong> أو <strong>أي كلمة إنجليزية</strong> لعرض معانيها المعجمية الفورية (1–3 معانٍ مقتضبة ومباشرة) من قاعدة بيانات الدكتور عبد الملك المنقحة محلياً:
                 </p>
-                <p>
-                  عند نقرك على الكلمة، يقوم التطبيق بتجريدها من الحركات وتحديد حرفها الأول، ثم تحميل ملف الحرف المطلوب فقط، والبحث السريع فيه. ويحتفظ التطبيق بهذا الملف بذاكرة المؤقتة (cache) لتصبح الاستعلامات اللاحقة لحظية وخاطفة.
-                </p>
+                <ul className="list-disc list-inside space-y-1 text-xs text-stone-600 pr-2">
+                  <li><strong>نقر الكلمة العربية:</strong> يعرض المعاني الإنجليزية المعجمية المباشرة (عربي ← إنجليزي).</li>
+                  <li><strong>نقر الكلمة الإنجليزية:</strong> يعرض المعاني العربية المعجمية المباشرة (إنجليزي ← عربي).</li>
+                </ul>
               </div>
 
               <div className="space-y-2 pt-4 border-t border-stone-150">
-                <h3 className="font-bold text-base text-stone-900">3. دور الذكاء الاصطناعي (أداة تفاعلية سياقية)</h3>
+                <h3 className="font-bold text-base text-stone-900">3. دور الذكاء الاصطناعي (أداة تفاعلية سياقية اختيارية)</h3>
                 <p>
-                  الذكاء الاصطناعي ليس معجماً ثابتاً ولا نعتمد عليه في اختراع كلمات أو تشكيك دقة المعاجم الحقيقية. دوره اختياري وبطلب منك لتفسير "سياق البلاغة اللفظي" في الجمل الأدبية المعقدة.
+                  الذكاء الاصطناعي ليس معجماً ثابتاً ولا نعتمد عليه في اختراع كلمات أو تشكيك دقة المعاجم الحقيقية. دوره اختياري وبطلب منك لتفسير "سياق البلاغة اللفظي" في الجمل العربية الأدبية المعقدة.
                 </p>
                 <p>
-                  عند تفعيل تفسير السياق، يتم إرسال الكلمة المحددة مع الجملة الحالية وثلاث جمل قبلها وثلاث بعدها، إضافة للنص الإنجليزي المقابل (إن وجد) لنموذج Gemini، ليقوم بتقديم تفسير علمي دقيق لمراد الكلمة في هذا الموضع تحديداً دون تخزينها كقاموس.
+                  عند تفعيل تفسير السياق لكلمة عربية، يتم إرسال الكلمة المحددة مع الجملة وسياق الجمل المحيطة لنموذج الذكاء الاصطناعي لبيان مرادها في هذا الموضع تحديداً.
                 </p>
               </div>
 
               <div className="space-y-2 pt-4 border-t border-stone-150">
                 <h3 className="font-bold text-base text-stone-900">4. مصادر القاموس والبيانات المفتوحة</h3>
                 <p>
-                  كل البيانات المعجمية الموجودة في المعجم مستخرجة ومبنية على مصادر حقيقية وعلنية مفتوحة، من أبرزها معاجم FreeDict ومصادر اشتقاق الجذور العربية العريقة وقاموس WordNet للأمثلة الإنجليزية، بعيداً تماماً عن البيانات المصطنعة أو الترجمات الوهمية.
+                  كل البيانات المعجمية مستخرجة ومبنية محلياً على قاعدة بيانات <span className="font-mono text-amber-900 font-semibold">DrAbdulmalek/arabic-dictionaries-master</span> المفتوحة، دون أي اعتماد على خدمات ترجمة تجارية أو خارجية.
                 </p>
               </div>
 
