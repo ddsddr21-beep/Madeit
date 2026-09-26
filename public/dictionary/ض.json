@@ -1,0 +1,80 @@
+[
+  {
+    "word": "ضوء",
+    "displayWord": "ضَوْء",
+    "root": "ضوء",
+    "translation": "light, glow, illumination",
+    "examples": [
+      {
+        "ar": "يَبْعَثُ مِصْبَاحُ المَكْتَبِ ضَوْءًا مُنَاسِبًا لِلْقِرَاءَةِ.",
+        "en": "The desk lamp sends out a light suitable for reading.",
+        "source": "Study Guide"
+      }
+    ]
+  },
+  {
+    "word": "ضحك",
+    "displayWord": "ضَحِك",
+    "root": "ضحك",
+    "translation": "laughter, laughing / also (ضَحِكَ) he laughed",
+    "examples": [
+      {
+        "ar": "فَلْيَضْحَكُوا قَلِيلًا وَلْيَبْكُوا كَثِيرًا.",
+        "en": "So let them laugh a little and weep much.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "ضيافه",
+    "displayWord": "ضِيَافَة",
+    "root": "ضيف",
+    "translation": "hospitality, hosting",
+    "examples": [
+      {
+        "ar": "أَظْهَرَ المُلِيفُ كَرَمَ الضِّيَافَةِ العَرَبِيَّةِ الأَصِيلَةِ.",
+        "en": "The host showed the authentic Arabic hospitality.",
+        "source": "Folk Narrative"
+      }
+    ]
+  },
+  {
+    "word": "ضرر",
+    "displayWord": "ضَرَر",
+    "root": "ضرر",
+    "translation": "harm, damage, disadvantage",
+    "examples": [
+      {
+        "ar": "لَا ضَرَرَ وَلَا ضِرَارَ.",
+        "en": "There should be neither harming nor reciprocating harm.",
+        "source": "Hadith"
+      }
+    ]
+  },
+  {
+    "word": "ضمير",
+    "displayWord": "ضَمِير",
+    "root": "ضمر",
+    "translation": "conscience, pronoun, mind",
+    "examples": [
+      {
+        "ar": "الضَّمِيرُ الحَيُّ هُوَ الرَّقِيبُ الدَّاخِلِيُّ لِلْإِنْسَانِ.",
+        "en": "A living conscience is the internal monitor of a human.",
+        "source": "Philosophical Treatise"
+      }
+    ]
+  },
+  {
+    "word": "ضمان",
+    "displayWord": "ضَمَان",
+    "root": "ضمن",
+    "translation": "guarantee, security, insurance",
+    "examples": [
+      {
+        "ar": "تَوْفِيرُ الوَظَائِفِ هُوَ الضَّمَانُ لِلِاسْتِقْرَارِ الِاجْتِمَاعِيِّ.",
+        "en": "Providing jobs is the guarantee for social stability.",
+        "source": "Socio-economic Study"
+      }
+    ]
+  }
+]

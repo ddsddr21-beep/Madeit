@@ -1,0 +1,93 @@
+[
+  {
+    "word": "سماء",
+    "displayWord": "سَمَاء",
+    "root": "سمو",
+    "translation": "sky, heaven",
+    "examples": [
+      {
+        "ar": "الَّذِي جَعَلَ لَكُمُ الْأَرْضَ فِرَاشًا وَالسَّمَاءَ بِنَاءً.",
+        "en": "[He] who has made for you the earth a bed and the sky a ceiling.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "سلام",
+    "displayWord": "سَلَام",
+    "root": "سلم",
+    "translation": "peace, greeting, safety",
+    "examples": [
+      {
+        "ar": "وَإِذَا خَاطَبَهُمُ الْجَاهِلُونَ قَالُوا سَلَامًا.",
+        "en": "And when the ignorant address them, they say, 'Peace.'",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "سفر",
+    "displayWord": "سَفَر",
+    "root": "سفر",
+    "translation": "travel, journey, book/epistle",
+    "examples": [
+      {
+        "ar": "فِي السَّفَرِ فَوَائِدُ كَثِيرَةٌ مِنْهَا الِاطِّلَاعُ عَلَى الثَّقَافَاتِ.",
+        "en": "In travel are many benefits, including getting to know other cultures.",
+        "source": "Essay on Travel"
+      }
+    ]
+  },
+  {
+    "word": "سعاده",
+    "displayWord": "سَعَادَة",
+    "root": "سعد",
+    "translation": "happiness, felicity, joy",
+    "examples": [
+      {
+        "ar": "السَّعَادَةُ العَمِيقَةُ تَكْمُنُ فِي إِسْعَادِ الآخَرِينَ.",
+        "en": "Deep happiness lies in making others happy.",
+        "source": "Philosophical Essay"
+      }
+    ]
+  },
+  {
+    "word": "سؤال",
+    "displayWord": "سُؤَال",
+    "root": "سأل",
+    "translation": "question, inquiry, request",
+    "examples": [
+      {
+        "ar": "يَسْأَلُونَكَ عَنِ الْأَهِلَّةِ ۖ قُلْ هِيَ مَوَاقِيتُ لِلنَّاسِ وَالْحَجِّ.",
+        "en": "They ask you about the new moons. Say, 'They are measurements of time for the people and for Hajj.'",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "سر",
+    "displayWord": "سِرّ",
+    "root": "سرر",
+    "translation": "secret, mystery",
+    "examples": [
+      {
+        "ar": "يَعْلَمُ السِّرَّ وَأَخْفَى.",
+        "en": "He knows the secret and what is [even] more hidden.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "سيره",
+    "displayWord": "سِيرَة",
+    "root": "سير",
+    "translation": "biography, life story, path, character",
+    "examples": [
+      {
+        "ar": "تَعْلَمْنَا كَثِيرًا مِنْ قِرَاءَةِ سِيرَةِ الرُّوَّادِ.",
+        "en": "We learned a lot from reading the biography of pioneers.",
+        "source": "Academic Study"
+      }
+    ]
+  }
+]

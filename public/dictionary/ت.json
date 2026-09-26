@@ -1,0 +1,116 @@
+[
+  {
+    "word": "تاريخ",
+    "displayWord": "تَارِيخ",
+    "root": "أرخ",
+    "translation": "history, date, chronicle",
+    "examples": [
+      {
+        "ar": "التَّارِيخُ يُسَجِّلُ مَآثِرَ الرُّوَّادِ بِكَلِمَاتٍ مِنْ ذَهَبٍ.",
+        "en": "History records the pioneers' achievements in words of gold.",
+        "source": "Biographical Works"
+      },
+      {
+        "ar": "مَا هُوَ تَارِيخُ عِيدِ الجَلَاءِ فِي وَطَنِكَ؟",
+        "en": "What is the date of the Evacuation Day in your country?",
+        "source": "Civics Text"
+      }
+    ]
+  },
+  {
+    "word": "تقوى",
+    "displayWord": "تَقْوَى",
+    "root": "وقي",
+    "translation": "piety, righteousness, fear of God",
+    "examples": [
+      {
+        "ar": "وَتَزَوَّدُوا فَإِنَّ خَيْرَ الزَّادِ التَّقْوَىٰ.",
+        "en": "And take provisions, but indeed, the best provision is piety.",
+        "source": "Holy Quran"
+      },
+      {
+        "ar": "الْتَّقْوَى صِلَةٌ رُوحِيَّةٌ بَيْنَ العَبْدِ وَخَالِقِهِ.",
+        "en": "Piety is a spiritual link between the servant and his Creator.",
+        "source": "Theological Text"
+      }
+    ]
+  },
+  {
+    "word": "تجاره",
+    "displayWord": "تِجَارَة",
+    "root": "تجر",
+    "translation": "trade, commerce, business",
+    "examples": [
+      {
+        "ar": "إِلَّا أَنْ تَكُونَ تِجَارَةً عَنْ تَرَاضٍ مِنْكُمْ.",
+        "en": "Except that it be a trade conducted by mutual consent among you.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "تفوق",
+    "displayWord": "تَفَوُّق",
+    "root": "فوق",
+    "translation": "superiority, excellence, distinction",
+    "examples": [
+      {
+        "ar": "نَالَ الطَّالِبُ كَأْسَ التَّفَوُّقِ الأَكَادِيمِيِّ لِهَذَا العَامِ.",
+        "en": "The student received the academic excellence cup for this year.",
+        "source": "School Gazette"
+      }
+    ]
+  },
+  {
+    "word": "تعاون",
+    "displayWord": "تَعَاوُن",
+    "root": "عون",
+    "translation": "cooperation, mutual assistance",
+    "examples": [
+      {
+        "ar": "وَتَعَاوَنُوا عَلَى الْبِرِّ وَالتَّقْوَىٰ.",
+        "en": "And cooperate in righteousness and piety.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "تعليم",
+    "displayWord": "تَعْلِيم",
+    "root": "علم",
+    "translation": "education, instruction, teaching",
+    "examples": [
+      {
+        "ar": "الْتَّعْلِيمُ حَقٌّ أَسَاسِيٌّ لِكُلِّ طِفْلٍ فِي المَعْمُورَةِ.",
+        "en": "Education is a fundamental right for every child in the world.",
+        "source": "Humanitarian Charter"
+      }
+    ]
+  },
+  {
+    "word": "تسامح",
+    "displayWord": "تَسَامُح",
+    "root": "سمح",
+    "translation": "tolerance, forbearance, forgiveness",
+    "examples": [
+      {
+        "ar": "التَّسَامُحُ رِسَالَةُ الحَضَارَاتِ الرَّاقِيَةِ لِبِنَاءِ السَّلَامِ.",
+        "en": "Tolerance is the message of refined civilizations to build peace.",
+        "source": "Diplomatic Speech"
+      }
+    ]
+  },
+  {
+    "word": "توبه",
+    "displayWord": "تَوْبَة",
+    "root": "توب",
+    "translation": "repentance, returning to righteousness",
+    "examples": [
+      {
+        "ar": "إِنَّ اللَّهَ يُحِبُّ التَّوَّابِينَ وَيُحِبُّ الْمُتَطَهِّرِينَ.",
+        "en": "Indeed, God loves those who are constantly repentant and loves those who purify themselves.",
+        "source": "Holy Quran"
+      }
+    ]
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "word": "هلال",
+    "displayWord": "هِلَال",
+    "root": "هلل",
+    "translation": "crescent, crescent moon",
+    "examples": [
+      {
+        "ar": "رَأَى الأَطْفَالُ هِلَالَ الشَّهْرِ الجَدِيدِ فَبَدَتْ عَلَيْهِمُ البَهْجَةُ.",
+        "en": "The children saw the crescent of the new month, and joy appeared on them.",
+        "source": "Folk Story"
+      }
+    ]
+  },
+  {
+    "word": "هدى",
+    "displayWord": "هُدَى",
+    "root": "هدي",
+    "translation": "guidance, direction, standard",
+    "examples": [
+      {
+        "ar": "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ ۛ فِيهِ ۛ هُدًى لِّلْمُتَّقِينَ.",
+        "en": "This is the Book about which there is no doubt, a guidance for those conscious of God.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "هدوء",
+    "displayWord": "هُدُوء",
+    "root": "هدأ",
+    "translation": "calmness, quietness, peace",
+    "examples": [
+      {
+        "ar": "أَعْشَقُ القِرَاءَةَ فِي هُدُوءِ اللَّيْلِ الصَّافِي.",
+        "en": "I adore reading in the calmness of the clear night.",
+        "source": "Personal Essay"
+      }
+    ]
+  },
+  {
+    "word": "هواء",
+    "displayWord": "هَوَاء",
+    "root": "هوي",
+    "translation": "air, breeze, atmosphere, desire",
+    "examples": [
+      {
+        "ar": "الْهَوَاءُ النَّقِيُّ عُنْصُرٌ أَسَاسِيٌّ لِصِحَّةِ الجَسَدِ البَشَرِيِّ.",
+        "en": "Clean air is an essential element for the health of the human body.",
+        "source": "Sanitary Textbook"
+      }
+    ]
+  },
+  {
+    "word": "هديه",
+    "displayWord": "هَدِيَّة",
+    "root": "هدي",
+    "translation": "gift, present, offering",
+    "examples": [
+      {
+        "ar": "تَهَادَوْا تَحَابُّوا.",
+        "en": "Give gifts to one another, you will love one another.",
+        "source": "Hadith"
+      }
+    ]
+  },
+  {
+    "word": "همه",
+    "displayWord": "هِمَّة",
+    "root": "همم",
+    "translation": "resolve, determination, energy, ambition",
+    "examples": [
+      {
+        "ar": "أَبْدَى الطُّلَّابُ هِمَّةً عَالِيَةً فِي تَنْظِيفِ سَاحَةِ المَدْرَسَةِ.",
+        "en": "The students showed high determination in cleaning the schoolyard.",
+        "source": "School Journal"
+      }
+    ]
+  }
+]

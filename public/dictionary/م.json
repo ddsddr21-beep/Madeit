@@ -1,0 +1,93 @@
+[
+  {
+    "word": "مدرسه",
+    "displayWord": "مَدْرَسَة",
+    "root": "درس",
+    "translation": "school, institute, denomination",
+    "examples": [
+      {
+        "ar": "يَذْهَبُ التَّلَامِيذُ إِلَى المَدْرَسَةِ بِكُلِّ شَوْقٍ صَبَاحًا.",
+        "en": "The pupils go to school with all eagerness in the morning.",
+        "source": "Children Narrative"
+      }
+    ]
+  },
+  {
+    "word": "ماء",
+    "displayWord": "مَاء",
+    "root": "موه",
+    "translation": "water, liquid",
+    "examples": [
+      {
+        "ar": "وَجَعَلْنَا مِنَ الْمَاءِ كُلَّ شَيْءٍ حَيٍّ.",
+        "en": "And We made from water every living thing.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "معلم",
+    "displayWord": "مُعَلِّم",
+    "root": "علم",
+    "translation": "teacher, instructor, master, landmark",
+    "examples": [
+      {
+        "ar": "يَحْتَرِمُ المُجْتَمَعُ المُعَلِّمَ لِدَوْرِهِ فِي بِنَاءِ الأَجْيَالِ.",
+        "en": "Society respects the teacher for his role in building generations.",
+        "source": "Educational Speech"
+      }
+    ]
+  },
+  {
+    "word": "محبه",
+    "displayWord": "مَحَبَّة",
+    "root": "حبب",
+    "translation": "love, affection, friendship",
+    "examples": [
+      {
+        "ar": "تَنْتَشِرُ المَحَبَّةُ بَيْنَ النَّاسِ بِالتَّسَامُحِ وَالعَطَاءِ الكَبِيرِ.",
+        "en": "Love spreads among people through tolerance and great giving.",
+        "source": "Social Philosophy"
+      }
+    ]
+  },
+  {
+    "word": "مستقبل",
+    "displayWord": "مُسْتَقْبَل",
+    "root": "قبل",
+    "translation": "future / also (مُسْتَقْبِل) receiver, host",
+    "examples": [
+      {
+        "ar": "نَبْنِي المُسْتَقْبَلَ بِالتَّخْطِيطِ السَّلِيمِ فِي الحَاضِرِ.",
+        "en": "We build the future with proper planning in the present.",
+        "source": "Strategic Guide"
+      }
+    ]
+  },
+  {
+    "word": "مجد",
+    "displayWord": "مَجْد",
+    "root": "مجد",
+    "translation": "glory, honor, nobility",
+    "examples": [
+      {
+        "ar": "بَنَى الأَجْدَادُ مَجْدًا عَرِيقًا نَفْخَرُ بِهِ جَمِيعًا.",
+        "en": "The ancestors built an ancient glory that we all are proud of.",
+        "source": "National Anthem Essay"
+      }
+    ]
+  },
+  {
+    "word": "موت",
+    "displayWord": "مَوْت",
+    "root": "موت",
+    "translation": "death",
+    "examples": [
+      {
+        "ar": "كُلُّ نَفْسٍ ذَائِقَةُ الْمَوْتِ.",
+        "en": "Every soul will taste death.",
+        "source": "Holy Quran"
+      }
+    ]
+  }
+]

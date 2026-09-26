@@ -1,0 +1,6 @@
+{
+  "name": "Bilingual Bookshelf - محراب القراءة الموازية",
+  "description": "اقرأ ونظم النصوص المتوازية العربية والإنجليزية مع قاموس محلي مدمج يبحث في المصادر اللغوية الحقيقية حسب الحرف، مع دعم اختياري لتفسير السياق بالذكاء الاصطناعي.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

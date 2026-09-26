@@ -1,0 +1,182 @@
+[
+  {
+    "word": "امل",
+    "displayWord": "أَمَل",
+    "root": "أمل",
+    "translation": "hope, expectation, aspiration",
+    "examples": [
+      {
+        "ar": "أَمَلُنَا فِي اللهِ كَبِيرٌ فِي تَخَطِّي هَذِهِ العَقَبَاتِ.",
+        "en": "Our hope in God is great in overcoming these obstacles.",
+        "source": "Classical Prose"
+      },
+      {
+        "ar": "يَحْمِلُ الشَّبَابُ أَمَلَ الأُمَّةِ وَمُسْتَقْبَلَهَا.",
+        "en": "The youth carry the hope and the future of the nation.",
+        "source": "Modern Standard Arabic"
+      }
+    ]
+  },
+  {
+    "word": "ارض",
+    "displayWord": "أَرْض",
+    "root": "أرض",
+    "translation": "earth, land, ground, soil",
+    "examples": [
+      {
+        "ar": "وَالأَرْضَ وَضَعَهَا لِلأَنَامِ.",
+        "en": "And the earth He has laid out for the creatures.",
+        "source": "Holy Quran"
+      },
+      {
+        "ar": "تَدُورُ الأَرْضُ حَوْلَ الشَّمْسِ دَوْرَةً كَامِلَةً كُلَّ عَامٍ.",
+        "en": "The earth revolves around the sun once every year.",
+        "source": "Scientific Text"
+      }
+    ]
+  },
+  {
+    "word": "اخ",
+    "displayWord": "أَخ",
+    "root": "أخو",
+    "translation": "brother, companion",
+    "examples": [
+      {
+        "ar": "الأَخُ الصَّالِحُ سَنَدٌ لِأَخِيهِ فِي المُلِمَّاتِ.",
+        "en": "A righteous brother is a support for his brother in calamities.",
+        "source": "Classical Prose"
+      },
+      {
+        "ar": "إِنَّمَا المُؤْمِنُونَ إِخْوَةٌ.",
+        "en": "The believers are but brothers.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "اب",
+    "displayWord": "أَب",
+    "root": "أبو",
+    "translation": "father, parent",
+    "examples": [
+      {
+        "ar": "يَنْصَحُ الأَبُ أَبْنَاءَهُ بِحِكْمَةٍ وَعَطْفٍ.",
+        "en": "The father advises his children with wisdom and kindness.",
+        "source": "Modern Prose"
+      },
+      {
+        "ar": "وَبِالْوَالِدَيْنِ إِحْسَانًا.",
+        "en": "And show kindness to parents.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "ام",
+    "displayWord": "أُم",
+    "root": "أمم",
+    "translation": "mother, origin, source",
+    "examples": [
+      {
+        "ar": "الأُمُّ مَدْرَسَةٌ إِذَا أَعْدَدْتَهَا أَعْدَدْتَ شَعْبًا طَيِّبَ الأَعْرَاقِ.",
+        "en": "The mother is a school; if you prepare her, you prepare a nation of noble descent.",
+        "source": "Arabic Poetry (Hafez Ibrahim)"
+      },
+      {
+        "ar": "وَحَمَلَتْهُ أُمُّهُ كُرْهًا وَوَضَعَتْهُ كُرْهًا.",
+        "en": "And his mother carried him with hardship and gave birth to him with hardship.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "اثر",
+    "displayWord": "أَثَر",
+    "root": "أثر",
+    "translation": "trace, impact, effect, historical ruin",
+    "examples": [
+      {
+        "ar": "تَرَكَ المُعَلِّمُ أَثَرًا طَيِّبًا فِي نُفُوسِ تَلَامِيذِهِ.",
+        "en": "The teacher left a good impact in the souls of his pupils.",
+        "source": "Educational Essay"
+      },
+      {
+        "ar": "تِلْكَ آثَارُنَا تَدُلُّ عَلَيْنَا.",
+        "en": "These are our ruins; they indicate who we were.",
+        "source": "Classical Poetry"
+      }
+    ]
+  },
+  {
+    "word": "ادب",
+    "displayWord": "أَدَب",
+    "root": "أدب",
+    "translation": "literature, good manners, politeness",
+    "examples": [
+      {
+        "ar": "الأَدَبُ يَرْفَعُ شَأْنَ صَاحِبِهِ وَلَوْ كَانَ فَقِيرًا.",
+        "en": "Good manners elevate the status of their owner even if he is poor.",
+        "source": "Classical Wisdom"
+      },
+      {
+        "ar": "يَدْرُسُ الطُّلَّابُ الأَدَبَ العَرَبِيَّ الكِلَاسِيكِيَّ.",
+        "en": "The students study classical Arabic literature.",
+        "source": "Academic Syllabus"
+      }
+    ]
+  },
+  {
+    "word": "امانه",
+    "displayWord": "أَمَانَة",
+    "root": "أمن",
+    "translation": "trust, trustworthiness, honesty",
+    "examples": [
+      {
+        "ar": "إِنَّ اللَّهَ يَأْمُرُكُمْ أَنْ تُؤَدُّوا الْأَمَانَاتِ إِلَىٰ أَهْلِهَا.",
+        "en": "Indeed, God commands you to render trusts to their owners.",
+        "source": "Holy Quran"
+      },
+      {
+        "ar": "الأَمَانَةُ صِفَةٌ أَسَاسِيَّةٌ لِتَحْقِيقِ الثِّقَةِ بَيْنَ النَّاسِ.",
+        "en": "Trustworthiness is an essential trait for building confidence among people.",
+        "source": "Ethical Treatise"
+      }
+    ]
+  },
+  {
+    "word": "ايمان",
+    "displayWord": "إِيمَان",
+    "root": "أمن",
+    "translation": "faith, belief, conviction",
+    "examples": [
+      {
+        "ar": "يَبْعَثُ الإِيمَانُ الطُّمَأْنِينَةَ وَالسَّكِينَةَ فِي القُلُوبِ.",
+        "en": "Faith sends tranquility and peace into hearts.",
+        "source": "Spiritual Discourse"
+      },
+      {
+        "ar": "الإِيمَانُ مَا وَقَرَ فِي القَلْبِ وَصَدَّقَهُ العَمَلُ.",
+        "en": "Faith is what is established in the heart and verified by deeds.",
+        "source": "Classical Saying"
+      }
+    ]
+  },
+  {
+    "word": "احسان",
+    "displayWord": "إِحْسَان",
+    "root": "حسن",
+    "translation": "excellence, charity, goodness, benevolence",
+    "examples": [
+      {
+        "ar": "هَلْ جَزَاءُ الْإِحْسَانِ إِلَّا الْإِحْسَانُ.",
+        "en": "Is the reward for goodness anything but goodness?",
+        "source": "Holy Quran"
+      },
+      {
+        "ar": "يَجِبُ أَنْ نُعَامِلَ النَّاسَ بِإِحْسَانٍ وَلُطْفٍ كُلَّ يَوْمٍ.",
+        "en": "We must treat people with excellence and kindness every day.",
+        "source": "Moral Literature"
+      }
+    ]
+  }
+]

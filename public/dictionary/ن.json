@@ -1,0 +1,98 @@
+[
+  {
+    "word": "نور",
+    "displayWord": "نُور",
+    "root": "نور",
+    "translation": "light, illumination, glow",
+    "examples": [
+      {
+        "ar": "اللَّهُ نُورُ السَّمَاوَاتِ وَالْأَرْضِ.",
+        "en": "God is the Light of the heavens and the earth.",
+        "source": "Holy Quran"
+      },
+      {
+        "ar": "العِلْمُ نُورٌ وَالْجَهْلُ ظَلَامٌ دَامِسٌ.",
+        "en": "Knowledge is light, and ignorance is deep darkness.",
+        "source": "Classical Proverb"
+      }
+    ]
+  },
+  {
+    "word": "نجم",
+    "displayWord": "نَجْم",
+    "root": "نجم",
+    "translation": "star, celestial body, celebrity",
+    "examples": [
+      {
+        "ar": "وَبِالنَّجْمِ هُمْ يَهْتَدُونَ.",
+        "en": "And by the star they are guided.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "نفس",
+    "displayWord": "نَفْس",
+    "root": "نفس",
+    "translation": "soul, self, breath, person",
+    "examples": [
+      {
+        "ar": "يَا أَيَّتُهَا النَّفْسُ الْمُطْمَئِنَّةُ ارْجِعِي إِلَىٰ رَبِّكِ.",
+        "en": "O reassured soul, return to your Lord.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "نهر",
+    "displayWord": "نَهْر",
+    "root": "نهر",
+    "translation": "river",
+    "examples": [
+      {
+        "ar": "فِيهِمَا أَنْهَارٌ تَجْرِي بِاسْتِمْرَارٍ لِتَرْوِيَ الحُقُولَ.",
+        "en": "In both are rivers flowing continuously to irrigate the fields.",
+        "source": "Geographic Prose"
+      }
+    ]
+  },
+  {
+    "word": "نصيحه",
+    "displayWord": "نَصِيحَة",
+    "root": "نصح",
+    "translation": "advice, counsel, sincerity",
+    "examples": [
+      {
+        "ar": "الدِّينُ النَّصِيحَةُ.",
+        "en": "Religion is [giving] sincere advice.",
+        "source": "Hadith"
+      }
+    ]
+  },
+  {
+    "word": "نجاح",
+    "displayWord": "نَجَاح",
+    "root": "نجح",
+    "translation": "success, achievement",
+    "examples": [
+      {
+        "ar": "الْتَّصْمِيمُ وَالعَمَلُ الجَادُّ هُمَا مِفْتَاحَا النَّجَاحِ فِي الحَيَاةِ.",
+        "en": "Determination and hard work are the two keys to success in life.",
+        "source": "Success Book"
+      }
+    ]
+  },
+  {
+    "word": "نظام",
+    "displayWord": "نِظَام",
+    "root": "نظم",
+    "translation": "system, order, regulation, organization",
+    "examples": [
+      {
+        "ar": "الْتَّزَمَ المُواطِنُونَ بِالنِّظَامِ لِتَسْهِيلِ حَرَكَةِ المُرُورِ.",
+        "en": "The citizens committed to the system to facilitate traffic flow.",
+        "source": "Civic Notice"
+      }
+    ]
+  }
+]

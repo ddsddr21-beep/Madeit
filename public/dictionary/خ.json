@@ -1,0 +1,98 @@
+[
+  {
+    "word": "خير",
+    "displayWord": "خَيْر",
+    "root": "خير",
+    "translation": "goodness, better, best, charity",
+    "examples": [
+      {
+        "ar": "فَمَنْ يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ.",
+        "en": "So whoever does an atom's weight of good will see it.",
+        "source": "Holy Quran"
+      },
+      {
+        "ar": "الخَيْرُ مَوْجُودٌ فِي أُمَّتِي إِلَى يَوْمِ القِيَامَةِ.",
+        "en": "Goodness is present in my nation until the Day of Resurrection.",
+        "source": "Hadith"
+      }
+    ]
+  },
+  {
+    "word": "خلق",
+    "displayWord": "خُلُق",
+    "root": "خلق",
+    "translation": "character, morals, ethics, behavior",
+    "examples": [
+      {
+        "ar": "وَإِنَّكَ لَعَلَىٰ خُلُقٍ عَظِيمٍ.",
+        "en": "And indeed, you are of a great moral character.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "خوف",
+    "displayWord": "خَوْف",
+    "root": "خوف",
+    "translation": "fear, dread",
+    "examples": [
+      {
+        "ar": "فَلَا تَخَافُوهُمْ وَخَافُونِ إِن كُنتُم مُّؤْمِنِينَ.",
+        "en": "So fear them not, but fear Me, if you should be believers.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "خدمه",
+    "displayWord": "خِدْمَة",
+    "root": "خدم",
+    "translation": "service, assistance",
+    "examples": [
+      {
+        "ar": "خِدْمَةُ النَّاسِ صِيغَةٌ رَاقِيَةٌ مِنَ التَّضَامُنِ.",
+        "en": "Serving people is a refined formula of solidarity.",
+        "source": "Sociological Treatise"
+      }
+    ]
+  },
+  {
+    "word": "خيال",
+    "displayWord": "خَيَال",
+    "root": "خيل",
+    "translation": "imagination, shadow, specter",
+    "examples": [
+      {
+        "ar": "يُوَسِّعُ القَارِئُ خَيَالَهُ عَبْرَ كُتُبِ الخَيَالِ العِلْمِيِّ.",
+        "en": "The reader expands their imagination through science fiction books.",
+        "source": "Literary Essay"
+      }
+    ]
+  },
+  {
+    "word": "خطوه",
+    "displayWord": "خُطْوَة",
+    "root": "خطو",
+    "translation": "step, stride",
+    "examples": [
+      {
+        "ar": "خُطْوَةٌ تِلْوَ الأُخْرَى، تَقَدَّمْنَا نَحْوَ الهَدَفِ.",
+        "en": "Step by step, we advanced toward the goal.",
+        "source": "Modern Story"
+      }
+    ]
+  },
+  {
+    "word": "خساره",
+    "displayWord": "خَسَارَة",
+    "root": "خسر",
+    "translation": "loss, damage, deficit",
+    "examples": [
+      {
+        "ar": "تِلْكَ إِذًا كَرَّةٌ خَاسِرَةٌ.",
+        "en": "That, then, would be a losing return.",
+        "source": "Holy Quran"
+      }
+    ]
+  }
+]

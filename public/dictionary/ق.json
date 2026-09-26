@@ -1,0 +1,98 @@
+[
+  {
+    "word": "قلم",
+    "displayWord": "قَلَم",
+    "root": "قلم",
+    "translation": "pen, pencil, stylus",
+    "examples": [
+      {
+        "ar": "الَّذِي عَلَّمَ بِالْقَلَمِ.",
+        "en": "Who taught by the pen.",
+        "source": "Holy Quran"
+      },
+      {
+        "ar": "كَتَبْتُ خَوَاطِرِي بِالقَلَمِ الحِبْرِ المُمَيَّزِ.",
+        "en": "I wrote my thoughts with the special ink pen.",
+        "source": "Creative Writing"
+      }
+    ]
+  },
+  {
+    "word": "قراءه",
+    "displayWord": "قِرَاءَة",
+    "root": "قرأ",
+    "translation": "reading, recitation",
+    "examples": [
+      {
+        "ar": "القِرَاءَةُ تُغَذِّي العَقْلَ بِالمَعَارِفِ وَالعُلُومِ.",
+        "en": "Reading nourishes the mind with knowledge and science.",
+        "source": "Educational Essay"
+      }
+    ]
+  },
+  {
+    "word": "قوه",
+    "displayWord": "قُوَّة",
+    "root": "قوي",
+    "translation": "strength, power, force",
+    "examples": [
+      {
+        "ar": "يَا يَحْيَىٰ خُذِ الْكِتَابَ بِقُوَّةٍ.",
+        "en": "O John, take the Scripture with strength.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "قمر",
+    "displayWord": "قَمَر",
+    "root": "قمر",
+    "translation": "moon",
+    "examples": [
+      {
+        "ar": "وَاقْتَرَبَ الْوَعْدُ الْحَقُّ فَإِذَا هِيَ شَاخِصَةٌ أَبْصَارُ الَّذِينَ كَفَرُوا.",
+        "en": "And the true promise has approached; then suddenly the eyes of those who disbelieved stare in horror.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "قلب",
+    "displayWord": "قَلْب",
+    "root": "قلب",
+    "translation": "heart, core, reverse / also (قَلَبَ) he inverted",
+    "examples": [
+      {
+        "ar": "أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ.",
+        "en": "Unquestionably, by the remembrance of God do hearts find peace.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "قرار",
+    "displayWord": "قَرَار",
+    "root": "قرر",
+    "translation": "decision, resolution, stability",
+    "examples": [
+      {
+        "ar": "اتَّخَذَتِ الإِدَارَةُ قَرَارًا هَامًّا لِتَحْسِينِ العَمَلِ.",
+        "en": "The administration took an important decision to improve the work.",
+        "source": "Corporate Minutes"
+      }
+    ]
+  },
+  {
+    "word": "قيمه",
+    "displayWord": "قِيمَة",
+    "root": "قوم",
+    "translation": "value, worth, price",
+    "examples": [
+      {
+        "ar": "تَكْمُنُ قِيمَةُ العِلْمِ فِي العَمَلِ بِهِ لِصَالِحِ البَشَرِيَّةِ.",
+        "en": "The value of knowledge lies in practicing it for the benefit of humanity.",
+        "source": "Philosophical Essay"
+      }
+    ]
+  }
+]

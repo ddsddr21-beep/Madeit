@@ -1,0 +1,93 @@
+[
+  {
+    "word": "طالب",
+    "displayWord": "طَالِب",
+    "root": "طلب",
+    "translation": "student, seeker, applicant",
+    "examples": [
+      {
+        "ar": "يَجْتَهِدُ الطَّالِبُ لِيَنَالَ شَهَادَةَ التَّخَرُّجِ بِتَفَوُّقٍ.",
+        "en": "The student works hard to obtain the graduation certificate with distinction.",
+        "source": "Educational Biography"
+      }
+    ]
+  },
+  {
+    "word": "طريق",
+    "displayWord": "طَرِيق",
+    "root": "طرق",
+    "translation": "road, path, way, method",
+    "examples": [
+      {
+        "ar": "وَأَنَّ هَٰذَا صِرَاطِي مُسْتَقِيمًا فَاتَّبِعُوهُ.",
+        "en": "And, [moreover], this is My path, which is straight, so follow it.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "طبيعه",
+    "displayWord": "طَبِيعَة",
+    "root": "طبع",
+    "translation": "nature, character, temperament",
+    "examples": [
+      {
+        "ar": "طَبِيعَةُ الرِّيفِ الهَادِئَةُ تُسَاعِدُ عَلَى التَّأَمُّلِ.",
+        "en": "The quiet nature of the countryside helps in meditation.",
+        "source": "Scenic Essay"
+      }
+    ]
+  },
+  {
+    "word": "طاقه",
+    "displayWord": "طَاقَة",
+    "root": "طوق",
+    "translation": "energy, capacity, power, window",
+    "examples": [
+      {
+        "ar": "لَا تُكَلِّفْ نَفْسًا إِلَّا وُسْعَهَا.",
+        "en": "Do not burden a soul except with its capacity.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "طفل",
+    "displayWord": "طِفْل",
+    "root": "طفل",
+    "translation": "child, infant",
+    "examples": [
+      {
+        "ar": "نَامَ الطِّفْلُ الصَّغِيرُ بِهُدُوءٍ فِي مَهْدِهِ.",
+        "en": "The young child slept peacefully in his cradle.",
+        "source": "Narrative Tale"
+      }
+    ]
+  },
+  {
+    "word": "طلب",
+    "displayWord": "طَلَب",
+    "root": "طلب",
+    "translation": "request, demand, seeking / also (طَلَبَ) he sought",
+    "examples": [
+      {
+        "ar": "طَلَبُ العِلْمِ فَرِيضَةٌ عَلَى كُلِّ مُسْلِمٍ.",
+        "en": "Seeking knowledge is a duty upon every Muslim.",
+        "source": "Hadith"
+      }
+    ]
+  },
+  {
+    "word": "طموح",
+    "displayWord": "طُمُوح",
+    "root": "طمح",
+    "translation": "ambition, aspiration",
+    "examples": [
+      {
+        "ar": "طُمُوحِي العَالِي يَحْفِزُنِي عَلَى التَّعَلُّمِ المُسْتَمِرِّ.",
+        "en": "My high ambition motivates me to learn continuously.",
+        "source": "Self-Reflection"
+      }
+    ]
+  }
+]

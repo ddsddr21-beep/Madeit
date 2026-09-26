@@ -1,0 +1,93 @@
+[
+  {
+    "word": "شمس",
+    "displayWord": "شَمْس",
+    "root": "شمس",
+    "translation": "sun",
+    "examples": [
+      {
+        "ar": "وَالشَّمْسُ تَجْرِي لِمُسْتَقَرٍّ لَّهَا.",
+        "en": "And the sun runs on course toward its destination.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "شجر",
+    "displayWord": "شَجَر",
+    "root": "شجر",
+    "translation": "trees, shrubs",
+    "examples": [
+      {
+        "ar": "وَالنَّجْمُ وَالشَّجَرُ يَسْجُدَانِ.",
+        "en": "And the stars and trees prostrate.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "شرف",
+    "displayWord": "شَرَف",
+    "root": "شرف",
+    "translation": "honor, nobility, distinction",
+    "examples": [
+      {
+        "ar": "الحِفَاظُ عَلَى الكَلِمَةِ هُوَ جَوْهَرُ الشَّرَفِ الإِنْسَانِيِّ.",
+        "en": "Keeping one's word is the essence of human honor.",
+        "source": "Ethics Book"
+      }
+    ]
+  },
+  {
+    "word": "شكر",
+    "displayWord": "شُكْر",
+    "root": "شكر",
+    "translation": "thanks, gratitude, praise",
+    "examples": [
+      {
+        "ar": "لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ.",
+        "en": "If you are grateful, I will surely increase you.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "شجاعه",
+    "displayWord": "شَجَاعَة",
+    "root": "شجع",
+    "translation": "courage, bravery",
+    "examples": [
+      {
+        "ar": "أَبْدَى البَطَلُ شَجَاعَةً فَائِقَةً فِي مُوَاجَهَةِ الخَطَرِ.",
+        "en": "The hero showed outstanding courage in facing danger.",
+        "source": "Adventure Novel"
+      }
+    ]
+  },
+  {
+    "word": "شعر",
+    "displayWord": "شِعْر",
+    "root": "شعر",
+    "translation": "poetry, verse / also (شَعْر) hair",
+    "examples": [
+      {
+        "ar": "الشِّعْرُ هُوَ المِرْآةُ الَّتِي تَعْكِسُ وِجْدَانَ الأُمَمِ.",
+        "en": "Poetry is the mirror that reflects the nations' soul.",
+        "source": "Literary Theory"
+      }
+    ]
+  },
+  {
+    "word": "شعب",
+    "displayWord": "شَعْب",
+    "root": "شعب",
+    "translation": "people, nation, tribe, folk",
+    "examples": [
+      {
+        "ar": "وَجَعَلْنَاكُمْ شُعُوبًا وَقَبَائِلَ لِتَعَارَفُوا.",
+        "en": "And We made you into nations and tribes that you may know one another.",
+        "source": "Holy Quran"
+      }
+    ]
+  }
+]

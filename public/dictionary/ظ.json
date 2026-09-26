@@ -1,0 +1,85 @@
+[
+  {
+    "word": "ظل",
+    "displayWord": "ظِلّ",
+    "root": "ظلل",
+    "translation": "shade, shadow, protection",
+    "examples": [
+      {
+        "ar": "أَلَمْ تَرَ إِلَىٰ رَبِّكَ كَيْفَ مَدَّ الظِّلَّ.",
+        "en": "Have you not considered your Lord - how He extends the shadow?",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "ظلام",
+    "displayWord": "ظَلَام",
+    "root": "ظلم",
+    "translation": "darkness, obscurity",
+    "examples": [
+      {
+        "ar": "اللَّهُ وَلِيُّ الَّذِينَ آمَنُوا يُخْرِجُهُم مِّنَ الظُّلُمَاتِ إِلَى النُّورِ.",
+        "en": "God is the ally of those who believe. He brings them out from darknesses into the light.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "ظهر",
+    "displayWord": "ظُهْر",
+    "root": "ظهر",
+    "translation": "noon, midday / also (ظَهْر) back / also (ظَهَرَ) he/it appeared",
+    "examples": [
+      {
+        "ar": "نُؤَدِّي صَلَاةَ الظُّهْرِ جَمَاعَةً فِي المَسْجِدِ.",
+        "en": "We perform the Dhuhr prayer in congregation in the mosque.",
+        "source": "Devotional Guide"
+      }
+    ]
+  },
+  {
+    "word": "ظلم",
+    "displayWord": "ظُلْم",
+    "root": "ظلم",
+    "translation": "injustice, tyranny, oppression",
+    "examples": [
+      {
+        "ar": "أَلَا لَعْنَةُ اللَّهِ عَلَى الظَّالِمِينَ.",
+        "en": "Unquestionably, the curse of God is upon the wrongdoers.",
+        "source": "Holy Quran"
+      },
+      {
+        "ar": "الظُّلْمُ ظُلُمَاتٌ يَوْمَ القِيَامَةِ.",
+        "en": "Injustice will be darknesses on the Day of Resurrection.",
+        "source": "Hadith"
+      }
+    ]
+  },
+  {
+    "word": "ظفر",
+    "displayWord": "ظَفَر",
+    "root": "ظفر",
+    "translation": "victory, triumph, fingernail / also (ظَفِرَ) he won",
+    "examples": [
+      {
+        "ar": "نَالَتِ الحُرِّيَّةُ ظَفَرًا كَبِيرًا بَعْدَ الكِفَاحِ.",
+        "en": "Freedom achieved a great victory after the struggle.",
+        "source": "Historical Record"
+      }
+    ]
+  },
+  {
+    "word": "ظن",
+    "displayWord": "ظَنّ",
+    "root": "ظنن",
+    "translation": "suspicion, belief, conjecture",
+    "examples": [
+      {
+        "ar": "يَا أَيُّهَا الَّذِينَ آمَنُوا اجْتَنِبُوا كَثِيرًا مِّنَ الظَّنِّ إِنَّ بَعْضَ الظَّنِّ إِثْمٌ.",
+        "en": "O you who have believed, avoid much [negative] assumption, indeed some assumption is sin.",
+        "source": "Holy Quran"
+      }
+    ]
+  }
+]

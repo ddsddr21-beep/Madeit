@@ -1,0 +1,149 @@
+[
+  {
+    "word": "بيت",
+    "displayWord": "بَيْت",
+    "root": "بيت",
+    "translation": "house, home, verse of poetry",
+    "examples": [
+      {
+        "ar": "هَذَا بَيْتٌ قَدِيمٌ مَبْنِيٌّ مِنَ الحَجَرِ الأَبْيَضِ.",
+        "en": "This is an old house built of white stone.",
+        "source": "Travel Journal"
+      },
+      {
+        "ar": "حَفِظْتُ بَيْتًا مِنَ الشِّعْرِ الجَاهِلِيِّ العَرِيقِ.",
+        "en": "I memorized a verse from the ancient pre-Islamic poetry.",
+        "source": "Literary Studies"
+      }
+    ]
+  },
+  {
+    "word": "بحر",
+    "displayWord": "بَحْر",
+    "root": "بحر",
+    "translation": "sea, ocean",
+    "examples": [
+      {
+        "ar": "البَحْرُ وَاسِعٌ وَعَمِيقٌ وَمَلِيءٌ بِالكِائِنَاتِ المَائِيَّةِ.",
+        "en": "The sea is vast, deep, and full of marine creatures.",
+        "source": "Nature Geography"
+      },
+      {
+        "ar": "رَكِبَ التَّاجِرُ البَحْرَ فِي طَرِيقِهِ إِلَى السِّنْدِ.",
+        "en": "The merchant traveled by sea on his way to Sindh.",
+        "source": "Historical Tales"
+      }
+    ]
+  },
+  {
+    "word": "باب",
+    "displayWord": "بَاب",
+    "root": "بوب",
+    "translation": "door, gate, chapter, section",
+    "examples": [
+      {
+        "ar": "فَتَحَ الحَارِسُ بَابَ المَدْرَسَةِ لِلزُّوَّارِ.",
+        "en": "The guard opened the school gate for the visitors.",
+        "source": "Modern Narrative"
+      },
+      {
+        "ar": "هَذَا البَابُ مِنَ الكِتَابِ يَتَحَدَّثُ عَنِ النَّحْوِ.",
+        "en": "This chapter of the book speaks about grammar.",
+        "source": "Grammar Manual"
+      }
+    ]
+  },
+  {
+    "word": "بركه",
+    "displayWord": "بَرَكَة",
+    "root": "برك",
+    "translation": "blessing, grace",
+    "examples": [
+      {
+        "ar": "القَنَاعَةُ كَنْزٌ يَجْلِبُ البَرَكَةَ فِي الرِّزْقِ.",
+        "en": "Contentment is a treasure that brings blessing in livelihood.",
+        "source": "Ethical Saying"
+      },
+      {
+        "ar": "حَلَّتِ البَرَكَةُ فِي المَنْزِلِ بِحُضُورِ الجَدِّ.",
+        "en": "Blessing descended upon the house with the grandfather's presence.",
+        "source": "Family Story"
+      }
+    ]
+  },
+  {
+    "word": "بلد",
+    "displayWord": "بَلَد",
+    "root": "بلد",
+    "translation": "country, town, city, homeland",
+    "examples": [
+      {
+        "ar": "وَهَٰذَا الْبَلَدِ الْأَمِينِ.",
+        "en": "And by this secure city.",
+        "source": "Holy Quran"
+      },
+      {
+        "ar": "سَافَرْتُ إِلَى بَلَدٍ جَدِيدٍ لِأَوَّلِ مَرَّةٍ فِي حَيَاتِي.",
+        "en": "I traveled to a new country for the first time in my life.",
+        "source": "Modern Memoir"
+      }
+    ]
+  },
+  {
+    "word": "بستان",
+    "displayWord": "بُسْتَان",
+    "root": "بستن",
+    "translation": "orchard, garden",
+    "examples": [
+      {
+        "ar": "فِي البُسْتَانِ زُهُورٌ مُلَوَّنَةٌ وَأَشْجَارُ تُفَّاحٍ.",
+        "en": "In the garden are colorful flowers and apple trees.",
+        "source": "Descriptive Essay"
+      }
+    ]
+  },
+  {
+    "word": "براءه",
+    "displayWord": "بَرَاءَة",
+    "root": "برأ",
+    "translation": "innocence, acquittal",
+    "examples": [
+      {
+        "ar": "تَتَجَلَّى البَرَاءَةُ فِي عُيُونِ الأَطْفَالِ الصِّغَارِ.",
+        "en": "Innocence is manifested in the eyes of young children.",
+        "source": "Psychological Essay"
+      }
+    ]
+  },
+  {
+    "word": "بصر",
+    "displayWord": "بَصَر",
+    "root": "بصر",
+    "translation": "sight, vision, insight",
+    "examples": [
+      {
+        "ar": "فَجَعَلْنَاهُ سَمِيعًا بَصِيرًا.",
+        "en": "And We made him hearing and seeing.",
+        "source": "Holy Quran"
+      },
+      {
+        "ar": "فَكَشَفْنَا عَنكَ غِطَاءَكَ فَبَصَرُكَ الْيَوْمَ حَدِيدٌ.",
+        "en": "And We have removed from you your cover, so your sight today is sharp.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "بناء",
+    "displayWord": "بِنَاء",
+    "root": "بني",
+    "translation": "building, structure, construction, grammatical indeclining",
+    "examples": [
+      {
+        "ar": "يَتَطَلَّبُ بِنَاءُ الأُمَمِ تَعْلِيمًا قَوِيًّا وَأَخْلَاقًا عَالِيَةً.",
+        "en": "Building nations requires strong education and high morals.",
+        "source": "Political Treatise"
+      }
+    ]
+  }
+]

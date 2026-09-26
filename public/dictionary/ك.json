@@ -1,0 +1,98 @@
+[
+  {
+    "word": "كتاب",
+    "displayWord": "كِتَاب",
+    "root": "كتب",
+    "translation": "book, scripture, writing, letter",
+    "examples": [
+      {
+        "ar": "الْكِتَابُ خَيْرُ جَلِيسٍ فِي الزَّمَانِ لِمَنْ يَبْحَثُ عَنِ الحِكْمَةِ.",
+        "en": "The book is the best companion in time for whoever seeks wisdom.",
+        "source": "Classical Proverb"
+      },
+      {
+        "ar": "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ ۛ فِيهِ ۛ هُدًى لِّلْمُتَّقِينَ.",
+        "en": "This is the Book about which there is no doubt, a guidance for those conscious of God.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "كلام",
+    "displayWord": "كَلَام",
+    "root": "كلم",
+    "translation": "speech, talk, words",
+    "examples": [
+      {
+        "ar": "خَيْرُ الكَلَامِ مَا قَلَّ وَدَلَّ وَلَمْ يُطِلْ فَيُمِلَّ.",
+        "en": "The best speech is that which is brief, clear, and not long-winded to cause boredom.",
+        "source": "Classical Rhetoric"
+      }
+    ]
+  },
+  {
+    "word": "كرم",
+    "displayWord": "كَرَم",
+    "root": "كرم",
+    "translation": "generosity, nobility",
+    "examples": [
+      {
+        "ar": "يَشْتَهِرُ أَهْلُ الشَّرْقِ بِالكَرَمِ وَحُسْنِ الضِّيَافَةِ.",
+        "en": "People of the East are famous for generosity and good hospitality.",
+        "source": "Travel Memoir"
+      }
+    ]
+  },
+  {
+    "word": "كمال",
+    "displayWord": "كَمَال",
+    "root": "كمل",
+    "translation": "perfection, completeness",
+    "examples": [
+      {
+        "ar": "الْتَّطَوُّرُ المُسْتَمِرُّ هُوَ سَعْيٌ دَائِمٌ نَحْوَ الكَمَالِ.",
+        "en": "Continuous development is a permanent pursuit of perfection.",
+        "source": "Philosophical Treatise"
+      }
+    ]
+  },
+  {
+    "word": "كون",
+    "displayWord": "كَوْن",
+    "root": "كون",
+    "translation": "universe, existence, being",
+    "examples": [
+      {
+        "ar": "الْتَّأَمُّلُ فِي بَدِيعِ صُنْعِ الكَوْنِ يَزِيدُ الإِيمَانَ.",
+        "en": "Contemplating the wonderful design of the universe increases faith.",
+        "source": "Spiritual Essay"
+      }
+    ]
+  },
+  {
+    "word": "كفاح",
+    "displayWord": "كِفَاح",
+    "root": "كفح",
+    "translation": "struggle, fight, battle, effort",
+    "examples": [
+      {
+        "ar": "نَالَتِ الشُّعُوبُ حُرِّيَّتَهَا بَعْدَ كِفَاحٍ مَرِيرٍ.",
+        "en": "Nations achieved their freedom after a bitter struggle.",
+        "source": "Historical Analysis"
+      }
+    ]
+  },
+  {
+    "word": "كنز",
+    "displayWord": "كَنْز",
+    "root": "كنز",
+    "translation": "treasure",
+    "examples": [
+      {
+        "ar": "وَكَانَ تَحْتَهُ كَنزٌ لَّهُمَا.",
+        "en": "And beneath it was a treasure for them.",
+        "source": "Holy Quran"
+      }
+    ]
+  }
+]

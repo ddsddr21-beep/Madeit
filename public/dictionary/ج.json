@@ -1,0 +1,116 @@
+[
+  {
+    "word": "جبل",
+    "displayWord": "جَبَل",
+    "root": "جبل",
+    "translation": "mountain",
+    "examples": [
+      {
+        "ar": "وَإِلَى الْجِبَالِ كَيْفَ نُصِبَتْ.",
+        "en": "And at the mountains - how they are erected?",
+        "source": "Holy Quran"
+      },
+      {
+        "ar": "تَسَلَّقَ المِغَامِرُونَ قِمَّةَ الجَبَلِ بِصُعُوبَةٍ.",
+        "en": "The adventurers climbed the peak of the mountain with difficulty.",
+        "source": "Adventure Travel"
+      }
+    ]
+  },
+  {
+    "word": "جميل",
+    "displayWord": "جَمِيل",
+    "root": "جمل",
+    "translation": "beautiful, handsome, kind deed",
+    "examples": [
+      {
+        "ar": "إِنَّ اللَّهَ جَمِيلٌ يُحِبُّ الجَمَالَ.",
+        "en": "Indeed, God is beautiful and loves beauty.",
+        "source": "Hadith"
+      },
+      {
+        "ar": "فَصَبْرٌ جَمِيلٌ ۖ وَاللَّهُ الْمُسْتَعَانُ.",
+        "en": "So beautiful patience [is fitting], and God is the one sought for help.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "جهد",
+    "displayWord": "جُهْد",
+    "root": "جهد",
+    "translation": "effort, strain, exertion, energy",
+    "examples": [
+      {
+        "ar": "بَذَلَ العُلَمَاءُ جُهْدًا عَالِيًا فِي مَعْمَلِ الأَبْحَاثِ.",
+        "en": "The scientists made a high effort in the research laboratory.",
+        "source": "Academic Paper"
+      }
+    ]
+  },
+  {
+    "word": "جسد",
+    "displayWord": "جَسَد",
+    "root": "جسد",
+    "translation": "body, physique",
+    "examples": [
+      {
+        "ar": "الرِّيَاضَةُ تُغَذِّي الجَسَدَ وَتَمْنَحُهُ حَيَوِيَّةً كَبِيرَةً.",
+        "en": "Sports nourish the body and grant it great vitality.",
+        "source": "Health Guide"
+      }
+    ]
+  },
+  {
+    "word": "جامعه",
+    "displayWord": "جَامِعَة",
+    "root": "جمع",
+    "translation": "university, assembly",
+    "examples": [
+      {
+        "ar": "يَدْرُسُ أَخِي الهَنْدَسَةَ فِي جَامِعَةِ بَغْدَادَ العَرِيقَةِ.",
+        "en": "My brother studies engineering at the ancient University of Baghdad.",
+        "source": "Personal Diary"
+      }
+    ]
+  },
+  {
+    "word": "جنه",
+    "displayWord": "جَنَّة",
+    "root": "جنن",
+    "translation": "heaven, paradise, orchard",
+    "examples": [
+      {
+        "ar": "تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا.",
+        "en": "Rivers flowing beneath them, wherein they abide eternally.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "جهل",
+    "displayWord": "جَهْل",
+    "root": "جهل",
+    "translation": "ignorance, foolishness",
+    "examples": [
+      {
+        "ar": "العِلْمُ يَبْنِي بُيُوتًا لَا عِمَادَ لَهَا .. وَالجَهْلُ يَهْدِمُ بَيْتَ العِزِّ وَالشَّرَفِ.",
+        "en": "Knowledge builds houses that have no pillars, while ignorance destroys the house of glory and honor.",
+        "source": "Classical Arabic Poetry"
+      }
+    ]
+  },
+  {
+    "word": "جيل",
+    "displayWord": "جِيل",
+    "root": "جيل",
+    "translation": "generation, era",
+    "examples": [
+      {
+        "ar": "تَنْتَقِلُ التَّقَالِيدُ مِنْ جِيلٍ إِلَى آخَرَ بِفَخْرٍ.",
+        "en": "Traditions are passed from one generation to another with pride.",
+        "source": "Cultural Studies"
+      }
+    ]
+  }
+]

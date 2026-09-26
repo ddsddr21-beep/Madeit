@@ -1,0 +1,93 @@
+[
+  {
+    "word": "فرح",
+    "displayWord": "فَرَح",
+    "root": "فرح",
+    "translation": "joy, happiness, celebration",
+    "examples": [
+      {
+        "ar": "قُلْ بِبَضْلِ اللَّهِ وَبِرَحْمَتِهِ فَبِذَٰلِكَ فَلْيَفْرَحُوا.",
+        "en": "Say, 'In the bounty of God and in His mercy - in that let them rejoice.'",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "فوز",
+    "displayWord": "فَوْز",
+    "root": "فوز",
+    "translation": "winning, victory, success",
+    "examples": [
+      {
+        "ar": "فَمَن زُحْزِحَ عَنِ النَّارِ وَأُدْخِلَ الْجَنَّةَ فَقَدْ فَازَ.",
+        "en": "So he who is drawn away from the Fire and admitted to Paradise has attained [his desire].",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "فكر",
+    "displayWord": "فِكْر",
+    "root": "فكر",
+    "translation": "thought, intellect, opinion, philosophy",
+    "examples": [
+      {
+        "ar": "الفِكْرُ الحُرُّ هُوَ رَكِيزَةُ الإِبْدَاعِ الإِنْسَانِيِّ.",
+        "en": "Free thought is the pillar of human creativity.",
+        "source": "Intellectual History"
+      }
+    ]
+  },
+  {
+    "word": "فضل",
+    "displayWord": "فَضْل",
+    "root": "فضل",
+    "translation": "favor, virtue, grace, surplus",
+    "examples": [
+      {
+        "ar": "ذَٰلِكَ فَضْلُ اللَّهِ يُؤْتِيهِ مَن يَشَاءُ.",
+        "en": "That is the favor of God, He bestows it upon whom He wills.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "فرصه",
+    "displayWord": "فُرْصَة",
+    "root": "فرص",
+    "translation": "opportunity, chance",
+    "examples": [
+      {
+        "ar": "اغْتَنَمَ الشَّابُّ فُرْصَةَ السَّفَرِ لِتَعَلُّمِ مَهَارَاتٍ نَادِرَةٍ.",
+        "en": "The young man seized the travel opportunity to learn rare skills.",
+        "source": "Biographical Note"
+      }
+    ]
+  },
+  {
+    "word": "فجر",
+    "displayWord": "فَجْر",
+    "root": "فجر",
+    "translation": "dawn, daybreak",
+    "examples": [
+      {
+        "ar": "سَلَامٌ هِيَ حَتَّىٰ مَطْلَعِ الْفَجْرِ.",
+        "en": "Peace it is until the emergence of dawn.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "فلسفه",
+    "displayWord": "فَلْسَفَة",
+    "root": "فلسف",
+    "translation": "philosophy",
+    "examples": [
+      {
+        "ar": "تَدْرُسُ الفَلْسَفَةُ العَلَاقَةَ بَيْنَ العَقْلِ وَالوَاقِعِ.",
+        "en": "Philosophy studies the relationship between mind and reality.",
+        "source": "Academic Text"
+      }
+    ]
+  }
+]

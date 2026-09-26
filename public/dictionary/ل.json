@@ -1,0 +1,85 @@
+[
+  {
+    "word": "ليل",
+    "displayWord": "لَيْل",
+    "root": "ليل",
+    "translation": "night, nighttime",
+    "examples": [
+      {
+        "ar": "وَاللَّيْلِ إِذَا يَغْشَىٰ.",
+        "en": "By the night when it covers.",
+        "source": "Holy Quran"
+      },
+      {
+        "ar": "يَقْرَأُ الكَاتِبُ رِوَايَاتِهِ فِي هُدُوءِ اللَّيْلِ.",
+        "en": "The writer reads his novels in the calmness of the night.",
+        "source": "Literary Profile"
+      }
+    ]
+  },
+  {
+    "word": "لغه",
+    "displayWord": "لُغَة",
+    "root": "لغو",
+    "translation": "language, tongue, speech",
+    "examples": [
+      {
+        "ar": "اللُّغَةُ العَرَبِيَّةُ لُغَةٌ غَنِيَّةٌ بِالمُفْرَدَاتِ وَالفَصَاحَةِ.",
+        "en": "The Arabic language is rich in vocabulary and eloquence.",
+        "source": "Linguistic Studies"
+      }
+    ]
+  },
+  {
+    "word": "لطف",
+    "displayWord": "لُطْف",
+    "root": "لطف",
+    "translation": "kindness, gentleness, grace",
+    "examples": [
+      {
+        "ar": "عَامِلِ النَّاسَ بِاحْتِرَامٍ وَلُطْفٍ تَكْسِبْ قُلُوبَهُمْ.",
+        "en": "Treat people with respect and kindness, and you will win their hearts.",
+        "source": "Social Ethics"
+      }
+    ]
+  },
+  {
+    "word": "لعب",
+    "displayWord": "لَعِب",
+    "root": "لعب",
+    "translation": "play, game, fun / also (لَعِبَ) he played",
+    "examples": [
+      {
+        "ar": "وَمَا الْحَيَاةُ الدُّنْيَا إِلَّا لَعِبٌ وَلَهْوٌ.",
+        "en": "And the worldly life is not but play and amusement.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "لقاء",
+    "displayWord": "لِقَاء",
+    "root": "لقي",
+    "translation": "meeting, encounter",
+    "examples": [
+      {
+        "ar": "كَانَ لِقَاءُ الأَصْدِقَاءِ بَعْدَ سَنَوَاتٍ طَوِيلَةٍ مُؤَثِّرًا جِدًّا.",
+        "en": "The meeting of friends after long years was very moving.",
+        "source": "Modern Story"
+      }
+    ]
+  },
+  {
+    "word": "لوحه",
+    "displayWord": "لَوْحَة",
+    "root": "لوح",
+    "translation": "painting, board, tablet, frame",
+    "examples": [
+      {
+        "ar": "رَسَمَ الفَنَّانُ لَوْحَةً بَدِيعَةً لِلرِّيفِ فِي الرَّبِيعِ.",
+        "en": "The artist painted a wonderful painting of the countryside in spring.",
+        "source": "Art Review"
+      }
+    ]
+  }
+]

@@ -1,0 +1,145 @@
+{
+  "totalEntries": 194,
+  "letters": {
+    "ا": {
+      "filename": "ا.json",
+      "count": 10,
+      "sizeBytes": 6570
+    },
+    "ب": {
+      "filename": "ب.json",
+      "count": 9,
+      "sizeBytes": 5076
+    },
+    "ت": {
+      "filename": "ت.json",
+      "count": 8,
+      "sizeBytes": 3986
+    },
+    "ث": {
+      "filename": "ث.json",
+      "count": 7,
+      "sizeBytes": 3197
+    },
+    "ج": {
+      "filename": "ج.json",
+      "count": 8,
+      "sizeBytes": 3806
+    },
+    "ح": {
+      "filename": "ح.json",
+      "count": 8,
+      "sizeBytes": 4108
+    },
+    "خ": {
+      "filename": "خ.json",
+      "count": 7,
+      "sizeBytes": 2967
+    },
+    "د": {
+      "filename": "د.json",
+      "count": 7,
+      "sizeBytes": 3005
+    },
+    "ذ": {
+      "filename": "ذ.json",
+      "count": 6,
+      "sizeBytes": 2696
+    },
+    "ر": {
+      "filename": "ر.json",
+      "count": 7,
+      "sizeBytes": 2945
+    },
+    "ز": {
+      "filename": "ز.json",
+      "count": 6,
+      "sizeBytes": 2574
+    },
+    "س": {
+      "filename": "س.json",
+      "count": 7,
+      "sizeBytes": 2927
+    },
+    "ش": {
+      "filename": "ش.json",
+      "count": 7,
+      "sizeBytes": 2709
+    },
+    "ص": {
+      "filename": "ص.json",
+      "count": 7,
+      "sizeBytes": 3198
+    },
+    "ض": {
+      "filename": "ض.json",
+      "count": 6,
+      "sizeBytes": 2458
+    },
+    "ط": {
+      "filename": "ط.json",
+      "count": 7,
+      "sizeBytes": 2861
+    },
+    "ظ": {
+      "filename": "ظ.json",
+      "count": 6,
+      "sizeBytes": 2861
+    },
+    "ع": {
+      "filename": "ع.json",
+      "count": 7,
+      "sizeBytes": 3206
+    },
+    "غ": {
+      "filename": "غ.json",
+      "count": 6,
+      "sizeBytes": 2402
+    },
+    "ف": {
+      "filename": "ف.json",
+      "count": 7,
+      "sizeBytes": 2918
+    },
+    "ق": {
+      "filename": "ق.json",
+      "count": 7,
+      "sizeBytes": 3100
+    },
+    "ك": {
+      "filename": "ك.json",
+      "count": 7,
+      "sizeBytes": 3221
+    },
+    "ل": {
+      "filename": "ل.json",
+      "count": 6,
+      "sizeBytes": 2714
+    },
+    "م": {
+      "filename": "م.json",
+      "count": 7,
+      "sizeBytes": 2938
+    },
+    "ن": {
+      "filename": "ن.json",
+      "count": 7,
+      "sizeBytes": 2972
+    },
+    "ه": {
+      "filename": "ه.json",
+      "count": 6,
+      "sizeBytes": 2579
+    },
+    "و": {
+      "filename": "و.json",
+      "count": 6,
+      "sizeBytes": 2746
+    },
+    "ي": {
+      "filename": "ي.json",
+      "count": 5,
+      "sizeBytes": 2053
+    }
+  }
+}

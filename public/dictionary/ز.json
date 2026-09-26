@@ -1,0 +1,80 @@
+[
+  {
+    "word": "زهره",
+    "displayWord": "زَهْرَة",
+    "root": "زهر",
+    "translation": "flower, blossom, splendor",
+    "examples": [
+      {
+        "ar": "تَفَتَّحَتْ زَهْرَةُ اليَاسَمِينِ مَعَ خُيُوطِ الفَجْرِ الأُولَى.",
+        "en": "The jasmine flower bloomed with the first threads of dawn.",
+        "source": "Romantic Prose"
+      }
+    ]
+  },
+  {
+    "word": "زمن",
+    "displayWord": "زَمَن",
+    "root": "زمن",
+    "translation": "time, era, age",
+    "examples": [
+      {
+        "ar": "الزَّمَنُ كَفِيلٌ بِشِفَاءِ الجُرُوحِ وَمَحْوِ الآلَامِ.",
+        "en": "Time is capable of healing wounds and erasing pains.",
+        "source": "Philosophical Novel"
+      }
+    ]
+  },
+  {
+    "word": "زياره",
+    "displayWord": "زِيَارَة",
+    "root": "زور",
+    "translation": "visit, calling",
+    "examples": [
+      {
+        "ar": "تُعَدُّ زِيَارَةُ المَرِيضِ مِنَ الأَعْمَالِ الَّتِي تُقَرِّبُ بَيْنَ القُلُوبِ.",
+        "en": "Visiting the sick is considered one of the deeds that bring hearts closer.",
+        "source": "Ethical Treatise"
+      }
+    ]
+  },
+  {
+    "word": "زراعه",
+    "displayWord": "زِرَاعَة",
+    "root": "زرع",
+    "translation": "agriculture, farming, cultivation",
+    "examples": [
+      {
+        "ar": "زِرَاعَةُ القَمْحِ تُسْهِمُ فِي الأَمْنِ الغِذَائِيِّ لِلْبَلَدِ.",
+        "en": "Wheat cultivation contributes to the food security of the country.",
+        "source": "Agronomy Report"
+      }
+    ]
+  },
+  {
+    "word": "زياده",
+    "displayWord": "زِيَادَة",
+    "root": "زيد",
+    "translation": "increase, addition, excess",
+    "examples": [
+      {
+        "ar": "وَقُل رَّبِّ زِدْنِي عِلْمًا.",
+        "en": "And say, 'My Lord, increase me in knowledge.'",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "زهد",
+    "displayWord": "زُهْد",
+    "root": "زهد",
+    "translation": "asceticism, abstinence",
+    "examples": [
+      {
+        "ar": "تَمَيَّزَ الحَكِيمُ بِزُهْدِهِ فِي زَخَارِفِ الدُّنْيَا الفَانِيَةِ.",
+        "en": "The wise man was distinguished by his asceticism in the decorations of the mortal world.",
+        "source": "Biographical Chronicles"
+      }
+    ]
+  }
+]

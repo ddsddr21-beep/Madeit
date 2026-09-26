@@ -1,0 +1,116 @@
+[
+  {
+    "word": "حياه",
+    "displayWord": "حَيَاة",
+    "root": "حيي",
+    "translation": "life, livelihood, existence",
+    "examples": [
+      {
+        "ar": "وَمَا الْحَيَاةُ الدُّنْيَا إِلَّا لَعِبٌ وَلَهْوٌ.",
+        "en": "And the worldly life is not but play and amusement.",
+        "source": "Holy Quran"
+      },
+      {
+        "ar": "تَحْمِلُ الحَيَاةُ بَيْنَ طَيَّاتِهَا فُرَصًا لَا تَنْتَهِي.",
+        "en": "Life carries within its folds endless opportunities.",
+        "source": "Modern Philosophical Prose"
+      }
+    ]
+  },
+  {
+    "word": "حب",
+    "displayWord": "حُبّ",
+    "root": "حبب",
+    "translation": "love, affection, seeds",
+    "examples": [
+      {
+        "ar": "يَسُودُ الحُبُّ الصَّادِقُ بَيْنَ النَّاسِ بِالاحْتِرَامِ المُتَبَادَلِ.",
+        "en": "True love prevails among people through mutual respect.",
+        "source": "Humanitarian Writing"
+      }
+    ]
+  },
+  {
+    "word": "حق",
+    "displayWord": "حَقّ",
+    "root": "حقق",
+    "translation": "right, truth, justice, reality",
+    "examples": [
+      {
+        "ar": "ذَٰلِكَ بِأَنَّ اللَّهَ هُوَ الْحَقُّ.",
+        "en": "That is because God is the Truth.",
+        "source": "Holy Quran"
+      },
+      {
+        "ar": "مِنْ حَقِّ كُلِّ مُوَاطِنٍ التَّعْبِيرُ عَنْ رَأْيِهِ بِحُرِّيَّةٍ.",
+        "en": "It is the right of every citizen to express their opinion with freedom.",
+        "source": "Constitutional Charter"
+      }
+    ]
+  },
+  {
+    "word": "حكمه",
+    "displayWord": "حِكْمَة",
+    "root": "حكم",
+    "translation": "wisdom, philosophy, saying",
+    "examples": [
+      {
+        "ar": "يُؤْتِي الْحِكْمَةَ مَنْ يَشَاءُ ۚ وَمَنْ يُؤْتَ الْحِكْمَةَ فَقَدْ أُوتِيَ خَيْرًا كَثِيرًا.",
+        "en": "He gives wisdom to whom He wills, and whoever has been given wisdom has certainly been given much good.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "حريه",
+    "displayWord": "حُرِّيَّة",
+    "root": "حرر",
+    "translation": "freedom, liberty",
+    "examples": [
+      {
+        "ar": "الحُرِّيَّةُ مَسْؤُولِيَّةٌ تَتَطَلَّبُ احْتِرَامَ الآخَرِينَ.",
+        "en": "Freedom is a responsibility that requires respecting others.",
+        "source": "Philosophical Treatise"
+      }
+    ]
+  },
+  {
+    "word": "حوار",
+    "displayWord": "حِوَار",
+    "root": "حور",
+    "translation": "dialogue, conversation, debate",
+    "examples": [
+      {
+        "ar": "الْتَّفَاهُمُ يَبْدَأُ بِحِوَارٍ هَادِئٍ وَبَنَّاءٍ بَيْنَ الأَطْرَافِ.",
+        "en": "Understanding begins with a calm and constructive dialogue between the parties.",
+        "source": "Conflict Resolution Guide"
+      }
+    ]
+  },
+  {
+    "word": "حلم",
+    "displayWord": "حُلْم",
+    "root": "حلم",
+    "translation": "dream, aspiration, vision / also (حِلْم) forbearance, tolerance",
+    "examples": [
+      {
+        "ar": "تَحَقَّقَ حُلْمُ التَّخَرُّجِ بَعْدَ سَنَوَاتٍ مِنَ الجِدِّ.",
+        "en": "The graduation dream was achieved after years of diligence.",
+        "source": "Personal Memoir"
+      }
+    ]
+  },
+  {
+    "word": "حضاره",
+    "displayWord": "حَضَارَة",
+    "root": "حضر",
+    "translation": "civilization, culture, settled way of life",
+    "examples": [
+      {
+        "ar": "الحَضَارَةُ العَرَبِيَّةُ الأَنْدَلُسِيَّةُ كَانَتْ مَنَارَةً لِلعِلْمِ.",
+        "en": "The Arabic Andalusian civilization was a beacon of science.",
+        "source": "Historical Analysis"
+      }
+    ]
+  }
+]

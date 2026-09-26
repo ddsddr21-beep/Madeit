@@ -1,0 +1,80 @@
+[
+  {
+    "word": "وقت",
+    "displayWord": "وَقْت",
+    "root": "وقت",
+    "translation": "time, period, moment",
+    "examples": [
+      {
+        "ar": "الوَقْتُ كَالسَّيْفِ إِنْ لَمْ تَقْطَعْهُ قَطَعَكَ.",
+        "en": "Time is like a sword; if you do not cut it, it cuts you.",
+        "source": "Classical Proverb"
+      }
+    ]
+  },
+  {
+    "word": "وطن",
+    "displayWord": "وَطَن",
+    "root": "وطن",
+    "translation": "homeland, country, home",
+    "examples": [
+      {
+        "ar": "حُبُّ الوَطَنِ غَرِيزَةٌ مَزْرُوعَةٌ فِي نُفُوسِ البَشَرِ الصَّالِحِينَ.",
+        "en": "Love of the homeland is an instinct planted in the souls of righteous humans.",
+        "source": "National Literature"
+      }
+    ]
+  },
+  {
+    "word": "وفاء",
+    "displayWord": "وَفَاء",
+    "root": "وفي",
+    "translation": "loyalty, faithfulness, fulfillment",
+    "examples": [
+      {
+        "ar": "الوَفَاءُ بِالعَهْدِ صِفَةٌ تُمَيِّزُ الأَصْدِقَاءَ الحَقِيقِيِّينَ.",
+        "en": "Fulfillment of covenant is a trait distinguishing true friends.",
+        "source": "Ethical Treatise"
+      }
+    ]
+  },
+  {
+    "word": "ورد",
+    "displayWord": "وَرْد",
+    "root": "ورد",
+    "translation": "roses, flowers, watering place, daily devotion",
+    "examples": [
+      {
+        "ar": "تَفُوحُ رَائِحَةُ الوَرْدِ فَتَمْلَأُ الرِّيفَ بَهْجَةً وَعَطِرًا.",
+        "en": "The scent of roses wafts, filling the countryside with joy and fragrance.",
+        "source": "Nature Prose"
+      }
+    ]
+  },
+  {
+    "word": "ود",
+    "displayWord": "وُدّ",
+    "root": "ودد",
+    "translation": "friendship, love, intimacy",
+    "examples": [
+      {
+        "ar": "إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ سَيَجْعَلُ لَهُمُ الرَّحْمَٰنُ وُدًّا.",
+        "en": "Indeed, those who have believed and done righteous deeds - the Most Merciful will appoint for them affection.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "وضوح",
+    "displayWord": "وُضُوح",
+    "root": "وضح",
+    "translation": "clarity, plainness",
+    "examples": [
+      {
+        "ar": "تَمَيَّزَتْ خُطْبَةُ الأَمِيرِ بِوُضُوحٍ بَلِيغٍ وَإِيجَازٍ مُمَيَّزٍ.",
+        "en": "The prince's speech was characterized by eloquent clarity and distinct brevity.",
+        "source": "Historical Chronicles"
+      }
+    ]
+  }
+]

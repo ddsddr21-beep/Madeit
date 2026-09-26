@@ -1,0 +1,67 @@
+[
+  {
+    "word": "يوم",
+    "displayWord": "يَوْم",
+    "root": "يوم",
+    "translation": "day, period, era",
+    "examples": [
+      {
+        "ar": "اليَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِي.",
+        "en": "Today I have perfected for you your religion and completed My favor upon you.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "يد",
+    "displayWord": "يَد",
+    "root": "يدي",
+    "translation": "hand, power, handle",
+    "examples": [
+      {
+        "ar": "اليَدُ العُلْيَا خَيْرٌ مِنَ اليَدِ السُّفْلَى.",
+        "en": "The upper hand is better than the lower hand.",
+        "source": "Hadith"
+      }
+    ]
+  },
+  {
+    "word": "يسر",
+    "displayWord": "يُسْر",
+    "root": "يسر",
+    "translation": "ease, prosperity, wealth",
+    "examples": [
+      {
+        "ar": "فَإِنَّ مَعَ الْعُسْرِ يُسْرًا * إِنَّ مَعَ الْعُسْرِ يُسْرًا.",
+        "en": "For indeed, with hardship [there is] ease. Indeed, with hardship [there is] ease.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "يقين",
+    "displayWord": "يَقِين",
+    "root": "يقن",
+    "translation": "certainty, absolute belief, conviction",
+    "examples": [
+      {
+        "ar": "وَاعْبُدْ رَبَّكَ حَتَّىٰ يَأْتِيَكَ الْيَقِينُ.",
+        "en": "And worship your Lord until there comes to you the certainty.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "ينبوع",
+    "displayWord": "يَنْبُوع",
+    "root": "نبع",
+    "translation": "spring, fountain, source",
+    "examples": [
+      {
+        "ar": "العِلْمُ يَنْبُوعٌ لَا يَنْضَبُ عَبْرَ العُصُورِ.",
+        "en": "Knowledge is a fountain that does not run dry across ages.",
+        "source": "Academic Essay"
+      }
+    ]
+  }
+]

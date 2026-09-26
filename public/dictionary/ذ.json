@@ -1,0 +1,80 @@
+[
+  {
+    "word": "ذهب",
+    "displayWord": "ذَهَب",
+    "root": "ذهب",
+    "translation": "gold, wealth / also (ذَهَبَ) he went",
+    "examples": [
+      {
+        "ar": "زُيِّنَ لِلنَّاسِ حُبُّ الشَّهَوَاتِ مِنَ النِّسَاءِ وَالْبَنِينَ وَالْقَنَاطِيرِ الْمُقَنْطَرَةِ مِنَ الذَّهَبِ وَالْفِضَّةِ.",
+        "en": "Beautified for people is the love of that which they desire - of women and sons, heaped-up sums of gold and silver.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "ذكر",
+    "displayWord": "ذِكْر",
+    "root": "ذكر",
+    "translation": "remembrance, mention, invocation",
+    "examples": [
+      {
+        "ar": "أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ.",
+        "en": "Unquestionably, by the remembrance of God do hearts find peace.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "ذكاء",
+    "displayWord": "ذَكَاء",
+    "root": "ذكي",
+    "translation": "intelligence, sharpness",
+    "examples": [
+      {
+        "ar": "الْتَّمَارِينُ العَقْلِيَّةُ تُنَمِّي ذَكَاءَ الطِّفْلِ.",
+        "en": "Mental exercises develop the child's intelligence.",
+        "source": "Pediatric Science"
+      }
+    ]
+  },
+  {
+    "word": "ذوق",
+    "displayWord": "ذَوْق",
+    "root": "ذوق",
+    "translation": "taste, politeness, etiquette",
+    "examples": [
+      {
+        "ar": "أَظْهَرَ الطَّالِبُ ذَوْقًا عَالِيًا فِي الحِوَارِ مَعَ مُعَلِّمِهِ.",
+        "en": "The student showed high politeness in dialogue with his teacher.",
+        "source": "Modern Ethics"
+      }
+    ]
+  },
+  {
+    "word": "ذنب",
+    "displayWord": "ذَنْب",
+    "root": "ذنب",
+    "translation": "sin, fault, tail",
+    "examples": [
+      {
+        "ar": "رَبَّنَا اغْفِرْ لَنَا ذُنُوبَنَا وَإِسْرَافَنَا فِي أَمْرِنَا.",
+        "en": "Our Lord, forgive us our sins and the excess [committed] in our affairs.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "ذكريات",
+    "displayWord": "ذِكْرَيَات",
+    "root": "ذكر",
+    "translation": "memories, recollections",
+    "examples": [
+      {
+        "ar": "نَحْتَفِظُ بِالذِّكْرَيَاتِ الجَمِيلَةِ فِي صُوَرٍ قَدِيمَةٍ.",
+        "en": "We keep beautiful memories in old photos.",
+        "source": "Modern Essay"
+      }
+    ]
+  }
+]

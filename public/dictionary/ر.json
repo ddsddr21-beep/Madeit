@@ -1,0 +1,93 @@
+[
+  {
+    "word": "رجل",
+    "displayWord": "رَجُل",
+    "root": "رجل",
+    "translation": "man",
+    "examples": [
+      {
+        "ar": "مِّنَ الْمُؤْمِنِينَ رِجَالٌ صَدَقُوا مَا عَاهَدُوا اللَّهَ عَلَيْهِ.",
+        "en": "Among the believers are men who have been true to their covenant with God.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "رحمه",
+    "displayWord": "رَحْمَة",
+    "root": "رحم",
+    "translation": "mercy, compassion",
+    "examples": [
+      {
+        "ar": "وَمَا أَرْسَلْنَاكَ إِلَّا رَحْمَةً لِّلْعَالَمِينَ.",
+        "en": "And We have not sent you except as a mercy to the worlds.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "روح",
+    "displayWord": "رُوح",
+    "root": "روح",
+    "translation": "spirit, soul",
+    "examples": [
+      {
+        "ar": "وَيَسْأَلُونَكَ عَنِ الرُّوحِ ۖ قُلِ الرُّوحُ مِنْ أَمْرِ رَبِّي.",
+        "en": "And they ask you about the soul. Say, 'The soul is of the affair of my Lord.'",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "رزق",
+    "displayWord": "رِزْق",
+    "root": "رزق",
+    "translation": "livelihood, provision, bounty",
+    "examples": [
+      {
+        "ar": "إِنَّ اللَّهَ هُوَ الرَّزَّاقُ ذُو الْقُوَّةِ الْمَتِينُ.",
+        "en": "Indeed, God is the Provider, the possessor of power, the Mighty.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "راي",
+    "displayWord": "رَأْي",
+    "root": "رأي",
+    "translation": "opinion, view, judgment",
+    "examples": [
+      {
+        "ar": "رَأْيِي أَنَّ التَّعَاوُنَ هُوَ مِفْتَاحُ حَلِّ الأَزْمَةِ.",
+        "en": "My opinion is that cooperation is the key to resolving the crisis.",
+        "source": "Debate Panel"
+      }
+    ]
+  },
+  {
+    "word": "رغبه",
+    "displayWord": "رَغْبَة",
+    "root": "رغب",
+    "translation": "desire, wish, inclination",
+    "examples": [
+      {
+        "ar": "لَدَيَّ رَغْبَةٌ شَدِيدَةٌ فِي تَعَلُّمِ لُغَاتٍ جَدِيدَةٍ.",
+        "en": "I have a strong desire to learn new languages.",
+        "source": "Personal Journal"
+      }
+    ]
+  },
+  {
+    "word": "رساله",
+    "displayWord": "رِسَالَة",
+    "root": "رسل",
+    "translation": "message, letter, epistle, mission",
+    "examples": [
+      {
+        "ar": "أُبَلِّغُكُمْ رِسَالَاتِ رَبِّي وَأَنَا لَكُمْ نَاصِحٌ أَمِينٌ.",
+        "en": "I convey to you the messages of my Lord, and I am to you a trustworthy adviser.",
+        "source": "Holy Quran"
+      }
+    ]
+  }
+]

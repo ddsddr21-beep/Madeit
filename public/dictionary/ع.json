@@ -1,0 +1,98 @@
+[
+  {
+    "word": "علم",
+    "displayWord": "عِلْم",
+    "root": "علم",
+    "translation": "knowledge, science, learning",
+    "examples": [
+      {
+        "ar": "يَرْفَعِ اللَّهُ الَّذِينَ آمَنُوا مِنكُمْ وَالَّذِينَ أُوتُوا الْعِلْمَ دَرَجَاتٍ.",
+        "en": "God will raise those who have believed among you and those who were given knowledge, by degrees.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "عمل",
+    "displayWord": "عَمَل",
+    "root": "عمل",
+    "translation": "work, deed, action, job",
+    "examples": [
+      {
+        "ar": "وَقُلِ اعْمَلُوا فَسَيَرَى اللَّهُ عَمَلَكُمْ وَرَسُولُهُ وَالْمُؤْمِنُونَ.",
+        "en": "And say, 'Do deeds, for God will see your deeds, and [so, too], His Messenger and the believers.'",
+        "source": "Holy Quran"
+      },
+      {
+        "ar": "إِنَّ اللَّهَ يُحِبُّ إِذَا عَمِلَ أَحَدُكُمْ عَمَلًا أَنْ يُتْقِنَهُ.",
+        "en": "Indeed, God loves that when one of you does a job, they do it perfectly.",
+        "source": "Hadith"
+      }
+    ]
+  },
+  {
+    "word": "عدل",
+    "displayWord": "عَدْل",
+    "root": "عدل",
+    "translation": "justice, fairness, integrity",
+    "examples": [
+      {
+        "ar": "إِنَّ اللَّهَ يَأْمُرُ بِالْعَدْلِ وَالْإِحْسَانِ.",
+        "en": "Indeed, God orders justice and good conduct.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "عقل",
+    "displayWord": "عَقْل",
+    "root": "عقل",
+    "translation": "mind, intellect, reason",
+    "examples": [
+      {
+        "ar": "الْتَّفَكُّرُ فِي مَظَاهِرِ الكَوْنِ يُغَذِّي العَقْلَ البَشَرِيَّ.",
+        "en": "Reflecting on the manifestations of the universe nourishes the human mind.",
+        "source": "Philosophy of Science"
+      }
+    ]
+  },
+  {
+    "word": "عين",
+    "displayWord": "عَيْن",
+    "root": "عين",
+    "translation": "eye, water spring, essence",
+    "examples": [
+      {
+        "ar": "فِيهَا عَيْنٌ جَارِيَةٌ.",
+        "en": "Within it is a flowing spring.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "عهد",
+    "displayWord": "عَهْد",
+    "root": "عهد",
+    "translation": "covenant, era, treaty, epoch",
+    "examples": [
+      {
+        "ar": "وَأَوْفُوا بِالْعَهْدِ ۖ إِنَّ الْعَهْدَ كَانَ مَسْئُولًا.",
+        "en": "And fulfill the covenant. Indeed, the covenant will be questioned.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "عزيمه",
+    "displayWord": "عَزِيمَة",
+    "root": "عزم",
+    "translation": "determination, resolve",
+    "examples": [
+      {
+        "ar": "فَإِذَا عَزَمْتَ فَتَوَكَّلْ عَلَى اللَّهِ.",
+        "en": "And when you have decided, then rely upon God.",
+        "source": "Holy Quran"
+      }
+    ]
+  }
+]

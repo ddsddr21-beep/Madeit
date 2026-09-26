@@ -1,0 +1,80 @@
+[
+  {
+    "word": "غرفه",
+    "displayWord": "غُرْفَة",
+    "root": "غرف",
+    "translation": "room, chamber",
+    "examples": [
+      {
+        "ar": "رَتَّبَتْ أُخْتِي غُرْفَةَ المَعِيشَةِ بِذَوْقٍ جَمِيلٍ.",
+        "en": "My sister arranged the living room with beautiful taste.",
+        "source": "Family Memoirs"
+      }
+    ]
+  },
+  {
+    "word": "غنى",
+    "displayWord": "غِنَى",
+    "root": "غني",
+    "translation": "wealth, richness, independence",
+    "examples": [
+      {
+        "ar": "لَيْسَ الغِنَى عَنْ كَثْرَةِ العَرَضِ، وَلَكِنَّ الغِنَى غِنَى النَّفْسِ.",
+        "en": "Wealth is not in having many possessions, but wealth is contentment of the soul.",
+        "source": "Hadith"
+      }
+    ]
+  },
+  {
+    "word": "غاية",
+    "displayWord": "غَايَة",
+    "root": "غيي",
+    "translation": "goal, aim, target, extreme limit",
+    "examples": [
+      {
+        "ar": "الغَايَةُ النَّبِيلَةُ تَتَطَلَّبُ وَسَائِلَ شَرِيفَةً كَذَلِكَ.",
+        "en": "A noble goal requires honorable means as well.",
+        "source": "Ethical Textbook"
+      }
+    ]
+  },
+  {
+    "word": "غد",
+    "displayWord": "غَد",
+    "root": "غدو",
+    "translation": "tomorrow, future",
+    "examples": [
+      {
+        "ar": "وَلْتَنظُرْ نَفْسٌ مَّا قَدَّمَتْ لِغَدٍ.",
+        "en": "And let every soul look to what it has sent forth for tomorrow.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "غيم",
+    "displayWord": "غَيْم",
+    "root": "غيم",
+    "translation": "clouds, gloom",
+    "examples": [
+      {
+        "ar": "حَجَبَ الغَيْمُ الكَثِيفُ أَشِعَّةَ الشَّمْسِ.",
+        "en": "The dense cloud blocked the sun rays.",
+        "source": "Nature Chronicle"
+      }
+    ]
+  },
+  {
+    "word": "غبار",
+    "displayWord": "غُبَار",
+    "root": "غبر",
+    "translation": "dust, powder",
+    "examples": [
+      {
+        "ar": "تَمْلَأُ العَاصِفَةُ الرَّمْلِيَّةُ الهَوَاءَ بِالغُبَارِ.",
+        "en": "The sandstorm fills the air with dust.",
+        "source": "Geographic Account"
+      }
+    ]
+  }
+]

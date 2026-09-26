@@ -1,0 +1,98 @@
+[
+  {
+    "word": "درس",
+    "displayWord": "دَرْس",
+    "root": "درس",
+    "translation": "lesson, class, study",
+    "examples": [
+      {
+        "ar": "فَهِمَ الطُّلَّابُ الدَّرْسَ بَعْدَ تَفْصِيلِ المُعَلِّمِ.",
+        "en": "The students understood the lesson after the teacher's detailing.",
+        "source": "Educational Record"
+      }
+    ]
+  },
+  {
+    "word": "دوله",
+    "displayWord": "دَوْلَة",
+    "root": "دول",
+    "translation": "state, country, administration",
+    "examples": [
+      {
+        "ar": "الدَّوْلَةُ مَسْؤُولَةٌ عَنْ حِمَايَةِ المَوَارِدِ العَامَّةِ.",
+        "en": "The state is responsible for protecting public resources.",
+        "source": "Legal Code"
+      }
+    ]
+  },
+  {
+    "word": "دنيا",
+    "displayWord": "دُنْيَا",
+    "root": "دنو",
+    "translation": "world, wordly life",
+    "examples": [
+      {
+        "ar": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً.",
+        "en": "Our Lord, give us in this world [that which is] good and in the Hereafter [that which is] good.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "دين",
+    "displayWord": "دِين",
+    "root": "دين",
+    "translation": "religion, debt, custom, creed",
+    "examples": [
+      {
+        "ar": "لَكُمْ دِينُكُمْ وَلِيَ دِينِ.",
+        "en": "For you is your religion, and for me is my religion.",
+        "source": "Holy Quran"
+      },
+      {
+        "ar": "الدِّينُ المُعَامَلَةُ.",
+        "en": "Religion is [good] treatment [of others].",
+        "source": "Hadith"
+      }
+    ]
+  },
+  {
+    "word": "دليل",
+    "displayWord": "دَلِيل",
+    "root": "دلل",
+    "translation": "evidence, guide, directory, proof",
+    "examples": [
+      {
+        "ar": "هَاتُوا بُرْهَانَكُمْ إِن كُنتُمْ صَادِقِينَ.",
+        "en": "Produce your proof, if you should be truthful.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "دعاء",
+    "displayWord": "دُعَاء",
+    "root": "دعو",
+    "translation": "supplication, prayer, invocation",
+    "examples": [
+      {
+        "ar": "الدُّعَاءُ سِلَاحُ المُؤْمِنِ فِي المِحَنِ.",
+        "en": "Supplication is the believer's weapon in trials.",
+        "source": "Spiritual Text"
+      }
+    ]
+  },
+  {
+    "word": "دفء",
+    "displayWord": "دِفْء",
+    "root": "دفأ",
+    "translation": "warmth, comfort",
+    "examples": [
+      {
+        "ar": "يَبْحَثُ النَّاسُ عَنْ دِفْءِ العَائِلَةِ فِي لَيَالِي الشِّتَاءِ.",
+        "en": "People seek the warmth of the family in winter nights.",
+        "source": "Literary Novel"
+      }
+    ]
+  }
+]

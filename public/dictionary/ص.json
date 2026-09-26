@@ -1,0 +1,98 @@
+[
+  {
+    "word": "صديق",
+    "displayWord": "صَدِيق",
+    "root": "صدق",
+    "translation": "friend, loyal companion",
+    "examples": [
+      {
+        "ar": "الصَّدِيقُ المُلْصِقُ يَقِفُ مَعَكَ فِي الرَّخَاءِ وَالشِّدَّةِ.",
+        "en": "The loyal friend stands with you in ease and hardship.",
+        "source": "Moral Sayings"
+      }
+    ]
+  },
+  {
+    "word": "صدق",
+    "displayWord": "صِدْق",
+    "root": "صدق",
+    "translation": "truthfulness, sincerity, honesty",
+    "examples": [
+      {
+        "ar": "وَالَّذِي جَاءَ بِالصِّدْقِ وَصَدَّقَ بِهِ ۙ أُولَٰئِكَ هُمُ الْمُتَّقُونَ.",
+        "en": "And the one who has brought the truth and believed in it - those are the righteous.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "صبر",
+    "displayWord": "صَبْر",
+    "root": "صبر",
+    "translation": "patience, endurance, perseverance",
+    "examples": [
+      {
+        "ar": "إِنَّ اللَّهَ مَعَ الصَّابِرِينَ.",
+        "en": "Indeed, God is with the patient.",
+        "source": "Holy Quran"
+      },
+      {
+        "ar": "الصَّبْرُ مِفْتَاحُ الفَرَجِ بَعْدَ كُلِّ عُسْرٍ.",
+        "en": "Patience is the key to relief after every hardship.",
+        "source": "Classical Proverb"
+      }
+    ]
+  },
+  {
+    "word": "صوت",
+    "displayWord": "صَوْت",
+    "root": "صوت",
+    "translation": "voice, sound, vote",
+    "examples": [
+      {
+        "ar": "كَانَ صَوْتُ القَارِئِ عَذْبًا وَمُؤَثِّرًا فِي النُّفُوسِ.",
+        "en": "The reciter's voice was sweet and moving to the souls.",
+        "source": "Memoir"
+      }
+    ]
+  },
+  {
+    "word": "صحه",
+    "displayWord": "صِحَّة",
+    "root": "صحح",
+    "translation": "health, authenticity, correctness",
+    "examples": [
+      {
+        "ar": "الْتَّعْلِيمُ وَالصِّحَّةُ هُمَا أَسَاسُ التَّنْمِيَةِ البَشَرِيَّةِ.",
+        "en": "Education and health are the foundations of human development.",
+        "source": "Human Development Report"
+      }
+    ]
+  },
+  {
+    "word": "صلاه",
+    "displayWord": "صَلَاة",
+    "root": "صلو",
+    "translation": "prayer, worship, blessings",
+    "examples": [
+      {
+        "ar": "إِنَّ الصَّلَاةَ كَانَتْ عَلَى الْمُؤْمِنِينَ كِتَابًا مَّوْقُوتًا.",
+        "en": "Indeed, prayer has been decreed upon the believers at specified times.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "صناعه",
+    "displayWord": "صِنَاعَة",
+    "root": "صنع",
+    "translation": "industry, manufacture, craft",
+    "examples": [
+      {
+        "ar": "تَشْهِدُ صِنَاعَةُ البَرْمَجِيَّاتِ تَطَوُّرًا هَائِلًا.",
+        "en": "The software industry is witnessing a tremendous development.",
+        "source": "Technology Review"
+      }
+    ]
+  }
+]

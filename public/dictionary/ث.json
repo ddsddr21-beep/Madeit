@@ -1,0 +1,98 @@
+[
+  {
+    "word": "ثمر",
+    "displayWord": "ثَمَر",
+    "root": "ثمر",
+    "translation": "fruit, result, yield",
+    "examples": [
+      {
+        "ar": "كُلُوا مِنْ ثَمَرِهِ إِذَا أَثْمَرَ وَآتُوا حَقَّهُ يَوْمَ حَصَادِهِ.",
+        "en": "Eat of its fruit when it yields and give its due on the day of its harvest.",
+        "source": "Holy Quran"
+      },
+      {
+        "ar": "يَجْنِي الإِنْسَانُ ثَمَرَةَ جُهْدِهِ نَجَاحًا بَاهِرًا.",
+        "en": "A human reaps the fruit of their effort as a dazzling success.",
+        "source": "Modern Prose"
+      }
+    ]
+  },
+  {
+    "word": "ثقافه",
+    "displayWord": "ثَقَافَة",
+    "root": "ثقف",
+    "translation": "culture, refinement, education",
+    "examples": [
+      {
+        "ar": "تَتَنَوَّعُ الثَّقَافَاتُ وَتَلْتَقِي لِتُغْنِيَ الحَضَارَةَ الإِنْسَانِيَّةَ.",
+        "en": "Cultures diversify and meet to enrich human civilization.",
+        "source": "Sociological Study"
+      }
+    ]
+  },
+  {
+    "word": "ثقه",
+    "displayWord": "ثِقَة",
+    "root": "وثق",
+    "translation": "trust, confidence, faith",
+    "examples": [
+      {
+        "ar": "الْتَّقَدُّمُ السَّرِيعُ يَحْتَاجُ إِلَى ثِقَةٍ بِالنَّفْسِ وَالمُثَابَرَةِ.",
+        "en": "Fast progress needs self-confidence and perseverance.",
+        "source": "Motivational Book"
+      }
+    ]
+  },
+  {
+    "word": "ثبات",
+    "displayWord": "ثَبَات",
+    "root": "ثبت",
+    "translation": "stability, firmness, consistency",
+    "examples": [
+      {
+        "ar": "وَثَبِّتْ أَقْدَامَنَا وَانصُرْنَا عَلَى الْقَوْمِ الْكَافِرِينَ.",
+        "en": "And make our feet firm and grant us victory over the disbelieving people.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "ثروه",
+    "displayWord": "ثَرْوَة",
+    "root": "ثري",
+    "translation": "wealth, fortune, resource",
+    "examples": [
+      {
+        "ar": "المَاءُ هُوَ الثَّرْوَةُ الحَقِيقِيَّةُ لِلأَجْيَالِ القَادِمَةِ.",
+        "en": "Water is the true wealth for the coming generations.",
+        "source": "Ecological Article"
+      }
+    ]
+  },
+  {
+    "word": "ثوب",
+    "displayWord": "ثَوْب",
+    "root": "ثوب",
+    "translation": "garment, dress, robe",
+    "examples": [
+      {
+        "ar": "وَثِيَابَكَ فَطَهِّرْ.",
+        "en": "And your clothing purify.",
+        "source": "Holy Quran"
+      }
+    ]
+  },
+  {
+    "word": "ثمين",
+    "displayWord": "ثَمِين",
+    "root": "ثمن",
+    "translation": "precious, valuable, costly",
+    "examples": [
+      {
+        "ar": "هَذَا كَنْزٌ ثَمِينٌ تَنَاقَلَتْهُ الأَجْيَالُ.",
+        "en": "This is a precious treasure passed down through generations.",
+        "source": "Folkloric History"
+      }
+    ]
+  }
+]
