@@ -1,93 +1,3164 @@
 [
   {
-    "word": "طالب",
-    "displayWord": "طَالِب",
-    "root": "طلب",
-    "translation": "student, seeker, applicant",
-    "examples": [
-      {
-        "ar": "يَجْتَهِدُ الطَّالِبُ لِيَنَالَ شَهَادَةَ التَّخَرُّجِ بِتَفَوُّقٍ.",
-        "en": "The student works hard to obtain the graduation certificate with distinction.",
-        "source": "Educational Biography"
-      }
-    ]
+    "word": "طويل البال",
+    "displayWord": "طويل البال",
+    "translation": "long-suffering, patient; ... ما باله (with verb) why is it that he (it) ... ? why ... ? ما بالك how about you? what do you think? خلا باله ḳalā bāluhū his mind is at rest, he has no worries; خطر بباله it occurred to him, it came to his mind; اعطى",
+    "examples": []
+  },
+  {
+    "word": "طرف الثمام",
+    "displayWord": "طرف الثمام",
+    "translation": "he made it readily understandable, he presented it plsusibly for all",
+    "examples": []
+  },
+  {
+    "word": "طاھر الثياب",
+    "displayWord": "طاھر الثياب",
+    "translation": "of flawless character, irreproachable",
+    "examples": []
+  },
+  {
+    "word": "طاعون دملي",
+    "displayWord": "طاعون دملي",
+    "translation": "ṭā‘ūn dummalī bubonic plague",
+    "examples": []
+  },
+  {
+    "word": "طريقه",
+    "displayWord": "طريقه",
+    "translation": "to walk all the way VIII to improvise, extemporize, deliver offhand (",
+    "examples": []
+  },
+  {
+    "word": "طيب السريرة",
+    "displayWord": "طيب السريرة",
+    "translation": "ṭayyib as-s. guileless simplehearted",
+    "examples": []
+  },
+  {
+    "word": "طعن في السن",
+    "displayWord": "طعن في السن",
+    "translation": "to be advanced in years, be aged; تقدمت به السن (taqaddamat) to grow older, to age; to be advanced in years",
+    "examples": []
+  },
+  {
+    "word": "طريقه",
+    "displayWord": "طريقه",
+    "translation": "to force one’s way, plow ahead; شق",
+    "examples": []
+  },
+  {
+    "word": "طريقا جديدا",
+    "displayWord": "طريقا جديدا",
+    "translation": "to open up, or enter upon, a new path 479 (fig.); شق العصا (‘aṣā) to part from the community, break with the community;",
+    "examples": []
+  },
+  {
+    "word": "ط",
+    "displayWord": "ط",
+    "translation": "abbreviation of قيراط qīrāṭ",
+    "examples": []
+  },
+  {
+    "word": "طاء",
+    "displayWord": "طاء",
+    "translation": "ṭā’ name of the letter ط",
+    "examples": []
+  },
+  {
+    "word": "طابة",
+    "displayWord": "طابة",
+    "translation": "ṭāba pl. -āt ball",
+    "examples": []
+  },
+  {
+    "word": "طابور",
+    "displayWord": "طابور",
+    "translation": "ṭābūr pl. طوابير ṭawābīr2 battalion; (eg.) line, file, single file (of soldiers, of persons walking one behind the other); queue │ الطابور الخامس the fifth column",
+    "examples": []
+  },
+  {
+    "word": "طابية",
+    "displayWord": "طابية",
+    "translation": "ṭābiya pl. طواب ṭawābin fortress, fort; round fortress tower; (eg.) rook, castle (chess)",
+    "examples": []
+  },
+  {
+    "word": "طاجن",
+    "displayWord": "طاجن",
+    "translation": "ṭājin pl. طواجن ṭawājin2 frying pan; (eg.) shallow earthen pot",
+    "examples": []
+  },
+  {
+    "word": "طار، طارة",
+    "displayWord": "طار، طارة",
+    "translation": "see طور",
+    "examples": []
+  },
+  {
+    "word": "طارمة",
+    "displayWord": "طارمة",
+    "translation": "pl. -āt kiosk, booth, cabin, stall",
+    "examples": []
+  },
+  {
+    "word": "طازة",
+    "displayWord": "طازة",
+    "translation": "ṭāza fresh, tender, new",
+    "examples": []
+  },
+  {
+    "word": "طازج",
+    "displayWord": "طازج",
+    "translation": "ṭāza fresh, new",
+    "examples": []
+  },
+  {
+    "word": "طاس",
+    "displayWord": "طاس",
+    "translation": "1 and طاسة see طوس",
+    "examples": []
+  },
+  {
+    "word": "طاؤوس",
+    "displayWord": "طاؤوس",
+    "translation": "2 ṭā’ūs and طاووس ṭāwūs pl. طواويس ṭawāwīs2 peacock",
+    "examples": []
+  },
+  {
+    "word": "طأطأ",
+    "displayWord": "طأطأ",
+    "translation": "ṭa’ṭa’a to incline, bend, tilt, bow ( رأسه ra’sahū one’s head; also used without (رأسه",
+    "examples": []
+  },
+  {
+    "word": "طاق",
+    "displayWord": "طاق",
+    "translation": "1 ṭāq pl. -āt, طيقان ṭīqān arch (arch.); (pl. -āt) layer, stratum",
+    "examples": []
+  },
+  {
+    "word": "طاقة",
+    "displayWord": "طاقة",
+    "translation": "2 ṭāqa pl. -āt window",
+    "examples": []
+  },
+  {
+    "word": "طاقية",
+    "displayWord": "طاقية",
+    "translation": "3 ṭāqīya pl. □ طواقي ṭawāqī white cotton skullcap (often worn under the tarboosh: in Eg. = عرقية ); fatigue cap (of the Eg. Territorial Army)",
+    "examples": []
+  },
+  {
+    "word": "طأمن",
+    "displayWord": "طأمن",
+    "translation": "see طمأن",
+    "examples": []
+  },
+  {
+    "word": "طاولة",
+    "displayWord": "طاولة",
+    "translation": "(It. tavola) ṭāwula table │ لعبة الطاولة la‘bat aṭ-ṭāwila backgammon, tricktrack;",
+    "examples": []
+  },
+  {
+    "word": "طب",
+    "displayWord": "طب",
+    "translation": "ṭabba u i (ṭabb, ṭibb, tubb) to treat medically ( ھ، ه s.o., s.th.), give medical treatment ( ھ، ه to s.o., to s.th.); to seek to remedy, tackle ( ل s.th.) II to treat medically ( ھ، ه s.o., s.th.), give medical treatment ( ھ، ه to s.o., to s.th.) V to receive, or undergo, medical treatment, submit to medical treatment; to practice medicine, engage in the medical field X to seek medical advice ( ه from s.o.), consult (",
+    "examples": []
+  },
+  {
+    "word": "طب",
+    "displayWord": "طب",
+    "translation": "ṭibb medical treatment: medicine, medical science │ طب الأسنان ṭ. al-asnān dentistry, dental science; الطب البيطري (baiṭarī) veterinary science; الطب الشرعي (šar‘ī) forensic medicine; الطب النفساني (nafsānī) psychiatry; علم الطب ‘ilm aṭ-ṭ. medical science, medicine; كلية الطب kullīyat aṭ-ṭ. medical school, medical college, (chiefly G. B.:) faculty of medicine",
+    "examples": []
+  },
+  {
+    "word": "طبي",
+    "displayWord": "طبي",
+    "translation": "ṭibbī medical, pertaining to the medical profession or science │ لائق طبيا (ṭibbīya) physically fit (e.g., for military service)",
+    "examples": []
+  },
+  {
+    "word": "طبة",
+    "displayWord": "طبة",
+    "translation": "ṭabba pl. -āt (eg.) cushion, pad; plug, stopper, stopple; bung",
+    "examples": []
+  },
+  {
+    "word": "طبيب",
+    "displayWord": "طبيب",
+    "translation": "ṭabib pl. اطباء ٢، اطبة aṭibba physician, doctor │ طبيب بيطري (baiṭarī) veterinarian; طبيب خاص (kāṣṣ) physician in ordinary, private physician (e.g., of a king); طبيب ساحر medicine man, shaman;",
+    "examples": []
+  },
+  {
+    "word": "طبيب الأسنان",
+    "displayWord": "طبيب الأسنان",
+    "translation": "dental surgeon, dentist; طبيب",
+    "examples": []
+  },
+  {
+    "word": "طبيبة",
+    "displayWord": "طبيبة",
+    "translation": "ṭabība female doctor, doctress",
+    "examples": []
+  },
+  {
+    "word": "طبابة",
+    "displayWord": "طبابة",
+    "translation": "ṭibāba medical treatment; medical profession",
+    "examples": []
+  },
+  {
+    "word": "طبخ",
+    "displayWord": "طبخ",
+    "translation": "ṭabaka a (ṭabk) to cook ( ھ s.th.) VII to be or get cooked",
+    "examples": []
+  },
+  {
+    "word": "طبخ",
+    "displayWord": "طبخ",
+    "translation": "ṭabk cooking, cookery; cooked food; O celluloid",
+    "examples": []
+  },
+  {
+    "word": "طبخة",
+    "displayWord": "طبخة",
+    "translation": "ṭabka (n. un.) (article of cooked) food, meal, dish, course",
+    "examples": []
+  },
+  {
+    "word": "طباخ",
+    "displayWord": "طباخ",
+    "translation": "ṭabbāk cook",
+    "examples": []
+  },
+  {
+    "word": "طبيخ",
+    "displayWord": "طبيخ",
+    "translation": "ṭabīk cooked food, fare",
+    "examples": []
+  },
+  {
+    "word": "طباخة",
+    "displayWord": "طباخة",
+    "translation": "ṭibāka culinary art, cookery, cuisine",
+    "examples": []
+  },
+  {
+    "word": "طبر",
+    "displayWord": "طبر",
+    "translation": "1 ṭabar hatchet, ax, battle-ax",
+    "examples": []
+  },
+  {
+    "word": "طبردار",
+    "displayWord": "طبردار",
+    "translation": "ṭabardār sapper, pioneer (mil.)",
+    "examples": []
+  },
+  {
+    "word": "طابور",
+    "displayWord": "طابور",
+    "translation": "2 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "طبرية",
+    "displayWord": "طبرية",
+    "translation": "3 ṭabarīya2 Tiberias (city in Palestine, on W shore of Sea of Galilee)",
+    "examples": []
+  },
+  {
+    "word": "طبشورة",
+    "displayWord": "طبشورة",
+    "translation": "ṭabšūra (syr.) chalk",
+    "examples": []
+  },
+  {
+    "word": "طباشير",
+    "displayWord": "طباشير",
+    "translation": "ṭabāšīr2 chalk",
+    "examples": []
+  },
+  {
+    "word": "طباشيري",
+    "displayWord": "طباشيري",
+    "translation": "ṭabāšīrī chalky, cretaceous, chalk- (in compounds)",
+    "examples": []
+  },
+  {
+    "word": "طبطب",
+    "displayWord": "طبطب",
+    "translation": "ṭabṭaba to gurgle, purl (water); to pat, stroke, caress ( على s.o.)",
+    "examples": []
+  },
+  {
+    "word": "طبطابة",
+    "displayWord": "طبطابة",
+    "translation": "ṭabṭāba bat, mallet, racket (for ball games)",
+    "examples": []
+  },
+  {
+    "word": "طبع",
+    "displayWord": "طبع",
+    "translation": "ṭaba‘a a (ṭab‘) to provide with an imprint, impress or impression ( ھ or على s.th.); to impress with a stamp, seal or signet ( ھ or",
+    "examples": []
+  },
+  {
+    "word": "طبع",
+    "displayWord": "طبع",
+    "translation": "ṭab‘ printing (of a book), print; (pl.",
+    "examples": []
+  },
+  {
+    "word": "طباع",
+    "displayWord": "طباع",
+    "translation": "ṭibā‘) impress, impression, stamp, hallmark, peculiarity, characteristic, nature, character, temper, (natural) disposition │ طبع الحجر al-ḥajar lithography; طبع الحروف typography; تحت",
+    "examples": []
+  },
+  {
+    "word": "طبعة",
+    "displayWord": "طبعة",
+    "translation": "ṭab‘a pl. -āt printing, print; edition, issue, impression",
+    "examples": []
+  },
+  {
+    "word": "طباع",
+    "displayWord": "طباع",
+    "translation": "ṭabbā‘ printer",
+    "examples": []
+  },
+  {
+    "word": "طباعة",
+    "displayWord": "طباعة",
+    "translation": "ṭibā‘a art of printing │ آلة الطباعة printing press",
+    "examples": []
+  },
+  {
+    "word": "طباعي",
+    "displayWord": "طباعي",
+    "translation": "ṭibā‘ī typographic(al) 551",
+    "examples": []
+  },
+  {
+    "word": "طبيعة",
+    "displayWord": "طبيعة",
+    "translation": "ṭabī‘a pl. طبائع ṭabā’i‘2 nature; natural disposition, constitution; peculiarity, individuality, character; regular, normal manner; physics; natural science │ بطبيعة الحال by the very nature of the case, as is (was) only natural, ipso facto, naturally, as a matter of course; عالم",
+    "examples": []
+  },
+  {
+    "word": "طبيعي",
+    "displayWord": "طبيعي",
+    "translation": "ṭabī‘ī nature’s, of nature, nature- (in compounds), natural; inborn, innate, inherent, native; normal, ordinary, usual, regular; physical; physicist; natural scientist; naturalist │ عالم طبيعي physicist; natural scientist; الطبيعيات physics; natural science",
+    "examples": []
+  },
+  {
+    "word": "طابع",
+    "displayWord": "طابع",
+    "translation": "ṭābi‘ printer; -- ṭāba‘ impress, stamp, mark, character; (pl. طوابع ṭawābi‘2) seal, signet; stamp; imprint, print, impress, impression; (postage, etc.) stamp; tablet, pill │ طابع البريد and",
+    "examples": []
+  },
+  {
+    "word": "طابع بريدي",
+    "displayWord": "طابع بريدي",
+    "translation": "postage stamp; طابع تذكاري (tadkārī) commemorative stamp; طابع",
+    "examples": []
+  },
+  {
+    "word": "طبق",
+    "displayWord": "طبق",
+    "translation": "1 II to cover, cover up ( ھ s.th.); to make coincident or congruent, cause to coincide, superpose ( بين two figures; geom.); to fold ( ھ s.th., also, e.g., the hands); (eg.) to shoe ( ھ a hors.); to apply (",
+    "examples": []
+  },
+  {
+    "word": "طبق",
+    "displayWord": "طبق",
+    "translation": "ṭibqa (prep.) according to, corresponding to, in accordance with, in conformity with │ طبقا ل (ṭibqan) do.;",
+    "examples": []
+  },
+  {
+    "word": "طبق",
+    "displayWord": "طبق",
+    "translation": "ṭabaq pl. اطباق aṭbāq lid, cover, plate; dish, shallow bowl; (round) tray, salver; ash tray; (pl. اطباق , also طباق ṭibāq) layer, tier; stratum (of the air); pl. طباق (with foll. genit.) superposed masses, layered formations, piles, large quantities of ... │ اطباق طائرة flying saucers",
+    "examples": []
+  },
+  {
+    "word": "طبقة",
+    "displayWord": "طبقة",
+    "translation": "ṭabaqa pl. -āt layer; stratum (of earth, air, society, etc.); floor, story (of a building); class, category; generation │ O",
+    "examples": []
+  },
+  {
+    "word": "طابق",
+    "displayWord": "طابق",
+    "translation": "ṭābaq, ṭābiq pl. طوابق ṭawābiq2 large bricks; floor, story (of a building) │ ا",
+    "examples": []
+  },
+  {
+    "word": "طاباق",
+    "displayWord": "طاباق",
+    "translation": "ṭābāq pl. طوابيق ṭawābīq2 large bricks",
+    "examples": []
+  },
+  {
+    "word": "طباق",
+    "displayWord": "طباق",
+    "translation": "ṭibāq (with foll. genit. or suffix) that which is in agreement, in keeping, or in conformity with ..., corresponding, analogous (to s.th.), in accordance (with), conformable (to), consistent (with), compatible (with); antithesis, juxtaposition of contrasting ideas (rhet.)",
+    "examples": []
+  },
+  {
+    "word": "طبيق",
+    "displayWord": "طبيق",
+    "translation": "ṭabīq (with foll. genit. or suffix) sth. in agreement, in keeping, or in conformity with ..., corresponding, analogous (to s.th.), in accordance (with), consistent (with), compatible (with)",
+    "examples": []
+  },
+  {
+    "word": "طباق",
+    "displayWord": "طباق",
+    "translation": "2 ṭabāq, ṭubāq (eg.) tobacco",
+    "examples": []
+  },
+  {
+    "word": "طبل",
+    "displayWord": "طبل",
+    "translation": "ṭabala u (ṭabl) to beat a drum; to drum II = I; to beat the drum ( ل for s.o., i.e., to campaign, make propaganda for s.o.)",
+    "examples": []
+  },
+  {
+    "word": "طبل",
+    "displayWord": "طبل",
+    "translation": "ṭabl drumming, drumbeat; (pl. طبول ṭubūl, اطبال aṭbāl) drum; bass drum (of the Western orchestra)",
+    "examples": []
+  },
+  {
+    "word": "طبلة",
+    "displayWord": "طبلة",
+    "translation": "ṭabla drum │ طبلة الأذن ṭ. al-udun eardrum, tympanic membrane",
+    "examples": []
+  },
+  {
+    "word": "طبلة",
+    "displayWord": "طبلة",
+    "translation": "ṭabla pl. -āt, طبل ṭubal (eg.) look, padlock",
+    "examples": []
+  },
+  {
+    "word": "طبلي",
+    "displayWord": "طبلي",
+    "translation": "ṭablī drum-shaped",
+    "examples": []
+  },
+  {
+    "word": "طبال",
+    "displayWord": "طبال",
+    "translation": "ṭabbāl pl. -ūn, drummer",
+    "examples": []
+  },
+  {
+    "word": "طبلة",
+    "displayWord": "طبلة",
+    "translation": "2 ṭabla pl. -āt table",
+    "examples": []
+  },
+  {
+    "word": "طبلة",
+    "displayWord": "طبلة",
+    "translation": "ṭablīya pl. -āt, □ طبالي ṭabālī a low, round table; turntable; tray, wooden salver",
+    "examples": []
+  },
+  {
+    "word": "طبن",
+    "displayWord": "طبن",
+    "translation": "1 ṭabina a to be bright, intelligent",
+    "examples": []
+  },
+  {
+    "word": "طبن",
+    "displayWord": "طبن",
+    "translation": "ṭabin bright, intelligent 553",
+    "examples": []
+  },
+  {
+    "word": "طابونة",
+    "displayWord": "طابونة",
+    "translation": "2 ṭābūna ( طبونة ṭābūna) pl. -āt a small, jar-shaped oven, sunk in the ground, open on top, used for baking bread; bakery; (pal., eg.) (baker’s) oven",
+    "examples": []
+  },
+  {
+    "word": "طبن",
+    "displayWord": "طبن",
+    "translation": "3 ṭabbān pl. -āt (wheel) tire",
+    "examples": []
+  },
+  {
+    "word": "طبنجة",
+    "displayWord": "طبنجة",
+    "translation": "ṭabanja pl. -āt pistol",
+    "examples": []
+  },
+  {
+    "word": "طابية",
+    "displayWord": "طابية",
+    "translation": "ṭābiya pl. طواب look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "طاجن",
+    "displayWord": "طاجن",
+    "translation": "ṭājin pl. طواجن ṭawājin2 frying pan; (eg.) shallow earthen pot",
+    "examples": []
+  },
+  {
+    "word": "طحطح",
+    "displayWord": "طحطح",
+    "translation": "ṭaḥṭaḥā to break, shatter, smash ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "طحل",
+    "displayWord": "طحل",
+    "translation": "(ṭuḥl) sediment, dregs, less",
+    "examples": []
+  },
+  {
+    "word": "طحال",
+    "displayWord": "طحال",
+    "translation": "(ṭiḥāl pl. -āt, طحل ṭuḥul spleen, milt",
+    "examples": []
+  },
+  {
+    "word": "طحالي",
+    "displayWord": "طحالي",
+    "translation": "ṭiḥālī splenic",
+    "examples": []
+  },
+  {
+    "word": "طحال",
+    "displayWord": "طحال",
+    "translation": "ṭuḥal inflammation of the spleen, splenitis",
+    "examples": []
+  },
+  {
+    "word": "طحلب",
+    "displayWord": "طحلب",
+    "translation": "ṭuḥlub (coll.; n. un. ة) pl. طحالب ṭaḥālib2 water moss",
+    "examples": []
+  },
+  {
+    "word": "طحن",
+    "displayWord": "طحن",
+    "translation": "ṭaḥana a (ṭaḥn) to grind, mill, bray, pulverize ( ھ , s.th., esp. grain); to crush, ruin, destroy ( ھ، ه s.o., s.th.); to wear out, wear down ( ه s.o.), exact as heavy toll ( ه of s.o.; age, yean) VI to quarrel, wrangle, be antagonistic, be in conflict (with one another), to conflict",
+    "examples": []
+  },
+  {
+    "word": "طحن",
+    "displayWord": "طحن",
+    "translation": "ṭiḥn flour, meal",
+    "examples": []
+  },
+  {
+    "word": "طحين",
+    "displayWord": "طحين",
+    "translation": "ṭaḥīn flour, meal",
+    "examples": []
+  },
+  {
+    "word": "طحيني",
+    "displayWord": "طحيني",
+    "translation": "ṭaḥīnī mealy, farinaceous",
+    "examples": []
+  },
+  {
+    "word": "طحينية",
+    "displayWord": "طحينية",
+    "translation": "ṭaḥīnīya (eg.) a sweet made of sesame-seed, meal and sugar",
+    "examples": []
+  },
+  {
+    "word": "طحينة",
+    "displayWord": "طحينة",
+    "translation": "ṭaḥīna (eg., syr.) a thick sauce made of sesame oil, and served with salads, vegetables, etc.",
+    "examples": []
+  },
+  {
+    "word": "طحان",
+    "displayWord": "طحان",
+    "translation": "ṭaḥḥān miller",
+    "examples": []
+  },
+  {
+    "word": "طاحون",
+    "displayWord": "طاحون",
+    "translation": "ṭāḥūn and طاحونة ṭāhūna pl.",
+    "examples": []
+  },
+  {
+    "word": "طواحن",
+    "displayWord": "طواحن",
+    "translation": "ṭawāḥīn2 mill, grinder │ طاحونة الھواء ṭ. al-hawā’ windmill",
+    "examples": []
+  },
+  {
+    "word": "طاحن",
+    "displayWord": "طاحن",
+    "translation": "ṭāḥin molar tooth, grinder",
+    "examples": []
+  },
+  {
+    "word": "طاحنة",
+    "displayWord": "طاحنة",
+    "translation": "ṭāḥina pl. طواحن ṭawāḥin2 molar tooth, grinder O الطبقة الطحرورية aṭ-ṭabaqa aṭ-ṭukrūrīya the stratosphere",
+    "examples": []
+  },
+  {
+    "word": "طر",
+    "displayWord": "طر",
+    "translation": "ṭarra u (ṭarr, طرور ṭurūr) to sharpen, hone, whet ( ھ s.th.); to grow; to sprout, come out (mustache, hair)",
+    "examples": []
+  },
+  {
+    "word": "طرا",
+    "displayWord": "طرا",
+    "translation": "ṭurran altogether, all without exception, one and all",
+    "examples": []
+  },
+  {
+    "word": "طرة",
+    "displayWord": "طرة",
+    "translation": "ṭurra pl. طرر ṭurar forelock; knotted cloth or kerchief",
+    "examples": []
+  },
+  {
+    "word": "طرار",
+    "displayWord": "طرار",
+    "translation": "ṭarrār pl. طرارة ṭarrara (magr.) tambourine player; rogue, scoundrel",
+    "examples": []
+  },
+  {
+    "word": "طرأ",
+    "displayWord": "طرأ",
+    "translation": "ṭara’a a (ṭar’, طروء ṭurū’) to descend, break in, come ( على upon), overtake, befall على) s.o.), happen unexpectedly ( على to s.o.); to occur ( على or ل to s.o., of an idea) │ ماذا طرأ عليه what’s got into him all of a sudden? what’s the matter with him all of a sudden? طرأت عليه فكرة (fikratun) an idea occurred to him, he had an idea; لم يطرأ على",
+    "examples": []
+  },
+  {
+    "word": "طريء",
+    "displayWord": "طريء",
+    "translation": "ṭarī’ fresh, new",
+    "examples": []
+  },
+  {
+    "word": "طارئ",
+    "displayWord": "طارئ",
+    "translation": "ṭāri’ foreign, extraneous, extrinsic, unusual; accidental, incidental, casual, unforeseen, unexpected, contingent; a new factor or development intervening suddenly, a contingent; 554 unexpected visitor; sudden stirring, sudden impulses ( من e.g., of joy)",
+    "examples": []
+  },
+  {
+    "word": "طارئة",
+    "displayWord": "طارئة",
+    "translation": "ṭāri’a pl. طوارئ ṭawāri’ unforeseen event, unexpected case, a contingent; new factor or development; incident, accident │ حالة الطوارئ state of emergency",
+    "examples": []
+  },
+  {
+    "word": "طرآني",
+    "displayWord": "طرآني",
+    "translation": "ṭur’ānī of unknown origin, wild",
+    "examples": []
+  },
+  {
+    "word": "طرابلس",
+    "displayWord": "طرابلس",
+    "translation": "ṭarābulus طرابلس الشام : 2 Tripoli (in Lebanon); طرابلس الغرب ṭ. al-garb Tripoli (in Libya)",
+    "examples": []
+  },
+  {
+    "word": "طرب",
+    "displayWord": "طرب",
+    "translation": "ṭriba a (ṭarab) to be moved (with joy or grief); to be delighted, be overjoyed, be transported with joy II to delight, fill with delight, enrapture, please, gratify ( ه s.o.); to sing, vocalize, chant IV to delight, fill with delight, enrapture, please, gratify ( ه s.o.); to make music; to sing, vocalize, chant: to play music ( ه for s.o.), sing ( ه to s.o.)",
+    "examples": []
+  },
+  {
+    "word": "طرب",
+    "displayWord": "طرب",
+    "translation": "ṭarab pl. اطراب aṭrāb joy, pleasure, delight, rapture; amusement, entertainment (with music and the like); music │ آلة الطرب musical instrument",
+    "examples": []
+  },
+  {
+    "word": "طرب",
+    "displayWord": "طرب",
+    "translation": "ṭarib pl. طراب ṭarib moved (with joy or grief), touched, affected; delighted, enraptured, transported, pleased, charmed",
+    "examples": []
+  },
+  {
+    "word": "طروب",
+    "displayWord": "طروب",
+    "translation": "ṭarūb gay, merry, lively",
+    "examples": []
+  },
+  {
+    "word": "طربيزة",
+    "displayWord": "طربيزة",
+    "translation": "ṭarābēza (eg.) table",
+    "examples": []
+  },
+  {
+    "word": "طرابلس",
+    "displayWord": "طرابلس",
+    "translation": "look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "طربوش",
+    "displayWord": "طربوش",
+    "translation": "ṭarbūš pl. طرابيش ṭarābīš tarboosh, fez",
+    "examples": []
+  },
+  {
+    "word": "طرابيشي",
+    "displayWord": "طرابيشي",
+    "translation": "ṭarābīšī tarboooh merchant",
+    "examples": []
+  },
+  {
+    "word": "طرح",
+    "displayWord": "طرح",
+    "translation": "ṭaraḥa a (ṭarḥ) to throw, cast, fling, toss (",
+    "examples": []
+  },
+  {
+    "word": "طارحه الحديث",
+    "displayWord": "طارحه الحديث",
+    "translation": "to chat with s.o., have a conversation with s.o.; طارحه الأسئلة (as’ila) to exchange questions with s.o. V to drop, fall, or tumble to the ground VI to exchange with one another ( ھ e.g., thoughts) VII to be flung, be tossed, be thrown, be rejected, be expelled, be disowned, be repudiated; to throw o.s. down, prostrate 555 o.s. (e.g., على الأرض on the ground); to be thrown down, be dropped VIII to throw far away, fling off or away ( ھ s.th.); to discard, throw away (",
+    "examples": []
+  },
+  {
+    "word": "طرح",
+    "displayWord": "طرح",
+    "translation": "ṭarḥ expulsion, rejection, repulsion, banishment, repudiation; miscarriage, abortion; subtraction, deduction, discount │ طرح البحر ṭ. al-baḥr (eg.) alleviation, alluvial deposits",
+    "examples": []
+  },
+  {
+    "word": "طرح",
+    "displayWord": "طرح",
+    "translation": "ṭarḥ miscarried foetus",
+    "examples": []
+  },
+  {
+    "word": "طرحة",
+    "displayWord": "طرحة",
+    "translation": "ṭarḥa pl. طرح ṭuraḥ veil (sometimes embroidered) worn by Arab women as a headcloth; headcloth, head veil",
+    "examples": []
+  },
+  {
+    "word": "طريح",
+    "displayWord": "طريح",
+    "translation": "ṭarīḥ pl. طرحى ṭarḥā thrown down, cast down, dumped; thrown to the ground, felled, prostrate; expelled, banished, rejected, disowned, repudiated │ طريح الفراش bedridden, confined to bed",
+    "examples": []
+  },
+  {
+    "word": "طريحة",
+    "displayWord": "طريحة",
+    "translation": "ṭarīḥa assignment, task │ شغل",
+    "examples": []
+  },
+  {
+    "word": "طراحة",
+    "displayWord": "طراحة",
+    "translation": "ṭarrāḥa pl. طراريح ṭarārīḥ2 mattress; hassock, ottoman",
+    "examples": []
+  },
+  {
+    "word": "طرخون",
+    "displayWord": "طرخون",
+    "translation": "ṭarkūn tarragon (Artemisia dracunculus; bot.)",
+    "examples": []
+  },
+  {
+    "word": "طرد",
+    "displayWord": "طرد",
+    "translation": "ṭarada u (ṭard) to drive away, chase away, push away, shove away, reject, repel, banish, exile, dismiss, drive out, expel, evict ( ھ من، ه s.o., s.th. from); to chase, hunt, hound ( ھ، ه s.o. s.th.) │ طرده من",
+    "examples": []
+  },
+  {
+    "word": "طرد",
+    "displayWord": "طرد",
+    "translation": "ṭard driving away, chasing away, repulsion, expulsion, eviction, dismissal, banishment, expatriation; pursuit, chase, hunt; swarm (of bees); (pl. طرد ṭurūd) parcel, package │ بحث مسألة طردا وعكسا (mas’alata ṭardan wa-‘aksan) to study a problem from all sides, in all its aspects",
+    "examples": []
+  },
+  {
+    "word": "طرد",
+    "displayWord": "طرد",
+    "translation": "ṭardī parcel-, package- (in compounds), like a parcel or package",
+    "examples": []
+  },
+  {
+    "word": "طردة",
+    "displayWord": "طردة",
+    "translation": "ṭarda (n. vic.) a driving away, chasing away, repulsion, expulsion, eviction, banishment",
+    "examples": []
+  },
+  {
+    "word": "طريد",
+    "displayWord": "طريد",
+    "translation": "ṭarīd expelled, evicted, ousted, outcast, outlawed, banished, exiled, expatriate(d); fugitive, fleeing, on the 556 run; expellee; outcast, outlaw; الطريدان aṭ- ṭarīdān night and day",
+    "examples": []
+  },
+  {
+    "word": "طريدة",
+    "displayWord": "طريدة",
+    "translation": "ṭarīda pl. طرائد ṭarā’id2 game animal, game beast; game",
+    "examples": []
+  },
+  {
+    "word": "طراد",
+    "displayWord": "طراد",
+    "translation": "ṭarrād cruiser (warship); (eg.) dike, embankment, dam, levee (esp. of the Nile)",
+    "examples": []
+  },
+  {
+    "word": "طرادة",
+    "displayWord": "طرادة",
+    "translation": "ṭarrāda cruiser (warship)",
+    "examples": []
+  },
+  {
+    "word": "طراد",
+    "displayWord": "طراد",
+    "translation": "ṯirād pursuit, chase",
+    "examples": []
+  },
+  {
+    "word": "طرز",
+    "displayWord": "طرز",
+    "translation": "II to embroider ( ھ s.th.); to embellish ( ھ a story); to garnish ( ھ ب s.th., e.g., a dish with)",
+    "examples": []
+  },
+  {
+    "word": "طرز",
+    "displayWord": "طرز",
+    "translation": "ṭarz pl. طروز ṭurūz type, model, make, brand, sort, kind; fashion, style",
+    "examples": []
+  },
+  {
+    "word": "طرزي",
+    "displayWord": "طرزي",
+    "translation": "ṭarzī fashion- (in compounds)",
+    "examples": []
+  },
+  {
+    "word": "طراز",
+    "displayWord": "طراز",
+    "translation": "ṭirāz pl. طرز ṭuruz, اطرزة aṭriza type, model, class, make, brand, sort, kind, variety, species; fashion, style; architectural style; embroidery │ من الطراز",
+    "examples": []
+  },
+  {
+    "word": "طرس",
+    "displayWord": "طرس",
+    "translation": "ṭirs pl. اطرس aṭrās, طروس ṭurūs sheet (of paper); paper",
+    "examples": []
+  },
+  {
+    "word": "طرش",
+    "displayWord": "طرش",
+    "translation": "ṭariša a (ṭaraš) to be or become deaf; -- ṭaraša u to vomit, throw up, disgorge II to deafen ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "طرش",
+    "displayWord": "طرش",
+    "translation": "ṭarš whitewashing",
+    "examples": []
+  },
+  {
+    "word": "طرش",
+    "displayWord": "طرش",
+    "translation": "ṭarš pl. طروش ṭurūš (syr.) hard (of cattle), flock (of sheep)",
+    "examples": []
+  },
+  {
+    "word": "طرش",
+    "displayWord": "طرش",
+    "translation": "ṭaraš deafness",
+    "examples": []
+  },
+  {
+    "word": "طرشة",
+    "displayWord": "طرشة",
+    "translation": "ṭrša deafness",
+    "examples": []
+  },
+  {
+    "word": "طرشي",
+    "displayWord": "طرشي",
+    "translation": "2 ṭuršī mixed pickles",
+    "examples": []
+  },
+  {
+    "word": "طرطر",
+    "displayWord": "طرطر",
+    "translation": "ṭarṭara to brag, boast, swagger, show off",
+    "examples": []
+  },
+  {
+    "word": "طرطور",
+    "displayWord": "طرطور",
+    "translation": "ṭurṭūr pl. طراطير ṭarāṭīr2 high, conical cap (of dervisheo, clowns, etc.)",
+    "examples": []
+  },
+  {
+    "word": "طرطور",
+    "displayWord": "طرطور",
+    "translation": "ṭarṯūr and طراطور ṭarāṭūr (eg., syr.) a sort of mayonnaise (made of ṭaḥīna, parsley, lemon, oil, milk, garlic and nuts)",
+    "examples": []
+  },
+  {
+    "word": "طرطش",
+    "displayWord": "طرطش",
+    "translation": "ṭarṯaša to splash, bespatter, splatter ( ه s.o.); to roughcast ( ھ a building, a wall)",
+    "examples": []
+  },
+  {
+    "word": "طرطوفة",
+    "displayWord": "طرطوفة",
+    "translation": "ṭarṭūfa end, tip, point; Jerusalem artichoke (Helianthus tuberosus L.; bot.); truffle",
+    "examples": []
+  },
+  {
+    "word": "طرطير",
+    "displayWord": "طرطير",
+    "translation": "ṭarṭīr tartar, wine stone",
+    "examples": []
+  },
+  {
+    "word": "طرف",
+    "displayWord": "طرف",
+    "translation": "ṭarafa, (ṭarf) to blink, twinkle, wink, squint (also بعينيه bi-‘ainaihi); -- ṭarufa u ( طرفة ṭarāfa) to be newly acquired, be a recent acquisition IV to feature or tell s.th. new or novel, say s.th. new or original, introduce a novel angle or idea; to present ( ه s.o. ب with s.th. new or novel), give ( ه to s.o. ب s.th. new or novel) V to be on the extreme 557 side, hold an extreme viewpoint or position, go to extremes, be radical, have radical views",
+    "examples": []
+  },
+  {
+    "word": "طرف",
+    "displayWord": "طرف",
+    "translation": "ṭarf eye; glance, look │ ما اشار",
+    "examples": []
+  },
+  {
+    "word": "طرف",
+    "displayWord": "طرف",
+    "translation": "ṭaraf pl. اطراف aṭrāf utmost part, outermost point, extremity, end, tip, point, edge, fringe, limit, border; side; region, area, section; طرف من part of, a bit of, some; party (as, to a dispute, of a contract, etc.); ṭarafa (prep.) with, at, on the part or side of; pl. اطراف limbs, extremities; (with foll. genit.) sections of, parts of │ طرفي",
+    "examples": []
+  },
+  {
+    "word": "طرفة",
+    "displayWord": "طرفة",
+    "translation": "ṭarfa: بطرفة عين bi-ṭ. ‘ainin and في",
+    "examples": []
+  },
+  {
+    "word": "طرفة عين",
+    "displayWord": "طرفة عين",
+    "translation": "in the twinkling of an eye, instantly; ما -- طرفة عين (ṭarfata) not one moment",
+    "examples": []
+  },
+  {
+    "word": "طرفة",
+    "displayWord": "طرفة",
+    "translation": "ṭurfa pl. طرف ṭuraf novelty, rarity, curiosity, curio, rare object, choice item; exquisite present; masterpiece, chefd’oeuvre; hit, high light, pièce de résistance",
+    "examples": []
+  },
+  {
+    "word": "طرفاء",
+    "displayWord": "طرفاء",
+    "translation": "ṭarfā’2 (coll.; n. un. ة) tamarisk (bot.)",
+    "examples": []
+  },
+  {
+    "word": "طريف",
+    "displayWord": "طريف",
+    "translation": "ṭarīf curious, strange, odd; novel, exquisite, singular, rare, uncommon",
+    "examples": []
+  },
+  {
+    "word": "طريفة",
+    "displayWord": "طريفة",
+    "translation": "ṭarīfa pl. طريفة tarīfa rare, exquisite thing; uncommon object or piece (e.g., of art); pl. طرائف curiosities, oddities, uncommon qualities",
+    "examples": []
+  },
+  {
+    "word": "طرافة",
+    "displayWord": "طرافة",
+    "translation": "ṭarāfa novelty, uncommonness, peculiarity, oddness, strangeness, curiosity, originality",
+    "examples": []
+  },
+  {
+    "word": "طارف",
+    "displayWord": "طارف",
+    "translation": "ṭārif newly acquired",
+    "examples": []
+  },
+  {
+    "word": "طرق",
+    "displayWord": "طرق",
+    "translation": "taraqa u (ṭarq) to knock, rap, bang ( ھ at, on, esp. at a door); to hammer, strike with a hammer, forge ( ھ s.th. esp. metal); to come over s.o. ( ھ ), befall ( ب s.o.; of a feeling); to come ( ه، ھ to, upon; also of events); to reach ( ھ s.th.), get to s.th. ( ,(ھ get as far as s.th. ( ھ ); to come by night │",
+    "examples": []
+  },
+  {
+    "word": "طرق اذنه",
+    "displayWord": "طرق اذنه",
+    "translation": "(udunahū) to strike s.o.’s ear, reach s.o.’s ear; طرق بباله (bi-bālihī) to occur to s.o., come to s.o.’s mind; طرق في",
+    "examples": []
+  },
+  {
+    "word": "طرق مسامعه",
+    "displayWord": "طرق مسامعه",
+    "translation": "to reach s.o.’s ear, come to s.o.’s knowledge or attention; طرق طريقا to tread, travel, follow, take, or use a road;",
+    "examples": []
+  },
+  {
+    "word": "طرق موضوعا",
+    "displayWord": "طرق موضوعا",
+    "translation": "to treat of a subject, discuss a 558 topic; to broach a subject, touch on a theme II to hammer, strike with a hammer, forge, extend ( ھ s.th., esp. metal) IV to bow one's head in silence │ اطرق",
+    "examples": []
+  },
+  {
+    "word": "طرقة",
+    "displayWord": "طرقة",
+    "translation": "ṭarqa (n. vic.) pl. ṭaraqāt knock, rap(ping), bang(ing) (e.g., at a door); blow; one time (= مرة )، طرقتين , ṭarqatain twice",
+    "examples": []
+  },
+  {
+    "word": "طرقة",
+    "displayWord": "طرقة",
+    "translation": "ṭurqa way, road; passage, passageway, alleyway, corridor",
+    "examples": []
   },
   {
     "word": "طريق",
-    "displayWord": "طَرِيق",
-    "root": "طرق",
-    "translation": "road, path, way, method",
-    "examples": [
-      {
-        "ar": "وَأَنَّ هَٰذَا صِرَاطِي مُسْتَقِيمًا فَاتَّبِعُوهُ.",
-        "en": "And, [moreover], this is My path, which is straight, so follow it.",
-        "source": "Holy Quran"
-      }
-    ]
+    "displayWord": "طريق",
+    "translation": "ṭarīq m. and f., pl. طرق ṭuruq,",
+    "examples": []
   },
   {
-    "word": "طبيعه",
-    "displayWord": "طَبِيعَة",
-    "root": "طبع",
-    "translation": "nature, character, temperament",
-    "examples": [
-      {
-        "ar": "طَبِيعَةُ الرِّيفِ الهَادِئَةُ تُسَاعِدُ عَلَى التَّأَمُّلِ.",
-        "en": "The quiet nature of the countryside helps in meditation.",
-        "source": "Scenic Essay"
-      }
-    ]
+    "word": "طرقات",
+    "displayWord": "طرقات",
+    "translation": "ṭuruqāt way; road, highway; trail, track, path; method │ طريق الجو ṭ. al-jaww air route; طريق البحر ṭ. al-baḥr sea route;",
+    "examples": []
   },
   {
-    "word": "طاقه",
-    "displayWord": "طَاقَة",
-    "root": "طوق",
-    "translation": "energy, capacity, power, window",
-    "examples": [
-      {
-        "ar": "لَا تُكَلِّفْ نَفْسًا إِلَّا وُسْعَهَا.",
-        "en": "Do not burden a soul except with its capacity.",
-        "source": "Holy Quran"
-      }
-    ]
+    "word": "طريق رئيسي",
+    "displayWord": "طريق رئيسي",
+    "translation": "(ra’īsī) main road; طريق عام (‘āmm) public road, highway, thoroughfare; طريق عمومية (‘umūmīya) do.;",
+    "examples": []
+  },
+  {
+    "word": "طريقة",
+    "displayWord": "طريقة",
+    "translation": "ṭarīqa pl. طرائق ṭarā’iq طرق , 2 ṭuruq manner, mode, means; way, method, procedure; system; creed, faith, religion; (pl. -āt, طرق ṭuruq) religious brotherhood, dervish order │ طريقة",
+    "examples": []
+  },
+  {
+    "word": "طرقي",
+    "displayWord": "طرقي",
+    "translation": "ṭuruqī pl. -ūn adherent of a religious brotherhood",
+    "examples": []
+  },
+  {
+    "word": "طارق",
+    "displayWord": "طارق",
+    "translation": "ṭāriq pl. طراق ṭurrāq knocking, rapping, banging, striking, beating; nocturnal visitor",
+    "examples": []
+  },
+  {
+    "word": "طارقة",
+    "displayWord": "طارقة",
+    "translation": "ṭāriqa pl. طوارق ṭawāriq2 misfortune, disaster, calamity",
+    "examples": []
+  },
+  {
+    "word": "طرقع",
+    "displayWord": "طرقع",
+    "translation": "ṭarqa‘a (eg.) to crack (intr., also trans.: ب or ھ s.th., e.g., a whip); to crack, crunch (",
+    "examples": []
+  },
+  {
+    "word": "طارمة",
+    "displayWord": "طارمة",
+    "translation": "ṭārima pl. -āt kiosk, booth, cabin, stall",
+    "examples": []
+  },
+  {
+    "word": "طرمبة",
+    "displayWord": "طرمبة",
+    "translation": "ṭurumba pl. -āt pump",
+    "examples": []
+  },
+  {
+    "word": "طرو",
+    "displayWord": "طرو",
+    "translation": ") and طرو (طرى ṭaruwa u, طري ṭariya a (",
+    "examples": []
+  },
+  {
+    "word": "طراوة",
+    "displayWord": "طراوة",
+    "translation": "ṭarāwa) to be or become fresh, succulent, moist, tender, soft, mild II to make fresh, succulent, moist, tender, soft, mild ( ھ s.th.); to moisten, wet ( ھ s.th.); to perfume, scent ( ھ s.th.) IV to praise (highly), extol, laud ( ه s.o.), lavish praise (",
+    "examples": []
+  },
+  {
+    "word": "طري",
+    "displayWord": "طري",
+    "translation": "ṭarīy fresh, succulent, new; moist; tender, soft, mild",
+    "examples": []
+  },
+  {
+    "word": "طراوة",
+    "displayWord": "طراوة",
+    "translation": "ṭarāwa freshness, succulence, moistness; tenderness, softness, mildness │ طراوة الخلق ṭ. al-kulq gentleness; softness of character",
+    "examples": []
+  },
+  {
+    "word": "طروادة",
+    "displayWord": "طروادة",
+    "translation": "ṭirwāda2 (from Fr. Troade) Troy",
+    "examples": []
+  },
+  {
+    "word": "طازج",
+    "displayWord": "طازج",
+    "translation": "ṭāzaj look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "طزلق",
+    "displayWord": "طزلق",
+    "translation": "(Turk. tozluk) ṭuzluq pl. طزالق ṭazāliq2 gaiter(s), legging(s)",
+    "examples": []
+  },
+  {
+    "word": "طازة",
+    "displayWord": "طازة",
+    "translation": "ṭāza look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "طزينة",
+    "displayWord": "طزينة",
+    "translation": "(It. dozzina) pl. طزازن ṭazāzin2 dozen",
+    "examples": []
+  },
+  {
+    "word": "طست",
+    "displayWord": "طست",
+    "translation": "ṭast, ṭist pl. طسوت ṭusūt basin; washbasin, washbowl",
+    "examples": []
+  },
+  {
+    "word": "طشت",
+    "displayWord": "طشت",
+    "translation": "ṭašt, ṭišt pl. طشوت ṭušūt basin; washbasin, washbowl",
+    "examples": []
+  },
+  {
+    "word": "طشقند",
+    "displayWord": "طشقند",
+    "translation": "ṭašqand Tashkent (capital of Uzbek S.S.R.)",
+    "examples": []
+  },
+  {
+    "word": "طصلق",
+    "displayWord": "طصلق",
+    "translation": "ṭaṣlaqa (eg.) to do inaccurately, perform sloppily, bungle, botch, scamp ( ھ a job, work)",
+    "examples": []
+  },
+  {
+    "word": "طصلقة",
+    "displayWord": "طصلقة",
+    "translation": "ṭaṣlaqa inaccurate, sloppy, or slipsbod work",
+    "examples": []
+  },
+  {
+    "word": "طعم",
+    "displayWord": "طعم",
+    "translation": "ṭa‘ima a (ṭa‘m) to eat ( ھ s.th.); to taste ( ھ s.th.); to relish, enjoy, savor (A s.th.) II to graft, engraft ( ھ s.th.); to inoculate, vaccinate ( ب ه s.o. with); to inlay ( ب ھ s.th. with, e.g., wood with ivory) IV to feed, give to eat ( ھ ه s.o. s.th.), nourish ( ھ",
+    "examples": []
+  },
+  {
+    "word": "طعم",
+    "displayWord": "طعم",
+    "translation": "ṭa‘m pl. طعوم ṭu‘ūm taste, flavor, savor; pleasing flavor, relish",
+    "examples": []
+  },
+  {
+    "word": "طعمية",
+    "displayWord": "طعمية",
+    "translation": "ṭa‘mīya (eg.) patty made of beans, and seasoned with onion, garlic and parsley",
+    "examples": []
+  },
+  {
+    "word": "طعم",
+    "displayWord": "طعم",
+    "translation": "ṭu‘m graft, cion; bait, lure, decoy; (pl. طعوم ṭu‘ūm) vaccine",
+    "examples": []
+  },
+  {
+    "word": "طعم",
+    "displayWord": "طعم",
+    "translation": "ṭa‘im tasty, savory, delicious",
+    "examples": []
+  },
+  {
+    "word": "طعمة",
+    "displayWord": "طعمة",
+    "translation": "ṭu‘ma pl. طعم ṭu‘am food; bait; quarry, catch, bag │ اصبح طعمة النيران aṣbaḥa ṭu‘mata n-nīrān to be destroyed by fire; طعمة لمدافع الحرب (li-madāfi‘i l-ḥarb) cannon fodder",
+    "examples": []
+  },
+  {
+    "word": "طعام",
+    "displayWord": "طعام",
+    "translation": "ṭa‘ām pl. اطعمة aṭ‘ima, food, nourishment, nutriment, fare, diet; meal, repast │ اضرب عن الطعام (aḍraba) to go on a hunger strike",
+    "examples": []
+  },
+  {
+    "word": "طعن",
+    "displayWord": "طعن",
+    "translation": "ṭa‘ana u a (ṭa‘n) to thrust, pierce, transfix",
+    "examples": []
+  },
+  {
+    "word": "طعن في السن",
+    "displayWord": "طعن في السن",
+    "translation": "(sinn) to be advanced in years, be old; طعن في القول (qaul) to refute a (theological) doctrine VI to thrust each other; to attack each other, battle one another",
+    "examples": []
+  },
+  {
+    "word": "طعن",
+    "displayWord": "طعن",
+    "translation": "ṭa‘n piercing, transfixion; slandering, calumniation, defamation; appeal ( في against; jur.), challenge, contestation, impeachment ( في of; jur.); pl.",
+    "examples": []
+  },
+  {
+    "word": "طعون",
+    "displayWord": "طعون",
+    "translation": "ṭu‘ūn calumnies, defamations; attacks",
+    "examples": []
+  },
+  {
+    "word": "طعنة",
+    "displayWord": "طعنة",
+    "translation": "ṭa‘na (n. vic.) pl. ṭa‘anāt stab, thrust; attack; calumny, defamation, vilification",
+    "examples": []
+  },
+  {
+    "word": "طاعون",
+    "displayWord": "طاعون",
+    "translation": "ṭā‘ūn pl. طواعين ṭawā‘īn2 plague, pestilence │ الطاعون الدملي (dummalī) bubonic plague; الطاعون البقري (baqarī) and",
+    "examples": []
+  },
+  {
+    "word": "طاعون الماشية",
+    "displayWord": "طاعون الماشية",
+    "translation": "ṭ. al-māšiya rinderpest, cattle plague, steppe murrain 560",
+    "examples": []
+  },
+  {
+    "word": "طاعن",
+    "displayWord": "طاعن",
+    "translation": "ṭā‘in and طاعن في السن (sinn) aged, old, advanced in years │ رسالة طاعنة lampoon",
+    "examples": []
+  },
+  {
+    "word": "طغار",
+    "displayWord": "طغار",
+    "translation": "1 an Iraqi weight equaling 2000 kg, in Basra 1537 kg",
+    "examples": []
+  },
+  {
+    "word": "طغراء",
+    "displayWord": "طغراء",
+    "translation": "2 ṭugrā’ pl. -āt tughra, calligraphically intricate signature of the Ottoman Sultan, interwoven with his father’s name and his own honorific, customarily used on written decrees, state documents and coins",
+    "examples": []
+  },
+  {
+    "word": "طغرى",
+    "displayWord": "طغرى",
+    "translation": "ṭugrā = طغراء ṭugrā’2",
+    "examples": []
+  },
+  {
+    "word": "طغام",
+    "displayWord": "طغام",
+    "translation": "ṭagām common people, populace; lowly, insignificant",
+    "examples": []
+  },
+  {
+    "word": "طغمة",
+    "displayWord": "طغمة",
+    "translation": "ṭugma, ṭagma pl. -āt band, troop, group طغو) and طغي) طغا ṭagā u and طغى ṭagā a (ṭagy) and ṭagiya a ( طغى ṭagan, طغيان ṭugyān) to exceed proper bounds, overstep the bounds, be excessive; to be rough, tumultuous, rage (sea); to overflow, leave its banks (river); to flood, overflow, inundate, deluge ( على s.th.); to overcome, seize, grip, befall ( على s.o.); to be tyrannical or cruel ( على against s.o.), tyrannize, oppress, terrorize ( على s.o.), ride roughshod ( على over s.o.); -- طغى ṭagā a to predominate, prevail, preponderate ( على in, at), dominate, outweigh, outbalance (",
+    "examples": []
+  },
+  {
+    "word": "طغوان",
+    "displayWord": "طغوان",
+    "translation": "ṭugwān flood, inundation, deluge",
+    "examples": []
+  },
+  {
+    "word": "طغيان",
+    "displayWord": "طغيان",
+    "translation": "ṭugyān flood, inundation, deluge; tyranny, oppression, suppression, repression, terrorization",
+    "examples": []
+  },
+  {
+    "word": "طاغ",
+    "displayWord": "طاغ",
+    "translation": "ṭāgin pl. طغاة ṭugāh tyrant, oppressor, despot",
+    "examples": []
+  },
+  {
+    "word": "طاغ",
+    "displayWord": "طاغ",
+    "translation": "ṭāgiya tyrant, oppressor, despot; bully, brute, gorilla",
+    "examples": []
+  },
+  {
+    "word": "طاغوت",
+    "displayWord": "طاغوت",
+    "translation": "ṭāgūt an idol, a false god; seducer, tempter (to error)",
+    "examples": []
+  },
+  {
+    "word": "طف",
+    "displayWord": "طف",
+    "translation": "II to make deficient or scanty ( ھ s.th.); to be niggardly, stingy ( على toward s.o.), stint على) s.o.)",
+    "examples": []
+  },
+  {
+    "word": "طفيف",
+    "displayWord": "طفيف",
+    "translation": "ṭafīf deficient; small, little, slight, trivial, trifling, insignificant, inconsiderable",
+    "examples": []
+  },
+  {
+    "word": "طفئ",
+    "displayWord": "طفئ",
+    "translation": "ṭafi’a a ( طفوء ṭufū’) to go out, die down, be extinguished (fire, light); to be out, have gone out (fire, lamp) IV to put out, extinguish, smother, stifle ( ھ a fire), turn off, switch off ( ھ light); to quench ( ھ fire, thirst), slake ( ھ thirst, also lime) │",
+    "examples": []
+  },
+  {
+    "word": "طفح",
+    "displayWord": "طفح",
+    "translation": "ṭafaḥa a (ṭafḥ, طفوح ṭufūḥ) to flow over, run over, overflow ( ب with, also, e.g., the heart with generosity, etc.); to cause to overflow ( ب e.g., the milk) II to fill to overflowing, fill to the brim ( ھ a vessel); to overfill ( ھ s.th.) IV = II",
+    "examples": []
+  },
+  {
+    "word": "طفح",
+    "displayWord": "طفح",
+    "translation": "ṭafḥ superabundance, repletion; skin eruption, rash, exanthema (med.)",
+    "examples": []
+  },
+  {
+    "word": "طفحة",
+    "displayWord": "طفحة",
+    "translation": "ṭafḥa skin eruption, rash, exanthema (med.)",
+    "examples": []
+  },
+  {
+    "word": "طفحي",
+    "displayWord": "طفحي",
+    "translation": "ṭafḥī eruptive, exanthematic (med.)",
+    "examples": []
+  },
+  {
+    "word": "طفوح",
+    "displayWord": "طفوح",
+    "translation": "ṭufūḥ superabundance, repletion",
+    "examples": []
+  },
+  {
+    "word": "طفاحة",
+    "displayWord": "طفاحة",
+    "translation": "ṭufāḥa skimmings, foam, froth",
+    "examples": []
+  },
+  {
+    "word": "طفحان",
+    "displayWord": "طفحان",
+    "translation": "ṭafḥān2, f. طفحى ṭafḥā flowing over, running over, brimful, replete, overfull, filled to overflowing",
+    "examples": []
+  },
+  {
+    "word": "طفح",
+    "displayWord": "طفح",
+    "translation": "ṭāfiḥ flowing over, running over, brimful, replete, overfull, filled to overflowing",
+    "examples": []
+  },
+  {
+    "word": "طفر",
+    "displayWord": "طفر",
+    "translation": "ṭafara i (ṭafr) to jump, leap, bounce │",
+    "examples": []
+  },
+  {
+    "word": "طفرت جوانحھا",
+    "displayWord": "طفرت جوانحھا",
+    "translation": "approx.: her bosom heaved violently (with joyous agitation)",
+    "examples": []
+  },
+  {
+    "word": "طفرة",
+    "displayWord": "طفرة",
+    "translation": "ṭafra jump, leap, bounce, bound; impulsive motion, impetuosity; upswing, rise, upturn, successful step; ṭafratan in one leap",
+    "examples": []
+  },
+  {
+    "word": "طفران",
+    "displayWord": "طفران",
+    "translation": "ṭafrān pauper, have-not 2□ طفر ṭafar (= ثفر ) crupper (of the saddle)",
+    "examples": []
+  },
+  {
+    "word": "طفش",
+    "displayWord": "طفش",
+    "translation": "ṭafaša i (ṭafš) to run away, flee, escape (eg.)",
+    "examples": []
+  },
+  {
+    "word": "طفق",
+    "displayWord": "طفق",
+    "translation": "ṭafiqa a (ṭafaq) with foll. imperf.: to begin, set out to do s.th.; to do s.th. suddenly",
+    "examples": []
   },
   {
     "word": "طفل",
-    "displayWord": "طِفْل",
-    "root": "طفل",
-    "translation": "child, infant",
-    "examples": [
-      {
-        "ar": "نَامَ الطِّفْلُ الصَّغِيرُ بِهُدُوءٍ فِي مَهْدِهِ.",
-        "en": "The young child slept peacefully in his cradle.",
-        "source": "Narrative Tale"
-      }
-    ]
+    "displayWord": "طفل",
+    "translation": "ṭafl tender, soft; potter’s clay, argil",
+    "examples": []
+  },
+  {
+    "word": "طفل",
+    "displayWord": "طفل",
+    "translation": "ṭifl pl. اطفال aṭfāl infant, baby, child",
+    "examples": []
+  },
+  {
+    "word": "طفلة",
+    "displayWord": "طفلة",
+    "translation": "ṭifla little girl",
+    "examples": []
+  },
+  {
+    "word": "طفلي",
+    "displayWord": "طفلي",
+    "translation": "ṭiflī child (adj.), baby (adj.), children’s, of or pertaining to childhood or infancy; infantile, childlike, childish │",
+    "examples": []
+  },
+  {
+    "word": "طفل",
+    "displayWord": "طفل",
+    "translation": "ṭafal infancy, babyhood, early childhood; childhood, childhood stage",
+    "examples": []
+  },
+  {
+    "word": "طفل",
+    "displayWord": "طفل",
+    "translation": "ṭafla potter’s clay, argil",
+    "examples": []
+  },
+  {
+    "word": "طفال",
+    "displayWord": "طفال",
+    "translation": "ṭufāl potter’s clay; argil; clay, loam",
+    "examples": []
+  },
+  {
+    "word": "طفالة",
+    "displayWord": "طفالة",
+    "translation": "ṭafāla infancy, babyhood, early childhood; childhood, childhood stage; initial stage, beginnings, dawn, early period",
+    "examples": []
+  },
+  {
+    "word": "طفولة",
+    "displayWord": "طفولة",
+    "translation": "tufūla infancy, babyhood, early childhood; childhood, childhood stage; children",
+    "examples": []
+  },
+  {
+    "word": "طفولية",
+    "displayWord": "طفولية",
+    "translation": "ṭufūlīya infancy, babyhood, early childhood; childhood, childhood stage",
+    "examples": []
+  },
+  {
+    "word": "طفولي",
+    "displayWord": "طفولي",
+    "translation": "ṭufūlī child (adj.), baby (adj.), children’s, of or pertaining to childhood or infancy; infantile, childlike, childish",
+    "examples": []
+  },
+  {
+    "word": "طفيلي",
+    "displayWord": "طفيلي",
+    "translation": "ṭufailī uninvited guest, intruder, obtruder, sponger, hanger-on, parasite, sycophant; pl. طفيليات parasites (med., biol.) │ علم الطفيليات ‘ilm aṭ. parasitology",
+    "examples": []
+  },
+  {
+    "word": "طفا",
+    "displayWord": "طفا",
+    "translation": "(طفو ) ṭafā u ( طفو ṭafw, ṭufūw) to float, drift; to emerge, rise to the surface │",
+    "examples": []
+  },
+  {
+    "word": "طفا به الى السطح",
+    "displayWord": "طفا به الى السطح",
+    "translation": "(saṭḥ) to bring s.th. to the surface 562",
+    "examples": []
+  },
+  {
+    "word": "طفاءة",
+    "displayWord": "طفاءة",
+    "translation": "ṭufā’a anything drifting or floating, driftage, floatage, flotsam; halo (around the sun or moon)",
+    "examples": []
+  },
+  {
+    "word": "طاف",
+    "displayWord": "طاف",
+    "translation": "ṭāfin superficial",
+    "examples": []
+  },
+  {
+    "word": "طافية",
+    "displayWord": "طافية",
+    "translation": "ṭāfiya floating iceberg □ طفاية ṭaffāya see طفئ",
+    "examples": []
+  },
+  {
+    "word": "طق",
+    "displayWord": "طق",
+    "translation": "ṭaqqa u (ṭaqq) to crack, pop; to clack, smack, flap; to burst, explode",
+    "examples": []
+  },
+  {
+    "word": "طقس",
+    "displayWord": "طقس",
+    "translation": "II to introduce into one of the orders of the ministry (Chr.) V to perform a rite, follow a ritual",
+    "examples": []
+  },
+  {
+    "word": "طقس",
+    "displayWord": "طقس",
+    "translation": "ṭaqs weather; climate; -- (pl. طقوس ṭuqūs) rite, ritual; religious custom; order of the ministry, clerical rank (Chr.)",
+    "examples": []
+  },
+  {
+    "word": "طقسي",
+    "displayWord": "طقسي",
+    "translation": "ṭaqsī liturgical; liturgist (Chr.);",
+    "examples": []
+  },
+  {
+    "word": "طقطق",
+    "displayWord": "طقطق",
+    "translation": "ṭaqṭaqa to crack, snap, rattle, clatter, chug, pop, crash; to crackle, (de)crepitate, rustle",
+    "examples": []
+  },
+  {
+    "word": "طقطوقة",
+    "displayWord": "طقطوقة",
+    "translation": "ṭaqṭūqa crash, bang; clap, thud, crack, pop; (pl. طقاطيق ṭaqāṭīq) ditty, gay, popular song",
+    "examples": []
+  },
+  {
+    "word": "طقم",
+    "displayWord": "طقم",
+    "translation": "II to harness, bridle ( ھ a horse)",
+    "examples": []
+  },
+  {
+    "word": "طقم",
+    "displayWord": "طقم",
+    "translation": "ṭaqm pl. طقوم ṭuqūm, طقومة ṭuqūma,",
+    "examples": []
+  },
+  {
+    "word": "طاقم",
+    "displayWord": "طاقم",
+    "translation": "tāqim = ṭaqm; crew (of a ship) │",
+    "examples": []
+  },
+  {
+    "word": "طاقم الأسنان",
+    "displayWord": "طاقم الأسنان",
+    "translation": "denture, set of teeth",
+    "examples": []
+  },
+  {
+    "word": "طل",
+    "displayWord": "طل",
+    "translation": "ṭalla u (ṭall) to bespray, besprinkle, bedrizzle, bedew ( ھ s.th., esp. the sky -- the earth); -- ṭalla u to emerge, rise, loom up, come into view, appear, show IV to look down ( على upon), tower ( على above), command a view of s.th. ( على ), overlook, survey ( على s.th.); to command, dominate, overtop ( على s.th., e.g., the surrounding area); (of a room, window, etc.) to open (",
+    "examples": []
+  },
+  {
+    "word": "طل",
+    "displayWord": "طل",
+    "translation": "ṭall pl. اطلال ṭilāl dew; fine rain, drizzle",
+    "examples": []
+  },
+  {
+    "word": "طلل",
+    "displayWord": "طلل",
+    "translation": "ṭalal pl. اطلال aṭlāl, طلول ṭulūl, used chiefly in the pl.: remains, ruins (of houses); remains, or traces, of an abandoned encampment",
+    "examples": []
   },
   {
     "word": "طلب",
-    "displayWord": "طَلَب",
-    "root": "طلب",
-    "translation": "request, demand, seeking / also (طَلَبَ) he sought",
-    "examples": [
-      {
-        "ar": "طَلَبُ العِلْمِ فَرِيضَةٌ عَلَى كُلِّ مُسْلِمٍ.",
-        "en": "Seeking knowledge is a duty upon every Muslim.",
-        "source": "Hadith"
-      }
-    ]
+    "displayWord": "طلب",
+    "translation": "ṭalaba u (ṭalab, مطلب maṭlab) to look, search ( ھ، ه for s.o., for s.th.); to set out ( ھ for a place). get on one’s way ( ھ to), go to see ( ھ، ه s.o., s.th.); to request ( ھ s.th.), apply ( ھ for); to seek, try to obtain, claim",
+    "examples": []
+  },
+  {
+    "word": "طلب",
+    "displayWord": "طلب",
+    "translation": "ṭalab search, quest, pursuit; -- (pl. -āt) demand, claim, call (for), invitation (to), solicitation, wish, desire, request, entreaty j application, petition; order, commission; demand (com.); study │ تحت",
+    "examples": []
+  },
+  {
+    "word": "طلبه",
+    "displayWord": "طلبه",
+    "translation": "at s.o.’s disposal; عند الطلب and لدى",
+    "examples": []
+  },
+  {
+    "word": "طلبة",
+    "displayWord": "طلبة",
+    "translation": "ṭalba litany, prayer (Chr.)",
+    "examples": []
+  },
+  {
+    "word": "طلبة",
+    "displayWord": "طلبة",
+    "translation": "ṭaliba, ṭilba desire, wish, request, demand; application",
+    "examples": []
+  },
+  {
+    "word": "طلبية",
+    "displayWord": "طلبية",
+    "translation": "ṭalabīya pl. -āt order, commission (com.)",
+    "examples": []
+  },
+  {
+    "word": "طلاب",
+    "displayWord": "طلاب",
+    "translation": "ṭallāb exacting, persistently claiming or demanding",
+    "examples": []
+  },
+  {
+    "word": "طالب",
+    "displayWord": "طالب",
+    "translation": "ṭālib pl. طلاب ṭullāb, طلبة ṭalaba seeker, pursuer; claimer, claimant; applicant, petitioner; candidate; student, scholar, also طالب العلم ṭ. al-‘ilm; pupil; a naval rank, approx.: midshipman (Eg. 1939) │ طالب ممتاز (mumtāz) a naval rank, approx.: ensign (Eg. طلاب الحاجات ;( 1939 petitioners; طالب الزواج ṭ. az-zawāj suitor",
+    "examples": []
+  },
+  {
+    "word": "طالبي",
+    "displayWord": "طالبي",
+    "translation": "ṭālibī student’s, student- (in compounds), of or pertaining to studies or students",
+    "examples": []
+  },
+  {
+    "word": "طلح",
+    "displayWord": "طلح",
+    "translation": "ṭalaḥa u ( طلاح ṭalāḥ) to be or become bad, evil, wioked, vicioUi. depraved",
+    "examples": []
+  },
+  {
+    "word": "طلح",
+    "displayWord": "طلح",
+    "translation": "ṭalḥ (coll.; n. un. ة) pl. طلوح ṭulūḥ a variety of accacia (Acacia gummifera); banana tree; banana",
+    "examples": []
+  },
+  {
+    "word": "طلحية",
+    "displayWord": "طلحية",
+    "translation": "ṭalḥīya pl. طلاحى ṭalāḥīy sheet of paper",
+    "examples": []
+  },
+  {
+    "word": "طليحة",
+    "displayWord": "طليحة",
+    "translation": "ṭalīḥa (syr.) ream of paper",
+    "examples": []
+  },
+  {
+    "word": "طالح",
+    "displayWord": "طالح",
+    "translation": "ṭāliḥ bed, evil, wicked, vicious, depraved, villainous",
+    "examples": []
+  },
+  {
+    "word": "طلس",
+    "displayWord": "طلس",
+    "translation": "1 ṭalasa i (ṭals) to efface, obliterate, blot out ( ھ s.th., esp. writing)",
+    "examples": []
+  },
+  {
+    "word": "طلس",
+    "displayWord": "طلس",
+    "translation": "ṭals effacement, obliteration",
+    "examples": []
+  },
+  {
+    "word": "طلس",
+    "displayWord": "طلس",
+    "translation": "ṭils effaced, obliterated, blotted out (inscription); illegible",
+    "examples": []
+  },
+  {
+    "word": "طلسانة",
+    "displayWord": "طلسانة",
+    "translation": "1 ṭalasāna (eg.) coping (arch.)",
+    "examples": []
+  },
+  {
+    "word": "طيلسان",
+    "displayWord": "طيلسان",
+    "translation": "2 ṭailasān pl. طيالسة ṭayālisa look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "طلسم",
+    "displayWord": "طلسم",
+    "translation": "ṭilasm, ṭilasm pl. -āt, طلاسم ṭalāsim2 talisman, a seal, or the like, inscribed with mysterious words or characters; charm, magical combination of words; pl. طلاسم cryptic characters",
+    "examples": []
+  },
+  {
+    "word": "طلع",
+    "displayWord": "طلع",
+    "translation": "ṭala‘a u ( طلوع ṭulū‘, مطلع maṭla‘) to rise, ascend, come up (esp. of celestial bodies); to come into view, appear, show, become visible; to erupt (tooth), come up, sprout, break forth (plant); to go out, get out, come out, emerge ( من from); to come suddenly ( على upon s.o. or s.th.), overtake على) s.o., s.th.); طلع عليه ب to take or bring to s.o. s.th.; -- ṭala‘a a u ( طلوع ṭulū‘) and ṭali‘a a to mount, ascend, climb, scale ( ھ s.th.); to get ( ھ on top of s.th., aboard s.th., into an automobile, on a train, etc.), board ( ھ a train, etc.) III to read, peruse (",
+    "examples": []
+  },
+  {
+    "word": "طلع",
+    "displayWord": "طلع",
+    "translation": "ṭal‘ (also coll.) spadix or inflorescence of the palm tree; pollen",
+    "examples": []
+  },
+  {
+    "word": "طلعة",
+    "displayWord": "طلعة",
+    "translation": "ṭal‘a look(s), appearance, aspect, outward appearance, guise",
+    "examples": []
+  },
+  {
+    "word": "طلعة",
+    "displayWord": "طلعة",
+    "translation": "ṭula‘a inquisitive, nosy, curious",
+    "examples": []
+  },
+  {
+    "word": "طلاع",
+    "displayWord": "طلاع",
+    "translation": "ṭallā‘ striving, aspiring │ طلاع",
+    "examples": []
+  },
+  {
+    "word": "طلوع",
+    "displayWord": "طلوع",
+    "translation": "ṭulū‘ rising, going up, ascending, ascension; rise (esp. of celestial bodies); appearance; climbing, ascent (of a mountain)",
+    "examples": []
+  },
+  {
+    "word": "طليعة",
+    "displayWord": "طليعة",
+    "translation": "ṭalī‘a pl. مطالع maṭāli‘ front row, foremost rank, vanguard, avant-garde; pl. harbingers, precursors, presages, portents, first indications, symptoms; beginnings │",
+    "examples": []
+  },
+  {
+    "word": "طالع",
+    "displayWord": "طالع",
+    "translation": "ṭāli‘ pl. طوالع ṭawāli‘2 rising, ascending (esp. a celestial body); star of destiny; ascendant, nativity │ حسن الطالع ḥusn aṭ-ṭ. good fortune, lucky star, good luck; لحسن طالعي luckily for me, fortunately; سيء الطالع sayyi’ aṭ-ṭ. illstarred, ill-fated, unfortunate, unlucky; hapless person; ساء طالعه (ṭāli‘uhū) he fell on evil days, he met with ill fortune",
+    "examples": []
+  },
+  {
+    "word": "طالعة",
+    "displayWord": "طالعة",
+    "translation": "ṭāli‘a out-set, beginning, start",
+    "examples": []
+  },
+  {
+    "word": "طلق",
+    "displayWord": "طلق",
+    "translation": "țaluqa u ( طلاقة ṭalāqa) to he cheerful, jovial, happy (face, countenance); -- ṭalaqāt u, ṭaluqat u ( طلاق ṭalāq) to be divorced, get a. divorce (said of a woman); -- pass ṭuliqat ( طلق ṭalq) to be in labor II to set loose, release, set free, let go ( ھ، ه s.o., s.th.); to leave, forsake (",
+    "examples": []
+  },
+  {
+    "word": "طلق",
+    "displayWord": "طلق",
+    "translation": "ṭalq talc (min.); labor pains, travail; free, open, unconfined, unrestrained, unimpeded, uninhibited; free ( من from), rid ( من of) │ طلق المحيا ṭalq (ṭilq, ṭulq) almuḥayyā with a happy, cheerful face, bright-faced; طلق الوجه ṭalq (ṭilq, ṭulq) alwajh do.; طلق اللسان eloquent; في الھواء الطلق (hawā’) outdoors, in the open, under the open sky; طلق اليدين ṭ. al-yadain openhanded, liberal, generous",
+    "examples": []
+  },
+  {
+    "word": "طلق",
+    "displayWord": "طلق",
+    "translation": "ṭilq permissible, admissible",
+    "examples": []
+  },
+  {
+    "word": "طلق",
+    "displayWord": "طلق",
+    "translation": "ṭalaq pl. اطلاق aṭlāq run, race, foot race; (pl. -āt, اطلاق aṭlāq) shot (with a firearm) │ سريع الطلق rapid-fire (rifle, gun)",
+    "examples": []
+  },
+  {
+    "word": "طلقة",
+    "displayWord": "طلقة",
+    "translation": "ṭalqa pl. ṭalaqāt divorce │ طلقة",
+    "examples": []
+  },
+  {
+    "word": "طلقة",
+    "displayWord": "طلقة",
+    "translation": "ṭalaqa pl. -āt shot │ طلقة نارية do",
+    "examples": []
+  },
+  {
+    "word": "طلاق",
+    "displayWord": "طلاق",
+    "translation": "ṭalāq divorce, talak │ طلاق بالثلاثة (talāta) definite divorce; طلاق رجعي (raj‘ī) revocable (not definite) divorce; كتاب",
+    "examples": []
+  },
+  {
+    "word": "طليق",
+    "displayWord": "طليق",
+    "translation": "ṭalīq pl. طلقاء ṭulaqā’2 freed, released, set free, free; freedman; الطلقاء name of those Meccans who remained heathen until the surrender of Mecca",
+    "examples": []
+  },
+  {
+    "word": "طلاقة",
+    "displayWord": "طلاقة",
+    "translation": "ṭalāqa ease, relaxedness; unrestraint; cheerfulness │ طلاقة اللسان fluency, eloquence; طلاقة الوجه ṭ. al-wajh cheerfulness of the face, gaiety",
+    "examples": []
+  },
+  {
+    "word": "طليقة",
+    "displayWord": "طليقة",
+    "translation": "ṭalīqa repudiated or divorced woman, divorcee",
+    "examples": []
+  },
+  {
+    "word": "طلوقة",
+    "displayWord": "طلوقة",
+    "translation": "ṭalūqa pl. طلائق ṭalā’iq2 stallion",
+    "examples": []
+  },
+  {
+    "word": "طالق",
+    "displayWord": "طالق",
+    "translation": "tāliq (of a woman) repudiated, divorced │ ھي طالق ثلاثا (talātan) she is irrevocably divorced",
+    "examples": []
+  },
+  {
+    "word": "طلمبة",
+    "displayWord": "طلمبة",
+    "translation": "ṭulumba pl. -āt pump 567",
+    "examples": []
+  },
+  {
+    "word": "طلمس",
+    "displayWord": "طلمس",
+    "translation": "ṭalmasa to frown, scowl, glower, lower طلو) and طلو) طلى ṭalā i (ṭaly) to paint, daub ( ب",
+    "examples": []
+  },
+  {
+    "word": "طلاء",
+    "displayWord": "طلاء",
+    "translation": "ṭilā’ coating, overlaying, plating; coat, covering (e.g., of sugar); (coat of) paint; make-up, face paint │ الطلاء بالكھرباء (kahrabā’) galvanization, electroplating",
+    "examples": []
+  },
+  {
+    "word": "طلى",
+    "displayWord": "طلى",
+    "translation": "ṭalīy pleasant, becoming, nice, pretty",
+    "examples": []
+  },
+  {
+    "word": "طلاوة",
+    "displayWord": "طلاوة",
+    "translation": "ṭalāwa beauty, gracefulness, grace, elegance",
+    "examples": []
+  },
+  {
+    "word": "طليطلة",
+    "displayWord": "طليطلة",
+    "translation": "ṭulaiṭila2 Toledo (town in Spain)",
+    "examples": []
+  },
+  {
+    "word": "طم",
+    "displayWord": "طم",
+    "translation": "ṭamma u (ṭamm, طموم ṭumūm) to overflow, flood, inundate, deluge, engulf ( ھ s.th.) VII pass. of I",
+    "examples": []
+  },
+  {
+    "word": "طم",
+    "displayWord": "طم",
+    "translation": "ṭamm large quantity, huge amount; sea │ الطم والرم (rimm) tremendous riches",
+    "examples": []
+  },
+  {
+    "word": "طامة",
+    "displayWord": "طامة",
+    "translation": "ṭāmma pl. -āt (overwhelming) calamity, disaster",
+    "examples": []
+  },
+  {
+    "word": "طماطة",
+    "displayWord": "طماطة",
+    "translation": "ṭumāṭa tomato",
+    "examples": []
+  },
+  {
+    "word": "طماطم",
+    "displayWord": "طماطم",
+    "translation": "ṭamāṭim2 (coll.; n. un. ة) tomatoes",
+    "examples": []
+  },
+  {
+    "word": "طمأن",
+    "displayWord": "طمأن",
+    "translation": "ṭam’ana and طأمن ṭa’mana to calm, quiet, pacify, appease, assuage, soothe ( ھ، ه s.o., s.th.), set s.o.’s mind at rest; to fill s.o. ( (ه with confidence ( الى in), reassure ( الى ه s.o. of or with regard to) II تطأمن taṭa’mana =",
+    "examples": []
+  },
+  {
+    "word": "طمن",
+    "displayWord": "طمن",
+    "translation": "VI; IV اطمأن iṭma’anna to remain quietly ( في in a place); to come to rest; to be or become still, quiet, calm, tranquil, at ease, composed, or reassured, feel assured, confident, or secure; to be sure, be certain ( من or الى of s.th.); to have confidence, to trust ( الى in), rely, depend (",
+    "examples": []
+  },
+  {
+    "word": "طمأنينة",
+    "displayWord": "طمأنينة",
+    "translation": "ṭuma’nīna calm, repose, serenity, peace, peacefulness, tranquility; reassurance, peace of mind, composure, calmness, equanimity; trust, confidence",
+    "examples": []
+  },
+  {
+    "word": "طمث",
+    "displayWord": "طمث",
+    "translation": "ṭamata u and ṭamita a (ṭamt) to menstruate; -- ṭamata u i (ṭamt) to deflower ( ھا a girl)",
+    "examples": []
+  },
+  {
+    "word": "طمث",
+    "displayWord": "طمث",
+    "translation": "ṭamt menstruation; menses, menstrual discharge",
+    "examples": []
+  },
+  {
+    "word": "طمح",
+    "displayWord": "طمح",
+    "translation": "ṭamaḥa a ( طموح ṭumūḥ) to turn, be directed ( الى to. toward; of the eye, of glances); to aspire ( الى to, after), be bent (",
+    "examples": []
   },
   {
     "word": "طموح",
-    "displayWord": "طُمُوح",
-    "root": "طمح",
-    "translation": "ambition, aspiration",
-    "examples": [
-      {
-        "ar": "طُمُوحِي العَالِي يَحْفِزُنِي عَلَى التَّعَلُّمِ المُسْتَمِرِّ.",
-        "en": "My high ambition motivates me to learn continuously.",
-        "source": "Self-Reflection"
-      }
-    ]
+    "displayWord": "طموح",
+    "translation": "ṭumūḥ striving, endeavor, aspiration, desire, craving, coveting, longing, yearning; ambition; high aspirations, loftiness of purpose",
+    "examples": []
+  },
+  {
+    "word": "طموح",
+    "displayWord": "طموح",
+    "translation": "ṭamūḥ high-aiming, highaspiring, ambitious; craving, covetous, desirous, avid, eager",
+    "examples": []
+  },
+  {
+    "word": "طماح",
+    "displayWord": "طماح",
+    "translation": "ṭammāḥ high-aiming, highaspiring, ambitious; craving, covetous, desirous, avid, eager",
+    "examples": []
+  },
+  {
+    "word": "طامح",
+    "displayWord": "طامح",
+    "translation": "ṭāmiḥ high-aiming, high-aspiring; longing, yearning, craving, covetous, avid, eager",
+    "examples": []
+  },
+  {
+    "word": "طمر",
+    "displayWord": "طمر",
+    "translation": "1 ṭamara u i (ṭamr) to bury, inter, cover with earth ( ھ s.th., esp. a corpse); ṭamara i to cover up ( ھ a thing), fill up ( ھ a well)",
+    "examples": []
+  },
+  {
+    "word": "طمر",
+    "displayWord": "طمر",
+    "translation": "ṭimr pl. اطمار aṭmār old, tattered garment, fags, tatters",
+    "examples": []
+  },
+  {
+    "word": "طمر",
+    "displayWord": "طمر",
+    "translation": "ṭimirr fiery steed, race horse",
+    "examples": []
+  },
+  {
+    "word": "طمر",
+    "displayWord": "طمر",
+    "translation": "2 II (eg.) to curry(comb), rub down ( ھ a horse)",
+    "examples": []
+  },
+  {
+    "word": "طمر",
+    "displayWord": "طمر",
+    "translation": "ṭumār (eg.) currycomb",
+    "examples": []
+  },
+  {
+    "word": "طومار",
+    "displayWord": "طومار",
+    "translation": "3 ṭūmār pl. طوامر ṭawāmir2 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "طمس",
+    "displayWord": "طمس",
+    "translation": "ṭamasa u i (ṭams, طموس ṭumūs) to be effaced, be obliterated, be erased, be wiped out, be blotted out, be destroyed, be eradicated; to lose animation, become lusterless (eye, glance); -- ṭamasa i (ṭams) to efface, obliterate, erase, expunge, blot out, wipe out, destroy, eradicate ( على or ھ s.th.) VII to be effaced, be obliterated, be wiped out, be blotted out, become extinct",
+    "examples": []
+  },
+  {
+    "word": "طمس",
+    "displayWord": "طمس",
+    "translation": "ṭams effacement, obliteration",
+    "examples": []
+  },
+  {
+    "word": "طامس",
+    "displayWord": "طامس",
+    "translation": "ṭāmis extinct, dead; blurred, indistinct; incomprehensible, abstruse, recondite, obscure",
+    "examples": []
+  },
+  {
+    "word": "طماطة",
+    "displayWord": "طماطة",
+    "translation": "ṭumāṭa tomato",
+    "examples": []
+  },
+  {
+    "word": "طماطم",
+    "displayWord": "طماطم",
+    "translation": "ṭamāṭim2 (coll.; n. un. ة) tomatoes",
+    "examples": []
+  },
+  {
+    "word": "طمطماني",
+    "displayWord": "طمطماني",
+    "translation": "ṭumṭumānī barbarous, barbaric, uneducated (esp. speech, pronunciation)",
+    "examples": []
+  },
+  {
+    "word": "طمع",
+    "displayWord": "طمع",
+    "translation": "ṭami‘a a (ṭama‘) to covet, desire ( ب or في s.th.), wish, crave, strive ( ب or في for), aspire ( ب or في to, after); to expect ( ب s.th., من from); to hope ( في for); to be ambitious; -- ṭamu‘a u ( طماعة ṭamā‘a) to be covetous, avid, greedy, avaricious II to make ( ه s.o.) desirous ( في of), fill ( ه s.o.) with greed ( في for); to allure, tempt, entice ه) s.o.); to give ( ه s.o.) hope ( في of), hold out hopes ( ه to s.o., في of s.th.), embolden (",
+    "examples": []
+  },
+  {
+    "word": "طمع",
+    "displayWord": "طمع",
+    "translation": "ṭama‘ pl. اطماع aṭmā‘ greed, greediness, avidity, covetousness; ambitious desire, ambition; object of desire",
+    "examples": []
+  },
+  {
+    "word": "طماع",
+    "displayWord": "طماع",
+    "translation": "ṭammā‘ avid, greedy, covetous, desirous; avaricious, grasping",
+    "examples": []
+  },
+  {
+    "word": "طماعية",
+    "displayWord": "طماعية",
+    "translation": "ṭamā‘īya avidity, greed; cupidity, avarice",
+    "examples": []
+  },
+  {
+    "word": "طمن",
+    "displayWord": "طمن",
+    "translation": "II to quiet, calm, appease, pacify, allay, assuage, soothe ( ھ، ه s.o., s.th.); see also",
+    "examples": []
+  },
+  {
+    "word": "طأمن",
+    "displayWord": "طأمن",
+    "translation": "ṭa’'mana under طمأن VI to be low; to become low, sink, subside; to calm down, be or become quiet, calm, still, to abate; to be bent over, to stoop",
+    "examples": []
+  },
+  {
+    "word": "طمان",
+    "displayWord": "طمان",
+    "translation": "ṭamān calm, quiet, repose, peace, peacefulness, serenity, tranquility; reassurance, ease, calmness, peace of mind, composure, equanimity; trust, confidence 569",
+    "examples": []
+  },
+  {
+    "word": "طمي",
+    "displayWord": "طمي",
+    "translation": "ṭamy (eg., syr.) alluvial mud, silt, alluvium",
+    "examples": []
+  },
+  {
+    "word": "طن",
+    "displayWord": "طن",
+    "translation": "1 ṭunn pl. اطنان aṭnān ton │ طن مسجل (musajjal) register ton",
+    "examples": []
+  },
+  {
+    "word": "طن",
+    "displayWord": "طن",
+    "translation": "2 ṭanna i ( طنين ṭanīn) to ring, sound, peal, jingle, tinkle (bell); to hum, buzz, drone (insect); to ring (ears) II = I",
+    "examples": []
+  },
+  {
+    "word": "طنين",
+    "displayWord": "طنين",
+    "translation": "ṭanīn ring(ing), peal, jingle, tinkle, tinkling (of a bell); buzz(ing), hum(ming), drone (of an insect); ringing (of the ears)",
+    "examples": []
+  },
+  {
+    "word": "طنان",
+    "displayWord": "طنان",
+    "translation": "ṭannān ringing, sounding, pealing, jingling, tinkling; resounding, reverberating, echoing; humming, buzzing, droning; whistle, buzzer (of a kettle); famous, renowned, celebrated",
+    "examples": []
+  },
+  {
+    "word": "طنب",
+    "displayWord": "طنب",
+    "translation": "II to remain, abide, stay to live, settle down ( ب in, at a place) IV to be excessive في) in), overdo, exaggerate ( في s.th.); to brag",
+    "examples": []
+  },
+  {
+    "word": "طنب",
+    "displayWord": "طنب",
+    "translation": "ṭunub pl. اطناب aṭnāb tent rope; sinew, tendon │ شد اطنابه (šadda) to stay, sojourn, reside; ضرب اطنابه على to settle down, take up permanent residence in a place; ضرب اطنابه في to take root, prevail (at a place)",
+    "examples": []
+  },
+  {
+    "word": "طنبور",
+    "displayWord": "طنبور",
+    "translation": "ṭunbūr pl. طنابير ṭanābīr2 a longnecked, stringed instrument resembling the mandolin; a device used to raise water for irrigation, Archimedean screw; drum, cylinder (techn.)",
+    "examples": []
+  },
+  {
+    "word": "طنبوري",
+    "displayWord": "طنبوري",
+    "translation": "ṭunbūrī player of the طنبور",
+    "examples": []
+  },
+  {
+    "word": "طنبوشة",
+    "displayWord": "طنبوشة",
+    "translation": "ṭanbūša pl. -āt paddle box (of a paddle steamer)",
+    "examples": []
+  },
+  {
+    "word": "طنجة",
+    "displayWord": "طنجة",
+    "translation": "ṭanja2 Tangier",
+    "examples": []
+  },
+  {
+    "word": "طنجي",
+    "displayWord": "طنجي",
+    "translation": "ṭanjī from Tangier; native of Tangier, Tangerine",
+    "examples": []
+  },
+  {
+    "word": "طنجرة",
+    "displayWord": "طنجرة",
+    "translation": "ṭanjara pl. طناجر ṭanājir2 (copper) casserole, saucepan, skillet",
+    "examples": []
+  },
+  {
+    "word": "طنطا",
+    "displayWord": "طنطا",
+    "translation": "ṭanṭā Tanta (city in N Egypt)",
+    "examples": []
+  },
+  {
+    "word": "طنطن",
+    "displayWord": "طنطن",
+    "translation": "ṭanṭana to ring, sound, peal, jingle, tinkle (bell); to hum, buzz, drone (insect); to clang, boom, roar, rumble; to blare out ( ب s.th.)",
+    "examples": []
+  },
+  {
+    "word": "طنطنة",
+    "displayWord": "طنطنة",
+    "translation": "ṭanṭana ring(ing), peal, jingle, tinkle, tinkling (of a bell); hum(ming), buzz(ing), drone (of an insect); clangor, boom, roar",
+    "examples": []
+  },
+  {
+    "word": "طنف",
+    "displayWord": "طنف",
+    "translation": "ṭunuf (ṭanaf, ṭunf) pl. طنوف ṭunūf, اطناف aṭnāf top, summit, peak (of a mountain); ledge, molding, eaves",
+    "examples": []
+  },
+  {
+    "word": "طنفسة",
+    "displayWord": "طنفسة",
+    "translation": "ṭinfisa, ṭanfasa, ṭunfusa pl. طنافس ṭanāfis2 velvet-like carpet, mockado carpet",
+    "examples": []
+  },
+  {
+    "word": "طه",
+    "displayWord": "طه",
+    "translation": "a group of letters opening the 20th sura; T􀀀āhā a Muslim masculine proper name",
+    "examples": []
+  },
+  {
+    "word": "طھر",
+    "displayWord": "طھر",
+    "translation": "ṭahara, ṭahura u (ṭuhr, طھارة ṭahāra) to be clean, pure; -- ṭaharat, ṭahurat (of a woman) to be clean (as opposed to menstruating) II to clean, cleanse, deterge, expurgate, purge, purify, chasten ( ھ، ه s.o., s.th.); to disinfect, sterilize ( ھ s.th.); to dredge ( ھ e.g., a canal); to circumcise ( ه s.o.) III to circumcise ( ه s.o.) V to clean o.s., cleanse o.s., perform an ablution",
+    "examples": []
+  },
+  {
+    "word": "طھر",
+    "displayWord": "طھر",
+    "translation": "ṭuhr cleanness, purity; chastity",
+    "examples": []
+  },
+  {
+    "word": "طھور",
+    "displayWord": "طھور",
+    "translation": "ṭahūr circumcision; cleansing, purging, detergent; clean, pure",
+    "examples": []
+  },
+  {
+    "word": "طھارة",
+    "displayWord": "طھارة",
+    "translation": "ṭahāra cleanness, cleanliness, purity; cultic purity (Isl. Law); chastity; holiness, sanctity, saintliness; 570 circumcision │ طھارة الذيل ṭ. ad-dail innocence; probity, uprightness, integrity, honesty",
+    "examples": []
+  },
+  {
+    "word": "طھر",
+    "displayWord": "طھر",
+    "translation": "taṭhīr cleaning, cleansing, purging, expurgation, purification; disinfection; purgation, use of aperients; dredging; circumcision",
+    "examples": []
+  },
+  {
+    "word": "طاھر",
+    "displayWord": "طاھر",
+    "translation": "ṭāhir pl. اطھار aṭhār clean, pure; chaste, modest, virtuous │ طاھر الذمة ṭ. addimma upright, righteous, honest; طاھر",
+    "examples": []
+  },
+  {
+    "word": "طھران",
+    "displayWord": "طھران",
+    "translation": "ṭihrān2 Teheran (capital of Iran)",
+    "examples": []
+  },
+  {
+    "word": "طھق",
+    "displayWord": "طھق",
+    "translation": "V to despise, detect, abhor, loathe ( من s.th.)",
+    "examples": []
+  },
+  {
+    "word": "طھو",
+    "displayWord": "طھو",
+    "translation": ") and طھي) طھا ṭahā u and يطھى yaṭhā ( طھو ṭahw, طھي ṭuhīy, ṭahy, طھاية ṭahāya) to cook ( ھ s.th.); to stew ( ھ s.th.); to braise (",
+    "examples": []
+  },
+  {
+    "word": "طھى",
+    "displayWord": "طھى",
+    "translation": "ṭuhan cooked dish, cooked meal",
+    "examples": []
+  },
+  {
+    "word": "طھاية",
+    "displayWord": "طھاية",
+    "translation": "ṭihāya cook’s trade",
+    "examples": []
+  },
+  {
+    "word": "طاه",
+    "displayWord": "طاه",
+    "translation": "ṭāhin pl. طھاة ṭuhāh cook",
+    "examples": []
+  },
+  {
+    "word": "طواشي",
+    "displayWord": "طواشي",
+    "translation": "ṭawāšī pl. طواشية ṭawāšiya eunuch",
+    "examples": []
+  },
+  {
+    "word": "طواية",
+    "displayWord": "طواية",
+    "translation": "ṭawwāya frying pan",
+    "examples": []
+  },
+  {
+    "word": "طابة",
+    "displayWord": "طابة",
+    "translation": "1 ṭāba look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "طوب",
+    "displayWord": "طوب",
+    "translation": "2 II to beatify ( ه s.o.; Chr.)",
+    "examples": []
+  },
+  {
+    "word": "طوبى",
+    "displayWord": "طوبى",
+    "translation": "ṭūbā blessedness, beatitude; Beatitude (title of honor of a patriarch; Chr.)",
+    "examples": []
+  },
+  {
+    "word": "طوب",
+    "displayWord": "طوب",
+    "translation": "3 ṭub (coll.; n. un. ة) brick(s) │ طوب احمر (aḥmar) baked brick(s); طوب مفرغ (mufarrag) hollow tile(s), air brick(s);",
+    "examples": []
+  },
+  {
+    "word": "طوب ني",
+    "displayWord": "طوب ني",
+    "translation": "(nayy) unburned, sun-dried briek(s)",
+    "examples": []
+  },
+  {
+    "word": "طواب",
+    "displayWord": "طواب",
+    "translation": "ṭawwāb brick burner, brickmaker, tile-maker",
+    "examples": []
+  },
+  {
+    "word": "طوبجي",
+    "displayWord": "طوبجي",
+    "translation": "ṭōbjī, (eg.) ṭobgī pl. -īya artillerist, artilleryman",
+    "examples": []
+  },
+  {
+    "word": "طوبجية",
+    "displayWord": "طوبجية",
+    "translation": "ṭōbjīya artillery",
+    "examples": []
+  },
+  {
+    "word": "طوبه",
+    "displayWord": "طوبه",
+    "translation": "ṭūba the fifth month of the Coptic calendar",
+    "examples": []
+  },
+  {
+    "word": "طاح",
+    "displayWord": "طاح",
+    "translation": "(طوح ) ṭāḥa u (ṭauḥ) to perish, die; to loss one’s way, go astray, stray, wander about; to fall; to throw, cast, fling, hurl, toss, carry away, sweep away ( ب s.o., s.th.) II to cause to or let perish ( ه or ب s.o.); to endanger, expose to peril ( ه or ب s.o.); to throwaway, toss away, hurl away ( ب s.th.); to throw, cast, hurl, toss, fling ( الى ب s.o. into); to carry away, transport ( الى ب s.o. to, into); to move, induce, tempt ( ه s.o., الى to s.th., to do s.th.) │ طرحت به",
+    "examples": []
+  },
+  {
+    "word": "طوائح",
+    "displayWord": "طوائح",
+    "translation": "ṭawā’iḥ2 adversities, blows of fate",
+    "examples": []
+  },
+  {
+    "word": "طود",
+    "displayWord": "طود",
+    "translation": "VII to rise in the air, soar up",
+    "examples": []
+  },
+  {
+    "word": "طود",
+    "displayWord": "طود",
+    "translation": "ṭaud pl. اطواد aṭwād (high, towering) mountain 571",
+    "examples": []
+  },
+  {
+    "word": "طور",
+    "displayWord": "طور",
+    "translation": "1 II to develop, further, advance, promote (",
+    "examples": []
+  },
+  {
+    "word": "طور",
+    "displayWord": "طور",
+    "translation": "ṭaur pl. اطوار aṭwār one time (= Fr. fois; state, condition; limit, bound; stage, degree; phase (also phys., esp. el.) │ طورا",
+    "examples": []
+  },
+  {
+    "word": "طورا",
+    "displayWord": "طورا",
+    "translation": "-- طورا or حينا -- طورا sometimes -- sometimes, at times – at times; خرج عن",
+    "examples": []
+  },
+  {
+    "word": "طوره",
+    "displayWord": "طوره",
+    "translation": "to lose one’s self-control, become upset; اخرجه عن طوره (akrajahū) to upset, discompose, disconcert s.o.; غريب الأطوار of odd behavior, eccentric",
+    "examples": []
+  },
+  {
+    "word": "طور",
+    "displayWord": "طور",
+    "translation": "ṭūr pl. اطوار aṭwār mountain │ طور",
+    "examples": []
+  },
+  {
+    "word": "طوري",
+    "displayWord": "طوري",
+    "translation": "ṭūrī wild",
+    "examples": []
+  },
+  {
+    "word": "طوار",
+    "displayWord": "طوار",
+    "translation": "ṭawār sidewalk",
+    "examples": []
+  },
+  {
+    "word": "طوراني",
+    "displayWord": "طوراني",
+    "translation": "ṭūrānī wild; Turanian",
+    "examples": []
+  },
+  {
+    "word": "طار",
+    "displayWord": "طار",
+    "translation": "2 ṭār (= اطار iṭār), طارة ṭāra hoop, ring; tire; frame; wheel; tambourine",
+    "examples": []
+  },
+  {
+    "word": "طورية",
+    "displayWord": "طورية",
+    "translation": "4 ṭūrīya look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "طوربيد",
+    "displayWord": "طوربيد",
+    "translation": "ṭurbīd pl. -āt, طرابيد ṭarābīd2 torpedo",
+    "examples": []
+  },
+  {
+    "word": "طورية",
+    "displayWord": "طورية",
+    "translation": "ṭūrīya (eg.) pl. □ طواري ṭawārī hoe, mattock",
+    "examples": []
+  },
+  {
+    "word": "طوزلق",
+    "displayWord": "طوزلق",
+    "translation": "(Turk. tozluk) gaiter(s), legging(s)",
+    "examples": []
+  },
+  {
+    "word": "طوس",
+    "displayWord": "طوس",
+    "translation": "II to adorn, decorate, deck out ( ھ، ه s.o., s.th.)",
+    "examples": []
+  },
+  {
+    "word": "طاس",
+    "displayWord": "طاس",
+    "translation": "ṭās pl. -āt round, shallow drinking cup made of metal, drinking vessel; finger bowl",
+    "examples": []
+  },
+  {
+    "word": "طاس",
+    "displayWord": "طاس",
+    "translation": "ṭāsa pl. -āt round, shallow drinking cup made of metal, drinking vessel │ طاسة التحمير frying pan; O طاسة",
+    "examples": []
+  },
+  {
+    "word": "طاووس",
+    "displayWord": "طاووس",
+    "translation": "ṭāwūs pl. طواويس ṭawāwīs2 peacock",
+    "examples": []
+  },
+  {
+    "word": "طوش",
+    "displayWord": "طوش",
+    "translation": "II to castrate, emasculate ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "طواشي",
+    "displayWord": "طواشي",
+    "translation": "ṭawāšī pl. طواشية ṭawāšiya eunuch",
+    "examples": []
+  },
+  {
+    "word": "طاع",
+    "displayWord": "طاع",
+    "translation": "(طوع ) ṭā‘a u (ṭau‘) to obey ( ل or ه s.o.), be obedient ( ل or ه to s.o.) II to render obedient, bring into subjection, subdue, subject, subjugate ( ه s.o.) │ طوعت",
+    "examples": []
+  },
+  {
+    "word": "طوع",
+    "displayWord": "طوع",
+    "translation": "ṭau‘ obedience; voluntariness, spontaneity (in connection with a legally relevant action, esp. a delict; Isl. Law); (for m. and f.) obedient, compliant, submissive; طوعا ṭau‘an voluntarily, of one’s own free will, of one’s own accord │ طوعا او كرھا (karhan) willingly or unwillingly, willy-nilly, whether I (you, etc.) will it or not; طوع العنان tractable, docile, amenable; طوع يده ṭau‘a yadihī under s.o.’s thumb, at s.o.’s beck and call;",
+    "examples": []
+  },
+  {
+    "word": "طوعيا",
+    "displayWord": "طوعيا",
+    "translation": "ṭau‘īyan voluntarily, of one’s own free will, of one’s own accord",
+    "examples": []
+  },
+  {
+    "word": "طيع",
+    "displayWord": "طيع",
+    "translation": "(ṭayyi‘) obedient, compliant, submissive",
+    "examples": []
+  },
+  {
+    "word": "طاعة",
+    "displayWord": "طاعة",
+    "translation": "ṭā‘a obedience, compliance, submissiveness; (pl. -āt) pious deed (Isl. Law) │ بيت الطاعة bait aṭ-ṭ. the husband’s house to which a woman, in case of unlawful desertion, must return (Isl. Law);",
+    "examples": []
+  },
+  {
+    "word": "طواعية",
+    "displayWord": "طواعية",
+    "translation": "ṭawā‘īya obedience │ عن طواعية voluntarily, of one’s own free will, of one’s own accord",
+    "examples": []
+  },
+  {
+    "word": "طائع",
+    "displayWord": "طائع",
+    "translation": "ṭā’i‘ obedient, compliant, submissive │ طائعا او كارھا willingly or unwillingly, whether I (you, etc.) will it or not",
+    "examples": []
+  },
+  {
+    "word": "طاف",
+    "displayWord": "طاف",
+    "translation": "(طوف ) ṭāfa u (ṭauf, طواف ṭawāf,",
+    "examples": []
+  },
+  {
+    "word": "طوفان",
+    "displayWord": "طوفان",
+    "translation": "ṭawafān) to go about, walk about, ride about, travel about, move about, rove about, wander about, run around ( ھ in s.th.), tour ( ھ s.th.); to go, walk, ride, run (",
+    "examples": []
+  },
+  {
+    "word": "طوف",
+    "displayWord": "طوف",
+    "translation": "ṭauf round, circuit, beat; low wall, enclosure; (pl. اطواف aṭwāf) patrol; raft made of inflated waterskins tied together",
+    "examples": []
+  },
+  {
+    "word": "طواف",
+    "displayWord": "طواف",
+    "translation": "ṭawāf round, circuit, beat; round trip, round-trip excursion; roundtrip flight; circumambulation of the Kaaba (as part of the Islamic pilgrimage ceremonies)",
+    "examples": []
+  },
+  {
+    "word": "طواف",
+    "displayWord": "طواف",
+    "translation": "ṭawwāf ambulant, itinerant, migrant, roving, wandering; going the rounds, making the circuit, walking the beat; (pl. ة) mounted rural mail carrier (Eg.) │ محطة الطوافة maḥaṭṭat aṭ-ṭ. (Eg.) circuit stations which have the mail delivered by mounted rural mail carriers",
+    "examples": []
+  },
+  {
+    "word": "طوافة",
+    "displayWord": "طوافة",
+    "translation": "ṭawwāfa pl. -āt patrol boat, coastal patrol vessel (employed by the Egyptian Coast Guard)",
+    "examples": []
+  },
+  {
+    "word": "طوفان",
+    "displayWord": "طوفان",
+    "translation": "ṭūfān flood, inundation, deluge",
+    "examples": []
+  },
+  {
+    "word": "طائف",
+    "displayWord": "طائف",
+    "translation": "ṭā’if ambulant, itinerant, migrant, roving, wandering; one going the rounds or making the circuit or walking the beat; one performing the ṭawāf │ طاف به طائف he had a sudden impulse or urge; طاف عليه",
+    "examples": []
+  },
+  {
+    "word": "طائف من القدر القاسي",
+    "displayWord": "طائف من القدر القاسي",
+    "translation": "(qadar) tragedy befell him, he met with a harsh fate",
+    "examples": []
+  },
+  {
+    "word": "طائفة",
+    "displayWord": "طائفة",
+    "translation": "ṭā’ifa pl. طوائف ṭawā’if2 part, portion; number; troop, band, group; swarm, drove, bevy, covey; people; class; sect, denomination; confession, communion; party, faction; religious minority │ O الطائفة الاحساسية (iḥsāsīya) the impressionists; ملوك الطوائف princelings, petty kings",
+    "examples": []
+  },
+  {
+    "word": "طائفي",
+    "displayWord": "طائفي",
+    "translation": "ṭā’ifī factional, sectarian, denominational, confessionalism",
+    "examples": []
+  },
+  {
+    "word": "طائفية",
+    "displayWord": "طائفية",
+    "translation": "ṭā’ifīya sectarianism, denominationalism; confessionalism",
+    "examples": []
+  },
+  {
+    "word": "طاق",
+    "displayWord": "طاق",
+    "translation": "(طوق ) ṭāqa u (ṭauq) to be able, be in a position ( ھ to do s.th.), be capable ( ھ of, of doing s.th.); to be able to bear or stand (",
+    "examples": []
+  },
+  {
+    "word": "طوق",
+    "displayWord": "طوق",
+    "translation": "ṭauq ability, faculty, power, strength, potency, capability, aptitude, capacity; endurance; (pl. اطواق aṭwāq) necklace; neckband, ruff, collar; hoop, circle │ طوق للنجاة (najāh) life 574 buoy;",
+    "examples": []
+  },
+  {
+    "word": "طوقي",
+    "displayWord": "طوقي",
+    "translation": "ṭauqī collar-like, loop-shaped, ring-shaped, annular",
+    "examples": []
+  },
+  {
+    "word": "طاق",
+    "displayWord": "طاق",
+    "translation": "ṭāq pl. –āt, طيقان ṭīqān arch (arch.); (pl. -āt) stratum, layer",
+    "examples": []
+  },
+  {
+    "word": "طاقة",
+    "displayWord": "طاقة",
+    "translation": "ṭāqa pl. -āt window",
+    "examples": []
+  },
+  {
+    "word": "طاقة",
+    "displayWord": "طاقة",
+    "translation": "ṭāqa pl. -āt ability, faculty, capability, aptitude, capacity, power, strength, potency; energy (phys., etc.); capacity (of a technical apparatus); bunch, bouquet (of flowers) │ في الطاقة (with foll. maṣdar) it is possible to ...; قدر الطاقة qadra ṭ-ṭ. as far as possible, in the best way possible; على قدر طاقته according to his capability; طاقة مدخرة (muddakara) accumulated energy; potential (phys.);",
+    "examples": []
+  },
+  {
+    "word": "طاقية",
+    "displayWord": "طاقية",
+    "translation": "look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "طوكيو",
+    "displayWord": "طوكيو",
+    "translation": "tōkiyō Tokyo",
+    "examples": []
+  },
+  {
+    "word": "طال",
+    "displayWord": "طال",
+    "translation": "(طول 1 ) ṭāla u (ṭūl) to be or become long; to last long; to lengthen, grow longer, extend, be protracted, become drawn out; to surpass, excel ( على or ه s.o.) │ طال به",
+    "examples": []
+  },
+  {
+    "word": "طالما",
+    "displayWord": "طالما",
+    "translation": "ṭālamā and لطالما la-ṭālamā how often! often, frequently (with foll. verbal clause) │ طالما ان (anna) while, as, the more so as",
+    "examples": []
+  },
+  {
+    "word": "طول",
+    "displayWord": "طول",
+    "translation": "ṭaul might, power │ صاحب الحول",
+    "examples": []
+  },
+  {
+    "word": "طول",
+    "displayWord": "طول",
+    "translation": "ṭūl pl. اطوال aṭwāl length; size, height, tallness │ طول الاناة ṭ. al-anāh longsuffering, longanimity, forbearance, patience; طول النظر ṭ. an-naẓar farsightedness, hyperopia; خط الطول kaṭṭ aṭ-ṭ. geographical longitude, degree of 575 longitude, meridian; بالطول and طولا lengthwise, longitudinally; طول ṭūla (prep.) during, throughout, … long, e.g.,",
+    "examples": []
+  },
+  {
+    "word": "طول ھذه المدة",
+    "displayWord": "طول ھذه المدة",
+    "translation": "(mudda) during this period, during all this time, طول النھار (nahār) all day (long); طول ما as long as; على طول (with foll. genit.) along, along, side of; على",
+    "examples": []
+  },
+  {
+    "word": "طول",
+    "displayWord": "طول",
+    "translation": "(eg.) straight ahead; straightway, directly; at last, finally, after all; في طول",
+    "examples": []
+  },
+  {
+    "word": "طولي",
+    "displayWord": "طولي",
+    "translation": "ṭūlī of length, linear, longitudinal │ خط طولي (kaṭṭ) geographical longitude, degree of longitude, meridian",
+    "examples": []
+  },
+  {
+    "word": "طول",
+    "displayWord": "طول",
+    "translation": "ṭuwwal a long-legged waterfowl",
+    "examples": []
+  },
+  {
+    "word": "طوال",
+    "displayWord": "طوال",
+    "translation": "ṭawwāla, ṭiwala (prep.) during, throughout; along, alongside of",
+    "examples": []
+  },
+  {
+    "word": "طويل",
+    "displayWord": "طويل",
+    "translation": "ṭawīl pl. طوال ṭiwāl long; large, big, tall; high; الطويل name of a poetical meter; طويلا ṭawīlan long (adv.), a long time │ طويل الأجل ṭ. al-ajal longterm, longdated;",
+    "examples": []
+  },
+  {
+    "word": "طويل الأناة",
+    "displayWord": "طويل الأناة",
+    "translation": "ṭ. al-anāh long-suffering forbearing, patient; طويل الباع mighty, powerful; capable, efficient; generous, liberal, openhanded; طويل الروح ṭ. ar-rūḥ long-suffering, forbearing, patient; طويل",
+    "examples": []
+  },
+  {
+    "word": "طوال",
+    "displayWord": "طوال",
+    "translation": "ṭuwāl long",
+    "examples": []
+  },
+  {
+    "word": "طوالة",
+    "displayWord": "طوالة",
+    "translation": "ṭuwāla pl. -āt stable",
+    "examples": []
+  },
+  {
+    "word": "طيلة",
+    "displayWord": "طيلة",
+    "translation": "ṭīlata (prep.) during, throughout, … long",
+    "examples": []
+  },
+  {
+    "word": "طولاني",
+    "displayWord": "طولاني",
+    "translation": "ṭaulānī measured lengthwise, longitudinal",
+    "examples": []
+  },
+  {
+    "word": "طائل",
+    "displayWord": "طائل",
+    "translation": "ṭā’il long; huge, immense, ample, enormous (of funds); use, avail; might, power, force │ طائل الصولة ṭ. aṣ-ṣaula mighty, powerful, forceful; دون طائل and لا",
+    "examples": []
+  },
+  {
+    "word": "طائل تحته",
+    "displayWord": "طائل تحته",
+    "translation": "(فيه ) (ṭā’ila) of no use, of no avail, useless, unavailing, futile; ما فاز بطائل to accomplish nothing, be unsuccessful, fail",
+    "examples": []
+  },
+  {
+    "word": "طائلة",
+    "displayWord": "طائلة",
+    "translation": "ṭā’ila might, power, force; vengeance, revenge, retribution, retaliation │ وقع تحت طائلة القانون to be subject to punishment by law; تحت طائلة",
+    "examples": []
+  },
+  {
+    "word": "طاولة",
+    "displayWord": "طاولة",
+    "translation": "3 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "طولكرم",
+    "displayWord": "طولكرم",
+    "translation": "Tulkarm (town in NW Jordan)",
+    "examples": []
+  },
+  {
+    "word": "طومار",
+    "displayWord": "طومار",
+    "translation": "ṭūmār pl. طوامير ṭawāmīr2 roll, scroll",
+    "examples": []
+  },
+  {
+    "word": "طونولاطة",
+    "displayWord": "طونولاطة",
+    "translation": "(It. tonnellata) ṭōnolāṭa ton",
+    "examples": []
+  },
+  {
+    "word": "طوى",
+    "displayWord": "طوى",
+    "translation": "ṭawā i ( طي ṭayy) to fold, fold up, fold in, fold over, fold under, roll up ( ھ s.th.); to shut, close ( ھ a book); to keep secret, secrete, conceal, hide ( ھ s.th.); to harbor, hold, contain ( ھ s.th.); to swallow up, envelop, wrap up. Enwrap ه) 576 s.o.; of the dark of night); to settle finally, bury ( ه the past), have done with s.th. in the past (",
+    "examples": []
+  },
+  {
+    "word": "طوى كشحه",
+    "displayWord": "طوى كشحه",
+    "translation": "(كشحا) على (kašḥahū, kašḥan) and طوى صدره على (ṣadrahū) to harbor or look (a secret) in one’s bosom, keep s.th. secret, secrete, conceal, hide s.th.; طوى",
+    "examples": []
+  },
+  {
+    "word": "طوى الماضى طي السجل للكاتب",
+    "displayWord": "طوى الماضى طي السجل للكاتب",
+    "translation": "(l-māḍiya ṭayya s-sijilli) to break with the past, let bygones be bygones; -- طوي ṭawiya a ( طوى ṭawan) to be hungry, suffer hunger, starve IV = ṭawiya V to coil (snake) VII to be folded, be folded up, in, over, or under, be rolled up, be turned (over) (page, leaf), be shut (book, etc.); to go by, pass, elapse (time); to disappear, vanish; to be covered (distance); to be bidden, be concealed (",
+    "examples": []
+  },
+  {
+    "word": "طي",
+    "displayWord": "طي",
+    "translation": "ṭayy concealment, biding; (pl. اطواء aṭwā’) fold, pleat │ طيه ṭayyahū and طي ھذا (ṭayya) herein enclosed, herewith (in a letter); في طي الغيب (ṭ. il-gaib) secretly, covertly; تحت (في) طي الكتمان (ṭ. il-kitmān) under the seal of secrecy; في اطواء (with foll. genit.) in",
+    "examples": []
+  },
+  {
+    "word": "طية",
+    "displayWord": "طية",
+    "translation": "ṭayya pl. -āt fold, pleat │ حمل بين",
+    "examples": []
+  },
+  {
+    "word": "طياته",
+    "displayWord": "طياته",
+    "translation": "involve, comprise, contain",
+    "examples": []
+  },
+  {
+    "word": "طية",
+    "displayWord": "طية",
+    "translation": "ṭīya intention, design │ ( مضى ( ذھب",
+    "examples": []
+  },
+  {
+    "word": "طوى",
+    "displayWord": "طوى",
+    "translation": "ṭawan hunger; mat │ على الطوى on an empty stomach, without having eaten",
+    "examples": []
+  },
+  {
+    "word": "طوية",
+    "displayWord": "طوية",
+    "translation": "ṭawīya pl. طوايا ṭawāyā fold, pleat; innermost thoughts, real conviction, true mind; intention, design; conscience │ سليم",
+    "examples": []
+  },
+  {
+    "word": "طواية",
+    "displayWord": "طواية",
+    "translation": "ṭawāya pl. -āt frying pan",
+    "examples": []
+  },
+  {
+    "word": "طاو",
+    "displayWord": "طاو",
+    "translation": "ṭāwin starved │ طاو البطن ṭ. l-baṭn starved, lean, emaciated",
+    "examples": []
+  },
+  {
+    "word": "طاب",
+    "displayWord": "طاب",
+    "translation": "(طيب 1 ) ṭāba i (ṭīb, طيبة ṭība) to be good, pleasant, agreeable; to be or become 577 delightful, delicious; to please ( ل s.o.), be to s.o.’s ( ل) liking; to be or become ripe, to ripen; to regain health, recover, recuperate, convalesce │ طابت ليلتكم (lailatukum) may your night be pleasant! good night! طابت نفسه (nafsuhū) he was gay, cheerful, cheery, in good spirits, he felt happy; طاب نفسا عن (nafsanl) to give up s.th. gladly, renounce s.th. willingly; طابت",
+    "examples": []
+  },
+  {
+    "word": "طيب",
+    "displayWord": "طيب",
+    "translation": "ṭīb goodness; (pl. طيوب ṭuyūb) scent, perfume │ طيب العرق ṭ. al-‘irq noble birth, noble descent; جوز الطيب jauz aṭ-ṭ. nutmeg",
+    "examples": []
+  },
+  {
+    "word": "طيب",
+    "displayWord": "طيب",
+    "translation": "ṭayyib good; pleasant, agreeable; delicious; gay; well-disposed, friendly, kindly; well, in good health │ طيب الخلق ṭ. al-kulq good-natured, genial; طيب الريحة sweet-smelling, fragrant, sweet-scented;",
+    "examples": []
+  },
+  {
+    "word": "طيب العرق",
+    "displayWord": "طيب العرق",
+    "translation": "ṭ. a1-‘irq highborn, of noble descent; طيب النفس ṭ. an-nafs gay, cheerful, cheery, in high spirits",
+    "examples": []
+  },
+  {
+    "word": "طيبات",
+    "displayWord": "طيبات",
+    "translation": "ṭayyibāt nice, pleasant things; gustatory delights, pleasures of the table",
+    "examples": []
+  },
+  {
+    "word": "طيبة",
+    "displayWord": "طيبة",
+    "translation": "ṭība goodness; good nature, geniality │ عن طيبة خاطر gladly, most willingly, with pleasure",
+    "examples": []
+  },
+  {
+    "word": "طوبى",
+    "displayWord": "طوبى",
+    "translation": "ṭūbā blessedness, beatitude; Beatitude (title of honor of a patriarch; Chr.)",
+    "examples": []
+  },
+  {
+    "word": "طياب",
+    "displayWord": "طياب",
+    "translation": "ṭayāb, ṭiyāb (eg.) north wind",
+    "examples": []
+  },
+  {
+    "word": "طياب",
+    "displayWord": "طياب",
+    "translation": "ṭayyāb pl. -ūn masseur",
+    "examples": []
+  },
+  {
+    "word": "طائب",
+    "displayWord": "طائب",
+    "translation": "ṭā’ib unobjectionable ( ل for; Isl. Law)",
+    "examples": []
+  },
+  {
+    "word": "طيبة",
+    "displayWord": "طيبة",
+    "translation": "2 ṭība2 Thebes",
+    "examples": []
+  },
+  {
+    "word": "طاح",
+    "displayWord": "طاح",
+    "translation": "(طيح ) ṭaḥa i (ṭaiḥ) to perish, die II to lose (",
+    "examples": []
+  },
+  {
+    "word": "طار",
+    "displayWord": "طار",
+    "translation": "(طير ) ṭāra i ( طيران ṭayarān) to fly; to fly away, fly off, take to the wing; to hasten, hurry, rush, fly ( الى to); to be in a state of commotion, be jubilant, exult, rejoice; طار ب to snatch away, carry away, carry off (s.o., s.th.) │ طار بخياله (bikayālihī) to let one’s imagination wander to; طار له صيت في الناس (ṣīt) his fame spread among people, he became well-known;",
+    "examples": []
+  },
+  {
+    "word": "طار طائره",
+    "displayWord": "طار طائره",
+    "translation": "(ṭā’iruhū) to become angry, blow one’s top; طار عقله (‘aqluhū) to lose one’s mind, go crazy; طار فؤاده (روحه) شعاعا (fu’āduhū, rūḥuhū ša‘ā‘an) his mind became confused, he became all mixed up; طار فرحا (faraḥan) to be beside o.s. with joy, be overjoyed; طار بلبه (bi-lubbihī) to drive s.o. out of his mind; طار بصوابه (bi-ṣawābihī) to make s.o. unconscious II to make or let fly ( ھ, ه s.o., s.th.), to fly, send up ( ھ s.th., e.g., a balloon, a kite); to pass on 578 promptly, dispatch posthaste, forward without delay, rush, shoot ( الى ھ s.th. to, esp. a report, a message); to knock out ( ھ s.th., e.g., an eye, a tooth) │ طير",
+    "examples": []
+  },
+  {
+    "word": "طير",
+    "displayWord": "طير",
+    "translation": "ṭair (coll. and n. un.) pl. طيور ṭuyūr,",
+    "examples": []
+  },
+  {
+    "word": "طيرة",
+    "displayWord": "طيرة",
+    "translation": "ṭaira commotion, agitation (of anger, wrath); flight; female bird",
+    "examples": []
+  },
+  {
+    "word": "طيرة",
+    "displayWord": "طيرة",
+    "translation": "ṭīra, ṭiyāra evil omen, portent, foreboding",
+    "examples": []
+  },
+  {
+    "word": "طيار",
+    "displayWord": "طيار",
+    "translation": "ṭayyār flying; evanescent, fleeting; volatile (liquid); floating, wafting, hovering; (pl. -ūn) flyer, aviator, pilot │",
+    "examples": []
+  },
+  {
+    "word": "طيارة",
+    "displayWord": "طيارة",
+    "translation": "ṭayyāra pl. -āt aviatrix, woman pilot; airplane, aircraft, kite (toy) │ طيارة",
+    "examples": []
+  },
+  {
+    "word": "طيران",
+    "displayWord": "طيران",
+    "translation": "ṭayarān flying, flight; aviation, aeronautics │ طيران بھلواني (bahlawānī) stunt flying; طيران شراعي (širā‘ī) glider flying, gliding; خطوط الطيران airlines; سلاح",
+    "examples": []
+  },
+  {
+    "word": "طائر",
+    "displayWord": "طائر",
+    "translation": "ṭā’ir flying; flyer, aviator, pilot; (pl. -āt, طير ṭair) bird; omen, presage │",
+    "examples": []
+  },
+  {
+    "word": "طائره",
+    "displayWord": "طائره",
+    "translation": "(ṭā’iruhū) to become angry, blow one’s top",
+    "examples": []
+  },
+  {
+    "word": "طائرة",
+    "displayWord": "طائرة",
+    "translation": "ṭā’ira pl. -āt airplane, aircraft │",
+    "examples": []
+  },
+  {
+    "word": "طائرة بحرية",
+    "displayWord": "طائرة بحرية",
+    "translation": "(baḥrīya) seaplane; O طائرة",
+    "examples": []
+  },
+  {
+    "word": "طائرة شراعية",
+    "displayWord": "طائرة شراعية",
+    "translation": "(širā‘īya) sailplane, glider;",
+    "examples": []
+  },
+  {
+    "word": "طائرة المطاردة",
+    "displayWord": "طائرة المطاردة",
+    "translation": "ṭ. al-muṭārada fighter, pursuit plane, interceptor; طائرة عمودية (‘amūdīya) helicopter; طائرة القتال light bomber, combat plane; طائرة المقاتلة ṭ. al-muqāṭala do.; O",
+    "examples": []
+  },
+  {
+    "word": "طائرة الانقضاض",
+    "displayWord": "طائرة الانقضاض",
+    "translation": "or طائرة انقضاضية dive bomber; طائرة مائية seaplane; طائرة نفاثة (naffāṭa) jet plane; طائرة النقل ṭ. an-naql transport (plane); O حاملات الطائرات and O",
+    "examples": []
+  },
+  {
+    "word": "طاش",
+    "displayWord": "طاش",
+    "translation": "(طيش ) ṭāša i (ṭaiš, طيشان ṭayašān) to be inconstant, changeable, fickle, lightheaded, thoughtless, heedless, frivolous, reckless, undecided, confused, helpless, 579 aimless, desultory; to miss the mark (of an arrow, also عن الغرض ); to stray ( عن from the target), miss ( عن a spot, e.g., said of the hand) │ طاش سھمه (sahmuhū) to be on the wrong track, bark up the wrong tree, be unsuccessful, fail;",
+    "examples": []
+  },
+  {
+    "word": "طاش صوابه",
+    "displayWord": "طاش صوابه",
+    "translation": "(ṣawābuhū) to lose one’s head",
+    "examples": []
+  },
+  {
+    "word": "طيش",
+    "displayWord": "طيش",
+    "translation": "ṯaiš inconsistency, fickleness; recklessness, heedlessness, rashness; thoughtlessness; lightheadedness, levity, frivolity",
+    "examples": []
+  },
+  {
+    "word": "طياشان",
+    "displayWord": "طياشان",
+    "translation": "ṭayašān inconstancy, fickleness; recklessness, heedlessness, rashness; thoughtlessness; lightheadedness, levity, frivolity",
+    "examples": []
+  },
+  {
+    "word": "طياشة",
+    "displayWord": "طياشة",
+    "translation": "ṭiyāša inconstancy, fickleness; recklessness, heedlessness, rashness; thoughtless; lightheadedness, levity, frivolity",
+    "examples": []
+  },
+  {
+    "word": "طائش",
+    "displayWord": "طائش",
+    "translation": "ṭā’iš inconstant, changeable, fickle; lightheaded, frivolous; thoughtless, heedless, reckless; undecided, confused, perplexed, helpless; aimless, desultory, purposeless",
+    "examples": []
+  },
+  {
+    "word": "طاف",
+    "displayWord": "طاف",
+    "translation": "(طيف ) ṭāfa i (ṭaif) to appear to s.o. ( ب) in his sleep (of a specter)",
+    "examples": []
+  },
+  {
+    "word": "طيف",
+    "displayWord": "طيف",
+    "translation": "ṭaif pl. اطياف aṭyāf, طيوف ṭuyūf fantacy, phantasm; vision, apparition; phantom, specter, ghost; spectrum (phys.)",
+    "examples": []
+  },
+  {
+    "word": "طيفي",
+    "displayWord": "طيفي",
+    "translation": "ṭaifī spectral, spectroscopic",
+    "examples": []
+  },
+  {
+    "word": "طيلة",
+    "displayWord": "طيلة",
+    "translation": "see طول",
+    "examples": []
+  },
+  {
+    "word": "طيلسان",
+    "displayWord": "طيلسان",
+    "translation": "ṭailasān pl. طيالسة ṭayālisa a shawl-like garment worn over head and shoulders",
+    "examples": []
+  },
+  {
+    "word": "طين",
+    "displayWord": "طين",
+    "translation": "II to daub or coat with clay ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "طين",
+    "displayWord": "طين",
+    "translation": "ṭīn pl. اطيان aṭyān clay, potter’s clay, argil; soil; basis, foundation │ الطين",
+    "examples": []
+  },
+  {
+    "word": "طينة",
+    "displayWord": "طينة",
+    "translation": "ṭīna clay, potter’s clay, argil; stuff, material, substance (of which s.th. is made); kind, specific character, disposition, constitution, nature",
+    "examples": []
+  },
+  {
+    "word": "طيان",
+    "displayWord": "طيان",
+    "translation": "ṭayyān mortar carrier, hod carrier ظ",
+    "examples": []
+  },
+  {
+    "word": "طيب العرق",
+    "displayWord": "طيب العرق",
+    "translation": "ṭayyib al-‘i. of noble descent, high born; العرق دساس (dassās) blood will tell, what ill bred in the bone will come out in the flesh; ضرب فيه بعرق to have a share in s.th., participate in s.th.",
+    "examples": []
+  },
+  {
+    "word": "طوع منھا",
+    "displayWord": "طوع منھا",
+    "translation": "(‘alā) with her obeying, without opposition on her part; على عادته according to his habit, as was his wont, as he used to do; علي ما يقال (yuqālu) suddenly, all of a sudden, unawares, unexpectedly; على عھد (‘ahdi) at the time of",
+    "examples": []
+  },
+  {
+    "word": "طائرة منقضة",
+    "displayWord": "طائرة منقضة",
+    "translation": "ṭā’ira munqaḍḍa dive bomber",
+    "examples": []
+  },
+  {
+    "word": "طائرة مقنبلة",
+    "displayWord": "طائرة مقنبلة",
+    "translation": "ṭā’ira muqanbila bomber;",
+    "examples": []
+  },
+  {
+    "word": "طاردة",
+    "displayWord": "طاردة",
+    "translation": "centrifugal force; قوة مضادة للطائرات (muḍādda) antiaircraft defense; قوة معنوية (ma‘nawīya) moral strength, morale, spirit; قوة q. an-nabt germinative faculty;",
+    "examples": []
+  },
+  {
+    "word": "طيبة",
+    "displayWord": "طيبة",
+    "translation": "(ṭayyiba) titbit; جعله مضغة في الأفواه (ja‘alahū muḍgatan) to make s.o. the talk of the town, send tongues wagging about s.o.",
+    "examples": []
+  },
+  {
+    "word": "طريق الراديو",
+    "displayWord": "طريق الراديو",
+    "translation": "by radio than (with the comparative) │ اقوى من aqwā min an too strong as to ..., too strong for ... due to, owing to, for, because of; at, about (with verbs denoting emotions; as, for instance, “be amazed”, “be delighted”, “he glad”, etc.), e.g., تعجب من، دھش من , etc. by, through (with the passive to indicate the doer, agent, perpetrator) as to compounds such as ، من بعد، من حيث",
+    "examples": []
+  },
+  {
+    "word": "طعنت الآمال في مھجتھا",
+    "displayWord": "طعنت الآمال في مھجتھا",
+    "translation": "(ṭu‘inat) hopes received the deathblow",
+    "examples": []
+  },
+  {
+    "word": "طبي",
+    "displayWord": "طبي",
+    "translation": "(ṭibbī) medicinal plant; آكل النبات herbivorous animal; سكر النبات sukar an-n. rock candy; علم النبات ‘ilm an-n. botany",
+    "examples": []
+  },
+  {
+    "word": "طعنة نجلاء",
+    "displayWord": "طعنة نجلاء",
+    "translation": "(ṭa‘na) a blow causing a gaping wound; heavy blow or thrust",
+    "examples": []
+  },
+  {
+    "word": "طالب بالانتساب",
+    "displayWord": "طالب بالانتساب",
+    "translation": "student by affiliation",
+    "examples": []
   }
 ]

@@ -1,116 +1,5024 @@
 [
   {
+    "word": "جبال الالب",
+    "displayWord": "جبال الالب",
+    "translation": "2 jibal al-alb the Alps",
+    "examples": []
+  },
+  {
+    "word": "جزر الباليار",
+    "displayWord": "جزر الباليار",
+    "translation": "juzur al-bāliyār the Balearic Islands",
+    "examples": []
+  },
+  {
+    "word": "جبال البرانس",
+    "displayWord": "جبال البرانس",
+    "translation": "2 jibāl al-barānis the Pyrenees",
+    "examples": []
+  },
+  {
+    "word": "جبال البيرنيه",
+    "displayWord": "جبال البيرنيه",
+    "translation": "(Fr. Pyrénées) jibāl al-bīrinēh the Pyrenees",
+    "examples": []
+  },
+  {
+    "word": "جاثليق",
+    "displayWord": "جاثليق",
+    "translation": "jātalīq = جثليق",
+    "examples": []
+  },
+  {
+    "word": "جؤجؤ",
+    "displayWord": "جؤجؤ",
+    "translation": "ju’ju’ pl. جآجئ ja’āji2 breast; prow, bow (of a ship)",
+    "examples": []
+  },
+  {
+    "word": "جأر",
+    "displayWord": "جأر",
+    "translation": "ja’ara a (ja’r, جؤار ju’ār) to low, moo; to supplicate, pray fervently ( الى to God)",
+    "examples": []
+  },
+  {
+    "word": "جأر",
+    "displayWord": "جأر",
+    "translation": "ja’r, and جؤار ju’ār, lowing, mooing (of cattle)",
+    "examples": []
+  },
+  {
+    "word": "جاز",
+    "displayWord": "جاز",
+    "translation": "1 giiz pl. -āt (Eg. spelling) gas",
+    "examples": []
+  },
+  {
+    "word": "جاز",
+    "displayWord": "جاز",
+    "translation": "2 jāz jazz",
+    "examples": []
+  },
+  {
+    "word": "جازون",
+    "displayWord": "جازون",
+    "translation": "(Fr. gazon, Eg. spelling) gāzōn lawn",
+    "examples": []
+  },
+  {
+    "word": "جأش",
+    "displayWord": "جأش",
+    "translation": "ja’aša a (ja’š) to be agitated, be convulsed (with pain or fright)",
+    "examples": []
+  },
+  {
+    "word": "جأش",
+    "displayWord": "جأش",
+    "translation": "ja’š emotional agitation; heart, soul│ ربط جأشه rabaṯa ja’šahū to remain calm, composed, self-possesed; رابط الجأش or ثابت الجأش calm, composed, cool, selfpossessed, undismayed; بجأش رابط with unswerving courage, unflinchingly",
+    "examples": []
+  },
+  {
+    "word": "جاكته، جاكتة",
+    "displayWord": "جاكته، جاكتة",
+    "translation": "and جاكيته žakēta jacket, coat",
+    "examples": []
+  },
+  {
+    "word": "جالون",
+    "displayWord": "جالون",
+    "translation": "galōn gallon",
+    "examples": []
+  },
+  {
+    "word": "جاليرى",
+    "displayWord": "جاليرى",
+    "translation": "(Eg. spelling) galērī gallery (theat.)",
+    "examples": []
+  },
+  {
+    "word": "جام",
+    "displayWord": "جام",
+    "translation": "jām pl. –āt cup; drinking vessel; bowl",
+    "examples": []
+  },
+  {
+    "word": "جامكية",
+    "displayWord": "جامكية",
+    "translation": "jāmakīya pl. -āt, جوامك jawāmik2 pay",
+    "examples": []
+  },
+  {
+    "word": "جاموس",
+    "displayWord": "جاموس",
+    "translation": "jāmūs pl. جواميس jawāmīs2 buffalo",
+    "examples": []
+  },
+  {
+    "word": "جاموسة",
+    "displayWord": "جاموسة",
+    "translation": "jāmūsa buffalo cow",
+    "examples": []
+  },
+  {
+    "word": "جانرك",
+    "displayWord": "جانرك",
+    "translation": "(pronounced žānəreg, from Turk. caneriği; coll.; n. un. žānərgēye) a variety of small green plum with several stones (syr.)",
+    "examples": []
+  },
+  {
+    "word": "جاه",
+    "displayWord": "جاه",
+    "translation": "jāh rank, standing, dignity, honor, glory, fame",
+    "examples": []
+  },
+  {
+    "word": "جاوه",
+    "displayWord": "جاوه",
+    "translation": "jāwa Java",
+    "examples": []
+  },
+  {
+    "word": "جاوى",
+    "displayWord": "جاوى",
+    "translation": "jāwī Javanese; benzoin; (pl. -ūn) a Javanese",
+    "examples": []
+  },
+  {
+    "word": "جاودار",
+    "displayWord": "جاودار",
+    "translation": "jāwadār rye",
+    "examples": []
+  },
+  {
+    "word": "جاويش",
+    "displayWord": "جاويش",
+    "translation": "čāwīš sergeant = شاوش، شاويش",
+    "examples": []
+  },
+  {
+    "word": "جب",
+    "displayWord": "جب",
+    "translation": "1 jubb pl. اجباب ajbāb, جباب jibāb well, cistern; pit",
+    "examples": []
+  },
+  {
+    "word": "جبة",
+    "displayWord": "جبة",
+    "translation": "2 jubba pl. جبب jubab, جباب , jibāb, جبائب jabā’ib2 jubbah, a long outer garment, open in front, with wide sleeves",
+    "examples": []
+  },
+  {
+    "word": "جبح",
+    "displayWord": "جبح",
+    "translation": "jabḥ pl. اجبح ajbuḥ, جباح jibāḥ, اجباح ajbāḥ beehive",
+    "examples": []
+  },
+  {
+    "word": "جبخانة",
+    "displayWord": "جبخانة",
+    "translation": "jabḳāna, jabaḳāna powder magazine; ammunition; artillery depot",
+    "examples": []
+  },
+  {
+    "word": "جبر",
+    "displayWord": "جبر",
+    "translation": "jabara u (jabr, جبور jubūr) to set ( ھ broken bones); to restore, bring back to normal ( ھ s.th.); to help back on his feet, help up ( ه s.o.; e.g., on. fallen into poverty); to force, compel ( على ه s.o. to do s.th.)│ جبر خاطره (ḳāoṯirahū) to console, comfort, gratify, oblige s.o.; to treat (s.o.) in a conciliatory or kindly manner II to set ھ) broken bones) III to treat with kindness with friendliness ( ه s.o.), be nice ( ه to s.o.) IV to force, compel ( على ه s.o. to do s.th.); to hold sway ( على over) V to show o.s. proud, haughty; to act strong, throw one’s weight around; to show o.s. strong or powerful, demonstrate one’s strength or power; to be set (broken bones)│ تجبر لله",
+    "examples": []
+  },
+  {
+    "word": "جبر",
+    "displayWord": "جبر",
+    "translation": "jabr setting (of broken bones); force, compulsion; coercion, duress; power, 110 might; (predestined, inescapable) decree of fate; جبرا jab,an forcibly, by force│ علم",
+    "examples": []
+  },
+  {
+    "word": "جبرى",
+    "displayWord": "جبرى",
+    "translation": "jabrī algebraic; compulsory, forced; -- jabarī an adherent of the doctrine of predestination and the inescapability of fate; fatalist",
+    "examples": []
+  },
+  {
+    "word": "جبرية",
+    "displayWord": "جبرية",
+    "translation": "jabarīya an Islamic school of thought teaching the inescapability of fate; fatalism",
+    "examples": []
+  },
+  {
+    "word": "جبار",
+    "displayWord": "جبار",
+    "translation": "jabbār, pl. -ūn, جبابر jabābir جبابرة , 2 jabābira giant; colossus; tyrant, oppressor; almighty, omnipotent (God); gigantic, giant, colossal, huge; Orion (astron.)│ جبار الخطوة j. al-ḳuṯ.wa striding powerfully, ta فى ng buge strides",
+    "examples": []
+  },
+  {
+    "word": "جبارة",
+    "displayWord": "جبارة",
+    "translation": "jibāra (art of) bonesetting",
+    "examples": []
+  },
+  {
+    "word": "جبيرة",
+    "displayWord": "جبيرة",
+    "translation": "jabīra and جبارة jībāra pl. جبائر jabā’ir2 splint (surg.)",
+    "examples": []
+  },
+  {
+    "word": "جبروت",
+    "displayWord": "جبروت",
+    "translation": "jabarūt omnipotence; power, might; tyranny",
+    "examples": []
+  },
+  {
+    "word": "جبرياء",
+    "displayWord": "جبرياء",
+    "translation": "jibriyā’2 pride, haughtiness O تجبير tajbīr, تجبير العظام orthopedics",
+    "examples": []
+  },
+  {
+    "word": "جابر",
+    "displayWord": "جابر",
+    "translation": "jābir and مجبر mujabbir, bonesetter",
+    "examples": []
+  },
+  {
+    "word": "جبرئيل",
+    "displayWord": "جبرئيل",
+    "translation": "jabra’īl جبريل 2 jibrīl2 Gabriel",
+    "examples": []
+  },
+  {
+    "word": "جبس",
+    "displayWord": "جبس",
+    "translation": "2 II to plaster, coat, patch, or fix with plaster ( ھ s.th.); to put in a cast, set in plaster ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "جبس",
+    "displayWord": "جبس",
+    "translation": "jibs gypsum; plaster of Paris",
+    "examples": []
+  },
+  {
+    "word": "جباسة",
+    "displayWord": "جباسة",
+    "translation": "jabbāsa gypsum quarry; plaster kiln",
+    "examples": []
+  },
+  {
+    "word": "جبس",
+    "displayWord": "جبس",
+    "translation": "2 jabas (coll.; n. un. ة; syr.) watermelon(s)",
+    "examples": []
+  },
+  {
     "word": "جبل",
-    "displayWord": "جَبَل",
-    "root": "جبل",
-    "translation": "mountain",
-    "examples": [
-      {
-        "ar": "وَإِلَى الْجِبَالِ كَيْفَ نُصِبَتْ.",
-        "en": "And at the mountains - how they are erected?",
-        "source": "Holy Quran"
-      },
-      {
-        "ar": "تَسَلَّقَ المِغَامِرُونَ قِمَّةَ الجَبَلِ بِصُعُوبَةٍ.",
-        "en": "The adventurers climbed the peak of the mountain with difficulty.",
-        "source": "Adventure Travel"
-      }
-    ]
+    "displayWord": "جبل",
+    "translation": "1 jabala u i (jabl) to mold, form, shape, fashion ( ھ s.th.); to knead ( ھ s.th.); to create ( على ه s.o. with a natural disposition or propensity for); pass. جبل على (jubila) to be born for, be naturally diaposed to, bave a propensity for",
+    "examples": []
   },
   {
-    "word": "جميل",
-    "displayWord": "جَمِيل",
-    "root": "جمل",
-    "translation": "beautiful, handsome, kind deed",
-    "examples": [
-      {
-        "ar": "إِنَّ اللَّهَ جَمِيلٌ يُحِبُّ الجَمَالَ.",
-        "en": "Indeed, God is beautiful and loves beauty.",
-        "source": "Hadith"
-      },
-      {
-        "ar": "فَصَبْرٌ جَمِيلٌ ۖ وَاللَّهُ الْمُسْتَعَانُ.",
-        "en": "So beautiful patience [is fitting], and God is the one sought for help.",
-        "source": "Holy Quran"
-      }
-    ]
+    "word": "جبلة",
+    "displayWord": "جبلة",
+    "translation": "jibla, jibilla pl. -āt natural disposition, nature, temper",
+    "examples": []
   },
   {
-    "word": "جهد",
-    "displayWord": "جُهْد",
-    "root": "جهد",
-    "translation": "effort, strain, exertion, energy",
-    "examples": [
-      {
-        "ar": "بَذَلَ العُلَمَاءُ جُهْدًا عَالِيًا فِي مَعْمَلِ الأَبْحَاثِ.",
-        "en": "The scientists made a high effort in the research laboratory.",
-        "source": "Academic Paper"
-      }
-    ]
+    "word": "جبل",
+    "displayWord": "جبل",
+    "translation": "2 jabal pl. جبل jibāl, اجبال ajbāl mountain; mountains, mountain range│ جبال الالب j. al-alb the Alpes; جبال الاوراس the Aurès Mountains (in E Algeria); جبل جليد iceberg;",
+    "examples": []
+  },
+  {
+    "word": "جبل سينا",
+    "displayWord": "جبل سينا",
+    "translation": "j. sīnā Mount Sinai; جبل طارق Gibraltar; جبل نار volcano",
+    "examples": []
+  },
+  {
+    "word": "جبلى",
+    "displayWord": "جبلى",
+    "translation": "jabalī mountainous, hilly; mountain (adj.); montane; (pl. -ūn) highlander, mountaineer",
+    "examples": []
+  },
+  {
+    "word": "جبلاوى",
+    "displayWord": "جبلاوى",
+    "translation": "gabalāwī (eg.) highlander, mountaineer",
+    "examples": []
+  },
+  {
+    "word": "جبلاية",
+    "displayWord": "جبلاية",
+    "translation": "gabalāya pl. -āt (eg.) grotto, cave",
+    "examples": []
+  },
+  {
+    "word": "جبن",
+    "displayWord": "جبن",
+    "translation": "jabuna u (jubn, جبانة jabāna) to be a coward, be fearful; to be too much of a coward ( عن to do s.th.), shrink ( عن from s.th.) II to cause to curdle ( ھ milk); to make into cheese ( ھ s.th.); to curdle; to accuse of cowardice, call a coward ( ه s.o.) V to curdle (milk), turn into cheese",
+    "examples": []
+  },
+  {
+    "word": "جبن",
+    "displayWord": "جبن",
+    "translation": "jubn and جبانة jabāna cowardice",
+    "examples": []
+  },
+  {
+    "word": "جبن",
+    "displayWord": "جبن",
+    "translation": "jubn and جبنة jubna cheese",
+    "examples": []
+  },
+  {
+    "word": "جبان",
+    "displayWord": "جبان",
+    "translation": "jabān pl. جبناء jubanā’2 coward; cowardly",
+    "examples": []
+  },
+  {
+    "word": "جبان",
+    "displayWord": "جبان",
+    "translation": "jabbān cheese merchant",
+    "examples": []
+  },
+  {
+    "word": "جبين",
+    "displayWord": "جبين",
+    "translation": "jabīn pl. جبن jubun, اجبنة ajbina, اجبن ajbun forehead, brow; façade, front; face",
+    "examples": []
+  },
+  {
+    "word": "جبينى",
+    "displayWord": "جبينى",
+    "translation": "jabīnī frontal",
+    "examples": []
+  },
+  {
+    "word": "جبانة",
+    "displayWord": "جبانة",
+    "translation": "jabbāna pl. -āt cemetery",
+    "examples": []
+  },
+  {
+    "word": "جبه",
+    "displayWord": "جبه",
+    "translation": "1 jabaha a to moot, face, confront ( ه s.o.) III to face, confront, oppose, defy ( ه s.o., ھ s.th.), show a hold front ( ه to); to face ( ھ a problem, a difficulty)",
+    "examples": []
+  },
+  {
+    "word": "جبھة",
+    "displayWord": "جبھة",
+    "translation": "jabha pl. جباه jibāh, جبھات jabahāt forehead, brow; front, face, façade; frontline, battle front",
+    "examples": []
+  },
+  {
+    "word": "جبه خانة",
+    "displayWord": "جبه خانة",
+    "translation": "2 see جبخانة",
+    "examples": []
+  },
+  {
+    "word": "جبى",
+    "displayWord": "جبى",
+    "translation": "jabā i ( جباية jibāya) to collect, raise, levy (",
+    "examples": []
+  },
+  {
+    "word": "جباية",
+    "displayWord": "جباية",
+    "translation": "jibāya raising, levying (of taxes); (pl. oat) tax, duty, impost",
+    "examples": []
+  },
+  {
+    "word": "جبائي",
+    "displayWord": "جبائي",
+    "translation": "jibā’ī tax- (in compounds); fiscal",
+    "examples": []
+  },
+  {
+    "word": "جاب",
+    "displayWord": "جاب",
+    "translation": "jābin pl. جباة jubāh tax collector, revenue officer, collector; (bus, etc.) conductor (ir.)",
+    "examples": []
+  },
+  {
+    "word": "جابية",
+    "displayWord": "جابية",
+    "translation": "jābiya pl. جواب jawābin pool, basin",
+    "examples": []
+  },
+  {
+    "word": "جتا",
+    "displayWord": "جتا",
+    "translation": "jatā (abbreviation of جيب التمام ) cosine (math.)",
+    "examples": []
+  },
+  {
+    "word": "جث",
+    "displayWord": "جث",
+    "translation": "jatta (jatt) and VIII to tear out, uproot ( ھ a tree, also fig.)",
+    "examples": []
+  },
+  {
+    "word": "جثة",
+    "displayWord": "جثة",
+    "translation": "jutta pl. جثث jutat, اجثاث ajtāt body; corpse, cadaver; carcass",
+    "examples": []
+  },
+  {
+    "word": "جثل",
+    "displayWord": "جثل",
+    "translation": "jatl thick, dense (esp. hair)",
+    "examples": []
+  },
+  {
+    "word": "جثليق",
+    "displayWord": "جثليق",
+    "translation": "jitlīq pl. جثالقة jatāliqa catholicos, primate of the Armenian Church",
+    "examples": []
+  },
+  {
+    "word": "جثم",
+    "displayWord": "جثم",
+    "translation": "jatama u i (jatm, جثوم jutūm) to alight, sit, perch (bird); to crouch, cower; to fall or lie prone, lie face down; to beset, oppress على) s.th.)",
+    "examples": []
+  },
+  {
+    "word": "جثمة",
+    "displayWord": "جثمة",
+    "translation": "jatma (n. vic.) motionless sitting or lying",
+    "examples": []
+  },
+  {
+    "word": "جثام",
+    "displayWord": "جثام",
+    "translation": "jutām and جاثوم jātūm nightmare, incubus",
+    "examples": []
+  },
+  {
+    "word": "جثمان",
+    "displayWord": "جثمان",
+    "translation": "jutmān pl. -āt hody, mortal frame",
+    "examples": []
+  },
+  {
+    "word": "جثمانى",
+    "displayWord": "جثمانى",
+    "translation": "jutmānī hodily, physical, corporeal",
+    "examples": []
+  },
+  {
+    "word": "جاثم",
+    "displayWord": "جاثم",
+    "translation": "jātim pl. جثم juttam squatting, crouching; perching; prostrate, prone جثو) جثا) jatā u (jutuw) to kneel, root on the knees; to bend the knee, genullect; to fall on one’s knees",
+    "examples": []
+  },
+  {
+    "word": "جثو",
+    "displayWord": "جثو",
+    "translation": "jutūw kneeling pooition",
+    "examples": []
+  },
+  {
+    "word": "جثوة",
+    "displayWord": "جثوة",
+    "translation": "jutwa rock pile, mound; sepulchral mound, tumulus",
+    "examples": []
+  },
+  {
+    "word": "جاث",
+    "displayWord": "جاث",
+    "translation": "jātin kneeling; الجاثى Hercules (astron.)",
+    "examples": []
+  },
+  {
+    "word": "جحد",
+    "displayWord": "جحد",
+    "translation": "jaḥda a (jaiḥd, جحود juḥūd) to negate ( ھ s.th.); to disclaim, disavow, disown, deny ھ) s.th.); to refuse, reject, repudiate ( ھ s.th.); to renounce, forswear, adjure ( ھ a belief); to deny ( ھ ه s.o. his right)│ جحد",
+    "examples": []
+  },
+  {
+    "word": "جميله",
+    "displayWord": "جميله",
+    "translation": "(jamīlahū) to he ungrateful to s.o.",
+    "examples": []
+  },
+  {
+    "word": "جحد",
+    "displayWord": "جحد",
+    "translation": "jaḥd denial; repudiation, disavowal, rejection, disclaimer; unbelief (rel.)",
+    "examples": []
+  },
+  {
+    "word": "جحود",
+    "displayWord": "جحود",
+    "translation": "juḥūd denial; evasion, dodging, shirking (of a moral obligation); ingratitude; repudiation, disavowal, rejection, disclaimer; unbelief (rel.)",
+    "examples": []
+  },
+  {
+    "word": "جاحد",
+    "displayWord": "جاحد",
+    "translation": "jāḥid denier; infidel, unbeliever",
+    "examples": []
+  },
+  {
+    "word": "جحر",
+    "displayWord": "جحر",
+    "translation": "VII to hide in ito hole or den (animal)",
+    "examples": []
+  },
+  {
+    "word": "جحر",
+    "displayWord": "جحر",
+    "translation": "juḥr pl. اجحار ajḥār, جحور juḥūr hole, den, lair, burrow (of animals) 112",
+    "examples": []
+  },
+  {
+    "word": "جحش",
+    "displayWord": "جحش",
+    "translation": "jaḥš pl. جحاش jiḥāš, جحشان jiḥšān, اجحاش ajḥāš young donkey; (pl. جحوش juḥūš) trestle, horse",
+    "examples": []
+  },
+  {
+    "word": "جحشة",
+    "displayWord": "جحشة",
+    "translation": "ja􀀀ša young female donkey",
+    "examples": []
+  },
+  {
+    "word": "جحظ",
+    "displayWord": "جحظ",
+    "translation": "jaḥaẓa a ( جحوظ juḥūẓ) to bulge, protrude (eyeball)",
+    "examples": []
+  },
+  {
+    "word": "جحوظ العين",
+    "displayWord": "جحوظ العين",
+    "translation": "juḥūz al-‘ain exophthalmic goiter, abnormal protrusion of the eyeball",
+    "examples": []
+  },
+  {
+    "word": "جحف",
+    "displayWord": "جحف",
+    "translation": "jaḥafa a (jaḥf) to peel off, scrape off ( ھ s.th.); to sweep away ( ھ s.th.); to have a bias ( مع for), side ( مع with s.o.) IV to harm, hurt, injure, prejudice ( ب s.o., s.th.); to ruin. destroy ( ب s.o., s.th.); to wrong ( ب s.o.)",
+    "examples": []
+  },
+  {
+    "word": "جحفل",
+    "displayWord": "جحفل",
+    "translation": "jaḥfala pl. جحافل jaḥāfil2 multitude, legion, host, large army; army corps (Syr.); eminent man",
+    "examples": []
+  },
+  {
+    "word": "جحيم",
+    "displayWord": "جحيم",
+    "translation": "jaḥīm f. (also m.) fire, hellfire, hell",
+    "examples": []
+  },
+  {
+    "word": "جحيمى",
+    "displayWord": "جحيمى",
+    "translation": "jaḥīmī hellish, infernal",
+    "examples": []
+  },
+  {
+    "word": "جخ",
+    "displayWord": "جخ",
+    "translation": "jaḳḳa (eg.) to lord it, give o.s. airs; to boast, brag; (syr.) to dress up (slightly ironical)",
+    "examples": []
+  },
+  {
+    "word": "جخاخ",
+    "displayWord": "جخاخ",
+    "translation": "jaḳḳāḳ boaster, braggart",
+    "examples": []
+  },
+  {
+    "word": "جد",
+    "displayWord": "جد",
+    "translation": "1 jadd pl. جدود judūd, اجاد ajdād grand-father; ancestor, forefather│ الجد الاعلى (a‘lā) ancestor",
+    "examples": []
+  },
+  {
+    "word": "جدة",
+    "displayWord": "جدة",
+    "translation": "jadda pl. -āt grandmother",
+    "examples": []
+  },
+  {
+    "word": "جد",
+    "displayWord": "جد",
+    "translation": "2 jadda i to be new; to be a recent development, have happened lately, have recently become a fact; to be added, crop up or enter as a new factor (circumstances, costs); to appear for the first time (also, e.g., on the stage); to be or become serious, grave; to be weighty, significant, important; to take فى s.th.) seriously; to strive earnestly فى for), go out of one’s way ( فى to do s.th.), make every effort ( فى in); to be serious, be in earnest ( فى about), mean business; to hurry ( فى one’s step) II to renew ( ھ s.th.); to make anew, remake (",
+    "examples": []
+  },
+  {
+    "word": "جد",
+    "displayWord": "جد",
+    "translation": "iadd pl. جدود judūd good luck, good fortune",
+    "examples": []
+  },
+  {
+    "word": "جد",
+    "displayWord": "جد",
+    "translation": "jidd seriousness, earnestness; diligence, assiduity, eagerness; جدا jiddan very, much│ بجد and من جد earnestly, seriously; جد باھظ jiddu bāhiẓin very high (price); جد عظيم j. ‘aẓīmin very great;",
+    "examples": []
+  },
+  {
+    "word": "جدى",
+    "displayWord": "جدى",
+    "translation": "jiddī serious; earnest; جديا jiddīyan in earnest, earnestly, seriously",
+    "examples": []
+  },
+  {
+    "word": "جدية",
+    "displayWord": "جدية",
+    "translation": "jiddīya earnestness; seriousness, gravity (of a situation)",
+    "examples": []
+  },
+  {
+    "word": "جدة",
+    "displayWord": "جدة",
+    "translation": "jidda newness, recency, novelty; modernness, modernity; O rebirth, renaissance",
+    "examples": []
+  },
+  {
+    "word": "جدة",
+    "displayWord": "جدة",
+    "translation": "judda2 Jidda (eeaport in W Saudi Arabia, on Red Sea) 113",
+    "examples": []
+  },
+  {
+    "word": "جديد",
+    "displayWord": "جديد",
+    "translation": "jadīd pl. جدد judud, judad new, recent; renewed; modem; novel, unprecedented│ الجديدان al-jadīdān day and night; من جديد anew, again; (eg.) جديد لنج gadīd lang brand-new.",
+    "examples": []
+  },
+  {
+    "word": "جاد",
+    "displayWord": "جاد",
+    "translation": "jādd in earnest, earnest; serious (as opposed to comic, funny)",
+    "examples": []
+  },
+  {
+    "word": "جادة",
+    "displayWord": "جادة",
+    "translation": "jādda pl. –āt, jawādd2 main street; street",
+    "examples": []
+  },
+  {
+    "word": "جدب",
+    "displayWord": "جدب",
+    "translation": "jaduba u جدوبة judūba) to be or become dry, arid (soil) IV to suffer from drought, poverty or dearth; to be barren, sterile; to come to nothing, go up in smoke, fall flat, fizzle out; (syr.) to explode in the barrel (shell; mil.)",
+    "examples": []
+  },
+  {
+    "word": "جدب",
+    "displayWord": "جدب",
+    "translation": "jadb drought, barrenness, sterility; sterile, barren",
+    "examples": []
+  },
+  {
+    "word": "جديب",
+    "displayWord": "جديب",
+    "translation": "jadīb and اجدب ajdab2, f. جدباء jadbā’2 barren, sterile",
+    "examples": []
+  },
+  {
+    "word": "جدث",
+    "displayWord": "جدث",
+    "translation": "jadat pl. اجداث ajdāt grave, tomb",
+    "examples": []
+  },
+  {
+    "word": "جدجد",
+    "displayWord": "جدجد",
+    "translation": "judjud pl. جداجد jadājid2 cricket (zool.)",
+    "examples": []
+  },
+  {
+    "word": "جدر",
+    "displayWord": "جدر",
+    "translation": "1 jadura u ( جدارة jadāra) to be fit, suitable, proper. appropriate ( ب for s.o., for s.th.); to befit, behoove ( ب s.o., s.th.); to be worthy ( ب of), deserve ( ب s.th.)│ يجدر ذكره (dikruhū) and يجدر بالذكر it is worth mentioning",
+    "examples": []
+  },
+  {
+    "word": "جدر",
+    "displayWord": "جدر",
+    "translation": "jadr wall",
+    "examples": []
+  },
+  {
+    "word": "جدير",
+    "displayWord": "جدير",
+    "translation": "jadīr pl. -ūn جدراء judarā’2 worthy, deserving ( ب of s.th.); becoming, befitting ب) s.th.); proper, suited, suitable fit ( ب for), appropriate ( ب to)│ جدير بالذكر (dikr) worth mentioning",
+    "examples": []
+  },
+  {
+    "word": "جدارة",
+    "displayWord": "جدارة",
+    "translation": "jadāra worthiness; fitness, suitability, aptitude, qualification; appropriateness",
+    "examples": []
+  },
+  {
+    "word": "جدار",
+    "displayWord": "جدار",
+    "translation": "jidār pl. جدر judur, جدران judrān wall",
+    "examples": []
+  },
+  {
+    "word": "جدارى",
+    "displayWord": "جدارى",
+    "translation": "jidārī mural, wall (adj.)",
+    "examples": []
+  },
+  {
+    "word": "جدر",
+    "displayWord": "جدر",
+    "translation": "2 judira (pass.) and II to have smallpox",
+    "examples": []
+  },
+  {
+    "word": "جدرى",
+    "displayWord": "جدرى",
+    "translation": "judarī, jadarī smallpox",
+    "examples": []
+  },
+  {
+    "word": "جدع",
+    "displayWord": "جدع",
+    "translation": "jada‘a a (jad‘) to cut off, amputate ( ھ s.th., esp. some part of the body)",
+    "examples": []
+  },
+  {
+    "word": "جدف",
+    "displayWord": "جدف",
+    "translation": "1 II to curse, blaspheme ( على s.o., esp. God)",
+    "examples": []
+  },
+  {
+    "word": "جدف",
+    "displayWord": "جدف",
+    "translation": "2 jadafa i and II to row (o a boat)",
+    "examples": []
+  },
+  {
+    "word": "جدل",
+    "displayWord": "جدل",
+    "translation": "1 jadala u i (jadl) to twist tight, tighten, stretch ( ھ a rope); to braid, plait ( ھ s.th., the hair, etc.) II to braid, plait, ( ھ s.th.) III to quarrel, wrangle, bicker ( ه with s.o.); to argue, debate ( ه with s.o.); to dispute, contest ( فى s.th.) VI to quarrel, have an argument; to carry on a dispute",
+    "examples": []
+  },
+  {
+    "word": "جدل",
+    "displayWord": "جدل",
+    "translation": "jadal quarrel, argument; debate, dispute, discussion, controversy│ فرض",
+    "examples": []
+  },
+  {
+    "word": "جدلا",
+    "displayWord": "جدلا",
+    "translation": "faraḍa jadalan to assume for the sake of argument, propose as a basis for discussion",
+    "examples": []
+  },
+  {
+    "word": "جدلى",
+    "displayWord": "جدلى",
+    "translation": "jadalī controversial; disputatious; a disputant",
+    "examples": []
+  },
+  {
+    "word": "جدال",
+    "displayWord": "جدال",
+    "translation": "jaddāl and مجدال mijdāl disputatious, argumentative; mijdāl see also below",
+    "examples": []
+  },
+  {
+    "word": "جديلة",
+    "displayWord": "جديلة",
+    "translation": "jadīla pl. جدائل jadā’il2 braid, plait; tress",
+    "examples": []
+  },
+  {
+    "word": "جدال",
+    "displayWord": "جدال",
+    "translation": "jidāl and مجادلة mujādala pl. –āt quarrel, argument; dispute, discussion, debate│ لا يقبل الجدال (yaqbalu) incontestable, indisputable; لا جدال lā jidāla and بلا جدال bi-lā j. incontestably, indisputably",
+    "examples": []
+  },
+  {
+    "word": "جدول",
+    "displayWord": "جدول",
+    "translation": "2 jadwal pl. جداول jadāwil2 creek, brook, little stream; column; list, roster; index; chart, table, schedule│ جدول دراسى (dirāsī) curriculum; جدول البورصة stock list, خارج",
+    "examples": []
+  },
+  {
+    "word": "جدول البورصة",
+    "displayWord": "جدول البورصة",
+    "translation": "(ḳārija) not quoted (stock exchange); جدول الاعمال agenda; working plan",
+    "examples": []
+  },
+  {
+    "word": "جدا",
+    "displayWord": "جدا",
+    "translation": "(جدو ) jadā u to give a present ( على to s.o.) IV to give as a present ( ب على s.o. s.th.), present ( ب على s.o. with); to be of use, be useful, profitable│ اجدى نفعا (naf‘an) to be useful; ھذا لا يجديك that won’t help you, that will be of no use (to you); ما يجدى عنك ھذا do.; لا يجدى فتيلا (fatīlan) = لالا يغن ى فتيلا see",
+    "examples": []
+  },
+  {
+    "word": "جداء",
+    "displayWord": "جداء",
+    "translation": "jadā’ advantage, gain (.r for s.o.)",
+    "examples": []
+  },
+  {
+    "word": "جدوى",
+    "displayWord": "جدوى",
+    "translation": "jadwā gift, present; advantage, benefit, gain│ بلا جدوى (bi-lā) and على غير",
+    "examples": []
+  },
+  {
+    "word": "جدوى",
+    "displayWord": "جدوى",
+    "translation": "(gairi) of no avail, useless, futile, in vain",
+    "examples": []
+  },
+  {
+    "word": "جدى",
+    "displayWord": "جدى",
+    "translation": "jady pl. جداء jidā’, جديان jidyān kid, young billy goat; Capricorn (astron.); الجدى the North Star",
+    "examples": []
+  },
+  {
+    "word": "جذ",
+    "displayWord": "جذ",
+    "translation": "jadda u (jadd) to cut off, clip ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "جذاذة",
+    "displayWord": "جذاذة",
+    "translation": "jadāda pl. -āt slip of paper; pl.",
+    "examples": []
+  },
+  {
+    "word": "جذاذات",
+    "displayWord": "جذاذات",
+    "translation": "small pieces, shreds, scraps, clippings",
+    "examples": []
+  },
+  {
+    "word": "جذب",
+    "displayWord": "جذب",
+    "translation": "jadaba i (jadb) to pull, draw ( ھ s.th.); to attract ( ھ s.th.); to pull out, draw out, whip out ( ھ s.th.), draw ( ھ a weapon, or the like); to appeal, prove attractive ( ه to s.o.), attract, captivate, charm, allure ( ه s.o.), win ( ه s.o.) over ( اليه to one’s side) III to contend ( ه with s.o.) at pulling, tugging, etc. ( ھ s.th.)│ جاذبه الحبل ١١٥ (ḥabla) to vie with s.o.; (to be able) to compete with s.o., measure up to s.o., be a match for s.o.;",
+    "examples": []
+  },
+  {
+    "word": "جاذبه الكلام",
+    "displayWord": "جاذبه الكلام",
+    "translation": "or جاذبه حديثا or جاذبه اطراف الحديث (aṯrāfa l-ḥ.) he engaged him in conversation, involved him in a discussion; جاذبه اطراف الحضارة (aṯrāfa l- ḥaḍāra) to vie with s.o. in culture VI to pull back and forth ( ه s.o.); to contend (، ه",
+    "examples": []
+  },
+  {
+    "word": "جذب",
+    "displayWord": "جذب",
+    "translation": "jadb attraction; gravitation; appeal, lure, enticement, captivation│ اخذ جذبا to wrest away, take away by force; الجذب",
+    "examples": []
+  },
+  {
+    "word": "جذاب",
+    "displayWord": "جذاب",
+    "translation": "jaddāb attractive; magnetic (fig.); suction, suctorial; winning, fetching, engaging; charming, enticing, captivating, gripping",
+    "examples": []
+  },
+  {
+    "word": "جاذب",
+    "displayWord": "جاذب",
+    "translation": "jādib attractive; magnetic (fig.); winning, fetubing, engaging; charming, enticing, captivating, gripping",
+    "examples": []
+  },
+  {
+    "word": "جاذبية",
+    "displayWord": "جاذبية",
+    "translation": "jādibīya gravitation; attraction; attractiveness; charm, fascination; magnetism (fig.); lure, enticement│O",
+    "examples": []
+  },
+  {
+    "word": "جاذبية الثقل",
+    "displayWord": "جاذبية الثقل",
+    "translation": "j. ataql gravitational force; جاذبية",
+    "examples": []
+  },
+  {
+    "word": "جذر",
+    "displayWord": "جذر",
+    "translation": "jadara u (jadr) to uproot, tear out by the roots ( ھ s.th.) II do.; to extract the root ( ھ of a number; math.); to take root",
+    "examples": []
+  },
+  {
+    "word": "جذر",
+    "displayWord": "جذر",
+    "translation": "jidr, jadr pl. جذور judūr root (also math.); stem, base, lower end; (pl. اجذار ajdār) stub (of a receipt book, or the like)│ جذر تربيعى (tarbī‘ī) square root (math.)",
+    "examples": []
+  },
+  {
+    "word": "جذرى",
+    "displayWord": "جذرى",
+    "translation": "jidrī, radical, roct (adj.)",
+    "examples": []
+  },
+  {
+    "word": "جذع",
+    "displayWord": "جذع",
+    "translation": "jada‘ pl. جذع jud‘ān young man, young fellow (cf. □ جدع gada‘); new, incipient│",
+    "examples": []
+  },
+  {
+    "word": "جذع",
+    "displayWord": "جذع",
+    "translation": "jid‘ pl. اجذاع ajdā‘, جذوع judū‘ stem, trunk.; stump, tree stump; torso",
+    "examples": []
+  },
+  {
+    "word": "جذعى",
+    "displayWord": "جذعى",
+    "translation": "jid‘ī truncal",
+    "examples": []
+  },
+  {
+    "word": "جذف",
+    "displayWord": "جذف",
+    "translation": "II to row ( ھ a boat)",
+    "examples": []
+  },
+  {
+    "word": "جذل",
+    "displayWord": "جذل",
+    "translation": "jadala a (jadal) to be happy, gay, exuberant, rejoice IV to make happy, gladden, cheer ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "جذل",
+    "displayWord": "جذل",
+    "translation": "jidl pl. اجذال ajdāl, جذول judūl stump (of a tree)",
+    "examples": []
+  },
+  {
+    "word": "جذيل",
+    "displayWord": "جذيل",
+    "translation": "jadīl wooden post on which camels rub themselves",
+    "examples": []
+  },
+  {
+    "word": "جذل",
+    "displayWord": "جذل",
+    "translation": "jada1 gaiety, hilarity, exuberance, happiness 116",
+    "examples": []
+  },
+  {
+    "word": "جذل",
+    "displayWord": "جذل",
+    "translation": "jadil pl. جذلان judlān gay, hilarious, cheerful, in high spirits, exuberant, happy",
+    "examples": []
+  },
+  {
+    "word": "جذلان",
+    "displayWord": "جذلان",
+    "translation": "jadlān2 gay, hilarious, cheerful, in high spirits, exuberaut, happy",
+    "examples": []
+  },
+  {
+    "word": "جذم",
+    "displayWord": "جذم",
+    "translation": "ijdama i (jadm) to out off, chop off ( ھ s.th., esp. a part of the body); to remove, ta.ke out, excise ( ھ e.g., the tonsils, the appendix; surg.); pass. judima to be afllicted with leprosy",
+    "examples": []
+  },
+  {
+    "word": "جذم",
+    "displayWord": "جذم",
+    "translation": "jidm pl. جذوم judūm, اجذام ajdām root",
+    "examples": []
+  },
+  {
+    "word": "جذام",
+    "displayWord": "جذام",
+    "translation": "judām leprosy",
+    "examples": []
+  },
+  {
+    "word": "جذامة",
+    "displayWord": "جذامة",
+    "translation": "judāma stubble",
+    "examples": []
+  },
+  {
+    "word": "جذمور",
+    "displayWord": "جذمور",
+    "translation": "judmur stump",
+    "examples": []
+  },
+  {
+    "word": "جذوة",
+    "displayWord": "جذوة",
+    "translation": "jadwa, jidwa, judwa pl. جذى jidan, judan,",
+    "examples": []
+  },
+  {
+    "word": "جذاء",
+    "displayWord": "جذاء",
+    "translation": "jidā’ firebrand; burning log",
+    "examples": []
+  },
+  {
+    "word": "جر",
+    "displayWord": "جر",
+    "translation": "jarra u (jarr) to draw, pull ( ھ s.th.); to drag, tug, haul ( ھ s.th.): to tow ( ھ s.th.); to trail ( ھ s.th.); to drag along ( ه s.o., ھ s.th.); to draw ( على ھ s.th. on s.o.), bring ( ھ s.th.) down ( على upon s.o.); to lead ( الى to), bring on, cause ( الى s.th.); to entail ( ھ e.g., some evil, على for s.o.); (gram.) to pronounce the final consonant with i, put (a word) into tho genitive│ جر جريرة (jarīratan) to commit an outrage, a crime (",
+    "examples": []
+  },
+  {
+    "word": "جر",
+    "displayWord": "جر",
+    "translation": "jarr pull(ing), drawing, draft.; traction, drag(ging), tugging, towage, hauling; bringing on, causing; genitive│",
+    "examples": []
+  },
+  {
+    "word": "جرة",
+    "displayWord": "جرة",
+    "translation": "jarra pl. جرار jirār (earthenware) jar",
+    "examples": []
+  },
+  {
+    "word": "جرة",
+    "displayWord": "جرة",
+    "translation": "jarra, jurra trail, track; rut (left by a wagon)│ بجرة قلم bi-j. qalam with one stroke of the pen",
+    "examples": []
+  },
+  {
+    "word": "جرة",
+    "displayWord": "جرة",
+    "translation": "jirra cud (of a ruminant)",
+    "examples": []
+  },
+  {
+    "word": "جراء أن",
+    "displayWord": "جراء أن",
+    "translation": "because",
+    "examples": []
+  },
+  {
+    "word": "جرار",
+    "displayWord": "جرار",
+    "translation": "jarrār huge, tremendous (army); potter; (pl. -āt) tractor; tugboat, steam tug, towing launch",
+    "examples": []
+  },
+  {
+    "word": "جارور",
+    "displayWord": "جارور",
+    "translation": "jārūr pl. جوارير jawārīr2 (syr.) drawer (of a desk, etc.)",
+    "examples": []
+  },
+  {
+    "word": "جارورة",
+    "displayWord": "جارورة",
+    "translation": "jārūra (leb.) rake (tool)",
+    "examples": []
+  },
+  {
+    "word": "جريرة",
+    "displayWord": "جريرة",
+    "translation": "jarīr pl. جرائر jarā’ir2 guilt; offense, outrage, crime│ من جريرة min jarīrati because of, on account of",
+    "examples": []
+  },
+  {
+    "word": "جرارة",
+    "displayWord": "جرارة",
+    "translation": "jarrāra pl. -āt a variety of scorpion; tractor",
+    "examples": []
+  },
+  {
+    "word": "جرؤ",
+    "displayWord": "جرؤ",
+    "translation": "jaru’a u ( جرأة jur’a, جراءة jarā’a) to dare, venture, risk, hazard ( على s.th.), take the risk ( على of, ان of doing s.th.), have the 117 courage ( على for s.th.) II to encourage",
+    "examples": []
+  },
+  {
+    "word": "جرئ",
+    "displayWord": "جرئ",
+    "translation": "jarī’ pl. اجرياء ajriyā’2 bold, courageous ( ب، على in s.th.); forward, immodest, insolent; daring, reckless, foolbardy",
+    "examples": []
+  },
+  {
+    "word": "جرأة",
+    "displayWord": "جرأة",
+    "translation": "jur’a and جراءة jarā’a courage, boldness, daring; forwardness, insolence",
+    "examples": []
+  },
+  {
+    "word": "جراج",
+    "displayWord": "جراج",
+    "translation": "(Fr.) garāž pl. -āt garage (eg.)",
+    "examples": []
+  },
+  {
+    "word": "جرام",
+    "displayWord": "جرام",
+    "translation": "grām gram (eg.)",
+    "examples": []
+  },
+  {
+    "word": "جرانيت",
+    "displayWord": "جرانيت",
+    "translation": "granīt granite (eg.)",
+    "examples": []
+  },
+  {
+    "word": "جرانيتى",
+    "displayWord": "جرانيتى",
+    "translation": "granītī granitic (eg.)",
+    "examples": []
+  },
+  {
+    "word": "جرب",
+    "displayWord": "جرب",
+    "translation": "2 jariba a (jarab) to be mangy; (eg.) to fade (color) II to test ( ھ s.th.); to try, try out, essay ( ھ s.th.); to sample ( ھ s.th.); to rehearse, practice ( ھ s.th.); to attempt ( ھ s.th.); to put to the test, try, tempt ( ھ s.o.)│ جرب نفسه فى to try one’s hand at;",
+    "examples": []
+  },
+  {
+    "word": "جرب الايام",
+    "displayWord": "جرب الايام",
+    "translation": "(ayyāma) to gather experience",
+    "examples": []
+  },
+  {
+    "word": "جرب",
+    "displayWord": "جرب",
+    "translation": "jarab mange; itch, scabies",
+    "examples": []
+  },
+  {
+    "word": "جرب",
+    "displayWord": "جرب",
+    "translation": "jarib mangy; scabby",
+    "examples": []
+  },
+  {
+    "word": "جراب",
+    "displayWord": "جراب",
+    "translation": "jirāb pl. اجربة ajriba, جرب jurub sack, bag, traveling bag; knapsack; scrotum; covering, case; sheath, scabbard (for the sword)",
+    "examples": []
+  },
+  {
+    "word": "جراب",
+    "displayWord": "جراب",
+    "translation": "jurāb pl. -āt stocking, sock",
+    "examples": []
+  },
+  {
+    "word": "جريب",
+    "displayWord": "جريب",
+    "translation": "jarīb a patch of arable land",
+    "examples": []
+  },
+  {
+    "word": "جورب",
+    "displayWord": "جورب",
+    "translation": "2 look up alphabeticaUy",
+    "examples": []
+  },
+  {
+    "word": "جربذة",
+    "displayWord": "جربذة",
+    "translation": "jarbada = جربزة",
+    "examples": []
+  },
+  {
+    "word": "جربز",
+    "displayWord": "جربز",
+    "translation": "jurbuz pl. جرابزة jarābiza impostor, confidence man, swindler",
+    "examples": []
+  },
+  {
+    "word": "جربزة",
+    "displayWord": "جربزة",
+    "translation": "jarbaza (also جربذة ) deception, swindle",
+    "examples": []
+  },
+  {
+    "word": "جربوع",
+    "displayWord": "جربوع",
+    "translation": "jarbū‘ (= يربوع ) pl. جرابيع jarābī‘2 jerboa (zool.)",
+    "examples": []
+  },
+  {
+    "word": "جربندية",
+    "displayWord": "جربندية",
+    "translation": "jarabandīya (and جرابندية ) knapsack, rucksack",
+    "examples": []
+  },
+  {
+    "word": "جرثوم",
+    "displayWord": "جرثوم",
+    "translation": "jurtūm, جرثومة jurtūma pl. جراثيم jarātīm2 root; origin; germ; microbe, bacillus, bacterium│ تحت الجرثوم taḥt al-j. inframicrobe",
+    "examples": []
+  },
+  {
+    "word": "جراج",
+    "displayWord": "جراج",
+    "translation": "look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "جرجر",
+    "displayWord": "جرجر",
+    "translation": "jarjara ( جرجرة jarjara) to gargle; to jerk or pull back and forth; to trail, drag ( ھ s.th.); to tow away ( ھ s.th.)│ جرجر خطاه (ḳuṯāhū) to drag one’s feet, shuffle along II tajarjara pass. and refl. of I",
+    "examples": []
+  },
+  {
+    "word": "جرجرة",
+    "displayWord": "جرجرة",
+    "translation": "jarara gargling; rombling noise; rumble, clatter (of a wagon)",
+    "examples": []
+  },
+  {
+    "word": "جرجر",
+    "displayWord": "جرجر",
+    "translation": "jirjir (large, thick) beans",
+    "examples": []
+  },
+  {
+    "word": "جرجير",
+    "displayWord": "جرجير",
+    "translation": "jirjīr watercress (eg., syr.) 118",
+    "examples": []
+  },
+  {
+    "word": "جرح",
+    "displayWord": "جرح",
+    "translation": "jaraḥa a (jarḥ to wound ( ه s.o.); to injure, hurt ( ه s.o.; also fig., the feelings) II to invalidate ( ھ teatimony), challenge, declare unreliahle ( ه a witness), take formal exception ( ه، ھ to) VIII to commit ھ) an outrage, a crime)│ اجترح السيآت (sayyi’āt) to do evil things",
+    "examples": []
+  },
+  {
+    "word": "جرح",
+    "displayWord": "جرح",
+    "translation": "jurḥ pl. جراح jirāḥ, جروح jurūḥ,",
+    "examples": []
+  },
+  {
+    "word": "جروحات",
+    "displayWord": "جروحات",
+    "translation": "jurūḥāt, اجراح ajrāḥ wound, injury, lesion",
+    "examples": []
+  },
+  {
+    "word": "جراح",
+    "displayWord": "جراح",
+    "translation": "jarrāḥ pl. -ūn surgeon│ جراح الاسنان dental surgeon",
+    "examples": []
+  },
+  {
+    "word": "جراحة",
+    "displayWord": "جراحة",
+    "translation": "jirāḥa surgery",
+    "examples": []
+  },
+  {
+    "word": "جراحى",
+    "displayWord": "جراحى",
+    "translation": "jirāḥī surgical│ عملية جراحية (‘amalīya) surgical operation",
+    "examples": []
+  },
+  {
+    "word": "جريح",
+    "displayWord": "جريح",
+    "translation": "jarīḥ pl. جرحى jarḥā wounded, injured, hurt",
+    "examples": []
+  },
+  {
+    "word": "جارح",
+    "displayWord": "جارح",
+    "translation": "jarīḥ injuring; wounding, stinging, painful, hurting; rapacious (beast), predatory",
+    "examples": []
+  },
+  {
+    "word": "جارحة",
+    "displayWord": "جارحة",
+    "translation": "jāriḥa pl. جوارح jawāriḥ2 predatory animal or bird│ جوارح الطير j. aṯ-ṯair predatory birds",
+    "examples": []
+  },
+  {
+    "word": "جوارح",
+    "displayWord": "جوارح",
+    "translation": "jawāriḥ2 limbes, extremities (of the hody)│ بكل جوارحه with might and main, with all his strength",
+    "examples": []
+  },
+  {
+    "word": "جرد",
+    "displayWord": "جرد",
+    "translation": "jarada u (jard) to peel, pare ( ھ s.th.); to remove the shell, peel, rind or husk ( ھ of s.th.); to denude, diveet, strip, bare ( ھ s.th.); (com.) to take stock; to make an inventory ( البضائع of goods on hand) II to peel, pare ( ھ s.th.); to remove the shell, peel, rind or husk ( ھ of s.th.); to denude, divest, strip, dispossess, deprive ( من ھ or ه s.o. or s.th. of); to withhold ( من ه from s.o. s.th.); to draw, unsheathe ( السيف the sword); to unleash ( على ھ s.th. against s.o.); to send, dispatch ( ھ a military detachment, troops, ضد or على against s.o.); to free ( من ھ or ه s.o. or s.th. from); to isolate ( ھ s.th.); to abstract ( ھ s.th.); to divest ( من ss.o. of his citizenship, of a rank, of a vested right, etc.)│ جرده من السلاح to disarm s.o.; جرد نفسه من to free o.s. from, rid o.s. of, give up s.th. V pass. of II; to strip o.s., rid o.s., get rid ( من or عن of), free o.s. ( من or عن from); to be free ( من or عن from, ل for a task); to devote o.s. exclusively ( ل to s.th.); to give up, renounce ( من or عن s.th.); to isolate o.s. ; to be absolute",
+    "examples": []
+  },
+  {
+    "word": "جرد",
+    "displayWord": "جرد",
+    "translation": "jard bare, threadbare, shabby, worn; (com.) inventory; stocktaking",
+    "examples": []
+  },
+  {
+    "word": "جريد",
+    "displayWord": "جريد",
+    "translation": "jarīd without vegetation, barren, bleak, stark (landscape)",
+    "examples": []
+  },
+  {
+    "word": "جراد",
+    "displayWord": "جراد",
+    "translation": "jarād (coll.; n. un. ة) locust(s)│ جراد",
+    "examples": []
+  },
+  {
+    "word": "جريد",
+    "displayWord": "جريد",
+    "translation": "jarīd palm branches stripped of their leaves; jeered, a blunt javelin used in equestrian games",
+    "examples": []
+  },
+  {
+    "word": "جريدة",
+    "displayWord": "جريدة",
+    "translation": "jarīda pl. جرائد jarā’id2 (n. un. of",
+    "examples": []
+  },
+  {
+    "word": "جريد",
+    "displayWord": "جريد",
+    "translation": ") palm-leaf stalk; list, register, roster, index; newspaper│ جريدة يومية (yaumīya) daily newspaper; جرائد المساء j. al-masā’ the evening papers; الجريدة الناطقة and الجريدة",
+    "examples": []
+  },
+  {
+    "word": "جردل",
+    "displayWord": "جردل",
+    "translation": "jardal pl. جرادل jaradil2 bucket, pail",
+    "examples": []
+  },
+  {
+    "word": "جرذ",
+    "displayWord": "جرذ",
+    "translation": "jurad pl. جرذان jirdān, jurdān large rat",
+    "examples": []
+  },
+  {
+    "word": "جرذون",
+    "displayWord": "جرذون",
+    "translation": "jirdaun pl. جراذين jarādīn2 large rat",
+    "examples": []
+  },
+  {
+    "word": "جرس",
+    "displayWord": "جرس",
+    "translation": "1 jarasa i (jars) to ring, toll, knell, (re)sound II to make experienced, inure by severe trials, sorely try ( ه s.o.; time, events); to compromise, disgrace, discredit, expose, bring into dierepute ( ب s.o.)",
+    "examples": []
+  },
+  {
+    "word": "جرس",
+    "displayWord": "جرس",
+    "translation": "jars, jirs sound, tone",
+    "examples": []
+  },
+  {
+    "word": "جرس",
+    "displayWord": "جرس",
+    "translation": "jaras pl. اجراس ajrās bell",
+    "examples": []
+  },
+  {
+    "word": "جرسة",
+    "displayWord": "جرسة",
+    "translation": "jursa defamation, public exposure; scandal, disgrac",
+    "examples": []
+  },
+  {
+    "word": "جرساية",
+    "displayWord": "جرساية",
+    "translation": "2 jirsāya, جرسية jirsīya pl. -āt jersey, woolen sweater; جرسى jersey cloth",
+    "examples": []
+  },
+  {
+    "word": "جرش",
+    "displayWord": "جرش",
+    "translation": "jaraša u (jarš) to crush ( ھ s.th.); to grate, bruise, grind ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "جرش",
+    "displayWord": "جرش",
+    "translation": "jarš a grating, scraping noise",
+    "examples": []
+  },
+  {
+    "word": "جريش",
+    "displayWord": "جريش",
+    "translation": "jarīš crushed, bruised, coarsely ground; crushed grain; grits",
+    "examples": []
+  },
+  {
+    "word": "جاروشة",
+    "displayWord": "جاروشة",
+    "translation": "jārūša pl. جوارش jawarīš2 quern, hand mill (for grinding grain)",
+    "examples": []
+  },
+  {
+    "word": "جرض",
+    "displayWord": "جرض",
+    "translation": "jaraḍa a (jaraḍ): جرض بريقه (bi-rīqihī) he choked on his saliva, could not swallow his saliva (because of excitement, alarm, or grief), he was very upset, in a atate of great agitation, deeply moved; -- jaraḍa u (jarḍ) to choke, sulfocate ( ه s.o.) IV اجرضه بريقه (cf. I) to alarm s.o., fill s.o. with apprehension",
+    "examples": []
+  },
+  {
+    "word": "جريض",
+    "displayWord": "جريض",
+    "translation": "jarīḍ: حال الجريض دون القريض ḥāla l.j. dūna l-qarīḍ (proverb; lit.: choking prevented poetry, i.e.) in the face of death one does not think of rhyming (among other interpretations)",
+    "examples": []
+  },
+  {
+    "word": "جرع",
+    "displayWord": "جرع",
+    "translation": "jara‘a a (jar‘) and jari‘a a (jara‘) to swallow, gulp, devour ( ھ s.th.); to pour down, toss down ( ھ a drink) II to make ( ه s.o.) swallow ( ھ s.th.); to gulp down V to drink ( ھ s.th.) VIII to swallow, gulp down ھ) s.th.)",
+    "examples": []
+  },
+  {
+    "word": "جرعة",
+    "displayWord": "جرعة",
+    "translation": "jur‘a, jar‘a pl. جرع jura‘, -āt gulp, mouthful, draught; potion, dose (med.)",
+    "examples": []
+  },
+  {
+    "word": "جرف",
+    "displayWord": "جرف",
+    "translation": "jarafa u (jarf) and VIII to sweep away ( ھ s.th.); to wash away ( ھ s.th.); to shovel away ( ھ s.th.); to remove ( ھ s.th.); to tear away, carry off ( ھ s.th.); to carry along ( ھ or ه s.o. or s.th.) VII to be swept away, be carried away",
+    "examples": []
+  },
+  {
+    "word": "جرف",
+    "displayWord": "جرف",
+    "translation": "jurf, juruf pl. جروف jurūf, اجراف ajrāf undercut bank or shore; clilf, steep slope, precipice; bluff (along a river or coast)│ جرف جليدي (jalīdī) avalanche",
+    "examples": []
+  },
+  {
+    "word": "جرافة",
+    "displayWord": "جرافة",
+    "translation": "jarrāfa pl. -āt, جراريف jarārīf 2 rake; harrow",
+    "examples": []
+  },
+  {
+    "word": "جارف",
+    "displayWord": "جارف",
+    "translation": "jārif torrential (stream, mountain creek); stormy, violent (emotions, passions) 120",
+    "examples": []
+  },
+  {
+    "word": "جركسى",
+    "displayWord": "جركسى",
+    "translation": "jarkasī pl. جراكسة jarākisa circassian (adj. and n.)",
+    "examples": []
+  },
+  {
+    "word": "جرم",
+    "displayWord": "جرم",
+    "translation": "jarama i (jarm) to sone ( الحم al-laḥma the meat); -- to commit an offense, a crime, an outrage ( على or الى against s.o.), sin ( على or",
+    "examples": []
+  },
+  {
+    "word": "جرم",
+    "displayWord": "جرم",
+    "translation": "garm pl. جروم gurūm (eg.) long, flatbottomed sarge, lighter (naut.)",
+    "examples": []
+  },
+  {
+    "word": "جرم",
+    "displayWord": "جرم",
+    "translation": "jirm pl. اجرام ajrām, جرم jurum body; mass, sulk, volume (of a body)│ الاجرام",
+    "examples": []
+  },
+  {
+    "word": "جرم",
+    "displayWord": "جرم",
+    "translation": "iunn pl. اجرام ajrām, جروم jurūm offense, crime, sin",
+    "examples": []
+  },
+  {
+    "word": "جريم",
+    "displayWord": "جريم",
+    "translation": "jarīm hulking, bulky, huge, voluminous, of great size",
+    "examples": []
+  },
+  {
+    "word": "جريمة",
+    "displayWord": "جريمة",
+    "translation": "jarīma pl. جرائم jarā’im2 crime; offense; sin│( عظمى or) جريمة كبرى (kubrā, uẓma) capital offense; قانون الجرائم penal code",
+    "examples": []
+  },
+  {
+    "word": "جرامز",
+    "displayWord": "جرامز",
+    "translation": "jarāmiz2 and جراميز jarāmīz2 limbs, legs│ ضم جراميزه (ḍamma) he beat it, he made off",
+    "examples": []
+  },
+  {
+    "word": "جرمانى",
+    "displayWord": "جرمانى",
+    "translation": "jarmānī Germanic, Teutonic",
+    "examples": []
+  },
+  {
+    "word": "جرن",
+    "displayWord": "جرن",
+    "translation": "1 jurn pl. اجران ajrān (stone) basin; mortar; (eg.) threshing floor, barn│ جرن المعمودية j. al-ma‘mūdīya baptismal font",
+    "examples": []
+  },
+  {
+    "word": "جران",
+    "displayWord": "جران",
+    "translation": "2 jirān the front part of a camel’s neck│",
+    "examples": []
+  },
+  {
+    "word": "جرنال",
+    "displayWord": "جرنال",
+    "translation": "jurnāl (eg. also gurnāl) pl. جرانيل žarānīl2 (eg., garānīl2) journal, newspaper, periodical",
+    "examples": []
+  },
+  {
+    "word": "جرانيت",
+    "displayWord": "جرانيت",
+    "translation": "granīt granite",
+    "examples": []
+  },
+  {
+    "word": "جرانيتى",
+    "displayWord": "جرانيتى",
+    "translation": "grānītī granitic",
+    "examples": []
+  },
+  {
+    "word": "جرو",
+    "displayWord": "جرو",
+    "translation": "jarw (jirw, jurw) pl. اجر ajrin, جراء jirā’,",
+    "examples": []
+  },
+  {
+    "word": "جروسة",
+    "displayWord": "جروسة",
+    "translation": "grōsa gross (= 12 dozen)",
+    "examples": []
+  },
+  {
+    "word": "جرى",
+    "displayWord": "جرى",
+    "translation": "jarā i (jary) to flow, stream (water); to run; to hurry, rush; to slow (wind); to take place, come to pass, happen, occur; to be under way, be in progress, be going on (work); to befall ( ل s.o.), happen ( ل to); to be in circulation, circulate, be current; to wend one’s way ( الى to), head ( على for); to proceed ( على in accordance with); to follow ( مع s.th.), yield, give way ( مع to, e.g., to a desire); to entail ( ب s.th.); (with",
+    "examples": []
+  },
+  {
+    "word": "جرى مجراه",
+    "displayWord": "جرى مجراه",
+    "translation": "(majrāhū) to take the same course as, be analogous to, follow the same way as, proceed or act in the same manner as; جرى منه الشيء مجرى الدم (minhu š-šai’u majrā d-dam) it had become second nature to him; جرى على الالسن (alsun) to circulate, make the rounds (rumor); جرى على كل لسان 121 to be on everyone’s lip; جرى على قلمه (qalamihī) to come to s.o.’s pen (e.g, a poem); جرى على",
+    "examples": []
+  },
+  {
+    "word": "جرت بذلك عادتھم",
+    "displayWord": "جرت بذلك عادتھم",
+    "translation": "that was their habit II to cause to run│ جرى ريقه (rīqahū) to make s.o.’s mouth water III to concur, agree, be in agreement ( ه with s.o., فى in s.th.); to keep pace, keep up ( ه with s.o.; also intellectually); to be able to follow ( ه s.o.); to go (along) ( ھ with); to adapt o.s. adjust, conform ( ھ to), be guided ( ھ by) IV to cause to flow, make flow ( ھ s.th.); to cause to run, set running ( ھ، ه s.o., s.th.); to make ( ھ s.th.) take place or happen, bring about ( ھ s.th.); to carry out, execute, enforce, put into effect, apply ( ھ s.th., e.g., rules, regulations); to carry out, perform ( ھ an action); to Set going, set in motion ( ھ a project), launch ( ھ an undertaking); to channel ( على or ل ھ s.th. to), bestow, settle ( على or ل ھ s.th. upon s.o.); to impose, inflict ( على ھ s.th., a penalty, on s.o.)│ اجرى تجربة (tajribatan) to carry out an experiment; اجرى تحقيقا to conduct an investigation; اجرى له اعانة (i‘ānatan) to grant s.o. a subsidy; اجراه",
+    "examples": []
+  },
+  {
+    "word": "جرى",
+    "displayWord": "جرى",
+    "translation": "jary course│ جريا على jaryan ‘alā in accordance with, according to",
+    "examples": []
+  },
+  {
+    "word": "جراك",
+    "displayWord": "جراك",
+    "translation": "min jarāka and min jarā’ika because of you, on your account, for your sake",
+    "examples": []
+  },
+  {
+    "word": "جراء",
+    "displayWord": "جراء",
+    "translation": "jarrā’ runner, racer",
+    "examples": []
+  },
+  {
+    "word": "جراية",
+    "displayWord": "جراية",
+    "translation": "jirāya pl. -āt daily (food) rations; pay, salary│ عيش جراية ‘ēš girāya (eg.) coarse bread",
+    "examples": []
+  },
+  {
+    "word": "جريان",
+    "displayWord": "جريان",
+    "translation": "jarayāan flow, flux; course; stream",
+    "examples": []
+  },
+  {
+    "word": "جرى",
+    "displayWord": "جرى",
+    "translation": "I and IV",
+    "examples": []
+  },
+  {
+    "word": "جرى",
+    "displayWord": "جرى",
+    "translation": ") (course of) events, happenings",
+    "examples": []
+  },
+  {
+    "word": "جار",
+    "displayWord": "جار",
+    "translation": "jārin flowing, streaming, running; circulating; current, present│ الشھر الجارى (šahr) the current month",
+    "examples": []
+  },
+  {
+    "word": "جارية",
+    "displayWord": "جارية",
+    "translation": "jāriya pl. –āt, جوار jawārin girl; slave girl; maid, servant; ship, vessel",
+    "examples": []
+  },
+  {
+    "word": "جز",
+    "displayWord": "جز",
+    "translation": "jazza u (jazz) to cut off, clip ( ھ s.th.); to shear, shear off ( ھ s.th.; esp. the wool of sheep)",
+    "examples": []
+  },
+  {
+    "word": "جزة",
+    "displayWord": "جزة",
+    "translation": "jizza pl. جزز jizaz, جزائز jazā’iz2 shorn wool, fleece, slip",
+    "examples": []
+  },
+  {
+    "word": "جزازة",
+    "displayWord": "جزازة",
+    "translation": "juzāza pl. -āt slip of paper; label, tag",
+    "examples": []
+  },
+  {
+    "word": "جزاز",
+    "displayWord": "جزاز",
+    "translation": "jazzāz pl. –ūn shearer, woolshearer",
+    "examples": []
+  },
+  {
+    "word": "جزأ",
+    "displayWord": "جزأ",
+    "translation": "jaza’a a and VIII to be content, content o.s. ( ب with) II to divide, part, separate, break up, cut up, partition ( ھ s.th.) V to divide, break up, be or become divided; to be separated, be detached, be partitioned off; to be divisible, separable ( عن from)",
+    "examples": []
+  },
+  {
+    "word": "جزء",
+    "displayWord": "جزء",
+    "translation": "juz’ pl. اجزاء ajzā’ part, portion; constituent, component; fraction; division; section; the 30th part of the Koran (= 2 ḥizb)",
+    "examples": []
+  },
+  {
+    "word": "جزئى",
+    "displayWord": "جزئى",
+    "translation": "juz’ī partial; minor, trivial, insignificant, unimportant; (jur.) minor, petty; جزئيا juz’īyan partly; جزئيات juz’īyāt details, particulars; trivialities; subordinate partly; divisions, sections (e.g., of a court of justice)│ مواد جزئية (mawādd) petty cases (jur.); جنح جزئية (junaḥ) summary delicts (jur.); محاكم جزئية courts of summary justice; نيابة جزئية (niyāba) parquet of a summary court; حادثة جزئية minor incident; تسوية جزئية (taswiya) part payment; الجزئيات والكليات (kullīyāt) the particular and general aspects, the minor and the major issues",
+    "examples": []
+  },
+  {
+    "word": "جزيء",
+    "displayWord": "جزيء",
+    "translation": "juzai’ pl. -āt molecule",
+    "examples": []
+  },
+  {
+    "word": "جزدان",
+    "displayWord": "جزدان",
+    "translation": "juzdān, jidān pl. -āt wallet; change purse",
+    "examples": []
+  },
+  {
+    "word": "جزر",
+    "displayWord": "جزر",
+    "translation": "jazara u (jazr) to slaughter; to kill, butcher ( ھ an animal); -- i u (jazr) to sink, fall, drop, ebb (water)",
+    "examples": []
+  },
+  {
+    "word": "جزر",
+    "displayWord": "جزر",
+    "translation": "jazr slaughter; butchering; ebb (of the sea)",
+    "examples": []
+  },
+  {
+    "word": "جزرة",
+    "displayWord": "جزرة",
+    "translation": "jazra blood sacrifice",
+    "examples": []
+  },
+  {
+    "word": "جزور",
+    "displayWord": "جزور",
+    "translation": "jazūr pl. جزر juzur slaughter camel",
+    "examples": []
+  },
+  {
+    "word": "جزار",
+    "displayWord": "جزار",
+    "translation": "jazzār pl. ة, -ūn butcher",
+    "examples": []
+  },
+  {
+    "word": "جزيرة",
+    "displayWord": "جزيرة",
+    "translation": "jazīra pl. جزائر jazā’ir جزر , 2 juzur island│ شبه جزيرة šibhu j. peninsula; الجزيرة Al Jazira, (Northwest) Mesopotemia;",
+    "examples": []
+  },
+  {
+    "word": "جزرى",
+    "displayWord": "جزرى",
+    "translation": "jazarī insular; (pl. -ūn) islander",
+    "examples": []
+  },
+  {
+    "word": "جزائرى",
+    "displayWord": "جزائرى",
+    "translation": "jazā’rī pl. -ūn Algerian (adj. and n.); islander",
+    "examples": []
+  },
+  {
+    "word": "جزر",
+    "displayWord": "جزر",
+    "translation": "2 jazar (coll.; n. un. ة) carrot(s)",
+    "examples": []
+  },
+  {
+    "word": "جزع",
+    "displayWord": "جزع",
+    "translation": "jazi‘a a (jaza‘, جزع juzū‘) to be or become anxious, worried, concerned; to be sad, unhappy ( من about); to feel regret ( على for s.o.), pity ( على s.o.); to mourn (j. for s.o.) V to break apart, break, snap",
+    "examples": []
+  },
+  {
+    "word": "جزع",
+    "displayWord": "جزع",
+    "translation": "jaz‘ onyx",
+    "examples": []
+  },
+  {
+    "word": "جزع",
+    "displayWord": "جزع",
+    "translation": "juz’ axle; shaft (techn.)",
+    "examples": []
+  },
+  {
+    "word": "جزع",
+    "displayWord": "جزع",
+    "translation": "jaza‘ anxiety, uneasiness, apprehension, concern; anguish, fear; sadness",
+    "examples": []
+  },
+  {
+    "word": "جزع",
+    "displayWord": "جزع",
+    "translation": "jazi‘ restless, impatient; anxious, worried, uneasy, apprehensive",
+    "examples": []
+  },
+  {
+    "word": "جزع",
+    "displayWord": "جزع",
+    "translation": "jazū‘ and جازع jāzi‘ restless; impatient; anxious, worried, uneasy, apprehensive",
+    "examples": []
+  },
+  {
+    "word": "جزف",
+    "displayWord": "جزف",
+    "translation": "III to act at random, blindly, Indiscriminately, take a chance; to speculate (fin.); to speak vaguely, in general terms; to risk, stake ( ب s.th.)│",
+    "examples": []
+  },
+  {
+    "word": "جازف بنفسه",
+    "displayWord": "جازف بنفسه",
+    "translation": "to risk one’s life; جازف به فى to plunge s.o. into (some adventure)",
+    "examples": []
+  },
+  {
+    "word": "جزاف",
+    "displayWord": "جزاف",
+    "translation": "juzāf purchase of a certain amount of things (Isl. Law); جزافا juzāfan at random, haphazardly",
+    "examples": []
+  },
+  {
+    "word": "جزل",
+    "displayWord": "جزل",
+    "translation": "2 jazūla u to be considerable, abundant, plentiful IV اجزل له العطاء (‘aṯā’) to give generously, openhandedly, liberally to s.o. VIII to write shorthand",
+    "examples": []
+  },
+  {
+    "word": "جزل",
+    "displayWord": "جزل",
+    "translation": "jazl and جزيل jazīl pl. جزال jizāl abundant, plentiful, ample, much; pure, lucid, eloquent (style)│ جزل الرأي of sound, unerring judgment; شكره شكرا جزيلا šakarahū šukran jazīlan he thanked him profusely; شكرا جزيلا many thanks!",
+    "examples": []
+  },
+  {
+    "word": "جزل",
+    "displayWord": "جزل",
+    "translation": "jizla piece, slice",
+    "examples": []
+  },
+  {
+    "word": "جزالة",
+    "displayWord": "جزالة",
+    "translation": "jazāla profusion, abundance; (rhet.) purity (of style)",
+    "examples": []
+  },
+  {
+    "word": "جوزل",
+    "displayWord": "جوزل",
+    "translation": "1 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "جزلان",
+    "displayWord": "جزلان",
+    "translation": "2 juzlān = جزدان",
+    "examples": []
+  },
+  {
+    "word": "جزم",
+    "displayWord": "جزم",
+    "translation": "1 jawma i (jazm) to cut off, cut short, clip (",
+    "examples": []
+  },
+  {
+    "word": "جزم",
+    "displayWord": "جزم",
+    "translation": "jazm cutting off, clipping; decision; resolution, resolve; apodictic judgment; (gram.) apocopate form│ علامة الجزم ‘alāmat al-j. = jazma",
+    "examples": []
+  },
+  {
+    "word": "جزمة",
+    "displayWord": "جزمة",
+    "translation": "jazma diacritical mark (o) indicating vowellessness of a final consonant",
+    "examples": []
+  },
+  {
+    "word": "جازم",
+    "displayWord": "جازم",
+    "translation": "jāzim decisive; peremptory, definite, definitive, final; firmly convinced, absolutely certain ( ب of s.th.); (pl. جوازم jawāzim2) governing the apocopate form (gram.)",
+    "examples": []
+  },
+  {
+    "word": "جزمة",
+    "displayWord": "جزمة",
+    "translation": "2 jazma pl. –āt, جزم jizam (pair of) shoes (pair of) boots│ جزمة برباط (bi-ribāṯ) laced soots; جزمة لماعة (lammā‘a) patent-leather shoes",
+    "examples": []
+  },
+  {
+    "word": "جزمجى",
+    "displayWord": "جزمجى",
+    "translation": "gazmagī (eg.) and جزماتى gizamātī (eg.), jazmātī (syr.) pl. -īya shoemaker",
+    "examples": []
+  },
+  {
+    "word": "جزى",
+    "displayWord": "جزى",
+    "translation": "jazā i ( جزاء iazii') to requite, recompense (",
+    "examples": []
+  },
+  {
+    "word": "جزاك لله خيرا",
+    "displayWord": "جزاك لله خيرا",
+    "translation": "(ḳairan) may God bless you for it!; جزاه جزاء سنمار (jazā’a sinimmāra) he returned to him good for evil III to repay, requite ( ب ھ s.th. with, ب ه s.o. for), recompense ( ب ه s.o. for); to reward ( على or ب ه s.o. for); to punish ( على or ب ه s.o. for)│ جزاھم خيرا (ḳairan) he invoked God’s reward upon them IV to suffice ( ه s.o.), do for s.o. ( ه); to take the place, serve instead عن) of), replace ( عن s.th.)",
+    "examples": []
+  },
+  {
+    "word": "جزاء",
+    "displayWord": "جزاء",
+    "translation": "jazā’ requital, repayment; recompense, return; compensation, setoff; 124 amends, reparation; punishment, penalty│ جزاء نقدي (naqdī) fine",
+    "examples": []
+  },
+  {
+    "word": "جزائى",
+    "displayWord": "جزائى",
+    "translation": "jazā’ī penal",
+    "examples": []
+  },
+  {
+    "word": "جزية",
+    "displayWord": "جزية",
+    "translation": "jizya pl. جزى jizan, جزاء jizā’ tax; tribute; head tax on free non-Muslims under Muslim rule",
+    "examples": []
+  },
+  {
+    "word": "جس",
+    "displayWord": "جس",
+    "translation": "jassa u (jass, مجسة majassa) to touch, feel, handle ( ھ s.th.); to palpate, examine by touch ( ھ s.th.); to test, sound, probe ( ھ s.th.); to try to gain information ( ھ about), try to find out ( ھ s.th.); to spy out ( ھ s.th.)│ جس نبضه (nabḍahū) to feel s.o.’s pulse, (fig.) جس نبض الشيء to probe, sound out, try to find out s.th. V to try to gain information ( ھ about), try to find out ( ھ s.th.); to reconnoiter, scout, explore ( ھ s.th.); to be a spy, engage in espionage; to spy, pry, snoop ( على on s.o.)│ تجسس له",
+    "examples": []
+  },
+  {
+    "word": "جس",
+    "displayWord": "جس",
+    "translation": "jass: طرى الجس ṯarīy al-j. delicate to the touch, having a tender surface, fresh",
+    "examples": []
+  },
+  {
+    "word": "جاسوس",
+    "displayWord": "جاسوس",
+    "translation": "jāsūs pl. جواسيس jawāsīs2 spy",
+    "examples": []
+  },
+  {
+    "word": "جاسوسة",
+    "displayWord": "جاسوسة",
+    "translation": "jāsūsa woman spy",
+    "examples": []
+  },
+  {
+    "word": "جاسوسى",
+    "displayWord": "جاسوسى",
+    "translation": "jāsūsī of espionage, spy- (in compounds)",
+    "examples": []
+  },
+  {
+    "word": "جاسوسية",
+    "displayWord": "جاسوسية",
+    "translation": "jāsūsīya spying, espionage",
+    "examples": []
+  },
+  {
+    "word": "جوسسة",
+    "displayWord": "جوسسة",
+    "translation": "jausasa spying, espionage",
+    "examples": []
+  },
+  {
+    "word": "جاسئ",
+    "displayWord": "جاسئ",
+    "translation": "jāsi’ hard, rough, rugged",
+    "examples": []
   },
   {
     "word": "جسد",
-    "displayWord": "جَسَد",
-    "root": "جسد",
-    "translation": "body, physique",
-    "examples": [
-      {
-        "ar": "الرِّيَاضَةُ تُغَذِّي الجَسَدَ وَتَمْنَحُهُ حَيَوِيَّةً كَبِيرَةً.",
-        "en": "Sports nourish the body and grant it great vitality.",
-        "source": "Health Guide"
-      }
-    ]
+    "displayWord": "جسد",
+    "translation": "II to make corporeal, invest with a body, embody, incarnate ( ھ s.th.), give concrete form ( ھ to s.th.); to render or represent in corporeal form ( ھ s.th.) V to become corporeal, assume concrete form, materialize; to become incarnate (Chr.); to become three-dimensional",
+    "examples": []
   },
   {
-    "word": "جامعه",
-    "displayWord": "جَامِعَة",
-    "root": "جمع",
-    "translation": "university, assembly",
-    "examples": [
-      {
-        "ar": "يَدْرُسُ أَخِي الهَنْدَسَةَ فِي جَامِعَةِ بَغْدَادَ العَرِيقَةِ.",
-        "en": "My brother studies engineering at the ancient University of Baghdad.",
-        "source": "Personal Diary"
-      }
-    ]
+    "word": "جسد",
+    "displayWord": "جسد",
+    "translation": "jasad pl. اجساد ajsād body│ عيد الجسد ‘īd al-j. and خميس الجسد Corpus Christi Day (Chr.)",
+    "examples": []
   },
   {
-    "word": "جنه",
-    "displayWord": "جَنَّة",
-    "root": "جنن",
-    "translation": "heaven, paradise, orchard",
-    "examples": [
-      {
-        "ar": "تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا.",
-        "en": "Rivers flowing beneath them, wherein they abide eternally.",
-        "source": "Holy Quran"
-      }
-    ]
+    "word": "جسدى",
+    "displayWord": "جسدى",
+    "translation": "jasadī bodily, fleshly, carnal",
+    "examples": []
   },
   {
-    "word": "جهل",
-    "displayWord": "جَهْل",
-    "root": "جهل",
-    "translation": "ignorance, foolishness",
-    "examples": [
-      {
-        "ar": "العِلْمُ يَبْنِي بُيُوتًا لَا عِمَادَ لَهَا .. وَالجَهْلُ يَهْدِمُ بَيْتَ العِزِّ وَالشَّرَفِ.",
-        "en": "Knowledge builds houses that have no pillars, while ignorance destroys the house of glory and honor.",
-        "source": "Classical Arabic Poetry"
-      }
-    ]
+    "word": "جسدانى",
+    "displayWord": "جسدانى",
+    "translation": "jusdānī bodily",
+    "examples": []
+  },
+  {
+    "word": "جسر",
+    "displayWord": "جسر",
+    "translation": "jasara u to span, cross, traverse ( ھ s.th.); جسارة) jasāra, جسور jusūr) to venture, risk على) s.th.), have the courage ( على to do s.th.) II to build a dam or dike; to embolden, encourage ( ھ s.o., على to do s.th.) VI to dare, venture, risk ( على s.th.), have the audacity ( على to do s.th.); to be sold, forward, insolent, impudent ( على with s.o.) VIII to span, cross, traverse ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "جسر",
+    "displayWord": "جسر",
+    "translation": "jisr pl. اجسر ajsur, جسور jusūr bridge; dam, dike, embankment, levee; -- (pl. جسورة jusūra) beam, girder; axle, axletree│ جسر متحرك (muḥarrik) movable bridge; جسر معلق (mu‘allaq) suspension bridge; جسر عائم pontoon bridge, floating bridge",
+    "examples": []
+  },
+  {
+    "word": "جسور",
+    "displayWord": "جسور",
+    "translation": "jasār sold, daring; forward, insolent, impudent",
+    "examples": []
+  },
+  {
+    "word": "جسارة",
+    "displayWord": "جسارة",
+    "translation": "jasāra boldness, recklessness, intrepidity; forwardness, insolence",
+    "examples": []
+  },
+  {
+    "word": "جسطن",
+    "displayWord": "جسطن",
+    "translation": "see جصطن",
+    "examples": []
+  },
+  {
+    "word": "جسم",
+    "displayWord": "جسم",
+    "translation": "jasuma u ( جسامة jasāma) to be great. Big, large. bulky. huge. immense II to make corporeal. invest with a body ( ھ s.th.), give ( ھ s.th.) shape or form; to materialize ھ) s.th.); to cause to stand out. bring out (",
+    "examples": []
+  },
+  {
+    "word": "جسم",
+    "displayWord": "جسم",
+    "translation": "pl. اجسام ajsām, جسوم jusūm body (also O of an automobile); substance, matter; mass; form, shape",
+    "examples": []
+  },
+  {
+    "word": "جسمى",
+    "displayWord": "جسمى",
+    "translation": "iiaa1 bodily, physical; substantial, material",
+    "examples": []
+  },
+  {
+    "word": "جسيم",
+    "displayWord": "جسيم",
+    "translation": "jasīm pl. جسام great, big, large; voluminous, bulky, huge; vast, immense; stout, corpulent; weighty, most significant, momentous, prodigious",
+    "examples": []
+  },
+  {
+    "word": "جسيم",
+    "displayWord": "جسيم",
+    "translation": "jusaim pl. -āt particle (phys.); corpuscle (biol.)",
+    "examples": []
+  },
+  {
+    "word": "جسم",
+    "displayWord": "جسم",
+    "translation": "jasāma size, volume; stoutness, corpulence",
+    "examples": []
+  },
+  {
+    "word": "جسمان",
+    "displayWord": "جسمان",
+    "translation": "jusmān body, mass",
+    "examples": []
+  },
+  {
+    "word": "جسمانى",
+    "displayWord": "جسمانى",
+    "translation": "jusmānī bodily, physical. Corporal│ التأديب الجسمانى corporal punishment",
+    "examples": []
+  },
+  {
+    "word": "جسم",
+    "displayWord": "جسم",
+    "translation": "mujassam bodily, corporeal; (math.) body; three-dimensional; tangible, material, concrete; raised, relieflike, standing out in relief (e.g., خريطة مجسمة relief map); relief; enlarged. Magnified│",
+    "examples": []
+  },
+  {
+    "word": "جسمانية",
+    "displayWord": "جسمانية",
+    "translation": "jasmānīya2 Gethseman",
+    "examples": []
+  },
+  {
+    "word": "جسا",
+    "displayWord": "جسا",
+    "translation": "(جسو ) jasā u to become hard, solid",
+    "examples": []
+  },
+  {
+    "word": "جش",
+    "displayWord": "جش",
+    "translation": "jašša u (jašš) to grind, crush, bruise, grate ھ) s.th.)",
+    "examples": []
+  },
+  {
+    "word": "جش",
+    "displayWord": "جش",
+    "translation": "jušša hoarseness, huskiness, raucity (of the voice)",
+    "examples": []
+  },
+  {
+    "word": "جشيش",
+    "displayWord": "جشيش",
+    "translation": "jašīš ground, grated, crushed",
+    "examples": []
+  },
+  {
+    "word": "جشأ",
+    "displayWord": "جشأ",
+    "translation": "II and V to belch, burp",
+    "examples": []
+  },
+  {
+    "word": "جشاء",
+    "displayWord": "جشاء",
+    "translation": "jušā’ and جشأة jaš’a belch(ing), burp(ing)",
+    "examples": []
+  },
+  {
+    "word": "جشار",
+    "displayWord": "جشار",
+    "translation": "jušār livestock",
+    "examples": []
+  },
+  {
+    "word": "جشع",
+    "displayWord": "جشع",
+    "translation": "jaši‘a a (jaša‘) and V to be covetous, greedy",
+    "examples": []
+  },
+  {
+    "word": "جشع",
+    "displayWord": "جشع",
+    "translation": "jaša‘ greed, avidity, inordinate desire",
+    "examples": []
+  },
+  {
+    "word": "جشع",
+    "displayWord": "جشع",
+    "translation": "jaši‘ greedy, covetous",
+    "examples": []
+  },
+  {
+    "word": "جشم",
+    "displayWord": "جشم",
+    "translation": "jašāma a (jašm, جشامة jašāma) to take upon o.s. ( ھ some hardship) II to make ( ه s.o.) suffer or undergo ( ھ s.th.); to impose",
+    "examples": []
+  },
+  {
+    "word": "جشنى",
+    "displayWord": "جشنى",
+    "translation": "(eg., cf. ششنى šišnī) sample, specimen; sampling",
+    "examples": []
+  },
+  {
+    "word": "جص",
+    "displayWord": "جص",
+    "translation": "II to plaster, whitewash ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "جص",
+    "displayWord": "جص",
+    "translation": "jiṣṣ gypsum; plaster of Paris",
+    "examples": []
+  },
+  {
+    "word": "جصطن",
+    "displayWord": "جصطن",
+    "translation": "II tajaṣṯana to lounge, stretch lazily, loll",
+    "examples": []
+  },
+  {
+    "word": "جعة",
+    "displayWord": "جعة",
+    "translation": "ji‘a beer",
+    "examples": []
+  },
+  {
+    "word": "جعب",
+    "displayWord": "جعب",
+    "translation": "II to corrugate ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "جعبة",
+    "displayWord": "جعبة",
+    "translation": "ja‘ba pl. جعاب ji‘āb quiver; tube, pipe; gun barrel; o cartridge pouch (Syr.)│ جعبة اخبار j. aḳbār town gossip (person) 126",
+    "examples": []
+  },
+  {
+    "word": "جعجع",
+    "displayWord": "جعجع",
+    "translation": "ja‘ja‘a ( جعجع ja‘ja‘a) to clamor, roar, shout; to clatter, clap; to bluster, explode in anger",
+    "examples": []
+  },
+  {
+    "word": "جعجعة",
+    "displayWord": "جعجعة",
+    "translation": "ja‘ja‘a hubbub, rumpus, clamor, roar; creak, clapping noise (of a mill wheel); bluster",
+    "examples": []
+  },
+  {
+    "word": "جعجاع",
+    "displayWord": "جعجاع",
+    "translation": "ja‘jā‘ clamorous, boisterous, noisy; bawler, loud-mouthed person",
+    "examples": []
+  },
+  {
+    "word": "جعد",
+    "displayWord": "جعد",
+    "translation": "ja‘uda a ( جعودة ju‘ūda, جعادة ja‘āda) and V to become curly, frizzed, kinky, curl (hair); to be wavy; to be creased; to be wrinkled II to curl, frizz ( ھ s.th.; the hair); to wave ( ھ s.th.; the hair); to crease, pleat, plait ( ھ cloth); to wrinkle ( ھ the skin)",
+    "examples": []
+  },
+  {
+    "word": "جعد",
+    "displayWord": "جعد",
+    "translation": "ja‘d (or جعد اليد j. al-yad, جعد الكف j. al-kaff) stingy, niggardly, tightfisted",
+    "examples": []
+  },
+  {
+    "word": "جعدة",
+    "displayWord": "جعدة",
+    "translation": "ja‘da curl, lock, ringlet",
+    "examples": []
+  },
+  {
+    "word": "جعدى",
+    "displayWord": "جعدى",
+    "translation": "ja‘dī and اجعد aj‘ad2 curly",
+    "examples": []
+  },
+  {
+    "word": "جعيدى",
+    "displayWord": "جعيدى",
+    "translation": "gə‘īdī (eg.) bum, loafer, good-fornothing",
+    "examples": []
+  },
+  {
+    "word": "جعدنة",
+    "displayWord": "جعدنة",
+    "translation": "ja‘dana idle talk, gossip (leb.)",
+    "examples": []
+  },
+  {
+    "word": "جعر",
+    "displayWord": "جعر",
+    "translation": "ja‘ara a (ja‘r) to drop its manure (animal)",
+    "examples": []
+  },
+  {
+    "word": "جعفر",
+    "displayWord": "جعفر",
+    "translation": "ja‘far little river, creek",
+    "examples": []
+  },
+  {
+    "word": "جعل",
+    "displayWord": "جعل",
+    "translation": "ja‘ala a (ja‘l) to make ( ھ s.th.); to put, place, lay ( ھ s.th.); to create ( ھ s.th.); to effect, bring about ( ھ s.th.); to make ( ھ ھ s.th. a rule, a principle, or the like, ه ه s.o., e.g., leader, king, etc.), appoint ( ه ه s.o. to an office, rank, or the like); to fix, set ( ھ ھ a sum, a price, at); to think, deem, believe",
+    "examples": []
+  },
+  {
+    "word": "جعل",
+    "displayWord": "جعل",
+    "translation": "ju‘l pl. اجعال aj‘āl pay, wages; piece wages; reward, prize",
+    "examples": []
+  },
+  {
+    "word": "جعلى",
+    "displayWord": "جعلى",
+    "translation": "ju‘līi: اتفاق جعلى (ittifāq) piece-work contract",
+    "examples": []
+  },
+  {
+    "word": "جعل",
+    "displayWord": "جعل",
+    "translation": "ju‘al pl. جعلان ji‘lān dung beetle; scarabaeus",
+    "examples": []
+  },
+  {
+    "word": "جعالة",
+    "displayWord": "جعالة",
+    "translation": "ji‘āla, ja‘āla, ju‘āla pl. جعائل ja‘āil2 pay, wages; allowance; reward, prize: bribe",
+    "examples": []
+  },
+  {
+    "word": "جغرافيا",
+    "displayWord": "جغرافيا",
+    "translation": "jugrāfiyā and جغرافية jugrāfīya geography│ جغرافية طبيعية (ṯabī‘īya) physical geography",
+    "examples": []
+  },
+  {
+    "word": "جغرافي",
+    "displayWord": "جغرافي",
+    "translation": "jugrāfī geographical; geographer",
+    "examples": []
+  },
+  {
+    "word": "جف",
+    "displayWord": "جف",
+    "translation": "jaffa (1st pers. perf. jafaftu) i ( جفاف jafāf,",
+    "examples": []
+  },
+  {
+    "word": "جفوف",
+    "displayWord": "جفوف",
+    "translation": "jufūf) to dry, become dry; to dry out II to dry, make dry ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "جفاف",
+    "displayWord": "جفاف",
+    "translation": "jafāf dryness; desiccation; drying up; dullness",
+    "examples": []
+  },
+  {
+    "word": "جاف",
+    "displayWord": "جاف",
+    "translation": "jāff dry│ قلم حبر جاف (qalam ḥibr) ball-point pen",
+    "examples": []
+  },
+  {
+    "word": "جفاء",
+    "displayWord": "جفاء",
+    "translation": "jufā’ useless, vain, futile│ ذھب جفاء dahaba jufā’an to be in vain, be of no avail, pass uselessly",
+    "examples": []
+  },
+  {
+    "word": "جفت",
+    "displayWord": "جفت",
+    "translation": "jift, چفت čift (pronounced šift; eg.) pincers, tweezers; metal clamp│ جفت شريان j. šaryān arterial clamps",
+    "examples": []
+  },
+  {
+    "word": "چفتشى",
+    "displayWord": "چفتشى",
+    "translation": "(pronounced šiftišī; eg.) filigree",
+    "examples": []
+  },
+  {
+    "word": "جفتلك",
+    "displayWord": "جفتلك",
+    "translation": "jiftlik farm, country estate; government land (Pal.)",
+    "examples": []
+  },
+  {
+    "word": "جفر",
+    "displayWord": "جفر",
+    "translation": "jafr, علم الجفر ‘ilm al-j. divination, fortunetelling",
+    "examples": []
+  },
+  {
+    "word": "جفرة",
+    "displayWord": "جفرة",
+    "translation": "jufra pl. جفر jufar pit, hole",
+    "examples": []
+  },
+  {
+    "word": "جفل",
+    "displayWord": "جفل",
+    "translation": "jafala i u (jafl, جفول jufūl) and IV to start, jump with fright; to shy (horse) II to start, rouse ( ھ s.th., .s.o.); to scare away ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "جفل",
+    "displayWord": "جفل",
+    "translation": "jafl and جفول jufūl fright, alarm; shying",
+    "examples": []
+  },
+  {
+    "word": "چفلك",
+    "displayWord": "چفلك",
+    "translation": "(pronounced šiflik; eg.) = جفتلك",
+    "examples": []
+  },
+  {
+    "word": "جفن",
+    "displayWord": "جفن",
+    "translation": "pl. جفون jufūn, اجفان ajfān eyelid",
+    "examples": []
+  },
+  {
+    "word": "جفنة",
+    "displayWord": "جفنة",
+    "translation": "jafna pl. جفان jifān, جفنات jafanāt bowl; grapsvine جفو) جفا) jafā u (jafw, جفاء jafā’) to be rough, coarse; to treat ( ه s.o.) roughly, harshly; to turn away (. from), shun, avoid, flee ( ه s.o.) III to treat ( ه s.o.) roughly, rudely, harshly; to be cruel ( ه to s.o.); to be cross (",
+    "examples": []
+  },
+  {
+    "word": "جفو",
+    "displayWord": "جفو",
+    "translation": "jafw roughness, harshness",
+    "examples": []
+  },
+  {
+    "word": "جفوة",
+    "displayWord": "جفوة",
+    "translation": "jafwa roughness; estrangement, alienation; disagreement, dissension, quarrel",
+    "examples": []
+  },
+  {
+    "word": "جفاء",
+    "displayWord": "جفاء",
+    "translation": "jafā’ roughness; harshness; sternness; antipathy, aversion, distaste, loathing; estrangement, alienation",
+    "examples": []
+  },
+  {
+    "word": "جاف",
+    "displayWord": "جاف",
+    "translation": "jāfin pl. جفاة jufāh harsh, rough, coarse; brutish, uncouth, rude",
+    "examples": []
+  },
+  {
+    "word": "جاكتة",
+    "displayWord": "جاكتة",
+    "translation": "look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "جكر",
+    "displayWord": "جكر",
+    "translation": "III (syr.) to tease ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "جل",
+    "displayWord": "جل",
+    "translation": "1 jalla i ( جلال jalāl) to be great, lofty, exalted, illustrious, sublime; to be too great ( عن for), be beyond s.th. ( عن ), be far above s.th. ( جل عن الحصر │( عن (‘an il-ḥaṣr) to be innumerable II to honor, dignify, exalt ( ه s.o.); to cover ( ھ s.th., esp. the ground, as snow, plants, etc.); to envelop, wrap, drape, clothe; to border, edge ( ھ s.th., ب with) IV to honor, dignify, revere, venerate, esteem highly, exalt ( ه s.o.); to deem too high, too exalted ( عن for s.th.), consider far beyond s.th. ( عن ) VI to deem o.s. far above s.th. ( عن ) X to be great, exalted, sublime",
+    "examples": []
+  },
+  {
+    "word": "جل",
+    "displayWord": "جل",
+    "translation": "great, outstanding; bulky",
+    "examples": []
+  },
+  {
+    "word": "جل",
+    "displayWord": "جل",
+    "translation": "jull major portion, bulk, majority, main part│ جله julluhū most of it; جل الامة j. al-umma the majority of the people; جل ما",
+    "examples": []
+  },
+  {
+    "word": "جلل",
+    "displayWord": "جلل",
+    "translation": "jalal important, significant, momentous, weighty",
+    "examples": []
+  },
+  {
+    "word": "جلى",
+    "displayWord": "جلى",
+    "translation": "jullā pl. جلل julal matter of great importance, momentous undertaking, great feat, exploit",
+    "examples": []
+  },
+  {
+    "word": "جلة",
+    "displayWord": "جلة",
+    "translation": "julla, jilla droppings, dung (of animals); julla pl. جلل julal (cannon) ban; bomb 128",
+    "examples": []
+  },
+  {
+    "word": "جلة",
+    "displayWord": "جلة",
+    "translation": "julla attire, clothing│ الجلة الجبروتية",
+    "examples": []
+  },
+  {
+    "word": "جليل",
+    "displayWord": "جليل",
+    "translation": "jalīl pl. اجلاء ajillā’ اجلة , 2 ajilla, جلائل jalā’il2 great, important, significant, weighty, momentous; lofty, exalted, sublime; revered, honorable, venerable; glorious, splendid",
+    "examples": []
+  },
+  {
+    "word": "جلال",
+    "displayWord": "جلال",
+    "translation": "jalāl loftiness, sublimity, augustness; splendor, glory",
+    "examples": []
+  },
+  {
+    "word": "جلالة",
+    "displayWord": "جلالة",
+    "translation": "jalāla loftiness, sublimity, augustness; majeoty│ صاحب (صاحبة) الجلالة His (Her) Majesty, جلالة الملك j. al-malik His Majesty, the King",
+    "examples": []
+  },
+  {
+    "word": "جل",
+    "displayWord": "جل",
+    "translation": "2 jull rose",
+    "examples": []
+  },
+  {
+    "word": "جلاب",
+    "displayWord": "جلاب",
+    "translation": "julāb, jullāb rose water; julep",
+    "examples": []
+  },
+  {
+    "word": "جلاتين",
+    "displayWord": "جلاتين",
+    "translation": "(Fr. gélatine) želātīn jelly",
+    "examples": []
+  },
+  {
+    "word": "جلاسية",
+    "displayWord": "جلاسية",
+    "translation": "(Fr. glacé) glasēh (eg.) kid leather",
+    "examples": []
+  },
+  {
+    "word": "جلب",
+    "displayWord": "جلب",
+    "translation": "1 jalaba i u (jalb) to attract ( ھ s.th.); to fetch, get, bring ( ھ s.th., ل to s.o.); to import ( ھ goods); to bring about ( ھ a state, condition); to bring ( ھ harm, shame, etc., على upon s.o.); to gain, win, obtain ( ھ s.th.); to earn ( ھ s.th.); ( جلوب julūb) to scar over, heal (wound) II to shout, clamor; to be noisy, boisterous IV to earn, gain, acquire ( ھ s.th.); = II; VII pass. of I VIII to procure, bring, fetch, get ( ھ s.th.); to draw ( ھ on s.th.); to import ( ھ goods) X to import ( ھ goods); to fetch, summon, call in ( ه s.o.); to attract, draw ( ھ، ه s.o., s.th.); to seek to attract or win ( ھ، ه s.o., s.th.); to get, procure ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "جلب",
+    "displayWord": "جلب",
+    "translation": "jalb bringing, fetching; procurement; acquisition; importation, import; causation, bringing on, bringing about",
+    "examples": []
+  },
+  {
+    "word": "جلب",
+    "displayWord": "جلب",
+    "translation": "jalab imported; foreign",
+    "examples": []
+  },
+  {
+    "word": "جلب",
+    "displayWord": "جلب",
+    "translation": "jalab and جلبة jalaba clamor; uproar, tumult, turmoil",
+    "examples": []
+  },
+  {
+    "word": "جلبة",
+    "displayWord": "جلبة",
+    "translation": "julba scar",
+    "examples": []
+  },
+  {
+    "word": "جليب",
+    "displayWord": "جليب",
+    "translation": "jalīb imported, foreign; (pl. جلبى jalbā, جلباء julabā’2) foreign slave",
+    "examples": []
+  },
+  {
+    "word": "جلاب",
+    "displayWord": "جلاب",
+    "translation": "jallāb attractive, captivating; importer, trader; see also alphabetically│",
+    "examples": []
+  },
+  {
+    "word": "جلاب العبيد",
+    "displayWord": "جلاب العبيد",
+    "translation": "slave trader",
+    "examples": []
+  },
+  {
+    "word": "جلابية",
+    "displayWord": "جلابية",
+    "translation": "gallābīya (eg.) pl. -at, جلاليب galālīb2 galabia, a loose, shirtlike garment, the common dreao of the male population in Egypt",
+    "examples": []
+  },
+  {
+    "word": "جلباب",
+    "displayWord": "جلباب",
+    "translation": "below under جلبب",
+    "examples": []
+  },
+  {
+    "word": "جلب",
+    "displayWord": "جلب",
+    "translation": "ajlab2 more attractive, more captivating",
+    "examples": []
+  },
+  {
+    "word": "جالب",
+    "displayWord": "جالب",
+    "translation": "jālib causative factor, motive, reason, cause, occasion",
+    "examples": []
+  },
+  {
+    "word": "جلاب",
+    "displayWord": "جلاب",
+    "translation": "2 julāb, jullāb rose water; julep",
+    "examples": []
+  },
+  {
+    "word": "جلبا",
+    "displayWord": "جلبا",
+    "translation": "3 jalabā jalap (bot.)",
+    "examples": []
+  },
+  {
+    "word": "جلبب",
+    "displayWord": "جلبب",
+    "translation": "II tajalbaba to clothe o.s. ( ب with), be clothed, be clad ( ب in a garment, also fig.)",
+    "examples": []
+  },
+  {
+    "word": "جلباب",
+    "displayWord": "جلباب",
+    "translation": "jilbāb pl. جلابيب jalābīb2 garment, dress, gown; woman's dress",
+    "examples": []
+  },
+  {
+    "word": "جلبان",
+    "displayWord": "جلبان",
+    "translation": "julubbān chickling vetch, grass pea (Lathyrus sativua)",
+    "examples": []
+  },
+  {
+    "word": "جلجل",
+    "displayWord": "جلجل",
+    "translation": "1 jaljala to reverberate; to resound, ring out; to rattle; to shake ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "جلجل",
+    "displayWord": "جلجل",
+    "translation": "juljul pl. جلاجل jalājil2 (little) bell, sleigh bell; cowbell; jingle",
+    "examples": []
+  },
+  {
+    "word": "جلجلة",
+    "displayWord": "جلجلة",
+    "translation": "jaljala sound of a bell; loud, shrill sound",
+    "examples": []
+  },
+  {
+    "word": "جلجلة",
+    "displayWord": "جلجلة",
+    "translation": "2 juljula, جبل الجلجلة jabal al-j. Golgotha",
+    "examples": []
+  },
+  {
+    "word": "جلجلان",
+    "displayWord": "جلجلان",
+    "translation": "3 juljulān, jiljilān sesame",
+    "examples": []
+  },
+  {
+    "word": "جلح",
+    "displayWord": "جلح",
+    "translation": "jaliḥa a (jalaḥ) to be or become bald",
+    "examples": []
+  },
+  {
+    "word": "جلخ",
+    "displayWord": "جلخ",
+    "translation": "jalaḳa a and II to sharpen ( ھ s.th.); to whet, hone ( ھ a knife), strop ( ھ a razor); to stretch, extend, roll out ( ھ metal)",
+    "examples": []
+  },
+  {
+    "word": "جلخ",
+    "displayWord": "جلخ",
+    "translation": "jalḳ grindstone, whetetone, hone",
+    "examples": []
+  },
+  {
+    "word": "جلد",
+    "displayWord": "جلد",
+    "translation": "jalada i (jald) to whip, flog, lash ( ه s.o.); -- jalida a to be frozen, freeze; -- jaluda u to be tough, hardy, undismayed, steadfast, patient II to bind ( ھ a book); (to cause) to freeze ( ھ s.th.) III to fight ( ه s.o.) IV to freeze; to be frozen, be covered with ice V to take heart; to show o.s. tough, hardy, robust; to resign o.s. to patience; to bear, suffer VI to engage in a sword fight",
+    "examples": []
+  },
+  {
+    "word": "جلد",
+    "displayWord": "جلد",
+    "translation": "jald flogging; -- (pl. اجلاد ajlād) staunch, steadfast; strong, sturdy",
+    "examples": []
+  },
+  {
+    "word": "جلد",
+    "displayWord": "جلد",
+    "translation": "jild pl. جلود julūd, اجلاد ajlād skin, hide; leather│ جلد سختيان (suḳtiyān) morocco; جلد لماع (lammā‘) patent leather",
+    "examples": []
+  },
+  {
+    "word": "جلدة",
+    "displayWord": "جلدة",
+    "translation": "jilda skin, hide; piece of leather; race│ ابن جلدتنا ibn jildatinā our countryman, our fellow tribesman, pl. بنو",
+    "examples": []
+  },
+  {
+    "word": "جلدتنا",
+    "displayWord": "جلدتنا",
+    "translation": "banū j.",
+    "examples": []
+  },
+  {
+    "word": "جلدى",
+    "displayWord": "جلدى",
+    "translation": "jildī dermal, cutaneous, skin (adj.)│ امراض جلدية skin diseases",
+    "examples": []
+  },
+  {
+    "word": "جليدة",
+    "displayWord": "جليدة",
+    "translation": "julaida pl. -āt membrane, pellicle; O film (phot.)",
+    "examples": []
+  },
+  {
+    "word": "جلد",
+    "displayWord": "جلد",
+    "translation": "jalad enduranos; suffering; patience; firmament",
+    "examples": []
+  },
+  {
+    "word": "جلدة",
+    "displayWord": "جلدة",
+    "translation": "jalda lash, stroke with a whip",
+    "examples": []
+  },
+  {
+    "word": "جليد",
+    "displayWord": "جليد",
+    "translation": "jalīd pl. جلداء juladā’2 staunch, steadfast; strong, sturdy",
+    "examples": []
+  },
+  {
+    "word": "جليد",
+    "displayWord": "جليد",
+    "translation": "jalīd ice│ جبل جليد jabal j. iceberg;",
+    "examples": []
+  },
+  {
+    "word": "جليدى",
+    "displayWord": "جليدى",
+    "translation": "jalīdī icy, ice-covered, glacial, ice (adj.); snow-covered│ العصر الجليدى (‘aṣr) the Ice Age",
+    "examples": []
+  },
+  {
+    "word": "جلود",
+    "displayWord": "جلود",
+    "translation": "jalūd long-suffering, patient",
+    "examples": []
+  },
+  {
+    "word": "جلاد",
+    "displayWord": "جلاد",
+    "translation": "jallād pl. -ūn leather merchant; executioner, hangman",
+    "examples": []
+  },
+  {
+    "word": "جلادة",
+    "displayWord": "جلادة",
+    "translation": "jalāda and جلودة julūda endurance, patience",
+    "examples": []
+  },
+  {
+    "word": "جلاد",
+    "displayWord": "جلاد",
+    "translation": "jilād fight, battle (against)",
+    "examples": []
+  },
+  {
+    "word": "جلمز",
+    "displayWord": "جلمز",
+    "translation": "jillauz (coll.; n. un. ة) hazelnut; hazel",
+    "examples": []
+  },
+  {
+    "word": "جلس",
+    "displayWord": "جلس",
+    "translation": "jalasa i ( جلوس julūs) to sit down ( الى with s.o., at a tabl., etc., على on a chair); to sit (",
+    "examples": []
+  },
+  {
+    "word": "جلس الى الرسام",
+    "displayWord": "جلس الى الرسام",
+    "translation": "(rassām) to sit for a painter III to sit ( ه with s.o., next to s.o., in s.o.’s company); to keep s.o. ( ه) company IV to ask to sit down, make sit down, eeat ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "جلسة",
+    "displayWord": "جلسة",
+    "translation": "jalsa pl. -āt seat (in an auditorium); session (of parliament, of a committee, 130 of a court, etc.); party, gathering, meeting│ عقد جلسة ‘aqada jasatan to convene a session; جلسة عامة (‘āmma) plenary session",
+    "examples": []
+  },
+  {
+    "word": "جلسة",
+    "displayWord": "جلسة",
+    "translation": "jilsa manner of sitting",
+    "examples": []
+  },
+  {
+    "word": "جليس",
+    "displayWord": "جليس",
+    "translation": "pl. جلساء julasā’2 participant in a social gathering; table companion: one with whom one sits together; جليسه the man who was at the party with him",
+    "examples": []
+  },
+  {
+    "word": "جليسة",
+    "displayWord": "جليسة",
+    "translation": "jalīsa lady companion; fem. of جليس",
+    "examples": []
+  },
+  {
+    "word": "جلوس",
+    "displayWord": "جلوس",
+    "translation": "julūs sitting: sitting down; accession to the throne; pl. of جالس sitting",
+    "examples": []
+  },
+  {
+    "word": "جالس",
+    "displayWord": "جالس",
+    "translation": "jālis pl. جلوس julūs, جلاس jullās sitting; pl. جلاس participants in a social gathering",
+    "examples": []
+  },
+  {
+    "word": "جلط",
+    "displayWord": "جلط",
+    "translation": "jalaṯa i (jalṯ) to chafe, gall, abrade ( ھ the skin); to shave ( الرأس ar-ra’sa the head",
+    "examples": []
+  },
+  {
+    "word": "جلطة",
+    "displayWord": "جلطة",
+    "translation": "julṯa lump, clot│ جلطة دموية (damawīya) blood clot, thrombus",
+    "examples": []
+  },
+  {
+    "word": "جلف",
+    "displayWord": "جلف",
+    "translation": "jilf pl. اجلاف ajlāf boorish, rude, uncivil",
+    "examples": []
+  },
+  {
+    "word": "جلفط",
+    "displayWord": "جلفط",
+    "translation": "jalfaṯa ( جلفطة jalfaṯa) to calk ( ھ a ship)",
+    "examples": []
+  },
+  {
+    "word": "جلفن",
+    "displayWord": "جلفن",
+    "translation": "galfana (eg.) to galvanize",
+    "examples": []
+  },
+  {
+    "word": "جلفنة",
+    "displayWord": "جلفنة",
+    "translation": "galfana galvanization",
+    "examples": []
+  },
+  {
+    "word": "جلاقة",
+    "displayWord": "جلاقة",
+    "translation": "jalāqa: جلاقة قروية (qarawīya) yokel, bumpkin",
+    "examples": []
+  },
+  {
+    "word": "جلم",
+    "displayWord": "جلم",
+    "translation": "jalama i (jalm) to clip, shear off ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "جلم",
+    "displayWord": "جلم",
+    "translation": "jalam pl. اجلام ajlām shears",
+    "examples": []
+  },
+  {
+    "word": "جلمد",
+    "displayWord": "جلمد",
+    "translation": "II tajalmada to be petrified",
+    "examples": []
+  },
+  {
+    "word": "جلمد",
+    "displayWord": "جلمد",
+    "translation": "jalmad pl. جلامد jalāmid2 and جلمود julmūd pl. جلاميد jalāmīd2 rook, bolder",
+    "examples": []
+  },
+  {
+    "word": "جلنار",
+    "displayWord": "جلنار",
+    "translation": "jullanār pomegranate blossom جلو) and جلى) جلا jalā u to clean, polish (",
+    "examples": []
+  },
+  {
+    "word": "جلى",
+    "displayWord": "جلى",
+    "translation": "jalīy clear, plain, evident, patent, manifest, obvious, conspicuous; جليا jalīyan obviously, evidently",
+    "examples": []
+  },
+  {
+    "word": "جلية",
+    "displayWord": "جلية",
+    "translation": "jalīya pl. جلايا jalāyā sure thing, plain fact│ جلية الأمر jalīyat al-amr the true state of the affair",
+    "examples": []
+  },
+  {
+    "word": "جلوى",
+    "displayWord": "جلوى",
+    "translation": "jalwā unveiling (of the bride)│ ليلة",
+    "examples": []
+  },
+  {
+    "word": "جلاء",
+    "displayWord": "جلاء",
+    "translation": "jalā’ clarification, elucidation; clarity, clearness, plainness, distinctness; departure, (e)migration ( عن from), evacuation ( عن of an area; mil.); بجلاء clearly, plainly",
+    "examples": []
+  },
+  {
+    "word": "جليان",
+    "displayWord": "جليان",
+    "translation": "jalayān vision, revelation, apocalypse (Chr.)",
+    "examples": []
+  },
+  {
+    "word": "جالية",
+    "displayWord": "جالية",
+    "translation": "jāliya pl. -āt, جوال jawālin colony (of foreigners); colony of emigrants",
+    "examples": []
+  },
+  {
+    "word": "جلون",
+    "displayWord": "جلون",
+    "translation": "galōn pl. -āt gallon (eg.)",
+    "examples": []
+  },
+  {
+    "word": "جلى",
+    "displayWord": "جلى",
+    "translation": "jullā see جل 1",
+    "examples": []
+  },
+  {
+    "word": "جليوتين",
+    "displayWord": "جليوتين",
+    "translation": "gilyotīn guillotine (eg.)",
+    "examples": []
+  },
+  {
+    "word": "ج م",
+    "displayWord": "ج م",
+    "translation": "1 abbreviation of جنيه مصرى Egyptian pound",
+    "examples": []
+  },
+  {
+    "word": "جم",
+    "displayWord": "جم",
+    "translation": "2 jamma i u (jamm) to gather; to collect one’s thoughts, concentrate; to rest II and V to grow luxuriantly (plants) X to gather; to collect one’s thoughts, concentrate; to rest, relax, seek recreation ( من from); to be covered with luxuriant vegetation (ground)",
+    "examples": []
+  },
+  {
+    "word": "جم",
+    "displayWord": "جم",
+    "translation": "jamm abundant, plentiful; much, a great deal of; many, numerous; manifold, multiple; crowd, group of people│ جم الأثر j. al-atar effective, efficacious; احبه حبا جما (aḥabbahū ḥubban) to be more than fond of; فوائد جمة numerous advantages, ample benefits; جم غفير large crowd, throng",
+    "examples": []
+  },
+  {
+    "word": "جمام",
+    "displayWord": "جمام",
+    "translation": "jamām rest, relaxation, recreation, gathering of new strength",
+    "examples": []
+  },
+  {
+    "word": "جمباز، جنبازى",
+    "displayWord": "جمباز، جنبازى",
+    "translation": "see جنباز، جنبازى",
+    "examples": []
+  },
+  {
+    "word": "جمبرى",
+    "displayWord": "جمبرى",
+    "translation": "(from It. gambero) gambarī, جمرى gammarī (eg.) shrimp (zool.)",
+    "examples": []
+  },
+  {
+    "word": "جمجم",
+    "displayWord": "جمجم",
+    "translation": "2 jamjama ( جمجمة jamjama), جمجم الكلام (kalāma) and II tajamjama to articulate indistinctly, stammer; to express o.s. poorly, speak incoherently; to mumble",
+    "examples": []
+  },
+  {
+    "word": "جمجمة",
+    "displayWord": "جمجمة",
+    "translation": "2 jumjuma pl. جماجم jamājim2 skull, cranium",
+    "examples": []
+  },
+  {
+    "word": "جمجمى",
+    "displayWord": "جمجمى",
+    "translation": "jumjumī cranial",
+    "examples": []
+  },
+  {
+    "word": "جمح",
+    "displayWord": "جمح",
+    "translation": "jamaḥa a (jamḥ, جماح jimāḥ, جموح jumūḥ to holt (horse); to he refractory, unruly, recalcitrant; to be defiant; to be capricious, whimsical; to run out on her husband, run away from home (wife)",
+    "examples": []
+  },
+  {
+    "word": "جماح",
+    "displayWord": "جماح",
+    "translation": "jimāḥ recalcitrance, defiance; willfulness",
+    "examples": []
+  },
+  {
+    "word": "جموح",
+    "displayWord": "جموح",
+    "translation": "jumūḥ recalcitrance, defiance; willfulness",
+    "examples": []
+  },
+  {
+    "word": "جموح",
+    "displayWord": "جموح",
+    "translation": "jamūḥ headstrong, defiant, unruly, ungovernable",
+    "examples": []
+  },
+  {
+    "word": "جامح",
+    "displayWord": "جامح",
+    "translation": "jāmiḥ headstrong, defiant, unruly; indomitable, untamable",
+    "examples": []
+  },
+  {
+    "word": "جمد",
+    "displayWord": "جمد",
+    "translation": "2 jamada u, jamuda u (jamd, جمود jumūd) to freeze; to congeal, harden, stiffen, be or become hard or solid, solidify; to coagulate, clot (blood); to be rigid, inflexible (in one’s thinking); to stagnate; to be apathetic, indolent, dull, indifferent│",
+    "examples": []
+  },
+  {
+    "word": "جمدت نفسه على",
+    "displayWord": "جمدت نفسه على",
+    "translation": "to be indifferent toward, put up with, acquiesce in; جمدت يده (yaduhū) to be niggardly, tightfisted II to freeze, frost, congeal ( ھ s.th.); to solidify, coagulate, harden, stiffen ( ھ s.th.); to curdle ( ھ s.th.); to freeze ( ھ assets V to freeze, become frozen, turn into ice, freeze up. become icebound; to freeze to death; to congeal; to solidify; to harden, set (e.g., cement); to coagulate, clot (blood) VII to freeze up, become icebound; to freeze, become frozen, turn to ice",
+    "examples": []
+  },
+  {
+    "word": "جمد",
+    "displayWord": "جمد",
+    "translation": "jamd freezing; congelation, solidification, coagulation│ درجة الجمد darajat al-j. freezing point",
+    "examples": []
+  },
+  {
+    "word": "جمد",
+    "displayWord": "جمد",
+    "translation": "jamad ice",
+    "examples": []
+  },
+  {
+    "word": "جماد",
+    "displayWord": "جماد",
+    "translation": "jamād pl. -āt a solid; inorganic body; mineral; inanimate body, inanimate being; O neuter (gram.)",
+    "examples": []
+  },
+  {
+    "word": "جمود",
+    "displayWord": "جمود",
+    "translation": "jumūd frozen state; solid, compact state, compactness, solidity; rigor, rigidity, stiffness; inorganic state; hardening, induration; hardness, inflexibility; deadlock, standstill; inertia, inaction, inactivity; lethargy, apathy, passivity, indifference",
+    "examples": []
+  },
+  {
+    "word": "جمودة",
+    "displayWord": "جمودة",
+    "translation": "jumūda solidity, hardness",
+    "examples": []
+  },
+  {
+    "word": "جامد",
+    "displayWord": "جامد",
+    "translation": "jāmid hard, solid; stiff; rigid; motionless; inanimate, inorganic; (gram.) defective; dry. dull (book, and the like); impervious to progress to innovation, ossified, ultraconservative; pl. جوامد jawāmid2 inanimate things, inorganic matter, minerals",
+    "examples": []
+  },
+  {
+    "word": "جمادى",
+    "displayWord": "جمادى",
+    "translation": "2 jumādā name of the fifth and sixth months of the Muslim year ( جمادى الاولى j. al-ūlā Jumada I and جمادى الآخرة j. al-āḳira Jumada II)",
+    "examples": []
+  },
+  {
+    "word": "جمر",
+    "displayWord": "جمر",
+    "translation": "II to roast ( ھ meat) VIII to bum incense",
+    "examples": []
+  },
+  {
+    "word": "جمر",
+    "displayWord": "جمر",
+    "translation": "jamr embers, live coal│ كان على احر",
+    "examples": []
+  },
+  {
+    "word": "جمرة",
+    "displayWord": "جمرة",
+    "translation": "jamra (n. un. of جمر ) live coal; firebrand, smoldering embers; rankling resentment; (pl. -āt) carbuncle (med.)│O",
+    "examples": []
+  },
+  {
+    "word": "جمار",
+    "displayWord": "جمار",
+    "translation": "jummār palm pith, palm core (edible tuber growing at the upper end of the palm trunk)",
+    "examples": []
+  },
+  {
+    "word": "جمرى",
+    "displayWord": "جمرى",
+    "translation": "2 see جمبرى",
+    "examples": []
+  },
+  {
+    "word": "جمرك",
+    "displayWord": "جمرك",
+    "translation": "(eg.) gumruk pl. جمرك gamārik2 customs; customhouse│ رسم الجمرك rasm al-g. customs duty, tariff",
+    "examples": []
+  },
+  {
+    "word": "جمركى",
+    "displayWord": "جمركى",
+    "translation": "gumrukī customs, tariff (used attributively)│ اتحاد جمركى (ittih􀀀ād) customs union",
+    "examples": []
+  },
+  {
+    "word": "جميز",
+    "displayWord": "جميز",
+    "translation": "jummaiz (coll.; n. un. ة) sycamore (Ficus sycomorus; bot.)",
+    "examples": []
+  },
+  {
+    "word": "جاموس",
+    "displayWord": "جاموس",
+    "translation": "look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "جمش",
+    "displayWord": "جمش",
+    "translation": "jamaša i u (jamš) to unhair ( ھ s.th.) II to make love, caress, pet",
+    "examples": []
+  },
+  {
+    "word": "جمع",
+    "displayWord": "جمع",
+    "translation": "jama‘a a (jam‘) to gather ( ھ s.th.); to collect ( ھ e.g., money); to unite, combine, bring together (parts into a whole); to put together. join ( ھ things); to set, compose (",
+    "examples": []
+  },
+  {
+    "word": "جمع شمل القطيع",
+    "displayWord": "جمع شمل القطيع",
+    "translation": "(šamla l-q.) to round up the herd; يجمع الكتاب بين صفحاتھا (ṣafaḥātihā) the book contains, lists …; يجمع بيت على بيوت (yujma‘u) the plural of bait is buyūt II to pile up, amass, accumulate ( ھ s.th.); to rally, round up ( ھ s.th., ھم s.o.); to assemble ( ھ the parts of a 134 machine) III to have sexual intercourse ( ھا with a woman) IV to agree ( على on s.th., to do s.th.); to be agreed ( على on); to decide unanimously ( على on), resolve ( على to do s.th.)│ اجمعوا امرھم (amrahum) they came to terms, they made a joint decision V to gather; to assemble, congregate; to rally, band together, flock together (people); to pile up; to accumulate; to gather into a mass, agglomerate; to cluster; to coagulate VIII to be close together; to come together, meet, join; to unite, combine ( ب with); to assemble, meet, convene (an organization, a committee, etc.); to be or get together, have a meeting, interview or conference, hold talks ( ب، مع with s.o.), meet ( ب، مع s.o.; to concur ( على in), agree, be agreed ( على on s.th.) X to gather, collect ( ھ s.th.; also قواه quwāhu one’s strength, افكاره afkārahū one’s thoughts); to summarize, sum up ( ھ s.th.); to possess, combine ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "جمع",
+    "displayWord": "جمع",
+    "translation": "jam’ gathering; collection; combination; connection, coupling, joining; accumulation; (arith.) addition; union, merger, aggregation, integration (",
+    "examples": []
+  },
+  {
+    "word": "جمع",
+    "displayWord": "جمع",
+    "translation": "jum‘, جمع الكف j. al-kaff, جمع اليد j. alyad fist, clenched hand│ بجمع يديه with clenched fists",
+    "examples": []
+  },
+  {
+    "word": "جمعة",
+    "displayWord": "جمعة",
+    "translation": "jum‘a pl. جمع juma‘, -āt week; Friday│ يوم الجمعة yaum al-j. Friday; جمعة",
+    "examples": []
+  },
+  {
+    "word": "جمعية",
+    "displayWord": "جمعية",
+    "translation": "jam‘iya pl. -āt club, association, society; corporation, organization; 135 assembly│ جمعية الأمم j. al-umam League of Nations; جمعية خيرية (ḳairīya) charitable organization; جمعية الاسعاف j. al-is‘āf approx.: civil ambulance service; جمعية (tašrī‘īya) legislative assembly; جمعية",
+    "examples": []
+  },
+  {
+    "word": "جميع",
+    "displayWord": "جميع",
+    "translation": "jamī‘ (with foll. genitive) total; whole, entire; all; entirety; e.g., جميع الناس all men, all mankind; الجميع all people, everybody; the public at large; جميعا jamī‘an in a body, altogether, one and all, all of them; entirely, wholly, totally",
+    "examples": []
+  },
+  {
+    "word": "جمع",
+    "displayWord": "جمع",
+    "translation": "ajma‘2 pl. -ūn, f. جمعاء jam‘ā’2, pl.",
+    "examples": []
+  },
+  {
+    "word": "جمع",
+    "displayWord": "جمع",
+    "translation": "juma‘2 entire, whole, all`│ العالم الاسلامى",
+    "examples": []
+  },
+  {
+    "word": "جمعاء",
+    "displayWord": "جمعاء",
+    "translation": "(jam‘ā’a) the whole house; باجمعه biajma‘ ihī in its entirety, to its full extent, completely, altogether; جاؤوا باجمعھم all of them came",
+    "examples": []
+  },
+  {
+    "word": "جماع",
+    "displayWord": "جماع",
+    "translation": "jummā‘ aggregate; total, total amount O جماع كھربائى jammā‘ kahrabā‘ī; storage battery",
+    "examples": []
+  },
+  {
+    "word": "جماعة",
+    "displayWord": "جماعة",
+    "translation": "jamā‘a pl. -āt group (of people); band, gang, party, troop; community; squad (military unit; Eg. 1939)│ جماعات",
+    "examples": []
+  },
+  {
+    "word": "جماعى",
+    "displayWord": "جماعى",
+    "translation": "jamā‘ī collective (as opposed to",
+    "examples": []
+  },
+  {
+    "word": "جماع",
+    "displayWord": "جماع",
+    "translation": "jimā‘ sexual intercourse; s.th. comprising or involving another thing or a number of things│ الخمر جماع الاثم al-ḳamr j. al-itm wine involves sin, wine",
+    "examples": []
+  },
+  {
+    "word": "جامع",
+    "displayWord": "جامع",
+    "translation": "jāmi‘ comprehensive, extensive, broad, general, universal; collector; compiler (of a book); compositor, typesetter; (pl. جوامع jawāmi‘2) mosque│",
+    "examples": []
+  },
+  {
+    "word": "جامعة",
+    "displayWord": "جامعة",
+    "translation": "jāmi‘a pl. -āt league, union, association; community; federation; religious community, communion; commonness, community of interests or purpose; university│O جامعة الكھرباء j. alkahrabā’ storage battery, accumulator;",
+    "examples": []
+  },
+  {
+    "word": "جامعة الامم",
+    "displayWord": "جامعة الامم",
+    "translation": "j. al-umam League of Nations;",
+    "examples": []
+  },
+  {
+    "word": "جامعى",
+    "displayWord": "جامعى",
+    "translation": "jāmi‘ī academic, collegiate, university (adj.); university graduate",
+    "examples": []
+  },
+  {
+    "word": "جمكية",
+    "displayWord": "جمكية",
+    "translation": "= جامكية look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "جمل",
+    "displayWord": "جمل",
+    "translation": "1 jamala u (jaml) to sum up, summarize ( ھ s.th.); -- jamula u ( جمال jamāl) to be beautiful; to be handsome, pretty, comely, graceful; to be proper, suitable, appropriate ( ب for s.o.), befit ( ب s.o.) II to make beautiful, beautify, embellish, adorn",
+    "examples": []
+  },
+  {
+    "word": "جملة",
+    "displayWord": "جملة",
+    "translation": "jumla pl. جمل jumal totality, sum, whole; group, troop, body; crowd; wholesale; (gram.) sentence, clause; جملة jumlatan completely, wholly, on the whole, altogether, in general, at all│ جملة",
+    "examples": []
+  },
+  {
+    "word": "جمال",
+    "displayWord": "جمال",
+    "translation": "jamāl beauty│O علم الجمال ‘ilm al-j. aesthetics",
+    "examples": []
+  },
+  {
+    "word": "جميل",
+    "displayWord": "جميل",
+    "translation": "jamīl beautiful, graceful, lovely, comely, pretty, handsome; friendly act, favor, service, good turn; courtesy│ اعتراف",
+    "examples": []
+  },
+  {
+    "word": "جمل",
+    "displayWord": "جمل",
+    "translation": "2 jamal pl. جمال jimāl, اجمال ajmāl camel│",
+    "examples": []
+  },
+  {
+    "word": "جمل اليھود",
+    "displayWord": "جمل اليھود",
+    "translation": "j. a1-yahūd chameleon",
+    "examples": []
+  },
+  {
+    "word": "جمال",
+    "displayWord": "جمال",
+    "translation": "jammāl pl. -ūn camel driver",
+    "examples": []
+  },
+  {
+    "word": "جمان",
+    "displayWord": "جمان",
+    "translation": "jumān (coll.; n. un. ة) pearls",
+    "examples": []
+  },
+  {
+    "word": "جمھر",
+    "displayWord": "جمھر",
+    "translation": "jamhara to gather, collect ( ه، ھ s.th., s.o.); to assemble ( ه s.o.) II tajamhara to gather, flock together (crowd)",
+    "examples": []
+  },
+  {
+    "word": "جمھرة",
+    "displayWord": "جمھرة",
+    "translation": "jamhara multitude, crowd, throng; the great mass, the populace",
+    "examples": []
+  },
+  {
+    "word": "جمھور",
+    "displayWord": "جمھور",
+    "translation": "jumhūr pl. جماھير jamāhīr2 multitude; crowd, throng; general public, public; الجماھير the masses, the people",
+    "examples": []
+  },
+  {
+    "word": "جمھرى",
+    "displayWord": "جمھرى",
+    "translation": "iumhllri republican (adj. and n.)",
+    "examples": []
+  },
+  {
+    "word": "جمھورية",
+    "displayWord": "جمھورية",
+    "translation": "jumhūriya pl. -āt republic│",
+    "examples": []
+  },
+  {
+    "word": "جن",
+    "displayWord": "جن",
+    "translation": "janna u (jann, جنون junūn) to cover, hide, conceal, veil ( ھ، على s.th.); to descend, fall, be or become dark (night); pass. junna: to be or become possessed, insane, mad, crazy│ جن جنونه (junūnuhū) to get madly excited, become frantic II to craze, make crazy, drive insane, madden, enrage, infuriate ( ه s.o.) IV to cover, veil, hide, conceal ( ھ s.th.); = II; V to go mad, become crazy X to be covered, veiled, concealed; to regard ( ه s.o.) as crazy, think ه) s.o.) mad",
+    "examples": []
+  },
+  {
+    "word": "جن",
+    "displayWord": "جن",
+    "translation": "(coll.) jinn, demons (invisible beings, either harmful or helpful, that interfere with the lives of mortals)",
+    "examples": []
+  },
+  {
+    "word": "جنى",
+    "displayWord": "جنى",
+    "translation": "jinnī demonic; jinni, demon",
+    "examples": []
+  },
+  {
+    "word": "جنية",
+    "displayWord": "جنية",
+    "translation": "jinnīya female demon",
+    "examples": []
+  },
+  {
+    "word": "جنة",
+    "displayWord": "جنة",
+    "translation": "janna pl. -at, جنان jinān garden; paradise│ جنات النعيم paradise; ساكن الجنان inhabitant of paradise, deceased person, one of blessed memory",
+    "examples": []
+  },
+  {
+    "word": "جنينة",
+    "displayWord": "جنينة",
+    "translation": "junaina pl. -āt, جنائن janā’in2 little garden; garden",
+    "examples": []
+  },
+  {
+    "word": "جنائنى",
+    "displayWord": "جنائنى",
+    "translation": "janā’inī gardener",
+    "examples": []
+  },
+  {
+    "word": "جنة",
+    "displayWord": "جنة",
+    "translation": "jinna possession, obsession; mania, madness, insanity",
+    "examples": []
+  },
+  {
+    "word": "جنة",
+    "displayWord": "جنة",
+    "translation": "junna pl. جنن junan protection, shelter, shield",
+    "examples": []
+  },
+  {
+    "word": "جنان",
+    "displayWord": "جنان",
+    "translation": "janān pl. اجنان ajnān heart, soul",
+    "examples": []
+  },
+  {
+    "word": "جنان",
+    "displayWord": "جنان",
+    "translation": "jannān gardener",
+    "examples": []
+  },
+  {
+    "word": "جنين",
+    "displayWord": "جنين",
+    "translation": "janīn pl. اجنة ajinna, اجنون ajnūn embryo, fetus; germ (in a seed, etc.)",
+    "examples": []
+  },
+  {
+    "word": "جنون",
+    "displayWord": "جنون",
+    "translation": "junūn possession, obsession; mania, madness, insanity, dementia; foolishness, folly; frenzy, rage, fury; ecstasy, rapture│ الجنون فنون al-j. funūn madness has many varieties, manifests itself in many ways",
+    "examples": []
+  },
+  {
+    "word": "جنوني",
+    "displayWord": "جنوني",
+    "translation": "junūnī crazy, insane, mad; frantic, frenzied",
+    "examples": []
+  },
+  {
+    "word": "جان",
+    "displayWord": "جان",
+    "translation": "jānn jinn, demons",
+    "examples": []
+  },
+  {
+    "word": "جنب",
+    "displayWord": "جنب",
+    "translation": "janaba u to avert, ward off ( ھ ه from s.o. s.th.) II to keep away, avert, ward off ( ھ ه from s.o. s.th.), keep s.o. ( ه) out of the way of ( ھ ), spare ( ھ ه s.o. s.th.) III to be or walk by s.o.’s ( ه) side; to run alongside of ھ) ), run parallel to ( ھ ), skirt, flank ( ھs. th.); to avoid ( ھ s.th.) V to avoid ( ھ s.th., ه s.o.); to keep away ( ھ، ه from), steer clear, get out of the way ( ھ، ه of) VI and VIII = V; VIII to be at the side of ( ,(ھ run side by side with ( ھ ), run alongside of ھ) ), skirt, flank ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "جنب",
+    "displayWord": "جنب",
+    "translation": "janb pl. جنوب junūb, اجناب ajnāb side; janba (prep.) beside, next to, near, at│ جنبا الى جنب (also جنبا لجنب ) side by side;",
+    "examples": []
+  },
+  {
+    "word": "جنبيه",
+    "displayWord": "جنبيه",
+    "translation": "(baina janbaihi) what it contains, comprises, its contents; على جنب aside, apart; ذات الجنب pleurisy",
+    "examples": []
+  },
+  {
+    "word": "جنبة",
+    "displayWord": "جنبة",
+    "translation": "janba pl. janabāt side; region, area│ فى جنباته in it, within, wide; ضمه بين",
+    "examples": []
+  },
+  {
+    "word": "جنباته",
+    "displayWord": "جنباته",
+    "translation": "(ḍammahū) to comprise, hold, contain s.th.; جنبات الغرفة j. al-gurfa the whole room; بين جنبات الغرفة in (the middle of) the room; زاخر الجنبات crammed, chockfull, brimful, filled to overflowing or bursting",
+    "examples": []
+  },
+  {
+    "word": "جنبى",
+    "displayWord": "جنبى",
+    "translation": "janbī lateral, side (adj.)",
+    "examples": []
+  },
+  {
+    "word": "جنب",
+    "displayWord": "جنب",
+    "translation": "junub in a state of major ritual impurity; not belonging to the tribe, not a kinsman│ الجار الجنب the neighbor not belonging to the family",
+    "examples": []
+  },
+  {
+    "word": "جناب",
+    "displayWord": "جناب",
+    "translation": "jināb (title of respect) approx.: Right Honorable; جنابكم Your Honor; you (polite form)",
+    "examples": []
+  },
+  {
+    "word": "جنابة",
+    "displayWord": "جنابة",
+    "translation": "janāba major ritual impurity (Isl. Law)",
+    "examples": []
+  },
+  {
+    "word": "جناب",
+    "displayWord": "جناب",
+    "translation": "junāb (= ذات الجنب ) pleurisy",
+    "examples": []
+  },
+  {
+    "word": "جنوب",
+    "displayWord": "جنوب",
+    "translation": "janūb south; جنوبا janūban southward, to the south",
+    "examples": []
+  },
+  {
+    "word": "جنوب",
+    "displayWord": "جنوب",
+    "translation": "janūbī southern│ جنوبى افريقيا South Africa",
+    "examples": []
+  },
+  {
+    "word": "جنب",
+    "displayWord": "جنب",
+    "translation": "jānib pl. جوانب jawānib2 side; lateral portion; sidepiece; flank; wing; face (geom.); part, portion, partial amount; partial view, section ( من of a scene, picture or panorama); quantity, amount; a certain number ( من of), a few, some│ من جانبه on his part; من جانب – من جانب آخر on the one hand -- on the other hand; الى جانبه to him, to his address; at his (its) side, next to him (it); بجانبه beside him (it), next to him (it);",
+    "examples": []
+  },
+  {
+    "word": "جانبا",
+    "displayWord": "جانبا",
+    "translation": "to put s.th. aside; ودعه جانبا to leave s.th. aside, omit s.th.; فى جانب in comparison with, as compared with, as against; regarding, with regard to; ما بين",
+    "examples": []
+  },
+  {
+    "word": "جوانبھم",
+    "displayWord": "جوانبھم",
+    "translation": "their hearts; جانبا الفم jānibā l-fam the comers of the mouth; جانب من a considerable, or certain, degree of; a considerable amount of, a good deal of;",
+    "examples": []
+  },
+  {
+    "word": "جانب كبير من",
+    "displayWord": "جانب كبير من",
+    "translation": "a great deal of, a large portion of; على جانب كبير من he is very …; كان على",
+    "examples": []
+  },
+  {
+    "word": "جانب عظيم من الكرم",
+    "displayWord": "جانب عظيم من الكرم",
+    "translation": "(karam) to be very generous; على جانب عظيم من الاھمية (ahammīya) of great importance; على اعظم",
+    "examples": []
+  },
+  {
+    "word": "جانب من الخطورة",
+    "displayWord": "جانب من الخطورة",
+    "translation": "‘alā a‘ẓami jānibin min alkuṯūra of utmost importance, of greatest significance; فى كل جانب everywhere, on all sides; خفض له جانبه (ḳafaḍa, jānibahū) to show o.s. condescending, affable or gracious to s.o.; to meet s.o. on fair terms;",
+    "examples": []
+  },
+  {
+    "word": "جانبه",
+    "displayWord": "جانبه",
+    "translation": "(jānibahū) to fear s.o., be afraid of s.o.; ملك الجانب milk al-j. crown lands; جانب",
+    "examples": []
+  },
+  {
+    "word": "جانبى",
+    "displayWord": "جانبى",
+    "translation": "jānibī lateral, side, by- (in compounds)",
+    "examples": []
+  },
+  {
+    "word": "جنابية",
+    "displayWord": "جنابية",
+    "translation": "gannābīya pl. –āt (eg.) curb; embankment, levee; side channel, lateral (following a road or railroad tracks); bypass (of a lock or sluice)",
+    "examples": []
+  },
+  {
+    "word": "جنبري",
+    "displayWord": "جنبري",
+    "translation": "see جمبري",
+    "examples": []
+  },
+  {
+    "word": "جنباز",
+    "displayWord": "جنباز",
+    "translation": "junbāz, جمباز calisthenics; gymnastics; athletics",
+    "examples": []
+  },
+  {
+    "word": "جنبازي",
+    "displayWord": "جنبازي",
+    "translation": "junbāzī ( جمبازي ) calisthenic(al), gymnastic│ الالعاب الجمبازية gymnastic exercises, physical exercises",
+    "examples": []
+  },
+  {
+    "word": "جنح",
+    "displayWord": "جنح",
+    "translation": "janaḥa a ( جنوح junūḥ) to incline, be inclined, tend ( ل or الى to); to lean ( ل or الى to or toward); to turn, go over ( الى to), join الى) s.th.), associate o.s. ( الى with); to strand ( على or الى on a coast; ship); to diverge, deviate, depart ( عن from); to turn away ( عن from), break ( عن with) II to provide ( ھ s.th.) with wings, lend wings (",
+    "examples": []
+  },
+  {
+    "word": "جنح",
+    "displayWord": "جنح",
+    "translation": "jinḥ side",
+    "examples": []
+  },
+  {
+    "word": "جنح",
+    "displayWord": "جنح",
+    "translation": "junḥ, jinḥ darkness gloom│ فى جنح",
+    "examples": []
+  },
+  {
+    "word": "جنحة",
+    "displayWord": "جنحة",
+    "translation": "junḥa pl. جنح junaḥ misdemeanor (jur., less than a felony, جناية , and more than an infraction, (مخالفة",
+    "examples": []
+  },
+  {
+    "word": "جناح",
+    "displayWord": "جناح",
+    "translation": "janāḥ pl. اجنحة ajniḥa, اجنح ajnuḥ wing (of a bird. of an airplane, of a building, of an army); side; flank│ انا فى",
+    "examples": []
+  },
+  {
+    "word": "جناحه",
+    "displayWord": "جناحه",
+    "translation": "I am under his protection; على جناح",
+    "examples": []
+  },
+  {
+    "word": "جناح",
+    "displayWord": "جناح",
+    "translation": "junāḥ misdemeanor (jur.); sin│ لا",
+    "examples": []
+  },
+  {
+    "word": "جناح عليه",
+    "displayWord": "جناح عليه",
+    "translation": "(junāḥa) it won’t be held against him if he ... ; it won't do any harm if he …",
+    "examples": []
+  },
+  {
+    "word": "جنوح",
+    "displayWord": "جنوح",
+    "translation": "janūḥ inclined ( الى s.th.)",
+    "examples": []
+  },
+  {
+    "word": "جنوح",
+    "displayWord": "جنوح",
+    "translation": "junūḥ inclination, leaning, bent, tendency ( الى to)",
+    "examples": []
+  },
+  {
+    "word": "جانح",
+    "displayWord": "جانح",
+    "translation": "jāniḥ side, flank, wing",
+    "examples": []
+  },
+  {
+    "word": "جانحة",
+    "displayWord": "جانحة",
+    "translation": "jāniḥa pl. جوانح jawāniḥ2 rib; pl. also bosom, heart, soul│ بين جوانحي in my bosom, at heart; طفرت جوانحھا (ṭafarat) she became happily excited, she trembled with joy",
+    "examples": []
+  },
+  {
+    "word": "جند",
+    "displayWord": "جند",
+    "translation": "II to draft, conscript, enlist, recruit ( ه s.o.; mil.); to mobilize ( ھ an army, على against) V to be drafted, be conscripted, be enlisted (for military service)",
+    "examples": []
+  },
+  {
+    "word": "جند",
+    "displayWord": "جند",
+    "translation": "jund m. and f., pl. جنود junūd, اجناد ajnād soldiers; army│ جند الخلاص j. al- ḳalāṣ Salvation Army",
+    "examples": []
+  },
+  {
+    "word": "جندى",
+    "displayWord": "جندى",
+    "translation": "jundī pl. جنود junūd soldier, private│ جندى اول (awwal) private first class (Ir., Syr.); جندى مستجد (mustajidd) recruits (Ir., Syr.); الجندي المجھول the Unknown Soldier",
+    "examples": []
+  },
+  {
+    "word": "جندية",
+    "displayWord": "جندية",
+    "translation": "jundīya military affairs, the army, the military; military service",
+    "examples": []
+  },
+  {
+    "word": "جندارى",
+    "displayWord": "جندارى",
+    "translation": "gindārī standard-bearer, comet (Eg.)",
+    "examples": []
+  },
+  {
+    "word": "جندب",
+    "displayWord": "جندب",
+    "translation": "jundub pl. جنادب janādib2 grasshopper",
+    "examples": []
+  },
+  {
+    "word": "جندر",
+    "displayWord": "جندر",
+    "translation": "1 gandara (eg.) to mangle ( ھ laundry)",
+    "examples": []
+  },
+  {
+    "word": "جندرة",
+    "displayWord": "جندرة",
+    "translation": "gandara mangling (of laundry); press; O rotary press (typ.)",
+    "examples": []
+  },
+  {
+    "word": "جندارى",
+    "displayWord": "جندارى",
+    "translation": "2 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "جندرمة",
+    "displayWord": "جندرمة",
+    "translation": "žandarma gendarmery",
+    "examples": []
+  },
+  {
+    "word": "جندرمى",
+    "displayWord": "جندرمى",
+    "translation": "žandarmī gendarme",
+    "examples": []
+  },
+  {
+    "word": "جندفلى",
+    "displayWord": "جندفلى",
+    "translation": "ganduflī (eg.) oysters 140",
+    "examples": []
+  },
+  {
+    "word": "جندل",
+    "displayWord": "جندل",
+    "translation": "1 jandala to throw to the ground, bring down, fell ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "جندل",
+    "displayWord": "جندل",
+    "translation": "jandal pl. جنادل janādil2 stone; pl.",
+    "examples": []
+  },
+  {
+    "word": "جنادل",
+    "displayWord": "جنادل",
+    "translation": "cataract, waterfall (eg.)",
+    "examples": []
+  },
+  {
+    "word": "جندول",
+    "displayWord": "جندول",
+    "translation": "2 gundūl (eg.) pl. جناديل ganādīl2 gondola",
+    "examples": []
+  },
+  {
+    "word": "جنرال",
+    "displayWord": "جنرال",
+    "translation": "jenərāl, ginrāl (eg.) general (military rank)",
+    "examples": []
+  },
+  {
+    "word": "جنز",
+    "displayWord": "جنز",
+    "translation": "II to say the burial prayers, conduct the funeral service ( ه for the deceased; Chr.)",
+    "examples": []
+  },
+  {
+    "word": "جنازة",
+    "displayWord": "جنازة",
+    "translation": "jināza, janāza pl. -āt جنائز janā’iz2 bier; funeral procession",
+    "examples": []
+  },
+  {
+    "word": "جناز",
+    "displayWord": "جناز",
+    "translation": "junnāz pl. جنانيز janānīz2 requiem, funeral rites, obsequies; funeral procession",
+    "examples": []
+  },
+  {
+    "word": "جنزبيل",
+    "displayWord": "جنزبيل",
+    "translation": "janzabīl (= زنجبيل ) ginger",
+    "examples": []
+  },
+  {
+    "word": "جنزير",
+    "displayWord": "جنزير",
+    "translation": "1 janzara (= زنجر ) to be or become covered with verdigris",
+    "examples": []
+  },
+  {
+    "word": "جنزار",
+    "displayWord": "جنزار",
+    "translation": "jinzār (= زنجار ) verdigris",
+    "examples": []
+  },
+  {
+    "word": "جنزير",
+    "displayWord": "جنزير",
+    "translation": "2 jinzīr (= زنجير ) pl. جنازير janāzīr2 chain; track (of a caterpillar, of a tank, etc.); a linear measure (= 5 qaṣaba = 17.75 m; also = 20 m; Eg.)│ طارة جنزير ṭārat j. track sprocket, sprocket wheel",
+    "examples": []
+  },
+  {
+    "word": "جنس",
+    "displayWord": "جنس",
+    "translation": "II to make alike, make similar ( ھ s.th.); to assimilate, naturalize ( ه s.o.); to class, classify, sort, categorize ( ھ s.th.) III to be akin, be related, similar ( ھ، ه to), be of the same kind or nature ( ه as s.o., ھ as s.th.), be like s.o. or s.th. ( ھ، ه ) resemble ( ه s.o.,",
+    "examples": []
+  },
+  {
+    "word": "جنس",
+    "displayWord": "جنس",
+    "translation": "jins pl. اجناس ajnās kind, sort, variety, species, class, genus; category; sex (male, female); gender (gram.); race; nation│ اسم الجنس ism al-j. (gram.) generic noun, collective noun of nonpersonal things (which form a n. un. in ة) ؛ الجنس",
+    "examples": []
+  },
+  {
+    "word": "جنسي",
+    "displayWord": "جنسي",
+    "translation": "jinsī generic; sexual; racial",
+    "examples": []
+  },
+  {
+    "word": "جنسية",
+    "displayWord": "جنسية",
+    "translation": "jinsīya pl. -āt nationality, citizenship",
+    "examples": []
+  },
+  {
+    "word": "جناس",
+    "displayWord": "جناس",
+    "translation": "jinās (rhet.) assonance, pun, paronomasia",
+    "examples": []
+  },
+  {
+    "word": "جنطيانا",
+    "displayWord": "جنطيانا",
+    "translation": "(Lat. Gentiana) gentian (eg.)",
+    "examples": []
+  },
+  {
+    "word": "جنف",
+    "displayWord": "جنف",
+    "translation": "1 VI to deviate ( عن from); to incline, be inclined ( الى or ل to s.th.)",
+    "examples": []
+  },
+  {
+    "word": "جنيف",
+    "displayWord": "جنيف",
+    "translation": "2 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "جنفاص",
+    "displayWord": "جنفاص",
+    "translation": "junfāṣ, جنفيص junfaiṣ sackcloth, sacking",
+    "examples": []
+  },
+  {
+    "word": "جنك",
+    "displayWord": "جنك",
+    "translation": "junk pl. جنوك junūk harp",
+    "examples": []
+  },
+  {
+    "word": "جنوا",
+    "displayWord": "جنوا",
+    "translation": "janowā Genoa (seaport in NW Italy)",
+    "examples": []
+  },
+  {
+    "word": "جنى",
+    "displayWord": "جنى",
+    "translation": "janā i (jany) to pick, gather, harvest, reap (",
+    "examples": []
+  },
+  {
+    "word": "جنى",
+    "displayWord": "جنى",
+    "translation": "jany harvest; reaping (fig.); -- janan (coll.) fruits",
+    "examples": []
+  },
+  {
+    "word": "جناية",
+    "displayWord": "جناية",
+    "translation": "jināya pl. -āt perpetration of a crime; felony (jur.; in the strictly legal sense, more than a misdemeanor, ,جنحة and an infraction, مخالفة ), capital offense │",
+    "examples": []
+  },
+  {
+    "word": "جنائي",
+    "displayWord": "جنائي",
+    "translation": "jinā’ī criminal│ law محكمة جنائية (maḥkama) criminal court; القانون الجنائي criminal law, penal law",
+    "examples": []
+  },
+  {
+    "word": "جان",
+    "displayWord": "جان",
+    "translation": "jānin pl. جناة junāh perpetrator (of a delict); delinquent, criminal",
+    "examples": []
+  },
+  {
+    "word": "جنيف",
+    "displayWord": "جنيف",
+    "translation": "(Fr. Geneve) žənēf Geneva",
+    "examples": []
+  },
+  {
+    "word": "جنيه",
+    "displayWord": "جنيه",
+    "translation": "(Engl. guinea) ginēh, also gunaih pl. –āt pound (eg.)│ جنيه انجليزي ( استرليني ) pound sterling, English pound; جنيه مصري Egyptian pound (abbreviation: (ج م",
+    "examples": []
+  },
+  {
+    "word": "جھة",
+    "displayWord": "جھة",
+    "translation": "see وجه",
+    "examples": []
+  },
+  {
+    "word": "جھبذ",
+    "displayWord": "جھبذ",
+    "translation": "jahbad pl. جھابذة jahābida man endowed with a critical mind; great scholar; bright, brilliant, intelligent",
+    "examples": []
+  },
+  {
+    "word": "جھد",
+    "displayWord": "جھد",
+    "translation": "jahada a (jahd) to endeavor, strive, labor, take pains, put o.s. out; to over-work, overtax, fatigue, exhaust ( ه s.o.) III to endeavor, strive; to fight ( فى سبيل الشيء for s.th.); t.o wage holy war against the infidels IV to strain, exert ( ھ s.th.); to tire, wear out, fatigue ( ه s.o.), give trouble ( ه to)│ اجھد نفسه فى (nafsahū) to go to great lengths, go out of one’s way ( في for or in s.th.); اجھد فكره فى (fikrahū) to concentrate on, put one's mind to, apply o.s. t.o VIII to put o.s. out ( فى for s.th.), work hard; (Isl. Law) to formulate an independent judgment in a legal or theological question (based on the application of the 4 uṣūl; as opposed to taqlid, q.v.)",
+    "examples": []
+  },
+  {
+    "word": "جھد",
+    "displayWord": "جھد",
+    "translation": "jahd pl. جھود juḥūd strain; exertion; endeavor, attempt, effort; trouble, pains (",
+    "examples": []
+  },
+  {
+    "word": "جھد",
+    "displayWord": "جھد",
+    "translation": "juhd strain, exertion; juhda (used prepositionally) to the limit of ... │ جھد",
+    "examples": []
+  },
+  {
+    "word": "جھيد",
+    "displayWord": "جھيد",
+    "translation": "jahīd see جھد jahd",
+    "examples": []
+  },
+  {
+    "word": "جھاد",
+    "displayWord": "جھاد",
+    "translation": "jihād fight, battle; jihad, holy war (against the infidels, as a religious duty)",
+    "examples": []
+  },
+  {
+    "word": "جھادي",
+    "displayWord": "جھادي",
+    "translation": "jihādī fighting, military",
+    "examples": []
+  },
+  {
+    "word": "جھر",
+    "displayWord": "جھر",
+    "translation": "jahara a (jahr, جھار jihār) to be brought to light, come out, show, appear; -- to declare publicly, announce ( ھ or ب s.th.); to avow in public, proclaim ( ب s.th.); to raise ( ھ the voice); -- jahura u ( جھارة jahāra) to be loud, be clearly audible (voice) III to declare or say openly, voice, utter, express frankly ( ب s.th.)",
+    "examples": []
+  },
+  {
+    "word": "جھر",
+    "displayWord": "جھر",
+    "translation": "jahr and جھار jihār publicness, publicity, notoriety; جھرا jahran and جھارا jihāran publicly, in public",
+    "examples": []
+  },
+  {
+    "word": "جھرة",
+    "displayWord": "جھرة",
+    "translation": "jahratan openly, overtly, frankly, publicly",
+    "examples": []
+  },
+  {
+    "word": "جھري",
+    "displayWord": "جھري",
+    "translation": "jahrī notorious, well-known, public",
+    "examples": []
+  },
+  {
+    "word": "جھير",
+    "displayWord": "جھير",
+    "translation": "jahīr loud (voice, shout)",
+    "examples": []
+  },
+  {
+    "word": "جمھري",
+    "displayWord": "جمھري",
+    "translation": "jahwarī loud (voice)",
+    "examples": []
+  },
+  {
+    "word": "جھز",
+    "displayWord": "جھز",
+    "translation": "jahaza a to finish off ( على a wounded man), deliver the coup de grace to ( على ) II to make ready, prepare ( ھ s.th.); to arrange ( ھ s.th.); to provide, supply ( ھ s.th.); to equip, fit out, furnish, supply, provide ( ب ه or ھ s.th. or s.o. with) IV to finish off ( على a wounded man), deliver the coup de grace to ( على ); to finish, ruin (",
+    "examples": []
+  },
+  {
+    "word": "جھاز",
+    "displayWord": "جھاز",
+    "translation": "jahāz (alas pronounced jihāz) pl. -āt, اجھزة ajhiza equipment, appliances, outfit, gear, rig; trousseau; contrivance, gadget; implement, appliance, utensil; installation, apparatus (techn.); system, apparatus (anat.) │ جھاز لاسلكي (lā-silkī) wirelees set, radio; جھاز راديو radio (receiving set); O جھاز مستقبل (mustaqbil), O جھاز الاستقبال , O جھاز الالتقاط receiver, receiving set (radio); جھاز مذيع (muḍī‘), O",
+    "examples": []
+  },
+  {
+    "word": "جھاز الارسال",
+    "displayWord": "جھاز الارسال",
+    "translation": "j. al-irsāl transmitter (radio);",
+    "examples": []
+  },
+  {
+    "word": "جھاز تليفزيوني",
+    "displayWord": "جھاز تليفزيوني",
+    "translation": "television set; جھاز الحفر j. al-ḥafr drilling rig; oil derrick; جھاز دوري (daurī) circulatory system (anat.); جھاز",
+    "examples": []
+  },
+  {
+    "word": "جاھز",
+    "displayWord": "جاھز",
+    "translation": "jāhiz ready, prepared; readymade; equipped │ جاھزة ( ملبوسات or) البسة (albisa) ready-made clothes",
+    "examples": []
+  },
+  {
+    "word": "جھش",
+    "displayWord": "جھش",
+    "translation": "IV to sob, break into sobs│ اجھش بالبكاء (bukā’) to be on the verge of tears, struggle with tears; to break into tears",
+    "examples": []
+  },
+  {
+    "word": "جھشة",
+    "displayWord": "جھشة",
+    "translation": "jahša (n. vic.) pl. -āt sob; outburst of tears",
+    "examples": []
+  },
+  {
+    "word": "جھض",
+    "displayWord": "جھض",
+    "translation": "IV to bear young ones, litter; to have a miscarriage (woman)│ اجھضت نفسھا (nafsahā) she induced an abortion",
+    "examples": []
+  },
+  {
+    "word": "جھض",
+    "displayWord": "جھض",
+    "translation": "jihḍ miscarried fetus",
+    "examples": []
+  },
+  {
+    "word": "جھيض",
+    "displayWord": "جھيض",
+    "translation": "jahīḍ miscarried fetus",
+    "examples": []
+  },
+  {
+    "word": "جھل",
+    "displayWord": "جھل",
+    "translation": "jahila a (jahl, جھالة jahāla) to be ignorant; not to know ( ب or ھ s.th., how to do s.th.); to be irrational, foolish; to behave foolishly ( على toward) VI to ignore ( ھ s.th.); to refuse to have anything to do ( ھ with), shut one’s eyes ( ھ to), disregard ( ھ a fact); to affect ignorance, pretend to know nothing X to consider ignorant or stupid ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "جھل",
+    "displayWord": "جھل",
+    "translation": "jahl and جھالة jahāla ignorance; folly, foolishness, stupidity│ عن جھل out of ignorance",
+    "examples": []
+  },
+  {
+    "word": "جھول",
+    "displayWord": "جھول",
+    "translation": "jahūl ignorant; foolish, stupid",
+    "examples": []
+  },
+  {
+    "word": "جاھل",
+    "displayWord": "جاھل",
+    "translation": "jāhil pl. جھلة jahala, جھل juhhal,",
+    "examples": []
+  },
+  {
+    "word": "جھال",
+    "displayWord": "جھال",
+    "translation": "juhhāl, جھلاء juhalā’ not knowing ( ب s.th., how to do s.th.); ignorant, uneducated, illiterate; foolish; fool",
+    "examples": []
+  },
+  {
+    "word": "جاھلى",
+    "displayWord": "جاھلى",
+    "translation": "jāhilī pagan, of or pertaining to pre-Islamic times",
+    "examples": []
+  },
+  {
+    "word": "جاھلية",
+    "displayWord": "جاھلية",
+    "translation": "jāhilīya state of ignorance; pre- Islamic paganism, pre-Islamic times",
+    "examples": []
+  },
+  {
+    "word": "جھم",
+    "displayWord": "جھم",
+    "translation": "jahuma u ( جھامة jahāma, جھومة juhūma) to frown, glower V to frown, scowl, glower; to regard with displeasure (, ھ ه or ل s.o. or s.th.), frown ( ھ or ل on); to eye gloomily, coolly, grimiy ( ھ، ه or ل s.o., s.th.); to become sullen, gloomy (face)",
+    "examples": []
+  },
+  {
+    "word": "جھم",
+    "displayWord": "جھم",
+    "translation": "jahm sullen, glum, morose, gloomy (face)",
+    "examples": []
+  },
+  {
+    "word": "جھام",
+    "displayWord": "جھام",
+    "translation": "jahām clouds",
+    "examples": []
+  },
+  {
+    "word": "جھامة",
+    "displayWord": "جھامة",
+    "translation": "jahāma and جھومة juhūma grim look, sullen expression; gloominoss; brooding silence",
+    "examples": []
+  },
+  {
+    "word": "جھنم",
+    "displayWord": "جھنم",
+    "translation": "jahannam2 (f.) hell",
+    "examples": []
+  },
+  {
+    "word": "جھنمي",
+    "displayWord": "جھنمي",
+    "translation": "jahannamī hellish, infernal",
+    "examples": []
+  },
+  {
+    "word": "جو",
+    "displayWord": "جو",
+    "translation": "jaww pl. اجواء ajwā’, جواء jiwā’ (pl. frequently with singnlar meaning) air; atmosphere (also fig.); sky; weather; sphere, milieu, environment; جوا jawwan by air; by telegraph, telegraphically│ بريد",
+    "examples": []
+  },
+  {
+    "word": "جوى",
+    "displayWord": "جوى",
+    "translation": "jawwī air, aerial, aero- (in compounds); airy, atmospheric(al); weather (used attributively), meteorologic(al)│ الضغط الجوي (ḍagṯ) atmospheric pressure; طبقات جوية (ṭabaqāt) air layers; اسطول جوي (usṭūl) air fleet; غارة",
+    "examples": []
+  },
+  {
+    "word": "جوية",
+    "displayWord": "جوية",
+    "translation": "air raid; القوات الجوية (quwāt) air force;",
+    "examples": []
+  },
+  {
+    "word": "جوا",
+    "displayWord": "جوا",
+    "translation": "(colloq.) jawwā (pronounced gūwa in Eg.) in it, within; inside",
+    "examples": []
+  },
+  {
+    "word": "جوانى",
+    "displayWord": "جوانى",
+    "translation": "jawwānī, juwwānī inner, inside, interior",
+    "examples": []
+  },
+  {
+    "word": "جوافة",
+    "displayWord": "جوافة",
+    "translation": "guwāfa (eg.) guava (fruit); guavshrub",
+    "examples": []
+  },
+  {
+    "word": "جوال",
+    "displayWord": "جوال",
+    "translation": "(eg.) guwāl pl. -āt sack",
+    "examples": []
+  },
+  {
+    "word": "جوانتي",
+    "displayWord": "جوانتي",
+    "translation": "(It. guanti; eg.) gloves",
+    "examples": []
+  },
+  {
+    "word": "جوب",
+    "displayWord": "جوب",
+    "translation": "1 (Fr. jupe) skirt جوب) جاب) 2 jāba u (jaub) to travel, wander ( ھ through), traverse, roam, tour, explore ( ھ s.th., e.g., foreign lands); to pierce, penetrate ( ھ s.th.), cut through ( ھ ); to wander, cruise ( ھ about a place) III to answer ( ه s. خ.، على s.th.), reply, respond ( ه to s.o., على to s.th.); to comply ( ھ with), accede ( ھ to) IV to answer ( ه or الى s.o.,",
+    "examples": []
+  },
+  {
+    "word": "جوب",
+    "displayWord": "جوب",
+    "translation": "jaub travening, touring, exploration (of foreign countries); piercing, penetration",
+    "examples": []
+  },
+  {
+    "word": "جوبة",
+    "displayWord": "جوبة",
+    "translation": "jauba pl. -āt, جوب juwab opening, gap; hole, pit",
+    "examples": []
+  },
+  {
+    "word": "جواب",
+    "displayWord": "جواب",
+    "translation": "jawāb pl. اجوبة ajwiba answer, reply; octave (to a given tone; mus.); (eg.; pronounced gawāb pl. -āt) letter, message│ جواب الشرط j. aš-šarṭ, main clause (conclusion) of a conditional sentence, apodosis",
+    "examples": []
+  },
+  {
+    "word": "جوابى",
+    "displayWord": "جوابى",
+    "translation": "jawābī answering (used attributively)",
+    "examples": []
+  },
+  {
+    "word": "جواب",
+    "displayWord": "جواب",
+    "translation": "jawwāb traverser (of foreign countries), traveler, explorer",
+    "examples": []
+  },
+  {
+    "word": "جوت",
+    "displayWord": "جوت",
+    "translation": "(Engl.) jūt jute",
+    "examples": []
+  },
+  {
+    "word": "جاح",
+    "displayWord": "جاح",
+    "translation": "(جوح ) jāḥa u and IV to annihilate, destroy, ruin; to flood, inundate ( ھ the land) VIII do.; to carry away, sweep away ( ه s.o., s.th.; storm); to put down, subdue, quell (",
+    "examples": []
+  },
+  {
+    "word": "جائح",
+    "displayWord": "جائح",
+    "translation": "jā’iḥ crushing, devastating; disastrous",
+    "examples": []
+  },
+  {
+    "word": "جائحة",
+    "displayWord": "جائحة",
+    "translation": "jā’iḥa pl. جوائح jawā’iḥ2 calamity, disaster, ruin; epldemic; crop damage",
+    "examples": []
+  },
+  {
+    "word": "جوخ",
+    "displayWord": "جوخ",
+    "translation": "jūḳ pl. اجواخ ajwāḳ broadcloth",
+    "examples": []
+  },
+  {
+    "word": "جاد",
+    "displayWord": "جاد",
+    "translation": "(جود ) jāda u ( جودة jūda) to be or become good, become better, improve; -- (jūd) to grant generously ( ب s.th.), be so generous as to do s.th. ( ب with verbal noun); to be liberal, openhanded ( ب with s.th., على toward s.o.), bestow liberally ( ب s.th., على upon s.o.), grant, give lavishly ( ب of s.th.,",
+    "examples": []
+  },
+  {
+    "word": "جود",
+    "displayWord": "جود",
+    "translation": "jūd openhandedness, liberality, generosity",
+    "examples": []
+  },
+  {
+    "word": "جود",
+    "displayWord": "جود",
+    "translation": "jaud heavy rains",
+    "examples": []
+  },
+  {
+    "word": "جادة",
+    "displayWord": "جادة",
+    "translation": "see under جد 2",
+    "examples": []
+  },
+  {
+    "word": "جودة",
+    "displayWord": "جودة",
+    "translation": "jūda goodness, excellence",
+    "examples": []
+  },
+  {
+    "word": "جيد",
+    "displayWord": "جيد",
+    "translation": "jayyid pl. جياد jiyād good, perfect, faultless; outstanding, excellent, first-rate; good (as an examination grade); جيدا jayyidan well, excellently; thoroughly │",
+    "examples": []
+  },
+  {
+    "word": "جيد جدا",
+    "displayWord": "جيد جدا",
+    "translation": "(jidda) very good (also as an examination grade)",
+    "examples": []
+  },
+  {
+    "word": "جواد",
+    "displayWord": "جواد",
+    "translation": "jawād pl. اجواد ajwād, اجاود ajāwid2,",
+    "examples": []
+  },
+  {
+    "word": "جودار",
+    "displayWord": "جودار",
+    "translation": "jaudār see جاودار (alphabetically)",
+    "examples": []
+  },
+  {
+    "word": "جار",
+    "displayWord": "جار",
+    "translation": "(جور ) jāra u (jaur) to deviate, stray ( عن from); to commit an outrage ( على on), bear down ( على upon), wrong, persecute, oppress, tyrannize ( على s.o.); to encroach, make inroads ( على on another’s territory) III to be the neighbor of s.o. ( ه), live next door to ( ه); to be adjacent, be next ( ھ to s.th.), adjoin ( ھ s.th.); to be in the immediate vicinity of ( ه ھ ), be close to (، ه",
+    "examples": []
+  },
+  {
+    "word": "جور",
+    "displayWord": "جور",
+    "translation": "jaur injustice; oppression, tyranny; outrage",
+    "examples": []
+  },
+  {
+    "word": "جار",
+    "displayWord": "جار",
+    "translation": "jār pl. جيران jīrān neighbor; refugee; protégé, charge",
+    "examples": []
+  },
+  {
+    "word": "جارة",
+    "displayWord": "جارة",
+    "translation": "jāra pl. -āt neighboress",
+    "examples": []
+  },
+  {
+    "word": "جيرة",
+    "displayWord": "جيرة",
+    "translation": "jīra neighborhood",
+    "examples": []
+  },
+  {
+    "word": "جورة",
+    "displayWord": "جورة",
+    "translation": "jūra pl. جور juwar pit, hole",
+    "examples": []
+  },
+  {
+    "word": "جورى",
+    "displayWord": "جورى",
+    "translation": "see alphabetically",
+    "examples": []
+  },
+  {
+    "word": "جوار",
+    "displayWord": "جوار",
+    "translation": "jiwār neighborhood, proximity;",
+    "examples": []
+  },
+  {
+    "word": "جائر",
+    "displayWord": "جائر",
+    "translation": "jā’ir pl. جورة jawara, جارة jāra unjust. unfair; tyrannical, despotic; tyrant, oppressor, despot",
+    "examples": []
+  },
+  {
+    "word": "جورب",
+    "displayWord": "جورب",
+    "translation": "jaurab pl. جوارب jawārib2 stocking; sock",
+    "examples": []
+  },
+  {
+    "word": "جورجيا",
+    "displayWord": "جورجيا",
+    "translation": "jorjiyā Georgia (republic of the U.S.S.R.)",
+    "examples": []
+  },
+  {
+    "word": "جوري",
+    "displayWord": "جوري",
+    "translation": "1 jūrī damask rose (Rosa damascena, bot.); crimson",
+    "examples": []
+  },
+  {
+    "word": "جوري",
+    "displayWord": "جوري",
+    "translation": "2 (Engl.) jūrī jury جوز) جاز) 1 jāza u ( جواز jawāz, مجاز majāz) to pass, come, travel ( ھ through); to pass ( ھ an examination, a test); to be allowed, permitted, permissible; to be possible, conceivable; to work, succeed ( عليه with s.o.; deceit, artifice) │ جازت عليه الحيلة (ḥīla) the trick worked with him, he fell for the trick II to permit, allow ( ھ s.th.); to approve ( ھ of), sanction, warrant, authorize ( ھ s.th.) III to pass ( ھ s.th. or by s.th.), go or walk past s.th. ( ھ ); to go beyond s.th. ( ھ ), overstep, cross, leave behind ( ھ s.th.), also, e.g., جاوز الثلاثين من",
+    "examples": []
+  },
+  {
+    "word": "جوز",
+    "displayWord": "جوز",
+    "translation": "jauz pl. اجواز ajwāz heart, center (of a desert, of a large area, etc.) │ فى",
+    "examples": []
+  },
+  {
+    "word": "جواز",
+    "displayWord": "جواز",
+    "translation": "jawāz permissibility, admissibility; lawfulness, legality; permission, (official) permit, license, authorization; possibility, conceivability; passing (of an examination) │ جواز السفر j. as-safar (pl. -āt) (traveling) passport 147",
+    "examples": []
+  },
+  {
+    "word": "جائز",
+    "displayWord": "جائز",
+    "translation": "jā’iz permitted, lawful, legal; conceivable, thinkable",
+    "examples": []
+  },
+  {
+    "word": "جائزة",
+    "displayWord": "جائزة",
+    "translation": "jā’iza pl. جوائز jawā’iz2 prize, reward, premium │ جائزة دراسية (dirāsīya) stipend, scholarship",
+    "examples": []
+  },
+  {
+    "word": "جوز",
+    "displayWord": "جوز",
+    "translation": "4 jauz (coll.; n. un. ة pl. -āt) walnut │ جوز",
+    "examples": []
+  },
+  {
+    "word": "جوزة",
+    "displayWord": "جوزة",
+    "translation": "gōza (eg.) narghile",
+    "examples": []
+  },
+  {
+    "word": "جوزي",
+    "displayWord": "جوزي",
+    "translation": "jauzī nut (used attributively and in compounds); nut-brown, hazel",
+    "examples": []
+  },
+  {
+    "word": "جاز",
+    "displayWord": "جاز",
+    "translation": "5 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "جوزل",
+    "displayWord": "جوزل",
+    "translation": "jauzal pl. جوازل jawāzil2 young pigeon جوس) جاس) jāsa u to peer around, pry around, look around ( خلال kilāla in); to search, investigate, explore ( ھ s.th.) VIII to search, investigate, explore ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "جوسق",
+    "displayWord": "جوسق",
+    "translation": "jausaq pl. جواسق jawāsiq2 palace; manor, villa",
+    "examples": []
+  },
+  {
+    "word": "جويطة",
+    "displayWord": "جويطة",
+    "translation": "gawīṭa pl. جوائط gawā’iṭ2 (eg.) dowel, peg",
+    "examples": []
+  },
+  {
+    "word": "جاع",
+    "displayWord": "جاع",
+    "translation": "(جوع ) jā‘a u to be hungry; to starve II to cause ( ه s.o.) to starve, starve out, famish (",
+    "examples": []
+  },
+  {
+    "word": "جوع",
+    "displayWord": "جوع",
+    "translation": "jū‘ hunger, starvation │ مات جوعا to starve to death",
+    "examples": []
+  },
+  {
+    "word": "جوعان",
+    "displayWord": "جوعان",
+    "translation": "jau‘ān2, f. جوعى jau‘ā’, pl. جياع jiyā‘ hungry, starved, famished",
+    "examples": []
+  },
+  {
+    "word": "جائع",
+    "displayWord": "جائع",
+    "translation": "jā’i‘ pl. جياع jiyā‘, جوع juwwa‘ hungry, starved, famished",
+    "examples": []
+  },
+  {
+    "word": "جوف",
+    "displayWord": "جوف",
+    "translation": "II to make hollow, hollow out ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "جوف",
+    "displayWord": "جوف",
+    "translation": "jauf pl. اجواف ajwāf hollow, cavity; depression; interior, inside, center, heart; belly, abdomen; north (magr.) │ في جوف inside, in the interior of, in the middle of;",
+    "examples": []
+  },
+  {
+    "word": "جوفي",
+    "displayWord": "جوفي",
+    "translation": "jaufī inner, interior, inside; subterranean, underground, subsurface (of geological strata); northern (magr.) │ مياه",
+    "examples": []
+  },
+  {
+    "word": "جوفية",
+    "displayWord": "جوفية",
+    "translation": "ground water 148",
+    "examples": []
+  },
+  {
+    "word": "جوق",
+    "displayWord": "جوق",
+    "translation": "jauq pl. اجواق ajwāq and جوقة jauqa pl. -āt troop, group; theatrical troupe, operatic company; choir (mus.); orchestra, band (also مدير الجوق │ ( جوقة موسيقية mudīr al-j. conductor, bandleader, choir leader;",
+    "examples": []
+  },
+  {
+    "word": "جوقة الشرف",
+    "displayWord": "جوقة الشرف",
+    "translation": "j. aš-šaraf Legion of Honor",
+    "examples": []
+  },
+  {
+    "word": "جال",
+    "displayWord": "جال",
+    "translation": "(جول 1 ) jāla u (jaul, جولة jaula, تجوال tajwāl,",
+    "examples": []
+  },
+  {
+    "word": "جولان",
+    "displayWord": "جولان",
+    "translation": "jawalān) to roam, rove, wander about; to move freely, be at home ( في in a field of learning), occupy o.s. ( في with); to be circulated, go the rounds; to pass ( في، ب through the mind)│ جال برأسه to preoccupy s.o., engross s.o.’s attention; ما يجول في",
+    "examples": []
+  },
+  {
+    "word": "جالت يده في",
+    "displayWord": "جالت يده في",
+    "translation": "(yaduhū) he laid his hands on, he committed defalcations of IV to circulate, pass around ( ھ s.th.) │ اجال الرأي (ra’ya) to weigh s.th. thoroughly, ponder s.th.; اجال النظر (naẓara) to let one’s eyes wander about; to look around V to roam, rove, wander about, move around; to patrol, go the rounds; to cruise; to tour, travel from place to place, travel about",
+    "examples": []
+  },
+  {
+    "word": "جولة",
+    "displayWord": "جولة",
+    "translation": "jaula pl. -āt circuit, round; patrol; excursion, outing; tour; (round) trip; voyage, run (of a steamer); (round-trip) flight (of an airplane); round (in sports)",
+    "examples": []
+  },
+  {
+    "word": "جوال",
+    "displayWord": "جوال",
+    "translation": "jawwāl wandering, migrant, itinerant, roving; cruising; traveling; ambulant; traveler, tourist; see also alphabetically │ رام جوال rāmin jawwāl pl.",
+    "examples": []
+  },
+  {
+    "word": "جوالة",
+    "displayWord": "جوالة",
+    "translation": "jawwāla one given to roaming or traveling; wanderer, wayfarer; O motorcycle; cruiser",
+    "examples": []
+  },
+  {
+    "word": "جولان",
+    "displayWord": "جولان",
+    "translation": "jawalān migration, wandering, roving, traveling; nomadic life, nomadism │ جولان اليد j. al-yad embezzlement, defalcation",
+    "examples": []
+  },
+  {
+    "word": "جوال",
+    "displayWord": "جوال",
+    "translation": "2 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "جولف",
+    "displayWord": "جولف",
+    "translation": "golf golf (eg.)",
+    "examples": []
+  },
+  {
+    "word": "جام",
+    "displayWord": "جام",
+    "translation": "look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "جون",
+    "displayWord": "جون",
+    "translation": "jūn pl اجوان ajwān gulf, inlet, bay",
+    "examples": []
+  },
+  {
+    "word": "جونلة، جونلا، جونيلة",
+    "displayWord": "جونلة، جونلا، جونيلة",
+    "translation": "(It. gonnella)gonella pl. -āt (woman’s) skirt (eg.) 149",
+    "examples": []
+  },
+  {
+    "word": "جاه",
+    "displayWord": "جاه",
+    "translation": "look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "جوھر",
+    "displayWord": "جوھر",
+    "translation": "II tajauhara to become substance",
+    "examples": []
+  },
+  {
+    "word": "جوھر",
+    "displayWord": "جوھر",
+    "translation": "jauhar pl. جواھر jawāhir2 intrinsic, essential nature, essence; content, substance (as opposed to form; philos.); matter, substance; atom; jewel, gem; pl. jewelry │ الزيف والجوھر (zaif) the spurious and the genuine",
+    "examples": []
+  },
+  {
+    "word": "جوھرة",
+    "displayWord": "جوھرة",
+    "translation": "jauhara jewel, gem",
+    "examples": []
+  },
+  {
+    "word": "جوھري",
+    "displayWord": "جوھري",
+    "translation": "jauharī substantial; intrinsic, essential, inherent; fundamental, main, chief, principal; material; jeweler",
+    "examples": []
+  },
+  {
+    "word": "جوھرجي",
+    "displayWord": "جوھرجي",
+    "translation": "jauharjī jeweler",
+    "examples": []
+  },
+  {
+    "word": "جوى",
+    "displayWord": "جوى",
+    "translation": "1 jawiya a (jawan) to be passionately stirred by love or grief",
+    "examples": []
+  },
+  {
+    "word": "جوى",
+    "displayWord": "جوى",
+    "translation": "jawan ardent love, passion",
+    "examples": []
+  },
+  {
+    "word": "جاوى",
+    "displayWord": "جاوى",
+    "translation": "2 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "جويدار",
+    "displayWord": "جويدار",
+    "translation": "= جاودار look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "جاء",
+    "displayWord": "جاء",
+    "translation": "(جيء ) jā’a يجيء yajī’u ( مجيء majī’) to come",
+    "examples": []
+  },
+  {
+    "word": "جيئة",
+    "displayWord": "جيئة",
+    "translation": "jī’a, jai’a coming, arrival │ جيئة",
+    "examples": []
+  },
+  {
+    "word": "جيب",
+    "displayWord": "جيب",
+    "translation": "1 jaib pl. جيوب juyūb breast, bosom, heart; sine (math.); hole, hollow, cavity, excavation; pocket; purse │ الجيب",
+    "examples": []
+  },
+  {
+    "word": "جيبي",
+    "displayWord": "جيبي",
+    "translation": "jaibī pocket (adj.)",
+    "examples": []
+  },
+  {
+    "word": "جيب",
+    "displayWord": "جيب",
+    "translation": "2 jīp, جيب jīb and سيارة جيب sayyārat j. jeep",
+    "examples": []
+  },
+  {
+    "word": "چيت",
+    "displayWord": "چيت",
+    "translation": "(ir.) čīt a colorful cotton fabric, chintz",
+    "examples": []
+  },
+  {
+    "word": "جيد",
+    "displayWord": "جيد",
+    "translation": "1 jīd pl. اجياد ajyād, جيود juyūd neck",
+    "examples": []
+  },
+  {
+    "word": "جيد",
+    "displayWord": "جيد",
+    "translation": "2 jayyid see جود",
+    "examples": []
+  },
+  {
+    "word": "جياد، اجياد",
+    "displayWord": "جياد، اجياد",
+    "translation": "3 see جواد jawād",
+    "examples": []
+  },
+  {
+    "word": "جير",
+    "displayWord": "جير",
+    "translation": "1 jairi surely, truly, verily",
+    "examples": []
+  },
+  {
+    "word": "جير",
+    "displayWord": "جير",
+    "translation": "2 jīr lime",
+    "examples": []
+  },
+  {
+    "word": "جير",
+    "displayWord": "جير",
+    "translation": "jīrī calcareous, lime (adj.)",
+    "examples": []
+  },
+  {
+    "word": "جيار",
+    "displayWord": "جيار",
+    "translation": "jayyār unslaked lime",
+    "examples": []
+  },
+  {
+    "word": "جيارة",
+    "displayWord": "جيارة",
+    "translation": "jayyāra limekiln",
+    "examples": []
+  },
+  {
+    "word": "جير",
+    "displayWord": "جير",
+    "translation": "3 II to endorse (fin.)",
+    "examples": []
+  },
+  {
+    "word": "جيرو",
+    "displayWord": "جيرو",
+    "translation": "(It. giro) endorsement (fin.)",
+    "examples": []
+  },
+  {
+    "word": "جيرة، جيران",
+    "displayWord": "جيرة، جيران",
+    "translation": "4 see جور",
+    "examples": []
+  },
+  {
+    "word": "جيزة",
+    "displayWord": "جيزة",
+    "translation": "gīza Giza (city in N Egypt); a brand of Egyptian cotton",
+    "examples": []
+  },
+  {
+    "word": "جاش",
+    "displayWord": "جاش",
+    "translation": "( جيش ) jāša i ( جيشان jayašān) to be excited, be agitated; to rage, storm; to boil, simmer II to levy troops, mobilize an army X to raise, mobilize ( ھ an army, also, e.g.,",
+    "examples": []
+  },
+  {
+    "word": "جيش",
+    "displayWord": "جيش",
+    "translation": "jaiš pl. جيوش army, troops, armed forces │ جيش الاحتلال occupation forces;",
+    "examples": []
+  },
+  {
+    "word": "جيش احتياطي",
+    "displayWord": "جيش احتياطي",
+    "translation": "army reserve; جيش مرابط (murābiṭ) territorial army; الانقاذ جيش j. alinqād Salvation Army; جيش المساء almasā’ dusk, evening twilight 150",
+    "examples": []
+  },
+  {
+    "word": "جياش",
+    "displayWord": "جياش",
+    "translation": "jayyāš agitated, impassioned; excited, boiling up; ebullient; pleasurably excited, happily stimulated",
+    "examples": []
+  },
+  {
+    "word": "جيشان",
+    "displayWord": "جيشان",
+    "translation": "jayašān excitement, agitation; raging",
+    "examples": []
+  },
+  {
+    "word": "جاف",
+    "displayWord": "جاف",
+    "translation": "(جيف ) jāfa i, II and V to be putrid, stink (decaying cadaver)",
+    "examples": []
+  },
+  {
+    "word": "جيفة",
+    "displayWord": "جيفة",
+    "translation": "jīfa pl. جيف jiyaf, اجياف ajyāf corpse, cadaver",
+    "examples": []
+  },
+  {
+    "word": "چيكى",
+    "displayWord": "چيكى",
+    "translation": "čīkī Czech",
+    "examples": []
   },
   {
     "word": "جيل",
-    "displayWord": "جِيل",
-    "root": "جيل",
-    "translation": "generation, era",
-    "examples": [
-      {
-        "ar": "تَنْتَقِلُ التَّقَالِيدُ مِنْ جِيلٍ إِلَى آخَرَ بِفَخْرٍ.",
-        "en": "Traditions are passed from one generation to another with pride.",
-        "source": "Cultural Studies"
-      }
-    ]
+    "displayWord": "جيل",
+    "translation": "jīl pl. اجيال ajyāl people, nation, tribe; generation; century; epoch, era",
+    "examples": []
+  },
+  {
+    "word": "جيلاتي",
+    "displayWord": "جيلاتي",
+    "translation": "(It. gelati) jēlātī ice cream",
+    "examples": []
+  },
+  {
+    "word": "جيم",
+    "displayWord": "جيم",
+    "translation": "jīm name of the letter ج",
+    "examples": []
+  },
+  {
+    "word": "جين",
+    "displayWord": "جين",
+    "translation": "(Fr. gaine) corselet, sheath corset (eg.)",
+    "examples": []
+  },
+  {
+    "word": "جيوغرافيا",
+    "displayWord": "جيوغرافيا",
+    "translation": "jiyogrāfiyā geography │ الجيوغرافيا",
+    "examples": []
+  },
+  {
+    "word": "جيوفيزيا",
+    "displayWord": "جيوفيزيا",
+    "translation": "jiyofīziyā geophysics",
+    "examples": []
+  },
+  {
+    "word": "جيوفيزيائي",
+    "displayWord": "جيوفيزيائي",
+    "translation": "jiyofīziyā’ī geophysical │ السنة",
+    "examples": []
+  },
+  {
+    "word": "جيوفيزيقي",
+    "displayWord": "جيوفيزيقي",
+    "translation": "jiyofīzīqī geophysical",
+    "examples": []
+  },
+  {
+    "word": "جيولوجيا",
+    "displayWord": "جيولوجيا",
+    "translation": "jiyolōjiyā geology",
+    "examples": []
+  },
+  {
+    "word": "جيولوجي",
+    "displayWord": "جيولوجي",
+    "translation": "jiyolōjī geologic(al) ح",
+    "examples": []
+  },
+  {
+    "word": "جزئية",
+    "displayWord": "جزئية",
+    "translation": "(juz’īya) in Eg., lowest court of both",
+    "examples": []
+  },
+  {
+    "word": "جيوش محتلة",
+    "displayWord": "جيوش محتلة",
+    "translation": "juyūš muḥtalla occupation forces",
+    "examples": []
+  },
+  {
+    "word": "جنحة",
+    "displayWord": "جنحة",
+    "translation": "and جناية ); fine (for a misdemeanor)",
+    "examples": []
+  },
+  {
+    "word": "جواره",
+    "displayWord": "جواره",
+    "translation": "... (jiwārihī) approx.: the Lord has taken ... unto Himself X to seek or request what is good or best ( ھ ) for o.s. ( ه from s.o.); to consult an oracle, cast lots │ استخار",
+    "examples": []
+  },
+  {
+    "word": "جرح ذرب",
+    "displayWord": "جرح ذرب",
+    "translation": "(jurḥ) a malignant, incurable wound",
+    "examples": []
+  },
+  {
+    "word": "جلس متربعا",
+    "displayWord": "جلس متربعا",
+    "translation": "jalasa mutarabbi‘an to sit crosslegs",
+    "examples": []
+  },
+  {
+    "word": "جسر",
+    "displayWord": "جسر",
+    "translation": "r. jisr bridgehead; صلب الرقبة ṣulb ar-r. stubborn, obstinate, obstreperous; غليظ",
+    "examples": []
+  },
+  {
+    "word": "جلده",
+    "displayWord": "جلده",
+    "translation": "(jildihī) to crawl inside o.s. (out of shame, and the like)",
+    "examples": []
+  },
+  {
+    "word": "جرائد سيارة",
+    "displayWord": "جرائد سيارة",
+    "translation": "daily newspapers, dailies",
+    "examples": []
+  },
+  {
+    "word": "جمع صحيح",
+    "displayWord": "جمع صحيح",
+    "translation": "(jam‘) sound plural (ending in",
+    "examples": []
+  },
+  {
+    "word": "جيفي",
+    "displayWord": "جيفي",
+    "translation": "(jīfī) rigor mortis",
+    "examples": []
+  },
+  {
+    "word": "جامعة",
+    "displayWord": "جامعة",
+    "translation": "total picture, overall picture; صورة",
+    "examples": []
+  },
+  {
+    "word": "جماعي",
+    "displayWord": "جماعي",
+    "translation": "(jamā‘ī) collective security; الضمان",
+    "examples": []
+  },
+  {
+    "word": "جھاز اطفاء الحريق",
+    "displayWord": "جھاز اطفاء الحريق",
+    "translation": "jahāz i. al-ḥarīq firefighting equipment رجال الإطفاء the fire department, the firemen; عمليات الإطفاء ‘amalīyāt al-i. fire-fighting operations",
+    "examples": []
+  },
+  {
+    "word": "جيش عرم",
+    "displayWord": "جيش عرم",
+    "translation": "(jaiš) numerous, huge army",
+    "examples": []
+  },
+  {
+    "word": "جيش عرمرم",
+    "displayWord": "جيش عرمرم",
+    "translation": "(jaiš) a numerous, huge army",
+    "examples": []
+  },
+  {
+    "word": "جمعية عمومية",
+    "displayWord": "جمعية عمومية",
+    "translation": "(jam‘īya) plenary session; general assembly; دار الكتب العمومية (dār alkutub) public library; اشغال عمومية public works; الصندوق العمومي (ṣundūq) public treasure",
+    "examples": []
+  },
+  {
+    "word": "جرت به عادتھم",
+    "displayWord": "جرت به عادتھم",
+    "translation": "that was their habit, that’s what they used to do; العادة السرية (sirrīya) onanism, masturbation; عوائد الجمرك ‘a. algumruk customs duties; عوائد مبان ‘a. mabānin house taxes; عوائد الأملاك taxes on real state",
+    "examples": []
+  },
+  {
+    "word": "جوف الفراء",
+    "displayWord": "جوف الفراء",
+    "translation": "kullu ṣaidin fī jaufi l-f. there are all kind, of game in the belly of the wild ass (proverbially of s.o. or s.th. that combine. all good qualities and advantages and makes everything else dispensable)",
+    "examples": []
+  },
+  {
+    "word": "جامع القرويين",
+    "displayWord": "جامع القرويين",
+    "translation": "mosque and college in Fès (Morocco); وزارة الشؤون البلدية والقروية (baladīya) Ministry of Municipal and Rural Affairs (Eg.)",
+    "examples": []
+  },
+  {
+    "word": "جمعوا كلمتھم على",
+    "displayWord": "جمعوا كلمتھم على",
+    "translation": "(jama’ū kalimatahum) they decided unanimously to ..., they were unanimous about ...; اجتمعت كلمتھم ijtama’at kalimatuhum they united, joined forces, came to an agreement; اجتمعت كلمتھم على they were agreed that ...; توحيد الكلمة or جمع",
+    "examples": []
+  },
+  {
+    "word": "جميل التكوين",
+    "displayWord": "جميل التكوين",
+    "translation": "well-shaped, shapely; سفر",
+    "examples": []
+  },
+  {
+    "word": "جاوي",
+    "displayWord": "جاوي",
+    "translation": "(jāwī) benzoin; لبان ذكر dakar (eg.) olibanum, oriental frankincense (resin of Boswellia carteri; bot.); لبان شامي (eg.) a pitchy resin used as a depilatory 856 (resin of Pinus Brutia Ten.); لبان العذراء al-‘adrā’ magnesia, Epsom salts, bitter salt",
+    "examples": []
+  },
+  {
+    "word": "جديد لنج",
+    "displayWord": "جديد لنج",
+    "translation": "(eg.) gad`id lang brand-new",
+    "examples": []
+  },
+  {
+    "word": "جوي",
+    "displayWord": "جوي",
+    "translation": "(jawwī) air marshal (formerly, a rank reserved exclusively for the King; Eg.)",
+    "examples": []
+  },
+  {
+    "word": "جذرا في الأرض",
+    "displayWord": "جذرا في الأرض",
+    "translation": "(jidran, arḍ) to strike roots (tree); مد الحبالة له to lay a snare for s.o.; مد",
+    "examples": []
+  },
+  {
+    "word": "جنائية",
+    "displayWord": "جنائية",
+    "translation": "(jinā’īya) criminal cases (jur.); مواد",
+    "examples": []
+  },
+  {
+    "word": "جزيرة مرجانية",
+    "displayWord": "جزيرة مرجانية",
+    "translation": "atoll; شعاب مرجانية coral reefs",
+    "examples": []
+  },
+  {
+    "word": "جوية",
+    "displayWord": "جوية",
+    "translation": "(jawwīya) airport ن",
+    "examples": []
+  },
+  {
+    "word": "جميع النواحي",
+    "displayWord": "جميع النواحي",
+    "translation": "in every respect",
+    "examples": []
+  },
+  {
+    "word": "جوية",
+    "displayWord": "جوية",
+    "translation": "(bi-wuqū’ gārāt jawwiya) or انذار",
+    "examples": []
+  },
+  {
+    "word": "جباه ناصعة",
+    "displayWord": "جباه ناصعة",
+    "translation": "approx.: they have a clean slate, their skirts are clean",
+    "examples": []
+  },
+  {
+    "word": "جاء والشمس طالعة",
+    "displayWord": "جاء والشمس طالعة",
+    "translation": "(šamsu) he arrived at sunrise; -- 4. (with foll. genit.) by (in oaths) │ ولله by God! – 5. (with foll. genit.) many a, how many │ وكأس شربت (ka’sin) many a cup have I emptied! how many cups I have drunk! -- أو a-wa أ",
+    "examples": []
+  },
+  {
+    "word": "جھة",
+    "displayWord": "جھة",
+    "translation": "jiha pl. -āt side; direction; region, part, section, area; district, precinct, city quarter; agency, authority; administrative agency; (tun.) administrative district;",
+    "examples": []
+  },
+  {
+    "word": "جبال الآوراس",
+    "displayWord": "جبال الآوراس",
+    "translation": "jibāl al-aurās the Aurès Mountains (in E Algeria)",
+    "examples": []
+  },
+  {
+    "word": "جانب",
+    "displayWord": "جانب",
+    "translation": ") (jāniban) to lay, or put, s.th. aside;",
+    "examples": []
   }
 ]

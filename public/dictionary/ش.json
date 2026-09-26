@@ -1,93 +1,5720 @@
 [
   {
-    "word": "شمس",
-    "displayWord": "شَمْس",
-    "root": "شمس",
-    "translation": "sun",
-    "examples": [
-      {
-        "ar": "وَالشَّمْسُ تَجْرِي لِمُسْتَقَرٍّ لَّهَا.",
-        "en": "And the sun runs on course toward its destination.",
-        "source": "Holy Quran"
-      }
-    ]
+    "word": "شغل الابرة",
+    "displayWord": "شغل الابرة",
+    "translation": "šug1 al-i. needlework",
+    "examples": []
+  },
+  {
+    "word": "شرعي",
+    "displayWord": "شرعي",
+    "translation": "(šar‘ī) official authorized by the cadi to perform civil marriages (Isl. Law)",
+    "examples": []
+  },
+  {
+    "word": "شاشة بانورامية",
+    "displayWord": "شاشة بانورامية",
+    "translation": "šāša bānōrāmīya (= Fr. écran panoramique) cinemascope screen",
+    "examples": []
+  },
+  {
+    "word": "شيء يبھر الابصار",
+    "displayWord": "شيء يبھر الابصار",
+    "translation": "a dazzling, overwhelming thing; -- pass. buhira to be out of breath, to pant VII to be dazzled, blinded; to be smitten with blindness; to. be out of breath VIII to flaunt, parade, show off, present in a dazzling light ( ب s.th.)",
+    "examples": []
+  },
+  {
+    "word": "شرطي",
+    "displayWord": "شرطي",
+    "translation": "(šarṯīya) conditional clause; جملة",
+    "examples": []
+  },
+  {
+    "word": "شعير",
+    "displayWord": "شعير",
+    "translation": "ḥ. ša‘īr a linear measure (Eg.; = 0.205 cm); حبة حلوة (ḥulwa) aniseed; حبة",
+    "examples": []
+  },
+  {
+    "word": "شجر حمضي",
+    "displayWord": "شجر حمضي",
+    "translation": "šajar ḥamḍī citrus trees",
+    "examples": []
+  },
+  {
+    "word": "شيئا على محمل الجد",
+    "displayWord": "شيئا على محمل الجد",
+    "translation": "(m. il-jidd) to take s.th. seriously",
+    "examples": []
+  },
+  {
+    "word": "شيء بحاله",
+    "displayWord": "شيء بحاله",
+    "translation": "a thing in itself, a separate, independent thing; الأحوال الجوية (jawwīya) atmospheric conditions; محاكم الأحوال",
+    "examples": []
+  },
+  {
+    "word": "شؤونه",
+    "displayWord": "شؤونه",
+    "translation": "d. šu’ūnih his private affairs, (of a country, etc.) its internal affairs",
+    "examples": []
+  },
+  {
+    "word": "شرائط ناطقة",
+    "displayWord": "شرائط ناطقة",
+    "translation": "tapes); to act upon s.th. ( ,(ھ drive ( ھ s.th.); to get under way ( ھ a job, a project); to take up ( ھ s.th.); to initiate ( ھ s.th.); to divert, turn away (",
+    "examples": []
+  },
+  {
+    "word": "شخصية",
+    "displayWord": "شخصية",
+    "translation": "Eg.); تذكرة الانتخاب t. al-intikāb ballot",
+    "examples": []
+  },
+  {
+    "word": "شعر ارشادي",
+    "displayWord": "شعر ارشادي",
+    "translation": "ši‘r iršādī didactic poetry",
+    "examples": []
+  },
+  {
+    "word": "شرط معاملة الدول الأكثر رعاية",
+    "displayWord": "شرط معاملة الدول الأكثر رعاية",
+    "translation": "šarṭ mu‘āmalat ad-duwal al-aktar ri‘āyatan most-favored nation clause 346",
+    "examples": []
+  },
+  {
+    "word": "شعره",
+    "displayWord": "شعره",
+    "translation": "(ša‘rahū) to comb one’s hair, do one’s hair; سرح نظره (naẓarahū) to set one’s eyes on ( الى ) VII انسرح يفكر (yufakkiru) to be deep in thought, be absent-minded, allow one’s thoughts to wander",
+    "examples": []
+  },
+  {
+    "word": "شاك السلاح",
+    "displayWord": "شاك السلاح",
+    "translation": "šākk as-s. bristling with arms, armed to the teeth; سلم سلاحه sallama silāḥahū to lay down one’s arms, surrender",
+    "examples": []
+  },
+  {
+    "word": "ش",
+    "displayWord": "ش",
+    "translation": "abbreviation of شارع šāri‘ street (St.)",
+    "examples": []
+  },
+  {
+    "word": "شاء",
+    "displayWord": "شاء",
+    "translation": "šā’ (coll.; n. un. شاة šāh) pl. شواة šiwāh, شياه šiyāh sheep; ewe",
+    "examples": []
+  },
+  {
+    "word": "شؤبوب",
+    "displayWord": "شؤبوب",
+    "translation": "šu’būb pl. شآبيب ša’ābīb2 downpour, shower",
+    "examples": []
+  },
+  {
+    "word": "شادر",
+    "displayWord": "شادر",
+    "translation": "šādir, tent; storehouse, warehouse, magazine",
+    "examples": []
+  },
+  {
+    "word": "شاذرون",
+    "displayWord": "شاذرون",
+    "translation": "šādarūn fountain; a small water-driven gadget adorned with hells, and the like, resembling a mobile",
+    "examples": []
+  },
+  {
+    "word": "شاروبيم",
+    "displayWord": "شاروبيم",
+    "translation": "šārūbīm cherubim",
+    "examples": []
+  },
+  {
+    "word": "شاسي",
+    "displayWord": "شاسي",
+    "translation": "šāsī chassis",
+    "examples": []
+  },
+  {
+    "word": "شأفة",
+    "displayWord": "شأفة",
+    "translation": "ša’fa root │ استأصل شأفته ista’ṣala ša’fatahū to extirpate, root out, eradicate s.th., remove s.th. drastically",
+    "examples": []
+  },
+  {
+    "word": "شاكوش",
+    "displayWord": "شاكوش",
+    "translation": "šākūš and شكوش šakūš pl. شواكيش šawākīš hammer │ ابو شاكوش hammerhead (shark)",
+    "examples": []
+  },
+  {
+    "word": "شال",
+    "displayWord": "شال",
+    "translation": "šāl pl. شيلان šīlān shawl",
+    "examples": []
+  },
+  {
+    "word": "شاليه",
+    "displayWord": "شاليه",
+    "translation": "(Fr. chalet) šālēh pl. -āt hunting cabin, .hooting lodge; beach cabin, cabana",
+    "examples": []
+  },
+  {
+    "word": "شام",
+    "displayWord": "شام",
+    "translation": "VI to perceive an evil omen ( من or ب in), regard as an evil portent ( من or ب ب s.th.); to foretell calamity ( من or ب from); to be superstitious; to he pessimistic X to perceive an evil omen ( ب in), regard as an evil portent ( ب s.th.); to foretell calamity (",
+    "examples": []
+  },
+  {
+    "word": "شامي",
+    "displayWord": "شامي",
+    "translation": "šāmī Syrian; (pl. -ūn, شوام (šuwām) a Syrian",
+    "examples": []
+  },
+  {
+    "word": "شآمي",
+    "displayWord": "شآمي",
+    "translation": "ša’āmī Syrian (adj. and n.)",
+    "examples": []
+  },
+  {
+    "word": "شؤم",
+    "displayWord": "شؤم",
+    "translation": "šu’m calamity, bad luck, misfortune; evil omen, portent │ لا تملأ الدنيا",
+    "examples": []
+  },
+  {
+    "word": "شؤما",
+    "displayWord": "شؤما",
+    "translation": "(tamla’, dunyā) (don’t fill the world with evil omen!) approx.: talk of the devil and he will appear!",
+    "examples": []
+  },
+  {
+    "word": "شأن",
+    "displayWord": "شأن",
+    "translation": "ša’n pl. شؤون šu’ūn matter, affair, concern, business; circumstances, state of affaire, case; nature, character, quality, 449 kind; situation, condition, state; significance; importance, consequence; standing, prestige, rank; cranial future; pl. شؤون tears; ša’na like, as │ بشأن bi-ša’ni regarding, with regard or respect to, relating to, pertaining to, concerning, as to, about; جل شأنه (jalla) the Sublime (of God); وزارة الشؤون الاجتماعية Ministry of Social Affairs; الشؤون الخارجية (kārijīya)foreign affairs; ذو الشأن , f. ذات",
+    "examples": []
+  },
+  {
+    "word": "شأن",
+    "displayWord": "شأن",
+    "translation": "significant, important; رفيع الشأن highranking; (formerly, Tun.) title of members of the Bey’s family; صاحب الشأن the one concorned; اصحاب الشأن those concerned; the important, influential people; O مكلف",
+    "examples": []
+  },
+  {
+    "word": "شأنه في ذلك شأن ال",
+    "displayWord": "شأنه في ذلك شأن ال",
+    "translation": "... (ša’nuhū … ša’nu l-...) in this matter he fares just as the …, he is, in this respect, in the same situation as the ...; رجل ھذا شأنه (ša’nuhū) a man whose situation is this, a man who can be described as ..., a man in this situation;",
+    "examples": []
+  },
+  {
+    "word": "شأنك",
+    "displayWord": "شأنك",
+    "translation": "ša’naka or انت وشأن anta wa-ša’naka please your-self! do as you like! شأنك وما",
+    "examples": []
+  },
+  {
+    "word": "شأنك",
+    "displayWord": "شأنك",
+    "translation": "what’s the matter with you? what do you want? ما شأنك وھذا what have you got to do with this? what business of yours is this? ما شأنه والأمر (amra) what has he got to do with the matter? ما شأني في ذلك what have I got to do with that? what business of mine is that? اي شأن لك في ھذا (ayyu ša’nin) what business of yours is this? what’s that to you? له شأن في ذلك he has s.th. to do with this, he has a hand in this;",
+    "examples": []
+  },
+  {
+    "word": "شأنه",
+    "displayWord": "شأنه",
+    "translation": "(inṣarafa) he left to do his work;",
+    "examples": []
+  },
+  {
+    "word": "شأنه ان",
+    "displayWord": "شأنه ان",
+    "translation": "it is in his (its) nature that ..., he (it) tends to ...; it is his business to ...; ليس من",
+    "examples": []
+  },
+  {
+    "word": "شأنه ان",
+    "displayWord": "شأنه ان",
+    "translation": "it is not his affair or business to ...; it is inappropriate for him to ...; it does not tend to …; is not conducive to ...; ان لھذا",
+    "examples": []
+  },
+  {
+    "word": "شانتاج",
+    "displayWord": "شانتاج",
+    "translation": "(Fr. chantage) šantāž blackmail",
+    "examples": []
+  },
+  {
+    "word": "شاه",
+    "displayWord": "شاه",
+    "translation": "šāh shah; king (chess) │ شاه بلوط (ballūṭ) chestnut tree (bot.); شاه مات checkmate (chess)",
+    "examples": []
+  },
+  {
+    "word": "شاھاني",
+    "displayWord": "شاھاني",
+    "translation": "šāhānī the shah’s, pertaining to the shah; imperial │ ارادة شاھانية decree of the Sultan (in Ottoman times)",
+    "examples": []
+  },
+  {
+    "word": "شاھين",
+    "displayWord": "شاھين",
+    "translation": "šāhīn pl. شواھين šawāhīn2 shahin, an Indian falcon (zool.) شآ (شأو 450 ) šā’a u (",
+    "examples": []
+  },
+  {
+    "word": "شأو",
+    "displayWord": "شأو",
+    "translation": "ša’w) to overtake in running, outrace ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "شأو",
+    "displayWord": "شأو",
+    "translation": "ša’w highest point, summit, peak; goal, object │ بعيد الشأو far-aiming, faraspiring; very ambitious; بلغ في شأوه (ša’wihī) to get as far in s.th. as s.o. else, match s.o. in s.th.; بلغ شأوا بعيدا في الرقي (ruqīy) to undergo tremendous progress;",
+    "examples": []
+  },
+  {
+    "word": "شاورمة",
+    "displayWord": "شاورمة",
+    "translation": "šāwarma, šāwirma (also (شورمة charcoal-broiled mutton, out in thin slices and arranged conically on a vertical skewer (syr.)",
+    "examples": []
+  },
+  {
+    "word": "شاوش",
+    "displayWord": "شاوش",
+    "translation": "šāwuš (tun.) pl. شواش šuwwāš sergeant; office boy, handy man; doorman, gatekeeper",
+    "examples": []
+  },
+  {
+    "word": "شاويش",
+    "displayWord": "شاويش",
+    "translation": "šāwīš a military rank, approx.: staff sergeant (Eg.) │ وكيل شاويش a military rank, approx.: sergeant (Eg.)",
+    "examples": []
+  },
+  {
+    "word": "شاي",
+    "displayWord": "شاي",
+    "translation": "šāy tea",
+    "examples": []
+  },
+  {
+    "word": "شب",
+    "displayWord": "شب",
+    "translation": "šabba i ( شباب šabāb, شبيبة šabība) to become a youth or young man, to adolesce, grow up; -- i u ( شب šibāb, شبيب šabīb) to raise the forelegs as if about to jump; to rear; to prance (horse); -- i ( شبوب šubūb) to burn, blaze (fire); to break out (fire, war); -- u (šabb, šubūb) to light, kindle ( ھ fire) │ شبت نيران الحرب (nīrān al- ḥarb) war broke out; شب عن الطوق (ṭauq) to be over the initial stages, with neg.: to be still in its infancy II to rhaplodize about a beloved woman ( بھا ) and one’s relationship to her, celebrate her in verse; to flirt ( بھا with a woman) V to rhaplodize about a beloved woman ( بھا ) end one’s relationship to her, celebrate her in verse; to compose love sonnets; to take fire, blaze up",
+    "examples": []
+  },
+  {
+    "word": "شب",
+    "displayWord": "شب",
+    "translation": "šabb (= شاب šābb) youth, young man",
+    "examples": []
+  },
+  {
+    "word": "شب",
+    "displayWord": "شب",
+    "translation": "šabb alum",
+    "examples": []
+  },
+  {
+    "word": "شبة",
+    "displayWord": "شبة",
+    "translation": "šabba (= šābba) young woman, girl",
+    "examples": []
+  },
+  {
+    "word": "شبة",
+    "displayWord": "شبة",
+    "translation": "šabba alum",
+    "examples": []
+  },
+  {
+    "word": "شبب",
+    "displayWord": "شبب",
+    "translation": "šabab fully grown (steer)",
+    "examples": []
+  },
+  {
+    "word": "شباب",
+    "displayWord": "شباب",
+    "translation": "šabāb youth, youthfulness; youths, young men, adolescents, juveniles │ تجديد",
+    "examples": []
+  },
+  {
+    "word": "شبابي",
+    "displayWord": "شبابي",
+    "translation": "šabābī youthful, juvenile",
+    "examples": []
+  },
+  {
+    "word": "شبوب",
+    "displayWord": "شبوب",
+    "translation": "šubūb outbreak (of a war)",
+    "examples": []
+  },
+  {
+    "word": "شبابة",
+    "displayWord": "شبابة",
+    "translation": "šabbāba reed flute",
+    "examples": []
+  },
+  {
+    "word": "شبيبة",
+    "displayWord": "شبيبة",
+    "translation": "šabība youth, youthfulness; الشبيبة the youth (coll.)",
+    "examples": []
+  },
+  {
+    "word": "شاب",
+    "displayWord": "شاب",
+    "translation": "šābb pl. شبان šubbān, شباب šabāb,",
+    "examples": []
+  },
+  {
+    "word": "شببة",
+    "displayWord": "شببة",
+    "translation": "šababa youthful, juvenile, young; youth, young man",
+    "examples": []
+  },
+  {
+    "word": "شابة",
+    "displayWord": "شابة",
+    "translation": "šābba pl. -āt, شواب šawābb شبائب , 2 šabā’ib2 young woman, girl",
+    "examples": []
+  },
+  {
+    "word": "شبت",
+    "displayWord": "شبت",
+    "translation": "šibitt dill ( ھ nethum graveolens; bot.)",
+    "examples": []
+  },
+  {
+    "word": "شبث",
+    "displayWord": "شبث",
+    "translation": "1 šabita a (šabat) and V to cling, cleave, hold fast, hang on, attach o.s. adhere ( ب to)",
+    "examples": []
+  },
+  {
+    "word": "شبث",
+    "displayWord": "شبث",
+    "translation": "šabat pl. شبثان šibtān spider",
+    "examples": []
+  },
+  {
+    "word": "شبث",
+    "displayWord": "شبث",
+    "translation": "tašabbut tenacity; attachment, adherence, fidelity; stubbornness, obstinacy",
+    "examples": []
+  },
+  {
+    "word": "شبث",
+    "displayWord": "شبث",
+    "translation": "2 šibitt ( ھ nethum graveolens; bot.)",
+    "examples": []
+  },
+  {
+    "word": "شبح",
+    "displayWord": "شبح",
+    "translation": "šabaḥ pl. شبوح šubūḥ, اشباح ašbāḥ blurred, indistinct shape; apparition; phantom; ghost, specter, spirit; nightmare; figure, person",
+    "examples": []
+  },
+  {
+    "word": "شبر",
+    "displayWord": "شبر",
+    "translation": "1 šabara u i (šibr) to measure ( ھ s.th.) with the span of the hand II do.; to gesticulate, make gestures, to gesture",
+    "examples": []
+  },
+  {
+    "word": "شبر",
+    "displayWord": "شبر",
+    "translation": "šibr pl. اشبار ašbār span of the hand │ شبرا فشبرا (fa-šibran) inch by inch; 451",
+    "examples": []
+  },
+  {
+    "word": "شبر من الأرض",
+    "displayWord": "شبر من الأرض",
+    "translation": "(arḍ) a foot of ground; قلده",
+    "examples": []
+  },
+  {
+    "word": "شبرا بشبر وذراعا بذراع",
+    "displayWord": "شبرا بشبر وذراعا بذراع",
+    "translation": "(qalladahū) to imitate s.o. or s.th. religiously; to follow s.th. literally",
+    "examples": []
+  },
+  {
+    "word": "شبور",
+    "displayWord": "شبور",
+    "translation": "2 šabbūr pl. شبابير šabābīr2 trumpet",
+    "examples": []
+  },
+  {
+    "word": "شبورة",
+    "displayWord": "شبورة",
+    "translation": "3 šabbūra and شابورة šābūra (eg.) fog, mist",
+    "examples": []
+  },
+  {
+    "word": "شبرق",
+    "displayWord": "شبرق",
+    "translation": "šabraqa to tear to pieces, to shred ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "شبرقة",
+    "displayWord": "شبرقة",
+    "translation": "šabraqa pocket money",
+    "examples": []
+  },
+  {
+    "word": "شبشب",
+    "displayWord": "شبشب",
+    "translation": "šibšib pl. شباشب šabāšib2 slipper",
+    "examples": []
+  },
+  {
+    "word": "شبط",
+    "displayWord": "شبط",
+    "translation": "1 šabaṭa to cling, cleave, hold on ( في to)",
+    "examples": []
+  },
+  {
+    "word": "شباط",
+    "displayWord": "شباط",
+    "translation": "2 šubāṭ(2) February (Syr., Ir., Leb., Jord.)",
+    "examples": []
+  },
+  {
+    "word": "شبوط",
+    "displayWord": "شبوط",
+    "translation": "3 šabbūṭ (syr.) large fish found in the Euphrates and Tigris rivers",
+    "examples": []
+  },
+  {
+    "word": "شبع",
+    "displayWord": "شبع",
+    "translation": "šabi‘a a (šab‘, šiba‘) to satisfy one’s appetite ( من or ھ with s.th.), eat one’s fill (",
+    "examples": []
+  },
+  {
+    "word": "شبع",
+    "displayWord": "شبع",
+    "translation": "šab‘ sufficiency, satiety, satiation, saturation, repletion, fullness",
+    "examples": []
+  },
+  {
+    "word": "شبع",
+    "displayWord": "شبع",
+    "translation": "šib‘, šiba‘ s.th. that fills or satisfies the appetite, fill",
+    "examples": []
+  },
+  {
+    "word": "شبع",
+    "displayWord": "شبع",
+    "translation": "šaba‘ saturation (chem.)",
+    "examples": []
+  },
+  {
+    "word": "شبعة",
+    "displayWord": "شبعة",
+    "translation": "šub‘a fill",
+    "examples": []
+  },
+  {
+    "word": "شبعان",
+    "displayWord": "شبعان",
+    "translation": "šab‘ān f. شبعى šab‘ā, pl. شباعي šabā‘ā, شباع šibā‘ sated, satisfied, full; rich",
+    "examples": []
+  },
+  {
+    "word": "شبق",
+    "displayWord": "شبق",
+    "translation": "2 šabiqa a (šabaq) to be lewd, lecherous, lustful",
+    "examples": []
+  },
+  {
+    "word": "شبق",
+    "displayWord": "شبق",
+    "translation": "šabaq lewdness, lechery, licentiousness, lust",
+    "examples": []
+  },
+  {
+    "word": "شبق",
+    "displayWord": "شبق",
+    "translation": "šabiq lewd, lecherous, lustful, licentious",
+    "examples": []
+  },
+  {
+    "word": "شبق",
+    "displayWord": "شبق",
+    "translation": "2 šubuq chibouk",
+    "examples": []
+  },
+  {
+    "word": "شبك",
+    "displayWord": "شبك",
+    "translation": "1 šabaka i (šabk) to interjoin, intertwine, interlace, interweav., entangle ( ھ s.th.); to fasten, tighten, attach ( ھ s.th. or في to) II to interjoin, intertwine, interlace, interweave, entangle, complicate ( بين or ھ s.th.); to crochet V to be interjoined, intertwined, interlaced, interwoven, entangled; to b. or become complicated, involved, intricate, confused VI to be intertwined, interlaced, interwoven, entangled; to be intermeshed, be interwoven like a net VIII to be or become interjoined, interlaced, interwoven, netlike, reticulate; to be intertwined (branches), be interlocked (hands); to be or become entangled, snarled; to get entangled, involved, ensnared, embroiled, implicated, mixed up ( في in); to com. to blows or to gripe ب) 452 or مع with s.o.); to be or become complicated, involved, intricate, confused (matter); to join, unite, combine, coalesce, merge, fuse ( ب with); to meet (eyes, glances) │ اشتبك في حديث to be drawn into a conversation, become engrossed in a discussion; اشتبك في حرب (ḥarb) to become involved in a war",
+    "examples": []
+  },
+  {
+    "word": "شبكة",
+    "displayWord": "شبكة",
+    "translation": "šabaka pl. شبك šabak, شباك šibāk,",
+    "examples": []
+  },
+  {
+    "word": "شبوكات",
+    "displayWord": "شبوكات",
+    "translation": "šubūkāt net; netting, network; snare; -- (pl. شباك šibāk) O grid (radio)",
+    "examples": []
+  },
+  {
+    "word": "شبكة شائكة",
+    "displayWord": "شبكة شائكة",
+    "translation": "barbed-wire entanglement, concertina; شبكة لاسلكية (lā-silkīya) radio network",
+    "examples": []
+  },
+  {
+    "word": "شبكي",
+    "displayWord": "شبكي",
+    "translation": "šabakī reticulate, reticular, netted, net-like; retinal; of framework",
+    "examples": []
+  },
+  {
+    "word": "شبكية",
+    "displayWord": "شبكية",
+    "translation": "šabakīya retina (anat.)",
+    "examples": []
+  },
+  {
+    "word": "شباك",
+    "displayWord": "شباك",
+    "translation": "šubbāk pl. شبابيك šabābīk2 netting, network; plaitwork; grid, grill; window; wicket (post office, box office, etc.) │",
+    "examples": []
+  },
+  {
+    "word": "شباك العرض",
+    "displayWord": "شباك العرض",
+    "translation": "š. al-‘arḍ show window, showcase, glass case",
+    "examples": []
+  },
+  {
+    "word": "شبك",
+    "displayWord": "شبك",
+    "translation": "2 šubuk chibouk",
+    "examples": []
+  },
+  {
+    "word": "شوبك",
+    "displayWord": "شوبك",
+    "translation": "3 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "شبل",
+    "displayWord": "شبل",
+    "translation": "IV to take care ( على of s.o.), look ( على after s.o.), take s.o. ( على ) in hand",
+    "examples": []
+  },
+  {
+    "word": "شبل",
+    "displayWord": "شبل",
+    "translation": "šibl pl. اشبال ašbāl lion cub",
+    "examples": []
+  },
+  {
+    "word": "شبين",
+    "displayWord": "شبين",
+    "translation": "šabīn, šibin pl. شباين šabāyin2 godfather, sponsor (Chr.); best man, groomsman (Chr.)",
+    "examples": []
+  },
+  {
+    "word": "شبينة",
+    "displayWord": "شبينة",
+    "translation": "šabīna, šibīna pl. -āt godmother, sponsor (Chr.); bridesmaid (Chr.)",
+    "examples": []
+  },
+  {
+    "word": "شبه",
+    "displayWord": "شبه",
+    "translation": "II to make equal or similar ( ب or ھ",
+    "examples": []
+  },
+  {
+    "word": "شبه",
+    "displayWord": "شبه",
+    "translation": "šibh pl. اشباه ašbāh resemblance, similarity, likeness; image, picture; analogue; similar, (a)like; -like, quasi-, semi- (with foll. genit.) │ شبه šibhu jazīratin peninsula; شبه حربي š. ḥarbī semimilitary;",
+    "examples": []
+  },
+  {
+    "word": "شبه المنحرف",
+    "displayWord": "شبه المنحرف",
+    "translation": "š. al-munḥarif 453 trapezoid (geom.); شبه رسمي š. rasmī semiofficial, officious (dipl.); شبه الظل š. aẓ-ẓill penumbra; شبه قارة subcontinent; شبه المعين š. al-mu‘ayyan rhomboid (geom.); اشباھه ašbāhuhū the likes of him, his kind; وشبھھم and the likes of them, and their sort (of people); في شبه عزلة تامة (‘uzlatin tāmma) all but completely isolated, as good as completely isolated",
+    "examples": []
+  },
+  {
+    "word": "شبه",
+    "displayWord": "شبه",
+    "translation": "šabah pl. اشباه ašbāh resemblance, similarity, likeness; image, picture; analogue; similar, (a)like; brass",
+    "examples": []
+  },
+  {
+    "word": "شبھة",
+    "displayWord": "شبھة",
+    "translation": "subha pl. شبھات šubhāt, šubahāt, šubuhāt obscurity, vagueness, uncertainty; doubt; suspicion; specious argument, sophism; judicial error (Isl. Law) │ ذوو",
+    "examples": []
+  },
+  {
+    "word": "شبھان",
+    "displayWord": "شبھان",
+    "translation": "šabahān brass",
+    "examples": []
+  },
+  {
+    "word": "شبيه",
+    "displayWord": "شبيه",
+    "translation": "šabīh pl. شباه šibāh similar ( ب to), like, resembling ( ب s.o., s.th.) │ شبيه",
+    "examples": []
+  },
+  {
+    "word": "شبا",
+    "displayWord": "شبا",
+    "translation": "šaban tip, point │ فل من شباه (falla) to weaken s.o.",
+    "examples": []
+  },
+  {
+    "word": "شباة",
+    "displayWord": "شباة",
+    "translation": "šabāh pl. شبوات šabawāt tip, point; sting, prick",
+    "examples": []
+  },
+  {
+    "word": "شت",
+    "displayWord": "شت",
+    "translation": "šatta i (šatt, شتات šatāt, شتيت šatīt) to be scattered, be dispersed, be dissolved; -- šatta i to scatter, disperse, break up ( ھم a crowd, etc., ھ s.th.) │ شت شملھم (šamlahum) to disperse or break up the gathering of people, dissolve their unity II to disperse, scatter, break up ( ھم a crowd, etc., ھ s.th.) │ شتت شملھم (šamlahum) = شت",
+    "examples": []
+  },
+  {
+    "word": "شملھم",
+    "displayWord": "شملھم",
+    "translation": "IV = II V to be scattered, be dispersed, be dissolved, scatter, disperse, breakup",
+    "examples": []
+  },
+  {
+    "word": "شت",
+    "displayWord": "شت",
+    "translation": "šatt pl. اشتات aštāt dispersed, separate(d), scattered, dissolved; pl. اشتات manifold, variegated, diverse; scattered fragments, single pieces, sections ( من of)",
+    "examples": []
+  },
+  {
+    "word": "شتات",
+    "displayWord": "شتات",
+    "translation": "šatāt dispersed, separate(d), scattered, dissolved",
+    "examples": []
+  },
+  {
+    "word": "شتيت",
+    "displayWord": "شتيت",
+    "translation": "šatīt pl. or شتى šattā dispersed, separate(d), scattered, dissolved; pl. شتى diverse, sundry, various, different, manifold, miscellaneous, all kinds of │",
+    "examples": []
+  },
+  {
+    "word": "شتى بينھما",
+    "displayWord": "شتى بينھما",
+    "translation": "or what a difference between the two of them! how different they are!",
+    "examples": []
+  },
+  {
+    "word": "شتان",
+    "displayWord": "شتان",
+    "translation": "šattāna: شتان بينھما, شتان ما بينھما, شتان",
+    "examples": []
+  },
+  {
+    "word": "شتر",
+    "displayWord": "شتر",
+    "translation": "1 šatara i to cut off, tear off, rip off ( ھ s.th.); to tear (up) ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "شترات",
+    "displayWord": "شترات",
+    "translation": "2 šitrāt citrate, salt of citric acid",
+    "examples": []
+  },
+  {
+    "word": "شتل",
+    "displayWord": "شتل",
+    "translation": "šatala i to plant, transplant ( ھ a plant)",
+    "examples": []
+  },
+  {
+    "word": "شتلة",
+    "displayWord": "شتلة",
+    "translation": "šatla pl. شتول šutūl, شتائل šatā’il2 seedling, set, transplant",
+    "examples": []
+  },
+  {
+    "word": "شتم",
+    "displayWord": "شتم",
+    "translation": "šatama i u (šatm) and III to abuse, revile, vilify, scold ( ه s.o.) VI to vilify one another, abuse one another, heap curses upon one another",
+    "examples": []
+  },
+  {
+    "word": "شتم",
+    "displayWord": "شتم",
+    "translation": "šatm abuse, vilification",
+    "examples": []
+  },
+  {
+    "word": "شتام",
+    "displayWord": "شتام",
+    "translation": "šattām one who indulges in frequent abuse or vilification; impudent, insolent, impertinent, abusive",
+    "examples": []
+  },
+  {
+    "word": "شتيم",
+    "displayWord": "شتيم",
+    "translation": "šatīm abused, reviled, vilified, insulted",
+    "examples": []
+  },
+  {
+    "word": "شتيمة",
+    "displayWord": "شتيمة",
+    "translation": "šatīma pl. شتائم šatā’im2 abuse, vilification, vituperation, insult",
+    "examples": []
+  },
+  {
+    "word": "شتا",
+    "displayWord": "شتا",
+    "translation": "(شتو ) šatā u (šatw) to pass the winter, to winter ( ب at a place); to hibernate II = I; to rain V to pass the winter, to winter, hibernate ( ب at a place)",
+    "examples": []
+  },
+  {
+    "word": "شتاء",
+    "displayWord": "شتاء",
+    "translation": "šitā’ pl. اشتية aštiya, شتى šutīy winter; rains, rainy season",
+    "examples": []
+  },
+  {
+    "word": "شتوي",
+    "displayWord": "شتوي",
+    "translation": "šatwī, šatawī wintery, hibernal, winter (adj.)",
+    "examples": []
+  },
+  {
+    "word": "شات",
+    "displayWord": "شات",
+    "translation": "šātin wintery, hibernal",
+    "examples": []
+  },
+  {
+    "word": "شتى",
+    "displayWord": "شتى",
+    "translation": "šattā pl. of شتيت šatīt (see (شت",
+    "examples": []
+  },
+  {
+    "word": "شج",
+    "displayWord": "شج",
+    "translation": "šajja i (šajj) to break, split, cleave, fracture, bash in ( ھ s.th., esp. the skull)",
+    "examples": []
+  },
+  {
+    "word": "شجة",
+    "displayWord": "شجة",
+    "translation": "šajja pl. شجاج šijāj head wound which lays open the skull; skull fracture",
+    "examples": []
+  },
+  {
+    "word": "شجب",
+    "displayWord": "شجب",
+    "translation": "šajaba u (šajb) and II to doom to destruction, to min, destroy ( ه s.o.); to condemn morally, criticize sharply ( ھ s.th.) IV to afflict, grieve ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "شجب",
+    "displayWord": "شجب",
+    "translation": "šajb destruction, routing, crushing",
+    "examples": []
+  },
+  {
+    "word": "شجب",
+    "displayWord": "شجب",
+    "translation": "šajab sorrow, grief, worry; distress, affliction",
+    "examples": []
+  },
+  {
+    "word": "شجاب",
+    "displayWord": "شجاب",
+    "translation": "šijāb pl. شجب šujub clothes hook (attached to the wall)",
+    "examples": []
   },
   {
     "word": "شجر",
-    "displayWord": "شَجَر",
-    "root": "شجر",
-    "translation": "trees, shrubs",
-    "examples": [
-      {
-        "ar": "وَالنَّجْمُ وَالشَّجَرُ يَسْجُدَانِ.",
-        "en": "And the stars and trees prostrate.",
-        "source": "Holy Quran"
-      }
-    ]
+    "displayWord": "شجر",
+    "translation": "šajara u (šajr) to happen, occur; to break out, develop (unrest) III to quarrel, argue, dispute ( مع or ه with s.o.) VI to quarrel, fight, dispute (with one another); to quarrel, argue, fight ( مع with) VIII do.",
+    "examples": []
   },
   {
-    "word": "شرف",
-    "displayWord": "شَرَف",
-    "root": "شرف",
-    "translation": "honor, nobility, distinction",
-    "examples": [
-      {
-        "ar": "الحِفَاظُ عَلَى الكَلِمَةِ هُوَ جَوْهَرُ الشَّرَفِ الإِنْسَانِيِّ.",
-        "en": "Keeping one's word is the essence of human honor.",
-        "source": "Ethics Book"
-      }
-    ]
+    "word": "شجر",
+    "displayWord": "شجر",
+    "translation": "šajar (coll.; n. un. ة) pl. اشجار ašjār trees; shrubs, bushes",
+    "examples": []
   },
   {
-    "word": "شكر",
-    "displayWord": "شُكْر",
-    "root": "شكر",
-    "translation": "thanks, gratitude, praise",
-    "examples": [
-      {
-        "ar": "لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ.",
-        "en": "If you are grateful, I will surely increase you.",
-        "source": "Holy Quran"
-      }
-    ]
+    "word": "شجرة",
+    "displayWord": "شجرة",
+    "translation": "šajara pl. -āt tree; shrub, bush │",
+    "examples": []
   },
   {
-    "word": "شجاعه",
-    "displayWord": "شَجَاعَة",
-    "root": "شجع",
-    "translation": "courage, bravery",
-    "examples": [
-      {
-        "ar": "أَبْدَى البَطَلُ شَجَاعَةً فَائِقَةً فِي مُوَاجَهَةِ الخَطَرِ.",
-        "en": "The hero showed outstanding courage in facing danger.",
-        "source": "Adventure Novel"
-      }
-    ]
+    "word": "شجر النسب",
+    "displayWord": "شجر النسب",
+    "translation": "š. an-nasab genealogical tree",
+    "examples": []
   },
   {
-    "word": "شعر",
-    "displayWord": "شِعْر",
-    "root": "شعر",
-    "translation": "poetry, verse / also (شَعْر) hair",
-    "examples": [
-      {
-        "ar": "الشِّعْرُ هُوَ المِرْآةُ الَّتِي تَعْكِسُ وِجْدَانَ الأُمَمِ.",
-        "en": "Poetry is the mirror that reflects the nations' soul.",
-        "source": "Literary Theory"
-      }
-    ]
+    "word": "شجر",
+    "displayWord": "شجر",
+    "translation": "šajir woody, wooded, abounding in trees",
+    "examples": []
+  },
+  {
+    "word": "شجير",
+    "displayWord": "شجير",
+    "translation": "šajīr pl. شجراء šujarā’2 bad companion, bad company",
+    "examples": []
+  },
+  {
+    "word": "شجيرة",
+    "displayWord": "شجيرة",
+    "translation": "šujaira pl. -āt shrub, bush",
+    "examples": []
+  },
+  {
+    "word": "شجار",
+    "displayWord": "شجار",
+    "translation": "šijār (wooden) bar, bolt",
+    "examples": []
+  },
+  {
+    "word": "شجار",
+    "displayWord": "شجار",
+    "translation": "šijār fight, quarrel; dispute, argument; see also above 455",
+    "examples": []
+  },
+  {
+    "word": "شجران",
+    "displayWord": "شجران",
+    "translation": "2 šajarān shagreen (leather)",
+    "examples": []
+  },
+  {
+    "word": "شجع",
+    "displayWord": "شجع",
+    "translation": "šaju‘a u ( شجاعة šajā‘a) to be courageous, brave, valiant, hold II to encourage, embolden, hearten ( على ه s.o. to); to favor, support, hack, promote, further ( ھ ه s.o., s.th.) V to take heart, pluck up courage; to show o.s. courageous; to be encouraged",
+    "examples": []
+  },
+  {
+    "word": "شجاع",
+    "displayWord": "شجاع",
+    "translation": "šujā‘, šijā‘ pl. شجعة šaja‘a, شجعان šuj‘ān courageous, brave, valiant, bold; hero; الشجاع Hydra (astron.)",
+    "examples": []
+  },
+  {
+    "word": "شجيع",
+    "displayWord": "شجيع",
+    "translation": "šajī‘ pl. m. شجعاء šuja‘ā’ شجعان , 2 šuj‘ān, pl. f. شجائع šajā’i‘ شجاع , 2 šijā‘ courageous, brave, valiant, bold, audacious",
+    "examples": []
+  },
+  {
+    "word": "شجاعة",
+    "displayWord": "شجاعة",
+    "translation": "sajā‘a courage, bravery, valor, valiance, boldness, audacity",
+    "examples": []
+  },
+  {
+    "word": "شجن",
+    "displayWord": "شجن",
+    "translation": "šajina a to be sad, grieved, distressed, worried; to coo (pigeon); -- šajana u (šajn, شجون šujūn) to sadden, grieve, distress, worry ( ه s.o.) II and IV = šajana",
+    "examples": []
+  },
+  {
+    "word": "شجن",
+    "displayWord": "شجن",
+    "translation": "šajan pl. شجون šujūn, اشجان ašjān worry, anxiety, apprehension; sorrow, grief, distress, sadness; (pl. šujun) twig, branch │ الحديث شجون conversation drifts from one topic to another شجو) and شجى) شجا šajā u ( شجو šajw) to worry, trouble, grieve, sadden, distress, fill with anxiety ( ه s.o.); -- شجى šajiya a ( شجا šajan) to be or become worried, troubled, grieved, sad, distressed, anxious, apprehensive II to move, touch, grip ( ه s.o.) IV to grieve, worry, trouble, sadden, fill with anxiety ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "شج",
+    "displayWord": "شج",
+    "translation": "šajin, f. شجية šajiya worried, troubled, grieved, sad, anxious, apprehensive",
+    "examples": []
+  },
+  {
+    "word": "شجو",
+    "displayWord": "شجو",
+    "translation": "šajw grief, worry, distress, anxiety, apprehension, sadness; fear; affectedness, emotion; wailing, plaintive, moving strain (of a tune, of a song, of an instrument)",
+    "examples": []
+  },
+  {
+    "word": "شجوى",
+    "displayWord": "شجوى",
+    "translation": "šajawī worried, troubled, grieved, distressed, sad",
+    "examples": []
+  },
+  {
+    "word": "شجا",
+    "displayWord": "شجا",
+    "translation": "and شجى šajān foreign body in the throat which inhibits breathing; شجا affectedness, emotion, being moved, a touching, pathetic mood; also = شجو šajw",
+    "examples": []
+  },
+  {
+    "word": "شجى",
+    "displayWord": "شجى",
+    "translation": "šajīy worried, troubled, grieved, distressed, sad; anxious, apprehensive, fearful; gripping, heart-rending, touching, moving (vocal part, music)",
+    "examples": []
+  },
+  {
+    "word": "شح",
+    "displayWord": "شح",
+    "translation": "šaḥḥa (1st pers. perf. šaḥaḥtu) u i (šuḥḥ) to be or become stingy, tight-fisted, avaricious, miserly, niggardly; to stint, economize ( على or ب with or in s.th., على toward s.o.); to be covetous, greedy ( على or ب for); to become short, run out, decrease, dwindle III to stint, be niggardly, be sparing; to withhold ( ب from s.o. على s.th.)",
+    "examples": []
+  },
+  {
+    "word": "شح",
+    "displayWord": "شح",
+    "translation": "šuḥḥ stinginess, avarice, niggardliness; greed, covetousness; scarcity, paucity, sparsity; ebb",
+    "examples": []
+  },
+  {
+    "word": "شحيح",
+    "displayWord": "شحيح",
+    "translation": "šaḥīḥ pl. شحاح šiḥāḥ, اشحة ašiḥḥa,",
+    "examples": []
+  },
+  {
+    "word": "شحب",
+    "displayWord": "شحب",
+    "translation": "šaḥaba u a ( شحوب šuḥūb), šaḥūba u ( شحوبة šuḥūba) and pass. šuḥiba to be or become pale, wan, sallow, emaciated, lean, haggard; to look ill, sickly",
+    "examples": []
+  },
+  {
+    "word": "شحوب",
+    "displayWord": "شحوب",
+    "translation": "šuḥūb paleness, pallor, wanness, sallowness, emaciation",
+    "examples": []
+  },
+  {
+    "word": "شاحب",
+    "displayWord": "شاحب",
+    "translation": "šāḥib pl. شواحب šawāḥib2 pale, wan, sallow; emaciated, lean, haggard; dim, pale (e.g., light); dull, faded (color); wan (smile) □ شحت šaḥata (= شحذ ) to beg, ask for alms □ شحات šaḥḥāt pl. ة beggar │ □ شحات",
+    "examples": []
+  },
+  {
+    "word": "شحذ",
+    "displayWord": "شحذ",
+    "translation": "šaḥada a (šaḥd) to whet, sharpen, practice, train, strengthen ( ھ s.th., also, e.g., the intellect, one’s forces); to hone, strop ( ھ a knife); to beg, ask for alms ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "شحاذ",
+    "displayWord": "شحاذ",
+    "translation": "šaḥḥād (importunate) beggar │",
+    "examples": []
+  },
+  {
+    "word": "شحاذ العين",
+    "displayWord": "شحاذ العين",
+    "translation": "š. al-‘ain sty (med.)",
+    "examples": []
+  },
+  {
+    "word": "شحاذة",
+    "displayWord": "شحاذة",
+    "translation": "beggary",
+    "examples": []
+  },
+  {
+    "word": "شحر",
+    "displayWord": "شحر",
+    "translation": "II to soot, besmut, blacken with soot ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "شحار",
+    "displayWord": "شحار",
+    "translation": "šuḥḥār soot",
+    "examples": []
+  },
+  {
+    "word": "شحرور",
+    "displayWord": "شحرور",
+    "translation": "šuḥrūr pl. شحارير šaḥārīr2 thrush, blackbird (zool.)",
+    "examples": []
+  },
+  {
+    "word": "شحط",
+    "displayWord": "شحط",
+    "translation": "šaḥṯa a (šaḥṯ) to be far away, distant, remote; to strike ( ھ a match); to strand, be stranded, run aground (ship); to ground on a sandbank II to strand, be stranded, run aground (ship); to ground on a sandbank; to strand ( ھ a ship)",
+    "examples": []
+  },
+  {
+    "word": "شحطة",
+    "displayWord": "شحطة",
+    "translation": "šaḥṭa pl. -āt stripe, braid (on a uniform)",
+    "examples": []
+  },
+  {
+    "word": "شحاطة",
+    "displayWord": "شحاطة",
+    "translation": "šaḥḥāṭa pl. -āt (syr.) match, lucifer",
+    "examples": []
+  },
+  {
+    "word": "شحيطة",
+    "displayWord": "شحيطة",
+    "translation": "šuḥḥaiṭa (syr.) match, lucifer",
+    "examples": []
+  },
+  {
+    "word": "شاحط",
+    "displayWord": "شاحط",
+    "translation": "šāḥiṭ far (away), distant, remote, outlying, out-of-the-way; stranded",
+    "examples": []
+  },
+  {
+    "word": "شحم",
+    "displayWord": "شحم",
+    "translation": "šaḥuma u ( شحامة šaḥāma) to be or become fat II to grease, lubricate ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "شحم",
+    "displayWord": "شحم",
+    "translation": "šaḥm pl. شحوم šuḥum, شحومات šuḥūmāt fat, suet, grease; axle grease, lubricant; tallow, sebum; lard; pulp (of fruit)",
+    "examples": []
+  },
+  {
+    "word": "شحمة",
+    "displayWord": "شحمة",
+    "translation": "šaḥma (n. un.) a piece of fat, etc. (see شحمة الأذن │ ( شحم š. al-udun earlobe;",
+    "examples": []
+  },
+  {
+    "word": "شحمة الأرض",
+    "displayWord": "شحمة الأرض",
+    "translation": "s. al-arḍ truffle; شحمة العين š. al-‘ain eyeball",
+    "examples": []
+  },
+  {
+    "word": "شحمي",
+    "displayWord": "شحمي",
+    "translation": "šaḥmī fatty, sebaceous, stearic",
+    "examples": []
+  },
+  {
+    "word": "شحم",
+    "displayWord": "شحم",
+    "translation": "šaḥim pulpy, mushy, pappy (fruit)",
+    "examples": []
+  },
+  {
+    "word": "شحيم",
+    "displayWord": "شحيم",
+    "translation": "šaḥīm fat, fatty O مشحمة mišḥama pl. مشاحم mašāḥim2 grease box (of a wheel)",
+    "examples": []
+  },
+  {
+    "word": "شحن",
+    "displayWord": "شحن",
+    "translation": "šaḥana a (šaḥn) to fill up ( ھ ب s.th. with); to load, freight ( ھ ب so ship with); to ship, freight, consign ( ھ goods); to 457 load, charge ( ب ھ s.th. with, el.); to drive away, chase away, repel ( ه s.o.) III to hate ( ه s.o.); to quarrel, argue, fight ( ه with s.o.) IV to fill up ( ب ھ s.th. with); to load, freight ( ب ھ s.th. with) VI to hate one another; to quarrel, have a feud",
+    "examples": []
+  },
+  {
+    "word": "شحن",
+    "displayWord": "شحن",
+    "translation": "šaḥn loading, freighting; shipment, freightage; cargo, lading, load, freight │",
+    "examples": []
+  },
+  {
+    "word": "شحن",
+    "displayWord": "شحن",
+    "translation": "sayyārat š. truck, lorry",
+    "examples": []
+  },
+  {
+    "word": "شحنة",
+    "displayWord": "شحنة",
+    "translation": "šaḥna pl. šaḥanāt cargo, lading, load, freight; charge (el.)",
+    "examples": []
+  },
+  {
+    "word": "شحنة",
+    "displayWord": "شحنة",
+    "translation": "šiḥna police, police force",
+    "examples": []
+  },
+  {
+    "word": "شحناء",
+    "displayWord": "شحناء",
+    "translation": "šaḥnā’2 grudge, rancor, hatred, enmity",
+    "examples": []
+  },
+  {
+    "word": "شاحن",
+    "displayWord": "شاحن",
+    "translation": "šāḥin loaded, laden, freighted (esp. ship) │ O شاحن المركم š. al-markam battery charger",
+    "examples": []
+  },
+  {
+    "word": "شاحنة",
+    "displayWord": "شاحنة",
+    "translation": "šāḥina pl. -āt truck, lorry; baggage car",
+    "examples": []
+  },
+  {
+    "word": "شحور",
+    "displayWord": "شحور",
+    "translation": "šaḥwara to soot, besmut, blacken with soot ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "شحور",
+    "displayWord": "شحور",
+    "translation": "šaḥwar blackbird (zool.)",
+    "examples": []
+  },
+  {
+    "word": "شحور",
+    "displayWord": "شحور",
+    "translation": "šaḥwār soot, smut",
+    "examples": []
+  },
+  {
+    "word": "شخ",
+    "displayWord": "شخ",
+    "translation": "šakka u (šakk) to urinate, piss, make water",
+    "examples": []
+  },
+  {
+    "word": "شخ",
+    "displayWord": "شخ",
+    "translation": "šakk urine, piss",
+    "examples": []
+  },
+  {
+    "word": "شخاخ",
+    "displayWord": "شخاخ",
+    "translation": "šakāk urine, piss",
+    "examples": []
+  },
+  {
+    "word": "شخب",
+    "displayWord": "شخب",
+    "translation": "šakaba u a (šakb) to flow, stream, run, pour forth, gush forth",
+    "examples": []
+  },
+  {
+    "word": "شخبط",
+    "displayWord": "شخبط",
+    "translation": "šakbaṭa to scribble, scrawl (in writing)",
+    "examples": []
+  },
+  {
+    "word": "شختور",
+    "displayWord": "شختور",
+    "translation": "šaktūr, شختورة pl. شخاتير šakātīr large, flat-bottomed (wooden) barge; punt",
+    "examples": []
+  },
+  {
+    "word": "شخر",
+    "displayWord": "شخر",
+    "translation": "šakara i ( شخير šakīr) to snore; to snort; to neigh, whinny; to bray (donkey)",
+    "examples": []
+  },
+  {
+    "word": "شخشخ",
+    "displayWord": "شخشخ",
+    "translation": "šakšaka to rattle, clatter, clank",
+    "examples": []
+  },
+  {
+    "word": "شخشخية",
+    "displayWord": "شخشخية",
+    "translation": "(eg.) šukšēka pl. شخاشخ šakāšik rattle (toy); toy, plaything; skylight",
+    "examples": []
+  },
+  {
+    "word": "شخص",
+    "displayWord": "شخص",
+    "translation": "šakaṣa a ( شخوص šukūṣ) to rise, tower up; to become high, lofty; to rise, ascend (star); to appear ( ل to s.c.); to stare, gaze (",
+    "examples": []
+  },
+  {
+    "word": "شخص مرضا",
+    "displayWord": "شخص مرضا",
+    "translation": "(maraḍan) to diagnose a disease IV to send off, send out, dispatch (",
+    "examples": []
+  },
+  {
+    "word": "شخص",
+    "displayWord": "شخص",
+    "translation": "šakṣ pl. اشخاص aškāṣ, شخوص šukūṣ individual, person; figure; character (of a play); someone, somebody",
+    "examples": []
+  },
+  {
+    "word": "شخصي",
+    "displayWord": "شخصي",
+    "translation": "šakṣī personal, private, of one’s own; شخصيا šakṣīyan personally │ قانون نظام) الأحوال الشخصية ) personal statute",
+    "examples": []
+  },
+  {
+    "word": "شخصية",
+    "displayWord": "شخصية",
+    "translation": "šakšīya pl. -āt individuality, personality (also = personage); distinctive way of life, peculiarity, distinctive character, personal stamp; identity │",
+    "examples": []
+  },
+  {
+    "word": "شخصية اعتبارية",
+    "displayWord": "شخصية اعتبارية",
+    "translation": "(i‘tibārīya) legal person (jur.); تحقيق الشخصية identification of a person; شھادة تحقيق الشخصية šahādat t. aš-š. identity card; قلم تحقيق الشخصية qalam t. ašš. bureau of identification 458",
+    "examples": []
+  },
+  {
+    "word": "شخصاتي",
+    "displayWord": "شخصاتي",
+    "translation": "šakṣātī (comic) actor, comedian",
+    "examples": []
+  },
+  {
+    "word": "شاخص",
+    "displayWord": "شاخص",
+    "translation": "šākiṣ fixed, glazed (glance); pole, stake (eg.)",
+    "examples": []
+  },
+  {
+    "word": "شخط",
+    "displayWord": "شخط",
+    "translation": "šakaṭa (eg.) to shout, bark, bellow ( في at s.o.)",
+    "examples": []
+  },
+  {
+    "word": "شخلل",
+    "displayWord": "شخلل",
+    "translation": "šaklala (eg.) to jingle, tinkle; to clatter, rattle ( ب with); to coquet, flirt",
+    "examples": []
+  },
+  {
+    "word": "شخليلة",
+    "displayWord": "شخليلة",
+    "translation": "šaklīla (eg.) jingle, jangle, tinkling",
+    "examples": []
+  },
+  {
+    "word": "شد",
+    "displayWord": "شد",
+    "translation": "šadda i ( شدة šidda) to be or become firm, fast, solid, hard, strong, vigorous, rosust, vehement, violent, intense; -- šadda u i (šadd) to make firm, hard, strong, solidify, harden, srace ( ھ s.th.), strengthen, fortify ( ھ, ه s.o., s.th.); to tighten, pull taut, draw tight ( ھ s.th., e.g., the sow); to fasten, tie, sind ( الى or على ھ s.th. on, to), lash ( على ھ s.th. on); to saddle على) an animal); to put emphasis ( على كلمة ‘alā kalimatin on word), emphasize, stress",
+    "examples": []
+  },
+  {
+    "word": "شد ما",
+    "displayWord": "شد ما",
+    "translation": "šadda-mā and لشد ما (la-šadda) (with foll. vers) how much ...! very often ...; very much, exceedingly, vehemently, violently; لشد ما كان سرورنا اذ tremendous was our joy when …; شد ازره (azrahū) or",
+    "examples": []
+  },
+  {
+    "word": "شد من ازره",
+    "displayWord": "شد من ازره",
+    "translation": "to help, support, encourage, sack up s.o.; شد ازره (azruhū) to be energetic, vigorous, courageous; شد الزمام to tighten the reins, master the situation;",
+    "examples": []
+  },
+  {
+    "word": "شد من عزائمه",
+    "displayWord": "شد من عزائمه",
+    "translation": "to strengthen s.o.’s determination; شدعضده (‘aḍudahū) to strengthen, support, solster, assist s.o.; شد",
+    "examples": []
+  },
+  {
+    "word": "شدد من عزيمته",
+    "displayWord": "شدد من عزيمته",
+    "translation": "(šuddida) he was strengthened in his determination III to argue, have an argument, an exchange of words ( ه with s.o.) V to be hard, harsh, strict, severe, stern ( على toward); to be or become violent, vehement, intense, strong; to show o.s. stem, harsh, hard, inexorasle, be relentless, remain unmoved, unrelenting VI to argue with one another VIII to be or become hard, harsh, rigorous, intense, forceful, severe, strong, vehement, violent, passionate; to become harder, harsher, more rigorous, more intense, more forceful, severer, stronger, more vehement, more violent, more passionate; to intensify, increase, grow; to become aggravated, more critical; to become tormenting, excruciating, distressing, unbearable على) 459 for s.o.), take a turn for the worse (disease, على with s.o.); to be advanced (time of the day); to run, race, dash │ اشتد ساعده (sā‘iduhū) to become strong, vigorous",
+    "examples": []
+  },
+  {
+    "word": "شد",
+    "displayWord": "شد",
+    "translation": "šadd: شد الحبل š. al-ḥabl tug of war",
+    "examples": []
+  },
+  {
+    "word": "شدة",
+    "displayWord": "شدة",
+    "translation": "šadda (n. vic.) strengthening, intensification; stress, emphasis; pulling, dragging, tugging; tightness, tautness; stress, strain; doubling sign over a consonant (gram.) │ شدة ورق اللعب š. waraq al-la‘b deck of cards",
+    "examples": []
+  },
+  {
+    "word": "شدة",
+    "displayWord": "شدة",
+    "translation": "šidda strength, forcefulness, power, vehemence, violence, intensity, severity, force, high degree, (pl. شدائد šadā’id2) misfortune, calamity, misery, adversity, distress, hardship, affliction, discomfort",
+    "examples": []
+  },
+  {
+    "word": "شداد",
+    "displayWord": "شداد",
+    "translation": "šadād pl. اشدة ašidda riding saddle (of a camel)",
+    "examples": []
+  },
+  {
+    "word": "شديد",
+    "displayWord": "شديد",
+    "translation": "šadīd pl. اشداء ašiddā’ شداد , 2 šidād strong, powerful, forceful, vigorous, stem, severe, rigorous, hard, harsh, violent, vehement, intense; bad, evil, ominous, calamitous, difficult ( على for s.o.); with foll. subst. frequently corresponding to Engl. “very”, e.g., شديد الاعتناء very attentive, very careful │ ارض شديدة (arḍ) solid or firm ground; شديد البأس š. al-ba’s courageous, stouthearted, bold, audacious, brave, valiant; شديد الشكيمة stubborn, obstinate, unbending, unyielding, relentless; شديد اللھجة š. al-lahja strongly worded, vehement in language, sharp in tone; شديد الوطأة š. al-waṭ’a cruel",
+    "examples": []
+  },
+  {
+    "word": "شديدة",
+    "displayWord": "شديدة",
+    "translation": "šadīda pl. شدائد šadā’id2 misfortune, calamity, misery, adversity, distress, hardship, affliction, discomfort",
+    "examples": []
+  },
+  {
+    "word": "شدح",
+    "displayWord": "شدح",
+    "translation": "šadaka a (šadk) to break, shatter, smash, crush ( ھ s.th.) II do.",
+    "examples": []
+  },
+  {
+    "word": "شادر",
+    "displayWord": "شادر",
+    "translation": "šādir pl. شوادر šawādir2 tent; storehouse, warehouse, magazine",
+    "examples": []
+  },
+  {
+    "word": "شادوف",
+    "displayWord": "شادوف",
+    "translation": "šādūf pl. شوادف šawādīr (eg.) shadoof, counterpoised sweep for raising irrigation water",
+    "examples": []
+  },
+  {
+    "word": "شدق",
+    "displayWord": "شدق",
+    "translation": "V to announce ( ب s.th.) in a boastful, bragging, loud-mouthed manner, to vaunt ب) s.th.); to chatter, prattle │ تشدق بالكلام (kalām) to enunciate overcarefully, speak affectedly; to be agape",
+    "examples": []
+  },
+  {
+    "word": "شدق",
+    "displayWord": "شدق",
+    "translation": "šidq pl. اشداق ašdāq corner of the mouth; jawbone │ ضحك بملء (ملء) شدقيه",
+    "examples": []
+  },
+  {
+    "word": "شدن",
+    "displayWord": "شدن",
+    "translation": "šadana u to be weaned, be on its own feet (young animal)",
+    "examples": []
+  },
+  {
+    "word": "شادن",
+    "displayWord": "شادن",
+    "translation": "šādin pl. شوادن šawādin2 gazelle fawn",
+    "examples": []
+  },
+  {
+    "word": "شده",
+    "displayWord": "شده",
+    "translation": "šadaha a to confuse, perplex, baffle ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "شدا",
+    "displayWord": "شدا",
+    "translation": "(شدو ) šadā u (šadw) to sing; to chant ( ھ s.th.); to acquire or have education, become or be educated ( في in a field) │ شدا",
+    "examples": []
+  },
+  {
+    "word": "شيئا من العربية",
+    "displayWord": "شيئا من العربية",
+    "translation": "to know a little Arabic, have a smattering of Arabic",
+    "examples": []
+  },
+  {
+    "word": "شدو",
+    "displayWord": "شدو",
+    "translation": "šadw song, chant",
+    "examples": []
+  },
+  {
+    "word": "شاد",
+    "displayWord": "شاد",
+    "translation": "šādin pl. شادون šādūn educated, trained (e.g., في اللغة linguistically) │ ليلة",
+    "examples": []
+  },
+  {
+    "word": "شادية",
+    "displayWord": "شادية",
+    "translation": "laila šādiya soirée of vocal music",
+    "examples": []
+  },
+  {
+    "word": "شادية",
+    "displayWord": "شادية",
+    "translation": "šādiya songstress, singer",
+    "examples": []
+  },
+  {
+    "word": "شدياق",
+    "displayWord": "شدياق",
+    "translation": "šidyāq pl. شدايقة šadāyiqa sub deacon (Chr.)",
+    "examples": []
+  },
+  {
+    "word": "شذ",
+    "displayWord": "شذ",
+    "translation": "šadda i u (šadd, شذوذ šudūd) to segregate, separate, isolate o.s. ( عن from), be separated, isolated ( عن from), be outside s.th. ( عن ), elude ( عن s.th.); to be alone; to be irregular, deviate, stand out ( على or عن from), be an exception ( على or عن to); to be wanting, lacking; to decrease, dwindle",
+    "examples": []
+  },
+  {
+    "word": "شذ",
+    "displayWord": "شذ",
+    "translation": "šadd irregularity, deviation, anomaly, exception ( عن to)",
+    "examples": []
+  },
+  {
+    "word": "شذوذ",
+    "displayWord": "شذوذ",
+    "translation": "irregularity, deviation, anomaly, exception ( عن to); curiosity, eccentricity, eccentric character",
+    "examples": []
+  },
+  {
+    "word": "شاذ",
+    "displayWord": "شاذ",
+    "translation": "šādd pl. شذاذ šudād, شواذ šawādd2 isolated, separate(d), detached, alone; irregular, abnormal, anomalous, unusual, extraordinary, exceptional, singular, curious, queer, odd, peculiar, strange, eccentric; noncanonical (version); pl. شواذ exceptions │ شاذ الأخلاق of deviant (= inferior) character; شاذ الطبع š. aṭ-ṯab‘, شاذ",
+    "examples": []
+  },
+  {
+    "word": "شواذات",
+    "displayWord": "شواذات",
+    "translation": "šawāddāt peculiarities, idiosyncrasies",
+    "examples": []
+  },
+  {
+    "word": "شذب",
+    "displayWord": "شذب",
+    "translation": "šadaba i u (šadb) to out off, sever ( ھ s.th.); to trim, clip, prune, lop ( ھ hedges, trees); to adept, doctor, modify ( ھ s.th.) II do.",
+    "examples": []
+  },
+  {
+    "word": "شذر",
+    "displayWord": "شذر",
+    "translation": "V to be scattered, be dispersed; to scatter, disperse",
+    "examples": []
+  },
+  {
+    "word": "شذرة",
+    "displayWord": "شذرة",
+    "translation": "šadra pl. šadarāt, شذور šudūr particle, bit, tiny piece; fragment, section",
+    "examples": []
+  },
+  {
+    "word": "شذو",
+    "displayWord": "شذو",
+    "translation": "šadw fragrance of musk",
+    "examples": []
+  },
+  {
+    "word": "شذا",
+    "displayWord": "شذا",
+    "translation": "šadan flagrance, scent, aroma",
+    "examples": []
+  },
+  {
+    "word": "شذى",
+    "displayWord": "شذى",
+    "translation": "šadīy fragrant, aromatic",
+    "examples": []
+  },
+  {
+    "word": "شر",
+    "displayWord": "شر",
+    "translation": "šarra (1st pers. perf. šarirtu) a, (1st pers. perf. šarurtu) u (šarr, شرة širra) to be bad, evil, wicked, vicious, malicious, malignant",
+    "examples": []
+  },
+  {
+    "word": "شر",
+    "displayWord": "شر",
+    "translation": "šarr pl. شرور šurūr evil, ill, mischief; calamity, disaster; iniquity, injustice; harm, damage, injury; wickedness, viciousness, malice; vice, sin; -- (pl. اشرار ašrār) bad, evil, wicked, vicious, malicious; evildoer, culprit; -- šarr (as elative) worse, more evil │ ھزمھم",
+    "examples": []
+  },
+  {
+    "word": "شر ھزيمة",
+    "displayWord": "شر ھزيمة",
+    "translation": "(šarra hazīmatin) he brought utter defeat upon them 461",
+    "examples": []
+  },
+  {
+    "word": "شراني",
+    "displayWord": "شراني",
+    "translation": "šarrānī evil, vicious, malicious",
+    "examples": []
+  },
+  {
+    "word": "شرة",
+    "displayWord": "شرة",
+    "translation": "širra evil, ill, mischief; calamity, disaster; iniquity, injustice; harm, damage, injury; wickedness, viciousness, malice; vice, sin; vivacity enthusiasm, fire of youth",
+    "examples": []
+  },
+  {
+    "word": "شرير",
+    "displayWord": "شرير",
+    "translation": "šarīr pl. اشراء aširrā’2 bad, evil, wicked, vicious, malicious",
+    "examples": []
+  },
+  {
+    "word": "شرير",
+    "displayWord": "شرير",
+    "translation": "širrīr very bad, very evil, very wicked, very vicious, very malicious; scoundrel; الشرير the Evil One (= Satan)",
+    "examples": []
+  },
+  {
+    "word": "شرر",
+    "displayWord": "شرر",
+    "translation": "šarar (coll.; n. un. ة) sparks",
+    "examples": []
+  },
+  {
+    "word": "شررى",
+    "displayWord": "شررى",
+    "translation": "šararī spark (used attributively)",
+    "examples": []
+  },
+  {
+    "word": "شرار",
+    "displayWord": "شرار",
+    "translation": "šarār (coll.; n. un. ة) sparks",
+    "examples": []
+  },
+  {
+    "word": "شرارة",
+    "displayWord": "شرارة",
+    "translation": "šarāra pl. -āt spark │ شمعة الشرارة šam‘at aš-š. spark plug; مفتاح الشرارة miftāḥ aš-š. ignition key (automobile)",
+    "examples": []
+  },
+  {
+    "word": "شراري",
+    "displayWord": "شراري",
+    "translation": "šarārī spark (used attributively)",
+    "examples": []
+  },
+  {
+    "word": "شرار",
+    "displayWord": "شرار",
+    "translation": "šarrār sparkling, scintillating, emitting sparks",
+    "examples": []
+  },
+  {
+    "word": "شراب",
+    "displayWord": "شراب",
+    "translation": "šurrāb pl. -āt stocking, sock",
+    "examples": []
+  },
+  {
+    "word": "شراس",
+    "displayWord": "شراس",
+    "translation": "širās glue, paste",
+    "examples": []
+  },
+  {
+    "word": "شرب",
+    "displayWord": "شرب",
+    "translation": "1 šariba a (šurb, مشرب mašrab) to drink (",
+    "examples": []
+  },
+  {
+    "word": "شرب الدخان",
+    "displayWord": "شرب الدخان",
+    "translation": "(dukāna) to smoke; شرب نخبه (nakbahū) to drink s.o.’s health, toast s.o. II to give ( ه ھ s.o. s.th.) to drink, make or let drink ( ه ھ s.o. s.th.); to drench, soak, saturate, impregnate ( ب ھ s.th. with); to inculcate, imbue ( ه ھ s.o. with s.th.) III to drink in s.o.’s ( ه) company, have a drink ( ه with s.o.) IV to give ( ه ھ s.o. s.th.) to drink, make or let drink ( ه ھ s.o. s.th.); to drench, soak, saturate, impregnate ( ب or ھ",
+    "examples": []
+  },
+  {
+    "word": "شرب",
+    "displayWord": "شرب",
+    "translation": "šurb drinking, drink; absorption",
+    "examples": []
+  },
+  {
+    "word": "شربة",
+    "displayWord": "شربة",
+    "translation": "šarba drink; sip, draught, swallow; dose, potion (of a medicine); laxative, purgative, aperient",
+    "examples": []
+  },
+  {
+    "word": "شربة",
+    "displayWord": "شربة",
+    "translation": "šurba drink; sip, draught, swallow; dose, potion (of a medicine)",
+    "examples": []
+  },
+  {
+    "word": "شراب",
+    "displayWord": "شراب",
+    "translation": "šarāb pl. اشربة ašriba beverage, drink; wine; fruit juice, fruit syrup, sherbet │ شراب التفاح š. at-tuffāḥ apple juice; cider;",
+    "examples": []
+  },
+  {
+    "word": "شراب البرتقال",
+    "displayWord": "شراب البرتقال",
+    "translation": "š. al-burtuqāl orangeade",
+    "examples": []
+  },
+  {
+    "word": "شراب",
+    "displayWord": "شراب",
+    "translation": "šarrāb drunkard, heavy drinker",
+    "examples": []
+  },
+  {
+    "word": "شريب",
+    "displayWord": "شريب",
+    "translation": "šarīb drinkable, potable",
+    "examples": []
+  },
+  {
+    "word": "شرابة",
+    "displayWord": "شرابة",
+    "translation": "šarrāba, šurraba pl. شراريب šarārīb2 tassel, tuft, bob │ شرابة الراعي š. ar-rā‘ī (European) holly (Ilex aquifolium; bot.)",
+    "examples": []
+  },
+  {
+    "word": "شريب",
+    "displayWord": "شريب",
+    "translation": "širrīb drunkard, heavy drinker",
+    "examples": []
+  },
+  {
+    "word": "شارب",
+    "displayWord": "شارب",
+    "translation": "šārib pl. -ūn, شرب šarb, شروب šurūb drinking; drinker; (pl. شوارب šawārib2) mustache, frequently dual: شاربان",
+    "examples": []
+  },
+  {
+    "word": "شربة",
+    "displayWord": "شربة",
+    "translation": "2 šorba soup",
+    "examples": []
+  },
+  {
+    "word": "شوربة",
+    "displayWord": "شوربة",
+    "translation": "šorba (eg.), شوربا šōraba (syr.) soup",
+    "examples": []
+  },
+  {
+    "word": "شراب",
+    "displayWord": "شراب",
+    "translation": "3 šurrāb pl. -āt stocking, sock",
+    "examples": []
+  },
+  {
+    "word": "شربك",
+    "displayWord": "شربك",
+    "translation": "šarbaka to (en)tangle, snarl ( ھ s.th.), to complicate ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "شربين",
+    "displayWord": "شربين",
+    "translation": "šarbīn a variety of larch (bot.)",
+    "examples": []
+  },
+  {
+    "word": "شرج",
+    "displayWord": "شرج",
+    "translation": "1 šaraj pl. اشراج ašrāj loop, ring, eyelet; buttonhole; anus",
+    "examples": []
+  },
+  {
+    "word": "شرجي",
+    "displayWord": "شرجي",
+    "translation": "šarajī anal",
+    "examples": []
+  },
+  {
+    "word": "شيرج",
+    "displayWord": "شيرج",
+    "translation": "2 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "شرح",
+    "displayWord": "شرح",
+    "translation": "šaraḥa a (šarḥ) to cut in slices, slice, cut up ( ھ s.th.); to cut open, rip open ( ھ s.th.); to bare, expose, make clearly visible or discernible ( ھ s.th.), to expound ( ھ s.th.); to explain, elucidate, illustrate, make plain, set forth, describe, depict ( ھ s.th.); to comment ( ھ on), interpret ( ھ s.th.), to open, lay open ( صدره s.o. ṣadrahū s.o.’s heart, ل to or for the acceptance of) │ شرح",
+    "examples": []
+  },
+  {
+    "word": "شرح",
+    "displayWord": "شرح",
+    "translation": "šarḥ expounding, presentation, explanation, illustration, elucidation, exposition, setting forth; commentation; (pl. ( شروح šurūḥ) commentary",
+    "examples": []
+  },
+  {
+    "word": "شرحي",
+    "displayWord": "شرحي",
+    "translation": "šarḥī explanatory, explicatory, illustrative",
+    "examples": []
+  },
+  {
+    "word": "شرحة",
+    "displayWord": "شرحة",
+    "translation": "šarḥa long, thin slice, rasher",
+    "examples": []
+  },
+  {
+    "word": "شريحة",
+    "displayWord": "شريحة",
+    "translation": "šarīḥa pl. شرائح šarā’iḥ long, thin slice (e.g., of fruit, etc.), rasher; girth, cinch; O (microscope) slide O مشرحة mašraḥa operating room; operating table; autopsy room",
+    "examples": []
+  },
+  {
+    "word": "شارح",
+    "displayWord": "شارح",
+    "translation": "šāriḥ pl. شراح šurrāḥ explainer, expounder, interpreter, commentator, expositor",
+    "examples": []
+  },
+  {
+    "word": "شرخ",
+    "displayWord": "شرخ",
+    "translation": "1 šaraka u ( شرخ šurūk) to become a youth. grow from childhood to maturity",
+    "examples": []
+  },
+  {
+    "word": "شرخ",
+    "displayWord": "شرخ",
+    "translation": "šark prime of youth, spring of life",
+    "examples": []
+  },
+  {
+    "word": "شرح",
+    "displayWord": "شرح",
+    "translation": "2 šaraka a (eg.) to crack, splinter, become cracked",
+    "examples": []
+  },
+  {
+    "word": "شرخ",
+    "displayWord": "شرخ",
+    "translation": "šark pl. شروخ šurūk (eg.) crack, break, fissure, fracture",
+    "examples": []
+  },
+  {
+    "word": "شرد",
+    "displayWord": "شرد",
+    "translation": "šarada u ( شراد šarrād, شرود šurūd) to bolt (horse), to run away, flee, take to flight, take to one’s heels, break loose, escape; to roam, rove, wander, stray, go astray; to be distracted (thoughts) │ شرد ذھنه (dihnahū) to be absent-minded شرد به الفكر (fikru) he became lost in thought II to frighten away, chase away, drive away ( ه s.o.); to scare ( ه s.o.), frighten ( ه s.o.) into a panic IV to chase away, drive 463 away ( ه s.o.) V to roam, tramp about, lead a vagabond life",
+    "examples": []
+  },
+  {
+    "word": "شرود",
+    "displayWord": "شرود",
+    "translation": "šarūd pl. شرد šurūd running away; straying; astray, deviant, aberrant, strange, peculiar",
+    "examples": []
+  },
+  {
+    "word": "شرود",
+    "displayWord": "شرود",
+    "translation": "šurūd roaming, straying, wandering │ شرود الفكر š. al-fikr absentmindedness, distractedness",
+    "examples": []
+  },
+  {
+    "word": "شريد",
+    "displayWord": "شريد",
+    "translation": "šarīd fugitive, expatriated, displaced, expelled; loafer, tramp, vagrant, vagabond",
+    "examples": []
+  },
+  {
+    "word": "شارد",
+    "displayWord": "شارد",
+    "translation": "šārid pl. شرد šurud, šurrad, شوارد šawārid2 fugitive, straying, astray; intimidated, frightened, helpless at a loss; a fugitive, runaway, deserter; defector; vagrant, tramp, vagabond │ شارد الفكر š. al-fikr absent-minded, distracted; شوارد",
+    "examples": []
+  },
+  {
+    "word": "شاردة",
+    "displayWord": "شاردة",
+    "translation": "šārida pl. شوارد šawarid2 peculiarity, anomaly, exception │ لا تفوته",
+    "examples": []
+  },
+  {
+    "word": "شاردة ولا واردة",
+    "displayWord": "شاردة ولا واردة",
+    "translation": "(tafūtuhū) nothing escapes him, he doesn’t miss a thing",
+    "examples": []
+  },
+  {
+    "word": "شردق",
+    "displayWord": "شردق",
+    "translation": "II tašardaqa to swallow the wrong way; to choke (to death)",
+    "examples": []
+  },
+  {
+    "word": "شرذم",
+    "displayWord": "شرذم",
+    "translation": "II tašardama to be jagged, indented",
+    "examples": []
+  },
+  {
+    "word": "شرذمة",
+    "displayWord": "شرذمة",
+    "translation": "širdima pl. شراذم šarādim شراذيم , 2 šarādīm2 small group, gang, party, troop; little band",
+    "examples": []
+  },
+  {
+    "word": "شرس",
+    "displayWord": "شرس",
+    "translation": "1 šarisa a (šaras, شراسة šarāsa) to be vicious, malicious, mischievous, illtempered, unsociable, quarrelsome, petulant, peevish VI to be cross, quarrel (",
+    "examples": []
+  },
+  {
+    "word": "شرس",
+    "displayWord": "شرس",
+    "translation": "šaras = شراسة",
+    "examples": []
+  },
+  {
+    "word": "شرس",
+    "displayWord": "شرس",
+    "translation": "šaris vicious, malicious, mischievous, ill-tempered, unsociable, quarrelsome, petulant, peevish; wild, ferocious, fierce",
+    "examples": []
+  },
+  {
+    "word": "شريس",
+    "displayWord": "شريس",
+    "translation": "šarīs = شرس šaris",
+    "examples": []
+  },
+  {
+    "word": "شراسة",
+    "displayWord": "شراسة",
+    "translation": "šarāsa wickedness, malice, viciousness, meanness, baseness, villainy; ill-temperedness, unsociableness, querulousness, petulance, peevishness",
+    "examples": []
+  },
+  {
+    "word": "شراس",
+    "displayWord": "شراس",
+    "translation": "2 širās glue, paste, see سراس، سيراس",
+    "examples": []
+  },
+  {
+    "word": "شرسوف",
+    "displayWord": "شرسوف",
+    "translation": "šursūf pl. شراسيف šarāsīf2 rib cartilage",
+    "examples": []
+  },
+  {
+    "word": "شراسيفي",
+    "displayWord": "شراسيفي",
+    "translation": "šarāsīfī epigastric, pertaining to the anterior walls of the abdomen",
+    "examples": []
+  },
+  {
+    "word": "شرش",
+    "displayWord": "شرش",
+    "translation": "II to take root",
+    "examples": []
+  },
+  {
+    "word": "شرش",
+    "displayWord": "شرش",
+    "translation": "širš شرش pl. شروش šurūš root │",
+    "examples": []
+  },
+  {
+    "word": "شرش اللبن",
+    "displayWord": "شرش اللبن",
+    "translation": "š. al-laban whey",
+    "examples": []
+  },
+  {
+    "word": "شرشور",
+    "displayWord": "شرشور",
+    "translation": "šuršur pl. شراشير šarāšīr chaffinch (zool.)",
+    "examples": []
+  },
+  {
+    "word": "شرشير",
+    "displayWord": "شرشير",
+    "translation": "šaršīr (eg.) wild duck (zool.)",
+    "examples": []
+  },
+  {
+    "word": "شراشير",
+    "displayWord": "شراشير",
+    "translation": "šarāšīr2 soul, self, nature (of a person)",
+    "examples": []
+  },
+  {
+    "word": "شرشف",
+    "displayWord": "شرشف",
+    "translation": "šaršaf pl. شراشف šarāšif bedsheet",
+    "examples": []
+  },
+  {
+    "word": "شرط",
+    "displayWord": "شرط",
+    "translation": "šaraṭa i u (šarṭ) to tear ( ھ s.th.); to make incicions ( ھ in), scratch, scarify ( ھ s.th.); to slit open, rip open ( ھ s.th.); to impose as a condition, as an obligation ( ھ على on s.o. s.th.), make conditional ( ھ على for s.o. s.th.); to stipulate ( ھ s.th.) II to tear to shreds ( ھ s.th.); to scratch, scarify ( ھ s.th.); to make incisions ( ھ in) III to fix mutual conditions.; to make a contract, conclude an agreement; to bet, wager ( ه with s.o.) V to impose severe oonditiono or terms │ تشرط في عمله (‘amalihī) to be meticulous in one’s 464 work, do one’s work painstakingly VIII to impose as a condition, as an obligation ( على ھ on s.o. s.th.); to make conditional ( على ھ for s.o. s.th.); to stipulate ( ھ s.th.); pass, ušturiṭa to be prerequisite, preconditional ( ل for)",
+    "examples": []
+  },
+  {
+    "word": "شرط",
+    "displayWord": "شرط",
+    "translation": "šarṭ pl. شروط šurūṭ incision (in the skin); long cut, rip, clash, slit; condition, precondition; provision, proviso, clause; stipulation (of a contract) │ شرطا ان (šarṯan), على شرط، بشرط on the condition that ..., provided that ...; من دون (بدون) شرط unconditional; بلا شرط او قيد (au qaidin) with no strings attached; unconditional (obedience, surrender, etc.); شرط الخيار proviso of the right of withdrawal (from a contract, a commercial transaction, an obligation, and the like, Isl. Law)",
+    "examples": []
+  },
+  {
+    "word": "شرط",
+    "displayWord": "شرط",
+    "translation": "šaraṭ pl. اشراط ašrāṭ sign, portent │ اشراط الساعة the portents of the Day of Judgment",
+    "examples": []
+  },
+  {
+    "word": "شرطي",
+    "displayWord": "شرطي",
+    "translation": "šarṭī conditional │ جملة شرطية (jumla) conditional clause (gram.)",
+    "examples": []
+  },
+  {
+    "word": "شرطية",
+    "displayWord": "شرطية",
+    "translation": "šarṭīya contract, agreement",
+    "examples": []
+  },
+  {
+    "word": "شرطة",
+    "displayWord": "شرطة",
+    "translation": "šarṭa pl. شرط šuraṭ stroke, line; hyphen; dash",
+    "examples": []
+  },
+  {
+    "word": "شرطة",
+    "displayWord": "شرطة",
+    "translation": "šurṭa police, policemen │ دار",
+    "examples": []
+  },
+  {
+    "word": "شرطي",
+    "displayWord": "شرطي",
+    "translation": "šurṭī, šuraṭī pl. -ūn policeman, officer",
+    "examples": []
+  },
+  {
+    "word": "شريط",
+    "displayWord": "شريط",
+    "translation": "pl. شرائط šarā’iṭ, اشرطة ašriṭa band, ribbon, tape; cord, string; leash, line; thong, strap; braid, galloon, chevron, stripe; ribbon (of an order), medal ribbon, service ribbon; (railway) track, line; film strip; film (also شريط سينمائي ); (magnetic) tape │ شريط مصغر (muṣaggar) microfilm;",
+    "examples": []
+  },
+  {
+    "word": "شريط القياس",
+    "displayWord": "شريط القياس",
+    "translation": "tape measure; measuring tape;",
+    "examples": []
+  },
+  {
+    "word": "شريط ناطق",
+    "displayWord": "شريط ناطق",
+    "translation": "pl. شرائط ناطقة sound film; sound track; magnetic tape; شريط النار fuse; دودة",
+    "examples": []
+  },
+  {
+    "word": "شريطة",
+    "displayWord": "شريطة",
+    "translation": "šarīṭa condition │ على شريطة on the condition that ...",
+    "examples": []
+  },
+  {
+    "word": "شرطن",
+    "displayWord": "شرطن",
+    "translation": "šarṭana to consecrate, ordain ( ه s.o., Chr.) II to be ordained (Chr.)",
+    "examples": []
+  },
+  {
+    "word": "شرط",
+    "displayWord": "شرط",
+    "translation": "šarṭana = شرطونية",
+    "examples": []
+  },
+  {
+    "word": "شرطونية",
+    "displayWord": "شرطونية",
+    "translation": "šarṭūnīya ordination of a priest, and any ordination of persons by laying on of hands (Chr.); simony (Copt.-Chr.)",
+    "examples": []
+  },
+  {
+    "word": "شرع",
+    "displayWord": "شرع",
+    "translation": "šara‘a a (šar‘, شروع šurū‘) to go (",
+    "examples": []
+  },
+  {
+    "word": "شروق",
+    "displayWord": "شروق",
+    "translation": "šurūq rise (of the sun)",
+    "examples": []
+  },
+  {
+    "word": "شراقي",
+    "displayWord": "شراقي",
+    "translation": "šarāqī (eg.) unirrigated land not reached by the Nile floods",
+    "examples": []
+  },
+  {
+    "word": "شراق",
+    "displayWord": "شراق",
+    "translation": "šarrāq suctorial device; part of a suction pump □ شراقوة šarāquwa (pl. of (شرقاوي Levantines (eg.)",
+    "examples": []
+  },
+  {
+    "word": "شرقرق",
+    "displayWord": "شرقرق",
+    "translation": "šaraqraq, شرقراق šarāqrāq green woodpecker",
+    "examples": []
+  },
+  {
+    "word": "شرك",
+    "displayWord": "شرك",
+    "translation": "šarika a (širk, شركة širka, šarika) to share",
+    "examples": []
+  },
+  {
+    "word": "شرك",
+    "displayWord": "شرك",
+    "translation": "širk polytheism, idolatry │ اھل",
+    "examples": []
+  },
+  {
+    "word": "شرك",
+    "displayWord": "شرك",
+    "translation": "šarak pl. شرك šuruk, اشراك ašrāk,",
+    "examples": []
+  },
+  {
+    "word": "شراك",
+    "displayWord": "شراك",
+    "translation": "širāk net, snare, gin; trap │ نصب له",
+    "examples": []
+  },
+  {
+    "word": "شركا",
+    "displayWord": "شركا",
+    "translation": "to lay a trap for s.o., trap s.o.",
+    "examples": []
+  },
+  {
+    "word": "شرك",
+    "displayWord": "شرك",
+    "translation": "spurious, unsound, phony, false",
+    "examples": []
+  },
+  {
+    "word": "شركة",
+    "displayWord": "شركة",
+    "translation": "širka, šarika partnership; communion (Chr.); (pl. -āt) association, companionship; company, corporation (com.); commercial enterprise (Isl. Law); establishment, firm; شركة التأمين insurance company; شرك تجارية (tijārīya) trading company, firm; شركة الاذاعة broad- 468 casting corporation; شركة المساھمة š. almusāhama joint-stock company, corporation; شركة سھامية (sihāmīya) do.;",
+    "examples": []
+  },
+  {
+    "word": "شركة الشركات",
+    "displayWord": "شركة الشركات",
+    "translation": "trust (com.)",
+    "examples": []
+  },
+  {
+    "word": "شراك",
+    "displayWord": "شراك",
+    "translation": "širāk pl. شرك šuruk, اشرك ašruk,",
+    "examples": []
+  },
+  {
+    "word": "شريك",
+    "displayWord": "شريك",
+    "translation": "šarīk pl. شركاء šurakā’ اشراك , 2 ašrāk sharer, participant, partner, copartner; associate, companion, confederate, ally; co-owner, coproprietor (Isl. Law); accomplice, accessory (in a crime) │ O شريك موص (mūṣin) silent partner (com.)",
+    "examples": []
+  },
+  {
+    "word": "شريك",
+    "displayWord": "شريك",
+    "translation": "šuraik (eg.) sesame cake",
+    "examples": []
+  },
+  {
+    "word": "شريكة",
+    "displayWord": "شريكة",
+    "translation": "šarīk pl. شرائك šarā’ik woman partner, woman participant, etc. (see (شريك",
+    "examples": []
+  },
+  {
+    "word": "شھري",
+    "displayWord": "شھري",
+    "translation": "(šahrī) monthly subscription; monthly fee or contribution",
+    "examples": []
+  },
+  {
+    "word": "شركسي",
+    "displayWord": "شركسي",
+    "translation": "šarkašī Circassian; (pl. شراكسة šarākisa) a Circassian",
+    "examples": []
+  },
+  {
+    "word": "شرم",
+    "displayWord": "شرم",
+    "translation": "šarama i (šarm) to split, slit, slash ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "شرم",
+    "displayWord": "شرم",
+    "translation": "šarm pl. شروم šurūm cleft, crack, split, rift, slit, slot; small hay, inlet",
+    "examples": []
+  },
+  {
+    "word": "شرمط",
+    "displayWord": "شرمط",
+    "translation": "šarmaṭa (eg., syr.) to shred, tear to shreds ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "شرموطة",
+    "displayWord": "شرموطة",
+    "translation": "šarmūṭa pl. شراميط šārāmīṭ rag, shred, tatter; whore, slut, prostitute",
+    "examples": []
+  },
+  {
+    "word": "شرنقة",
+    "displayWord": "شرنقة",
+    "translation": "šarnaqa pl. شرانق šarāniq2 cocoon (of the silk worm); chrysalis (of an insect); slough (of a snake), snakeskin; -- šarāniq2 hemp (Cannahis sativa; bot.); hemp seed",
+    "examples": []
+  },
+  {
+    "word": "شره",
+    "displayWord": "شره",
+    "translation": "šariha a (šarah) to be greedy ( الى or",
+    "examples": []
+  },
+  {
+    "word": "شره",
+    "displayWord": "شره",
+    "translation": "šarah gluttony, gourmandism, ravenousness, voracity; greediness, greed, covetousness, avidity",
+    "examples": []
+  },
+  {
+    "word": "شره",
+    "displayWord": "شره",
+    "translation": "šarih greedy ( على for food), gluttonous; voracious, ravenous; ravenous eater, glutton; greedy, covetous, avid",
+    "examples": []
+  },
+  {
+    "word": "شراھة",
+    "displayWord": "شراھة",
+    "translation": "šarāha gluttony, gourmandism, ravenousness, voracity; greediness, greed, covetousness, avidity",
+    "examples": []
+  },
+  {
+    "word": "شرو",
+    "displayWord": "شرو",
+    "translation": "šarw, širw honey",
+    "examples": []
+  },
+  {
+    "word": "شروال",
+    "displayWord": "شروال",
+    "translation": "širwāl pl. شراويل šarāwīl 2 trousers, pants; drawers",
+    "examples": []
+  },
+  {
+    "word": "شروة، شروى",
+    "displayWord": "شروة، شروى",
+    "translation": "see شري ٤٦٩",
+    "examples": []
+  },
+  {
+    "word": "شرى",
+    "displayWord": "شرى",
+    "translation": "šarā i (širan, شراء širā’) to sell, vend ( ب ھ s.th. for a certain price); to buy, purchase (",
+    "examples": []
+  },
+  {
+    "word": "شرى",
+    "displayWord": "شرى",
+    "translation": "šary (coll.; n. un. ة) colocynth",
+    "examples": []
+  },
+  {
+    "word": "شرى",
+    "displayWord": "شرى",
+    "translation": "širan pl. اشرية ašriya purchase, buy(ing), bargain",
+    "examples": []
+  },
+  {
+    "word": "شرى",
+    "displayWord": "شرى",
+    "translation": "šaran an itching skin eruption",
+    "examples": []
+  },
+  {
+    "word": "شراء",
+    "displayWord": "شراء",
+    "translation": "širā’ purchase buy(ing) │ راغب",
+    "examples": []
+  },
+  {
+    "word": "شروة",
+    "displayWord": "شروة",
+    "translation": "šarwa purchase buy(ing)",
+    "examples": []
+  },
+  {
+    "word": "شروى",
+    "displayWord": "شروى",
+    "translation": "šarwā: لا يملك شروى نقير lā yamliku š. naqīrin he hasn’t a red cent to his name, he has absolutely nothing; لا يجدي شروى نقير (yujdī) it is of no use at all O الحمى الشروية al-ḥummā aš-šarawīya nettle rash, urticaria (med.)",
+    "examples": []
+  },
+  {
+    "word": "شريان",
+    "displayWord": "شريان",
+    "translation": "širyān pl. شرايين šarāyīn2 artery │",
+    "examples": []
+  },
+  {
+    "word": "شرياني",
+    "displayWord": "شرياني",
+    "translation": "širyānī arterial │ السدة الشريانية (sudda) embolism (med.)",
+    "examples": []
+  },
+  {
+    "word": "شار",
+    "displayWord": "شار",
+    "translation": "šārin pl. شراة šurāh seller, salesman, vendor; purchaser, buyer, customer; -- O lightning rod (also شارى الصواعق)؛ الشراة aš-šurāh designation of the Khawārij",
+    "examples": []
+  },
+  {
+    "word": "شزرا",
+    "displayWord": "شزرا",
+    "translation": "sażran: نظر اليه شزرا to look askance at s.o.",
+    "examples": []
+  },
+  {
+    "word": "شزرا",
+    "displayWord": "شزرا",
+    "translation": "(naẓra) distrustful, suspicious glance",
+    "examples": []
+  },
+  {
+    "word": "شست",
+    "displayWord": "شست",
+    "translation": "(Fr. chiste) slate (min.)",
+    "examples": []
+  },
+  {
+    "word": "شاسع",
+    "displayWord": "شاسع",
+    "translation": "šāsi' far (away), distant, remote; wide, large, great (distance); huge, vast, enormous (difference)",
+    "examples": []
+  },
+  {
+    "word": "ششخان",
+    "displayWord": "ششخان",
+    "translation": "šašakān rifled (gunbarrel)",
+    "examples": []
+  },
+  {
+    "word": "ششم",
+    "displayWord": "ششم",
+    "translation": "1 šišm seed of the Cassia absus (bot.), used as eye powder",
+    "examples": []
+  },
+  {
+    "word": "ششمة",
+    "displayWord": "ششمة",
+    "translation": "2 šašma, šišma toilet, lavatory, privy",
+    "examples": []
+  },
+  {
+    "word": "ششنى",
+    "displayWord": "ششنى",
+    "translation": "šišnī sample, specimen; sampling",
+    "examples": []
+  },
+  {
+    "word": "ششنجي",
+    "displayWord": "ششنجي",
+    "translation": "(eg.) šišnagī assayer (of precious metals)",
+    "examples": []
+  },
+  {
+    "word": "شص",
+    "displayWord": "شص",
+    "translation": "šiṣṣ pl. شصوص šuṣūṣ fishhook",
+    "examples": []
+  },
+  {
+    "word": "شصر",
+    "displayWord": "شصر",
+    "translation": "šaṣara a kind of gazelle",
+    "examples": []
+  },
+  {
+    "word": "شط",
+    "displayWord": "شط",
+    "translation": "šaṭa i u ( شطط šaṭaṭ) to go to extremes, go too far, exceed the proper hounds, be excessive ( في in, with); to deviate ( عن from), digress, stray ( عن الموضوع from the topic) VIII to go to extremes, go too far, exceed the proper bounds, be excessive (",
+    "examples": []
+  },
+  {
+    "word": "شط",
+    "displayWord": "شط",
+    "translation": "šaṭṭ pl. شطوط šuṭūṭ bank, shore, coast, seashore, beach, strand │ شط العرب š. al-‘arab Shatt-al-Arab, river in SE Iraq formed by the Tigris and Euphrates rivers; the region traversed by this river on the Persian Gulf",
+    "examples": []
+  },
+  {
+    "word": "شطة",
+    "displayWord": "شطة",
+    "translation": "šaṭṭa a variety of pepper (Capsicum conicum Mey.; bot.) 470",
+    "examples": []
+  },
+  {
+    "word": "شطط",
+    "displayWord": "شطط",
+    "translation": "šaṭaṭ that which is excessive or exceeds the proper bounds, excess; inroad, encroachment, infringement",
+    "examples": []
+  },
+  {
+    "word": "شطيطة",
+    "displayWord": "شطيطة",
+    "translation": "šaṭīṭa a variety of pepper (Capsicum conicum Mey.; bot.)",
+    "examples": []
+  },
+  {
+    "word": "شاطئ",
+    "displayWord": "شاطئ",
+    "translation": "šāṭi’ pl. شواطئ šawāṭi’ شطآن , 2 šaṭ’ān shore, coast, seacoast, beach, strand",
+    "examples": []
+  },
+  {
+    "word": "شطب",
+    "displayWord": "شطب",
+    "translation": "šaṭab u (šaṭb) to out into slices or strips (",
+    "examples": []
+  },
+  {
+    "word": "شطب",
+    "displayWord": "شطب",
+    "translation": "šaṭb cut, slash; incision, scratch; crossing out, striking out, writing off; erasure, effacement; annulment, cancellation",
+    "examples": []
+  },
+  {
+    "word": "شطب",
+    "displayWord": "شطب",
+    "translation": "šaṭb pl. شطوب šuṭūb tall, strapping, sturdy, husky",
+    "examples": []
+  },
+  {
+    "word": "شطح",
+    "displayWord": "شطح",
+    "translation": "šaṭaḥa (šaṭḥ) to roam, rove, stray",
+    "examples": []
+  },
+  {
+    "word": "شطحة",
+    "displayWord": "شطحة",
+    "translation": "šaṭḥa pl. شطحات šaṭaḥāt escapade",
+    "examples": []
+  },
+  {
+    "word": "شطر",
+    "displayWord": "شطر",
+    "translation": "šaṭara ū (šaṭr) to halve, divide into two (equal) parts, bisect, cut through ( ھ s.th.); to out off, sever ( ھ s.th.); -- شطر بصره (baṣaruhū) u ( شطور šuṭūr) to be squinteyed; -- šaṭara u ( شطور šuṭūr, شطورة šuṭūra, شطارة šaṭāra) to withdraw, separate, disassociate o.s. ( عن from); - - šaṭara u, šaṭura u ( شطارة šaṭāra) to be sly, cunning, artful, shrewd; to be clever, smart, bright, skillful, adroit II to halve, divide into two (equal) parts, to bisect, out through ( ھ s.th.) III to halve, share by halves, share equally ( ه with s.o., s.th.), go halves ( ه with s.o.); to participate, take part ( ھ in s.th.), share ( ھ s.th.) │ شاطره",
+    "examples": []
+  },
+  {
+    "word": "شطر",
+    "displayWord": "شطر",
+    "translation": "šaṭr partition, division, separation, halving, bisecting; -- (pl. شطور šuṭūr, اشطر ašṭur) a half, moiety; hemistich; portion, share, lot; direction; šaṭra in the direction of ..., toward │ قصد شطره to move toward s.o., walk up to s.o.; ولى انظاره شطره (wallā anẓārahū) to direct one’s glances toward s.o.; ولى وجھه شطره (wajhahū) to turn one’s face toward s.th.",
+    "examples": []
+  },
+  {
+    "word": "شطرة",
+    "displayWord": "شطرة",
+    "translation": "šiṭra side, half",
+    "examples": []
+  },
+  {
+    "word": "شطارة",
+    "displayWord": "شطارة",
+    "translation": "šaṭāra slyness cunningness shrewdness, adroitness, skill, cleverness, smartness",
+    "examples": []
+  },
+  {
+    "word": "شطيرة",
+    "displayWord": "شطيرة",
+    "translation": "šaṭīra sandwich; schnitzel, steak",
+    "examples": []
+  },
+  {
+    "word": "شطر",
+    "displayWord": "شطر",
+    "translation": "šāṭir pl. شطار šuṭṭār sly, cunning, shrewd; scoundrel, villain; clever, smart, bright, adroit, skillful",
+    "examples": []
+  },
+  {
+    "word": "شطرنج",
+    "displayWord": "شطرنج",
+    "translation": "šiṭranj, šaṭranj chess │ لوحة الشطرنج lauḥat aš-š. chessboard",
+    "examples": []
+  },
+  {
+    "word": "شطف",
+    "displayWord": "شطف",
+    "translation": "šaṭafa u (šaṭf) to rinse (under flowing water), clean with water, wash ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "شطف",
+    "displayWord": "شطف",
+    "translation": "šuṭfa piece, chunk, lump; (pl,",
+    "examples": []
+  },
+  {
+    "word": "شطف",
+    "displayWord": "شطف",
+    "translation": "šutaf) flint (of a gunlook. eg.)",
+    "examples": []
+  },
+  {
+    "word": "شطفة",
+    "displayWord": "شطفة",
+    "translation": "šiṭfa splinter, chip, sliver 471",
+    "examples": []
+  },
+  {
+    "word": "شطن",
+    "displayWord": "شطن",
+    "translation": "1 šaṭana u (šaṭn) to fasten, attach, tie, bind",
+    "examples": []
+  },
+  {
+    "word": "شيطان",
+    "displayWord": "شيطان",
+    "translation": "2 and تشيطن see شيطن (alphabetically)",
+    "examples": []
+  },
+  {
+    "word": "شظف",
+    "displayWord": "شظف",
+    "translation": "šaẓafa u (šaẓf) to castrate",
+    "examples": []
+  },
+  {
+    "word": "شظف",
+    "displayWord": "شظف",
+    "translation": "šaẓaf pl. شظاف šiẓāf discomfort, hardship, difficulty; ruggedness of life │",
+    "examples": []
+  },
+  {
+    "word": "شظف",
+    "displayWord": "شظف",
+    "translation": "šaẓif hard, harsh, rough, rugged, austere (life, character)",
+    "examples": []
+  },
+  {
+    "word": "شظي",
+    "displayWord": "شظي",
+    "translation": "šaẓiya a (šaẓan) to be splintered, be shattered, splinter, shiver V do.",
+    "examples": []
+  },
+  {
+    "word": "شظية",
+    "displayWord": "شظية",
+    "translation": "šaẓīya pl. šaẓīy, شظايا šaẓāyā splinter, sliver, chip; shinbone; bone",
+    "examples": []
+  },
+  {
+    "word": "شع",
+    "displayWord": "شع",
+    "translation": "ša‘‘a i (ša‘‘, شعاع ši‘ā’) to disperse, scatter, diffuse, spread; to beam, radiate, flash up IV to emit, spread, diffuse ( ھ s.th.); to eradiate ( ھ s.th.); to emit rays or beams, radiate, beam V to emit rays or beams, radiate, beam, eradiate",
+    "examples": []
+  },
+  {
+    "word": "شع",
+    "displayWord": "شع",
+    "translation": "šu‘‘ rays, beams; spokes",
+    "examples": []
+  },
+  {
+    "word": "شعاع",
+    "displayWord": "شعاع",
+    "translation": "ša‘ā’ distracted, confused, bewildered, perplexed │ ( طار فؤاده (روحه",
+    "examples": []
+  },
+  {
+    "word": "شعاعا",
+    "displayWord": "شعاعا",
+    "translation": "his mind became confused, bewildered or perplexed",
+    "examples": []
+  },
+  {
+    "word": "شعاع",
+    "displayWord": "شعاع",
+    "translation": "šu‘ā’ (coll.; n. un. ة) pl. اشعة aši‘‘a rays, beams; spokes; horizontal wooden crosspieces (on a door or window) │ الأشعة",
+    "examples": []
   },
   {
     "word": "شعب",
-    "displayWord": "شَعْب",
-    "root": "شعب",
-    "translation": "people, nation, tribe, folk",
-    "examples": [
-      {
-        "ar": "وَجَعَلْنَاكُمْ شُعُوبًا وَقَبَائِلَ لِتَعَارَفُوا.",
-        "en": "And We made you into nations and tribes that you may know one another.",
-        "source": "Holy Quran"
-      }
-    ]
+    "displayWord": "شعب",
+    "translation": "ša‘aba a (ša‘b) to gather, assemble, rally ھم) people, ھ s.th.); to disperse, scatter ( ھم people, ھ s.th.) II to form branches, to branch; to branch (out), ramify, divide into branches or subdivisions ( ھ s.th.) V to branch (out), ramify; to b. subdivided, form subdivisions; to diverge, move in different directions, part company, separate, split, break up, become disunited, disorganized, disrupted; to branch off ( عن from); to result ( عن from) VIII to branch out, ramify; to branch off",
+    "examples": []
+  },
+  {
+    "word": "شعب",
+    "displayWord": "شعب",
+    "translation": "ša‘b pl. شعوب šu‘ūb people, folk; nation; tribe; race",
+    "examples": []
+  },
+  {
+    "word": "شعبي",
+    "displayWord": "شعبي",
+    "translation": "ša‘bī national, people’s; popular, folksy, folk- (in compounds) │ الجبھة الشعبية (jabha) popular front; ديموقراطية شعبية people’s democracy (in Marxist terminology)",
+    "examples": []
+  },
+  {
+    "word": "شعبية",
+    "displayWord": "شعبية",
+    "translation": "ša‘bīya popularity",
+    "examples": []
+  },
+  {
+    "word": "شعوبي",
+    "displayWord": "شعوبي",
+    "translation": "šu‘ūbī adherent of the شعوبية , see below",
+    "examples": []
+  },
+  {
+    "word": "شعب",
+    "displayWord": "شعب",
+    "translation": "ši‘b pl. شعاب ši‘āb mountain path, mountain trail; gorge, ravine, canyon; gulf, abyss; reef",
+    "examples": []
+  },
+  {
+    "word": "شعبة",
+    "displayWord": "شعبة",
+    "translation": "ši‘ba reef",
+    "examples": []
+  },
+  {
+    "word": "شعبة",
+    "displayWord": "شعبة",
+    "translation": "šu‘ba pl. شعب šu‘ab, شعاب ši‘āb branch, bough, limb, ramification; shoot, twig, sprig, spray; prong, tine; (sub-) division, section, department, branch, cell; field of study, discipline (e.g., at a university); part, portion; (pl. شعب šu‘ab) bronchus │ التھاب الشعب bronchitis (med.) 472",
+    "examples": []
+  },
+  {
+    "word": "شعبي",
+    "displayWord": "شعبي",
+    "translation": "šu‘abī bronchial",
+    "examples": []
+  },
+  {
+    "word": "شعيب",
+    "displayWord": "شعيب",
+    "translation": "ša‘īb disrupted, disorganized, disunited, scattered, dispersed",
+    "examples": []
+  },
+  {
+    "word": "شعبان",
+    "displayWord": "شعبان",
+    "translation": "ša‘bān2 Shaban, name of the eighth month of the Mohammedan year",
+    "examples": []
+  },
+  {
+    "word": "شعبذ",
+    "displayWord": "شعبذ",
+    "translation": "ša‘bada to practice jugglery, legerdemain, sleight of band, or magic",
+    "examples": []
+  },
+  {
+    "word": "شعبذة",
+    "displayWord": "شعبذة",
+    "translation": "ša‘bada jugglery, legerdemain, sleight of band, magic",
+    "examples": []
+  },
+  {
+    "word": "شعث",
+    "displayWord": "شعث",
+    "translation": "ša‘itqa a (ša‘at) to be or become disheveled, unkempt, matted (hair) II to dishevel, ruffle ( ھ the hair) V to become disheveled, ruffled (hair); to disintegrate, fall apart, decay (of buildings)",
+    "examples": []
+  },
+  {
+    "word": "شعث",
+    "displayWord": "شعث",
+    "translation": "ša‘at: لم شعثه lamma ša‘atahū to straighten out the muddled affairs of s.o., help s.o. to get back on his feet; to struggle back to one’s feet, “pick up”, recover",
+    "examples": []
+  },
+  {
+    "word": "شعث",
+    "displayWord": "شعث",
+    "translation": "ša‘it matted, disheveled, unkempt (hair); having matted, unkempt hair",
+    "examples": []
+  },
+  {
+    "word": "شعوذ",
+    "displayWord": "شعوذ",
+    "translation": "look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "شعر",
+    "displayWord": "شعر",
+    "translation": "ša‘ara u ( شعور šu‘ūr) to know ( ب s.th., ان that), have knowledge, be cognizant ( ب of); to come to know, realize, notice ( ب s.th., ان that); to perceive, feel, sense ( ب s.th., ان that), be conscious, be aware ( ب of s.th.); -- (ši‘r) to make or compose poetry, poetize, versify │ لم يشعر الا ب ... (illā bi-),",
+    "examples": []
+  },
+  {
+    "word": "شعر",
+    "displayWord": "شعر",
+    "translation": "ša‘r, ša‘ar (coll.; n. un. ة) pl. , اشعار",
+    "examples": []
+  },
+  {
+    "word": "شعور",
+    "displayWord": "شعور",
+    "translation": "šu‘ūr, شعار ši‘ār hair; bristles; fur, pelt",
+    "examples": []
+  },
+  {
+    "word": "شعرة",
+    "displayWord": "شعرة",
+    "translation": "ša‘ra (n. un.) pl. -āt a hair │ ... لا",
+    "examples": []
+  },
+  {
+    "word": "شعري",
+    "displayWord": "شعري",
+    "translation": "ša‘rī, ša‘arī hairy, hirsute, hair (adj.)",
+    "examples": []
+  },
+  {
+    "word": "شعرية",
+    "displayWord": "شعرية",
+    "translation": "ša‘rīya pl. -āt wire grille, wire netting, lattice work; O (without pl.) capillarity │ شعرية الشباك š. aš-šabbāk (latticed) window shade, jalousie",
+    "examples": []
+  },
+  {
+    "word": "شعرية",
+    "displayWord": "شعرية",
+    "translation": "ši‘rīya vermicelli",
+    "examples": []
+  },
+  {
+    "word": "شعراني",
+    "displayWord": "شعراني",
+    "translation": "ša‘rānī hairy, hirsute, shaggy",
+    "examples": []
+  },
+  {
+    "word": "شعر",
+    "displayWord": "شعر",
+    "translation": "ši‘r knowledge │ ليت شعري laita ši‘rī I wish I knew ...! would that I knew ...! -- (pl. اشعار aš‘ār) poetry; poem",
+    "examples": []
+  },
+  {
+    "word": "شعري",
+    "displayWord": "شعري",
+    "translation": "ši‘rī poetic(al)",
+    "examples": []
+  },
+  {
+    "word": "شعرى",
+    "displayWord": "شعرى",
+    "translation": "ša‘rā pl. شعارى ša‘ārā scrub country 473",
+    "examples": []
+  },
+  {
+    "word": "شعار",
+    "displayWord": "شعار",
+    "translation": "ši‘ār pl. شعر šu‘ur, اشعرة aš‘ira password, watchword; slogan; motto, device; mark, token, sign; signal; distinguishing mark or feature, characteristic, emblem, badge │ شعار",
+    "examples": []
+  },
+  {
+    "word": "شعير",
+    "displayWord": "شعير",
+    "translation": "ša‘īr (coll.) barley; (n. un. (ة barleycorn │ شعير لؤلؤي (lu’lu’ī) pearl barley; شعيرة الجفن š. al-jafn sty (med.) O شعيرة ša‘īra bead (of a gun sight, mil.; Syr.)",
+    "examples": []
+  },
+  {
+    "word": "شعيرات دموية",
+    "displayWord": "شعيرات دموية",
+    "translation": "šu‘airāt damawīya blood capillaries (biol.)",
+    "examples": []
+  },
+  {
+    "word": "شعيرية",
+    "displayWord": "شعيرية",
+    "translation": "ša‘īrīya vermicelli",
+    "examples": []
+  },
+  {
+    "word": "شعور",
+    "displayWord": "شعور",
+    "translation": "šu‘ūr knowledge, cognizance; consciousness, awareness; perception, discernment; perceptive faculty; sensation; sentiment; feeling; perceptiveness, sensitivity, sensibility; mood │ على غير شعور منه (gairi šu‘ūrin) without his being aware of it; غاب عن",
+    "examples": []
+  },
+  {
+    "word": "شعوري",
+    "displayWord": "شعوري",
+    "translation": "šu‘ūrī conscious; emotional │ لا",
+    "examples": []
+  },
+  {
+    "word": "شعوري",
+    "displayWord": "شعوري",
+    "translation": "unconscious, subconscious",
+    "examples": []
+  },
+  {
+    "word": "شعارى",
+    "displayWord": "شعارى",
+    "translation": "ša‘ārā (pl.) goats",
+    "examples": []
+  },
+  {
+    "word": "شعيرة",
+    "displayWord": "شعيرة",
+    "translation": "ša‘īra pl. شعائر ša‘ā’ir2 religious ceremony, rite, cultic practice; pl. also: places of worship, cultic shrines",
+    "examples": []
+  },
+  {
+    "word": "شعرور",
+    "displayWord": "شعرور",
+    "translation": "šu‘rūr poetaster, versifier, rhymester",
+    "examples": []
+  },
+  {
+    "word": "شويعر",
+    "displayWord": "شويعر",
+    "translation": "šuwai‘ir poetaster, venifier, rhymester",
+    "examples": []
+  },
+  {
+    "word": "شعر",
+    "displayWord": "شعر",
+    "translation": "maš‘ar pl. مشاعر mašā‘ir2 cultic shrine for ceremonies of the hadj; sensory organ; pl. senses, feelings, sensations │",
+    "examples": []
+  },
+  {
+    "word": "شاعر",
+    "displayWord": "شاعر",
+    "translation": "šā‘ir knowing (by instinctive perception), endowed with deeper insight, with intuition; (pl. الشعراء šu‘arā’2) poet",
+    "examples": []
+  },
+  {
+    "word": "شاعرية",
+    "displayWord": "شاعرية",
+    "translation": "šā‘irīya pl. -āt poetry; poetical work, poetization; poetical talent; poetship",
+    "examples": []
+  },
+  {
+    "word": "شواعر",
+    "displayWord": "شواعر",
+    "translation": "šawā‘ir attacks, diatribes, invectives, calumnies, defamations",
+    "examples": []
+  },
+  {
+    "word": "شعشع",
+    "displayWord": "شعشع",
+    "translation": "ša‘ša‘a to mix with water, dilute ( ھ a beverage); to shine, beam, radiate, glitter",
+    "examples": []
+  },
+  {
+    "word": "شعشع",
+    "displayWord": "شعشع",
+    "translation": "muša‘ša‘ half drunk, tipsy, fuddled",
+    "examples": []
+  },
+  {
+    "word": "شعط",
+    "displayWord": "شعط",
+    "translation": "ša‘aṭa a to scorch, sear, singe",
+    "examples": []
+  },
+  {
+    "word": "شعفة",
+    "displayWord": "شعفة",
+    "translation": "ša‘f􀀀a pl. شعاف ši‘āf summit, top, peak",
+    "examples": []
+  },
+  {
+    "word": "شعل",
+    "displayWord": "شعل",
+    "translation": "ša‘ala a (ša‘l), II and IV to light, kindle, ignite, inflame, set on fire ( ھ s.th.), set fire ( ھ to s.th.); to set ablaze, fan ( ھ s.th.) VIII to catch fire, start burning, ignite, bum, flame, blaze, flare up, break out (fire) │ اشتعل غضبا (gaḍaban) to be flaming with rage; اشتعل رأسه شيبا (šaiban) his hair was, or turned, white",
+    "examples": []
+  },
+  {
+    "word": "شعلة",
+    "displayWord": "شعلة",
+    "translation": "šu‘la pl. شعل šu‘al fire, blaze, flame; torch",
+    "examples": []
+  },
+  {
+    "word": "شعنينة",
+    "displayWord": "شعنينة",
+    "translation": "ša‘nīna pl. شعانين ša‘ānīn2 palm branch │",
+    "examples": []
+  },
+  {
+    "word": "شعواء",
+    "displayWord": "شعواء",
+    "translation": "ša‘wā’2 (used attributively with غارة gāra, حرب ḥarb, حملة ḥamla, and the like) large-scale, devastating everything (over a wide area)",
+    "examples": []
+  },
+  {
+    "word": "شعوذ",
+    "displayWord": "شعوذ",
+    "translation": "šawada to practice jugglery, legerdemain, sleight of band, or magic arts",
+    "examples": []
+  },
+  {
+    "word": "شعوذة",
+    "displayWord": "شعوذة",
+    "translation": "ša‘wada pl. -āt jugglery, legerdemain, sleight of hand; magic, magic arts; humbug, swindle, tricks",
+    "examples": []
+  },
+  {
+    "word": "شغب",
+    "displayWord": "شغب",
+    "translation": "šagaba, šagiba a (šagb, šagab) to disturb the peace, make trouble, stir up riots, cause an uproar, riot; to provoke discord, dissension, or controversy (among ، ب، على ه) III to make trouble, disturb the peace; to rebel ( على against), mutiny",
+    "examples": []
+  },
+  {
+    "word": "شغب",
+    "displayWord": "شغب",
+    "translation": "šagab, šagb unrest, trouble, disturbance, discord, dissension; riot, commotion, uproar, strife, tumult; brawl, fight, broil, fracas; row, wrangle, contention, quarrel, controversy",
+    "examples": []
+  },
+  {
+    "word": "شغب",
+    "displayWord": "شغب",
+    "translation": "šaggāb troublemaker, agitator, subverter",
+    "examples": []
+  },
+  {
+    "word": "شغوب",
+    "displayWord": "شغوب",
+    "translation": "šagūb causing much noise and unrest, riotous, turbulent, troublous",
+    "examples": []
+  },
+  {
+    "word": "شغر",
+    "displayWord": "شغر",
+    "translation": "šagara II ( شغور šugūr) to be devoid of fortifications, be unprotected (country); to be free, vacant, unoccupied, open (seat, position)",
+    "examples": []
+  },
+  {
+    "word": "شغور",
+    "displayWord": "شغور",
+    "translation": "šugūr vacancy (of a position)",
+    "examples": []
+  },
+  {
+    "word": "شاغر",
+    "displayWord": "شاغر",
+    "translation": "šāgir empty and unprotected (of a country); free, vacant, unoccupied, open (seat, position); شواغر šawāgir2 vacancies",
+    "examples": []
+  },
+  {
+    "word": "شغف",
+    "displayWord": "شغف",
+    "translation": "šagafa a (šagf) (to hit, or affect, the pericardium, i.e.) to infatuate, enamor, fill with ardent passion ( ه s.o.); pass. شغف به",
+    "examples": []
+  },
+  {
+    "word": "شغف",
+    "displayWord": "شغف",
+    "translation": "šagaf pericardium; passionate love, passion, sensual desire; infatuation, enamoredness, amorousness; ardent zeal, craze, love, passion",
+    "examples": []
+  },
+  {
+    "word": "شغف",
+    "displayWord": "شغف",
+    "translation": "šagif madly in love, infatuated ( ب with), enamored ( ب of), fascinated ( ب by)",
+    "examples": []
+  },
+  {
+    "word": "شغاف",
+    "displayWord": "شغاف",
+    "translation": "šigāf pericardium",
+    "examples": []
+  },
+  {
+    "word": "شغوف",
+    "displayWord": "شغوف",
+    "translation": "šagūf obsessed with fervent affection ( ب for); madly in love, infatuated ب) with), enamored ( ب of)",
+    "examples": []
+  },
+  {
+    "word": "شغل",
+    "displayWord": "شغل",
+    "translation": "šagala a (šagl, šugl) to occupy, busy ( ه ب s.o. with); to preoccupy ( ه s.o.), keep ( ه s.o.) busy, give ( ه s.o.) trouble; 475 to distract, divert, alienate ( ه عن s.o. from s.th.).; to occupy, fill, hold, have ( ھ office, seat, position); to take up, fill ( ھ s.th.), engage, engross ( ھ the attention); to engage, tie down ( ھ forces of the opponent); -- pass. šugila to occupy o.s., busy o.s. be busy ( ب with), be engaged in; to be taken up, occupied ( ب by, e.g., ground by buildings); شغل به عن to be distracted by s.th. from │ شغل نفسه ب to occupy o.s., busy o.s. with, work at, attend to; شغل البال to disquiet, discomfit, make uneasy, trouble, disturb; شغل الوقت ل (waqt) to devote tim, to II to busy, occupy ( ه s.o.), engage, engross ( ھ s.th.); to employ ( ه s.o.), provide employment ( ه for s.o.); to put ( ه s.o.) to work, make ( ھ a machine) work, put in operation, make run, start ( ھ a machine); to make, produce, manufacture, fabricate ( ھ s.th.); to invest (",
+    "examples": []
+  },
+  {
+    "word": "شغل",
+    "displayWord": "شغل",
+    "translation": "šugl occupancy, filling, taking up; detention, prevention, distraction ( عن from); -- (pl. اشتغال ištigāl, شغول šugūl) occupation, activity; work, job; business, concern │ شاغل شغل that which ie uppermost in one’s mind, chief or foremost concern; s.th. which preoccupies s.o.’s mind or distracts s.o. ( عن from);",
+    "examples": []
+  },
+  {
+    "word": "شغلك",
+    "displayWord": "شغلك",
+    "translation": "ilzam šuglaka mind your own business!",
+    "examples": []
+  },
+  {
+    "word": "شغال",
+    "displayWord": "شغال",
+    "translation": "šaggāl very busy; hard-working, industrious, diligent, laborious, active; being in operation, running (of a machine); (pl. -ūn) worker, workman, laborer",
+    "examples": []
+  },
+  {
+    "word": "شغيل",
+    "displayWord": "شغيل",
+    "translation": "šaggīl pl. ة (syr.) worker, workman, laborer, (lowly) employee",
+    "examples": []
+  },
+  {
+    "word": "شاغول",
+    "displayWord": "شاغول",
+    "translation": "šāgūl mainsheet (of a sailing vessel)",
+    "examples": []
+  },
+  {
+    "word": "شغلة",
+    "displayWord": "شغلة",
+    "translation": "pl. مشاغل mašāgil2 occupation, avocation, activity, business, concern, work, job; effort, exertion; diversion, distraction, preoccupation, disturbance",
+    "examples": []
+  },
+  {
+    "word": "شاغل",
+    "displayWord": "شاغل",
+    "translation": "šāgil pl. شواغل šawāgil that which preoccupies s.o., engrosses s.o.’s attention, takes up s.o.’s time; occupation, activity; object of concern or worry; pl.",
+    "examples": []
+  },
+  {
+    "word": "شواغل",
+    "displayWord": "شواغل",
+    "translation": "distractions, preoccupations │ وجد",
+    "examples": []
+  },
+  {
+    "word": "شاغلا عنه في",
+    "displayWord": "شاغلا عنه في",
+    "translation": "be found distraction from it in",
+    "examples": []
+  },
+  {
+    "word": "شفة",
+    "displayWord": "شفة",
+    "translation": "šafa pl. شفاه šifāh, شفوات šafawāt lip; rim, edge │ الشفة العليا (‘ulyā) upper lip,",
+    "examples": []
+  },
+  {
+    "word": "شفاھي، شفاھا، شفھى",
+    "displayWord": "شفاھي، شفاھا، شفھى",
+    "translation": "and مشافھة see شفه",
+    "examples": []
+  },
+  {
+    "word": "شفوي",
+    "displayWord": "شفوي",
+    "translation": "see شفو",
+    "examples": []
+  },
+  {
+    "word": "شفائف",
+    "displayWord": "شفائف",
+    "translation": "1 šafā’if شفايف , 2 šafāyif2 lips",
+    "examples": []
+  },
+  {
+    "word": "شف",
+    "displayWord": "شف",
+    "translation": "2 šaffa i ( شفوف šufūf, شفيف šafīf, شفف šafaf) to be thin, flimsy; to be transparent, diaphanous, translucid, pellucid; to let ( عن s.th.) shimmer through, reveal, disclose, betray ( عن s.th.) VIII to drink up, drain, empty ( ھ s.th.); to eat up, devour ( ھ s.th.) X to look ( ھ through s.th., e.g.. through a piece of fabric in order to ascertain its quality); to have a glimpse ( ھ of s.th.), hope ( ھ for s.th.); to try to see ( ھ through s.th.), seek to penetrate ( ھ s.th.); to perceive, discern, make out ( ھ s.th.); to shimmer ( من through s.th.), show ( من through s.th.); to manifest itself, become tangible, perceptible, noticeable",
+    "examples": []
+  },
+  {
+    "word": "شف",
+    "displayWord": "شف",
+    "translation": "šaff, šiff pl. شفوف šufūf diaphanous fabric, gauze",
+    "examples": []
+  },
+  {
+    "word": "شفف",
+    "displayWord": "شفف",
+    "translation": "šafaf transparency, translucence, diaphaneity",
+    "examples": []
+  },
+  {
+    "word": "شفيف",
+    "displayWord": "شفيف",
+    "translation": "šafīf thin, flimsy, translucent, transparent, diaphanous",
+    "examples": []
+  },
+  {
+    "word": "شفوف",
+    "displayWord": "شفوف",
+    "translation": "šufūf transparancy, translucence, diaphaneity",
+    "examples": []
+  },
+  {
+    "word": "شفافة",
+    "displayWord": "شفافة",
+    "translation": "šufāfa the rest in the glass",
+    "examples": []
+  },
+  {
+    "word": "شفاف",
+    "displayWord": "شفاف",
+    "translation": "šaffāf thin, flimsy, translucent, transparent, diaphanous",
+    "examples": []
+  },
+  {
+    "word": "شفافية",
+    "displayWord": "شفافية",
+    "translation": "šaffāfīya transparency, translucence, diaphaneity",
+    "examples": []
+  },
+  {
+    "word": "شفت",
+    "displayWord": "شفت",
+    "translation": "šift pl. شفوت šufūt (eg.) pincers, tweezers",
+    "examples": []
+  },
+  {
+    "word": "شفتر",
+    "displayWord": "شفتر",
+    "translation": "šaftara to pout, sulk",
+    "examples": []
+  },
+  {
+    "word": "شفتورة",
+    "displayWord": "شفتورة",
+    "translation": "šaftūra thick lip",
+    "examples": []
+  },
+  {
+    "word": "شفتشي",
+    "displayWord": "شفتشي",
+    "translation": "see جفتجي",
+    "examples": []
+  },
+  {
+    "word": "شفتلك",
+    "displayWord": "شفتلك",
+    "translation": "see جفتلك",
+    "examples": []
+  },
+  {
+    "word": "شفر",
+    "displayWord": "شفر",
+    "translation": "1 šafr pl. اشفار ašfār palpebral margin from which the eyelashes grow, (outer) edge of the eyelid; edge, rim, border, fringe",
+    "examples": []
+  },
+  {
+    "word": "شفر",
+    "displayWord": "شفر",
+    "translation": "šufr pl. اشفار ašfār palpebral margin from which the eyelashes grow, 477 (outer) edge of the eyelid; edge, rim, border. fringe; -- labium (anat.)",
+    "examples": []
+  },
+  {
+    "word": "شفرة",
+    "displayWord": "شفرة",
+    "translation": "šafra pl. šafarāt, شفار šifār large knife; blade (of a sword, of a knife); razor blade; (pl. شفار ) brink, edge, verge │ على",
+    "examples": []
+  },
+  {
+    "word": "شفرة الھاوية",
+    "displayWord": "شفرة الھاوية",
+    "translation": "on the brink of the abyas",
+    "examples": []
+  },
+  {
+    "word": "شفير",
+    "displayWord": "شفير",
+    "translation": "šafīr palpebral margin from which the eyelashes grow; (outer) edge of the eyelids; edge, rim, border, fringe",
+    "examples": []
+  },
+  {
+    "word": "شفر",
+    "displayWord": "شفر",
+    "translation": "2 (Fr. chiffre) cipher, code",
+    "examples": []
+  },
+  {
+    "word": "شفري",
+    "displayWord": "شفري",
+    "translation": "šifrī ciphered, coded, in code",
+    "examples": []
+  },
+  {
+    "word": "شفرة",
+    "displayWord": "شفرة",
+    "translation": "šifra cipher, code",
+    "examples": []
+  },
+  {
+    "word": "شفشف",
+    "displayWord": "شفشف",
+    "translation": "šafšafa to dry, dry out, parch, drain ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "شفط",
+    "displayWord": "شفط",
+    "translation": "la/ala to suck, suck up, absorb; to empty, drain; to sip",
+    "examples": []
+  },
+  {
+    "word": "شفاطة",
+    "displayWord": "شفاطة",
+    "translation": "šaffāṭa pl. -āt siphon │ O شفاطة",
+    "examples": []
+  },
+  {
+    "word": "شفع",
+    "displayWord": "شفع",
+    "translation": "šafa‘a a (šaf‘) to double ( ھ s.th.); to attach, add, subjoin ( ھ ب to s.th. s.th.), enclose ( ھ ب in s.th. s.th.); to give the (right of) pre-emption ( ه ب to s.o. on s.th.), grant ( ه s.o.) the lint refusal ( ب of s.th.); -- شفاعة) šafā‘a) to mediate, use one’s good offices, put in a good word, intercede, intervene, plead ( ل or في for or on behalf of s.o., الى with s.o. else) V to mediate, use one’s good offices, put in a good word, intercede, intervene, plead ( ل الى or في for or on behalf of s.o. with s.o. else)",
+    "examples": []
+  },
+  {
+    "word": "شفع",
+    "displayWord": "شفع",
+    "translation": "šaf‘ pl. اشفاع ašfā‘, شفاع šifā‘ either part of a pair; even number",
+    "examples": []
+  },
+  {
+    "word": "شفع",
+    "displayWord": "شفع",
+    "translation": "šaf‘ diplopia, double vision of a single object",
+    "examples": []
+  },
+  {
+    "word": "شفعي",
+    "displayWord": "شفعي",
+    "translation": "šaf‘ī even (of a number)",
+    "examples": []
+  },
+  {
+    "word": "شفعة",
+    "displayWord": "شفعة",
+    "translation": "šuf‘a (right of) pre-emption",
+    "examples": []
+  },
+  {
+    "word": "شفيع",
+    "displayWord": "شفيع",
+    "translation": "šafī‘ pl. شفعاء šufa‘ā’2 mediator, intercessor, advocate; patron saint (Chr.); holder of the right of pre-emption, preemptor",
+    "examples": []
+  },
+  {
+    "word": "شفاعة",
+    "displayWord": "شفاعة",
+    "translation": "šafā‘a mediation, intercession, advocacy",
+    "examples": []
+  },
+  {
+    "word": "شافع",
+    "displayWord": "شافع",
+    "translation": "šāfi‘ mediator, intercessor, advocate; holder of the right of preemption, pre-emptor",
+    "examples": []
+  },
+  {
+    "word": "شافعي",
+    "displayWord": "شافعي",
+    "translation": "Shafiitic; (pl. -ūn, شوافع šawāfi‘) adherent of the Shafiitic school, Shafiite",
+    "examples": []
+  },
+  {
+    "word": "شفق",
+    "displayWord": "شفق",
+    "translation": "IV to pity, commiserate ( على s.o.), feel pity ( على for), sympathize ( على with); to be concerned ( ان that, على about) worry ( ان that, على about), fear ( ان that, على for, من s.o., s.th.), be apprehensive, feel anxiety (",
+    "examples": []
+  },
+  {
+    "word": "شفق",
+    "displayWord": "شفق",
+    "translation": "šafaq evening glow, twilight, dusk │ الشفق الجنوبي (janūbī) aurora australis;",
+    "examples": []
+  },
+  {
+    "word": "شفقة",
+    "displayWord": "شفقة",
+    "translation": "šafaqa compassion, commiseration, pity, sympathy, kind(li)ness, tenderness, affectionateness, solicitude, loving care │ عديم الشفقة pitiless, merciless",
+    "examples": []
+  },
+  {
+    "word": "شفوق",
+    "displayWord": "شفوق",
+    "translation": "šafūq compassionate, sympathetic, affectionate, tender, solicitous, kind(ly)",
+    "examples": []
+  },
+  {
+    "word": "شفيق",
+    "displayWord": "شفيق",
+    "translation": "šafīq compassionate, sympathetic, affectionate, tender, solicitous, kind(ly)",
+    "examples": []
+  },
+  {
+    "word": "شافن",
+    "displayWord": "شافن",
+    "translation": "šāfin proud",
+    "examples": []
+  },
+  {
+    "word": "شفه",
+    "displayWord": "شفه",
+    "translation": "III to speak (mouth to mouth) ( ه to s.o.)",
+    "examples": []
+  },
+  {
+    "word": "شفه",
+    "displayWord": "شفه",
+    "translation": "pl. شفاه، شفوات see شف 2",
+    "examples": []
+  },
+  {
+    "word": "شفھي",
+    "displayWord": "شفھي",
+    "translation": "šafahī lip-, labio- (in compounds), labial; oral; الشفھي orals (= oral examination); شفھيا šafahīyan orally │",
+    "examples": []
+  },
+  {
+    "word": "شفاھا",
+    "displayWord": "شفاھا",
+    "translation": "šifāhan orally",
+    "examples": []
+  },
+  {
+    "word": "شفاھي",
+    "displayWord": "شفاھي",
+    "translation": "šifāhī oral; الشفاھي the orals (= oral examination); شفاھيا šifāhīyan orally",
+    "examples": []
+  },
+  {
+    "word": "شفو",
+    "displayWord": "شفو",
+    "translation": "IV to be very close ( على to s.th.), be on the verge, on the brink of s.th. ( اشفى به │ ( على",
+    "examples": []
+  },
+  {
+    "word": "شفا",
+    "displayWord": "شفا",
+    "translation": "šafan pl. شفاء ašfā’ edge, rim, border, brink, verge",
+    "examples": []
+  },
+  {
+    "word": "شفوي",
+    "displayWord": "شفوي",
+    "translation": "šafawī lip-, labio- (in compounds), labial; oral; شفويا šafawīyan orally │ الحروف الشفوية the labials b, f, m, w (phon.)",
+    "examples": []
+  },
+  {
+    "word": "شفى",
+    "displayWord": "شفى",
+    "translation": "šafā i ( شفاء šifā’) to cure ( ه من s.o. of a disease), heal ( ه من s.o. of a disease, ھ a wound), make ( ه s.o.) well, restore ( ه s.o.) to health; -- pass. šufya to be healed, be cured, be restored to health, recover, convalesce, recuperate; to heal, heal up (wound) │ شفي غلته (غليله ) (gullatahū) to quench one’s thirst, gratify one’s desire, satisfy one’s thirst for revenge; شفي غيظه",
+    "examples": []
+  },
+  {
+    "word": "شفاء",
+    "displayWord": "شفاء",
+    "translation": "šifā’ cure, healing, restoration, recovery, recuperation, convalescence; satisfaction, gratification; (pl. اشفية ašfiyah,",
+    "examples": []
+  },
+  {
+    "word": "شفائي",
+    "displayWord": "شفائي",
+    "translation": "`sifā’ī healing, curative, medicative",
+    "examples": []
+  },
+  {
+    "word": "شاف",
+    "displayWord": "شاف",
+    "translation": "šāfin healing, curative, medicative, salutary; satisfactory, clear, unquivocal (of an answer)",
+    "examples": []
+  },
+  {
+    "word": "شق",
+    "displayWord": "شق",
+    "translation": "šaqqa u (šaqq) to split, cleave, part, tear, rend, rip ( ھ s.th.); to break ( ھ s.th.); to plow, till, break up ( ھ the ground); ھ to furrow, traverse, cross ( ھ s.th.); to pass go, travel ( ھ through a region); to break (dawn); -- ( شقوق šuqūq) to break forth, shoot up, sprout (plant), break through, erupt (tooth); -- (šaqq, مشقة mašaqqa) to be heavy, oppressive, burden some unbearable ( على for s.o.); to grieve, trouble على) s.o.); to molest, harass inconvenience على) s.o.), be troublesome, cumbersome (",
+    "examples": []
+  },
+  {
+    "word": "شارعا",
+    "displayWord": "شارعا",
+    "translation": "(طريقا ) to build a street (a road); شق",
+    "examples": []
+  },
+  {
+    "word": "شق عصا الطاعة",
+    "displayWord": "شق عصا الطاعة",
+    "translation": "(‘aṣā ṭ-ṭā‘a) to rebel, revolt, renounce allegiance; شق عصا القوم (‘aṣā lqaum) to sow discord among people; ما شق",
+    "examples": []
+  },
+  {
+    "word": "شق",
+    "displayWord": "شق",
+    "translation": "šaqq pl. شقوق šuqūq fissure, crack, chink, crevice, rift, cleft, crevasse, chasm, split, rent, tear, rip, gap, slit, slot; half, moiety; -- fission, splitting, cracking, cleavage │ شق الذرة š. ad-darra atomic fission",
+    "examples": []
+  },
+  {
+    "word": "شق",
+    "displayWord": "شق",
+    "translation": "šiqq half, side, part, portion; trouble, difficulty, hardship │ شق المعارضة š. al-mu‘āraḍa opposition party; لا ... الا",
+    "examples": []
+  },
+  {
+    "word": "شقة",
+    "displayWord": "شقة",
+    "translation": "šaqqa rift, tear, rip, fissure, crack, split, crevice",
+    "examples": []
+  },
+  {
+    "word": "شقة",
+    "displayWord": "شقة",
+    "translation": "šiqqa pl. شقق šiqaq, شقاق šiqāq a half, moiety; piece; splinter; trouble, toil, labor, difficulty, hardship; difficult journey; destination of a journey; distance",
+    "examples": []
+  },
+  {
+    "word": "شقة",
+    "displayWord": "شقة",
+    "translation": "šiqqa, šaqqa pl. شقق šiqaq apartment, flat, split-level apartment; compertmeut (in a train)",
+    "examples": []
+  },
+  {
+    "word": "شقة",
+    "displayWord": "شقة",
+    "translation": "šuqqa pl. شقق šuqaq trouble, toil, labor, difficulty, hardship; difficult journey; destination of a journey; distance │ بعد الشقة bu‘d aš-šuqqa (and aš-šiqqa) large or wide distance; بعيد الشقة b. aš-šiqqa (and aš-šiqqa) far away, distant, remote",
+    "examples": []
+  },
+  {
+    "word": "شقيق",
+    "displayWord": "شقيق",
+    "translation": "šaqīq a half, moiety; (pl. اشقة ašiqqa, اشقاء ašiqqā’) full brother, brother on the paternal and maternal side; (attributively) brother-, sister-; -- anemone │ القطر الشقيق (quṭr) the brother country;",
+    "examples": []
+  },
+  {
+    "word": "شقيقة",
+    "displayWord": "شقيقة",
+    "translation": "šaqīqa pl. -āt, شقائق šaqā’iq2 full sister, sister on the paternal and maternal side; hemicrania, migraine │ شقائق النعمان š. an-nu‘mān red anemones (bot.)",
+    "examples": []
+  },
+  {
+    "word": "شقاق",
+    "displayWord": "شقاق",
+    "translation": "šiqāq disunity, dissension, discord",
+    "examples": []
+  },
+  {
+    "word": "شاق",
+    "displayWord": "شاق",
+    "translation": "šāqq troublesome, tiresome, wearisome, cumbersome, tiresome, tedious, fatiguing, arduous, onerous, difficult, hard │ اشغال شاقة hard labor",
+    "examples": []
+  },
+  {
+    "word": "شقح",
+    "displayWord": "شقح",
+    "translation": "IV to send far away, remove to a distant place ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "شقذف",
+    "displayWord": "شقذف",
+    "translation": "šuqduf pl. شقاذف šaqādif2 a kind of sedan 480",
+    "examples": []
+  },
+  {
+    "word": "شقر",
+    "displayWord": "شقر",
+    "translation": "šaqira a (šaqar) and šaqura u ( شقرة šuqra) to be of fair complexion, be light skinned; to be blond, fair-haired",
+    "examples": []
+  },
+  {
+    "word": "شقر",
+    "displayWord": "شقر",
+    "translation": "šaqar fair-complexionedness; blondness",
+    "examples": []
+  },
+  {
+    "word": "شقرة",
+    "displayWord": "شقرة",
+    "translation": "šuqra fair-complexionedness; blondness; redness",
+    "examples": []
+  },
+  {
+    "word": "شقرق",
+    "displayWord": "شقرق",
+    "translation": "saqraqa to be gay, cheerful, be exhilarated, amuse o.s.",
+    "examples": []
+  },
+  {
+    "word": "شقشق",
+    "displayWord": "شقشق",
+    "translation": "šaqšaqa to twitter, peep, chirp; to babble ب) s.th.); to peep, break (dawn) │ شقشق",
+    "examples": []
+  },
+  {
+    "word": "شقشقة",
+    "displayWord": "شقشقة",
+    "translation": "šaqšaqa pl. -āt twitter(ing), peopling), chirp(ing); (silly) prattle; pl.",
+    "examples": []
+  },
+  {
+    "word": "شقاشق",
+    "displayWord": "شقاشق",
+    "translation": "šaqāšiq2 rigmarole, rambling talk │",
+    "examples": []
+  },
+  {
+    "word": "شقشقة اللسان",
+    "displayWord": "شقشقة اللسان",
+    "translation": "(silly) prattle; شقشقة النھار s. annahār daybreak, peep of dawn",
+    "examples": []
+  },
+  {
+    "word": "شقشقة",
+    "displayWord": "شقشقة",
+    "translation": "šiqšiqa pl. شقاشق šaqāšiq2 faucal bag of the camel",
+    "examples": []
+  },
+  {
+    "word": "شقف",
+    "displayWord": "شقف",
+    "translation": "šaqaf (coll.; n. un. ة) (pot)sherds",
+    "examples": []
+  },
+  {
+    "word": "شقافة",
+    "displayWord": "شقافة",
+    "translation": "šuqāfa (pot)sherds",
+    "examples": []
+  },
+  {
+    "word": "شاقل",
+    "displayWord": "شاقل",
+    "translation": "1 šāqil shekel",
+    "examples": []
+  },
+  {
+    "word": "شاقول",
+    "displayWord": "شاقول",
+    "translation": "2 šāqūl plumbline, plummet",
+    "examples": []
+  },
+  {
+    "word": "شقلب",
+    "displayWord": "شقلب",
+    "translation": "šaqlaba to turn things upside down, upset things II tašaqlaba to be upset, be toppled; to turn a somersault",
+    "examples": []
+  },
+  {
+    "word": "شقلبة",
+    "displayWord": "شقلبة",
+    "translation": "šaqlaba pl. -āt somersault شقو) and شقي) شقا šaqā u ( شقو šaqw) to make ( ه s.o.) unhappy, miserable, wretched, distress ( ه s.o.); -- شقي šaqiya a (",
+    "examples": []
+  },
+  {
+    "word": "شقاء",
+    "displayWord": "شقاء",
+    "translation": "šaqā’, شقاوة saqāwa, شقوة šaqwa) to be unhappy, miserable, wretched, distressed; to have trouble ( ب with, in s.th.) IV to make ( ه s.o.) unhappy, miserable, wretched, distress ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "شقاء",
+    "displayWord": "شقاء",
+    "translation": "šaqā’ and شقا saqan misfortune, distress, misery, wretchedness, pain, suffering; hardship, trouble, toil, drudgery",
+    "examples": []
+  },
+  {
+    "word": "شقي",
+    "displayWord": "شقي",
+    "translation": "šaqīy pl. اشقياء ašqiyā’2 unhappy, unlucky, miserable, wretched, distressed; damned; wretch, villain, culprit, criminal, scoundrel, rogue; nasty, naughty, mischievous",
+    "examples": []
+  },
+  {
+    "word": "شقوة",
+    "displayWord": "شقوة",
+    "translation": "šaqwa misfortune, distress, misery",
+    "examples": []
+  },
+  {
+    "word": "شقاوة",
+    "displayWord": "شقاوة",
+    "translation": "saqāwa misfortune, distress, misery; mischief, nastiness, naughtiness",
+    "examples": []
+  },
+  {
+    "word": "شك",
+    "displayWord": "شك",
+    "translation": "1 šakka u (šakk) to pierce, transfix ( ه s.o. ب with); to impale, spit ( ھ ب s.th. on); to prick, stab ( ھ s.th.); to doubt ( ب or في s.o., s.th.); to distrust, suspect, question ( ب or",
+    "examples": []
+  },
+  {
+    "word": "شك",
+    "displayWord": "شك",
+    "translation": "šakk pl. شكوك šukūk doubt, uncertainty, suspicion, misgiving │ بلا شك (bi-lā), لا شك (šakka), ولا شك wa-lā šakka,",
+    "examples": []
+  },
+  {
+    "word": "شكة",
+    "displayWord": "شكة",
+    "translation": "šakka stab, tšhrust, jab (with the point of a weapon)",
+    "examples": []
+  },
+  {
+    "word": "شاك",
+    "displayWord": "شاك",
+    "translation": "šākk doubting, in doubt, skeptical │ شاك السلاح or شاك في السلاح armed to the teeth, bristling with arms",
+    "examples": []
+  },
+  {
+    "word": "شكك",
+    "displayWord": "شكك",
+    "translation": "2 šakkaka (eg.) to sell on credit; to buy on credit; to borrow",
+    "examples": []
+  },
+  {
+    "word": "شكك",
+    "displayWord": "شكك",
+    "translation": "šukuk (eg.) on credit",
+    "examples": []
+  },
+  {
+    "word": "شك",
+    "displayWord": "شك",
+    "translation": "3 (Fr. chèque) pl. شكات check",
+    "examples": []
+  },
+  {
+    "word": "شكر",
+    "displayWord": "شكر",
+    "translation": "1 šakara u (šukr, شكران šukrān) to thank ( ل or ه s.o., على or ل or ه for s.th.), be thankful, grateful ( ل or ه to s.o., على or ل or",
+    "examples": []
+  },
+  {
+    "word": "شكر",
+    "displayWord": "شكر",
+    "translation": "šukr pl. شكور šukūr thankfulness, gratefulness, gratitude; thanks, acknowledgment; praise, laudation │ شكرا",
+    "examples": []
+  },
+  {
+    "word": "شكرا جزيلا",
+    "displayWord": "شكرا جزيلا",
+    "translation": "to express many thanks to s.o.",
+    "examples": []
+  },
+  {
+    "word": "شكري",
+    "displayWord": "شكري",
+    "translation": "šukrī of thanks, thanking",
+    "examples": []
+  },
+  {
+    "word": "شكران",
+    "displayWord": "شكران",
+    "translation": "šukrān thankfulness, gratefulness, gratitude; thanks, acknowledgment; praise, laudation",
+    "examples": []
+  },
+  {
+    "word": "شكور",
+    "displayWord": "شكور",
+    "translation": "šakūr very thankful",
+    "examples": []
+  },
+  {
+    "word": "شاكر",
+    "displayWord": "شاكر",
+    "translation": "šākir thankful, grateful",
+    "examples": []
+  },
+  {
+    "word": "شكارة",
+    "displayWord": "شكارة",
+    "translation": "2 šikāra pl. شكائر šakā’ir2 (eg.) sack, gunny sack",
+    "examples": []
+  },
+  {
+    "word": "شوكران",
+    "displayWord": "شوكران",
+    "translation": "3 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "شيكران",
+    "displayWord": "شيكران",
+    "translation": "4 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "شكس",
+    "displayWord": "شكس",
+    "translation": "šakusa u ( شكاسة šakāsa) and šakisa a (šakas) to be malicious, spiteful, querulous, quarrelsome, peevish, petulant, ill-tempered, morose, surly, sullen, sulky, grumpy, unfriendly III to pick a quarrel, to quarrel ( ه with s.o.) VI to quarrel (with one another), be querulous, quarrelsome, petulant; to be incongruous",
+    "examples": []
+  },
+  {
+    "word": "شكس",
+    "displayWord": "شكس",
+    "translation": "šakis pl. شكس šuks malicious, spiteful, querulous, quarrelsome, peevish, petulant, ill-tempered, morose, surly, sullen, sulky, grumpy, unfriendly",
+    "examples": []
+  },
+  {
+    "word": "شكاسة",
+    "displayWord": "شكاسة",
+    "translation": "šakāsa malice, spite, querulousness, peevishness, petulance, illtemperedneess, moroseness, surliness, sullenness, sulkiness, grumpiness, unfriendliness; rudeness",
+    "examples": []
+  },
+  {
+    "word": "شاكوش",
+    "displayWord": "شاكوش",
+    "translation": "and شكوش look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "شكل",
+    "displayWord": "شكل",
+    "translation": "šakala u (šakl) to hobble ( ھ بالشكال an animal with the šikāl, q.v.); to vowel, point, provide with vowel points ( ھ a text); to be dubious, ambiguous, equivocal, vague, obscure, intricate, difficult II = I; to shape, fashion, form, create, mold, organize, build up ( ھ s.th.); to diversify, vary, variegate ( ھ s.th.), bring variety ( ھ into s.th.) III to be similar",
+    "examples": []
+  },
+  {
+    "word": "شكل",
+    "displayWord": "شكل",
+    "translation": "šakl pl. اشكال aškāl, شكول šukūl similarity, resemblance, likeness; outward appearance, figure, form, shape, build; form of perception, perceptual form (as opposed to matter or content; philos.); 482 type, out, pattern; mode, manner; sort, kind, specimen; شكل vowelization, voweling; شكلا formally, in form │ ھم",
+    "examples": []
+  },
+  {
+    "word": "شكلي",
+    "displayWord": "شكلي",
+    "translation": "šaklī formal; pl. شكليات formalities O شكلية šaklīya formalism",
+    "examples": []
+  },
+  {
+    "word": "شكل",
+    "displayWord": "شكل",
+    "translation": "šikl coquetry, coquettishness",
+    "examples": []
+  },
+  {
+    "word": "شكلة",
+    "displayWord": "شكلة",
+    "translation": "šakila coquettish woman, coquette, flirt",
+    "examples": []
+  },
+  {
+    "word": "شكلي",
+    "displayWord": "شكلي",
+    "translation": "šuklī quarrelsome, peevish",
+    "examples": []
+  },
+  {
+    "word": "شكل",
+    "displayWord": "شكل",
+    "translation": "šikal pl. -āt, شكل šukul fetter, hobble (for shackling the feet of a riding animal)",
+    "examples": []
+  },
+  {
+    "word": "شاكلة",
+    "displayWord": "شاكلة",
+    "translation": "šākila way, manner, mode; (pl.",
+    "examples": []
+  },
+  {
+    "word": "شواكل",
+    "displayWord": "شواكل",
+    "translation": "šawākil2) flank, side, groin │ على",
+    "examples": []
+  },
+  {
+    "word": "شاكلة",
+    "displayWord": "شاكلة",
+    "translation": "in the manner of, of the kind of, like,",
+    "examples": []
+  },
+  {
+    "word": "شاكلتھم",
+    "displayWord": "شاكلتھم",
+    "translation": "to be of the same kind, of the same strain as s.th.",
+    "examples": []
+  },
+  {
+    "word": "شكم",
+    "displayWord": "شكم",
+    "translation": "šakama u (šakm) to bridle ( ھ an animal); to bribe ( ه s.o.); to silence, gag, muzzle (s.o.)",
+    "examples": []
+  },
+  {
+    "word": "شكيمة",
+    "displayWord": "شكيمة",
+    "translation": "šakīma pl. شكائم šakā’im شكم , 2 šukum, شكيم šakīm bit, curb, snaffle, bridoon; (pl. شكائم ) O brake (of a wheel); unruliness, unyieldingness obstinacy; contempt, disdain, scorn │ شديد الشكيمة stubborn, obstinate, unyielding; قوة الشكيمة quwwat aš-š. energy; قوي الشكيمة qawīy ašš. energetic, vigorous, active",
+    "examples": []
+  },
+  {
+    "word": "شكه",
+    "displayWord": "شكه",
+    "translation": "III to resemble ( ھ s.th.), he like s.th. ( (ھ",
+    "examples": []
+  },
+  {
+    "word": "شكا",
+    "displayWord": "شكا",
+    "translation": "(شكو ) šakā u ( شكو šakw, شكوى šakwā, شكاة šakāh, شكاية šikāya, شكية šakīya) to complain ( من or ھ، ه of, about, ل or الى to s.o., من or ھ of or about s.th.), make a complaint; to raise or lodge a complaint ( من or ھ، ه of, about or against s.o., ل or الى with s.o.); to suffer ( ھ from s.th.) V = I; VI to complain to one another ھ) of, about s.th.) VIII = I",
+    "examples": []
+  },
+  {
+    "word": "شكوة",
+    "displayWord": "شكوة",
+    "translation": "šakwa complaint, grievance; (pl.",
+    "examples": []
+  },
+  {
+    "word": "شكوات",
+    "displayWord": "شكوات",
+    "translation": "šakawāt, شكاء šikā’) small skin (for water or milk)",
+    "examples": []
+  },
+  {
+    "word": "شكوى",
+    "displayWord": "شكوى",
+    "translation": "šakwā pl. شكاوى šakāwā complaint; accusation; suffering, grievance",
+    "examples": []
+  },
+  {
+    "word": "شكاة",
+    "displayWord": "شكاة",
+    "translation": "šakāh complaint; accusation; suffering, grievance",
+    "examples": []
+  },
+  {
+    "word": "شكاية",
+    "displayWord": "شكاية",
+    "translation": "šikāya complaint; accusation; suffering, grievance",
+    "examples": []
+  },
+  {
+    "word": "شكية",
+    "displayWord": "شكية",
+    "translation": "šakīya complaint; accusation; suffering, grievance",
+    "examples": []
+  },
+  {
+    "word": "شكاء",
+    "displayWord": "شكاء",
+    "translation": "šakkā’ given to complaining, querulous",
+    "examples": []
+  },
+  {
+    "word": "شاك",
+    "displayWord": "شاك",
+    "translation": "šākin complainant, plaintiff │ شاكي",
+    "examples": []
+  },
+  {
+    "word": "شكوريا",
+    "displayWord": "شكوريا",
+    "translation": "šikūriyā chicory",
+    "examples": []
+  },
+  {
+    "word": "شكولاته",
+    "displayWord": "شكولاته",
+    "translation": "šukūlāta (eg.), šikōlāta (syr.), chocolate",
+    "examples": []
+  },
+  {
+    "word": "شاكوش",
+    "displayWord": "شاكوش",
+    "translation": "and شكوش see شاكوش (alphabetically)",
+    "examples": []
+  },
+  {
+    "word": "شل",
+    "displayWord": "شل",
+    "translation": "šalla a (šall, شلل šalal) to dry up, wither, become crippled, stunted; to be paralyzed, be lame; -- šalla u to paralyze ( ھ s.th.) │",
+    "examples": []
+  },
+  {
+    "word": "شل حركته",
+    "displayWord": "شل حركته",
+    "translation": "(ḥarakatahū) to overwhelm s.o., لاring s.o. down IV to cause ( ھ the hand) to wither; to paralyze ( ھ s.th.); to neutralize, bring to a stand-still ( ھ s.th.) VII to be paralyzed, be lamed",
+    "examples": []
+  },
+  {
+    "word": "شلة",
+    "displayWord": "شلة",
+    "translation": "šalla destination (of a journey)",
+    "examples": []
+  },
+  {
+    "word": "شلة",
+    "displayWord": "شلة",
+    "translation": "šilla pl. شلل šilal hank, skein (of yarn); coil, spool; party, group",
+    "examples": []
+  },
+  {
+    "word": "شلل",
+    "displayWord": "شلل",
+    "translation": "šalal paralysill, pelsy, paralyzation (also fig.) │ شلل الأطفال š. al-aṭfāl, الشلل",
+    "examples": []
+  },
+  {
+    "word": "شلال",
+    "displayWord": "شلال",
+    "translation": "šallāl pl. -āt cataract, waterfall, rapids",
+    "examples": []
+  },
+  {
+    "word": "شلبي",
+    "displayWord": "شلبي",
+    "translation": "šalabī dandyish, foppish; dandy, fop; (pal.) nice, handsome, beautiful",
+    "examples": []
+  },
+  {
+    "word": "شلت",
+    "displayWord": "شلت",
+    "translation": "1 II to kick",
+    "examples": []
+  },
+  {
+    "word": "شلتة",
+    "displayWord": "شلتة",
+    "translation": "2 šalta pl. -āt, شلت šilat mattress",
+    "examples": []
+  },
+  {
+    "word": "شلح",
+    "displayWord": "شلح",
+    "translation": "šalaḥa a (šalḥ) to take off ( ثيابه tiyābahū one’s clothes); to shed the cloth ( ,(ھ renounce the ministry (monk, prieat) II to undress, disrobe, strip ( ه s.o.); to roh, plunder ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "شلشل",
+    "displayWord": "شلشل",
+    "translation": "šalšala to dribble, trickle",
+    "examples": []
+  },
+  {
+    "word": "شلفة",
+    "displayWord": "شلفة",
+    "translation": "šilfa (razor) blade",
+    "examples": []
+  },
+  {
+    "word": "شلق",
+    "displayWord": "شلق",
+    "translation": "1 šalaqa u (šalq) to split lengthwise ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "شلق",
+    "displayWord": "شلق",
+    "translation": "bale (e.g., of hay)",
+    "examples": []
+  },
+  {
+    "word": "شولقي",
+    "displayWord": "شولقي",
+    "translation": "2 šaulaqī person with a sweet tooth",
+    "examples": []
+  },
+  {
+    "word": "شليك",
+    "displayWord": "شليك",
+    "translation": "look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "شولم",
+    "displayWord": "شولم",
+    "translation": "1 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "شيلم",
+    "displayWord": "شيلم",
+    "translation": "2 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "شلن",
+    "displayWord": "شلن",
+    "translation": "(Engl.) šilin pl. -āt shilling",
+    "examples": []
+  },
+  {
+    "word": "شلو",
+    "displayWord": "شلو",
+    "translation": "šilw pl. اشلاء ašlā’ corpse (esp. one in a state of decay); severed member (of the body); part torn off, fragment; remnant; stump of a limb",
+    "examples": []
+  },
+  {
+    "word": "شليك",
+    "displayWord": "شليك",
+    "translation": "(Turk. çilek) šilek (eg.) strawberries",
+    "examples": []
+  },
+  {
+    "word": "شم",
+    "displayWord": "شم",
+    "translation": "šamma (1st pers. perf. šamimtu) a and (1st pers. perf. šamamtu) u (šamm, شميم šamīm) to smell, sniff ( ھ s.th.); to snulf ( ھ s.th.); to emanate, exude ( من from) │ شم النسيم",
+    "examples": []
+  },
+  {
+    "word": "شم",
+    "displayWord": "شم",
+    "translation": "šamm smelling; sense of smell, olfaction │ شم النسيم Egyptian popular holiday on the Monday following the Greek Coptic Easter at the end of March, in April or in early May",
+    "examples": []
+  },
+  {
+    "word": "شمة",
+    "displayWord": "شمة",
+    "translation": "šamma pinch (of snuff); smell, odor; slight trace of s.th., whiff",
+    "examples": []
+  },
+  {
+    "word": "شمي",
+    "displayWord": "شمي",
+    "translation": "šammī olfactory",
+    "examples": []
+  },
+  {
+    "word": "شمم",
+    "displayWord": "شمم",
+    "translation": "šamam pride, haughtiness, superciliousness",
+    "examples": []
+  },
+  {
+    "word": "شمام",
+    "displayWord": "شمام",
+    "translation": "šammām pl. -ūn (tobacco) snuffer",
+    "examples": []
+  },
+  {
+    "word": "شمام",
+    "displayWord": "شمام",
+    "translation": "šammām (coll.; n. un. ة) muskmelon, cantaloupe",
+    "examples": []
+  },
+  {
+    "word": "شامة",
+    "displayWord": "شامة",
+    "translation": "šāmma sense of smell, olfaction",
+    "examples": []
+  },
+  {
+    "word": "شمبانيا",
+    "displayWord": "شمبانيا",
+    "translation": "(Fr.) šambanyā champagne",
+    "examples": []
+  },
+  {
+    "word": "شمت",
+    "displayWord": "شمت",
+    "translation": "šamita a ( شمات šamāt, شماتة šamāta) to rejoice at the misfortune of s.o. ( ب), gloat over s.o.’s ( ب) mishaps, savor s.o.’s ( (ب bad luck II to disappoint ( ه s.o.) IV to cause s.o. ( ه) to take malicious pleasure in the mishaps of another ( (ب",
+    "examples": []
+  },
+  {
+    "word": "شمات",
+    "displayWord": "شمات",
+    "translation": "šamāt malicious joy, Schadenfreude",
+    "examples": []
+  },
+  {
+    "word": "شماتة",
+    "displayWord": "شماتة",
+    "translation": "šaamāta malicious joy, Schadenfreude, malice",
+    "examples": []
+  },
+  {
+    "word": "شامت",
+    "displayWord": "شامت",
+    "translation": "šāmit pl. شمات šummāt, pl. f. شوامت šawāmit2 enjoying another’s misfortune, malicious, gloating",
+    "examples": []
+  },
+  {
+    "word": "شمخ",
+    "displayWord": "شمخ",
+    "translation": "šamaka a (samk, شموخ šumūk) to be high, tall, lofty, tower up, loom (mountain, building); to disdain ( على s.th.), turn up one’s nose ( على at s.th.) │",
+    "examples": []
+  },
+  {
+    "word": "شمخ بأنفه",
+    "displayWord": "شمخ بأنفه",
+    "translation": "(انفه ) (bi-anfihī, anfahū) to be arrogant, haughty, proud, supercilious VI to be high, tall, lofty, tower up, loom; to be boastful, put on airs; to be proud, haughty, supercilious",
+    "examples": []
+  },
+  {
+    "word": "شامخ",
+    "displayWord": "شامخ",
+    "translation": "šāmik pl. شمخ šummak, شوامخ šawāmik2 high, tall, lofty, towering; proud, haughty, supercilious │ شامخ الأنف š. al-anf proud, haughty, supercilious, arrogant",
+    "examples": []
+  },
+  {
+    "word": "شمر",
+    "displayWord": "شمر",
+    "translation": "II to gather up, lift, roll up, tuck up, turn up ( ھ a garment); to prepare, get ready │ شمر للأمر to embark upon s.th., buckle down to s.th.; شمر عن ساعده to bare the upper arm (by rolling up the sleeve), get to work; شمر عن يد الجد (s. al-jidd) to buckle dawn to a job, rally all one’s forces, put one’s shoulder to the wheel V to set to work briskly 485",
+    "examples": []
+  },
+  {
+    "word": "شمر",
+    "displayWord": "شمر",
+    "translation": "šamar fennel (bot.)",
+    "examples": []
+  },
+  {
+    "word": "شمرة",
+    "displayWord": "شمرة",
+    "translation": "šumra, šamra fennel",
+    "examples": []
+  },
+  {
+    "word": "شمار",
+    "displayWord": "شمار",
+    "translation": "šamār fennel",
+    "examples": []
+  },
+  {
+    "word": "شمروخ",
+    "displayWord": "شمروخ",
+    "translation": "šumrūk pl. شماريخ šamārīk2 stalk with date cluster; date-palm panicle, branch stripped of its leaves; little stick; detonator, primer cap",
+    "examples": []
+  },
+  {
+    "word": "شمس",
+    "displayWord": "شمس",
+    "translation": "šamasa u ( شموس šumūs, شماس šimās) to be headstrong, balky, restive (of a horse); -- šamasa i u and šamisa a (šamas) to be sunny (day) II to expose ( ھ s.th.) to the sun, lay ( ھ s.th.) out in the sun to dry; to perform the office of deacon (Chr.) IV to be sunny (day) V to bask, sun o.s., lie or sit in the sun",
+    "examples": []
+  },
+  {
+    "word": "شمس",
+    "displayWord": "شمس",
+    "translation": "šams f., pl. شموس šumūs sun │",
+    "examples": []
+  },
+  {
+    "word": "شروق الشمس",
+    "displayWord": "شروق الشمس",
+    "translation": "sunrise; ضربة الشمس ḍarbat ašš. sunstroke, heat prostration; عباد الشمس ‘abbād aš-š. sunflower; غروب الشمس sunset",
+    "examples": []
+  },
+  {
+    "word": "شمسي",
+    "displayWord": "شمسي",
+    "translation": "šamsī sun- (in compounds), solar │ الحروف الشمسية (gram.) the sun letters (which assimilate the l of the article);",
+    "examples": []
+  },
+  {
+    "word": "شمسية",
+    "displayWord": "شمسية",
+    "translation": "šamsīya pl. -āt (colloq. شماسي šamāsī) sunshade, parasol; umbrella; curtain, screen; stop (of a wind instrument) │ شمسية الشباك š. aš-ubbāk window curtain, drape; O شمسية الطيار š. aṭ- ṭayyār parachute",
+    "examples": []
+  },
+  {
+    "word": "شموس",
+    "displayWord": "شموس",
+    "translation": "šamūs pl. شمس šumus headstrong, balky, restive (horse)",
+    "examples": []
+  },
+  {
+    "word": "شماس",
+    "displayWord": "شماس",
+    "translation": "šammās pl. شممسة šamāmisa deacon of the lower rank of the ministry, nowadays, with unconsecrated persons frequently performing this office, corresponding to the sexton or sacristan (Chr.); acolyte and liturgical cantor of Oriental Christian rites (clerics and laymen)",
+    "examples": []
+  },
+  {
+    "word": "شامس",
+    "displayWord": "شامس",
+    "translation": "šamis sunny (day)",
+    "examples": []
+  },
+  {
+    "word": "شمشم",
+    "displayWord": "شمشم",
+    "translation": "šamšama to sniff ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "شمط",
+    "displayWord": "شمط",
+    "translation": "šamiṭa a (šamaṭ) to become gray, haired, turn gray",
+    "examples": []
+  },
+  {
+    "word": "شمع",
+    "displayWord": "شمع",
+    "translation": "II to rub, or smear, with wax, to wax ( ھ s.th.) │ شمع الفتلة (fatla) to slip away, abscond, make off, decamp",
+    "examples": []
+  },
+  {
+    "word": "شمع",
+    "displayWord": "شمع",
+    "translation": "šam‘, šama‘ (coll.; n. un. ة) pl. شموع šumū‘ wax; (wax) candles │ الشمع الأحمر sealing wax; شمع الختم š. al-katm do.; شمع",
+    "examples": []
+  },
+  {
+    "word": "شمعة",
+    "displayWord": "شمعة",
+    "translation": "šam‘a, šama‘a (n. un.) (wax) candle │ O شمعة الشرارة š. aš-šarāra spark plug",
+    "examples": []
+  },
+  {
+    "word": "شمعي",
+    "displayWord": "شمعي",
+    "translation": "šam‘ī, šama‘ī waxy, waxen, ceraceous, cero- (in compounds), made of wax",
+    "examples": []
+  },
+  {
+    "word": "شماع",
+    "displayWord": "شماع",
+    "translation": "šammā‘ chandler, maker or seller of candles",
+    "examples": []
+  },
+  {
+    "word": "شماعة",
+    "displayWord": "شماعة",
+    "translation": "šammā‘a clothes rack, clothes peg, hat rack",
+    "examples": []
+  },
+  {
+    "word": "شمعدان",
+    "displayWord": "شمعدان",
+    "translation": "šam‘addān pl. -āt, شماعد šamā‘id2,",
+    "examples": []
+  },
+  {
+    "word": "شماعدين",
+    "displayWord": "شماعدين",
+    "translation": "candlestick, candelabrum",
+    "examples": []
+  },
+  {
+    "word": "شمل",
+    "displayWord": "شمل",
+    "translation": "1 šamila a (šamal) and šamala u (šaml,",
+    "examples": []
+  },
+  {
+    "word": "شمول",
+    "displayWord": "شمول",
+    "translation": "šumūl) to contain, comprise, comprehend, enclose ( ھ s.th.); to imply, implicate, include ( ھ s.th.); to touch, affect, fill, overcome, pervade ( ھ، ه s.o., s.th., of feelings, emotions); to prevail, be general, universal │ شمله بعنايته (bi-‘ināyatihī) to bestow one’s care on s.o., take s.o. under one’s wing V تشمل",
+    "examples": []
+  },
+  {
+    "word": "شمل",
+    "displayWord": "شمل",
+    "translation": "šaml uniting, gathering, concentration; unity. union │ جمع الشمل jam‘ aš-š. reunion, reunification; اجتماع",
+    "examples": []
+  },
+  {
+    "word": "شملة",
+    "displayWord": "شملة",
+    "translation": "šamla pl. šamalāt cloak; turban │",
+    "examples": []
+  },
+  {
+    "word": "شمائل",
+    "displayWord": "شمائل",
+    "translation": "šamā’il2 (pl.) good qualities; character, nature",
+    "examples": []
+  },
+  {
+    "word": "شامل",
+    "displayWord": "شامل",
+    "translation": "šāmil comprehensive, exhaustive; general, universal, complete, total",
+    "examples": []
+  },
+  {
+    "word": "شمال",
+    "displayWord": "شمال",
+    "translation": "2 šamāl, šimāl north; north wind; šimāl left hand; left side; left; الشمال the left (pol.); شمال šimāla north of …; شمالا šimālan to the left; northward, to the north │ شمال شرقي (šarqī) northeast; شمال غربي (garbī) northwest; كوكب الشمال kaukab ašš. polar star; اليد الشمال (yad) the left hand",
+    "examples": []
+  },
+  {
+    "word": "شمالي",
+    "displayWord": "شمالي",
+    "translation": "šamalī, šimālī northern, northerly, north; situated on the left; الشماليون the leftist parties (pol.) │ الشفق الشمالي (šafaq) aurora borealis, northern lights",
+    "examples": []
+  },
+  {
+    "word": "شملول",
+    "displayWord": "شملول",
+    "translation": "3 šumlūl pl. شماليل šamālīl2 small amount, small quantity; -- (eg.) šamlūl brisk, vivid, agile, lively, nimble",
+    "examples": []
+  },
+  {
+    "word": "شمندر",
+    "displayWord": "شمندر",
+    "translation": "šamandar white beet, chard",
+    "examples": []
+  },
+  {
+    "word": "شمندورة",
+    "displayWord": "شمندورة",
+    "translation": "šamandūra buoy",
+    "examples": []
+  },
+  {
+    "word": "شن",
+    "displayWord": "شن",
+    "translation": "1 šanna u (šann): شن غارة (gāratan) to make a raid, an invasion; to make an attack, launch an attack ( على against, on) IV = I",
+    "examples": []
+  },
+  {
+    "word": "شن",
+    "displayWord": "شن",
+    "translation": "šann pl. شنون šunūn (water)skin",
+    "examples": []
+  },
+  {
+    "word": "شنأ",
+    "displayWord": "شنأ",
+    "translation": "šana’a a ( شنآن šan’ān, šana’ān) to hate",
+    "examples": []
+  },
+  {
+    "word": "شنب",
+    "displayWord": "شنب",
+    "translation": "šanab pl. اشنب ašnāb mustache",
+    "examples": []
+  },
+  {
+    "word": "شنتيان",
+    "displayWord": "شنتيان",
+    "translation": "šintiyān pl. شناتين šanātīn2 loose trousers resembling pantalets, worn by women",
+    "examples": []
+  },
+  {
+    "word": "شنج",
+    "displayWord": "شنج",
+    "translation": "šanija a (šanaj) to contract, shrink; to suffer from convulsions V = I; to twitch",
+    "examples": []
+  },
+  {
+    "word": "شنخوبة",
+    "displayWord": "شنخوبة",
+    "translation": "šunkūba pl. شناخيب šanākīb2 large rock, boulder",
+    "examples": []
+  },
+  {
+    "word": "شنر",
+    "displayWord": "شنر",
+    "translation": "II to blame, censure, revile, slander, abuse على) s.o.)",
+    "examples": []
+  },
+  {
+    "word": "شنار",
+    "displayWord": "شنار",
+    "translation": "šanār disgrace, ignominy",
+    "examples": []
+  },
+  {
+    "word": "شنارق",
+    "displayWord": "شنارق",
+    "translation": "šanāriq شرانق = 2 šarāniq2",
+    "examples": []
+  },
+  {
+    "word": "شنشنة",
+    "displayWord": "شنشنة",
+    "translation": "šanšana rustling (of paper); cracking, crackling",
+    "examples": []
+  },
+  {
+    "word": "شنشنة",
+    "displayWord": "شنشنة",
+    "translation": "šinšina pl. شناشن šanāšin2 nature, disposition; habit, custom, practice",
+    "examples": []
+  },
+  {
+    "word": "شنيطة",
+    "displayWord": "شنيطة",
+    "translation": "1 šunaiṭa knot; noose, loop",
+    "examples": []
+  },
+  {
+    "word": "شنطة",
+    "displayWord": "شنطة",
+    "translation": "2 šanṭa pl. شنط šunaṭ suitcase; satchel; bag, traveling bag │ شنطة اليد š. al-yad handbag",
+    "examples": []
+  },
+  {
+    "word": "شنع",
+    "displayWord": "شنع",
+    "translation": "šanu‘a u (šana‘, شناعة šana‘a) to be ugly, abominable, repugnant, repulsive, atrocious, hideous, horrid, horrible, disgraceful; -- šana‘a a (šan‘) to dishonor, disgrace ( ب or ه s.o.) II to calumniate, slander, revile, defame ( على s.o.); to pillory, expose, condemn, denounce ( على s.o., s.th.)",
+    "examples": []
+  },
+  {
+    "word": "شنع",
+    "displayWord": "شنع",
+    "translation": "šanī‘ ugly, abominable, repugnant, repulsive, disgusting, atrocious, hideous, horrid, horrible, disgraceful, ignominious",
+    "examples": []
+  },
+  {
+    "word": "شنعة",
+    "displayWord": "شنعة",
+    "translation": "šun‘a ugliness, hideousness, horridness, repulsiveness",
+    "examples": []
+  },
+  {
+    "word": "شنيع",
+    "displayWord": "شنيع",
+    "translation": "šanī‘ ugly, abominable, repugnant, repulsive, disgusting, atrocious, hideous, horrid, horrible, disgraceful, ignominious",
+    "examples": []
+  },
+  {
+    "word": "شناعة",
+    "displayWord": "شناعة",
+    "translation": "šanā‘a ugliness, hideousness, horridness, repulsiveness",
+    "examples": []
+  },
+  {
+    "word": "شنغوبة",
+    "displayWord": "شنغوبة",
+    "translation": "šungūba pl. شناغيب šanāgīb2 spicate protuberance; thorn, spike",
+    "examples": []
+  },
+  {
+    "word": "شنف",
+    "displayWord": "شنف",
+    "translation": "II شنف الآذان (ādāna) to please the ears, to delight (of a voice)",
+    "examples": []
+  },
+  {
+    "word": "شنف",
+    "displayWord": "شنف",
+    "translation": "sanf pl. شنوف šunūf earring",
+    "examples": []
+  },
+  {
+    "word": "شنق",
+    "displayWord": "شنق",
+    "translation": "šanaqa u (šanq) to hang ( ھ s.th., ه s.o. on the gallows)",
+    "examples": []
+  },
+  {
+    "word": "شنق",
+    "displayWord": "شنق",
+    "translation": "šanq hanging",
+    "examples": []
+  },
+  {
+    "word": "شنق",
+    "displayWord": "شنق",
+    "translation": "šanaq rope",
+    "examples": []
+  },
+  {
+    "word": "شنقب",
+    "displayWord": "شنقب",
+    "translation": "šunqub bécassine, snipe (zool.)",
+    "examples": []
+  },
+  {
+    "word": "شنكل",
+    "displayWord": "شنكل",
+    "translation": "šankala (eg.) to trip ( ه s.o.) up; to hook up",
+    "examples": []
+  },
+  {
+    "word": "شنكل",
+    "displayWord": "شنكل",
+    "translation": "šankal pl. شناكل šanākil2 clothes peg; hook",
+    "examples": []
+  },
+  {
+    "word": "شنھق",
+    "displayWord": "شنھق",
+    "translation": "šanhaqa to bray (donkey)",
+    "examples": []
+  },
+  {
+    "word": "شھب",
+    "displayWord": "شھب",
+    "translation": "šahab gray color, gray",
+    "examples": []
+  },
+  {
+    "word": "شھبة",
+    "displayWord": "شھبة",
+    "translation": "šuhba gray color, gray",
+    "examples": []
+  },
+  {
+    "word": "شھاب",
+    "displayWord": "شھاب",
+    "translation": "šihāb pl. شھب šuhub, شھبان šuhbān flame, blaze, fire; shooting star, luminous meteor; star",
+    "examples": []
+  },
+  {
+    "word": "شھد",
+    "displayWord": "شھد",
+    "translation": "šahida a ( شھود šuhūd) to witness ( ھ s.th.), be witness ( ھ of s.th.); to experience personally ( ھ s.th.), see with one’s own eyes ( ه s.o. in a situation); to be present ( ھ at), attend ( ھ a celebration); to be present at the public appearance of s.o. ه) ); to see ( ھ s.th.); -- ( شھادة šahāda) to testify, bear witness; to attest, confirm, certify ( ب s.th., ان that), testify, give testimony, give evidence ( على against s.o., to or about s.th., ل in s.o.’s favor); to sign as a witness, to witness (J. a document); 488 to acknowledge, adjudge ( ب ل to s.o., s.th.) │ شھد to swear by God; شھد قانونيا to notarize ill to see (with one’s own eyes), view, inspect, watch, observe, witness ( ھ s.th.) IV to call ( ه upon s.o.) as a witness (",
+    "examples": []
+  },
+  {
+    "word": "شھد",
+    "displayWord": "شھد",
+    "translation": "šahd, šuhd pl. شھاد šihād honey; honeycomb",
+    "examples": []
+  },
+  {
+    "word": "شھدة",
+    "displayWord": "شھدة",
+    "translation": "šahda carbuncle",
+    "examples": []
+  },
+  {
+    "word": "شھيد",
+    "displayWord": "شھيد",
+    "translation": "šahīd pl. شھداء šuhadā’2 witness; martyr, one killed in battle with the infidels; one killed in action",
+    "examples": []
+  },
+  {
+    "word": "شھيدة",
+    "displayWord": "شھيدة",
+    "translation": "šahīda (woman) martyr",
+    "examples": []
+  },
+  {
+    "word": "شھادة",
+    "displayWord": "شھادة",
+    "translation": "šahāda pl. -āt testimony, witness, evidence, deposition; statement; certificate, certification, testimonial, affidavit; attestation, attest; credentials, identification; (Muslim) creed (= doftrinal formula); martyrdom, شھادة الإثبات š. alitbāt evidence for the prosecution; شھادة",
+    "examples": []
+  },
+  {
+    "word": "شھادة الدراسة الثانوية",
+    "displayWord": "شھادة الدراسة الثانوية",
+    "translation": "(tānawīya) secondary school diploma; شھادة زور š. zūr false testimony; شھادة على شھادة indirect testimony (Isl. Law); شھادة العالمية š. al-‘ālimīya (Eg.) diploma of higher learning (highest diploma awarded by Al Azhar University); شھادة عالية (‘āliya) diploma; شھادة النفي š. an-nafy evidence for the defense; شھادة الولادة birth certificate",
+    "examples": []
+  },
+  {
+    "word": "شاھد",
+    "displayWord": "شاھد",
+    "translation": "šāhid pl. شھود šuhūd, شھد šuhhad present; -- (pl. شھود šuhūd, اشھاد ašhād) witness ( على for); notary public; -- pl.",
+    "examples": []
+  },
+  {
+    "word": "شواھد",
+    "displayWord": "شواھد",
+    "translation": "šawāhid2) (piece of) evidence ( على for); attestation; quotation serving as textual evidence; testimony; an oblong, upright tombstone │ شاھد الإثبات š. al-itbāt witness for the prosecution; شاھد السمع š. as-sam‘ earwitness; شاھد s. al-‘ain, شاھد",
+    "examples": []
+  },
+  {
+    "word": "شاھد النفي",
+    "displayWord": "شاھد النفي",
+    "translation": "š. an-nafy witness for the defense; على رؤوس الأشھاد in public, for everyone to see",
+    "examples": []
+  },
+  {
+    "word": "شاھدة",
+    "displayWord": "شاھدة",
+    "translation": "šāhida pl. شواھد šawāhid2 an oblong, upright tombstone; index finger; true copy, copy of a letter, duplicate;",
+    "examples": []
+  },
+  {
+    "word": "شھر",
+    "displayWord": "شھر",
+    "translation": "šahara a (šahr) to make well-known, famous, renowned, notorious ( ھ، ه s.o., s.th.); to spread, make known, divulge, proclaim, announce ( ھ s.th.); to draw, unsheathe ( ھ a weapon); pass. šuhira to be or become well-known, famed, famous, renowned, notorious ( ب by or for s.th. respectively, by or under a name) │ شھر",
+    "examples": []
+  },
+  {
+    "word": "شھر البندقية",
+    "displayWord": "شھر البندقية",
+    "translation": "(bunduqīya) to level a gun ( على at s.o.) II to make well-known, famous, renowned, notorious ( ھ، ه s.o., s.th.); to spread, make known, divulge, proclaim, announce ( ھ s.th.); to defame, slander, revile publicly, pillory, condemn, denounce ( ه s.o.) III to engage or hire ( ه s.o.) on a monthly basis, rent ( ھ s.th.) by the month IV to make known, proclaim, announce, spread, divulge ( ھ s.th.); to unsheathe, draw ( ه a weapon); to sell at auction, also اشھر المزاد (mazāda) │ اشھر",
+    "examples": []
+  },
+  {
+    "word": "شھر",
+    "displayWord": "شھر",
+    "translation": "šahr pl. اشھر ašhur, شھور šuhūr new moon; month │ شھر العسل š. al-‘asal honeymoon",
+    "examples": []
+  },
+  {
+    "word": "شھري",
+    "displayWord": "شھري",
+    "translation": "šahrī monthly, mensal; شھريا šahrīyan monthly, per month, by the month │ اشتراك شھري monthly subscription; monthly fee or contribution;",
+    "examples": []
+  },
+  {
+    "word": "شھرية",
+    "displayWord": "شھرية",
+    "translation": "šahrīya monthly salary",
+    "examples": []
+  },
+  {
+    "word": "شھرة",
+    "displayWord": "شھرة",
+    "translation": "šuhra repute, reputation, renown, fame, famousness, celebrity; notoriety; surname (Syr., Leb.) │ شھرة عالمية (‘ālamīya) world-wide renown, worldwide fame",
+    "examples": []
+  },
+  {
+    "word": "شھير",
+    "displayWord": "شھير",
+    "translation": "šahīr widely known, well-known, famous, renowned, celebrated ( ب by a name); notorious, ill-reputed",
+    "examples": []
+  },
+  {
+    "word": "شھق",
+    "displayWord": "شھق",
+    "translation": "šahaqa a i ( شھيق šahīq) to bray (donkey); -- šahaqa a i and šahiqa a ( شھيق šahīq,",
+    "examples": []
+  },
+  {
+    "word": "شھاق",
+    "displayWord": "شھاق",
+    "translation": "šuhāq, تشھاق tašhāq) to inhale; to sigh deeply; to sob, gulp; to moan, groan IV",
+    "examples": []
+  },
+  {
+    "word": "شھقة",
+    "displayWord": "شھقة",
+    "translation": "šahqa moan(ing), groan(ing); gulping 490",
+    "examples": []
+  },
+  {
+    "word": "شھيق",
+    "displayWord": "شھيق",
+    "translation": "šahīq braying, brays (of a donkey); sobbing, sobs; sighing, sighs; inhalation, breathing in",
+    "examples": []
+  },
+  {
+    "word": "شاھق",
+    "displayWord": "شاھق",
+    "translation": "šāhiq pl. شواھق šawāhiq2 high, lofty, towering (building, mountain) │ علو",
+    "examples": []
+  },
+  {
+    "word": "شاھق",
+    "displayWord": "شاھق",
+    "translation": "(‘ulūw) tremendous height",
+    "examples": []
+  },
+  {
+    "word": "شواھق",
+    "displayWord": "شواھق",
+    "translation": "šawāhiq2 heights",
+    "examples": []
+  },
+  {
+    "word": "شھل",
+    "displayWord": "شھل",
+    "translation": "II to accelerate, speed up, expedite ( ھ s.th.); to remove quickly, hurry off ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "شھل",
+    "displayWord": "شھل",
+    "translation": "šahil nimble, swift, quick",
+    "examples": []
+  },
+  {
+    "word": "شھلة",
+    "displayWord": "شھلة",
+    "translation": "šuhla bluish-black color of the eyes",
+    "examples": []
+  },
+  {
+    "word": "شھم",
+    "displayWord": "شھم",
+    "translation": "šahm, pl. شھام šihām perspicacious, sagacious, astute, clever, bold, audacious; energetic; noble, gallant, decent; gentleman",
+    "examples": []
+  },
+  {
+    "word": "شھامة",
+    "displayWord": "شھامة",
+    "translation": "šahāma perspicacity, sagacity, astuteness, cleverness; audacity, boldness, gallantry, noble-mindedness; energy, vigor, verve; decency, respectability",
+    "examples": []
+  },
+  {
+    "word": "شاھين",
+    "displayWord": "شاھين",
+    "translation": "pl. شواھين look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "شھو",
+    "displayWord": "شھو",
+    "translation": ") and شھا (شھي šahā u and شھي šahiya a (",
+    "examples": []
+  },
+  {
+    "word": "شھوة",
+    "displayWord": "شھوة",
+    "translation": "šahwa) to desire, wish, covet, crave (",
+    "examples": []
+  },
+  {
+    "word": "شھوة",
+    "displayWord": "شھوة",
+    "translation": "šahwa pl. šahawāt greed, craving, desire, ardent wish, longing, yearning, eagerness, passion, carnal appetite, lust; appetite",
+    "examples": []
+  },
+  {
+    "word": "شھوي",
+    "displayWord": "شھوي",
+    "translation": "šahwī sensual, sensuous, lustful, instinctual, uninhibited",
+    "examples": []
+  },
+  {
+    "word": "شھوان",
+    "displayWord": "شھوان",
+    "translation": "šahwān, f. شھوى šahwā, pl. شھاوى šahāwā covetous, greedy; lewd, lecherous, lascivious, libidinous, dissolute, debauched",
+    "examples": []
+  },
+  {
+    "word": "شھواني",
+    "displayWord": "شھواني",
+    "translation": "šahwānī covetous, greedy; lewd, lecherous, lascivious, libidinous, dissolute, debauched; sensual, sensuous, lustful, instinctual, uninhibited",
+    "examples": []
+  },
+  {
+    "word": "شھي",
+    "displayWord": "شھي",
+    "translation": "šahīy pleasant, agreeable, desirable; appetizing, inviting, tasty",
+    "examples": []
+  },
+  {
+    "word": "شھية",
+    "displayWord": "شھية",
+    "translation": "šahīya appetite │ فاتح الشھية or ما",
+    "examples": []
+  },
+  {
+    "word": "شاء",
+    "displayWord": "شاء",
+    "translation": "šā’ (coll.; n. un. شاة šāh) pl. شواه šiwāh, شياه šiyāh sheep; ewe",
+    "examples": []
+  },
+  {
+    "word": "شوال",
+    "displayWord": "شوال",
+    "translation": "šuwāl, šiwāl pl. -āt (large) sack",
+    "examples": []
+  },
+  {
+    "word": "شاب",
+    "displayWord": "شاب",
+    "translation": "(شوب 1 ) šāba u (šaub, شياب šiyāb) to mix, blend ( ھ ب s.th. with); to adulterate, vitiate, contaminate, spoil, corrupt, pollute, tarnish, sully, stain, spot ( ھ s.th.); to mix, blend, intermix ( ھ with) │ لا تشوبه",
+    "examples": []
+  },
+  {
+    "word": "شائبة",
+    "displayWord": "شائبة",
+    "translation": "blameless, flawless, unblemished, immaculate",
+    "examples": []
+  },
+  {
+    "word": "شوب",
+    "displayWord": "شوب",
+    "translation": "šaub mixture; tarnishing, sullying, roiling, rendering turbid; impairment, blemish, flaw; hot wind 491",
+    "examples": []
+  },
+  {
+    "word": "شائبة",
+    "displayWord": "شائبة",
+    "translation": "šā’iba pl. شوائب šawā’ib dirt, stains, spot, flaw, blemish, defect, fault; suspicion, reason for suspicion, suspicious fact",
+    "examples": []
+  },
+  {
+    "word": "شابة",
+    "displayWord": "شابة",
+    "translation": "2 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "شوبق",
+    "displayWord": "شوبق",
+    "translation": "šaubaq pl. شوابق šawābiq2 rolling pin",
+    "examples": []
+  },
+  {
+    "word": "شوبك",
+    "displayWord": "شوبك",
+    "translation": "šaubak: pl. شوابك šawābik2 rolling pin",
+    "examples": []
+  },
+  {
+    "word": "شوح",
+    "displayWord": "شوح",
+    "translation": "1 II (eg.) to grill, broil, roast ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "شوح",
+    "displayWord": "شوح",
+    "translation": "2 šūḥ (coll.; n. un. ة) fir, sapin",
+    "examples": []
+  },
+  {
+    "word": "شوحة",
+    "displayWord": "شوحة",
+    "translation": "3 šūḥa kite (zool.)",
+    "examples": []
+  },
+  {
+    "word": "شور",
+    "displayWord": "شور",
+    "translation": "II to make a sign, beckon, signal, wink, blink ( الى to s.o.); to point out ( الى s.th.), point ( الى at) III to ask s.o.’s ( ه) advice, seek s.o.’s ( ه) advice, consult ( ه s.o.); to consult, take counsel ( ه with s.o.),",
+    "examples": []
+  },
+  {
+    "word": "شاور نفسه",
+    "displayWord": "شاور نفسه",
+    "translation": "(nafsahū) to take counsel with o.s., reflect, bethink o.s. IV to make a sign, beckon, signal, wink, blink ( ل or الى to s.o.), motion ( ل or الى s.o., ب to do s.th.); to ask, invite, urge ( الى s.o.); to point, allude ( الى to), hint ( الى at), indicate, point out ( على or الى s.th.), call s.o.’s ( (ل attention to ( على ); to advice ( ب على s.o. of s.th., على ان s.o. to do s.th.), suggest ( ب على to s.o. s.th., على ان to s.o. to do s.th.), command, order ان or على ب s.o. to do s.th.); to state, indicate ( ب s.th.) │ ما يشار",
+    "examples": []
+  },
+  {
+    "word": "شارة",
+    "displayWord": "شارة",
+    "translation": "šāra pl. -āt sign, token, distinguishing mark, badge; guile, outward appearance │ شارة الصليب sign of the cross",
+    "examples": []
+  },
+  {
+    "word": "شورى",
+    "displayWord": "شورى",
+    "translation": "šūrā consultation, deliberation, taking counsel; counsel; advice │ مجلس",
+    "examples": []
+  },
+  {
+    "word": "شوري",
+    "displayWord": "شوري",
+    "translation": "šūrī consultative, advisory",
+    "examples": []
+  },
+  {
+    "word": "شورب",
+    "displayWord": "شورب",
+    "translation": "1 šaurab flycatcher (zool.)",
+    "examples": []
+  },
+  {
+    "word": "شوربة",
+    "displayWord": "شوربة",
+    "translation": "2 šōrba (eg.), šōraba (syr.) and شوربا soup",
+    "examples": []
+  },
+  {
+    "word": "شورت",
+    "displayWord": "شورت",
+    "translation": "(Engl.) šort short, short feature (motion pictures) شورمة",
+    "examples": []
+  },
+  {
+    "word": "شوش",
+    "displayWord": "شوش",
+    "translation": "1 II to muddle, confuse, confound, jumble ھ) s.th.), disturb ( على or ھ s.th.), complicate ( ھ s.th.) V to be confused, confounded, muddled, jumbled, deranged, disturbed; to feel indisposed, be ill",
+    "examples": []
+  },
+  {
+    "word": "شاش",
+    "displayWord": "شاش",
+    "translation": "šāš muslin; white cloth",
+    "examples": []
+  },
+  {
+    "word": "شاشة",
+    "displayWord": "شاشة",
+    "translation": "šāša white cloth; الشاشة aš-šāša and الشاشة البيضاء (baiḍā’) (motion picture) screen",
+    "examples": []
+  },
+  {
+    "word": "شاشية",
+    "displayWord": "شاشية",
+    "translation": "šāšiya, šāšīya pl. شواشي šawāšī a kind of headgear, cap, skullcap",
+    "examples": []
+  },
+  {
+    "word": "شوش",
+    "displayWord": "شوش",
+    "translation": "šūš Maria Theresa dollar (Nejd)",
+    "examples": []
+  },
+  {
+    "word": "شوشة",
+    "displayWord": "شوشة",
+    "translation": "šūša tuft of hair, lock; crest (of birds)",
+    "examples": []
+  },
+  {
+    "word": "شواش",
+    "displayWord": "شواش",
+    "translation": "šawāš confusion, muddle, (state of) disorder, disturbance, derangement (e.g., of the mind)",
+    "examples": []
+  },
+  {
+    "word": "شواشي",
+    "displayWord": "شواشي",
+    "translation": "šawāšī pl. شواشية šawāšīya a maker of šāšiya’s (see above)",
+    "examples": []
+  },
+  {
+    "word": "شاوش",
+    "displayWord": "شاوش",
+    "translation": "2 pl. شواش look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "شاويش",
+    "displayWord": "شاويش",
+    "translation": "3 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "شوشبرك",
+    "displayWord": "شوشبرك",
+    "translation": "šušbarak (eg.) small pastry stuffed with meat and served with milk rice",
+    "examples": []
+  },
+  {
+    "word": "شوط",
+    "displayWord": "شوط",
+    "translation": "šauṭ pl. شوط ašwāṭ to a goal; state, phase; round, game, half, course (in sports and games); goal, aim │ قطع شوطا كبيرا (بعيدا) في",
+    "examples": []
+  },
+  {
+    "word": "شواظ",
+    "displayWord": "شواظ",
+    "translation": "šuwāẓ flame; fire, fervor, ardor, passion",
+    "examples": []
+  },
+  {
+    "word": "شوف",
+    "displayWord": "شوف",
+    "translation": "2 II to polish ( ھ s.th.); to adorn, deck out (",
+    "examples": []
+  },
+  {
+    "word": "شوف",
+    "displayWord": "شوف",
+    "translation": "šauf harrow",
+    "examples": []
+  },
+  {
+    "word": "شوفة",
+    "displayWord": "شوفة",
+    "translation": "šaufa (colloq.) sight, spectacle, view",
+    "examples": []
+  },
+  {
+    "word": "شوفان",
+    "displayWord": "شوفان",
+    "translation": "šūfān oats",
+    "examples": []
+  },
+  {
+    "word": "شاق",
+    "displayWord": "شاق",
+    "translation": "(شوق ) šāqa u (šauq) to please delight ( ه s.o.), give joy ( ه to s.o.); to fill ( ه s.o.) with longing, craving, desire, 493 arouse longing, craving, desire ( ه in s.o.) II to fill ( ه s.o.) with longing, craving, desire, arouse longing, craving, desire ( ه in s.o.) V and VIII to long, yearn ( الى or ه، ھ for), crave, covet, desire ardently ( الى or ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "شوق",
+    "displayWord": "شوق",
+    "translation": "šauq pl. اشواق ašwāq longing, yearning, craving, desire, wish",
+    "examples": []
+  },
+  {
+    "word": "شيق",
+    "displayWord": "شيق",
+    "translation": "šayyiq longing, yearning, craving, desirous, covetous; brilliant, gorgeous, splendid",
+    "examples": []
+  },
+  {
+    "word": "شائق",
+    "displayWord": "شائق",
+    "translation": "šā’iq arousing longing, stimulating desire; brilliant, gorgeous, splendid, beautiful",
+    "examples": []
+  },
+  {
+    "word": "شاك",
+    "displayWord": "شاك",
+    "translation": "(شوك ) (šauk) to sting, prick, hurt, injure, pierce ( ب ه s.o. with a thorn, a needle, and the like) II to be thorny; to stud (. s.th.) with thorns or spikes; to sting, prick, hurt, injure, pierce ( ب ه s.o. with a thorn, with a needle) IV to sting, prick, hurt, injure",
+    "examples": []
+  },
+  {
+    "word": "شوك",
+    "displayWord": "شوك",
+    "translation": "šauk (coll.; n. un. ة) pl. اشواك ašwāk thorns, spikes, pricks, prickles, spines; fishbone; forks │ على الشوك on tenterhooks, on pins and needles",
+    "examples": []
+  },
+  {
+    "word": "شوكة",
+    "displayWord": "شوكة",
+    "translation": "šauka (n. un.) thorn, spike, prick, prickle, spine, sting, point; tine, prong; spur (of a rooster); fork; fishbone; furor of fighting, bravura, bravery, valor, verve, dash, élan; might, power",
+    "examples": []
+  },
+  {
+    "word": "شوكي",
+    "displayWord": "شوكي",
+    "translation": "šaukī thorny, spiky, prickly, spiny; spinal │ الطين الشوكي (ṭīn) fruit of the Indian fig (Opuntia ficus-indica Haw.; bot.); الحبل الشوكي (ḥabl) spinal cord; الحمى",
+    "examples": []
+  },
+  {
+    "word": "شوك",
+    "displayWord": "شوك",
+    "translation": "šawik thorny, spiky, prickly, spiny",
+    "examples": []
+  },
+  {
+    "word": "شائك",
+    "displayWord": "شائك",
+    "translation": "šā’ik thorny, spiky, prickly, spiny; delicate, ticklish, critical, difficult │ سلك",
+    "examples": []
+  },
+  {
+    "word": "شائك",
+    "displayWord": "شائك",
+    "translation": "(silk) pl. اسلاك شائكة barbed wire",
+    "examples": []
+  },
+  {
+    "word": "شوكران",
+    "displayWord": "شوكران",
+    "translation": "šaukarān poison hemlock (Conium maculatum; bot.)",
+    "examples": []
+  },
+  {
+    "word": "شال",
+    "displayWord": "شال",
+    "translation": "(شول 1 ) šāla u (šaul) to rise, be raised, elevated; to raise, lift ( ھ or ب s.th.); to carry ( ھ or ب s.th.) │ شالت نعامته (na‘āmatuhū) he went away, departed; he died, be is dead II to become sparse, scarce, short in supply III to attack, assail ه) s.o.) IV to raise, lift ( ھ s.th.); to carry ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "شول",
+    "displayWord": "شول",
+    "translation": "šawil nimble, adroit, swift, quick, expeditious (at work)",
+    "examples": []
+  },
+  {
+    "word": "شوال",
+    "displayWord": "شوال",
+    "translation": "šawwāl pl. -āt شواويل šawāwīl2,",
+    "examples": []
+  },
+  {
+    "word": "شال",
+    "displayWord": "شال",
+    "translation": "2 pl. شيلان look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "شوال",
+    "displayWord": "شوال",
+    "translation": "3 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "شولقى",
+    "displayWord": "شولقى",
+    "translation": "šaulaqī person with a sweet tooth",
+    "examples": []
+  },
+  {
+    "word": "شولم",
+    "displayWord": "شولم",
+    "translation": "šaulam darnel (Lolium temulentum; bot.); a variety of vetch 494",
+    "examples": []
+  },
+  {
+    "word": "شام، شامي",
+    "displayWord": "شام، شامي",
+    "translation": "1 pl. شوام، مشوم see شأم",
+    "examples": []
+  },
+  {
+    "word": "شومة",
+    "displayWord": "شومة",
+    "translation": "2 šuma stick, cudgel",
+    "examples": []
+  },
+  {
+    "word": "شون",
+    "displayWord": "شون",
+    "translation": "II to garnmer, store ( ھ s.th., esp. grain)",
+    "examples": []
+  },
+  {
+    "word": "شون",
+    "displayWord": "شون",
+    "translation": "šūna pl. -āt, شون šuwan (eg.) storehouse, granary, shed, barn",
+    "examples": []
+  },
+  {
+    "word": "شوندر",
+    "displayWord": "شوندر",
+    "translation": "šawandar white beet, chard",
+    "examples": []
+  },
+  {
+    "word": "شوه",
+    "displayWord": "شوه",
+    "translation": "1 šawiha a (šawah) and شاه šāha u ( شوه šauh) to be or become ugly, misshapen, deformed, defaced, disfigured, distorted, malformed II to disfigure, deform, deface, distort, mar, mutilate ( ه s.o., ھ s.th., esp. the face); to revile, slander, defame ( ه s.o.); to jam ( اذاعة a broadcast) │ شوه وجه",
+    "examples": []
+  },
+  {
+    "word": "شوه",
+    "displayWord": "شوه",
+    "translation": "šawāh ugliness, misshapenness, malformation, deformity, disfigurement, distortion, perversion",
+    "examples": []
+  },
+  {
+    "word": "شائه",
+    "displayWord": "شائه",
+    "translation": "šā’ih misshapen, malformed, ugly, disfigured, deformed, disfeatured, defaced; distorted, perverted",
+    "examples": []
+  },
+  {
+    "word": "شاه",
+    "displayWord": "شاه",
+    "translation": "2 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "شاة",
+    "displayWord": "شاة",
+    "translation": "3 (n. un.) see شوء",
+    "examples": []
+  },
+  {
+    "word": "شواه",
+    "displayWord": "شواه",
+    "translation": "pl. of شاء see شوء",
+    "examples": []
+  },
+  {
+    "word": "شوى",
+    "displayWord": "شوى",
+    "translation": "šawā i ( شي šayy) to broil, grill, rout ( ھ meat)",
+    "examples": []
+  },
+  {
+    "word": "شواء",
+    "displayWord": "شواء",
+    "translation": "šiwā’ broiled, or grilled, meat, and the like │ شواء السجق š. sujuq grilled sausage",
+    "examples": []
+  },
+  {
+    "word": "شوى",
+    "displayWord": "شوى",
+    "translation": "šawīy broiled, grilled, rosted",
+    "examples": []
+  },
+  {
+    "word": "شواة",
+    "displayWord": "شواة",
+    "translation": "šawāh pl. شوى šawan scalp",
+    "examples": []
+  },
+  {
+    "word": "شواية",
+    "displayWord": "شواية",
+    "translation": "šawāya gridiron, grill",
+    "examples": []
+  },
+  {
+    "word": "شى",
+    "displayWord": "شى",
+    "translation": "1 see شوى",
+    "examples": []
+  },
+  {
+    "word": "شية، شيات",
+    "displayWord": "شية، شيات",
+    "translation": "2 see وشي",
+    "examples": []
+  },
+  {
+    "word": "شاء",
+    "displayWord": "شاء",
+    "translation": "(شيأ ) šā’a a ( مشيئة mašī’a) to want; to wish (",
+    "examples": []
+  },
+  {
+    "word": "شيء",
+    "displayWord": "شيء",
+    "translation": "šai’ pl. اشياء ašyā’2 thing; something; (with neg.) nothing │ شيء من ... some a little, a certain (amount of), a considerable ...; شيء من النشاط (našāṭ) some activity; شيء من القلق (qalaq) some uneasiness, some anxiety; بدون شيء من الجھد (jahd) without any effort at all; ھذا شيء",
+    "examples": []
+  },
+  {
+    "word": "شيء",
+    "displayWord": "شيء",
+    "translation": "in negative sentences: not in any way; in no 495 way, by no means, not at all, not in the least; على شيء كثير من very, extremely, e.g., على شيء كثير من البساطة (basāṭa) very simple; الشيء الكثير the most;",
+    "examples": []
+  },
+  {
+    "word": "شيئي",
+    "displayWord": "شيئي",
+    "translation": "šai’ī objective, factual",
+    "examples": []
+  },
+  {
+    "word": "شيئ",
+    "displayWord": "شيئ",
+    "translation": "šuyyai’ a little thing, trifle",
+    "examples": []
+  },
+  {
+    "word": "شوية",
+    "displayWord": "شوية",
+    "translation": "šuwayya (colloq.) a little, a bit, somewhat",
+    "examples": []
+  },
+  {
+    "word": "شاب",
+    "displayWord": "شاب",
+    "translation": "(شيب 2 ) šāba i (šaib, شيبة šaiba, مشيب mašīb) to become white-haired, grayhaired; to turn white or gray (hair); to grow old, to age; to make white-haired; to bleach ( ھ s.th.) II to make ( ه s.o.) whitehaired, cause s.o.’s ( ه) hair to turn white (grief) IV = II",
+    "examples": []
+  },
+  {
+    "word": "شيب",
+    "displayWord": "شيب",
+    "translation": "šaib grayness of the hair, gray or white hair; old age",
+    "examples": []
+  },
+  {
+    "word": "شيبة",
+    "displayWord": "شيبة",
+    "translation": "šaiba a variety of Artemisia (Artemisia arborescens L.; bot.)",
+    "examples": []
+  },
+  {
+    "word": "شائب",
+    "displayWord": "شائب",
+    "translation": "šā’ib white, gray (hair); whitehaired, gray-haired (person); old, aged; old man",
+    "examples": []
+  },
+  {
+    "word": "شابة",
+    "displayWord": "شابة",
+    "translation": "2 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "شيت",
+    "displayWord": "شيت",
+    "translation": "šīt pl. شيوتات šuyūtāt chintz. Printed calico (eg.)",
+    "examples": []
+  },
+  {
+    "word": "شيح",
+    "displayWord": "شيح",
+    "translation": "1 II (tun.) to dry, blot ( ھ s.th.) IV to turn away, avert ( ب the eyes, one’s face, عن from)",
+    "examples": []
+  },
+  {
+    "word": "شياح",
+    "displayWord": "شياح",
+    "translation": "šayyāḥ blotting paper",
+    "examples": []
+  },
+  {
+    "word": "شيح",
+    "displayWord": "شيح",
+    "translation": "2 šīḥ an oriental variety of wormwood (bot.)",
+    "examples": []
+  },
+  {
+    "word": "شاخ",
+    "displayWord": "شاخ",
+    "translation": "(شيخ ) šāka i ( شيخ šayak, شيوخة šuyūka,",
+    "examples": []
+  },
+  {
+    "word": "شيخوخة",
+    "displayWord": "شيخوخة",
+    "translation": "šaikūka) to age, grow old; to attain a venerable age",
+    "examples": []
+  },
+  {
+    "word": "شيخ",
+    "displayWord": "شيخ",
+    "translation": "šaik, pl. شيوخ šuyūk, اشياخ ašyāk,",
+    "examples": []
+  },
+  {
+    "word": "شيخ البلد",
+    "displayWord": "شيخ البلد",
+    "translation": "š. al-balad chief of a village, village mayor; شيخ السجادة š. as-sajjāda title of the leaders of certain dervish orders in their capacity of inheritors of the founder’s prayer rug; شيخ الإسلام š. al-islām sheikh ul-Islam, formerly, esp. in medieval Egypt, title of the Grand Mufti, the spiritual head of Islam, later being bestowed more and more exclusively upon the Mufti of Constantinople in the Ottoman Empire; title of the chief mufti in Tunisia; شيخ المدينة inspector of police (Magr.); مشيخة الجامع الأعظم professoriate, or faculty, of the Great Mosque in Tunis;",
+    "examples": []
+  },
+  {
+    "word": "شيخة",
+    "displayWord": "شيخة",
+    "translation": "šaika pl. -āt an old, or elderly, woman, a matron",
+    "examples": []
+  },
+  {
+    "word": "شياخة",
+    "displayWord": "شياخة",
+    "translation": "šiyāka position, or dignity, of a sheik",
+    "examples": []
+  },
+  {
+    "word": "شيخوخة",
+    "displayWord": "شيخوخة",
+    "translation": "šaikūka old age, senility",
+    "examples": []
+  },
+  {
+    "word": "شيخوخي",
+    "displayWord": "شيخوخي",
+    "translation": "šaikūkī senile, characteristic of old age",
+    "examples": []
+  },
+  {
+    "word": "شاد",
+    "displayWord": "شاد",
+    "translation": "(شيد ) šāda i ( شيد šaid) to erect, set up, construct, build ( ھ an edifice, and the like) II = I; IV = I; به or اشاد بذكره (bi-dikrihī) to celebrate, praise, commend s.o. or s.th., speak in glowing terms of s.o. or s.th.",
+    "examples": []
+  },
+  {
+    "word": "شيد",
+    "displayWord": "شيد",
+    "translation": "šīd plaster (of a wall); plaster of Paris; mortar",
+    "examples": []
+  },
+  {
+    "word": "شيراز",
+    "displayWord": "شيراز",
+    "translation": "šīrāz2 Shiraz (city in SW Iran)",
+    "examples": []
+  },
+  {
+    "word": "شيرج",
+    "displayWord": "شيرج",
+    "translation": "šīraj sesame oil",
+    "examples": []
+  },
+  {
+    "word": "شيرة",
+    "displayWord": "شيرة",
+    "translation": "šīra a refreshment (made of fruit juice)",
+    "examples": []
+  },
+  {
+    "word": "شيزوفرانيا",
+    "displayWord": "شيزوفرانيا",
+    "translation": "šīzofrāniyā schizophrenia",
+    "examples": []
+  },
+  {
+    "word": "شيش",
+    "displayWord": "شيش",
+    "translation": "1 šīš foil, rapier; jalousie, Venetian blind │",
+    "examples": []
+  },
+  {
+    "word": "شيشة",
+    "displayWord": "شيشة",
+    "translation": "2 šīša bottle of the narghile; narghile, hookah",
+    "examples": []
+  },
+  {
+    "word": "شاط",
+    "displayWord": "شاط",
+    "translation": "(شيط ) šāṭa i ( شيط šaiṭ) to burn (esp. food) II to burn slightly, singe, scorch, sear ( ھ s.th.) IV = II; V = I; X استشاط غضبا (gaḍaban) to be or become fuming with rage, flare up, fly off the handle",
+    "examples": []
+  },
+  {
+    "word": "شيطان",
+    "displayWord": "شيطان",
+    "translation": "II tašaiṭana to behave like a devil",
+    "examples": []
+  },
+  {
+    "word": "شيطان",
+    "displayWord": "شيطان",
+    "translation": "šaiṭān pl. شياطين šayāṭīn2 Shaitan, Satan, devil, fiend",
+    "examples": []
+  },
+  {
+    "word": "شيطاني",
+    "displayWord": "شيطاني",
+    "translation": "šaiṭānī satanic, devilish, fiendish; demonic, demoniac, hellish, infernal",
+    "examples": []
+  },
+  {
+    "word": "شيطنة",
+    "displayWord": "شيطنة",
+    "translation": "šaiṭana devilry, villainy, dirty trick",
+    "examples": []
+  },
+  {
+    "word": "شاع",
+    "displayWord": "شاع",
+    "translation": "(شيع ) šā‘a i ( شيع šai‘, شيوع šuyū‘) to spread, be divulged, become known, become public (news); to spread (out), diffuse ( في over); to fill, pervade, dominate ( في s.o., s.th.; of a feeling); شاع في to be generally attributable, be generally applicable to s.th.; شاع به to spread, divulge, publicize, circulate s.th.; make s.th. known, bring s.th. to public notice II to see ( ه s.o.) off, escort, accompany ( ه s.o.); to bid farewell ه) to s.o.); to pay ( ه the deceased) the last honors; to send ( ھ, ه s.o., s.th.); to adhere (",
+    "examples": []
+  },
+  {
+    "word": "شيعة",
+    "displayWord": "شيعة",
+    "translation": "šī‘a pl. شيع šiya‘ followers, adherents, disciples, faction, party, sect;",
+    "examples": []
+  },
+  {
+    "word": "شيعي",
+    "displayWord": "شيعي",
+    "translation": "šī‘ī Shiitic, (pl. -ūn) Shiite",
+    "examples": []
+  },
+  {
+    "word": "شياع",
+    "displayWord": "شياع",
+    "translation": "šiyā‘ community (of property) (jur.)",
+    "examples": []
+  },
+  {
+    "word": "شيوع",
+    "displayWord": "شيوع",
+    "translation": "šuyū‘ publicity, spread, circulation (of news) │ على الشيوع in common, jointly, in joint possession",
+    "examples": []
+  },
+  {
+    "word": "شيوعي",
+    "displayWord": "شيوعي",
+    "translation": "šuyū‘ī communistic, communist; (pl. -ūn) a communist",
+    "examples": []
+  },
+  {
+    "word": "شيوعية",
+    "displayWord": "شيوعية",
+    "translation": "šuyū‘īya communism",
+    "examples": []
+  },
+  {
+    "word": "شائع",
+    "displayWord": "شائع",
+    "translation": "šā’i‘ widespread, (well-)known, public; general, universal; common, joint │ الشائع ان it is rumored that ...; شائع الذيوع widely known, widespread, common; شائع",
+    "examples": []
+  },
+  {
+    "word": "شائعة",
+    "displayWord": "شائعة",
+    "translation": "šā’i‘a pl. -āt, شوائع šawā’i‘ rumor",
+    "examples": []
+  },
+  {
+    "word": "شاف",
+    "displayWord": "شاف",
+    "translation": "II to cut up, chop or slice ( ھ fruit)",
+    "examples": []
+  },
+  {
+    "word": "شيون",
+    "displayWord": "شيون",
+    "translation": "šīfūn chiffon (fabric)",
+    "examples": []
+  },
+  {
+    "word": "شيق",
+    "displayWord": "شيق",
+    "translation": "see شوق",
+    "examples": []
+  },
+  {
+    "word": "شيك",
+    "displayWord": "شيك",
+    "translation": "1 (Fr.) šīk chic",
+    "examples": []
+  },
+  {
+    "word": "شيك",
+    "displayWord": "شيك",
+    "translation": "2 (Fr. cheque) šēk, šīk pl. -āt check │ شيك",
+    "examples": []
+  },
+  {
+    "word": "شيكوريا",
+    "displayWord": "شيكوريا",
+    "translation": "(It. cicoria) šīkōriyā chicory",
+    "examples": []
+  },
+  {
+    "word": "شيكولاته",
+    "displayWord": "شيكولاته",
+    "translation": "šīkōlāta (syr.) chocolate",
+    "examples": []
+  },
+  {
+    "word": "شال",
+    "displayWord": "شال",
+    "translation": "(شيل 1 ) šāla , to carry, convey, transport ( ھ s.th.); to raise, elevate, lift ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "شيلة",
+    "displayWord": "شيلة",
+    "translation": "šaila pl. -āt load, burden",
+    "examples": []
+  },
+  {
+    "word": "شيالة",
+    "displayWord": "شيالة",
+    "translation": "šiyāla carrying, carriage, conveyance, transportation (of loads); porterage, carrying charges",
+    "examples": []
+  },
+  {
+    "word": "شيال",
+    "displayWord": "شيال",
+    "translation": "šayyāl pl. -ūn, شيالة šayyāla porter, carrier",
+    "examples": []
+  },
+  {
+    "word": "شيالة",
+    "displayWord": "شيالة",
+    "translation": "šayyāla suspender",
+    "examples": []
+  },
+  {
+    "word": "شال",
+    "displayWord": "شال",
+    "translation": "2 pl. شيلان look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "شيلام",
+    "displayWord": "شيلام",
+    "translation": "šailām darnel (Lalium temulentum; bot.); a variety of vetch",
+    "examples": []
+  },
+  {
+    "word": "شيلمان",
+    "displayWord": "شيلمان",
+    "translation": "šīlmān (coll.; n. un. ة) steel girders (ir.)",
+    "examples": []
+  },
+  {
+    "word": "شيلي",
+    "displayWord": "شيلي",
+    "translation": "šīlī Chile",
+    "examples": []
+  },
+  {
+    "word": "شام",
+    "displayWord": "شام",
+    "translation": "(شيم ) šāma i to look out ( ھ for), be on the lookout, watch; to expect ( ھ s.th.), hope ( ھ for)",
+    "examples": []
+  },
+  {
+    "word": "شيمة",
+    "displayWord": "شيمة",
+    "translation": "šīma pl. شيم šiyam nature, temper, disposition, character; habit, custom, practice 498",
+    "examples": []
+  },
+  {
+    "word": "شامة",
+    "displayWord": "شامة",
+    "translation": "šāma pl. -āt, شام šām mole, nevus, birthmark",
+    "examples": []
+  },
+  {
+    "word": "شيمية",
+    "displayWord": "شيمية",
+    "translation": "šīmīya pl. شيامي šayāmī (eg.) vortex, whirlpool, eddy",
+    "examples": []
+  },
+  {
+    "word": "شان",
+    "displayWord": "شان",
+    "translation": "(شين 1 ) šāna i ( شين šain) to disfigure, disfeature, mar, .dishonor, disgrace ( ھ، ه s.o., s.th.) │ شان سمعته (sum‘atahū) to detract from s.o.’s good reputation II = I",
+    "examples": []
+  },
+  {
+    "word": "شين",
+    "displayWord": "شين",
+    "translation": "šain disfigurement, marring, dishonoring, disgracing; disgrace, shame",
+    "examples": []
+  },
+  {
+    "word": "شائن",
+    "displayWord": "شائن",
+    "translation": "šā’in dishonorable, scandalous, disgraceful",
+    "examples": []
+  },
+  {
+    "word": "شين",
+    "displayWord": "شين",
+    "translation": "1 šīn name of the letter ش",
+    "examples": []
+  },
+  {
+    "word": "شاي",
+    "displayWord": "شاي",
+    "translation": "look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "شياخ",
+    "displayWord": "شياخ",
+    "translation": "pl. of شاء , see شوء ص",
+    "examples": []
+  },
+  {
+    "word": "شرعي",
+    "displayWord": "شرعي",
+    "translation": "(šar‘ī) medical examiner (jur.); طبيب",
+    "examples": []
+  },
+  {
+    "word": "شد عضده",
+    "displayWord": "شد عضده",
+    "translation": "(‘aḍudahū) to aid, assist s.o., stand by s.o.; ھو عضده المتين he is an indispensable aid to him",
+    "examples": []
+  },
+  {
+    "word": "شفتيه رغوة",
+    "displayWord": "شفتيه رغوة",
+    "translation": "‘alat šafataihi ragwa foam appeared on his lips II to raise, raise aloft, lift, hoist, lift up, elevate, uplift, exalt ( ھ، ه s.o., s.th.) IV = II │ اعلى شأنه (ša’nahū) to play up, stress, emphasize s.th., put emphasis on s.th.; to further, promote, advance s.th.; to raise s.o.’s prestige V to rise, become high VI to rise, lift, ascend, rise aloft; to resound, ring out; to be high, exalted, sublime (esp. of God); to deem o.s. above s.o. or s.th. ( على ), look down (",
+    "examples": []
+  },
+  {
+    "word": "شيء من الذكاء",
+    "displayWord": "شيء من الذكاء",
+    "translation": "(dakā’) he has a good deal of intelligence; ليس ھذا على شيء there is nothing in it, it’s worthless; ليس من ھذا كله",
+    "examples": []
+  },
+  {
+    "word": "شأن الشيء",
+    "displayWord": "شأن الشيء",
+    "translation": "i. ša’ni š. boosting, furtherance, promotion, or advancement of s.th.",
+    "examples": []
+  },
+  {
+    "word": "شبه العمد",
+    "displayWord": "شبه العمد",
+    "translation": "šibh al-‘a. quasi-deliberate intent (Isl. Law)",
+    "examples": []
+  },
+  {
+    "word": "شيء فداءه",
+    "displayWord": "شيء فداءه",
+    "translation": "(fidā’ahū) he sacrificed or gave up everything for it",
+    "examples": []
+  },
+  {
+    "word": "شھور لا تقدم ولا تؤخر",
+    "displayWord": "شھور لا تقدم ولا تؤخر",
+    "translation": "farqu šuhūrin lā tuqaddimu wa-lā tu’akkiru a difference of a few months which is of no consequence IV to be bold, audacious, daring; to make bold, have the audacity to do s.th. ( على ); to venture, risk, undertake, tackle ( على s.th.), set about s.th. ( على ); to brave ( على s.th.), embark boldly ( على upon), dare to engage على) in), venture upon s.th. ( على ); to attack على) s.o., s.th.) V to precede ( عن or على or",
+    "examples": []
+  },
+  {
+    "word": "شيئين",
+    "displayWord": "شيئين",
+    "translation": "two things) VIII to be connected, be linked, be joined, be united, be combined, be associated ( ب with); to combine, associate, unite ( ب with); to get married, be married ( ب to), marry ( ب s.o.); to be coupled, be interconnected, be yoked together, be tied together, be bound together; to become interlinked, become concatenate X to ripen, suppurate, come to a head (of a furuncle)",
+    "examples": []
+  },
+  {
+    "word": "شھرا قماح",
+    "displayWord": "شھرا قماح",
+    "translation": "šahrā qumāḥ (qimāḥ) the two coldest months of winter",
+    "examples": []
+  },
+  {
+    "word": "شين",
+    "displayWord": "شين",
+    "translation": "k. šīn crepe de Chine",
+    "examples": []
+  },
+  {
+    "word": "شيء",
+    "displayWord": "شيء",
+    "translation": "so as to reveal s.th.) │ تكشف الأمر عن لا",
+    "examples": []
+  },
+  {
+    "word": "شيء",
+    "displayWord": "شيء",
+    "translation": "(amru) the matter turned out to be of no consequence; تكشف عن منتھى العجز (muntahā l-‘ajz) to show o.s. utterly helpless VII to be removed, be lifted, be raised (veil); to be uncovered, be disclosed, be revealed, become manifest (",
+    "examples": []
+  },
+  {
+    "word": "شططا",
+    "displayWord": "شططا",
+    "translation": "(šaṭaṭan) to overtask s.o., expect or demand too much of s.o.; ( مشقة ... or",
+    "examples": []
+  },
+  {
+    "word": "شعر ملحمي",
+    "displayWord": "شعر ملحمي",
+    "translation": "ši‘r malḥamī heroic poem",
+    "examples": []
+  },
+  {
+    "word": "شيء",
+    "displayWord": "شيء",
+    "translation": "(liwā’a š.) to found, start, originate, produce, cause, arouse, provoke s.th.;",
+    "examples": []
+  },
+  {
+    "word": "ش",
+    "displayWord": "ش",
+    "translation": ". م . م . (= شركة مسئولية محدودة ) Inc., Ltd.",
+    "examples": []
+  },
+  {
+    "word": "شذر مذر",
+    "displayWord": "شذر مذر",
+    "translation": "šadara madara scattered here and there",
+    "examples": []
+  },
+  {
+    "word": "شخصية فلان",
+    "displayWord": "شخصية فلان",
+    "translation": "(šakšīyata) to pass o.s. off as s.o., purport to be ..., impersonate s.o.",
+    "examples": []
+  },
+  {
+    "word": "شيء يندى له الجبين",
+    "displayWord": "شيء يندى له الجبين",
+    "translation": "an embarrassing or shocking thing, a disgraceful thing II to moisten, wet, bedew ( ھ s.th.) III to shout, call out, cry out, exclaim; to call ( ب or ه s.o. or for s.o., also على ), summon ( ه s.o., also على ); to call out, shout ( ه to s.o.); to call for s.th. ( ب), invite to s.th. ( ب); to proclaim, announce ( ب s.th.); to emphasize ( ب s.th.); O to announce, act as announcer (radio); to cry one’s wares, hawk ( على s.th. to be sold) │ نودي به رئيسا (nūdiya) to be proclaimed president IV = II; to be noble, generous, magnanimous V to he moistened, he bedewed; to show o.s. generous, liberal, openhanded VI and VIII to get together, meet, convene, gather, assemble, form a club",
+    "examples": []
+  },
+  {
+    "word": "شھري",
+    "displayWord": "شھري",
+    "translation": "šahrī semimonthly; انصاف العذارى a. al-‘adārā demi-vierges; نصف القرد n. alqird lemur; نصف القطر n. al-quṭr radius;",
+    "examples": []
+  },
+  {
+    "word": "شدقيه",
+    "displayWord": "شدقيه",
+    "translation": "(šidqaihi) to be puffed up, become inflated VIII to be blown up, inflated, filled with air; to swell; to puff up, become inflated │ انتفخ سحره (saḥrahū) and",
+    "examples": []
+  },
+  {
+    "word": "شد عليه النكير",
+    "displayWord": "شد عليه النكير",
+    "translation": "│ ( منكر (šadda) to reproach s.o. severely",
+    "examples": []
+  },
+  {
+    "word": "شھادة توجيھية",
+    "displayWord": "شھادة توجيھية",
+    "translation": "diploma conferred after the successful completion of the fifth grade of a secondary school, entitling the holder to admittance to a university (Eg.); طلبة",
+    "examples": []
+  },
+  {
+    "word": "شية",
+    "displayWord": "شية",
+    "translation": "šiya pl. -āt blotch, spot; blemish, flaw, fault, defect; mark, sign",
+    "examples": []
+  },
+  {
+    "word": "شفير الھلاك",
+    "displayWord": "شفير الھلاك",
+    "translation": "(šafīri l-halāk) to be on the brink of ruin, be about to perish; وقف عند",
+    "examples": []
+  },
+  {
+    "word": "شطر",
+    "displayWord": "شطر",
+    "translation": "for); to direct, turn ( ھ s.th.) │ يمم في فم",
+    "examples": []
   }
 ]

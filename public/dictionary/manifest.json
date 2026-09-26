@@ -1,145 +1,119 @@
 {
-  "totalEntries": 194,
-  "letters": {
+  "source": "Hans Wehr's Dictionary of Modern Written Arabic (Milton Cowan)",
+  "totalEntries": 30159,
+  "shards": {
     "ا": {
-      "filename": "ا.json",
-      "count": 10,
-      "sizeBytes": 6570
+      "entriesCount": 4396,
+      "fileSizeKb": 835
     },
     "ب": {
-      "filename": "ب.json",
-      "count": 9,
-      "sizeBytes": 5076
+      "entriesCount": 1525,
+      "fileSizeKb": 291
     },
     "ت": {
-      "filename": "ت.json",
-      "count": 8,
-      "sizeBytes": 3986
+      "entriesCount": 1590,
+      "fileSizeKb": 280
     },
     "ث": {
-      "filename": "ث.json",
-      "count": 7,
-      "sizeBytes": 3197
+      "entriesCount": 174,
+      "fileSizeKb": 31
     },
     "ج": {
-      "filename": "ج.json",
-      "count": 8,
-      "sizeBytes": 3806
+      "entriesCount": 837,
+      "fileSizeKb": 153
     },
     "ح": {
-      "filename": "ح.json",
-      "count": 8,
-      "sizeBytes": 4108
+      "entriesCount": 1064,
+      "fileSizeKb": 223
     },
     "خ": {
-      "filename": "خ.json",
-      "count": 7,
-      "sizeBytes": 2967
+      "entriesCount": 796,
+      "fileSizeKb": 156
     },
     "د": {
-      "filename": "د.json",
-      "count": 7,
-      "sizeBytes": 3005
+      "entriesCount": 686,
+      "fileSizeKb": 126
     },
     "ذ": {
-      "filename": "ذ.json",
-      "count": 6,
-      "sizeBytes": 2696
+      "entriesCount": 174,
+      "fileSizeKb": 37
     },
     "ر": {
-      "filename": "ر.json",
-      "count": 7,
-      "sizeBytes": 2945
+      "entriesCount": 937,
+      "fileSizeKb": 182
     },
     "ز": {
-      "filename": "ز.json",
-      "count": 6,
-      "sizeBytes": 2574
+      "entriesCount": 437,
+      "fileSizeKb": 74
     },
     "س": {
-      "filename": "س.json",
-      "count": 7,
-      "sizeBytes": 2927
+      "entriesCount": 1186,
+      "fileSizeKb": 214
     },
     "ش": {
-      "filename": "ش.json",
-      "count": 7,
-      "sizeBytes": 2709
+      "entriesCount": 953,
+      "fileSizeKb": 178
     },
     "ص": {
-      "filename": "ص.json",
-      "count": 7,
-      "sizeBytes": 3198
+      "entriesCount": 585,
+      "fileSizeKb": 118
     },
     "ض": {
-      "filename": "ض.json",
-      "count": 6,
-      "sizeBytes": 2458
+      "entriesCount": 244,
+      "fileSizeKb": 51
     },
     "ط": {
-      "filename": "ط.json",
-      "count": 7,
-      "sizeBytes": 2861
+      "entriesCount": 527,
+      "fileSizeKb": 101
     },
     "ظ": {
-      "filename": "ظ.json",
-      "count": 6,
-      "sizeBytes": 2861
+      "entriesCount": 72,
+      "fileSizeKb": 15
     },
     "ع": {
-      "filename": "ع.json",
-      "count": 7,
-      "sizeBytes": 3206
+      "entriesCount": 1414,
+      "fileSizeKb": 340
     },
     "غ": {
-      "filename": "غ.json",
-      "count": 6,
-      "sizeBytes": 2402
+      "entriesCount": 511,
+      "fileSizeKb": 103
     },
     "ف": {
-      "filename": "ف.json",
-      "count": 7,
-      "sizeBytes": 2918
+      "entriesCount": 956,
+      "fileSizeKb": 196
     },
     "ق": {
-      "filename": "ق.json",
-      "count": 7,
-      "sizeBytes": 3100
+      "entriesCount": 1072,
+      "fileSizeKb": 219
     },
     "ك": {
-      "filename": "ك.json",
-      "count": 7,
-      "sizeBytes": 3221
+      "entriesCount": 903,
+      "fileSizeKb": 172
     },
     "ل": {
-      "filename": "ل.json",
-      "count": 6,
-      "sizeBytes": 2714
+      "entriesCount": 782,
+      "fileSizeKb": 162
     },
     "م": {
-      "filename": "م.json",
-      "count": 7,
-      "sizeBytes": 2938
+      "entriesCount": 5008,
+      "fileSizeKb": 900
     },
     "ن": {
-      "filename": "ن.json",
-      "count": 7,
-      "sizeBytes": 2972
+      "entriesCount": 1217,
+      "fileSizeKb": 253
     },
     "ه": {
-      "filename": "ه.json",
-      "count": 6,
-      "sizeBytes": 2579
+      "entriesCount": 1087,
+      "fileSizeKb": 280
     },
     "و": {
-      "filename": "و.json",
-      "count": 6,
-      "sizeBytes": 2746
+      "entriesCount": 819,
+      "fileSizeKb": 179
     },
     "ي": {
-      "filename": "ي.json",
-      "count": 5,
-      "sizeBytes": 2053
+      "entriesCount": 207,
+      "fileSizeKb": 38
     }
-  }
+  },
+  "totalSizeMb": "5.77"
 }

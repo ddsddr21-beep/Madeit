@@ -1,98 +1,1046 @@
 [
   {
-    "word": "ثمر",
-    "displayWord": "ثَمَر",
-    "root": "ثمر",
-    "translation": "fruit, result, yield",
-    "examples": [
-      {
-        "ar": "كُلُوا مِنْ ثَمَرِهِ إِذَا أَثْمَرَ وَآتُوا حَقَّهُ يَوْمَ حَصَادِهِ.",
-        "en": "Eat of its fruit when it yields and give its due on the day of its harvest.",
-        "source": "Holy Quran"
-      },
-      {
-        "ar": "يَجْنِي الإِنْسَانُ ثَمَرَةَ جُهْدِهِ نَجَاحًا بَاهِرًا.",
-        "en": "A human reaps the fruit of their effort as a dazzling success.",
-        "source": "Modern Prose"
-      }
-    ]
+    "word": "ث",
+    "displayWord": "ث",
+    "translation": "abbreviation of ثانية second (time unit)",
+    "examples": []
   },
   {
-    "word": "ثقافه",
-    "displayWord": "ثَقَافَة",
-    "root": "ثقف",
-    "translation": "culture, refinement, education",
-    "examples": [
-      {
-        "ar": "تَتَنَوَّعُ الثَّقَافَاتُ وَتَلْتَقِي لِتُغْنِيَ الحَضَارَةَ الإِنْسَانِيَّةَ.",
-        "en": "Cultures diversify and meet to enrich human civilization.",
-        "source": "Sociological Study"
-      }
-    ]
+    "word": "ثاء",
+    "displayWord": "ثاء",
+    "translation": "tā’ name of the letter ث",
+    "examples": []
   },
   {
-    "word": "ثقه",
-    "displayWord": "ثِقَة",
-    "root": "وثق",
-    "translation": "trust, confidence, faith",
-    "examples": [
-      {
-        "ar": "الْتَّقَدُّمُ السَّرِيعُ يَحْتَاجُ إِلَى ثِقَةٍ بِالنَّفْسِ وَالمُثَابَرَةِ.",
-        "en": "Fast progress needs self-confidence and perseverance.",
-        "source": "Motivational Book"
-      }
-    ]
+    "word": "ثئب",
+    "displayWord": "ثئب",
+    "translation": "ta’iba a ( ثأب ta’b) and VI to yawn",
+    "examples": []
+  },
+  {
+    "word": "ثؤباء",
+    "displayWord": "ثؤباء",
+    "translation": "tu’abā’ yawning, yawn; fatigue, weariness",
+    "examples": []
+  },
+  {
+    "word": "ثأر",
+    "displayWord": "ثأر",
+    "translation": "ta’ara a (ta’r) to avenge the blood of ( ه or ب), take blood revenge ( ه for 100 s.o. killed), take vengeance, avenge o.s. ( ب ه on s.o. for, also من or ل for) IV and VIII",
+    "examples": []
+  },
+  {
+    "word": "ثأر",
+    "displayWord": "ثأر",
+    "translation": "ta’r pl. -āt أثآر at’ār, آثار ātār revenge, vengeance, blood revenge; retaliation, reprisal│ أخذ ثأره or أخذ بالثأر to take revenge, avenge o.s.; مباراة الثأر mubārāt at-t. return match (sports)",
+    "examples": []
+  },
+  {
+    "word": "ثائر",
+    "displayWord": "ثائر",
+    "translation": "tā’ir avenger",
+    "examples": []
+  },
+  {
+    "word": "ثؤلول",
+    "displayWord": "ثؤلول",
+    "translation": "tu’lūl and ثؤلولة tu’lūla pl. ثآليل ta’ālīl2 wart",
+    "examples": []
+  },
+  {
+    "word": "ثأى",
+    "displayWord": "ثأى",
+    "translation": "ta’ā scars",
+    "examples": []
+  },
+  {
+    "word": "ثبت",
+    "displayWord": "ثبت",
+    "translation": "tabata u ( ثبات tabāt, ثبوت tubūt) to stand firm, be fixed, stationary, immovable, unshakable, firm, strong, stable; to hold out, hold one's ground ( ل against s.o. or s.th.), be firm, remain firm ( ل toward s.o. or s.th.), withstand, resist, defy ( ل s.o. or s.th.); to be established, be proven (fact); to remain, stay ( ب at a place); to maintain على) s.th.), keep, stick, adhere ( على to s.th.), abide or stand by s.th. ( على ; e.g., by an agreement); to insist ( على on)│ ثبت فى",
+    "examples": []
+  },
+  {
+    "word": "ثبت",
+    "displayWord": "ثبت",
+    "translation": "tabt firm, fixed, established; steadfast, unflinching; brave",
+    "examples": []
+  },
+  {
+    "word": "ثبت",
+    "displayWord": "ثبت",
+    "translation": "tabat reliable, trustworthy, credible",
+    "examples": []
+  },
+  {
+    "word": "ثبت",
+    "displayWord": "ثبت",
+    "translation": "tabat pl. اثبات atbāt list, index, roster",
+    "examples": []
   },
   {
     "word": "ثبات",
-    "displayWord": "ثَبَات",
-    "root": "ثبت",
-    "translation": "stability, firmness, consistency",
-    "examples": [
-      {
-        "ar": "وَثَبِّتْ أَقْدَامَنَا وَانصُرْنَا عَلَى الْقَوْمِ الْكَافِرِينَ.",
-        "en": "And make our feet firm and grant us victory over the disbelieving people.",
-        "source": "Holy Quran"
-      }
-    ]
+    "displayWord": "ثبات",
+    "translation": "tabāt firmness; steadiness, constancy, permanence, stability; certainty, sureness; perseverance, persistence, endurance; continuance, maintenance, retention ( على of s.th.), adherence ( على to)",
+    "examples": []
   },
   {
-    "word": "ثروه",
-    "displayWord": "ثَرْوَة",
-    "root": "ثري",
-    "translation": "wealth, fortune, resource",
-    "examples": [
-      {
-        "ar": "المَاءُ هُوَ الثَّرْوَةُ الحَقِيقِيَّةُ لِلأَجْيَالِ القَادِمَةِ.",
-        "en": "Water is the true wealth for the coming generations.",
-        "source": "Ecological Article"
-      }
-    ]
+    "word": "ثبوت",
+    "displayWord": "ثبوت",
+    "translation": "tubūt constancy, immutability, steadiness; permanence, durability; certainty, sureness│ ثبوت الشھر t. aš-šahr the official determination of the beginning of a lunar month",
+    "examples": []
   },
   {
-    "word": "ثوب",
-    "displayWord": "ثَوْب",
-    "root": "ثوب",
-    "translation": "garment, dress, robe",
-    "examples": [
-      {
-        "ar": "وَثِيَابَكَ فَطَهِّرْ.",
-        "en": "And your clothing purify.",
-        "source": "Holy Quran"
-      }
-    ]
+    "word": "ثابت",
+    "displayWord": "ثابت",
+    "translation": "tābit firm, fixed, established; stationary, immovable; steady, invariable, constant, stable; permanent, lasting, durable, enduring; confirmed, proven; a constant│ ثابت الجأش t. al-ja’š undismayed, fearless, staunch, steadfast; ثابت العزم t. al-‘azm firmly resolved, determined; املاك",
+    "examples": []
+  },
+  {
+    "word": "ثابتة",
+    "displayWord": "ثابتة",
+    "translation": "and أموال ثابتة immovable property, real estate, realty; O ثابت الاتجاه t. al-ittijāh unidirectional, rectified (el.)",
+    "examples": []
+  },
+  {
+    "word": "ثابتة",
+    "displayWord": "ثابتة",
+    "translation": "tābita pl. ثوابت tawābit2 fixed star",
+    "examples": []
+  },
+  {
+    "word": "ثبر",
+    "displayWord": "ثبر",
+    "translation": "tabara u to destroy, ruin ( ه s.o.); ( ثبور tubūr) to perish III to apply o.s. with zeal and perseverance ( على to s.th.), persevere, persist ( على in)",
+    "examples": []
+  },
+  {
+    "word": "ثبور",
+    "displayWord": "ثبور",
+    "translation": "tubūr ruin, destruction│ نادى بالويل",
+    "examples": []
+  },
+  {
+    "word": "ثبط",
+    "displayWord": "ثبط",
+    "translation": "tabaṯa u and II to hold back, keep, prevent",
+    "examples": []
+  },
+  {
+    "word": "ثبنة",
+    "displayWord": "ثبنة",
+    "translation": "tubna pl. ثبن tuban lap, fold of a garment (used as a receptacle)",
+    "examples": []
+  },
+  {
+    "word": "ثبان",
+    "displayWord": "ثبان",
+    "translation": "tibān = ثبنة tubna",
+    "examples": []
+  },
+  {
+    "word": "ثيتل",
+    "displayWord": "ثيتل",
+    "translation": "look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "ثج",
+    "displayWord": "ثج",
+    "translation": "tajja u to flow coplously",
+    "examples": []
+  },
+  {
+    "word": "ثجاج",
+    "displayWord": "ثجاج",
+    "translation": "tajjāj coplously flowing, streaming",
+    "examples": []
+  },
+  {
+    "word": "ثخن",
+    "displayWord": "ثخن",
+    "translation": "taḳuna u to be or become thick, thicken; to be firm, solid, compact IV to wear out, exhaust, weaken ( ه s.o.)│ اثخنه ضربا (ḍarban) to wallop s.o., give s.o. a sound thrashing; اثخن فى العدو (‘aduw) to massacre the enemy; اثخنه بالجراح to weaken s.o. by inflicting wounds",
+    "examples": []
+  },
+  {
+    "word": "ثخن",
+    "displayWord": "ثخن",
+    "translation": "tiḳan, ثخانة taḳāna, ثخونة tuḳūna thickness, density; consistency; compactness",
+    "examples": []
+  },
+  {
+    "word": "ثخين",
+    "displayWord": "ثخين",
+    "translation": "taḳīn pl. ثخناء tuḳanā’2 thick; dense",
+    "examples": []
+  },
+  {
+    "word": "ثدى",
+    "displayWord": "ثدى",
+    "translation": "tady and tadyan m. and f., pl. اثداء atdā’ female breast; udder",
+    "examples": []
+  },
+  {
+    "word": "ثر",
+    "displayWord": "ثر",
+    "translation": "tarr abounding in water│ ثرة من الدمع (dam‘) tear-wet, tear-blurred (eye)",
+    "examples": []
+  },
+  {
+    "word": "ثرب",
+    "displayWord": "ثرب",
+    "translation": "taraba i (tarb) and II to blame, censure ( ه and على s.o.)",
+    "examples": []
+  },
+  {
+    "word": "ثرثر",
+    "displayWord": "ثرثر",
+    "translation": "tartara ( ثرثرة tartara) to chatter, prattle",
+    "examples": []
+  },
+  {
+    "word": "ثرثار",
+    "displayWord": "ثرثار",
+    "translation": "tartār prattler, chatterbox; ثرثارة tartāra do. (fem.)",
+    "examples": []
+  },
+  {
+    "word": "ثرثرة",
+    "displayWord": "ثرثرة",
+    "translation": "tartara chatter, prattle",
+    "examples": []
+  },
+  {
+    "word": "ثرد",
+    "displayWord": "ثرد",
+    "translation": "tarada u to crumble and sop ( ھ bread)",
+    "examples": []
+  },
+  {
+    "word": "ثريد",
+    "displayWord": "ثريد",
+    "translation": "jarid a dish of sopped bread, meat and broth",
+    "examples": []
+  },
+  {
+    "word": "ثرم",
+    "displayWord": "ثرم",
+    "translation": "tarama i (tarm) to knock s.o.’o ( ه) tooth out; -- tarima a (taram) to have a gap between two teeth ثرو) and ثرى) ثرى tariya a to become wealthy IV to become or be rich, wealthy ( ب or من through s.th.); to make rich, enrich ( ه s.o.) 102",
+    "examples": []
+  },
+  {
+    "word": "ثرى",
+    "displayWord": "ثرى",
+    "translation": "taran moist earth; ground, soil│ اين",
+    "examples": []
+  },
+  {
+    "word": "ثرى",
+    "displayWord": "ثرى",
+    "translation": "tarīy pl. اثرياء atriyā’2 wealthy, rich│ ثرى الحرب t. al-ilarb war profiteer, nouveau riche",
+    "examples": []
+  },
+  {
+    "word": "ثري",
+    "displayWord": "ثري",
+    "translation": "tarīyāt plantations",
+    "examples": []
+  },
+  {
+    "word": "ثروة",
+    "displayWord": "ثروة",
+    "translation": "tarwa and ثروة tarā’ fortune, wealth, riches│ اھل الثروة ahl at-t. the rich, the wealthy; ثروة قومية (qaumīya) national wealth; ثروة مائية (mā’īya) abundance of water, abundant supply of water (of a region)",
+    "examples": []
+  },
+  {
+    "word": "ثريا",
+    "displayWord": "ثريا",
+    "translation": "turayyā Pleiades; (also ثرية ) pl. ثريات turayyāt chandelier",
+    "examples": []
+  },
+  {
+    "word": "ثعبان",
+    "displayWord": "ثعبان",
+    "translation": "tu‘bān pl. ثعابين ta‘ābīn snake│ ثعبان الماء t. al-mā’ eel",
+    "examples": []
+  },
+  {
+    "word": "ثعبانى",
+    "displayWord": "ثعبانى",
+    "translation": "tu‘bānī snaky, snakelike, serpentine; eely",
+    "examples": []
+  },
+  {
+    "word": "ثعالة",
+    "displayWord": "ثعالة",
+    "translation": "tu‘āla fox",
+    "examples": []
+  },
+  {
+    "word": "ثعلب",
+    "displayWord": "ثعلب",
+    "translation": "ta‘lab pl. ثعالب ta‘ālib2 fox│ داء الثعلب alopecia (med.), loss of hair",
+    "examples": []
+  },
+  {
+    "word": "ثعلبى",
+    "displayWord": "ثعلبى",
+    "translation": "ta‘labī foxy, foxlike",
+    "examples": []
+  },
+  {
+    "word": "ثعلبة",
+    "displayWord": "ثعلبة",
+    "translation": "ta‘laba vixen; O tetter (med)",
+    "examples": []
+  },
+  {
+    "word": "ثغر",
+    "displayWord": "ثغر",
+    "translation": "tagir pl. ثغور tugūr front tooth; mouth; port, harbor, inlet, bay; seaport",
+    "examples": []
+  },
+  {
+    "word": "ثغرة",
+    "displayWord": "ثغرة",
+    "translation": "tagra pl. ثغر tugar breach, crevasse, crack, rift, crevice; opening, gap; cavity, hollow; narrow mountain trail",
+    "examples": []
+  },
+  {
+    "word": "ثغم",
+    "displayWord": "ثغم",
+    "translation": "tagam white, whiteness",
+    "examples": []
+  },
+  {
+    "word": "ثاغم",
+    "displayWord": "ثاغم",
+    "translation": "tāgim white (adj.)",
+    "examples": []
+  },
+  {
+    "word": "ثغا",
+    "displayWord": "ثغا",
+    "translation": "(ثغو ) tagā u ( ثغاء tugā’) to bleat (sheep)",
+    "examples": []
+  },
+  {
+    "word": "ثغاء",
+    "displayWord": "ثغاء",
+    "translation": "tugā’ bleating, bleat",
+    "examples": []
+  },
+  {
+    "word": "ثاغ",
+    "displayWord": "ثاغ",
+    "translation": "tāgin bleating│ ما له ثاغية ولا راغية (tagiya) he has absolutely nothing, he is deprived of all resources, prop.: he has neither a bleating (sheep) nor a braying (camel)",
+    "examples": []
+  },
+  {
+    "word": "ثفر",
+    "displayWord": "ثفر",
+    "translation": "tafar pl. اثفار atfār crupper (of the saddle)",
+    "examples": []
+  },
+  {
+    "word": "ثفل",
+    "displayWord": "ثفل",
+    "translation": "tufl dregs, lees, sediment; residues",
+    "examples": []
+  },
+  {
+    "word": "ثفن",
+    "displayWord": "ثفن",
+    "translation": "III to associate ( ه with s.o.), frequent s.o.’s ھ) ) company; to pursue, practice ( ه s.th.)",
+    "examples": []
+  },
+  {
+    "word": "ثفنة",
+    "displayWord": "ثفنة",
+    "translation": "taftna pl. -āt, ثفن tifan callus, callosity",
+    "examples": []
+  },
+  {
+    "word": "ثقة",
+    "displayWord": "ثقة",
+    "translation": "see وثق",
+    "examples": []
+  },
+  {
+    "word": "ثقب",
+    "displayWord": "ثقب",
+    "translation": "taqaba u (taqb) to bore, or drill, a hole ( ھ in s.th.), pierce, puncture, perforate ( ھ s.th.) II do. II and IV to light, kindle ( ھ s.th.) V and VII to be pierced, be punctured, be perforated",
+    "examples": []
+  },
+  {
+    "word": "ثقب",
+    "displayWord": "ثقب",
+    "translation": "taqb piercing, boring, puncture, perforation; (also tuqb pl. ثقوب tuqūb, اثقاب atqāb) hole, puncture, borehole, drill hole",
+    "examples": []
+  },
+  {
+    "word": "ثقبة",
+    "displayWord": "ثقبة",
+    "translation": "tuqba pl. ثقب tuqab hole",
+    "examples": []
+  },
+  {
+    "word": "ثقاب",
+    "displayWord": "ثقاب",
+    "translation": "and عود الثقاب ‘ūd al-tiqāb matchstick; matches",
+    "examples": []
+  },
+  {
+    "word": "ثقوب",
+    "displayWord": "ثقوب",
+    "translation": "tuqūb keenness, acuteness (of the mind)",
+    "examples": []
+  },
+  {
+    "word": "ثاقب",
+    "displayWord": "ثاقب",
+    "translation": "dqib penetrating, plercing, sharp (mind, eyes)│ ثاقب النظر t. an-naẓar perspicacity; sharp-eyed; ثاقب الفكر t. alfikr sagacity, acumen, mental acuteness; shrewd, sagacious, sharp-witted",
+    "examples": []
+  },
+  {
+    "word": "ثاقبات",
+    "displayWord": "ثاقبات",
+    "translation": "tāqibāt borers (zool.) 103",
+    "examples": []
+  },
+  {
+    "word": "ثقف",
+    "displayWord": "ثقف",
+    "translation": "taqifa a (taqf) to find, meet ( ه s.o.); -- taqifa a and taqufa u to be skillful, smart, clever II to make straight, straighten ( ھ s.th.); to correct, set right, straighten out (",
+    "examples": []
+  },
+  {
+    "word": "ثقافة",
+    "displayWord": "ثقافة",
+    "translation": "taqāfa culture, refinement; education; (pl. -āt) culture, civilization",
+    "examples": []
+  },
+  {
+    "word": "ثقافى",
+    "displayWord": "ثقافى",
+    "translation": "taqāfī educational; intellectual; cultural│ ملحق ثقافى (mulḥaq) cultural attaché",
+    "examples": []
+  },
+  {
+    "word": "ثقيف",
+    "displayWord": "ثقيف",
+    "translation": "tatqīf cultivation of the mind; training, education; instruction",
+    "examples": []
+  },
+  {
+    "word": "ثقل",
+    "displayWord": "ثقل",
+    "translation": "taqula u (tiql, ثقالة taqāla) to be heavy; with",
+    "examples": []
+  },
+  {
+    "word": "ثقل",
+    "displayWord": "ثقل",
+    "translation": "tiql pl. اثقال atqāl weight; burden load; gravity; heaviness│ رفع الاثقال raf‘ ala. weight lifting (athlet.); الثقل النوعى (nau‘ī) specific gravity",
+    "examples": []
+  },
+  {
+    "word": "ثقل",
+    "displayWord": "ثقل",
+    "translation": "tiqal heaviness; sluggishness, dullness",
+    "examples": []
+  },
+  {
+    "word": "ثقل",
+    "displayWord": "ثقل",
+    "translation": "taqal pl. اثقال atqāl load, baggage",
+    "examples": []
+  },
+  {
+    "word": "ثقل",
+    "displayWord": "ثقل",
+    "translation": "taqla trouble, inconvenience, discomfort",
+    "examples": []
+  },
+  {
+    "word": "ثقل",
+    "displayWord": "ثقل",
+    "translation": "taqala heaviness; sluggishness, doltishness; dullness",
+    "examples": []
+  },
+  {
+    "word": "ثقيل",
+    "displayWord": "ثقيل",
+    "translation": "taqīl pl. ثقلاء tuqalā’ ثقال , 2 tiqāl heavy; weighty, momentous, grave, serious, important; burdensome, troublesome, cumbersome, oppressive; unpleasant, disagreeable, distasteful (person)│ ثقيل الدم t. ad-dam insufferable, unpleasant, disagreeable (person); ثقيل",
+    "examples": []
+  },
+  {
+    "word": "ثكل",
+    "displayWord": "ثكل",
+    "translation": "takila a (takal) to lose a child ( ه), also: to be bereaved of a loved one ( ه) by death IV",
+    "examples": []
+  },
+  {
+    "word": "ثكل",
+    "displayWord": "ثكل",
+    "translation": "takal state of one who has lost a friend or relative; mourning over the loss of a loved one",
+    "examples": []
+  },
+  {
+    "word": "ثكلان",
+    "displayWord": "ثكلان",
+    "translation": "taklān (2) bereaved of a child",
+    "examples": []
+  },
+  {
+    "word": "ثكلى",
+    "displayWord": "ثكلى",
+    "translation": "taklā bereaved of a child (mother)",
+    "examples": []
+  },
+  {
+    "word": "ثاكلة",
+    "displayWord": "ثاكلة",
+    "translation": "tākila pl. ثواكل tawākil2 bereaved of a child (mother)",
+    "examples": []
+  },
+  {
+    "word": "ثكنة",
+    "displayWord": "ثكنة",
+    "translation": "tuknā pl. ثكن tukan, -āt barracks (mil.)",
+    "examples": []
+  },
+  {
+    "word": "ثل",
+    "displayWord": "ثل",
+    "translation": "talla u ( ثلل talal) to tear down, destroy, overthrow, subvert ( ھ s.th., esp. عرشا ‘aršan to topple a throne) VII to be subverted, overthrown (throne)",
+    "examples": []
+  },
+  {
+    "word": "ثلة",
+    "displayWord": "ثلة",
+    "translation": "tulla pl. ثلل tulal troop, band, party, group (of people); military detachment",
+    "examples": []
+  },
+  {
+    "word": "ثلب",
+    "displayWord": "ثلب",
+    "translation": "talaba i (talb) to criticize, run down ( ه s.o.); to slander, defame ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "ثلب",
+    "displayWord": "ثلب",
+    "translation": "talb slander, defamation",
+    "examples": []
+  },
+  {
+    "word": "ثالب",
+    "displayWord": "ثالب",
+    "translation": "tālib slanderous, defamatory; slanderer",
+    "examples": []
+  },
+  {
+    "word": "ثلث",
+    "displayWord": "ثلث",
+    "translation": "II to triple, make threefold ( ھ s.th.); to do three times ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "ثلث",
+    "displayWord": "ثلث",
+    "translation": "tult pl. اثلاث atlāt one third; tulut a sprawling, decorative calligraphic style",
+    "examples": []
+  },
+  {
+    "word": "ثلاثة",
+    "displayWord": "ثلاثة",
+    "translation": "talāta (f. ثلاث talāt) three; ثلثا talātan three times, thrice",
+    "examples": []
+  },
+  {
+    "word": "ثلاثى",
+    "displayWord": "ثلاثى",
+    "translation": "talātī tertiary; Tertiary (geol.)│ ما",
+    "examples": []
+  },
+  {
+    "word": "ثلاثة عشر",
+    "displayWord": "ثلاثة عشر",
+    "translation": "talātata ‘ašara, f. ثلاث عشرة talāta ‘ašrata thirteen",
+    "examples": []
+  },
+  {
+    "word": "ثلاثون",
+    "displayWord": "ثلاثون",
+    "translation": "talātūn thirty",
+    "examples": []
+  },
+  {
+    "word": "ثلاث",
+    "displayWord": "ثلاث",
+    "translation": "tulāt2 and مثلث mutallat three at a time",
+    "examples": []
+  },
+  {
+    "word": "ثلاثى",
+    "displayWord": "ثلاثى",
+    "translation": "tulātī tripartite, consisting of three, (gram.) triliteral, consisting of three radicals; tri-; trio (mus. )│ ثلاثى الزوايا t. zzawāyā triangular; ثلاثى الورقات t. lwaraqāt trifoliate",
+    "examples": []
+  },
+  {
+    "word": "ثالوث",
+    "displayWord": "ثالوث",
+    "translation": "tālūt Trinity (CM.); trinity, triad; triplet│ زھرة الثالوث zahrat at-t. pansy (bot.)",
+    "examples": []
+  },
+  {
+    "word": "ثلج",
+    "displayWord": "ثلج",
+    "translation": "talaja u: ثلجت السماء (samā’u) it snowed, was snowing; -- talija a to be delighted, 105 be gladdened (soul, heart; ب by) II to cool with ice ( ھ s.th.); to freeze, turn into ice ( ھ s.th.) IV اثلجت السماء it snowed, was snowing; to cool, moisten ( ھ s.th.)│ اثلج",
+    "examples": []
+  },
+  {
+    "word": "ثلج",
+    "displayWord": "ثلج",
+    "translation": "talj pl. ثلوج tulūj snow; ice; artificial ice│ ندفة الثلج nadfat at-t. snowflake",
+    "examples": []
+  },
+  {
+    "word": "ثلجى",
+    "displayWord": "ثلجى",
+    "translation": "taljī snowy, snow- (in compounds); icy, glacial, ice- (in compounds)",
+    "examples": []
+  },
+  {
+    "word": "ثليج",
+    "displayWord": "ثليج",
+    "translation": "talīj icy",
+    "examples": []
+  },
+  {
+    "word": "ثلاج",
+    "displayWord": "ثلاج",
+    "translation": "tallāj pl. -ūn ice vendor",
+    "examples": []
+  },
+  {
+    "word": "ثلاجة",
+    "displayWord": "ثلاجة",
+    "translation": "tallāja pl. -āt iceberg, ice floe; refrigerator, icebox",
+    "examples": []
+  },
+  {
+    "word": "ثلم",
+    "displayWord": "ثلم",
+    "translation": "talama i (talm) to blunt, make jagged ( ھ s.th.), break the edge of ( ھ ); to make a breach, gap or opening ( ھ in a wall); to defile, sully ( ھ reputation, honor); --talima a to be or become jagged, dull, blunt II to blunt ( ھ s.th.) V to become blunt VII to be defiled, be discredited (reputation)",
+    "examples": []
+  },
+  {
+    "word": "ثلم",
+    "displayWord": "ثلم",
+    "translation": "talm nick, notch; breach, opening, gap; crock, fissure, rift│ ثلم الصيت t. aṣ-ṣīt defamation",
+    "examples": []
+  },
+  {
+    "word": "ثلمة",
+    "displayWord": "ثلمة",
+    "translation": "tulma pl. ثلم tulam = talm│ سد ثلمة sadda talmatan to fill a gap; ثلمة لا تسد (tusaddu) a gap that cannot be closed, an irreparable loss",
+    "examples": []
+  },
+  {
+    "word": "ثالم",
+    "displayWord": "ثالم",
+    "translation": "talim dull, blunt",
+    "examples": []
+  },
+  {
+    "word": "ثم",
+    "displayWord": "ثم",
+    "translation": "tamma there ثم min tamma hence, therefore, for that reason",
+    "examples": []
+  },
+  {
+    "word": "ثم",
+    "displayWord": "ثم",
+    "translation": "tumma then, thereupon; furthermore, moreover; and again, and once more (emphatically in repetition)│ كلا ثم كلا (kallā) no and a hundred times no! من ثم min tamma then, thereupon",
+    "examples": []
+  },
+  {
+    "word": "ثمة",
+    "displayWord": "ثمة",
+    "translation": "tammata ( ثمت ) there; there is│ ليس ثمة there isn't",
+    "examples": []
+  },
+  {
+    "word": "ثمام",
+    "displayWord": "ثمام",
+    "translation": "tumām a grass│ على طرف الثمام (ṯarafi t-t.) within easy reach, handy; جعله على",
+    "examples": []
+  },
+  {
+    "word": "ثمر",
+    "displayWord": "ثمر",
+    "translation": "tamara u to bear fruit IV do. X to profit, benefit ( ھ from); to exploit, utilize ( ھ s.th.); to invest profitably ( ھ money)",
+    "examples": []
+  },
+  {
+    "word": "ثمر",
+    "displayWord": "ثمر",
+    "translation": "tamar pl. ثمار timār, اثمار atmār fruits, fruit (coll.); result, effect, fruit, fruitage; yield, profit, benefit, gain",
+    "examples": []
+  },
+  {
+    "word": "ثمرة",
+    "displayWord": "ثمرة",
+    "translation": "tamara (n. un. of tamar) pl. -āt fruit; result, effect; yield, profit, benefit, gain",
+    "examples": []
+  },
+  {
+    "word": "ثمل",
+    "displayWord": "ثمل",
+    "translation": "tamila a (tamal) to become drunk IV to make drunk, intoxicate ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "ثمل",
+    "displayWord": "ثمل",
+    "translation": "tamal intoxication, drunkenness",
+    "examples": []
+  },
+  {
+    "word": "ثملة",
+    "displayWord": "ثملة",
+    "translation": "tamala drunken fit, drunkenness",
+    "examples": []
+  },
+  {
+    "word": "ثمل",
+    "displayWord": "ثمل",
+    "translation": "tamil intoxicated, drunk(en)",
+    "examples": []
+  },
+  {
+    "word": "ثمالة",
+    "displayWord": "ثمالة",
+    "translation": "tumāla residue, remnant, dregs (of a liquid), heeltap (of wine); .cum, foam, froth 106",
+    "examples": []
+  },
+  {
+    "word": "ثمن",
+    "displayWord": "ثمن",
+    "translation": "1 II to appraise, asses, estimate ( ھ s.th.), determine the price or value ( ھ of s.th.); to price ( ھ s.th.)│ لا ثمل lā yutammanu invaluable, inestimable, priceless",
+    "examples": []
+  },
+  {
+    "word": "ثمن",
+    "displayWord": "ثمن",
+    "translation": "pl. اثمن atmān, اثمنة atmina price, cost; value│ الثمن الأصلى (aṣlī) cost price;",
+    "examples": []
   },
   {
     "word": "ثمين",
-    "displayWord": "ثَمِين",
-    "root": "ثمن",
-    "translation": "precious, valuable, costly",
-    "examples": [
-      {
-        "ar": "هَذَا كَنْزٌ ثَمِينٌ تَنَاقَلَتْهُ الأَجْيَالُ.",
-        "en": "This is a precious treasure passed down through generations.",
-        "source": "Folkloric History"
-      }
-    ]
+    "displayWord": "ثمين",
+    "translation": "tamīn costly, precious, valuable",
+    "examples": []
+  },
+  {
+    "word": "ثمانية",
+    "displayWord": "ثمانية",
+    "translation": "2 tamāniya (f. ثمان tamānin) eight",
+    "examples": []
+  },
+  {
+    "word": "ثمانية عشر",
+    "displayWord": "ثمانية عشر",
+    "translation": "tamāniyata ‘ašara, f. ثماني عشرة tamāniya ‘ašrata eighteen",
+    "examples": []
+  },
+  {
+    "word": "ثمن",
+    "displayWord": "ثمن",
+    "translation": "pl. اثمان atmān one-eighth",
+    "examples": []
+  },
+  {
+    "word": "ثمنة",
+    "displayWord": "ثمنة",
+    "translation": "tumna pl. -āt a dry measure (Eg. = 1/3 قدح = . ٢٥٨ l; Pal. = ca. 2.25 l)",
+    "examples": []
+  },
+  {
+    "word": "ثمانون",
+    "displayWord": "ثمانون",
+    "translation": "tamānūn eighty",
+    "examples": []
+  },
+  {
+    "word": "ثنة",
+    "displayWord": "ثنة",
+    "translation": "tunna pl. ثنن tunan fetlock",
+    "examples": []
+  },
+  {
+    "word": "ثندوة",
+    "displayWord": "ثندوة",
+    "translation": "tunduwa pl. ثناد tanādin breast (of the male)",
+    "examples": []
+  },
+  {
+    "word": "ثنى",
+    "displayWord": "ثنى",
+    "translation": "tanā i (tany) to double, double up, fold, fold up, fold under ( ھ s.th.); to bond, flex ھ) s.th.); to turn away, dissuade, keep, prevent, divert ( عن ه s.o. from)│ ثنى عنان",
+    "examples": []
+  },
+  {
+    "word": "ثنى",
+    "displayWord": "ثنى",
+    "translation": "tany bonding; folding; turning away, dissuasion, keeping, prevention",
+    "examples": []
+  },
+  {
+    "word": "ثنى",
+    "displayWord": "ثنى",
+    "translation": "tiny pl. اثناء atnā’ fold, pleat, plait, crease (in cloth); bond, twist│ ثنيا بعد ثنى tinyan ba‘da tinyin from time to time",
+    "examples": []
+  },
+  {
+    "word": "ثنية",
+    "displayWord": "ثنية",
+    "translation": "tanya pl. tanyāt fold, pleat, plait, crease (in cloth)",
+    "examples": []
+  },
+  {
+    "word": "ثنية",
+    "displayWord": "ثنية",
+    "translation": "tanya pl. ثنايا tanāyā middle incisor; narrow pass; mountain trail│ فى ثنايا in, inside, among, between, frequently only a fuller, rhetorically more elegant expression for \"in\". e.g., فى ثنايا نفسه in his heart, inwardly, فى ثنايا الكتاب in the book;",
+    "examples": []
+  },
+  {
+    "word": "ثناء",
+    "displayWord": "ثناء",
+    "translation": "tanā’ commendation, praise, eulogy; appreciation",
+    "examples": []
+  },
+  {
+    "word": "ثناء",
+    "displayWord": "ثناء",
+    "translation": "tunā’2 and مثنى matnā two at a time",
+    "examples": []
+  },
+  {
+    "word": "ثنوى",
+    "displayWord": "ثنوى",
+    "translation": "tanawī dualist",
+    "examples": []
+  },
+  {
+    "word": "ثنوية",
+    "displayWord": "ثنوية",
+    "translation": "tanawīya dualism",
+    "examples": []
+  },
+  {
+    "word": "ثنائى",
+    "displayWord": "ثنائى",
+    "translation": "tanā’ī laudatory, eulogistic",
+    "examples": []
+  },
+  {
+    "word": "ثنائى",
+    "displayWord": "ثنائى",
+    "translation": "tunā’ī twofold, double, dual, binary, bi-; biradical (gram.); duet, duo (mus.)│ محرك ثنائى المشوار (muḥarrik t. lmišwār) two-cycle engine O ثنائية tunā’īya dualism; duet, duo (mus.)",
+    "examples": []
+  },
+  {
+    "word": "ثانية",
+    "displayWord": "ثانية",
+    "translation": "tāniya pl. ثوان tawānin second (time unit)",
+    "examples": []
+  },
+  {
+    "word": "ثانوى",
+    "displayWord": "ثانوى",
+    "translation": "tānawī secondary; minor│ امور ثانوية matters of secondary importance, minor matters; مدرسة ثانوية secondary school;",
+    "examples": []
+  },
+  {
+    "word": "ثوة",
+    "displayWord": "ثوة",
+    "translation": "see ثوى",
+    "examples": []
+  },
+  {
+    "word": "ثاب",
+    "displayWord": "ثاب",
+    "translation": "(ثوب 1 ) tāba u to return, come back (also, e.g., a state or condition, الى or ل to s.o.); with ب: to return s.th. ( الى to s.o.)│ ثاب الى",
+    "examples": []
+  },
+  {
+    "word": "ثوب",
+    "displayWord": "ثوب",
+    "translation": "taub pl. ثياب tiyāb, اثواب atwāb garment, dress; cloth, material; (fig.) garb, outward appearance, guise, cloak, mask; pl. ثياب clothes, clothing, apparel│ ثياب",
+    "examples": []
+  },
+  {
+    "word": "ثواب",
+    "displayWord": "ثواب",
+    "translation": "tawāb requital, recompense, reward (for good deeds); (Isl. Law) merit, credit (arising from a pious deed)",
+    "examples": []
+  },
+  {
+    "word": "ثار",
+    "displayWord": "ثار",
+    "translation": "(ثور ) tāra u to stir, be stirred up, be aroused, be excited; to swirl up, rise (dust); to arise (question, problem; a difficulty, فى وجھه fī wajhihī before s.o.); to be triggered, be unleashed, break out; to revolt, rebel, rise ( على against); to rage, storm│ ثار ثائره (tā’irohū) to fly into a rage, become furious, flare up IV to agitate, excite ( ه s.o., ھ s.th.); to stimulate ه) s.o., ھ s.th.); to irritate ( ه s.o., ھ s.th.); to arouse, stir up, kindle, excite ( ھ s.th., e.g., feelings), cause, provoke, awaken ( ھ s.th.); to raise, pose, bring up ( مسألة mas’alatan a question, a problem)│ اثار",
+    "examples": []
+  },
+  {
+    "word": "ثائرته",
+    "displayWord": "ثائرته",
+    "translation": "(tā’iratahū) to infuriate s.o., excite s.o. X to excite, stir up, kindle ( ھ s.th., esp. passions); to rouse ( ھ s.th.); to arouse, awaken ( ھ s.th., esp. feelings); to elicit, evoke ( ھ wails, outcries, من from s.o.); to incite, set ( على ه s.o. against)│",
+    "examples": []
+  },
+  {
+    "word": "ثور",
+    "displayWord": "ثور",
+    "translation": "taur pl. ثيران tīrān bull, steer; ox; Taurus (astron.)│ شوربة ذيل الثور šōrabat dail at-t. oxtail soup",
+    "examples": []
+  },
+  {
+    "word": "ثورة",
+    "displayWord": "ثورة",
+    "translation": "taura excitement, agitation; outbreak, outburst, fit (of fury, of despair, etc.); eruption (of a volcano); (pl. -āt) upheaval, uprising, insurrection, riot, rebellion, revolt, revolution│ ثورة اھلية (ahlīya) internal strife, civil war",
+    "examples": []
+  },
+  {
+    "word": "ثورى",
+    "displayWord": "ثورى",
+    "translation": "taurī revolutionary (adj. and n.)",
+    "examples": []
+  },
+  {
+    "word": "ثوروى",
+    "displayWord": "ثوروى",
+    "translation": "taurawī revolutionary (adj. and n.)",
+    "examples": []
+  },
+  {
+    "word": "ثوران",
+    "displayWord": "ثوران",
+    "translation": "tawarān agitation, excitation, flare-up, emption, outbreak, outburst, dust whirl",
+    "examples": []
+  },
+  {
+    "word": "ثائر",
+    "displayWord": "ثائر",
+    "translation": "tā’ir excited, agitated, raving, furious, mad; rebellious; fury, rage (in the idiomatic phrase ثار ثائرة see above); (pl.",
+    "examples": []
+  },
+  {
+    "word": "ثوار",
+    "displayWord": "ثوار",
+    "translation": "tuwwār) insurgent, rebel, revolutionary",
+    "examples": []
+  },
+  {
+    "word": "ثائرة",
+    "displayWord": "ثائرة",
+    "translation": "tā’ira pl. ثوائر tawā’ir2 tumult; excitement, agitation; fury, rage",
+    "examples": []
+  },
+  {
+    "word": "ثوريوم",
+    "displayWord": "ثوريوم",
+    "translation": "tōriyūm thorium (chem.)",
+    "examples": []
+  },
+  {
+    "word": "ثول",
+    "displayWord": "ثول",
+    "translation": "VII to swarm, crowd, throng ( على around s.o.); to come over s.o. ( (على",
+    "examples": []
+  },
+  {
+    "word": "ثول",
+    "displayWord": "ثول",
+    "translation": "law and ثول النحل t. an-nḥl swarm of bees",
+    "examples": []
+  },
+  {
+    "word": "ثوم",
+    "displayWord": "ثوم",
+    "translation": "tūm (coll.; n. un. ة) garlic",
+    "examples": []
+  },
+  {
+    "word": "ثوى",
+    "displayWord": "ثوى",
+    "translation": "tawā i ( ثواء tawā’, ثوى tuwīy, مثوى matwan) to stay, live ( ب at a place); to settle down (",
+    "examples": []
+  },
+  {
+    "word": "ثوى",
+    "displayWord": "ثوى",
+    "translation": "tawīy guestroom",
+    "examples": []
+  },
+  {
+    "word": "ثوة",
+    "displayWord": "ثوة",
+    "translation": "tūwa pl. ثوى tuwan signpost, roadsign",
+    "examples": []
+  },
+  {
+    "word": "ثيب",
+    "displayWord": "ثيب",
+    "translation": "tayyib pl. -āt a deflowered but unmarried woman, widow, divorcée",
+    "examples": []
+  },
+  {
+    "word": "ثيتل",
+    "displayWord": "ثيتل",
+    "translation": "taital pl. ثياتل tayātil2 a variety of wild goat (Capra jaela) 109 ج",
+    "examples": []
+  },
+  {
+    "word": "ثقيل الحركة",
+    "displayWord": "ثقيل الحركة",
+    "translation": "slow in motion, heavy-handed, clumsy, sluggish, lumbering, inert, indolent O حركي ḥarakī kinetic (phys.)",
+    "examples": []
+  },
+  {
+    "word": "ثدية",
+    "displayWord": "ثدية",
+    "translation": "(tadyīya) mammals; حيوانات مجترة (mujtarra) ruminants; حيوان طفيلي (ṭufailī) parasite; علم الحيوان ‘ilm al-ḥ. zoology",
+    "examples": []
+  },
+  {
+    "word": "ثروته",
+    "displayWord": "ثروته",
+    "translation": "(tarwatihī) to rob s.o. of his property, dispossess, expropriate s.o.; to give off, sound, emit ( ھ s.th., e.g., a tone; said of a musical instrument); to set forth, state, express, utter, voice ( ھ an opinion); to break ( ريحا rīḥan wind); to educate, bring up ( ه s.o.); to train ( ه s.o.); to stage, produce ( ھ a play; theat.); to bring out, make, shoot ( رواية riwāyatan a film, said of a director); to except, exclude ( ھ s.th.,",
+    "examples": []
+  },
+  {
+    "word": "ثغرة",
+    "displayWord": "ثغرة",
+    "translation": "(tugratan) to fill a gap, close a breach;",
+    "examples": []
+  },
+  {
+    "word": "ثلاثة عشر",
+    "displayWord": "ثلاثة عشر",
+    "translation": "talātata ‘ašara (f. ثلاث عشرة talāta ‘ašrata) thirteen",
+    "examples": []
+  },
+  {
+    "word": "ثوب من حرير",
+    "displayWord": "ثوب من حرير",
+    "translation": "(taub) a garment of silk, a silk dress at, on (time) │ من الليل (lail) at night; من",
+    "examples": []
+  },
+  {
+    "word": "ثقة",
+    "displayWord": "ثقة",
+    "translation": "tiqa trust, confidence, faith, reliance │ على ثقة trusting ( من in), relying ( من on), confident, certain, sure ( من of); ھو على ثقة",
+    "examples": []
   }
 ]

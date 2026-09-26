@@ -1,85 +1,4694 @@
 [
   {
-    "word": "ليل",
-    "displayWord": "لَيْل",
-    "root": "ليل",
-    "translation": "night, nighttime",
-    "examples": [
-      {
-        "ar": "وَاللَّيْلِ إِذَا يَغْشَىٰ.",
-        "en": "By the night when it covers.",
-        "source": "Holy Quran"
-      },
-      {
-        "ar": "يَقْرَأُ الكَاتِبُ رِوَايَاتِهِ فِي هُدُوءِ اللَّيْلِ.",
-        "en": "The writer reads his novels in the calmness of the night.",
-        "source": "Literary Profile"
-      }
-    ]
+    "word": "لله به",
+    "displayWord": "لله به",
+    "translation": "the Lord has taken him unto Himself",
+    "examples": []
   },
   {
-    "word": "لغه",
-    "displayWord": "لُغَة",
-    "root": "لغو",
-    "translation": "language, tongue, speech",
-    "examples": [
-      {
-        "ar": "اللُّغَةُ العَرَبِيَّةُ لُغَةٌ غَنِيَّةٌ بِالمُفْرَدَاتِ وَالفَصَاحَةِ.",
-        "en": "The Arabic language is rich in vocabulary and eloquence.",
-        "source": "Linguistic Studies"
-      }
-    ]
+    "word": "لأجل",
+    "displayWord": "لأجل",
+    "translation": "li-ajli or من اجل min ajli because of, on account of, for the sake of; for │ لأجل",
+    "examples": []
+  },
+  {
+    "word": "ل",
+    "displayWord": "ل",
+    "translation": "(‘udda) to prepare, set out, get ready to do s.th.; أخذ عليه عھدا (‘ahdan) to put s.o. under an obligation, impose a commitment on s.o.; أخذ على (حين) غرة uḳida ‘alā (ḥīni) girratin to be taken by surprise, be caught unawares; أخذ بالمقابلة (muqābala) to repay like for like; شيء يأخذ",
+    "examples": []
+  },
+  {
+    "word": "لا اذا",
+    "displayWord": "لا اذا",
+    "translation": "(illā) unless if not; except when",
+    "examples": []
+  },
+  {
+    "word": "للاسف",
+    "displayWord": "للاسف",
+    "translation": ") unfortunately; مع الاسف and بكل اسف bi-kulli asafin do.",
+    "examples": []
+  },
+  {
+    "word": "لله",
+    "displayWord": "لله",
+    "translation": "allāh Allah, God (as the One and Only)│􀍿",
+    "examples": []
+  },
+  {
+    "word": "له الا",
+    "displayWord": "له الا",
+    "translation": "... (allā) and why shouldn't he ... ?",
+    "examples": []
+  },
+  {
+    "word": "لأھلية القانونية",
+    "displayWord": "لأھلية القانونية",
+    "translation": "the civil rights; كامل الأھلية legally competent; عديم الأھلية legally incompetent, under tutelage",
+    "examples": []
+  },
+  {
+    "word": "للآن",
+    "displayWord": "للآن",
+    "translation": "li-l-āna and حتى الآن ḥattā l-āna until now, hitherto, so far; بعد الآن ba‘da l-āna from now on, henceforth, in the future; من",
+    "examples": []
+  },
+  {
+    "word": "لا بأس بھا",
+    "displayWord": "لا بأس بھا",
+    "translation": "(kammīyāt) considerable quantities; لا بأس (ba'sa) never mind! it doesn't matter! it's all right! لا بأس ان it doesn't matter that ... ; ؟ اى بأس ayyu ba'sin? what does it matter! what of it! ليس",
+    "examples": []
+  },
+  {
+    "word": "لعب البرجاس",
+    "displayWord": "لعب البرجاس",
+    "translation": "1 la‘b al-birjās a kind of equestrian contest, joust, tournament",
+    "examples": []
+  },
+  {
+    "word": "لعب البردج",
+    "displayWord": "لعب البردج",
+    "translation": "la‘b al-b. bridge (game)",
+    "examples": []
+  },
+  {
+    "word": "لا يبعد ان",
+    "displayWord": "لا يبعد ان",
+    "translation": "it is not unlikely that ... II to remove ( ه s.o.); to banish, exile, expatriate ه) s.o.) III to cause a separation ( بين between)│ باعد بين فلان وبين الشيء to prevent s.o. from attaining s.th.; باعد بين اجفانه (ajfānihī) to stare wide-eyed IV to remove ھ) s.th.); to take away ( ھ s.th.); to eliminate ( ھ s.th.), do away with ( ھ ); to send away, dismiss ( ه s.o.); to expatriate, banish, exile ( ه s.o.); to exclude, make unlikely, improbable, impossible ( ھ s.th.); to go or move far away; to go very far ( فى in or with s.th.) VI to be separated, lie apart, lie at some distance from one another; to separate, part company, become estranged; to move away, go away, withdraw, depart ( عن from); to keep away, keep one’s distance ( عن from); to quit, leave, avoid ( عن s.th.); to follow in regular 65 intervals VIII to move or go away; to keep away, withdraw ( عن from); to quit, leave, avoid ( عن s.th.); to leave out of consideration, disregard ( عن s.th.) X to single out, set aside ( ھ s.th.); to think remote, farfetched ( ھ s.th.); to regard as unlikely ( ھ s.th.); to disqualify ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "لقولى بالا",
+    "displayWord": "لقولى بالا",
+    "translation": "lam yulqi li-qaulī bālan he didn't pay any attention to what I said; لا يقل عنه",
+    "examples": []
+  },
+  {
+    "word": "لتوى",
+    "displayWord": "لتوى",
+    "translation": "li-tawwī, لتوھا li-tawwihā (I have, she has) just ... ; at once, presently, immediately",
+    "examples": []
+  },
+  {
+    "word": "لھو",
+    "displayWord": "لھو",
+    "translation": "mujarradu lahwin mere play, just fun;",
+    "examples": []
+  },
+  {
+    "word": "لا جرم",
+    "displayWord": "لا جرم",
+    "translation": "lā jarama surely, certainly, of course",
+    "examples": []
+  },
+  {
+    "word": "لحم مجروم",
+    "displayWord": "لحم مجروم",
+    "translation": "laḥm majrūm fillet (meat)",
+    "examples": []
+  },
+  {
+    "word": "ل",
+    "displayWord": "ل",
+    "translation": "or الى to); to lean ( ل or الى to or toward); to turn ( ل or الى to s.th.); to strand (ship)",
+    "examples": []
+  },
+  {
+    "word": "لجنس اللطيف",
+    "displayWord": "لجنس اللطيف",
+    "translation": "the fair sex; الجنس الخشن the strong sex",
+    "examples": []
+  },
+  {
+    "word": "لاجنسي",
+    "displayWord": "لاجنسي",
+    "translation": "lā-jinsī asexual, sexless",
+    "examples": []
+  },
+  {
+    "word": "لتسجيل الاھتزازات الارضية",
+    "displayWord": "لتسجيل الاھتزازات الارضية",
+    "translation": "or جھاز قياس الھزات",
+    "examples": []
+  },
+  {
+    "word": "ل",
+    "displayWord": "ل",
+    "translation": "in); to meet, answer ( ب ل s.o. with), reply ( ب ل to s.o. with or hy doing s.th.); to resound, reverberate, re-echo; to resonate ( ل or الى to s.th.), be in resonance with (phys.); -- استجوب istajwaba to interrogate, examine, question ( ه s.o.); to hear ( ه the defendant or witn...); to interpellate ( ه s.o.; in parliament)",
+    "examples": []
+  },
+  {
+    "word": "لا حتمية",
+    "displayWord": "لا حتمية",
+    "translation": "lā-ḥatmīya indeterminism (philos.)",
+    "examples": []
+  },
+  {
+    "word": "لعبة الحجلة",
+    "displayWord": "لعبة الحجلة",
+    "translation": "la‘bat al-ḥajala hopscotch",
+    "examples": []
+  },
+  {
+    "word": "لا حد له",
+    "displayWord": "لا حد له",
+    "translation": "(ḥadda) boundless, infinite, unbounded, unlimited; بلا حد bi-lā ḥaddin,",
+    "examples": []
+  },
+  {
+    "word": "للارصاد الجوية",
+    "displayWord": "للارصاد الجوية",
+    "translation": "(li-l-arṣād al-jawwīya) meteorological station, weather station;",
+    "examples": []
+  },
+  {
+    "word": "لاسلكية قصيرة الأمواج",
+    "displayWord": "لاسلكية قصيرة الأمواج",
+    "translation": "(lā-silkīya qaṣīrat alamwāj) short-wave transmitter station;",
+    "examples": []
+  },
+  {
+    "word": "ليل",
+    "displayWord": "ليل",
+    "translation": "ka-ḥāṭibi lailin lit.: like one who gathers wood at night, i.e., blindly, at random, heedlessly (said of s.o. who does not realize, or think about, what he is doing)",
+    "examples": []
+  },
+  {
+    "word": "لدى",
+    "displayWord": "لدى",
+    "translation": ")) to find favor with s.o.",
+    "examples": []
+  },
+  {
+    "word": "لدمائھم",
+    "displayWord": "لدمائھم",
+    "translation": "ḥaqnan li-dimā’ihim in order to spare their blood; حقن في حبل الوريد intravenous injection (med.)",
+    "examples": []
+  },
+  {
+    "word": "لا ارى محلا لعجب",
+    "displayWord": "لا ارى محلا لعجب",
+    "translation": "lā arā m. li-‘ajabin I don’t see any reason for amazement, there is nothing to be astonished about; محل m. naẓar s.th. deserving attention, a striking, remarkable thing",
+    "examples": []
+  },
+  {
+    "word": "ل، الى",
+    "displayWord": "ل، الى",
+    "translation": "with), take sides ( ل، الى in favor of) VII to isolate o.s., seclude o.s. separate, segregate,· disengage o.s., dissociate o.s., stay away, keep away, retire, withdraw (",
+    "examples": []
+  },
+  {
+    "word": "لسان",
+    "displayWord": "لسان",
+    "translation": "الحال, لسان حاله see لسان",
+    "examples": []
+  },
+  {
+    "word": "لا محال",
+    "displayWord": "لا محال",
+    "translation": "lā maḥalla = لا محالة (see below)",
+    "examples": []
+  },
+  {
+    "word": "لا محالة منه",
+    "displayWord": "لا محالة منه",
+    "translation": "lā maḥālata minhu it is inevitable; there is no doubt about it; (also",
+    "examples": []
+  },
+  {
+    "word": "لا محالة",
+    "displayWord": "لا محالة",
+    "translation": "alone) most certainly, positively, absolutely, by all means",
+    "examples": []
+  },
+  {
+    "word": "ل",
+    "displayWord": "ل",
+    "translation": "in, also ب or في in a scientific field); to devote all one’s attention ( ل to s.th.); to apply o.s. ( ل to), go in for s.th. ( ل); to be peculiar ( ب to); to be chosen, destined, earmarked ( ل for) VIII to distinguish, favor ( ب ه s.o. with), confer distinction ( ب",
+    "examples": []
+  },
+  {
+    "word": "لبن خض",
+    "displayWord": "لبن خض",
+    "translation": "laban kaḍḍ buttermilk",
+    "examples": []
+  },
+  {
+    "word": "لخطة مرسومة",
+    "displayWord": "لخطة مرسومة",
+    "translation": "(ṭibqan) according to schedule, as scheduled or planned",
+    "examples": []
+  },
+  {
+    "word": "لم يخطر ببال",
+    "displayWord": "لم يخطر ببال",
+    "translation": "(lam yakṭur bi-bālin) an unexpected matter, s.th. one wouldn’t dram of; -- kaṭura u ( خطورة kuṭūra) to be weighty; to be important, significant; to be grave, serious, momentous, dangerous, perilous, risky, hazardous III to risk, hazard, stake ( ب s.th. بنفسه one’s life); to incur the danger, run the risk ( ب of), risk (",
+    "examples": []
+  },
+  {
+    "word": "لا يخفى عليك",
+    "displayWord": "لا يخفى عليك",
+    "translation": "you know very well ..., you are well aware (of it); -- kafā i to hide, conceal ( ھ s.th.); to keep secret ( ھ s.th.) IV to hide, conceal ( ھ s.th.); to afford ( ھ s.o.) a place to hide, shelter, hide ( ھ s.o.); to keep secret ( ھ s.th.); to disguise, conceal ( ھ s.th., على or عن from s.o.) │",
+    "examples": []
+  },
+  {
+    "word": "لله في",
+    "displayWord": "لله في",
+    "translation": "to ask God for proper guidance in",
+    "examples": []
+  },
+  {
+    "word": "لدراسة القانون",
+    "displayWord": "لدراسة القانون",
+    "translation": "introduction to the study of law; حسن المدخل ḥusn al-m. good manners, good conduct",
+    "examples": []
+  },
+  {
+    "word": "لدرجة ان",
+    "displayWord": "لدرجة ان",
+    "translation": "(li-darajati) to the extent that ... ; to such an extent that ...; to much that ...",
+    "examples": []
+  },
+  {
+    "word": "لا ادري",
+    "displayWord": "لا ادري",
+    "translation": "lā-adrī a skeptic",
+    "examples": []
+  },
+  {
+    "word": "ل، الى ه",
+    "displayWord": "ل، الى ه",
+    "translation": "s.o. to do s.th.); to invite, ask to come ( الى ه s.o. to; e.g., to a banquet); to move, induce, prompt ( ل، الى ه s.o. to do s.th.), prevail ( ل، الى ه on s.o. to do s.th.); to call ( ب، ھ ه s.o. by a name), name ( ب، ھ",
+    "examples": []
+  },
+  {
+    "word": "للاجتماع",
+    "displayWord": "للاجتماع",
+    "translation": "(du‘ya) to be summoned, be called into session (parliament); دعي الى حمل",
+    "examples": []
+  },
+  {
+    "word": "للطائرات",
+    "displayWord": "للطائرات",
+    "translation": "(muḍādda) or المدافع المقاومة للطائرات (muqāwima) antiaircraft guns; O مدفع ثلاثي",
+    "examples": []
+  },
+  {
+    "word": "لا ذاتية",
+    "displayWord": "لا ذاتية",
+    "translation": "lā-dātīya impersonality",
+    "examples": []
+  },
+  {
+    "word": "للشيء فائدة",
+    "displayWord": "للشيء فائدة",
+    "translation": "expect some benefit from s.th.;",
+    "examples": []
+  },
+  {
+    "word": "له ان",
+    "displayWord": "له ان",
+    "translation": "to think that it would be in s.o.’s interest to ...; رأى رأيه (ra’yahū) to share s.o.’s. opinion; pass.: رؤي ان (ru’iya) it was decided that ...; رؤي الشيء it was felt proper to do III it was thought to be the right thing to do ill to act ostentatiously, make a show before people, attitudinize; to do eyeservice; to behave hypocritically, act the hypocrite, (dis)simulate, dissemble ه) toward s.o.) IV ارى arā to show, demonstrate ( ھ ه to s.o. s.th.) يا ترى yā turā (in interrogative sentences) what’s your opinion? would you say ...? │I wonder ..., متى يا ترى I wonder when ...,",
+    "examples": []
+  },
+  {
+    "word": "ل",
+    "displayWord": "ل",
+    "translation": "on) │ الحمى الراجعة (ḥummā) relapsing fever",
+    "examples": []
+  },
+  {
+    "word": "لآخر راغب",
+    "displayWord": "لآخر راغب",
+    "translation": "li-ākiri rāgibin (sale) to the highest bidder",
+    "examples": []
+  },
+  {
+    "word": "للمعروف",
+    "displayWord": "للمعروف",
+    "translation": "to be happy to be of service, like doing favors X استروح to inhale air, breathe; to smell, sniff ( ھ s.th.); to be refreshed ( الى by or with s.th.); -- استراح to be calm; to become calm; to find rest; to take a rest, have a break; to be refreshed (",
+    "examples": []
+  },
+  {
+    "word": "ل، في عينه",
+    "displayWord": "ل، في عينه",
+    "translation": ") II to clarify, purify, filter ( ھ a liquid) │ روق دمعه (damahū) to refresh s.o. (drink); to pacify, placate s.o., cool s.o. off; روق البضاعة to make a clearance sale IV to pour out ( ھ a liquid); to shed, spill (",
+    "examples": []
+  },
+  {
+    "word": "لا يزال على ذكر منه",
+    "displayWord": "لا يزال على ذكر منه",
+    "translation": "(dikrin) he still remembers him II زول zawwala to remove, eliminate ( ھ s.th.), -- زيل zayyala to separate, break up, disperse, scatter ( ھ s.th.) III زاول zāwala to pursue ( ھ s.th.), devote o.s. apply o.s. ( ھ to); -- زايل zāyala to separate, part ( ھ، ه from), leave, quit, abandon ( ھ، ه s.o., s.th.); to separate بين) s.th.) │ زايل الدار to move out of the house, leave the house IV to cause to cease or stop, make disappear or vanish ( ھ s.th.), to remove, eliminate ( ھ s.th.), put an end ( ھ to s.th.), do away ( ھ with s.th.), make a clean sweep ( ھ of s.th.) VI تزايل tazāyala to be disjointed, incoherent; to pass away, cease, stop",
+    "examples": []
+  },
+  {
+    "word": "له ان فعله",
+    "displayWord": "له ان فعله",
+    "translation": "(an fa‘alahū) he had already done it before; سبق له ان قابله (an qābalahū) he had met him before (paraphrasing the pluperfect); سبق لنا القول ان (qaulu) we have previously (already) said that ...; سبق الحكم",
+    "examples": []
+  },
+  {
+    "word": "لأوانه",
+    "displayWord": "لأوانه",
+    "translation": "(li-awānihī) premature; في السابق formerly, at one time, once; كالسابق as before; كسابق العادة as it was customary before; as usual; المبلغ السابق صرفه (mablag, ṣarfuhū) the payment already effected",
+    "examples": []
+  },
+  {
+    "word": "ل،",
+    "displayWord": "ل،",
+    "translation": "الى) in); to feel at home ( الى in, at); -- sakana u (sakan, سكنى suknā) to live, dwell ( ب or في، ھ in), inhabit ( ب or في، ھ s.th.) II to calm ( ھ، ه s.o., s.th.), reassure, appease, placate ( ه s.o.), soothe, allay, alleviate ( ھ pain, and the like); (gram.) to make vowelless ( ھ a consonant, i.e., pronounce it without a following vowel) III to live together, share quarters ( في ه with s.o. in) IV to give or allocate living quarters ( ه to s.o.); to settle, lodge, put up (",
+    "examples": []
+  },
+  {
+    "word": "لاسلكي",
+    "displayWord": "لاسلكي",
+    "translation": "lā-silkī wireless; radio, broadcasting (adj. and n.); radiogram; radio specialist │ اشارة لاسلكية (išāra) radio message; عامل لاسلكي radio operator",
+    "examples": []
+  },
+  {
+    "word": "لا سمح لله",
+    "displayWord": "لا سمح لله",
+    "translation": "God forbid! II to act with kindness III to show o.s. tolerant ( ه with s.o., في or ب in), treat kindly, with indulgence ( في or ب ه s.o. in the matter of), forgive ( في or ب ه s.o. s.th.) VI to be indulgent, forbearing, tolerant ( مع في toward s.o. in), show good will ( في in); to be not overparticular ( في in); to practice mutual tolerance X to ask s.o.’s ( (ه permission; to ask forgiveness, apologize",
+    "examples": []
+  },
+  {
+    "word": "لى",
+    "displayWord": "لى",
+    "translation": "s.o.), do harm ( الى to); to hurt, offend, insult ( الى s.o.); to inflict pain ( الى on s.o.) │ اساء التصرف (taṣarrufa) to misbehave, comport o.s. badly; اساء التصرف في to go about ... in an evil manner; اساء الظن به (ẓanna) to think badly of s.o., have a poor opinion of s.o.; اساء التعبير to choose a poor expression, express o.s. poorly; اساء استعماله to misuse, abuse s.th.; اساء معاملته (mu‘āmalatahū) to mistreat s.o., treat s.o. badly; اساء الفھم (fahma) to misunderstand VIII to go through rugged times, fall on evil days; to be unpleasantly affected; to be offended, 438 hurt, annoyed, indignant, upset, angered, displeased ( من about, at, by); to be dissatisfied, discontent ( من with); to take amiss ( من s.th.)",
+    "examples": []
+  },
+  {
+    "word": "للشك",
+    "displayWord": "للشك",
+    "translation": "(masāga, šakk) one cannot possibly doubt it",
+    "examples": []
+  },
+  {
+    "word": "ليس",
+    "displayWord": "ليس",
+    "translation": "-- سوى only, nothing but",
+    "examples": []
+  },
+  {
+    "word": "لا سيما",
+    "displayWord": "لا سيما",
+    "translation": "lā sīyamā especially, in particular, mainly",
+    "examples": []
+  },
+  {
+    "word": "لا شأن له في ذلك",
+    "displayWord": "لا شأن له في ذلك",
+    "translation": "(ša’na) he hasn’t anything to do with this, he has no part in this; ليس",
+    "examples": []
+  },
+  {
+    "word": "لي شأن في ذلك",
+    "displayWord": "لي شأن في ذلك",
+    "translation": "I shall have nothing to do with that, that is none of my business, I shan’t meddle in that; لا شأن لي في ذلك (ša’na) I haven’t anything to do with it, it's none of my business; لي معه شأن آخر (ākar) I still have a bone to pick with him;",
+    "examples": []
+  },
+  {
+    "word": "ل",
+    "displayWord": "ل",
+    "translation": "to s.o.)",
+    "examples": []
+  },
+  {
+    "word": "لم يشعر الا و",
+    "displayWord": "لم يشعر الا و",
+    "translation": "... (illā wa-) and ،... ما شعر الا ب",
+    "examples": []
+  },
+  {
+    "word": "لك",
+    "displayWord": "لك",
+    "translation": "šukran lak I thank you! thanks! شكره",
+    "examples": []
+  },
+  {
+    "word": "لتلميع الأرضية",
+    "displayWord": "لتلميع الأرضية",
+    "translation": "(li-talmī‘ al-araḍīya) floor wax",
+    "examples": []
+  },
+  {
+    "word": "لاشيئية",
+    "displayWord": "لاشيئية",
+    "translation": "lā-šai’īya nonexistence, nothingness, nihility, nullity",
+    "examples": []
+  },
+  {
+    "word": "ل",
+    "displayWord": "ل",
+    "translation": "or الى to s.th., to s.o.). heed ( ل or الى s.th.)",
+    "examples": []
+  },
+  {
+    "word": "لصالح",
+    "displayWord": "لصالح",
+    "translation": "do.; كان من صالحه it was in his interest; صوالح شخصية (šakṣīya) personal interests",
+    "examples": []
+  },
+  {
+    "word": "للضرورة احكام",
+    "displayWord": "للضرورة احكام",
+    "translation": "and الضرورة تبيح المحظورات (tubīḥu) necessity knows no laws",
+    "examples": []
+  },
+  {
+    "word": "لطابق الأرضي",
+    "displayWord": "لطابق الأرضي",
+    "translation": "(arḍī) ground floor",
+    "examples": []
+  },
+  {
+    "word": "لا يتطرق اليه شك",
+    "displayWord": "لا يتطرق اليه شك",
+    "translation": "│ ( الى (šakkun) not open to doubt, admitting no doubt",
+    "examples": []
+  },
+  {
+    "word": "لعبرته",
+    "displayWord": "لعبرته",
+    "translation": "(li-‘abratihī) to let one’s tears flow freely; اطلق سراحه (sarāḥahū) to set s.o. at liberty, free s.o., release s.o. (from jail or custody); اطلق العنان له to give free rein to s.o. or s.th., give vent to s.th.; اطلق لحيته (liḥyatahū) to let one’s beard grow; اطلق",
+    "examples": []
+  },
+  {
+    "word": "لسانه فيه اطلاقا شنيعا",
+    "displayWord": "لسانه فيه اطلاقا شنيعا",
+    "translation": "to indulge in defamatory remarks about s.o., backbite s.o.; اطلق",
+    "examples": []
+  },
+  {
+    "word": "لسانه",
+    "displayWord": "لسانه",
+    "translation": "(lisānuhū) to utter words against;",
+    "examples": []
+  },
+  {
+    "word": "لسان طلق",
+    "displayWord": "لسان طلق",
+    "translation": "lisān ṭaliq a facile, fluent tongue",
+    "examples": []
+  },
+  {
+    "word": "له نفسه",
+    "displayWord": "له نفسه",
+    "translation": "(nafsuhū) (lit.: his soul permitted him, made it easy or feasible for him, i.e.) he allowed himself to do s.th. ( ھ ), he had no qualms about doing s.th. ( ھ ), he did not hesitate to do s.th. ( ھ ) III to comply with or accede to s.o.’s ( ھ ) wishes ( على or",
+    "examples": []
+  },
+  {
+    "word": "ل",
+    "displayWord": "ل",
+    "translation": "or ب or ھ for, in, to do s.th.); to enlist, volunteer (mil.) │ تطوع خيرا (kairan) to perform a good deed voluntarily VII to obey, follow ( ل s.o., s.th.), be obedient, submit, yield, accede ( ل to), comply ( ل with) X to be able ( ھ to do s.th.), be in a 572 position to do, to get, to carry out, or to take upon o.s. ( ھ s.th.), be capable ( ھ of s.th., ان of doing s.th.)",
+    "examples": []
+  },
+  {
+    "word": "لطيته",
+    "displayWord": "لطيته",
+    "translation": "he went to his destination; he left in order to do what he had in mind; he went his way",
+    "examples": []
+  },
+  {
+    "word": "لله ثراه",
+    "displayWord": "لله ثراه",
+    "translation": "(tarāhu) may God make his earth light (a eulogy added after mentioning the name of a pious deceased) III to joke, jest, banter, make fun ( ه with s.o.) IV to make (",
+    "examples": []
+  },
+  {
+    "word": "ل",
+    "displayWord": "ل",
+    "translation": "s.th.), deal ( ل with); to show, demonstrate, present, set forth, display, exhibit, lay open, submit, turn in ( على ھ s.th. to s.o.), lay, put ( على ھ s.th. before s.o.); to show ( ھ e.g., a film), stage ( ھ e.g., a play); to offer, suggest, propose (",
+    "examples": []
+  },
+  {
+    "word": "للعزل",
+    "displayWord": "للعزل",
+    "translation": "irremovable, appointed for life tenure (judge)",
+    "examples": []
+  },
+  {
+    "word": "ل",
+    "displayWord": "ل",
+    "translation": "or ه to s.o. s.th.); to present, hand over, offer ( ھ ه to s.o. s.th.); to grant, award, accord ( ھ ه to s.o. s.th.); to present ( ھ ه s.o. with s.th.), bestow ( ھ ه upon s.o. s.th.); pass. u‘ṭiya to get, obtain, receive (",
+    "examples": []
+  },
+  {
+    "word": "لواؤھا للاميرال",
+    "displayWord": "لواؤھا للاميرال",
+    "translation": "(liwā’uhā li-l-amīrāl) the admiral’s flagship; عقد ناصيته (nāṣiyatahū)",
+    "examples": []
+  },
+  {
+    "word": "ل",
+    "displayWord": "ل",
+    "translation": "to s.o. s.th.) X to exact a written pledge or commitment ( من from s.o.); to have s.o. من) ) sign a contract",
+    "examples": []
+  },
+  {
+    "word": "لا عھد له",
+    "displayWord": "لا عھد له",
+    "translation": "(‘ahda) not to know s.th.; not having experienced s.th., being unacquainted with ...; عھدنا بھذه المسألة (‘ahdunā, mas’ala) our long-standing knowledge of this question; اخذ عھدا عليه to exact a promise from s.o., pledge s.o.; قطع",
+    "examples": []
+  },
+  {
+    "word": "لدن العود",
+    "displayWord": "لدن العود",
+    "translation": "ladn al-‘ūd lissome, lithe, of elastic physique; ثقف عوده (taqqafa) to train, educate s.o.; عجم عوده (‘ūdahū) to test s.o., put s.o. to the test; كسر عوده (‘ūdahū) to break s.o.’s power of resistance, crush s.o.’s spirit",
+    "examples": []
+  },
+  {
+    "word": "لمشرقان والمغربان",
+    "displayWord": "لمشرقان والمغربان",
+    "translation": "al-mašriqān wa-l-m do.; في",
+    "examples": []
+  },
+  {
+    "word": "لا غرو",
+    "displayWord": "لا غرو",
+    "translation": "lā garwa no wonder! it is small wonder",
+    "examples": []
+  },
+  {
+    "word": "لا غروى",
+    "displayWord": "لا غروى",
+    "translation": "garwā no wonder! it is small wonder",
+    "examples": []
+  },
+  {
+    "word": "ليس غير",
+    "displayWord": "ليس غير",
+    "translation": "(gairu) (and) that’s all, nothing else, no more, nothing but, only, merely, solely; غير ان gaira anna except that ..., however, but, yet, ...though; غير واحد gaira wāḥidin more than one, several; غير مرة gaira marratin, more than once, quite often, frequently; بغير bi-gairi or من غير gairi without; ( ما) في غير fī gairi (mā) without (generally followed by abstract noun), في غير ترو (tarawwin) without thinking, unhesitatingly; في غير ما",
+    "examples": []
+  },
+  {
+    "word": "ل ھ",
+    "displayWord": "ل ھ",
+    "translation": "s.th. for), devote ( ب or ل ھ s.th. to s.th. else) V to be alone; to do alone, perform single-handedly ( ب s.th.); to possess alone ( ب s.th.); to be matchless, be unique VII = V; to stand alone, b. without parallel ( في or ب with or in s.th.); to withdraw, segregate, walk away ( عن from); to be isolated ( عن from) X to find (",
+    "examples": []
+  },
+  {
+    "word": "لسانه",
+    "displayWord": "لسانه",
+    "translation": "(lisānahū) to give one’s tongue free rein",
+    "examples": []
+  },
+  {
+    "word": "ل",
+    "displayWord": "ل",
+    "translation": "to) X to empty ( ھ a bowl, and the like); to vomit │ استفرغ مجھوده to exert o.s. to the utmost. make every effort ( في in), apply every ounce of strength ( في to), do one’s best",
+    "examples": []
+  },
+  {
+    "word": "ل، الى",
+    "displayWord": "ل، الى",
+    "translation": "s.th.), explain ( ب، ل، الى ه to s.o. s.th.); to remind( ب، الى ه s.o. of) V to comprehend, understand ( ل s.th.)",
+    "examples": []
+  },
+  {
+    "word": "لتفقيص البيض",
+    "displayWord": "لتفقيص البيض",
+    "translation": "(t. il-baiḍ) or آلة التفقيص incubator",
+    "examples": []
+  },
+  {
+    "word": "لم ينفك",
+    "displayWord": "لم ينفك",
+    "translation": "(with foll. imperf. or predicative aco.) not to atop doing, keep doing VIII to redeem ( ھ s.th., e.g., a pledge); to dissolve, break up, separate, disintegrate, destroy ( ھ s.th.); to snatch away ( من ھ s.th. from s.o.)",
+    "examples": []
+  },
+  {
+    "word": "لم يفته ان",
+    "displayWord": "لم يفته ان",
+    "translation": ";… (yafuthu) he did not fail to ..., he did not neglect to ...; فاتته الفرصة fātatu l-furṣatu he missed the opportunity; فاته",
+    "examples": []
+  },
+  {
+    "word": "ليس من ھذا الأمر في قبيل ولا دبير",
+    "displayWord": "ليس من ھذا الأمر في قبيل ولا دبير",
+    "translation": "he is not in the least involved in this affair, he has absolutely nothing to do with this affair",
+    "examples": []
+  },
+  {
+    "word": "للتوصيل",
+    "displayWord": "للتوصيل",
+    "translation": "conductive (el.); غير قابل للرجوع irrevocable; يكون جواز السفر قابلا للتجديد اربع",
+    "examples": []
+  },
+  {
+    "word": "لقرصه",
+    "displayWord": "لقرصه",
+    "translation": "(nāra) approx.: to feather one’s nest, have an eye out for one’s own interest, know on which side one’s bread is buttered",
+    "examples": []
+  },
+  {
+    "word": "ل",
+    "displayWord": "ل",
+    "translation": "(على ) (sinna n-nadam) to repent s.th.;",
+    "examples": []
+  },
+  {
+    "word": "ل",
+    "displayWord": "ل",
+    "translation": "to s.o. s.th.; على ان to do s.th.) │ اقسم عليه",
+    "examples": []
+  },
+  {
+    "word": "للوقت",
+    "displayWord": "للوقت",
+    "translation": "gaṭ‘an li-l-waqt as a pastime, just to kill time; بقطع النظر عن (bi-q. in-naẓari) irrespective of, regardless of, without regard to; aside from, apart from; ھمزة",
+    "examples": []
+  },
+  {
+    "word": "لا بقليل ولا بكثير",
+    "displayWord": "لا بقليل ولا بكثير",
+    "translation": "to have absolutely nothing to do with s.th.; قليل الأدب q. al-adab uncivil, impolite, rude, uncouth; قليل الحياء q. al-ḥayā’ shameless, brazen, impudent, insolent, impertinent; قليل الارتفاع low; قليل",
+    "examples": []
+  },
+  {
+    "word": "ليلة قمرة",
+    "displayWord": "ليلة قمرة",
+    "translation": "laila qamira moonlit night",
+    "examples": []
+  },
+  {
+    "word": "لعب القمار",
+    "displayWord": "لعب القمار",
+    "translation": "ālat la’b al-q. lot machine",
+    "examples": []
+  },
+  {
+    "word": "لواء جوي",
+    "displayWord": "لواء جوي",
+    "translation": "lieutenant colonel of the Air Force (Eg. قائد فرقة جوية ;( 1939 q. firqa jawwīya major of the Air Force (Eg.",
+    "examples": []
+  },
+  {
+    "word": "له قائمة بعد",
+    "displayWord": "له قائمة بعد",
+    "translation": "lam taqum lahū qā’imatun ba‘du he was no longer able to put up any resistance, he was as good as finished; لا",
+    "examples": []
+  },
+  {
+    "word": "ل ب",
+    "displayWord": "ل ب",
+    "translation": "money to); to be entered, be recorded, be registered X to ask ( ه s.o.) to write ( ھ s.th.); to dictate ( ھ ه to s.o. s.th.), make ( ه s.o.) write ( ھ s.th.); to have a copy made (",
+    "examples": []
+  },
+  {
+    "word": "لله وجھه",
+    "displayWord": "لله وجھه",
+    "translation": "(wajhahū) may God honor him I III to vie in generosity ( ه s.o.); to meet reverentially, with deference, politely ( ه s.o.) IV to call noble and high-minded ( ه s.o.); to honor ( ه s.o.): to treat reverentially, with deference, politely, hospitably ( ه s.o.), bestow honors ( ه upon s.o.); to prove o.s. to he high-minded and generous; to honor, present ( ب ه s.o. with), confer ( ب ه upon s.o. s.th.) V to feign generosity; to show one’s generous side; to be noble; to be friendly, kind, kindly; to be so kind, have the kindness ( ب to do s.th., على with regard to or in behalf of s.o.); to present ( على ب s.o. with), graciously bestow ( ب على upon s.o. s.th.)",
+    "examples": []
+  },
+  {
+    "word": "ل",
+    "displayWord": "ل",
+    "translation": "to s.o.) VIII to discover ( ھ s.th., esp. scientifically); to find out, detect, uncover ھ) s.th.) X to seek to discover ( ھ s.th.); to explore ( ھ s.th.); to investigate ( ھ s.th.), search, inquire ( ھ into s.th.); to scout, reconnoiter (mil.); to discover ( ھ s.th., scientifically); to detect, spot, seek out, search out, find out ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "ل",
+    "displayWord": "ل",
+    "translation": "to), a match ( ل for)",
+    "examples": []
+  },
+  {
+    "word": "لندن باكملھا",
+    "displayWord": "لندن باكملھا",
+    "translation": "all London",
+    "examples": []
+  },
+  {
+    "word": "ل ھ",
+    "displayWord": "ل ھ",
+    "translation": "s.th. to s.o.) │ كال له الشتائم to heap abuse on s.o.; كال له اللطمات (laṭamāt) to give s.o. a beating, spank, thrash s.o. II to measure ( ھ s.th.) III to return like for like, repay in kind ( ه to s.o.)",
+    "examples": []
+  },
+  {
+    "word": "ل",
+    "displayWord": "ل",
+    "translation": "1 la (intensifying particle) truly, verily; certainly, surely; frequently after ان inna, introducing the predicate: ان ربي لسميع الدعاء inna rabbī la-samī’ d-du’ā’ truly, my Lord hears the prayer; also as a correlative of لو lau and لولا lau-lā: لو كنت تفعل ھذا لكان",
+    "examples": []
+  },
+  {
+    "word": "لعمرك",
+    "displayWord": "لعمرك",
+    "translation": "la-’amruka by your life!",
+    "examples": []
+  },
+  {
+    "word": "ل",
+    "displayWord": "ل",
+    "translation": "2 li 1. (prep.) for; on behalf of, in favor of; to (of the dative); because of; for the sake of; due to, owing to; for, for the purpose of; at the time of, when, as; by (designating the author or originator); occasionally substituting for الى ; as to ل paraphrasing the genit. and acc. see grammar │ لي عليه مال he owes me money;",
+    "examples": []
+  },
+  {
+    "word": "لسبع ليال خلون من شعبان",
+    "displayWord": "لسبع ليال خلون من شعبان",
+    "translation": "li-sab’i layālin kalauna min ša’bāna when seven nights of Shaban had passed; للمرة الأولى li-lmarrati l-ūlā for the first time; لأول وھلة liawwali wahlatin at first sight, at once; اخوه",
+    "examples": []
+  },
+  {
+    "word": "لأبيه وأمه",
+    "displayWord": "لأبيه وأمه",
+    "translation": "li-abīhi wa-ummihī his brother on the paternal and maternal side, his brother-german, his full brother 2. (conj. with the subjunctive) that, so that, in order that, in order to; (with apoc.) expressing an order. an invitation: ليكتب li-yaktub he shall write, let him write (with preceding و wa or ف fa contracted to wal- ... or fal ... with elision of the i)",
+    "examples": []
+  },
+  {
+    "word": "لأجل",
+    "displayWord": "لأجل",
+    "translation": "li-ajli (with foll. genit.) because of, on account of, for",
+    "examples": []
+  },
+  {
+    "word": "لأن",
+    "displayWord": "لأن",
+    "translation": "li-an (conj. with the subjunctive) that, so that, in order that, in order to; (with لا) لئلا li-allā in order not to, lest",
+    "examples": []
+  },
+  {
+    "word": "لأن",
+    "displayWord": "لأن",
+    "translation": "li-anna (conj.) on the grounds that; because; for",
+    "examples": []
+  },
+  {
+    "word": "لذلك",
+    "displayWord": "لذلك",
+    "translation": "li-dālika therefore, hence, that is why, for that reason",
+    "examples": []
+  },
+  {
+    "word": "لكي",
+    "displayWord": "لكي",
+    "translation": "li-kai and لكيما li-kai-mā (conj. with the subjunctive) that, so that, in order that, in order to",
+    "examples": []
+  },
+  {
+    "word": "لما",
+    "displayWord": "لما",
+    "translation": "li-mā (shortened لم li-mā) why? wherefore? for what reason? لماذا li-mā-dā why (on earth)?",
+    "examples": []
+  },
+  {
+    "word": "لھذا",
+    "displayWord": "لھذا",
+    "translation": "li-hādā therefore, hence, that is why, for that reason",
+    "examples": []
+  },
+  {
+    "word": "لا",
+    "displayWord": "لا",
+    "translation": "lā (particle) not, no! with apoc. expressing negative imperative: لا تقل lā taqul don’t say! with indef. acc. expressing a general negation; there is not, there is no ..., e.g., لا",
+    "examples": []
+  },
+  {
+    "word": "لا جرم",
+    "displayWord": "لا جرم",
+    "translation": "lā jarama certainly, surely; لا شك",
+    "examples": []
+  },
+  {
+    "word": "لا ابالية",
+    "displayWord": "لا ابالية",
+    "translation": "lā-ubālīya indifferent attitude, indifference",
+    "examples": []
+  },
+  {
+    "word": "لا أدرية",
+    "displayWord": "لا أدرية",
+    "translation": "lā-adrīya skepticism; agnosticism",
+    "examples": []
+  },
+  {
+    "word": "لا أنانية",
+    "displayWord": "لا أنانية",
+    "translation": "lā-anānīya selflessness, unselfishness",
+    "examples": []
+  },
+  {
+    "word": "لا جنسية",
+    "displayWord": "لا جنسية",
+    "translation": "lā-jinsīya statelessness, being without nationality",
+    "examples": []
+  },
+  {
+    "word": "لا ديني",
+    "displayWord": "لا ديني",
+    "translation": "lā-dīnī antireligious, irreligious, without religion",
+    "examples": []
+  },
+  {
+    "word": "لا دينية",
+    "displayWord": "لا دينية",
+    "translation": "lā-dīnīya irreligion, godlessness",
+    "examples": []
+  },
+  {
+    "word": "لا سامي",
+    "displayWord": "لا سامي",
+    "translation": "lā-sāmī anti-Semitic; anti- Semite",
+    "examples": []
+  },
+  {
+    "word": "لا سامية",
+    "displayWord": "لا سامية",
+    "translation": "lā-sāmīya anti-Semitism",
+    "examples": []
+  },
+  {
+    "word": "لا سلكي",
+    "displayWord": "لا سلكي",
+    "translation": "lā-silkī wireless, radio (adj.); radio, broadcasting; radio message │ اشارة",
+    "examples": []
+  },
+  {
+    "word": "لا سلكية",
+    "displayWord": "لا سلكية",
+    "translation": "(išāra) radio message",
+    "examples": []
+  },
+  {
+    "word": "لاشعوري",
+    "displayWord": "لاشعوري",
+    "translation": "lā-šu‘ūrī unconscious, unaware",
+    "examples": []
+  },
+  {
+    "word": "لا شيء",
+    "displayWord": "لا شيء",
+    "translation": "lā-šai’ nothing, nonentity, nil",
+    "examples": []
+  },
+  {
+    "word": "لا شيئية",
+    "displayWord": "لا شيئية",
+    "translation": "lā-šai’īya nonexistence, nothingness; nullity, nihility",
+    "examples": []
+  },
+  {
+    "word": "لامبالاة",
+    "displayWord": "لامبالاة",
+    "translation": "lā-mubālāh and لامبالية lāmubālīya indifferent attitude, indifference",
+    "examples": []
+  },
+  {
+    "word": "لامركزية",
+    "displayWord": "لامركزية",
+    "translation": "lā-markazīya decentralization",
+    "examples": []
+  },
+  {
+    "word": "لامسؤولية",
+    "displayWord": "لامسؤولية",
+    "translation": "lā-mas’ūlīya irresponsibility",
+    "examples": []
+  },
+  {
+    "word": "لا نظام",
+    "displayWord": "لا نظام",
+    "translation": "lā-niẓām lack of system, confusion",
+    "examples": []
+  },
+  {
+    "word": "لانھائي",
+    "displayWord": "لانھائي",
+    "translation": "lā-nihā’ī infinite",
+    "examples": []
+  },
+  {
+    "word": "لاتيني",
+    "displayWord": "لاتيني",
+    "translation": "lātīnī Latin │ الحي اللاتيني (ḥayy) the “Quartier latin” (in Paris)",
+    "examples": []
+  },
+  {
+    "word": "لادن",
+    "displayWord": "لادن",
+    "translation": "lādan, lādin laudanum",
+    "examples": []
+  },
+  {
+    "word": "لازورد",
+    "displayWord": "لازورد",
+    "translation": "lāzuward, lāzaward lapis lazuli; azure",
+    "examples": []
+  },
+  {
+    "word": "لازوردي",
+    "displayWord": "لازوردي",
+    "translation": "lāzuwardī azure-blue, azure, sky-blue, cerulean",
+    "examples": []
+  },
+  {
+    "word": "لازوردية",
+    "displayWord": "لازوردية",
+    "translation": "lāzuwardīya azure, blue of the sky",
+    "examples": []
+  },
+  {
+    "word": "لاسيه",
+    "displayWord": "لاسيه",
+    "translation": "(Fr. lacet) lāsēh lace, cord",
+    "examples": []
+  },
+  {
+    "word": "لأك",
+    "displayWord": "لأك",
+    "translation": "1 IV to send as a messenger ( الى ه s.o. to)",
+    "examples": []
+  },
+  {
+    "word": "لائكي",
+    "displayWord": "لائكي",
+    "translation": "2 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "لاكن",
+    "displayWord": "لاكن",
+    "translation": "lākin, lākinna however, yet, but",
+    "examples": []
+  },
+  {
+    "word": "لألأ",
+    "displayWord": "لألأ",
+    "translation": "la’la’a ( لألأة la’la’a) to shine, flash, glitter, glisten, sparkle, gleam, shimmer, glimmer, beam, radiate; to wag ( بذنبه bidanabihī the tail) II tala’la’a to shine, glitter, glisten, sparkle, gleam, shimmer, glimmer, beam, radiate",
+    "examples": []
+  },
+  {
+    "word": "لألأة",
+    "displayWord": "لألأة",
+    "translation": "la’la’a shine, glow, brightness, brilliancy, radiance, flash, glitter, twinkle",
+    "examples": []
+  },
+  {
+    "word": "لألاء",
+    "displayWord": "لألاء",
+    "translation": "la’lā’ glitter, flash; light, glow, gleam; perfect joy, unruffled gaiety; dealer in pearls",
+    "examples": []
+  },
+  {
+    "word": "لؤلؤ",
+    "displayWord": "لؤلؤ",
+    "translation": "lu’lu’ (coll.; n. un. ة) pl.: لآلي la’ālī2 pearls │ زھر اللؤلؤ zahr al-l. daisy; عرق",
+    "examples": []
+  },
+  {
+    "word": "لؤلؤى",
+    "displayWord": "لؤلؤى",
+    "translation": "lu’lu’ī pearly; pearl-colored, whitish │ شعير لؤلؤي pearl barley 852",
+    "examples": []
+  },
+  {
+    "word": "لأم",
+    "displayWord": "لأم",
+    "translation": "la’ama a (la’m) to dress, bandage ( ھ a wound); to repair, mend ( ھ s.th.); to solder, weld; -- لؤم la’uma (lu’m, لآمة la’āma, ملأمة mal’ama) to be ignoble, lowly (of character and birth); to be base, mean, vile, evil, wicked III to agree ( ه with s.o.); to suit, fit (garment; ه s.o.); to be adequate, appropriate ( ھ to s.th.), be suitable, fit, proper, convenient, favorable, propitious ( ھ for s.th.); to be adapted ( ھto), be in harmony ( ھ with), match ( ھ s.th.); to agree (climate, food; ه with s.o.), be wholesome (climate, air, food; ه for s.o.); to bring about a reconciliation, make peace ( بين between), reconcile ( بين – و s.o. with); to make consistent or congruous, reconcile, harmonize, bring into harmony بين) different things) IV to act ignobly, behave shabbily VI to be mended, be repaired, be corrected; to go well ( مع with); to act meanly VIII to be mended, be repaired, be corrected; to be joined, be connected, be patched up, be soldered, be welded; to match, fit together, harmonize, be in harmony, agree, go together, be congruous, conformable, consistent; to be tuned or geared to each other (fig.); to unite, combine; to cohere, stick together; to heal, close (wound); to gather, assemble, convene (persons); to meet (committee, congress, council, etc.)",
+    "examples": []
+  },
+  {
+    "word": "لأم",
+    "displayWord": "لأم",
+    "translation": "la’m dressing, bandaging (of a wound); joining, junction, connection; repair",
+    "examples": []
+  },
+  {
+    "word": "لؤم",
+    "displayWord": "لؤم",
+    "translation": "lu’m ignoble mind, baseness, meanness, vileness, wickedness; niggardliness, miserliness; sordidness; iniquity",
+    "examples": []
+  },
+  {
+    "word": "لئم",
+    "displayWord": "لئم",
+    "translation": "li’m peace; concord, agreement, union, unity, unanimity; conformity, consistency, harmony",
+    "examples": []
+  },
+  {
+    "word": "لأمة",
+    "displayWord": "لأمة",
+    "translation": "la’ma cuirass, pair of cuirasses",
+    "examples": []
+  },
+  {
+    "word": "لئيم",
+    "displayWord": "لئيم",
+    "translation": "la’īm pl. لئام li’ām, لؤماء lu’amā’,",
+    "examples": []
+  },
+  {
+    "word": "لؤمان",
+    "displayWord": "لؤمان",
+    "translation": "lu’mān, ignoble, lowly, low, base, mean, evil, vile, wicked, depraved; sordid, filthy, dirty; niggardly, miserly",
+    "examples": []
+  },
+  {
+    "word": "لام",
+    "displayWord": "لام",
+    "translation": "lām name of the letter ل",
+    "examples": []
+  },
+  {
+    "word": "لامي",
+    "displayWord": "لامي",
+    "translation": "lāmī lām-shaped, resembling the letter ل",
+    "examples": []
+  },
+  {
+    "word": "لاما",
+    "displayWord": "لاما",
+    "translation": "lāmā llama (zool.)",
+    "examples": []
+  },
+  {
+    "word": "لانش",
+    "displayWord": "لانش",
+    "translation": "(Engl.) lanš pl. -āt launch, motorboat, small steamer",
+    "examples": []
+  },
+  {
+    "word": "لاھاي",
+    "displayWord": "لاھاي",
+    "translation": "lāhāy The Hague (city in SW Netherlands)",
+    "examples": []
+  },
+  {
+    "word": "لاھوت",
+    "displayWord": "لاھوت",
+    "translation": "lāhūt godhead, deity; divine nature, divinity │ علم اللاھوت ‘ilm al-l. theology",
+    "examples": []
+  },
+  {
+    "word": "لاھوتي",
+    "displayWord": "لاھوتي",
+    "translation": "lāhūtī theological; theologian",
+    "examples": []
+  },
+  {
+    "word": "لاھور",
+    "displayWord": "لاھور",
+    "translation": "lāhūr2 Lahore (city in W Pakistan)",
+    "examples": []
+  },
+  {
+    "word": "لأواء",
+    "displayWord": "لأواء",
+    "translation": "la’wā’ 2 severe distress, hardship",
+    "examples": []
+  },
+  {
+    "word": "لأي",
+    "displayWord": "لأي",
+    "translation": "la’y slowness, tardiness; tediousness, tiresomeness │ بعد لأي after great difficulties, in the end, finally, after all",
+    "examples": []
+  },
+  {
+    "word": "لائكي",
+    "displayWord": "لائكي",
+    "translation": "(from Fr. laïque) lā’ikī layman; secular, laic, lay",
+    "examples": []
+  },
+  {
+    "word": "لائكية",
+    "displayWord": "لائكية",
+    "translation": "lā’ikīya laicism 853",
+    "examples": []
+  },
+  {
+    "word": "لب",
+    "displayWord": "لب",
+    "translation": "labba u (labb) to remain, abide, stay ب) in a place); -- (1st pers. perf. labibtu) a لبب) labab) and (1st pers. perf. labubtu) u (",
+    "examples": []
+  },
+  {
+    "word": "لبابة",
+    "displayWord": "لبابة",
+    "translation": "labāba) to be sensible, reasonable, intelligent II to kernel, ripen into kernels, produce kernels (grain, nuts) V to gird o.s. prepare o.s. ( ل for)",
+    "examples": []
+  },
+  {
+    "word": "لب",
+    "displayWord": "لب",
+    "translation": "lubb pl. لبوب lubūb kernels, core (of fruits); the innermost, marrow, pith; core, gist, essence; prime, best part; -- (pl. الباب albāb) heart; mind, intellect, reason, understanding",
+    "examples": []
+  },
+  {
+    "word": "لبة",
+    "displayWord": "لبة",
+    "translation": "labba pl. -āt upper part of the chest; throat of an animal, spot where its throat is slit in slaughtering",
+    "examples": []
+  },
+  {
+    "word": "لبة",
+    "displayWord": "لبة",
+    "translation": "libba (eg.) golden necklace",
+    "examples": []
+  },
+  {
+    "word": "لبب",
+    "displayWord": "لبب",
+    "translation": "labab pl. الباب albāb upper part of the chest; throat of an animal, spot where its throat is slit in slaughtering; breast collar (of a horse’s harness); martingale",
+    "examples": []
+  },
+  {
+    "word": "لباب",
+    "displayWord": "لباب",
+    "translation": "lubāb marrow, pith, core, quintessence, gist, prime, beet part │ لباب",
+    "examples": []
+  },
+  {
+    "word": "لبيب",
+    "displayWord": "لبيب",
+    "translation": "labīb pl. الباء alibbā’ understanding, reasonable, sensible, intelligent",
+    "examples": []
+  },
+  {
+    "word": "لبؤة",
+    "displayWord": "لبؤة",
+    "translation": "labu’a pl. -āt lioness",
+    "examples": []
+  },
+  {
+    "word": "لبتة",
+    "displayWord": "لبتة",
+    "translation": "labta carp (zool.)",
+    "examples": []
+  },
+  {
+    "word": "لبث",
+    "displayWord": "لبث",
+    "translation": "labita a (labt, lubt, labat, لباث lubāt) to hesitate, tarry, linger; to abide, remain, stay ( ب in a place); (with imperf.) to persist in an activity, keep doing s.th. │ ما",
+    "examples": []
+  },
+  {
+    "word": "لبث",
+    "displayWord": "لبث",
+    "translation": "(لم يلبث) أن (حتى ) it did not take long before he …, presently he ..., he lost no time in …; لبث يفعله he did it for a while V to hesitate, tarry, linger; to abide, remain, stay",
+    "examples": []
+  },
+  {
+    "word": "لبث",
+    "displayWord": "لبث",
+    "translation": "labt, lubt, labat hesitation, tarrying, delay; stay, sojourn",
+    "examples": []
+  },
+  {
+    "word": "لبثة",
+    "displayWord": "لبثة",
+    "translation": "lubta short delay, brief respite; pause; temporary stay or stop, stopover",
+    "examples": []
+  },
+  {
+    "word": "لبخ",
+    "displayWord": "لبخ",
+    "translation": "labk, labak (coll.; n. un. ة) a variety of acacia (Mimosa lebbec L.), also lebbek tree (Albizzia lebbek Bth.; bot.)",
+    "examples": []
+  },
+  {
+    "word": "لبخة",
+    "displayWord": "لبخة",
+    "translation": "labka pl. labakāt cataplasm, poultice; soft mass, mush; emollient plaster, emollient",
+    "examples": []
+  },
+  {
+    "word": "لبيخ",
+    "displayWord": "لبيخ",
+    "translation": "labīk fleshy, corpulent",
+    "examples": []
+  },
+  {
+    "word": "لبد",
+    "displayWord": "لبد",
+    "translation": "labada u ( لبد lubūd) to stick, adhere, cling (",
+    "examples": []
+  },
+  {
+    "word": "لبد",
+    "displayWord": "لبد",
+    "translation": "libd pl. لبود lubūd, الباد albād felt │",
+    "examples": []
+  },
+  {
+    "word": "لبود من الغمائم",
+    "displayWord": "لبود من الغمائم",
+    "translation": "thick masses of clouds",
+    "examples": []
+  },
+  {
+    "word": "لبد",
+    "displayWord": "لبد",
+    "translation": "labad wool",
+    "examples": []
+  },
+  {
+    "word": "لبد",
+    "displayWord": "لبد",
+    "translation": "labid coherent; compact",
+    "examples": []
+  },
+  {
+    "word": "لبد",
+    "displayWord": "لبد",
+    "translation": "lubad the seventh vulture of Luqmān (whose death ended Luqmān’s life; metaphor of longevity)",
+    "examples": []
+  },
+  {
+    "word": "لبدة",
+    "displayWord": "لبدة",
+    "translation": "libda pl. لبد libad mane (of a lion); (eg.) skullcap of felt, worn under or without a tarboosh; felt hat (of the dervishes)",
+    "examples": []
+  },
+  {
+    "word": "لبدة",
+    "displayWord": "لبدة",
+    "translation": "lubda pl. لبد lubad matted and pressed wool or hair, felt",
+    "examples": []
+  },
+  {
+    "word": "لباد",
+    "displayWord": "لباد",
+    "translation": "labbād feltmaker; felt",
+    "examples": []
+  },
+  {
+    "word": "لبادة",
+    "displayWord": "لبادة",
+    "translation": "lubbāda pl. -āt horse blanket, saddle blanket; -- (pl. لبابيد labābīd 2) felt cap 854",
+    "examples": []
+  },
+  {
+    "word": "لبس",
+    "displayWord": "لبس",
+    "translation": "labisa a (lubs) to put on, wear ( ھ a dress, garment); to dress ( ھ in), clothe o.s. garb o.s. ( ھ in or with) II to dress ( ھ ه s.o. in), clothe, garb, attire ( ھ ه s.o. with); to cover, envelop, overlay, coat ( ب ھ s.th. with. layer); to drape, line, face, case ( ب ھ s.th. with); to inlay (e.g., wood with ivory); to suffuse ( ه s.o., e.g., pallor), seize ( ه s.o., e.g., so tremor); to make obscure, unclear, abstruse, involved, complicated ( على ھ s.th. for s.o.); to deceive, dupe ( على s.o.) III to be on intimate terms, associate closely, hobnob ( ه with s.o.); to be in close contact ( ھ، ه with s.o., with s.th.); to surround ( ه s.o.; environment, milieu, conditions) IV to dress ( ھ ه s.o. in), clothe, garb, attire ( ھ ه s.o. with); to drape, envelop, coat, overlay, cover, face, line, case ( ھ s.th.) V to dress, get dressed ( ب in), clothe o.s. ( ب in or with); to be dressed, clad, attired; to be covered ( ب with), be enveloped, wrapped ( ب in); to get involved ( ب in s.th.), be drown ( ب into s.th.); to meddle, bother ( ب with), go into s.th. ( ب); to be obscure, incomprehensible, dubious, equivocal, ambiguous ( على for s.o.) VIII to be obscure, dubious, equivocal, ambiguous ( على for s.o.); to get mixed up ( ب with); to mistake ( ھ s.th., ب for)",
+    "examples": []
+  },
+  {
+    "word": "لبس",
+    "displayWord": "لبس",
+    "translation": "labs, lubs and لبسة lubsa tangle, muddle, confusion, intricacy, obscurity, uncertainty, abstruseness, ambiguity │ كان",
+    "examples": []
+  },
+  {
+    "word": "لبس",
+    "displayWord": "لبس",
+    "translation": "libs pl. لبوس lubūs clothes, clothing, dress, apparel; costume",
+    "examples": []
+  },
+  {
+    "word": "لبسة",
+    "displayWord": "لبسة",
+    "translation": "libsa manner or style of dressing, costume",
+    "examples": []
+  },
+  {
+    "word": "لباس",
+    "displayWord": "لباس",
+    "translation": "libās pl. -āl, البسة albisa clothes, clothing; costume; apparel; garment, robe, dress; (eg., syr.) (men’s) drawers │ لباس",
+    "examples": []
+  },
+  {
+    "word": "لبيس",
+    "displayWord": "لبيس",
+    "translation": "labīs worn; worn clothes, secondhand clothes; Nile carp (Cyprinus niloticus: zool.)",
+    "examples": []
+  },
+  {
+    "word": "لبوس",
+    "displayWord": "لبوس",
+    "translation": "labūs clothing, clothes; suppository (med.) │ لبوس رسمي (rasmī) uniform",
+    "examples": []
+  },
+  {
+    "word": "لبط",
+    "displayWord": "لبط",
+    "translation": "labaṭa II (labṭ): لبط به الأرض (arḍ) to throw s.o. to the ground, fell s.o.; -- i to kick; to gallop about (animal)",
+    "examples": []
+  },
+  {
+    "word": "لبق",
+    "displayWord": "لبق",
+    "translation": "labaqa II ( لباقة labāqa) to be clever, slick, adroit, skilled, skillful, versatile, suave, elegant, have refined manners; -- labiqa a (labaq) do.; to fit, suit, become (clothes; ب s.o.) II to fit, adapt, adjust ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "لبق",
+    "displayWord": "لبق",
+    "translation": "labaq cleverness, smartness, slyness, subtlety; skill, adroitness, slickness, ingenuity; seemliness, propriety, decency, decorum",
+    "examples": []
+  },
+  {
+    "word": "لباقة",
+    "displayWord": "لباقة",
+    "translation": "labāqa cleverness, smartness, slyness, subtlety; skill, adroitness, slickness, ingenuity; seemliness, propriety, decency, decorum; elegance, refined manners, suavity, gracefulness",
+    "examples": []
+  },
+  {
+    "word": "لبق",
+    "displayWord": "لبق",
+    "translation": "labiq clever, smart, sly, subtle; slick, adroit, skilled, skillful, versatile; elegant, suave, of refined manners; fitting, proper, becoming, seemly",
+    "examples": []
+  },
+  {
+    "word": "لبيق",
+    "displayWord": "لبيق",
+    "translation": "labīq clever, smart, sly, subtle; skillful, adroit; elegant, suave, refined",
+    "examples": []
+  },
+  {
+    "word": "لبك",
+    "displayWord": "لبك",
+    "translation": "labaka u (labk) and II to mix. Mingle, intermix ( ھ s.th.); to confuse, mix up, muddle, jumble ( ھ s.th.); -- labika a, V and VIII to get confused, be thrown into disorder, be disarranged, become disorganized",
+    "examples": []
+  },
+  {
+    "word": "لبك",
+    "displayWord": "لبك",
+    "translation": "labk and لبكة labka mixture; confusion, muddle, jumble",
+    "examples": []
+  },
+  {
+    "word": "لبيك",
+    "displayWord": "لبيك",
+    "translation": "see لبي",
+    "examples": []
+  },
+  {
+    "word": "لبلب",
+    "displayWord": "لبلب",
+    "translation": "lablaba to fondle, cares ( ب her child; mother)",
+    "examples": []
+  },
+  {
+    "word": "لبلب",
+    "displayWord": "لبلب",
+    "translation": "lablab, lublub affectionate, tender",
+    "examples": []
+  },
+  {
+    "word": "لبلاب",
+    "displayWord": "لبلاب",
+    "translation": "lablāb English ivy (Hedera helix; bot.); (eg.) lablab, hyacynth bean (Dolichoe lablab; bot.)",
+    "examples": []
+  },
+  {
+    "word": "لبلوب",
+    "displayWord": "لبلوب",
+    "translation": "lablūb (eg.) pl. لباليب labālīb2 young shoot, sprout, vine",
+    "examples": []
+  },
+  {
+    "word": "لبن",
+    "displayWord": "لبن",
+    "translation": "II to make brick VIII to suck milk",
+    "examples": []
+  },
+  {
+    "word": "لبن",
+    "displayWord": "لبن",
+    "translation": "libn, labin (coll.) unburnt brick(s), adobes",
+    "examples": []
+  },
+  {
+    "word": "لبنة",
+    "displayWord": "لبنة",
+    "translation": "labina (n. un.) pl. -āt brick, adobe",
+    "examples": []
+  },
+  {
+    "word": "لبن",
+    "displayWord": "لبن",
+    "translation": "laban pl. البان albān, لبان libān milk; (syr.) leban, coagulated sour milk; pl. البان dairy products, milk products │ لبن الخض l. al-kaḍḍ buttermilk; شرش اللبن širš al-l. whey; O ميزان اللبن mīzān al-l. lactoscope;",
+    "examples": []
+  },
+  {
+    "word": "لبني",
+    "displayWord": "لبني",
+    "translation": "labanī lactic, milk (adj.); milky, milklike, lacteous, lacteal",
+    "examples": []
+  },
+  {
+    "word": "لبنية",
+    "displayWord": "لبنية",
+    "translation": "labanīya a dish prepared of milk",
+    "examples": []
+  },
+  {
+    "word": "لبنات",
+    "displayWord": "لبنات",
+    "translation": "labanāt lactate │ لبنات الجير l. al-jīr calcium lactate",
+    "examples": []
+  },
+  {
+    "word": "لبان",
+    "displayWord": "لبان",
+    "translation": "labān breast",
+    "examples": []
+  },
+  {
+    "word": "لبان",
+    "displayWord": "لبان",
+    "translation": "lubān frankincense, olibanum │ لبان",
+    "examples": []
+  },
+  {
+    "word": "لبان",
+    "displayWord": "لبان",
+    "translation": "libān sucking, nursing; (eg.) towline",
+    "examples": []
+  },
+  {
+    "word": "لبان",
+    "displayWord": "لبان",
+    "translation": "labbān brickmaker; milkman",
+    "examples": []
+  },
+  {
+    "word": "لبانة",
+    "displayWord": "لبانة",
+    "translation": "lubāna pl. -āt, لبان lubān wish, desire, object, aim, goal, end; business, undertaking, enterprise",
+    "examples": []
+  },
+  {
+    "word": "لبانة",
+    "displayWord": "لبانة",
+    "translation": "libāna selling or production of milk products, dairy",
+    "examples": []
+  },
+  {
+    "word": "لبنة",
+    "displayWord": "لبنة",
+    "translation": "labina, لبون labūn, لبونة labūna pl.",
+    "examples": []
+  },
+  {
+    "word": "لبان",
+    "displayWord": "لبان",
+    "translation": "libān, لبن lubn, lubun, لبائن labā’in milk, giving milk │ حيوان لبون (ḥayawān) mammal",
+    "examples": []
+  },
+  {
+    "word": "لبنى",
+    "displayWord": "لبنى",
+    "translation": "lubnā storax tree",
+    "examples": []
+  },
+  {
+    "word": "لبنان",
+    "displayWord": "لبنان",
+    "translation": "lubnān2 Lebanon",
+    "examples": []
+  },
+  {
+    "word": "لبناني",
+    "displayWord": "لبناني",
+    "translation": "lubnānī Lebanese (pl. -ūn) a Lebanese",
+    "examples": []
+  },
+  {
+    "word": "لبوة",
+    "displayWord": "لبوة",
+    "translation": "labwa pl. labawāt lioness",
+    "examples": []
+  },
+  {
+    "word": "لبى",
+    "displayWord": "لبى",
+    "translation": "II to follow, obey ( ھ a call, an invitation), respond, accede ( ھ to), comply ( ھ with a request), carry out ( ھ an order) │ لبى نداء",
+    "examples": []
+  },
+  {
+    "word": "لبيك",
+    "displayWord": "لبيك",
+    "translation": "labbaika here I am! at your service!",
+    "examples": []
+  },
+  {
+    "word": "لبيريا",
+    "displayWord": "لبيريا",
+    "translation": "libēriyā Liberia",
+    "examples": []
+  },
+  {
+    "word": "لت",
+    "displayWord": "لت",
+    "translation": "latta u (latt) to pound, bray, crush ( ھ s.th.); to mix with water ( ھ flour); to knead ( ھ dough); to roll ( ب s.th. in), coat ( ب ھ s.th. with); (eg.) to prattle, chatter │ لت وعجن في",
+    "examples": []
+  },
+  {
+    "word": "لت",
+    "displayWord": "لت",
+    "translation": "latt (eg.) idle talk, prattle",
+    "examples": []
+  },
+  {
+    "word": "لتات",
+    "displayWord": "لتات",
+    "translation": "lattāt (eg.) prattler, chatterbox, windbag",
+    "examples": []
+  },
+  {
+    "word": "لتر",
+    "displayWord": "لتر",
+    "translation": "litr pl. -āt liter",
+    "examples": []
+  },
+  {
+    "word": "لتموس",
+    "displayWord": "لتموس",
+    "translation": "(Engl.) litmūs litmus",
+    "examples": []
+  },
+  {
+    "word": "لتوانيا",
+    "displayWord": "لتوانيا",
+    "translation": "lituwāniyā Lithuania",
+    "examples": []
+  },
+  {
+    "word": "لثة",
+    "displayWord": "لثة",
+    "translation": "see لثو",
+    "examples": []
+  },
+  {
+    "word": "لثغ",
+    "displayWord": "لثغ",
+    "translation": "latiga a (latag) to pronounce defectively (esp. the lingual r), lisp ( ث for لثغ │ ( س",
+    "examples": []
+  },
+  {
+    "word": "لثغة",
+    "displayWord": "لثغة",
+    "translation": "lutga defective pronunciation, lisping",
+    "examples": []
+  },
+  {
+    "word": "لثم",
+    "displayWord": "لثم",
+    "translation": "latama i (latm) to kiss ( ھ s.th.); to strike, hit, wound, injure ( ھ s.th.) II to veil ( ھ the face) with the li/dm (q.v.); to veil, cover (",
+    "examples": []
+  },
+  {
+    "word": "لثمة",
+    "displayWord": "لثمة",
+    "translation": "latma kiss",
+    "examples": []
+  },
+  {
+    "word": "لثام",
+    "displayWord": "لثام",
+    "translation": "litām veil (covering the lower part of the face to the eyes); cover, wrapping",
+    "examples": []
+  },
+  {
+    "word": "لثة",
+    "displayWord": "لثة",
+    "translation": "lita pl. -āt, لثى litan gums",
+    "examples": []
+  },
+  {
+    "word": "لثوي",
+    "displayWord": "لثوي",
+    "translation": "litawī gingival, alveolar, of or pertaining to the gums │ الحروف اللثوية the interdental sounde ث، ذ and ظ; (phon.)",
+    "examples": []
+  },
+  {
+    "word": "لج",
+    "displayWord": "لج",
+    "translation": "lajja (1st pers. perf. lajijtu) a and (1st pers. perf. lajajtu) i ( لجج lajaj, لجاج lajāj, لجاجة lajāja) to be stubborn, obstinate, unyielding, relentless; to persist, persevere في) in); to insist ( في on); to continue ( في s.th.), keep doing s.th. ( في ); to importune, 857 pester, trouble, bother, inconvenience على) s.o.); to bear down ( ب on s.o.), hit hard, wear out, weaken, exhaust ( ب s.o., e.g., battle), torment, harass ( ب s.o., e.g., hunger) III to argue or dispute obstinately ه) with s.o.) VIII to be noisy, uproarious, tumultuous; to roar, storm, rage",
+    "examples": []
+  },
+  {
+    "word": "لج",
+    "displayWord": "لج",
+    "translation": "lujj and لجة lujja pl. لجج lujaj, لجاج lijāj depth of the sea; gulf, abyss, chum, depth",
+    "examples": []
+  },
+  {
+    "word": "لجي",
+    "displayWord": "لجي",
+    "translation": "lujjī fathomless, of tremendous depth (sea)",
+    "examples": []
+  },
+  {
+    "word": "لجة",
+    "displayWord": "لجة",
+    "translation": "lajja clamor, din, noise, hubbub",
+    "examples": []
+  },
+  {
+    "word": "لجاجة",
+    "displayWord": "لجاجة",
+    "translation": "lajāja stickling, disputatiousness; obstinacy, stubbornness; insistence, persistence",
+    "examples": []
+  },
+  {
+    "word": "لجوج",
+    "displayWord": "لجوج",
+    "translation": "lajūj and لاج lājj obstinate, stubborn, unyielding, relentless, insistent, troublesome, importunate, obtrusive, officious",
+    "examples": []
+  },
+  {
+    "word": "لجأ",
+    "displayWord": "لجأ",
+    "translation": "laja’a a ( لجء laj’, لجوء lujū’) and لجئ laji’a a ( لجأ laja’) to take refuge ( الى in), resort, have recourse ( الى to), fall back ( الى on); to seek information ( الى from), refer ( الى to) II to coerce, force, compel ( الى ه s.o. to) IV do.; to shelter, protect, guard ( ه s.o.); to entrust, commit ( امره الى amrahū one’s cause, one’s affairs to) VIII to flee ( الى to), take refuge ( الى in), resort, have recourse (",
+    "examples": []
+  },
+  {
+    "word": "للغارات الجوية",
+    "displayWord": "للغارات الجوية",
+    "translation": "(muḍādd, jawwīya) air-raid shelter",
+    "examples": []
+  },
+  {
+    "word": "لاجئ",
+    "displayWord": "لاجئ",
+    "translation": "lāji’ one seeking refuge; refugee; emigrant; inmate of an asylum",
+    "examples": []
+  },
+  {
+    "word": "لجب",
+    "displayWord": "لجب",
+    "translation": "lajab noise, uproar, tumult; huge, boisterous army",
+    "examples": []
+  },
+  {
+    "word": "لجب",
+    "displayWord": "لجب",
+    "translation": "lajib uproarious, tumultuous, noisy, clamorous",
+    "examples": []
+  },
+  {
+    "word": "لجلج",
+    "displayWord": "لجلج",
+    "translation": "lajlaja and II talajlaja to repeat words`in speaking; to stammer, stutter",
+    "examples": []
+  },
+  {
+    "word": "لجلجة",
+    "displayWord": "لجلجة",
+    "translation": "lajlaja stutter; stammering, stammer",
+    "examples": []
+  },
+  {
+    "word": "لجلاج",
+    "displayWord": "لجلاج",
+    "translation": "lajlāj stutterer, stammerer",
+    "examples": []
+  },
+  {
+    "word": "لجم",
+    "displayWord": "لجم",
+    "translation": "lajama u (lajm) to sew ( ھ s.th.) II and IV to bridle, rein in ( ھ a horse); to restrain, curb, hold down, silence ( ه s.o.); to put the bridle ( ه on s.o.) VIII to be bridled, be curbed, be tamed, be harnessed (e.g., energies)",
+    "examples": []
+  },
+  {
+    "word": "لجام",
+    "displayWord": "لجام",
+    "translation": "liillm pl. الجمة aljima, لجم lujum bridle, rein",
+    "examples": []
+  },
+  {
+    "word": "لجن",
+    "displayWord": "لجن",
+    "translation": "lajina a (lajn) to cling, adhere, stick ( ب to)",
+    "examples": []
+  },
+  {
+    "word": "لجنة",
+    "displayWord": "لجنة",
+    "translation": "lajna pl. -āt, لجان lijān, لجن lijan board, council, commission, committee │",
+    "examples": []
+  },
+  {
+    "word": "لجنة التحقيق",
+    "displayWord": "لجنة التحقيق",
+    "translation": "investigating committee; لجنة",
+    "examples": []
+  },
+  {
+    "word": "لجنة الانضباط",
+    "displayWord": "لجنة الانضباط",
+    "translation": "disciplinary board; لجنة تنفيذية (tanfīdīya) executive committee; لجنة صلحية (ṣulḥīya) arbitration committee, board of arbitration; لجنة فرعية (far‘īya) subcommittee; لجنة قارة (مستديمة ) (qārra, mustadīma) standing committee, 858 permanent committee; لجنة المراقبة l. almūrāqaba board of directors",
+    "examples": []
+  },
+  {
+    "word": "لجين",
+    "displayWord": "لجين",
+    "translation": "lujain silver",
+    "examples": []
+  },
+  {
+    "word": "لجيني",
+    "displayWord": "لجيني",
+    "translation": "lujainī silvery",
+    "examples": []
+  },
+  {
+    "word": "لح",
+    "displayWord": "لح",
+    "translation": "laḥḥa (laḥḥ) to be close (relationship) IV to implore, beseech, request with urgency; to insist ( في on); to be سet, importune, pester, harass ( على s.o.); to urge, press ( ب or في على s.o. to do s.th.)",
+    "examples": []
+  },
+  {
+    "word": "لحح",
+    "displayWord": "لحح",
+    "translation": "laḥiḥ and لاح close, narrow",
+    "examples": []
+  },
+  {
+    "word": "لحوح",
+    "displayWord": "لحوح",
+    "translation": "laḥūḥ obstinate, stubborn, persistent",
+    "examples": []
+  },
+  {
+    "word": "لاحب",
+    "displayWord": "لاحب",
+    "translation": "lāḥib open, passable (road); o electrode",
+    "examples": []
+  },
+  {
+    "word": "لحج",
+    "displayWord": "لحج",
+    "translation": "laḥaj2 Lahej (sultanate and city in the Aden Protectorate)",
+    "examples": []
+  },
+  {
+    "word": "لحد",
+    "displayWord": "لحد",
+    "translation": "laḥada a (laḥd) to dig a grave; to bury, inter ( ه s.o.); to deviate from the right course, digress from the straight path; to abandon one’s faith, apostatize, become a heretic; to lean, incline, tend ( الى to) IV = I; VIII to deviate, digress; to abandon one’s faith, apostatize, become a heretic or unbeliever; to be inclined, lean, incline, tend ( الى to)",
+    "examples": []
+  },
+  {
+    "word": "لحد",
+    "displayWord": "لحد",
+    "translation": "laḥd pl. لحود luḥūd, ألحاد alḥād grave, tomb; (ancient meaning: charnel vault with a niche for the corpse in the lateral wall)",
+    "examples": []
+  },
+  {
+    "word": "لحاد",
+    "displayWord": "لحاد",
+    "translation": "laḥḥād gravedigger",
+    "examples": []
+  },
+  {
+    "word": "لحس",
+    "displayWord": "لحس",
+    "translation": "laḥasa a (laḥs) to eat away ( ھ s.th., esp. a moth the wool), devour ( ھ s.th.); -- laḥisa a (laḥs, لحسة laḥsa, luḥsa,",
+    "examples": []
+  },
+  {
+    "word": "لحظ",
+    "displayWord": "لحظ",
+    "translation": "laḥaẓa a (laḥẓ, لحظان laḥaẓān) to regard, view, eye ( ھ، ه s.o., s.th.), look ( ھ، ه at); to notice, see, perceive, observe ( ھ s.th., ان that) III to regard, view, eye ( ھ، ه s.o., s.th.), look ( ھ، ه at); to see, behold ( ه s.o.), catch light ( ه of); to notice, perceive, observe ( ان that, ھ s.th.); to remark, say, make the remark ( ان that); to consider, bear in mind, observe, heed, take into consideration ( ھ s.th.); to pay attention ( ھ to); to supervise, superintend ( ھ s.th.) │",
+    "examples": []
+  },
+  {
+    "word": "لاحظ عليه شيئا",
+    "displayWord": "لاحظ عليه شيئا",
+    "translation": "to observe or notice s.th. in s.o.; مما يلاحظ ان mimmā yulāḥaẓu anna it will be noticed that ..., obviously ..., evidently ...",
+    "examples": []
+  },
+  {
+    "word": "لحظ",
+    "displayWord": "لحظ",
+    "translation": "laḥẓ pl. الحاظ alḥāẓ look, glance",
+    "examples": []
+  },
+  {
+    "word": "لحظة",
+    "displayWord": "لحظة",
+    "translation": "laḥẓa pl. laḥaẓāt (quick or casual) look, glance, glimpse; moment, instant │",
+    "examples": []
+  },
+  {
+    "word": "لحظات",
+    "displayWord": "لحظات",
+    "translation": "laḥaẓātin for a few moments",
+    "examples": []
+  },
+  {
+    "word": "لحظتئذ",
+    "displayWord": "لحظتئذ",
+    "translation": "laḥẓata’idin at that moment",
+    "examples": []
+  },
+  {
+    "word": "لاحظة",
+    "displayWord": "لاحظة",
+    "translation": "lāḥẓa pl. لواحظ lawāḥiz2 eye; look, glance",
+    "examples": []
+  },
+  {
+    "word": "لحف",
+    "displayWord": "لحف",
+    "translation": "laḥafa a (laḥf) to cover, wrap ( ه s.o.) IV do.; to request or demand urgently V and VIII to wrap o.s. ( ب in), cover s.o. ( ب with)",
+    "examples": []
+  },
+  {
+    "word": "لحف",
+    "displayWord": "لحف",
+    "translation": "liḥf foot of a mountain",
+    "examples": []
+  },
+  {
+    "word": "لحاف",
+    "displayWord": "لحاف",
+    "translation": "liḥāf pl. لحف luḥuf (also الحفة alḥifa) cover, blanket; bedcover, counterpane, coverlet, quilt, comforter, wrap",
+    "examples": []
+  },
+  {
+    "word": "لحق",
+    "displayWord": "لحق",
+    "translation": "laḥiqa a (laḥq, لحاق laḥaq) to catch up ( ب or ه with s.o.), overtake ( ب or s.o.), to reach ( ھ، ب s.th.); to catch, make ( ھ، ب e.g., a train), to touch ( ب s.th.); to cling, adhere, attach o.s., stick, hang on, keep close ( ب to s.o.), to join ( ب s.o.), come along ( ب with s.o.), to follow, succeed ( ب s.o.), to unite ( ب with); to betake o.s., go (",
+    "examples": []
+  },
+  {
+    "word": "لحق",
+    "displayWord": "لحق",
+    "translation": "pl. الحاق alḥāq cultivable alluvial soil left behind by a flood",
+    "examples": []
+  },
+  {
+    "word": "لحقي",
+    "displayWord": "لحقي",
+    "translation": "laḥaqī: مواد لحقية (mawādd) detritus (geol.), alluvium, alluvial residues",
+    "examples": []
+  },
+  {
+    "word": "لحاق",
+    "displayWord": "لحاق",
+    "translation": "liḥāq accession ( ب to), entry, entrance ( ب to, into), joining ( ب of), enrollment ( ب in), membership ( ب in)",
+    "examples": []
+  },
+  {
+    "word": "لاحق",
+    "displayWord": "لاحق",
+    "translation": "lāḥiq reaching; overtaking; subsequent, following; added, affixed, appended, subjoined, attached, joined, connected │ سابقا – لاحقا sābiqan – lāḥiqan previously -- later on, at first -- subsequently",
+    "examples": []
+  },
+  {
+    "word": "لاحقة",
+    "displayWord": "لاحقة",
+    "translation": "lāḥiqa pl. لواحق lawāḥiq2 appendage, appurtenance, adjunct; pl. acceasories, appurtenances, adjuncts, dependencies",
+    "examples": []
+  },
+  {
+    "word": "لحم",
+    "displayWord": "لحم",
+    "translation": "laḥama u (laḥm) to mend, patch, weld, solder (up) ( ھ s.th.); -- laḥima a to get stuck II to solder ( ھ s.th.) VI to join in battle, engage in a mutual massacre; to cling together, cleave together, stick together, hang together, cohere; to hold firmly together; to be joined, united VIII to adhere, cleave, stick ( ب to); to be in immediate contact ( ب with); to cling ( ب to), fit closely ( ب s.th.); to grapple, fight, struggle (in a clinch or in close combat); to cling together, cleave together, cohere; to stick together; to be interjoined, intermesh, be closely united; to close, heal up, sear over, cicatrize (wound)",
+    "examples": []
+  },
+  {
+    "word": "لحم",
+    "displayWord": "لحم",
+    "translation": "laḥm pl. لحوم luḥūm, لحام liḥām flesh; meat │ بلحمه وشحمه (šaḥmihī) in his real human form; لحما ودما (daman) dyed in the wool, inveterate",
+    "examples": []
+  },
+  {
+    "word": "لحمة",
+    "displayWord": "لحمة",
+    "translation": "laḥma (n. un.) a piece of flesh or meat",
+    "examples": []
+  },
+  {
+    "word": "لحمة",
+    "displayWord": "لحمة",
+    "translation": "laḥma, luḥma pl. لحم luḥam woof, weft (of a fabric); decisive factor, motif; luḥma relationship, kinship",
+    "examples": []
+  },
+  {
+    "word": "لحمية",
+    "displayWord": "لحمية",
+    "translation": "laḥmīya conjunctiva",
+    "examples": []
+  },
+  {
+    "word": "لحم",
+    "displayWord": "لحم",
+    "translation": "laḥm fleshy, corpulent; carnivorous",
+    "examples": []
+  },
+  {
+    "word": "لحام",
+    "displayWord": "لحام",
+    "translation": "liḥām pl. -āt soldering; welding; soldered seam, soldered joint; solder",
+    "examples": []
+  },
+  {
+    "word": "لحام",
+    "displayWord": "لحام",
+    "translation": "laḥḥām butcher; solderer; welder",
+    "examples": []
+  },
+  {
+    "word": "لحيم",
+    "displayWord": "لحيم",
+    "translation": "laḥīm fleshy",
+    "examples": []
+  },
+  {
+    "word": "لحامة",
+    "displayWord": "لحامة",
+    "translation": "laḥāma fleshiness, corpulence",
+    "examples": []
+  },
+  {
+    "word": "لحن",
+    "displayWord": "لحن",
+    "translation": "laḥana a (laḥn, لحون luḥūn, لحانة laḥāna) to speak ungrammatical Arabic (interspersed with barbarisms); -- laḥina a 861 to be intelligent II to chant, psalmodize; to intone, strike up a melody; to set to music, compose ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "لحن",
+    "displayWord": "لحن",
+    "translation": "laḥn pl. الحان alḥān, لحون luḥūn air, tune, melody; grammatical mistake, solecism, barbarism",
+    "examples": []
+  },
+  {
+    "word": "لحن",
+    "displayWord": "لحن",
+    "translation": "laḥin intelligent, understanding, sensible",
+    "examples": []
+  },
+  {
+    "word": "لحو",
+    "displayWord": "لحو",
+    "translation": "laḥw and لحي laḥy insult, abuse, invective, vilification, defamation",
+    "examples": []
+  },
+  {
+    "word": "لحي",
+    "displayWord": "لحي",
+    "translation": "laḥy, dual: لحيان laḥyān, pl. الح alḥin, لحي luḥīiy jawbone",
+    "examples": []
+  },
+  {
+    "word": "لحية",
+    "displayWord": "لحية",
+    "translation": "liḥya pl. لحى luḥan, liḥan beard, whiskers (on cheeks and chin), full beard │ اطلق لحيته aṭlaqa liḥyatahū to let one’s beard grow; لحية التيس l. at-tais salsify (Tregopogon porrifolium; bot.)",
+    "examples": []
+  },
+  {
+    "word": "لحية",
+    "displayWord": "لحية",
+    "translation": "luḥayya2 Luhaiya (town in NW Yemen, on Red Sea)",
+    "examples": []
+  },
+  {
+    "word": "لحاء",
+    "displayWord": "لحاء",
+    "translation": "liḥā’ bast",
+    "examples": []
+  },
+  {
+    "word": "لخص",
+    "displayWord": "لخص",
+    "translation": "II to abridge ( ھ s.th.); to summarize, sum up, epitomize, condense, compress ( ھ s.th.); to excerpt ( ھ s.th.), make an excerpt or extract ( ھ of); to give the essence of s.th.; to sketch, outline ( ھ s.th.); pass.",
+    "examples": []
+  },
+  {
+    "word": "لخلخ",
+    "displayWord": "لخلخ",
+    "translation": "laklaka to shake, shake off ( ھ s.th.) II talaklaka to shake, totter",
+    "examples": []
+  },
+  {
+    "word": "لخمة",
+    "displayWord": "لخمة",
+    "translation": "lakama, lukama sluggish; gauche, awkward, clumsy",
+    "examples": []
+  },
+  {
+    "word": "لخن",
+    "displayWord": "لخن",
+    "translation": "lakan putrid stench",
+    "examples": []
+  },
+  {
+    "word": "لخن",
+    "displayWord": "لخن",
+    "translation": "alkan2, f. لخناء laknā’2, pl. لخن lukn stinking; uncircumcized (as an abusive term)",
+    "examples": []
+  },
+  {
+    "word": "لدة",
+    "displayWord": "لدة",
+    "translation": "1 lida see ولد",
+    "examples": []
+  },
+  {
+    "word": "لد",
+    "displayWord": "لد",
+    "translation": "3 ladda a (ladd) to dispute violently, have a fierce quarrel ( ه with s.o.) II to defame, slander ( ب s.o.); to bewilder, perplex, nonplus V to turn helplessly right and left, be bewildered, perplexed, confused; to be headstrong, recalcitrant",
+    "examples": []
+  },
+  {
+    "word": "لدد",
+    "displayWord": "لدد",
+    "translation": "ladad vehement quarrel, violent dispute",
+    "examples": []
+  },
+  {
+    "word": "لدود",
+    "displayWord": "لدود",
+    "translation": "ladūd, الد aladd2, f. لداء laddā’2, pl. لد ludd, لداد lidād, الداء aliddā’2 fierce, grim, dogged, tough │ عدو الد (‘adūw) mortal enemy, archenemy, foe; عدو لدود do.",
+    "examples": []
+  },
+  {
+    "word": "لدغ",
+    "displayWord": "لدغ",
+    "translation": "ladaga u (ladg) to sting, bite (snake, s.o.); to taunt, hurt, offend ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "لدغة",
+    "displayWord": "لدغة",
+    "translation": "ladga sting; bite",
+    "examples": []
+  },
+  {
+    "word": "لديغ",
+    "displayWord": "لديغ",
+    "translation": "ladīg pl. لدغاء ludagā’ لدغى , 2 ladgā stung; bitten",
+    "examples": []
+  },
+  {
+    "word": "لدن",
+    "displayWord": "لدن",
+    "translation": "1 laduna u ( لدانة ladāna, لدونة ludūna) to be soft, supple, pliant, flexible, resilient, elastic II to soften ( ھ s.th.); to mollify, attenuate, temper, ease, mitigate, alleviate ھ) s.th.)",
+    "examples": []
+  },
+  {
+    "word": "لدن",
+    "displayWord": "لدن",
+    "translation": "ladn pl. لدن ludn, لدان lidān soft, gentle; pliant, pliable, flexible, supple, resilient, elastic; plastic",
+    "examples": []
+  },
+  {
+    "word": "لادن",
+    "displayWord": "لادن",
+    "translation": "lādan, lādin laudanum",
+    "examples": []
+  },
+  {
+    "word": "لدانة",
+    "displayWord": "لدانة",
+    "translation": "ladāna and لدونة ludūna softness, pliability, flexibility, suppleness, plasticity, resilience, elasticity",
+    "examples": []
+  },
+  {
+    "word": "لدائن",
+    "displayWord": "لدائن",
+    "translation": "ladā’in2 plastics",
+    "examples": []
+  },
+  {
+    "word": "لدن",
+    "displayWord": "لدن",
+    "translation": "2 ladun (prep.) at, by, near, close to; in the presence of, in front of, before, with; in possession of; من لدن from, on the part of; since; -- (conj.) since, from the moment when; لدن ان do.",
+    "examples": []
+  },
+  {
+    "word": "لدني",
+    "displayWord": "لدني",
+    "translation": "ladunī (i.e. من لدن لله ) mystic; العلم",
+    "examples": []
+  },
+  {
+    "word": "لدى",
+    "displayWord": "لدى",
+    "translation": "ladā (prep.) at, by (place and time); in the presence of, in front of, before, with │ لدى الحاجة in case of need, if necessary;",
+    "examples": []
+  },
+  {
+    "word": "لديه",
+    "displayWord": "لديه",
+    "translation": "ladaihi he has; ما لديك the condition you are in, your state of mind; ... ليس لدينا غيرما (gairu) we know no more than what ...",
+    "examples": []
+  },
+  {
+    "word": "لذ",
+    "displayWord": "لذ",
+    "translation": "ladda (1st pers. perf. ladidtu) a ( لذاذ ladad,",
+    "examples": []
+  },
+  {
+    "word": "لذاذة",
+    "displayWord": "لذاذة",
+    "translation": "ladāda) to be sweet, delicious, delightful, pleasant, gratify the senses II and IV to please, gratify, delight ( ه s.o.); to give pleasure ( ه to s.o.) V and VIII to be pleased, delighted ( ب at), delight, revel, take pleasure ( ب in), be gratified ( ب by); to find ( ھ s.th.) delicious or pleasant, take delight ( ھ in), enjoy, savor, relish ( ھ s.th.) X to find delicious or pleasant ( ھ s.th.); to find delightful ( ھ s.th.); to take pleasure (",
+    "examples": []
+  },
+  {
+    "word": "لذة",
+    "displayWord": "لذة",
+    "translation": "ladda pl. -āt joy, rapture, bliss; pleasure, enjoyment, delectation, delight; sensual delight, lust, voluptuousness",
+    "examples": []
+  },
+  {
+    "word": "لذيذ",
+    "displayWord": "لذيذ",
+    "translation": "ladīd pl. لذ ludd, لذاذ lidād delicious, delightful; pleasant; beautiful, wonderful, splendid, magnificent; sweet",
+    "examples": []
+  },
+  {
+    "word": "لذاذة",
+    "displayWord": "لذاذة",
+    "translation": "ladāda pl. لذائذ ladā’id2 sweetness; charm; bliss; rapture; enjoyment, delectation; pleasure, delight",
+    "examples": []
+  },
+  {
+    "word": "لذع",
+    "displayWord": "لذع",
+    "translation": "lada‘a a (lad‘) to burn ( ھ s.th.); to brand, cauterize ( ه s.o.); to hurt (with words), insult, offend ( ه s.o.) V to burn",
+    "examples": []
+  },
+  {
+    "word": "لذع",
+    "displayWord": "لذع",
+    "translation": "lada‘ burning, combustion; conflagration, fire │ لذع البنادق rifle fire",
+    "examples": []
+  },
+  {
+    "word": "لذاع",
+    "displayWord": "لذاع",
+    "translation": "laddā‘ burning; very hot, scorching; pungent, acrid, sharp; biting (words)",
+    "examples": []
+  },
+  {
+    "word": "لوذع",
+    "displayWord": "لوذع",
+    "translation": "lauda‘ and لوذعي lauda‘ī sagacious, ingenious, witty, quick-witted, quick at repartee",
+    "examples": []
+  },
+  {
+    "word": "لوذعية",
+    "displayWord": "لوذعية",
+    "translation": "lauda‘īya sagacity, ingenuity, esprit, wit, quick-wittedness, mental alertness",
+    "examples": []
+  },
+  {
+    "word": "لاذع",
+    "displayWord": "لاذع",
+    "translation": "lādi‘ burning; pungent, acrid, biting; sharp",
+    "examples": []
+  },
+  {
+    "word": "لاذعة",
+    "displayWord": "لاذعة",
+    "translation": "lādi‘a pl. لواذع lawādi‘2 gibe, taunt",
+    "examples": []
+  },
+  {
+    "word": "لذي",
+    "displayWord": "لذي",
+    "translation": "1 ladiya a (ladan) to adhere, cleave ( ب to)",
+    "examples": []
+  },
+  {
+    "word": "لز",
+    "displayWord": "لز",
+    "translation": "lazza (1st pers. perf. lazaztu) u (lazz, لزز lazaz, لززاز lizāz) to tie ( ب ه s.th. to), connect or join firmly, unite ( ب ه s.th. with), make ( ھ s.th.) stick ( ب to) II to connect or join firmly, press together ( ھ s.th.); to cram together; to urge, press, coerce ( الى ه s.o. to) VI to be crammed together; to lie close together V and VIII to be united, joined, connected ( ب with); to adhere, cleave, stick ( ب to)",
+    "examples": []
+  },
+  {
+    "word": "لز",
+    "displayWord": "لز",
+    "translation": "lazz and لزة lazza U bolt, staple, cramp",
+    "examples": []
+  },
+  {
+    "word": "لزب",
+    "displayWord": "لزب",
+    "translation": "lazaba u ( لزوب luzūb) to be firm, be firmly fixed, hold fast; to adhere, cleave, cling ( ب to); to stick ( ب to); -- laziba a (lazab) to cohere, cleave together, stick together",
+    "examples": []
+  },
+  {
+    "word": "لزب",
+    "displayWord": "لزب",
+    "translation": "lazib pl. لزاب lizāb little",
+    "examples": []
+  },
+  {
+    "word": "لزبة",
+    "displayWord": "لزبة",
+    "translation": "lazba pl. لزب lizab misfortune, calamity",
+    "examples": []
+  },
+  {
+    "word": "لازب",
+    "displayWord": "لازب",
+    "translation": "lāzib sticking, adhering, clinging; firm, firmly fixed │ صار ضربة لازب (ḍarbata l.) to become necessary, indispensable; ضرب ضربة لازب (ḍuriba) to meet with grave misfortune, be stricken by disaster",
+    "examples": []
+  },
+  {
+    "word": "لزج",
+    "displayWord": "لزج",
+    "translation": "lazija a (lazaj, لزوج luzūj) to be sticky, ropy, gluey, viscid; to stick, cling, get stuck ( ب to)",
+    "examples": []
+  },
+  {
+    "word": "لزج",
+    "displayWord": "لزج",
+    "translation": "lazij sticky, gluey, ropy, viscid; adhesive",
+    "examples": []
+  },
+  {
+    "word": "لزوجة",
+    "displayWord": "لزوجة",
+    "translation": "luzūja stikiness, glueyness, ropiness, viscidity",
+    "examples": []
+  },
+  {
+    "word": "لزق",
+    "displayWord": "لزق",
+    "translation": "laziqa a ( لزوق luzūq) to adhere, cling, cleave, stick, ( ب to) II to affix, post ( ھ s.th.); to stick on, paste on ( ھ s.th.); to paste together ( ھ s.th.); (eg.) to palm off, foist ( ھ ل s.th. on s.o.) IV to Palte on, stick on, affix ( ھ s.th.) VIII = I",
+    "examples": []
+  },
+  {
+    "word": "لزق",
+    "displayWord": "لزق",
+    "translation": "lizq adjoining, adjacent, contiguous │ لزقه lizqahū or بلزقه close to his side, cose by",
+    "examples": []
+  },
+  {
+    "word": "لزق",
+    "displayWord": "لزق",
+    "translation": "laziq sticky, gluey",
+    "examples": []
+  },
+  {
+    "word": "لزقة",
+    "displayWord": "لزقة",
+    "translation": "lazqa compress, stupe; plaster",
+    "examples": []
+  },
+  {
+    "word": "لزاق",
+    "displayWord": "لزاق",
+    "translation": "lizāq adhesive, agglutinant, glue, cement, paste",
+    "examples": []
+  },
+  {
+    "word": "لزوق",
+    "displayWord": "لزوق",
+    "translation": "lazūq and لازوق lāzūq compress, stupe; plaster, adhesive plaster, court plaster",
+    "examples": []
+  },
+  {
+    "word": "لزم",
+    "displayWord": "لزم",
+    "translation": "lazima a ( لزوم luzūm) to cling, adhere, belong ( ھ to), attend, accompany (",
+    "examples": []
+  },
+  {
+    "word": "لزمة",
+    "displayWord": "لزمة",
+    "translation": "lazma pl. -āt official concessions, license, franchise",
+    "examples": []
+  },
+  {
+    "word": "لزوم",
+    "displayWord": "لزوم",
+    "translation": "luzūm necessity, exigency, requirement; need, want │ حسب اللزوم ḥasaba l-l. as required, as the occasion demands; عند اللزوم in case of need, when (if) necessary, if need be; بسكويت لزوم السفر",
+    "examples": []
+  },
+  {
+    "word": "لزام",
+    "displayWord": "لزام",
+    "translation": "lizām necessary, requisite; necessity, duty, obligation │ كان لزاما عليه",
+    "examples": []
+  },
+  {
+    "word": "لازم",
+    "displayWord": "لازم",
+    "translation": "lāzim inherent, intrinsic, inseparable, indissoluble; necessary, requisite, imperative, indispensable, unavoidable, inevitable, inescapable; incumbent, binding, obligatory; intransitive (gram.); legally binding, irrevocable (Isl. Law) │ كالازم as it must be, comme il faut, properly",
+    "examples": []
+  },
+  {
+    "word": "لازمة",
+    "displayWord": "لازمة",
+    "translation": "lāzima fixed attribute, inherent property; standing phrase (of s.o.)",
+    "examples": []
+  },
+  {
+    "word": "لوازم",
+    "displayWord": "لوازم",
+    "translation": "lawāzim2 (pl.) necessary, inseparable attributes or manifestations; necessities, exigencies, requirements; necessaries, requisites; necessaries, fixtures",
+    "examples": []
+  },
+  {
+    "word": "لستك",
+    "displayWord": "لستك",
+    "translation": "lastik and لستيك lastīk rubber; eraser",
+    "examples": []
+  },
+  {
+    "word": "لسع",
+    "displayWord": "لسع",
+    "translation": "lasa‘a a (las‘) to sting ( ه s.o.); to burn ھ) s.th., e.g., the mouth); to hurt (with words; ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "لسعة",
+    "displayWord": "لسعة",
+    "translation": "las‘a sting, bite; biting words",
+    "examples": []
+  },
+  {
+    "word": "لسيع",
+    "displayWord": "لسيع",
+    "translation": "lasī‘ pl. لسعى las‘ā, لسعاء lusa‘ā’2 stung",
+    "examples": []
+  },
+  {
+    "word": "لاسع",
+    "displayWord": "لاسع",
+    "translation": "lāsi‘ stinging; burning; biting, acrid, pungent, sharp",
+    "examples": []
+  },
+  {
+    "word": "لسن",
+    "displayWord": "لسن",
+    "translation": "lasina a (lasan) to be eloquent II to point, taper, sharpen ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "لسن",
+    "displayWord": "لسن",
+    "translation": "lasan eloquence",
+    "examples": []
+  },
+  {
+    "word": "لسن",
+    "displayWord": "لسن",
+    "translation": "lasin and السن alsan2, f. لسناء lasnā’2, pl. السن alsun eloquent",
+    "examples": []
+  },
+  {
+    "word": "لسان",
+    "displayWord": "لسان",
+    "translation": "lisān m. and f. , pl. السنة alsina, السن alsun tongue; language; mouthpiece (fig.), organ (esp., of a newspaper; = لسان الحال see below) │ على لسان from his mouth, through him; على لسان الصحف (l. iṣ-ṣuḥuf) through the organ of the press; قيل على لسانه",
+    "examples": []
+  },
+  {
+    "word": "لسان الثور",
+    "displayWord": "لسان الثور",
+    "translation": "l. at-taur borage (Borago officinalis; bot.); لسان الحال the language which things themselves speak, silent language, mute expression (as distinguished from the spoken word); organ (of a party or political movement; a newspaper); ولسان حاله يقول while he seemed to say ..., with an expression as if he wanted to say ...; لسان الحمل l. al-ḥamal plantain (Plantago major L.; bot.); لسان",
+    "examples": []
+  },
+  {
+    "word": "لساني",
+    "displayWord": "لساني",
+    "translation": "lisānī oral, verbal",
+    "examples": []
+  },
+  {
+    "word": "لشبونة",
+    "displayWord": "لشبونة",
+    "translation": "lišbōna2 Lisbon (capital of Portugal) لشى) *; from lā šai’a:) III to suppress, crush, destroy, ruin, annihilate (. s.th.) VI to be suppressed, be crushed, be destroyed, be annihilated; to come to nothing, be ruined, be frustrated, fail; to disappear, vanish, dwindle, wane, fade",
+    "examples": []
+  },
+  {
+    "word": "لص",
+    "displayWord": "لص",
+    "translation": "laṣṣa u (laṣṣ) to do stealthily or secretly ( ھ s.th.); to rob, steal ( ھ s.th.) V to become a thief; to act stealthily",
+    "examples": []
+  },
+  {
+    "word": "لص",
+    "displayWord": "لص",
+    "translation": "liṣṣ pl. لصوص luṣūṣ, الصاص alṣāṣ thief, robber",
+    "examples": []
+  },
+  {
+    "word": "لصوصية",
+    "displayWord": "لصوصية",
+    "translation": "luṣūṣīya thievery, theft, robbery",
+    "examples": []
+  },
+  {
+    "word": "لصق",
+    "displayWord": "لصق",
+    "translation": "laṣiqa a (laṣq, لصوق luṣūq) to adhere, cleave, cling, stick ( ب to) II to paste together, stick together ( ھ s.th.) III to adjoin ( ھ s.th.), be next ( ھ to s.th.), be contiguous (with), abut ( ھ on), touch ( ھ s.th.); to be in touch, in connection, in contact ( ه with s.o.) IV to attach, affix, stick, paste, glue ( ب ھ s.th. to); to connect",
+    "examples": []
+  },
+  {
+    "word": "لصق",
+    "displayWord": "لصق",
+    "translation": "liṣq adhering, clinging, cleaving │",
+    "examples": []
+  },
+  {
+    "word": "لصق",
+    "displayWord": "لصق",
+    "translation": "close to him (or it); (ھو بلصقي (لصقي he and I are inseparable",
+    "examples": []
+  },
+  {
+    "word": "لصق",
+    "displayWord": "لصق",
+    "translation": "laṣiq sticky, gluey, glutinous; adhesive, agglutinant; tenacious",
+    "examples": []
+  },
+  {
+    "word": "لصيق",
+    "displayWord": "لصيق",
+    "translation": "laṣīq one who cleaves or clings (",
+    "examples": []
+  },
+  {
+    "word": "لصق",
+    "displayWord": "لصق",
+    "translation": "laṣūq plaster",
+    "examples": []
+  },
+  {
+    "word": "لطخ",
+    "displayWord": "لطخ",
+    "translation": "laṭaka a (laṭk) to stain, blot, sully, soil, spatter, splash ( ب ھ s.th. with) II do. V to he soiled or stained",
+    "examples": []
+  },
+  {
+    "word": "لطخة",
+    "displayWord": "لطخة",
+    "translation": "laṭka pl. laṭakāt smear, blotch, spot; stain, blemish, blot, disgrace",
+    "examples": []
+  },
+  {
+    "word": "لطخة",
+    "displayWord": "لطخة",
+    "translation": "luṭaka pl. -āt and لطيخ liṭṭīk ass, dolt, fool",
+    "examples": []
+  },
+  {
+    "word": "لطس",
+    "displayWord": "لطس",
+    "translation": "laṭasa u (laṭs) to strike, hit ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "لطش",
+    "displayWord": "لطش",
+    "translation": "laṭaša u (laṭš) to strike, hit ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "لطع",
+    "displayWord": "لطع",
+    "translation": "laṭa‘a a (laṭ‘) to strike, hit ( ه s.o.); to strike out, erase ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "لطعة",
+    "displayWord": "لطعة",
+    "translation": "laṭ‘a blot, stain",
+    "examples": []
   },
   {
     "word": "لطف",
-    "displayWord": "لُطْف",
-    "root": "لطف",
-    "translation": "kindness, gentleness, grace",
-    "examples": [
-      {
-        "ar": "عَامِلِ النَّاسَ بِاحْتِرَامٍ وَلُطْفٍ تَكْسِبْ قُلُوبَهُمْ.",
-        "en": "Treat people with respect and kindness, and you will win their hearts.",
-        "source": "Social Ethics"
-      }
-    ]
+    "displayWord": "لطف",
+    "translation": "laṭafa u (luṭf) to be kind and friendly ( ب or ل to, toward s.o.); -- laṭufa u ( لطافة laṭāfa) to be thin, fine, delicate, dainty; to be graceful; to be elegant; to be nice, amiable, friendly II to make mild, soft, gentle, soften ( ھ s.th.); to mitigate, alleviate, ease, soothe, allay, palliate, assuage, extenuate ( ھ s.th.; also من ); to moderate, temper, lessen, diminish, reduce ھ) s.th.; also من ); to tone down ( ھ s.th.; also من ) III to treat with kindness, with benevolence ( ه s.o.); to be civil and polite ه) to, toward s.o.); to be complaisant, obliging, indulgent, compliant ( ه toward s.o.), humor ( ه s.o.); to flatter ( ه s.o.), fawn ه) upon); to caress, fondle, pet ( ه s.o.) │",
+    "examples": []
+  },
+  {
+    "word": "لاطفه على كتفه ٨٦٧",
+    "displayWord": "لاطفه على كتفه ٨٦٧",
+    "translation": "(katifihī) to pat s.o. on the shoulder V to be mitigated, be tempered, be moderated; to be civil and polite, show o.s. friendly and kind, be so kind as to do s.th. ( ب); to bestow most kindly, have the kindness to give ( ب s.th., also, e.g., advice. على to s.o.); to be tender, affectionate, nice ( ب to s.o.); to win ( ب s.o.) over by subtle means, by favors, by tricks; to go about s.th. ( في or ب) gently, carefully, with caution; to do secretly, covertly, without being noticed ( ب with verbal noun: s.th.) VI to show o.s. friendly and kind; to be polite, courteous, civil, nice X to find ( ھ s.th.) pretty, sweet, nice; to like, find pleasant or charming ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "لطف",
+    "displayWord": "لطف",
+    "translation": "lutf pl. الطاف alṭāf kindness, benevolence, friendliness; gentleness, mildness; civility, courteousness, politeness; daintiness, cuteness, gracefulness; delicateness, delicate grace (e.g., of the limbs) │ بلطف gently, softly",
+    "examples": []
+  },
+  {
+    "word": "لطافة",
+    "displayWord": "لطافة",
+    "translation": "laṭāfa thinness fineness, delicateness; gracefulness, loveliness, charm; kindness, benevolence; friendliness; politeness, esprit, intellectual refinement, sophistication; suavity, urbaneness",
+    "examples": []
+  },
+  {
+    "word": "لطيف",
+    "displayWord": "لطيف",
+    "translation": "laṭīf pl. لطاف liṭāf, لطفاء luṭafā‘2 thin; fine; delicate, dainty; little, small, insignificant; gentle, soft, light, mild; pleasant, agreeable; amiable, friendly, kind, nice; civil, courteous, polite; affable, genial; pretty, charming, lovely, graceful; intellectually refined, full of esprit, brilliant, witty; elegant; اللطيف the Kind (one of the attributes of God) │ يا لطيف O my God! good heavens! for goodness sake! الجنس اللطيف (jins) the fair sex",
+    "examples": []
+  },
+  {
+    "word": "لطيفة",
+    "displayWord": "لطيفة",
+    "translation": "laṭīfa pl. لطائف laṭā’if2 witticism, quip; joke, jest; subtlety, nicety │ لطائف",
+    "examples": []
+  },
+  {
+    "word": "لطم",
+    "displayWord": "لطم",
+    "translation": "laṭama i (laṭm) to strike with the hand ( ھ the face, with despair, in lamentation); to slap ( ه s.o.); to jolt; to eject; to bump, strike ( ھ against s.th.); to hit ( ھ s.th.) VI to exchange blows, fight, brawl, battle (hostile armies); to collide, clash (waves) VIII to collide, clash",
+    "examples": []
+  },
+  {
+    "word": "لطمة",
+    "displayWord": "لطمة",
+    "translation": "laṭma pl. laṭamāt blow; slap, box on the ear; jolt, thrust",
+    "examples": []
+  },
+  {
+    "word": "لطيم",
+    "displayWord": "لطيم",
+    "translation": "laṭīm parentless",
+    "examples": []
+  },
+  {
+    "word": "لظي",
+    "displayWord": "لظي",
+    "translation": "laẓiya a ( لظى laẓan) to burn brightly, flare, flame, blaze, be ablaze; to burn with rage V and VIII do.",
+    "examples": []
+  },
+  {
+    "word": "لظى",
+    "displayWord": "لظى",
+    "translation": "laẓan blazing fire, blaze, flame",
+    "examples": []
   },
   {
     "word": "لعب",
-    "displayWord": "لَعِب",
-    "root": "لعب",
-    "translation": "play, game, fun / also (لَعِبَ) he played",
-    "examples": [
-      {
-        "ar": "وَمَا الْحَيَاةُ الدُّنْيَا إِلَّا لَعِبٌ وَلَهْوٌ.",
-        "en": "And the worldly life is not but play and amusement.",
-        "source": "Holy Quran"
-      }
-    ]
+    "displayWord": "لعب",
+    "translation": "la‘aba and la‘iba a (la‘b) to slaver; to slobber, drool (baby); -- la‘iba a (lu‘b, li‘b, la‘ib, تلعاب tal‘āb) to play ( ب with s.th.; على an instrument); to toy ( with); to dally ( ب with); to trick, cheat, deceive, dupe ( على s.o.) │ لعب الأوراق (aurāqa) to play cards; لعب دورا (dauran) to play a part or role; لعب الموسيقى to make music; لعب",
+    "examples": []
+  },
+  {
+    "word": "لعب",
+    "displayWord": "لعب",
+    "translation": "la‘b, li‘b, la‘ib pl. العاب al‘āb play; game, joke, jest; (un, amusement, diversion, pastime, sport │ لعب القمار gambling, gamble; الألعاب الاولمبية the Olympic Games; ألعاب رياضية (riyāḍīya) athletics, sports; ألعاب سحرية (siḥrīya) legerdemain, sleight of hand, magic; العاب",
+    "examples": []
+  },
+  {
+    "word": "لعب",
+    "displayWord": "لعب",
+    "translation": "la‘ib funny, amusing, merry, gay",
+    "examples": []
+  },
+  {
+    "word": "لعبة",
+    "displayWord": "لعبة",
+    "translation": "la‘ba (n. un.) game; trick",
+    "examples": []
+  },
+  {
+    "word": "لعبة",
+    "displayWord": "لعبة",
+    "translation": "lu‘ba pl. لعب lu‘ab plaything, toy; doll; butt for mirth or derision, sport, laughingstock",
+    "examples": []
+  },
+  {
+    "word": "لعبة",
+    "displayWord": "لعبة",
+    "translation": "lu‘ba, لعاب la‘‘āb and لعيب li‘‘īb very playful",
+    "examples": []
+  },
+  {
+    "word": "لعاب",
+    "displayWord": "لعاب",
+    "translation": "lu‘āb saliva, spittle; slaver, drivel │ لعاب الشمس l. aš-šams gossamer, air threads; سال لعابه على his mouth watered for …",
+    "examples": []
+  },
+  {
+    "word": "لعابي",
+    "displayWord": "لعابي",
+    "translation": "lu‘ābī salivary; mucous, slimy",
+    "examples": []
+  },
+  {
+    "word": "لعيبة",
+    "displayWord": "لعيبة",
+    "translation": "lu‘aiba pl. -āt (little) doll",
+    "examples": []
+  },
+  {
+    "word": "لعوب",
+    "displayWord": "لعوب",
+    "translation": "la‘ūb flighty, coquettish, flirtatious (woman); playful, dallying, trifling",
+    "examples": []
+  },
+  {
+    "word": "لاعب",
+    "displayWord": "لاعب",
+    "translation": "lā‘ib playing; player; sportsman; athlete; gymnast │ لاعب الجنباز l. al-jumbāz gymnast, athlete",
+    "examples": []
+  },
+  {
+    "word": "لعثم",
+    "displayWord": "لعثم",
+    "translation": "II tala‘tama to hesitate; to falter, stutter, stammer",
+    "examples": []
+  },
+  {
+    "word": "لعثمة",
+    "displayWord": "لعثمة",
+    "translation": "la‘tama and لعثم tala‘tum hesitation; stuttering, stutter",
+    "examples": []
+  },
+  {
+    "word": "لعج",
+    "displayWord": "لعج",
+    "translation": "la‘aja a (la‘j) to hurt, be sore, burn III to oppress, distress, agonize ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "لعجة",
+    "displayWord": "لعجة",
+    "translation": "la‘ja pain",
+    "examples": []
+  },
+  {
+    "word": "لاعج",
+    "displayWord": "لاعج",
+    "translation": "lā‘ij pl. لواعج lawā‘ij2 ardent, burning (esp., love); pl. لواعج ardent love, ardor (of love)",
+    "examples": []
+  },
+  {
+    "word": "لعق",
+    "displayWord": "لعق",
+    "translation": "la‘iqa a (la‘q, لعقة la‘qa, lu‘qa) to lick ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "لعقة",
+    "displayWord": "لعقة",
+    "translation": "la‘qa spoonful",
+    "examples": []
+  },
+  {
+    "word": "لعوق",
+    "displayWord": "لعوق",
+    "translation": "la‘ūq electuary",
+    "examples": []
+  },
+  {
+    "word": "لعل",
+    "displayWord": "لعل",
+    "translation": "1 la‘l garnet (min.)",
+    "examples": []
+  },
+  {
+    "word": "لعل",
+    "displayWord": "لعل",
+    "translation": "2 la‘alla see عل 2",
+    "examples": []
+  },
+  {
+    "word": "لعلع",
+    "displayWord": "لعلع",
+    "translation": "la‘la‘a to resound, reverberate, clang, roar, boom II tala‘la‘a to shimmer, glimmer, gleam, flicker; to be starved; 869 to be parched with thirst; to be",
+    "examples": []
+  },
+  {
+    "word": "لعلع",
+    "displayWord": "لعلع",
+    "translation": "la‘la‘ pl. لعالع la‘āli‘2 vibration of fata morgana",
+    "examples": []
+  },
+  {
+    "word": "لعن",
+    "displayWord": "لعن",
+    "translation": "la‘ana a (la‘n) to curse, damn, execrate ( ه s.o.), utter imprecations ( ه against s.o.) III to utter the oath of condemnation ( لعان li‘ān, q.v.) VI to curse each other",
+    "examples": []
+  },
+  {
+    "word": "لعن",
+    "displayWord": "لعن",
+    "translation": "la‘n cursing, execration, malediction",
+    "examples": []
+  },
+  {
+    "word": "لعنة",
+    "displayWord": "لعنة",
+    "translation": "la‘na pl. la‘anāt, لعان li‘ān curse; execration, imprecation │ لعنة لله عليه God’s curse upon him!",
+    "examples": []
+  },
+  {
+    "word": "لعنة",
+    "displayWord": "لعنة",
+    "translation": "lu‘na damned, cursed, confounded; execrable, abominable",
+    "examples": []
+  },
+  {
+    "word": "لعان",
+    "displayWord": "لعان",
+    "translation": "li‘ān oath of condemnation; sworn allegation of adultery committed by either husband or wife (Isl. Law)",
+    "examples": []
+  },
+  {
+    "word": "لعين",
+    "displayWord": "لعين",
+    "translation": "la‘īn and ملعون mal‘ūn pl. ملاعين malā‘īn2 cursed; confounded; damned; outcast, execrable; detested, abhorred, abominable; اللعين the Evil One, the Devil",
+    "examples": []
+  },
+  {
+    "word": "لعا لك",
+    "displayWord": "لعا لك",
+    "translation": "la‘an laka call to one who has stumbled: may you rise again!",
+    "examples": []
+  },
+  {
+    "word": "لغوب",
+    "displayWord": "لغوب",
+    "translation": "lugūb, lagub exhaustion, lassitude, fatigue, weariness; great pains, trouble, toil",
+    "examples": []
+  },
+  {
+    "word": "لاغب",
+    "displayWord": "لاغب",
+    "translation": "lāgib pl. لغب luggab languid, fatigued, weary, tired",
+    "examples": []
+  },
+  {
+    "word": "لغد",
+    "displayWord": "لغد",
+    "translation": "lugd pl. الغاد algād, لغود lugūd and",
+    "examples": []
+  },
+  {
+    "word": "لغدود",
+    "displayWord": "لغدود",
+    "translation": "lugdūd pl. لغاديد lagādīd2 flesh at the throat and under the chin",
+    "examples": []
+  },
+  {
+    "word": "لغز",
+    "displayWord": "لغز",
+    "translation": "lagaza u (lagz) to speak in riddles; to equivocate III and IV do.",
+    "examples": []
+  },
+  {
+    "word": "لغز",
+    "displayWord": "لغز",
+    "translation": "lugz pl. الغاز algāz riddle, puzzle; enigma; conundrum; mystery, secret │ O",
+    "examples": []
+  },
+  {
+    "word": "لغز الكلمات المتقاطعة",
+    "displayWord": "لغز الكلمات المتقاطعة",
+    "translation": "l. al-kalimāt almutaqāṭi‘ a crossword puzzle",
+    "examples": []
+  },
+  {
+    "word": "لغط",
+    "displayWord": "لغط",
+    "translation": "lagaṭa a (lagṭ, لغاط ligāṭ) to be clamorous and noisy; to raise a din; to shout, clamor II and IV do.",
+    "examples": []
+  },
+  {
+    "word": "لغط",
+    "displayWord": "لغط",
+    "translation": "lagṭ, lagaṭ, pl. الغاط algāṭ noise, din; clamor, shouting; lamentation ( عن over or for s.th.) i uproar, turmoil, tumult",
+    "examples": []
+  },
+  {
+    "word": "لغم",
+    "displayWord": "لغم",
+    "translation": "2 lagama to mine, plant with mines ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "لغم",
+    "displayWord": "لغم",
+    "translation": "lugm, lagam pl. الغام algām mine",
+    "examples": []
+  },
+  {
+    "word": "لغم",
+    "displayWord": "لغم",
+    "translation": "lagm and الغام ilgām mining (e.g., of a harbor, of a road, etc.)",
+    "examples": []
+  },
+  {
+    "word": "لغم",
+    "displayWord": "لغم",
+    "translation": "2 IV to amalgamate, alloy with mercury",
+    "examples": []
+  },
+  {
+    "word": "لغام",
+    "displayWord": "لغام",
+    "translation": "lugām foam, froth",
+    "examples": []
+  },
+  {
+    "word": "لغمط",
+    "displayWord": "لغمط",
+    "translation": "lagmaṭa (eg.) to smear, sully, soil",
+    "examples": []
+  },
+  {
+    "word": "لغا",
+    "displayWord": "لغا",
+    "translation": "(لغو ) lagā u (lagw) to speak; to be null; -- لغا lagā u (lagw) and لغي lagiya a ( لغا lagan,",
+    "examples": []
+  },
+  {
+    "word": "لاغية",
+    "displayWord": "لاغية",
+    "translation": "lāgiya, ملغاة malgāh) to talk nonsense; to make mistakes (in speaking) sV to render ineffectual ( ھ s.th.); to declare null and void or invalid, invalidate, nullify, annul, abolish, abrogate, eliminate ( ھ s.th.), do away ( ھ with s.th.); to cancel ( ھ a project); to withdraw ( ھ permission, a motion)",
+    "examples": []
+  },
+  {
+    "word": "لغو",
+    "displayWord": "لغو",
+    "translation": "lagw foolish talk; nonsense; null, nugatory, ineffectual; mistake, blunder, ungrammatical language",
+    "examples": []
+  },
+  {
+    "word": "لغة",
+    "displayWord": "لغة",
+    "translation": "luga pl. -āt language; dialect; idiom; vernacular; lingo, jargon; word; expression, term; اللغة classical Arabic │",
+    "examples": []
+  },
+  {
+    "word": "لغة اجنبية",
+    "displayWord": "لغة اجنبية",
+    "translation": "(ajnabīya) foreign language; لغة",
+    "examples": []
+  },
+  {
+    "word": "لغوة",
+    "displayWord": "لغوة",
+    "translation": "lagwa dialect, idiom, vernacular",
+    "examples": []
+  },
+  {
+    "word": "لغوي",
+    "displayWord": "لغوي",
+    "translation": "lugawī linguistic; philologic(al); lexicographic(al); philologist, lexicographer, linguist; لغويات linguistic matters, philologica",
+    "examples": []
+  },
+  {
+    "word": "لاغ",
+    "displayWord": "لاغ",
+    "translation": "lāgin abrogated, repealed, annulled, canceled, invalid, ineffective, null and void",
+    "examples": []
+  },
+  {
+    "word": "لاغية",
+    "displayWord": "لاغية",
+    "translation": "lāgiya grammatical mistake, incorrect usage",
+    "examples": []
+  },
+  {
+    "word": "لف",
+    "displayWord": "لف",
+    "translation": "laffa u (laff) to wrap up, roll up, fold up ( ھ s.th.); to wind, coil, spool, reel ( ھ s.th.); to wind ( على ھ s.th. on; على ھ s.th. around), twist, wrap, fold ( على ھ s.th. around); to envelop ( ب or في ھ s.th. in or with), cover, swathe, swaddle ( ھ s.th. ب or في in or with), wrap, infold ( ب or في ھ s.th. in); to connect ( ب ھ s.th. with), join, attach ( ب ٠ s.th. to); to grow densely, be overgrown, form a tangled mass; to make a round of calls ( على on), visit ( على people); (eg.) to go around s.th. ( ھ ), go about s.th. ( ھ ) in a roundabout way, make a detour, beat about the bush │ لف لفه (laffahū) to do just like s.o., be of the same kind as s.o., belong to the same sort as s.o. II to wrap up or infold tightly V to wrap o.s. up ( في in), cover o.s. ( في with) VIII do.; to wind, twist, coil; to turn, make a turn (automobile, etc.); to intertwine, grow in a tangled mass; to gather, assemble, rally (",
+    "examples": []
+  },
+  {
+    "word": "لف",
+    "displayWord": "لف",
+    "translation": "laff winding, coiling; wrapping, enfolding; rolling, folding; (eg.) circumambience, circumvention, detour, roundabout way, subterfuge, dodge, excuses; pl. الفاف alfāf swaddling clothes, diapers │ اللف والدوران (dawarān) detours and evasions; لف ونشر (našr) folding and unfolding; involution and evolution (rhet.); من غير لف without much ado, without ceremony",
+    "examples": []
+  },
+  {
+    "word": "لف",
+    "displayWord": "لف",
+    "translation": "liff pl. الفاف alfāf densely growing trees; pl. thicket, scrub, undergrowth, brushwood",
+    "examples": []
+  },
+  {
+    "word": "لفة",
+    "displayWord": "لفة",
+    "translation": "laffa pl. -āt turn, rotation, revolution; coil, twist, convolution, whorl, spire; winding; roll, scroll; pack, packet, package, bundle, bale; turban │ لفة بريدية (barīdīya) postal package; لفات من الرق (raqq) parchment scrolls",
+    "examples": []
+  },
+  {
+    "word": "لفافة",
+    "displayWord": "لفافة",
+    "translation": "lifāfa pl. -āt, لفائف lafā’if wrapping, covering, cover, envelope; wrapper, wrap; altar cloth, cloth covering the paten and chalice (Copt.-Chr.); bandage; swaddling band; puttee; cigarette (also لفافة من التبغ min at-tibg); pl. لفائف (fig.) guise (of s.th.)",
+    "examples": []
+  },
+  {
+    "word": "لفيف",
+    "displayWord": "لفيف",
+    "translation": "lafīf gathered, assembled; crowded, thronging; multitude, crowd, swarm, body, cluster, group ( من of people); mixed company │ لفيف الناس mob, rabble, riffraff; اللفيف الأجنبي (ajnabī) the Foreign Legion",
+    "examples": []
+  },
+  {
+    "word": "لفيفة",
+    "displayWord": "لفيفة",
+    "translation": "lafīfa bundle; package, pocket, pack; cigarette",
+    "examples": []
+  },
+  {
+    "word": "لفت",
+    "displayWord": "لفت",
+    "translation": "lafata i (laft) and IV to turn, bend, tilt, incline, direct ( الى ھ s.th. to or toward), focus ( الى ھ s.th. on); to turn sway, avert ( عن ھ s.th. from) │ لفت نظره الى (naẓarahū), الفت نظره الى to turn one’s eyes or one’s attention to; to direct s.o.’s eyes to, call s.o.’s attention to; لفت النظر to catch the eye, attract attention; to be impressive, stately, imposing; الفت النظر do.; لفت الناس to attract, interest, or captivate people V to turn, turn around, turn one’s face ( الى to); to look around, glance around; to peer around │ تلفت حوله (ḥaulahū) to look around, glance around; تلفت يمنة ويسرة (yamnatan wa-yasratan) he looked to the right and left VIII to turn, turn around, turn one’s face ( الى to); to wheel around, turn around; to address o.s. ( الى to); to pay attention, attend ( الى to), heed, observe, bear in mind, consider, take into account, take into consideration ( الى s.th.); to take care ( الى of), care ( الى for) │ التفت حوله (ḥaulahū) to look around, glance about X to attract ( ھ the eye, attention); to claim, arouse, awaken ( ھ the interest, the attention, من of s.o.) │ استلفت نظره (or",
+    "examples": []
+  },
+  {
+    "word": "لفت",
+    "displayWord": "لفت",
+    "translation": "lift turnip (Brassica rapa L.; bot.)",
+    "examples": []
+  },
+  {
+    "word": "لفتة",
+    "displayWord": "لفتة",
+    "translation": "lafta (n. un.) turnabout, about-face; (pl. lalatāt) turn, turning; gesture; sideglance, glance, a furtive, casual, or quick, look",
+    "examples": []
+  },
+  {
+    "word": "لفات",
+    "displayWord": "لفات",
+    "translation": "lafāt and لفوت lafūt ill-tempered, surly, sullen",
+    "examples": []
+  },
+  {
+    "word": "لافتة",
+    "displayWord": "لافتة",
+    "translation": "lāfita sign (bearing an inscription)",
+    "examples": []
+  },
+  {
+    "word": "لفح",
+    "displayWord": "لفح",
+    "translation": "lafaḥa a (lafḥ, لفحان lafaḥān) to burn, scorch, sear ( ھ، ه s.o., s.th.); -- (lafḥ) to 872 strike lightly; to touch, brush ( ھ s.th., e.g., of the breath)",
+    "examples": []
+  },
+  {
+    "word": "لفحة",
+    "displayWord": "لفحة",
+    "translation": "lafḥa pl. lafaḥāt fire, heat (esp., of fever)",
+    "examples": []
+  },
+  {
+    "word": "لفوح",
+    "displayWord": "لفوح",
+    "translation": "lafūḥ and لافح lāfiḥ pl. لوافح lawāfiḥ2 burning, scorching, searing",
+    "examples": []
+  },
+  {
+    "word": "لفاح",
+    "displayWord": "لفاح",
+    "translation": "luffāḥ mandrake (Mandragora officinarum; bot.)",
+    "examples": []
+  },
+  {
+    "word": "لفظ",
+    "displayWord": "لفظ",
+    "translation": "lafaẓa i (lafz) to emit ( ب، ھ s.th.); to spit out ( ب، ھ s.th.); to eject ( ب، ھ s.th.); to throw ( ه s.o.) out ( من of); to speak, enunciate, articulate; to pronounce, utter, express, voice, say ( ب، ه s.th.) │ لفظ النفس",
+    "examples": []
+  },
+  {
+    "word": "لفظ",
+    "displayWord": "لفظ",
+    "translation": "lafẓ pl. الفاظ alfāẓ sound-group, phonetic complex; expression, term; word; wording; formulation; articulation, enunciation, pronunciation; لفظا verbatim, literally │ لفظا ومعنى (ma‘nan) in letter and spirit; أخطأ اللفظ (akṭa’a) to mispronounce",
+    "examples": []
+  },
+  {
+    "word": "لفظي",
+    "displayWord": "لفظي",
+    "translation": "lafẓī of or pertaining to words, verbal; literal; pronounced; oral",
+    "examples": []
+  },
+  {
+    "word": "لفظة",
+    "displayWord": "لفظة",
+    "translation": "lafẓa pl. lafaẓāt word; utterance, saying",
+    "examples": []
+  },
+  {
+    "word": "لفيظ",
+    "displayWord": "لفيظ",
+    "translation": "lafīẓ ejected, emitted; pronounced, uttered",
+    "examples": []
+  },
+  {
+    "word": "لفع",
+    "displayWord": "لفع",
+    "translation": "lafa‘a a (laf‘): لفع الشيب رأسه l. š-šaibu ra’sahū grey hair covered his bead II to cover ( ھ s.th., ب with) │ لفع الشيب رأسه l. ššaibu ra’sahū = I; V and VIII to wrap o.s. up ( ب in)",
+    "examples": []
+  },
+  {
+    "word": "لفق",
+    "displayWord": "لفق",
+    "translation": "II to invent, fabricate ( ھ s.th.); to concoct, contrive, devise, think out ( ھ s.th.); to falsify ( ھ s.th.); to trump up ( ھ s.th.); to patch up, piece together ( الى a s.th. with)",
+    "examples": []
+  },
+  {
+    "word": "لفلف",
+    "displayWord": "لفلف",
+    "translation": "laflafa to wrap up, envelop, cover (a s.th.) II talaflafa to wrap o.s. up ( في، ب in)",
+    "examples": []
+  },
+  {
+    "word": "لفو",
+    "displayWord": "لفو",
+    "translation": "IV to find ( ھ، ه s.o., s.th.) VI to put right, to right, repair, correct ( ھ s.th.); to make good ( ھ a deficiency), eliminate, remove (",
+    "examples": []
+  },
+  {
+    "word": "لقب",
+    "displayWord": "لقب",
+    "translation": "II to call, surname ( ب ه s.o. by an agnomen or title) V to be surnamed ( ب by an agnomen or title)",
+    "examples": []
+  },
+  {
+    "word": "لقب",
+    "displayWord": "لقب",
+    "translation": "laqab pl. القاب alqāb agnomen; nickname; title, honorific; last name, surname, family name (as opposed to اسم given name, first name) │ لقب البطولة title of champion (in sports)",
+    "examples": []
+  },
+  {
+    "word": "لقح",
+    "displayWord": "لقح",
+    "translation": "laqaḥa a (laqḥ) and II to impregnate, fecundate, pollinate ( ھ s.th.); to graft, bud ھ) a tree); to inoculate, vaccinate ( ه s.o.) VI to cross-pollinate",
+    "examples": []
+  },
+  {
+    "word": "لقح",
+    "displayWord": "لقح",
+    "translation": "laqḥ impregnation, fecundation, pollination",
+    "examples": []
+  },
+  {
+    "word": "لقاح",
+    "displayWord": "لقاح",
+    "translation": "laqāḥ seed, semen, sperm; pollen; infective agent, virus; vaccine │ لقاح الجدري l. al-judarī variolovaccine; O لقاح الوقاية serum",
+    "examples": []
+  },
+  {
+    "word": "لقس",
+    "displayWord": "لقس",
+    "translation": "laqis: لقس النفس l. an-nafs annoyed, cross",
+    "examples": []
+  },
+  {
+    "word": "لقط",
+    "displayWord": "لقط",
+    "translation": "laqaṭa u (laqṭ) to gather, collect, pick up from the ground, glean ( ھ s.th.) II = I V to gather, glean ( ھ s.th.); to pick up ھ) s.th., also, e.g., with the ear) VIII = I; to receive ( ھ radio waves, a radio message; to take ( ھ a picture; phot.) │",
+    "examples": []
+  },
+  {
+    "word": "لقط",
+    "displayWord": "لقط",
+    "translation": "laqaṭ that which ill picked up or gathered, leftovers, gleanings",
+    "examples": []
+  },
+  {
+    "word": "لقطة",
+    "displayWord": "لقطة",
+    "translation": "luqṭa that which ill picked up or gleaned, gleanings; article or thing found; (lucky) find; (eg.) bargain, pickup",
+    "examples": []
+  },
+  {
+    "word": "لقاط",
+    "displayWord": "لقاط",
+    "translation": "luqāṭ and لقاطة luqāṭa that which is picked up or gleaned; leftover ears of grain, gleanings; offal, refuse",
+    "examples": []
+  },
+  {
+    "word": "لقيط",
+    "displayWord": "لقيط",
+    "translation": "laqīṭ pl. لقطاء luqatā’2 picked up, found; foundling",
+    "examples": []
+  },
+  {
+    "word": "لقيطة",
+    "displayWord": "لقيطة",
+    "translation": "laqīṭa (female) foundling",
+    "examples": []
+  },
+  {
+    "word": "لاقط",
+    "displayWord": "لاقط",
+    "translation": "lāqiṭ receiving (radio set); gleaner; gatherer │ O لاقط الصوت l. aṣ-ṣaut pickup (of a phonograph); phonograph; O لاقطة",
+    "examples": []
+  },
+  {
+    "word": "لقع",
+    "displayWord": "لقع",
+    "translation": "laqa‘a a (laq‘) to throwaway, discard ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "لقف",
+    "displayWord": "لقف",
+    "translation": "laqifa a (laqf, لقفان laqatan) to seize quickly, grab, snatch ( ھ s.th.); to catch ( ھ s.th.); to snatch up, take over ( عن ھ s.th. from s.o.) V and VIII do.; to seize ( ھ on), rob, usurp ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "لقلق",
+    "displayWord": "لقلق",
+    "translation": "laqlaqa to clatter (stork); to babble, chatter, prattle",
+    "examples": []
+  },
+  {
+    "word": "لقلق",
+    "displayWord": "لقلق",
+    "translation": "laqlaq and لقلاق laqlāq pl. لقالق laqāliq2 stork",
+    "examples": []
+  },
+  {
+    "word": "لقلقة",
+    "displayWord": "لقلقة",
+    "translation": "laqlaqa clatter (of a stork); babble, chatter, prattle; (eg.) gossip",
+    "examples": []
+  },
+  {
+    "word": "لقم",
+    "displayWord": "لقم",
+    "translation": "1 laqama u (laqm) to clog up, obstruct, block ھ) s.th.); -- laqima a (/aqrn) to eat, devour. gobble, swallow up ( ھ s.th.) II to feed bit by bit ( ه s.o.); to load ( ھ a weapon; syr.) │ لقم القھوة (qahwa) to stir ground coffee into hot water IV to make ( ه s.o.) swallow; to feed bit by bit ( ه s.o.) VIII to devour, swallow up ( ھ s.th.) لقمة luqma pl. لقم luqam bite; bit, mouthful; little piece, morsel │ لقمة سائغة titbit, choice morsel: جعله لقمة سائغة ل (ja‘alahū) to make s.o. an easy prey of ...; لقمة القاضي pastry of fine flour, fried in oil like doughnuts and sprinkled with sugar or honey",
+    "examples": []
+  },
+  {
+    "word": "لقيمة",
+    "displayWord": "لقيمة",
+    "translation": "luqaima pl. -āt snack, bit, morsel",
+    "examples": []
+  },
+  {
+    "word": "لقمي",
+    "displayWord": "لقمي",
+    "translation": "2 laqmī or لاقمي (magr.) palm wine 874",
+    "examples": []
+  },
+  {
+    "word": "لقمان",
+    "displayWord": "لقمان",
+    "translation": "3 luqmān2 Lokman, a legendary sage and author of numerous fables │ بقيت دار لقمان",
+    "examples": []
+  },
+  {
+    "word": "لقن",
+    "displayWord": "لقن",
+    "translation": "laqina a ( لقانة laqāna, لقانية laqāniya) to understand, grasp ( ھ s.th.); to gather, infer, note ( ھ s.th.) II to teach ( ھ ه s.o. s.th.), instruct ( ھ ه s.o. in); to dictate ( ھ ه to s.o. s.th.); to instill, infuse, inculcate, inspire ( ھ ه in s.o. s.th.), insinuate, suggest",
+    "examples": []
+  },
+  {
+    "word": "لقانة",
+    "displayWord": "لقانة",
+    "translation": "laqāna and لقانية laqāniya quick understanding, grasp",
+    "examples": []
+  },
+  {
+    "word": "لقوة",
+    "displayWord": "لقوة",
+    "translation": "laqwa facial paralysis",
+    "examples": []
+  },
+  {
+    "word": "لقي",
+    "displayWord": "لقي",
+    "translation": "laqiya a ( لقاء liqā’, لقيان luqyān, لقي luqy, لقية luqya, لقى luqan) to encounter (، ھ",
+    "examples": []
+  },
+  {
+    "word": "لقى",
+    "displayWord": "لقى",
+    "translation": "laqan pl. القاء alqā’ offal, discard",
+    "examples": []
+  },
+  {
+    "word": "لقية",
+    "displayWord": "لقية",
+    "translation": "luqya encounter, meeting; luqya, laqīya s.th. found, a find",
+    "examples": []
+  },
+  {
+    "word": "لقيا",
+    "displayWord": "لقيا",
+    "translation": "luqyā encounter, meeting",
+    "examples": []
+  },
+  {
+    "word": "لقاية",
+    "displayWord": "لقاية",
+    "translation": "liqāya encounter, meeting; s.th. found, a find",
+    "examples": []
   },
   {
     "word": "لقاء",
-    "displayWord": "لِقَاء",
-    "root": "لقي",
-    "translation": "meeting, encounter",
-    "examples": [
-      {
-        "ar": "كَانَ لِقَاءُ الأَصْدِقَاءِ بَعْدَ سَنَوَاتٍ طَوِيلَةٍ مُؤَثِّرًا جِدًّا.",
-        "en": "The meeting of friends after long years was very moving.",
-        "source": "Modern Story"
-      }
-    ]
+    "displayWord": "لقاء",
+    "translation": "liqā’ encounter; meeting; get together; reunion; liqā’a (prep.) in exchange for, in return for, for, on │ الى",
+    "examples": []
   },
   {
-    "word": "لوحه",
-    "displayWord": "لَوْحَة",
-    "root": "لوح",
-    "translation": "painting, board, tablet, frame",
-    "examples": [
-      {
-        "ar": "رَسَمَ الفَنَّانُ لَوْحَةً بَدِيعَةً لِلرِّيفِ فِي الرَّبِيعِ.",
-        "en": "The artist painted a wonderful painting of the countryside in spring.",
-        "source": "Art Review"
-      }
-    ]
+    "word": "لك",
+    "displayWord": "لك",
+    "translation": "1 lakka u (lakk) to hit with the fist, to cuff, buffet, pommel ( ه s.o.) VIII to be pressed together, thickly set, crammed, jammed, crowded; to crowd together, gather in a mass; to make mistakes or blunders, speak ungrammatically",
+    "examples": []
+  },
+  {
+    "word": "لك",
+    "displayWord": "لك",
+    "translation": "2 lakk pl. الكاك alkāk, لكوك lukūk lac, one hundred thousand (specif., 100,000 rupees)",
+    "examples": []
+  },
+  {
+    "word": "لك",
+    "displayWord": "لك",
+    "translation": "3 lukk, lakk resin; lao; sealing wax",
+    "examples": []
+  },
+  {
+    "word": "لكأ",
+    "displayWord": "لكأ",
+    "translation": "laka’a a ( لكء lak’) to strike, hit; -- لكئ laki’a a ( لكأ laka’) to abide, remain, stay ( ب at a place) V to be tardy, dilatory, slow, to dawdle, tarry, hesitate ( في in s.th.); to loiter, loaf, hang about │ تلكأ في الأداء (adā’) to be in default, fail to meet one’s financial obligations",
+    "examples": []
+  },
+  {
+    "word": "لكأة",
+    "displayWord": "لكأة",
+    "translation": "luka’a hesitant, tardy, dilatory, sluggish, slow; behindhand, in arrears, defaulting 876",
+    "examples": []
+  },
+  {
+    "word": "لكز",
+    "displayWord": "لكز",
+    "translation": "lakaza u (lakz) to strike with the fist; to kick ( ه s.o.), to thrust ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "لكز",
+    "displayWord": "لكز",
+    "translation": "lakiz miserly, stingy",
+    "examples": []
+  },
+  {
+    "word": "لكاز",
+    "displayWord": "لكاز",
+    "translation": "likāz pin, nail; peg",
+    "examples": []
+  },
+  {
+    "word": "لكيع",
+    "displayWord": "لكيع",
+    "translation": "lakī‘ pl. لكعاء luka‘ā’ moan, base, ignominious, disgraceful, wicked, depraved; silly, foolish",
+    "examples": []
+  },
+  {
+    "word": "لكاعة",
+    "displayWord": "لكاعة",
+    "translation": "lakā‘a meanness, baseness, disgracefulness, wickedness, depravity",
+    "examples": []
+  },
+  {
+    "word": "لكم",
+    "displayWord": "لكم",
+    "translation": "lakama u (lakm) to strike with the fist, box, punch III to engage in a fiat fight, box ( ه with s.o.)",
+    "examples": []
+  },
+  {
+    "word": "لكمة",
+    "displayWord": "لكمة",
+    "translation": "lakma pl. lakamāt blow with the fist, punch",
+    "examples": []
+  },
+  {
+    "word": "لكن",
+    "displayWord": "لكن",
+    "translation": "1 lakina a (lakan, لكن lukna, لكونة lukūna,",
+    "examples": []
+  },
+  {
+    "word": "لكنونة",
+    "displayWord": "لكنونة",
+    "translation": "luknūna) to speak incorrectly, barbarously; to stammer",
+    "examples": []
+  },
+  {
+    "word": "لكنة",
+    "displayWord": "لكنة",
+    "translation": "lukna stutter, stammer; incorrect usage, ungrammatical language; incorrect pronunciation",
+    "examples": []
+  },
+  {
+    "word": "لكانة",
+    "displayWord": "لكانة",
+    "translation": "lakāna: لكانة في الكلام (kalām) speech defect, faltering way of speaking",
+    "examples": []
+  },
+  {
+    "word": "لكن",
+    "displayWord": "لكن",
+    "translation": "2 lakan pl. الكان alkān basin, copper basin",
+    "examples": []
+  },
+  {
+    "word": "لكن",
+    "displayWord": "لكن",
+    "translation": "3 lākin, lakinna see لاكن",
+    "examples": []
+  },
+  {
+    "word": "لكي",
+    "displayWord": "لكي",
+    "translation": "li-kai, لكيما li-kai-mā see ل li",
+    "examples": []
+  },
+  {
+    "word": "لم",
+    "displayWord": "لم",
+    "translation": "2 lam (particle, with foll. apoc.) not │ لم يكتب lam yaktub he did not write; الم a-lam not ... though? الم اقل لكم (aqul) haven’t I told you, though? لم -- الا lam -- illā only, nothing but, just, not till, not before",
+    "examples": []
+  },
+  {
+    "word": "لم",
+    "displayWord": "لم",
+    "translation": "2 lima = لما li-mā, see ل li",
+    "examples": []
+  },
+  {
+    "word": "لم",
+    "displayWord": "لم",
+    "translation": "3 lamma u (lamm) to gather, collect, assemble ( ھ s.th.); to reunite ( ھ s.th.); to arrange, settle, put in order ( ھ s.th.); to repair ( ھ s.th.), pass. lumma to suffer from or be stricken by a slight mental derangement │ لم شعثه (ša‘atahū) to put s.th. in order again, straighten s.th. out, put s.th. right; to recover, pick up; to help s.o. get back on his feet, لم شمل القطيع (šamla l-q.) to round up the herd IV to befall, overcome (fatigue, fear, weakness, adversities, etc.; s.o.); to pay ( ب s.o.) a short visit, call ( on s.o.), stop, stay ( ب at s.o.’s house); to have sexual intercourse (",
+    "examples": []
+  },
+  {
+    "word": "لمة",
+    "displayWord": "لمة",
+    "translation": "lamma pl. لمام limām collection; gathering, assembly; visit, call; misfortune, calamity, slight mental derangement, touch of insanity",
+    "examples": []
+  },
+  {
+    "word": "لمة",
+    "displayWord": "لمة",
+    "translation": "limma pl. لمم limam curl, ringlet, lock",
+    "examples": []
+  },
+  {
+    "word": "لمة",
+    "displayWord": "لمة",
+    "translation": "lumma traveling party; group, troop, body (of people)",
+    "examples": []
+  },
+  {
+    "word": "لمم",
+    "displayWord": "لمم",
+    "translation": "lamam slight mental derangement",
+    "examples": []
+  },
+  {
+    "word": "لماما",
+    "displayWord": "لماما",
+    "translation": "limāman occasionally, from time to time, rarely, seldom",
+    "examples": []
+  },
+  {
+    "word": "لمام",
+    "displayWord": "لمام",
+    "translation": "lammām wild thyme (bot.)",
+    "examples": []
+  },
+  {
+    "word": "لامة",
+    "displayWord": "لامة",
+    "translation": "lāmma evil eye 877",
+    "examples": []
+  },
+  {
+    "word": "لما",
+    "displayWord": "لما",
+    "translation": "1 li-mā see ل li",
+    "examples": []
+  },
+  {
+    "word": "لما",
+    "displayWord": "لما",
+    "translation": "2 lammd (conj.) when, as, after; since, whereas; (particle; with foll. apoc.) not, not yet",
+    "examples": []
+  },
+  {
+    "word": "لمباجو",
+    "displayWord": "لمباجو",
+    "translation": "(Engl.) lambāgō lumbago",
+    "examples": []
+  },
+  {
+    "word": "لمبة",
+    "displayWord": "لمبة",
+    "translation": "lamba pl. -āt lamp; tube (radio)",
+    "examples": []
+  },
+  {
+    "word": "لمج",
+    "displayWord": "لمج",
+    "translation": "V to take a snack",
+    "examples": []
+  },
+  {
+    "word": "لمجة",
+    "displayWord": "لمجة",
+    "translation": "lumja appetizer, hors d’oeuvre, relish, snack",
+    "examples": []
+  },
+  {
+    "word": "لمح",
+    "displayWord": "لمح",
+    "translation": "lamaḥa a (lamḥ) to glance ( الى or ه at s.o.); to see, sight, behold, notice ( ه s.o., ھ s.th.); to become aware ( ان that); -- (lamḥ, لمحان lamaḥān, تلماح talmāḥ) to flash, sparkle, glisten, shimmer II to insinuate, intimate, give to understand ( الى s.th.), hint ( الى at), allude, refer ( الى to) III to cast a casual or furtive glance ( ه at s.o.) IV to glance casually or furtively ( الى or ه at s.o.)",
+    "examples": []
+  },
+  {
+    "word": "لمح",
+    "displayWord": "لمح",
+    "translation": "lamḥ quick look, glance; moment, instant │ لمح البصر l. al-baṣar glance of the eye; ، في لمح البصر، كلمح البصر، دون لمح البصر",
+    "examples": []
+  },
+  {
+    "word": "لمحة",
+    "displayWord": "لمحة",
+    "translation": "lamḥa pl. lamaḥāt quick, casual look, glance; wink; glow of light, light, brightness, flash (of lightning) │ فيه لمحة",
+    "examples": []
+  },
+  {
+    "word": "لماح",
+    "displayWord": "لماح",
+    "translation": "lammāḥ shimmering, gleaming, shining",
+    "examples": []
+  },
+  {
+    "word": "لمز",
+    "displayWord": "لمز",
+    "translation": "lamaza u i (lamz) to give ( ه s.o.) a wink; to speak ill ( ه of s.o.), carp ( ه at s.o.), find fault ( ه with s.o.), criticize, blame, censure, backbite, slander, defame ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "لمزة",
+    "displayWord": "لمزة",
+    "translation": "lumaza and لماز lammāz faultfinder, captious critic, caviler, carper",
+    "examples": []
+  },
+  {
+    "word": "لمس",
+    "displayWord": "لمس",
+    "translation": "1 lamasa u i (lams) to touch, handle, feel with the hand, finger ( ھ s.th.), pass one’s hand ( ھ over s.th.); to seek ( ھ s.th.), look, search, ask ( ھ for); to perceive, notice ( ھ s.th., الى that), become aware ( ھ of s.th., ان that) │ لا يلمس (yulmasu) intangible, impalpable; لمس الحقائق to take thing, as they are, face the facts III to be in touch or contact ( ھ، ه with s.o., with s.th.); to touch, feel, finger, palpate ( ھ، ه s.o., s.th.); to have sexual intercourse ( ھا with a woman) V to feel out, finger, palpate ( ھ s.th.); to fumble, grope about; to grope, fumble ( ھ for s.th.); to look, search ( ھ for); to ask ( ھ for) VI to touch each other, be in mutual contact VIII to request ( ھ من s.th. from s.o., ل for s.o.), ask ( من ھ for s.th. s.o.), solicit ( ل ه s.th. for); to beg ( ھfor), request urgently ( ھ s.th.); to seek ( ھ s.th.), look, search ( ه، ھ for s.th., for s.o.)",
+    "examples": []
+  },
+  {
+    "word": "لمس",
+    "displayWord": "لمس",
+    "translation": "lams feeling, groping; touching, touch │ حاسة اللمس ḥāssat al-l. sense of touch",
+    "examples": []
+  },
+  {
+    "word": "لمسى",
+    "displayWord": "لمسى",
+    "translation": "lamsī tactual, tactile, of or pertaining to the sense of touch",
+    "examples": []
+  },
+  {
+    "word": "لمسية",
+    "displayWord": "لمسية",
+    "translation": "lamsīya (tun.) date which has not attained full ripeness",
+    "examples": []
+  },
+  {
+    "word": "لمسة",
+    "displayWord": "لمسة",
+    "translation": "lamsa (n. vic.) touch; (pl. -āt) retouch 878",
+    "examples": []
+  },
+  {
+    "word": "لميس",
+    "displayWord": "لميس",
+    "translation": "lamīs soft to the touch",
+    "examples": []
+  },
+  {
+    "word": "لمص",
+    "displayWord": "لمص",
+    "translation": "lamaṣ u (lamṣ) to rail ( ه at s.o.); to make faces ( ه at s.o.)",
+    "examples": []
+  },
+  {
+    "word": "لمظ",
+    "displayWord": "لمظ",
+    "translation": "lamaẓa u (lamẓ) to lick one’s lips; to smack one’s lips V do. │ تلمظ بذكره (bidikrihī) to speak ill of s.o., backbite s.o.",
+    "examples": []
+  },
+  {
+    "word": "لمع",
+    "displayWord": "لمع",
+    "translation": "lama‘a (lam‘, لمعان lama‘ān) to gleam, glitter, twinkle, flash, sparkle, glisten, shimmer, shine │ لمع بسيفه (bi-saifihī) to brandish the sword; لمع بيده (bi-yadihī) to wave one’s hand; لمع في رأسه خاطر (kāṭirun) a thought flashed through his mind II to cause ( ھ s.th.) to shine, gleam, or twinkle; to shine ( ھ s.th.), give brightness ( ھ to s.th.); to polish ( ھ s.th.); to burnish ( ھ s.th.) IV to wave (one’s hand); to point out, give to understand, intimate, insinuate ( الى s.th.), hint ( الى at), allude ( الى to) VIII to flash, radiate, glow, shine; to sparkle, glitter, gleam",
+    "examples": []
+  },
+  {
+    "word": "لمع",
+    "displayWord": "لمع",
+    "translation": "lam‘ and لمعان lama‘ān luster, sheen, shine; shimmer, gleam, glow, brightness, light",
+    "examples": []
+  },
+  {
+    "word": "لمعة",
+    "displayWord": "لمعة",
+    "translation": "lum‘a pl. لمع luma‘, لماع limā‘ shimmer, gleam, glow, flash, sparkle, glitter, brilliancy, radiance, beam; gloss, luster, burnish, polish; some, a little",
+    "examples": []
+  },
+  {
+    "word": "لماع",
+    "displayWord": "لماع",
+    "translation": "lammā‘ bright, brilliant, lustrous, sparkling, flashing, glistening, shining, radiant; O glossy, glazed, burnished, polished, satined, calendered (tech.) │ جلد",
+    "examples": []
+  },
+  {
+    "word": "لماع",
+    "displayWord": "لماع",
+    "translation": "(jild) patent leather",
+    "examples": []
+  },
+  {
+    "word": "لامع",
+    "displayWord": "لامع",
+    "translation": "lāmi‘ pl. لوامع lawāmi‘2 brilliant, lustrous, shining, gleaming, shimmering",
+    "examples": []
+  },
+  {
+    "word": "لامعة",
+    "displayWord": "لامعة",
+    "translation": "lāmi‘a fontanel (anat.); (pl. لوامع lawāmi‘2) gloss, shine",
+    "examples": []
+  },
+  {
+    "word": "لملم",
+    "displayWord": "لملم",
+    "translation": "lamlama to gather, gather up ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "لن",
+    "displayWord": "لن",
+    "translation": "lan (conj.; with foll. subj.) not (referring to the future)",
+    "examples": []
+  },
+  {
+    "word": "لندرة",
+    "displayWord": "لندرة",
+    "translation": "landra London",
+    "examples": []
+  },
+  {
+    "word": "لندن",
+    "displayWord": "لندن",
+    "translation": "landan London",
+    "examples": []
+  },
+  {
+    "word": "لنش",
+    "displayWord": "لنش",
+    "translation": "(Engl.) lanš pl. -āt launch, small steamer, motorboat",
+    "examples": []
+  },
+  {
+    "word": "لنينغراد",
+    "displayWord": "لنينغراد",
+    "translation": "leningrād Leningrad",
+    "examples": []
+  },
+  {
+    "word": "لھب",
+    "displayWord": "لھب",
+    "translation": "lahiba a (lahb, lahab, لھاب luhāb,",
+    "examples": []
+  },
+  {
+    "word": "لھيب",
+    "displayWord": "لھيب",
+    "translation": "lahīb, لھبان lahabān) to flame, burn, blaze II and IV to kindle, light, set on fire, ignite, inflame ( ھ s.th.); to excite, stir 879 up, provoke ( ھ s.th.) V to flame; to be aflame, be ablaze, burn (also fig.: cheek, anger, thirst, etc.) VIII = V; to catch fire, flare up; to be inflamed (also med.)",
+    "examples": []
+  },
+  {
+    "word": "لھب",
+    "displayWord": "لھب",
+    "translation": "lahab, lahīb and لھاب luhāb flame, blaze, flare",
+    "examples": []
+  },
+  {
+    "word": "لھبان",
+    "displayWord": "لھبان",
+    "translation": "lahbān, f. لھبى lahbā, pl. لھاب lihāb parched with thirst",
+    "examples": []
+  },
+  {
+    "word": "لاھوت",
+    "displayWord": "لاھوت",
+    "translation": "look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "لھث",
+    "displayWord": "لھث",
+    "translation": "lahata a (laht, لھاث luhāt) to loll one’s tongue with thirst or fatigue; to pant, gasp, be out of breath; to breathe heavily",
+    "examples": []
+  },
+  {
+    "word": "لھاث",
+    "displayWord": "لھاث",
+    "translation": "luhāt panting, pant, gasp │ لھاث",
+    "examples": []
+  },
+  {
+    "word": "لھثان",
+    "displayWord": "لھثان",
+    "translation": "lahtān f. لھثى lahtā panting, gasping, out of breath; thirsty",
+    "examples": []
+  },
+  {
+    "word": "لھج",
+    "displayWord": "لھج",
+    "translation": "lahija a (lahaj) to be devoted, dedicated ( ب to s.th.), be attached ( ب to s.o., to s.th.), be very fond ( ب of), be in love ( ب with); to be bent. be intent, be keen ( ب on), be eager ( ب for), be mad ( ب about, after); to do ( ب s.th.) constantly or fervently│ لھج",
+    "examples": []
+  },
+  {
+    "word": "لھجة",
+    "displayWord": "لھجة",
+    "translation": "lahja tip of the tongue; tongue; manner of speaking; tone; dialect, vernacular; language │ بلھجة العاتب in a reproachful tone, reproachingly; شديد اللھجة in violent language, sharply worded",
+    "examples": []
+  },
+  {
+    "word": "لھج",
+    "displayWord": "لھج",
+    "translation": "luhja appetizer, hors d’oeuvre",
+    "examples": []
+  },
+  {
+    "word": "لھد",
+    "displayWord": "لھد",
+    "translation": "lahada a (lahd) to overburden, over-exert ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "لھذم",
+    "displayWord": "لھذم",
+    "translation": "lahdam sharp, pointed",
+    "examples": []
+  },
+  {
+    "word": "لھط",
+    "displayWord": "لھط",
+    "translation": "lahaṭa a (lahṯ) to slap",
+    "examples": []
+  },
+  {
+    "word": "لھف",
+    "displayWord": "لھف",
+    "translation": "lahafa a (lahaf) to sigh ( على for s.th. lost); to regret, deplore, lament ( على s.th.); to grieve ( على for), fret, worry ( على shout) V do.; to be eager, yearn ( على for, also ,(ل pant ( على after, also (ل",
+    "examples": []
+  },
+  {
+    "word": "لھف",
+    "displayWord": "لھف",
+    "translation": "lahf regret, grief, sorrow │ يا لھف yā lahfa and يا لھفا yā lahfā oh, what a pity! too bad! alas! يا لھف (with foll. genit. of pers.) oh, how unfortunate he is! يا لھفي",
+    "examples": []
+  },
+  {
+    "word": "لھفة",
+    "displayWord": "لھفة",
+    "translation": "lahfa sigh, lament; anxiety, apprehension, concern, worry, sorrow, grief; yearning, longing, hankering, desire, impatience",
+    "examples": []
+  },
+  {
+    "word": "لھفان",
+    "displayWord": "لھفان",
+    "translation": "lahfān2 f. لھفى lahfā, pl. لھافى lahāfā, لھف luhuf sighing; regretful; sad, sorry, worried, sorrowful, grieved; longing, yearning",
+    "examples": []
+  },
+  {
+    "word": "لھيف",
+    "displayWord": "لھيف",
+    "translation": "lahīf pl. لھاف lihāf regretful, sorry, sad, worried, sorrowful, grieved",
+    "examples": []
+  },
+  {
+    "word": "لاھف",
+    "displayWord": "لاھف",
+    "translation": "lāhif worried, troubled, sorrowful, grieved, full of regret",
+    "examples": []
+  },
+  {
+    "word": "لھق",
+    "displayWord": "لھق",
+    "translation": "lahiqa a to be snow-white",
+    "examples": []
+  },
+  {
+    "word": "لھلق",
+    "displayWord": "لھلق",
+    "translation": "lahlaqa to loll one’s tongue with thirst",
+    "examples": []
+  },
+  {
+    "word": "لھم",
+    "displayWord": "لھم",
+    "translation": "lahima a (lahm, laham), V and VIII to devour, gobble, swallow up ( ه s.th.); to consume, destroy ( ه s.th.; fire) IV to make ه) s.o,) swallow ( ه s.th.); to inspire ( ه ھ s.o, with) X to ask ( ه s.o.) for inspiration or advice; to seek to find out ( ھ s.th.), try to get ( ھ s.th.); to pray, turn ( ه ھ to God for)",
+    "examples": []
+  },
+  {
+    "word": "لھم",
+    "displayWord": "لھم",
+    "translation": "lahim and لھوم lahūm greedy, covetous, voracious, gluttonous",
+    "examples": []
+  },
+  {
+    "word": "لھا",
+    "displayWord": "لھا",
+    "translation": "lahan) to like, love ( ب s.th.), be very fond ( ب of), be in love, be infatuated ( ب with), be mad ( ب about, after); to turn one’s attention ( عن from), become oblivious ( عن of), forget, give up, renounce ( عن s.th,); to pay no attention (",
+    "examples": []
+  },
+  {
+    "word": "لھو",
+    "displayWord": "لھو",
+    "translation": "lahw amusement, entertainment, diversion, distraction, passtime, pleasure, sport, fun, play │ دور اللھو dūr al-l. and",
+    "examples": []
+  },
+  {
+    "word": "لھاة",
+    "displayWord": "لھاة",
+    "translation": "lahāh pl. لھوات lahawāt, لھيات lahayāt, لھي luhiya, lihīy, لھا lahan, لھاء lahā’ uvula",
+    "examples": []
+  },
+  {
+    "word": "لھوى",
+    "displayWord": "لھوى",
+    "translation": "lahawī velar (adj.) الحرفان اللھويتان al-ḥarfān al-lahawīyatān the velars q and k",
+    "examples": []
+  },
+  {
+    "word": "لاه",
+    "displayWord": "لاه",
+    "translation": "lāhin (with عن ) heedless, inattentive, inadvertent, oblivious, forgetful",
+    "examples": []
+  },
+  {
+    "word": "لو",
+    "displayWord": "لو",
+    "translation": "lau (conj.) if (as a rule, introducing hypothetical conditional clauuses) │ لو ان lau anna (introducing nominal clauses) if;",
+    "examples": []
+  },
+  {
+    "word": "لولا",
+    "displayWord": "لولا",
+    "translation": "laulā if not; لولانا if it weren’t (hadn’t been) for us; فيما لو fī-mā lau in case that;",
+    "examples": []
+  },
+  {
+    "word": "لوبيا",
+    "displayWord": "لوبيا",
+    "translation": "lūbiyā bean (bot.) │ لوبيا بلدي (baladī) (eg.) cowpea (Vigna Binenais Endl.; bot.); لوبيا",
+    "examples": []
+  },
+  {
+    "word": "لوبيا",
+    "displayWord": "لوبيا",
+    "translation": "lūbyā Libya",
+    "examples": []
+  },
+  {
+    "word": "لوبي",
+    "displayWord": "لوبي",
+    "translation": "lūbī Libyan",
+    "examples": []
+  },
+  {
+    "word": "لات",
+    "displayWord": "لات",
+    "translation": "(لوت 1 ) (lāta: لات حين مناص l. hīnu manāṣin it’s too late to escape",
+    "examples": []
+  },
+  {
+    "word": "لوت",
+    "displayWord": "لوت",
+    "translation": "2 lūt (eg.) maigre (Sciaena aquila)",
+    "examples": []
+  },
+  {
+    "word": "لاث",
+    "displayWord": "لاث",
+    "translation": "(لوث ) lāta u (laut) and II to stain, tarnish, soil, sully ( ھ s.th.); -- lawita a (lawat) to be dilatory, tardy, slow; to hesitate, tarry, linger V to be or get stained, blotted, tarnished, soiled, sullied ( ب with) VIII to be dilatory, tardy, slow; to be obscure, confused, complicated ( على for s.o.)",
+    "examples": []
+  },
+  {
+    "word": "لوثة",
+    "displayWord": "لوثة",
+    "translation": "lauta stain, blot, spot",
+    "examples": []
+  },
+  {
+    "word": "لوثة",
+    "displayWord": "لوثة",
+    "translation": "lūta languor, lassitude, fatigue, faintness; passion, weakness ( في for, also with foll. genit.: for) │ فيه (به) لوثة he is a little crazy, he has a bee in his bonnet",
+    "examples": []
+  },
+  {
+    "word": "لوج",
+    "displayWord": "لوج",
+    "translation": "(Fr. loge) lōj pl. -āt, الواج alwāj (theater) box, loge; (masonic, etc.) lodge",
+    "examples": []
+  },
+  {
+    "word": "لاح",
+    "displayWord": "لاح",
+    "translation": "(لوح ) lāḥa u (lauḥ) to appear, show, loom, emerge, come in sight; to become visible (",
+    "examples": []
+  },
+  {
+    "word": "ل",
+    "displayWord": "ل",
+    "translation": "to s.o.); to break, begin to show (dawn); to shine, gleam, glint, flash, shimmer, glimmer, sparkle; to seem, appear; to wither, singe, parch, scorch; to tan ( ه s.o.; sun) │ يلوح لي ان it seems to me that ...; على",
+    "examples": []
+  },
+  {
+    "word": "لوح",
+    "displayWord": "لوح",
+    "translation": "lauḥ pl. الواح alwāḥ, alwāḥ board, blackboard; slate; tablet; slab; plate, sheet; pane; plank, board; panel; small board, signboard; shoulder blade, scapula │ لوح",
+    "examples": []
+  },
+  {
+    "word": "لوح النافذة",
+    "displayWord": "لوح النافذة",
+    "translation": "windowpane",
+    "examples": []
+  },
+  {
+    "word": "لوحة",
+    "displayWord": "لوحة",
+    "translation": "lauḥa pl. -āt, الواح alwāḥ board; blackboard; slate; tablet; slab; plate, sheet; pane; panel; plaque; plane, surface; screen; placard, poster; picture, painting │",
+    "examples": []
+  },
+  {
+    "word": "لوحة الاسم",
+    "displayWord": "لوحة الاسم",
+    "translation": "l. al-ism doorplate, name plate;",
+    "examples": []
+  },
+  {
+    "word": "لوحة التوزيع",
+    "displayWord": "لوحة التوزيع",
+    "translation": "switchboard (el., tel.); لوحة الداما checkerboard; لوحة زيتية (zaitīya) oil painting; لوحة سوداء (saudā’) blackboard; bulletin board; لوحة الشطرنج l. aš-šaṭranj chessboard; لوحة الكتابة slate; writing tablet; blackboard",
+    "examples": []
+  },
+  {
+    "word": "لواح",
+    "displayWord": "لواح",
+    "translation": "lawwāḥ withering, singeing, parching, scorching",
+    "examples": []
+  },
+  {
+    "word": "لوح",
+    "displayWord": "لوح",
+    "translation": "talwīḥ pl. -āt beckoning, waving, flourishing, brandishing; sign, signal, wink, wave; allusion; hint, intimation, insinuation; metonymy; pl. hints, references; remarks, annotations, marginal notes",
+    "examples": []
+  },
+  {
+    "word": "لائحة",
+    "displayWord": "لائحة",
+    "translation": "lā’iḥa pl. -āt لوائح lawā’iḥ2 program, project; bill, motion (esp., in parliament); order, decree, edict; ordinance; regulation, rule; pl. لوائح outward appearance, looks, outward sign│ لائحة قانونية، لائحة القانون 882 bill, draft law; لائحة السفر l. as-safar timetable, train schedule, railroad guide; لائحة الطعام l. aṯ- ṯa‘ām (syr.) menu, bill of fare",
+    "examples": []
+  },
+  {
+    "word": "لائذ",
+    "displayWord": "لائذ",
+    "translation": "lā’id one seeking shelter or protection, refugee",
+    "examples": []
+  },
+  {
+    "word": "لوذع",
+    "displayWord": "لوذع",
+    "translation": "and لوذعي see لذع",
+    "examples": []
+  },
+  {
+    "word": "لور",
+    "displayWord": "لور",
+    "translation": "lūr lyre",
+    "examples": []
+  },
+  {
+    "word": "لورد",
+    "displayWord": "لورد",
+    "translation": "(Engl.) lord pl. -āt lord",
+    "examples": []
+  },
+  {
+    "word": "لورى",
+    "displayWord": "لورى",
+    "translation": "(Engl.) lorry, truck",
+    "examples": []
+  },
+  {
+    "word": "لوز",
+    "displayWord": "لوز",
+    "translation": "II to stuff with almonds ( ھ s.th.); (eg.) to form bolls (cotton)",
+    "examples": []
+  },
+  {
+    "word": "لوز",
+    "displayWord": "لوز",
+    "translation": "lauz almond(s) (coll.), (eg.) patch (on a shoe) │ لوز القطن l. al-quṭn cotton bolls; دودة اللوز dūdat al-l. boll weevil",
+    "examples": []
+  },
+  {
+    "word": "لوزة",
+    "displayWord": "لوزة",
+    "translation": "lauza pl. -āt almond; اللوزتان the tonsils (anat.) │ التھاب اللوزتين ilt. allauzatain tonsillitis",
+    "examples": []
+  },
+  {
+    "word": "لوزى",
+    "displayWord": "لوزى",
+    "translation": "lauzī almond-shaped, almond (adj.)",
+    "examples": []
+  },
+  {
+    "word": "لاس",
+    "displayWord": "لاس",
+    "translation": "(لوس ) lāsa u (laus) to taste",
+    "examples": []
+  },
+  {
+    "word": "لات",
+    "displayWord": "لات",
+    "translation": "(لوص ) lāṣa u (lauṣ) to peep, peer, pry (through a chink in the door, or the like) III do. ( ه for s.o.); to stare, gaze ( ھ or الى at s.th.), to look firmly, unflinchingly ( ھ or",
+    "examples": []
+  },
+  {
+    "word": "لاط",
+    "displayWord": "لاط",
+    "translation": "(لوط ) lāṯa u (lauṯ) to stick, cling, adhere ( to); to coat with clay, to plaster ( a wall)",
+    "examples": []
+  },
+  {
+    "word": "لوط",
+    "displayWord": "لوط",
+    "translation": "lūṯ Lot (Biblical name)",
+    "examples": []
+  },
+  {
+    "word": "لوط",
+    "displayWord": "لوط",
+    "translation": "lūṭī sodomite, pederast",
+    "examples": []
+  },
+  {
+    "word": "لواط",
+    "displayWord": "لواط",
+    "translation": "liwāṭ and لواطة liwāṭa sodomy, pederasty",
+    "examples": []
+  },
+  {
+    "word": "لاع",
+    "displayWord": "لاع",
+    "translation": "(لوع ) lā‘a u (lau‘) to he or heoome restive, impatient; to become ill j to seize vehemently, overwhelm, torment, make sick ( ه s.o.; love); to tan ( ه s.o.; sun) II to torture, torment, agonize VIII to be burning, inflamed, languishing (with love, longing); to feel burning anxiety ( على for s.o.)",
+    "examples": []
+  },
+  {
+    "word": "لوعة",
+    "displayWord": "لوعة",
+    "translation": "lau‘a ardor of love, amorous rapture, lovesickness; pain, grief, anguish, anxiety, torment, torture, agony",
+    "examples": []
+  },
+  {
+    "word": "لوغاريتمات",
+    "displayWord": "لوغاريتمات",
+    "translation": "lūgāritmāt logarithms",
+    "examples": []
+  },
+  {
+    "word": "لاف",
+    "displayWord": "لاف",
+    "translation": "( لوف 1 ) lāfa u (lauf) to eat, chew ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "لوف",
+    "displayWord": "لوف",
+    "translation": "2 lūf luffa, dishcloth gourd (Luffa cylindrical Roem; bot.)",
+    "examples": []
+  },
+  {
+    "word": "لاك",
+    "displayWord": "لاك",
+    "translation": "(لوك 1 ) lāka u (lauk) to chew ( ھ s.th.); to talk constantly about s.th. ( ھ ), to bring into discredit ( سمعته sum‘atahū s.o.’s reputation) │ لاك الكلام (kalām) to be inhibited in one’s speech, stammer, express o.s. imperfectly, السؤال الذي تلوكه",
+    "examples": []
+  },
+  {
+    "word": "لائكي",
+    "displayWord": "لائكي",
+    "translation": "2 and لائكية look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "لوكانده",
+    "displayWord": "لوكانده",
+    "translation": "(It. locanda) and لوكنده lōkanda pl. -āt inn; hotel",
+    "examples": []
+  },
+  {
+    "word": "لولب",
+    "displayWord": "لولب",
+    "translation": "laulab pl. لوالب lawālib2 screw; spiral; spiral spring, coil spring, extension spring; spring; axle; (fig.) mainspring, pivot point",
+    "examples": []
+  },
+  {
+    "word": "لولبي",
+    "displayWord": "لولبي",
+    "translation": "laulabī screw-shaped; spiral, helical │ O لولبيات زھرية (zuharīya) spiroohetes, syphilogenous bacteria; درج",
+    "examples": []
+  },
+  {
+    "word": "لولبي",
+    "displayWord": "لولبي",
+    "translation": "(daraj) spiral staircase",
+    "examples": []
+  },
+  {
+    "word": "لام",
+    "displayWord": "لام",
+    "translation": "(لمس 1 ) lāma u (laum, ملام malām, ملامة malāma) to blame, censure, rebuke, chide, scold, reproach ( في or على ه s.o. for) II to censure sharply, reprove, reprimand ( ه s.o.) IV = I; V to blame o.s. ; to tarry, linger, take one'. time ( في or على in or with s.th.), procrastinate, temporize, hedge VI to blame each other VIII to be censured, he blamed X to deserve blame, be blameworthy, reprehensible",
+    "examples": []
+  },
+  {
+    "word": "لوم",
+    "displayWord": "لوم",
+    "translation": "laum and لومة lauma censure, rebuke, reproof, blame, reproach",
+    "examples": []
+  },
+  {
+    "word": "لومة",
+    "displayWord": "لومة",
+    "translation": "luwama and لوام lawwām severe censurer, stem critic; censorious",
+    "examples": []
+  },
+  {
+    "word": "لائم",
+    "displayWord": "لائم",
+    "translation": "lā’im pl. لوم luwwam, لوام lawwām,",
+    "examples": []
+  },
+  {
+    "word": "ليم",
+    "displayWord": "ليم",
+    "translation": "luyyam censurer, critic, accuser",
+    "examples": []
+  },
+  {
+    "word": "لائمة",
+    "displayWord": "لائمة",
+    "translation": "lā’ima pl. لوائم lawā’im2 censure, rebuke, reproof, blame, reproach",
+    "examples": []
+  },
+  {
+    "word": "لومان",
+    "displayWord": "لومان",
+    "translation": "lūmān penitentiary, penal servitude",
+    "examples": []
+  },
+  {
+    "word": "لومانجي",
+    "displayWord": "لومانجي",
+    "translation": "lūmānjī convict, inmate of a penitentiary",
+    "examples": []
+  },
+  {
+    "word": "لون",
+    "displayWord": "لون",
+    "translation": "II to variegate, dapple, make colorful ( ھ s.th.); to color, tint, tinge, paint, daub ( ھ s.th.); to make up, rouge ( ھ the face, etc.) V to be colored or tinted; to color, change color, become discolored; to he colorful, variegated; to be fickle",
+    "examples": []
+  },
+  {
+    "word": "لون",
+    "displayWord": "لون",
+    "translation": "laun pl. الوان alwān color; coloring, tint, tinge, hue, shade; complexion; kind, sort, specimen, species; dish, course; pl. (with foll. genit.) all kinds of │ الوان الأطعمة a. al-aṭ‘ima all kinds of food; مختلف الألوان muktalif al-a. variegated, multicolored, motley, varied, various; جلى الوانه jallā alwānahu to bring out the different aspects of s.th., point up s.th., make s.th. stand out",
+    "examples": []
+  },
+  {
+    "word": "لوني",
+    "displayWord": "لوني",
+    "translation": "launī colorful, colored, color- (in compounds), chromatic",
+    "examples": []
+  },
+  {
+    "word": "لونجي",
+    "displayWord": "لونجي",
+    "translation": "(eg.) lawingī and لاونجي lāwingī attendant, bath attendant",
+    "examples": []
+  },
+  {
+    "word": "لونجية",
+    "displayWord": "لونجية",
+    "translation": "lawingīya housekeeper, woman attendant, servant, housemaid",
+    "examples": []
+  },
+  {
+    "word": "لوندا",
+    "displayWord": "لوندا",
+    "translation": "(It. lavanda) lawandā lavender │ ماء اللوندا lavender water",
+    "examples": []
+  },
+  {
+    "word": "لوى",
+    "displayWord": "لوى",
+    "translation": "lawā i ( لي layy, لوي lawīy) to turn ( ھ s.th.); to crook, curve ( ھ s.th.); to bend, flex, bend up, down, back or over ( ھ s.th.); to twist, contort, wrench, warp ( ھ s.th.); to distort, pervert ( ھ s.th.); to turn ( ھ the head), turn away, avert ( ھ the face); to turn around, turn ( على to s.o., to s.th.), face على) s.o., s.th.); to 884 think back ( على on), recall ( على s.th.); to care, bother ( على about), pay attention or heed ( على to) │",
+    "examples": []
+  },
+  {
+    "word": "لوى فيه اللسان",
+    "displayWord": "لوى فيه اللسان",
+    "translation": "(lisān) to speak ill of s.o., backbite s.o.; لا يلوي على شيء not to care about anything, be utterly reckless; -- ( لي layy, ليان layyān) to conceal, keep secret (",
+    "examples": []
+  },
+  {
+    "word": "لي",
+    "displayWord": "لي",
+    "translation": "layy bending, twist(ing), turn(ing) │",
+    "examples": []
+  },
+  {
+    "word": "لي الشيشة",
+    "displayWord": "لي الشيشة",
+    "translation": "(eg.) the flexible tube of the narghile; لا يعرف الحي من اللي (ya‘rifu l- ḥayya) he doesn’t know enough to come in out of the rain, he wouldn't know a snake from a garden hose",
+    "examples": []
+  },
+  {
+    "word": "لية",
+    "displayWord": "لية",
+    "translation": "Iayya pl. لوى liwan bend, fold, flexure, twist, tortuosity, sinuosity, turn, curve",
+    "examples": []
+  },
+  {
+    "word": "لوى",
+    "displayWord": "لوى",
+    "translation": "lawan pl. الواء alwā’ gripes, colic; agony, pain, hardship │ قاسى الألواء واللأواء (la’wā’) to die a thousand deaths",
+    "examples": []
+  },
+  {
+    "word": "لوى",
+    "displayWord": "لوى",
+    "translation": "liwan pl. الواء alwā’, الوية alwiya curvature",
+    "examples": []
+  },
+  {
+    "word": "لواء",
+    "displayWord": "لواء",
+    "translation": "liwā’ pl. الوية alwiya, الويات alwiyāt banner, flag, standard; brigade (mil.; U.A.R., Leb., Ir.); major general (mil.; U.A.R.); rear admiral (Eg.); province, district (Ir.; the country is subdivided into",
+    "examples": []
+  },
+  {
+    "word": "لواء جوي",
+    "displayWord": "لواء جوي",
+    "translation": "(jawwī) air-force brigade; عقد لواء",
+    "examples": []
+  },
+  {
+    "word": "لواء",
+    "displayWord": "لواء",
+    "translation": "lawwā’ wryneck (zool.)",
+    "examples": []
+  },
+  {
+    "word": "لاو",
+    "displayWord": "لاو",
+    "translation": "lāwin pl. لواة luwāh turning, twisting │ غير لاو على reckless of, without regard for",
+    "examples": []
+  },
+  {
+    "word": "لي",
+    "displayWord": "لي",
+    "translation": "1 and لية see لوى",
+    "examples": []
+  },
+  {
+    "word": "لياء",
+    "displayWord": "لياء",
+    "translation": "2 liyyā’ mackerel shark, porbeagle (zool.)",
+    "examples": []
+  },
+  {
+    "word": "ليبريا",
+    "displayWord": "ليبريا",
+    "translation": "lībaryā Liberia 885",
+    "examples": []
+  },
+  {
+    "word": "ليبيا",
+    "displayWord": "ليبيا",
+    "translation": "lībiyā Libya; ليبي lībī Libyan",
+    "examples": []
+  },
+  {
+    "word": "ليت",
+    "displayWord": "ليت",
+    "translation": "laita and يا ليت yā laita (particle, with foll. noun in acc. or personal suffix) would God! if only ...! │ ليتني مت لأجلك laitanī muttu li-ajlika would God I had died for you! ليته كان ھنا I wish he were here! if only he were here! يا ليت كان يذھب (yadhabu) I wish he had gone! ليت شعري (ši‘rī) I wish I knew ...!",
+    "examples": []
+  },
+  {
+    "word": "ليترجية",
+    "displayWord": "ليترجية",
+    "translation": "līturjīya pl. -āt liturgy",
+    "examples": []
+  },
+  {
+    "word": "ليتوانيا",
+    "displayWord": "ليتوانيا",
+    "translation": "lītuwānīya Lithuania",
+    "examples": []
+  },
+  {
+    "word": "ليتواني",
+    "displayWord": "ليتواني",
+    "translation": "lītuwānī Lithuanian",
+    "examples": []
+  },
+  {
+    "word": "ليث",
+    "displayWord": "ليث",
+    "translation": "lait pl. ليوث luyūt lion",
+    "examples": []
+  },
+  {
+    "word": "لياذ",
+    "displayWord": "لياذ",
+    "translation": "see لوذ",
+    "examples": []
+  },
+  {
+    "word": "ليرا",
+    "displayWord": "ليرا",
+    "translation": "līrā and ليرة līra pl. -āt pound (as a monetary unit) │ ليرة انكليزية (ingilīzīya) pound sterling",
+    "examples": []
+  },
+  {
+    "word": "ليس",
+    "displayWord": "ليس",
+    "translation": "1 laisa (without imperf.) not to be (with ب or acc. s.th. or s.o.); not to exist; (= intensified لا) not │ ليس الا (illā) terminating a sentence: only, and no more, and nothing else; ليس – سوى (siwā) nothing but, only, merely; ليس على شيء من الحقيقة there is not a grain of truth in it; ليس – فقط",
+    "examples": []
+  },
+  {
+    "word": "لست بفاعل",
+    "displayWord": "لست بفاعل",
+    "translation": "lastu bi-fā‘ilin I can’t do it",
+    "examples": []
+  },
+  {
+    "word": "ليس",
+    "displayWord": "ليس",
+    "translation": "2 layisa a (layas) to be valiant, brave, courageous",
+    "examples": []
+  },
+  {
+    "word": "ليسانس",
+    "displayWord": "ليسانس",
+    "translation": "(Fr. licence) līsans the academic degree of a licentiate",
+    "examples": []
+  },
+  {
+    "word": "ليف",
+    "displayWord": "ليف",
+    "translation": "II to rub with palm fibers ( ھ s.th.) V to form fibers, become fibrous",
+    "examples": []
+  },
+  {
+    "word": "ليف",
+    "displayWord": "ليف",
+    "translation": "līf (coll.; n. un. ة) pl. الياف alyāf fibers, fibrils, bast │ ليف ھندي (hindī) coco fibers, coir; اليف الكتان a. al-kattān flax fibers",
+    "examples": []
+  },
+  {
+    "word": "ليفة",
+    "displayWord": "ليفة",
+    "translation": "līfa (n. un.) fiber, fibril; tuft of palm fibers used as a brush │ ليفة الاستحمام bath",
+    "examples": []
+  },
+  {
+    "word": "ليفي",
+    "displayWord": "ليفي",
+    "translation": "līfī and ليفاني līfānī fibered, fibrous",
+    "examples": []
+  },
+  {
+    "word": "ليقة",
+    "displayWord": "ليقة",
+    "translation": "līqa pl. ليق liyaq tuft of cotton or silk threads which is inserted in an inkwell; putty; clay; mortar",
+    "examples": []
+  },
+  {
+    "word": "لياقة",
+    "displayWord": "لياقة",
+    "translation": "liyāqa propriety, seemliness, suitableness; decorum, decency; capability, skill; efficiency, competence; worthiness, merit, desert; correct behavior, blameless conduct, good manners │ مخل باللياقة (mukill improper, unseemly, unbecoming",
+    "examples": []
+  },
+  {
+    "word": "لائق",
+    "displayWord": "لائق",
+    "translation": "lā’iq suitable, appropriate, proper, befitting, becoming, seemly; suited, adapted, fit; worthy, deserving",
+    "examples": []
+  },
+  {
+    "word": "ليل",
+    "displayWord": "ليل",
+    "translation": "lail (usually m.) nighttime, night (as opposed to نھار daytime); pl. □ ليالي layālī (syr.) a certain vocal style; ليلا lailan at night │ ليل نھار laila nahāra day and night",
+    "examples": []
+  },
+  {
+    "word": "ليلة",
+    "displayWord": "ليلة",
+    "translation": "laila pl. -āt, ليال layālin, ليائل layā’il2 night (u opposed to يوم ); evening; soirée;",
+    "examples": []
+  },
+  {
+    "word": "ليلة شادية",
+    "displayWord": "ليلة شادية",
+    "translation": "(šādiya) soirée of vocal music; ليلة",
+    "examples": []
+  },
+  {
+    "word": "ليلاء",
+    "displayWord": "ليلاء",
+    "translation": "(lailā’2) dark night; في ليلة ليلاء in the dark of night, under cover of the night; ليلة",
+    "examples": []
+  },
+  {
+    "word": "ليلتئذ",
+    "displayWord": "ليلتئذ",
+    "translation": "lailata’idin (in) that night; (on) that evening",
+    "examples": []
+  },
+  {
+    "word": "ليلي",
+    "displayWord": "ليلي",
+    "translation": "lailī nocturnal, nightly; of night, night- (in compounds); evening (adj.)",
+    "examples": []
+  },
+  {
+    "word": "ليلى",
+    "displayWord": "ليلى",
+    "translation": "lailā a woman’s name │ كل يبكي يغني) على ليلاه ) kullun yabkī (yugannī) ‘alā lailāhu everyone sings his own tune, does as he pleases, follows his own fancy; كل",
+    "examples": []
+  },
+  {
+    "word": "ليلاء",
+    "displayWord": "ليلاء",
+    "translation": "see ليلة",
+    "examples": []
+  },
+  {
+    "word": "ليلك",
+    "displayWord": "ليلك",
+    "translation": "(Engl.) lailak lilac",
+    "examples": []
+  },
+  {
+    "word": "ليمان",
+    "displayWord": "ليمان",
+    "translation": "līmān pl. -āt harbor, port; penitentiary",
+    "examples": []
+  },
+  {
+    "word": "ليمون",
+    "displayWord": "ليمون",
+    "translation": "laimūn, līmūn (n. un. ة) pl. -āt lemon │",
+    "examples": []
+  },
+  {
+    "word": "ليمون حامض",
+    "displayWord": "ليمون حامض",
+    "translation": "lime; شراب الليمون šarāb al-l. lemonade",
+    "examples": []
+  },
+  {
+    "word": "لان",
+    "displayWord": "لان",
+    "translation": "(لين 1 ) lāna i (līn, ليان layān) to be or become soft, tender, gentle, mild, pliable, flexible, supple; to yield, give way; to soften, relent, calm down; to become milder, friendlier │ لا يلين inflexible, unbending;",
+    "examples": []
+  },
+  {
+    "word": "لانت قناته",
+    "displayWord": "لانت قناته",
+    "translation": "(qanātuhū) to show o.s. compliant, yield, relent, give in II and IV to soften, relax, ( ھ s.th.); to placate, soothe, allay, mitigate, assuage, temper, moderate ( ھ s.th.) ill to be gentle, kind, friendly ( ه to s.o.); to treat with kindness and leniency ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "لين",
+    "displayWord": "لين",
+    "translation": "līn softness; tenderness; tender treatment; gentleness; flexibility, pliableness, suppleness; yieldingness, compliance, tractability; pliancy, smoothness, diarrhea │ لين العظام softening of the bones, osteomalicia (med.); لين القيادة tractability, docility; حروف اللين the “soft” letters ا، و، ي",
+    "examples": []
+  },
+  {
+    "word": "لين",
+    "displayWord": "لين",
+    "translation": "layyin pl. -ūn, اليناء alyinā’2 and lain pl. -ūn soft; flabby, feeble; tender; gentle; flexible, pliable, yielding; pliant, supple, resilient, elastic, tractable │ لين العريكة l. al-‘arīka mild-mannered, gentle-hearted;",
+    "examples": []
+  },
+  {
+    "word": "لين القياد",
+    "displayWord": "لين القياد",
+    "translation": "tractable, manageable, docile, obedient; بطنه لين (baṭnuhū) he suffers from diarrhea",
+    "examples": []
+  },
+  {
+    "word": "ليونة",
+    "displayWord": "ليونة",
+    "translation": "luyūna softness; tenderness; gentleness; flexibility, pliability, suppleness │ ليونة الجانب sociability, companionableness, compliance, yieldingness, tractability",
+    "examples": []
+  },
+  {
+    "word": "ليان",
+    "displayWord": "ليان",
+    "translation": "2 see لوى ٨٨٧ م",
+    "examples": []
+  },
+  {
+    "word": "لم",
+    "displayWord": "لم",
+    "translation": "li-ma why? wherefore? حتى م ḥattā ma how far? to which point?",
+    "examples": []
+  },
+  {
+    "word": "للشفاء",
+    "displayWord": "للشفاء",
+    "translation": "(šifā’) to be on the way to recovery VIII to take as a model or an example, imitate, copy, follow ( ھ s.th.); to submit, subject o.s. ( ل to s.o., to s.th.); to obey ( ھ an order)",
+    "examples": []
+  },
+  {
+    "word": "للعيان",
+    "displayWord": "للعيان",
+    "translation": "(li-l-‘iyān) visible, conspicuous, evident, obvious; ماثل في حضرته (ḥaḍratihī) in front of s.o., in s.o.’s presence",
+    "examples": []
+  },
+  {
+    "word": "لمحض صالحھا",
+    "displayWord": "لمحض صالحھا",
+    "translation": "li-maḥḍi ṣāliḥihā solely in her own interest, only for her own good",
+    "examples": []
+  },
+  {
+    "word": "لله",
+    "displayWord": "لله",
+    "translation": "the glorification of God",
+    "examples": []
+  },
+  {
+    "word": "لا مراء في ان",
+    "displayWord": "لا مراء في ان",
+    "translation": "it is an incontrovertible fact that ..., unquestionably …",
+    "examples": []
+  },
+  {
+    "word": "لا يوافق مزاجي",
+    "displayWord": "لا يوافق مزاجي",
+    "translation": "(yuwājiqu) this is not to my taste",
+    "examples": []
+  },
+  {
+    "word": "له مساس ب",
+    "displayWord": "له مساس ب",
+    "translation": "concerning ..., regarding ...",
+    "examples": []
+  },
+  {
+    "word": "لسانه",
+    "displayWord": "لسانه",
+    "translation": "(lisānahū) to keep one’s tongue in check; امسك البطن (baṭna) to constipate (med.) V to hold on, hold fast ( ب to), clutch ( ب s.th.); to stick, cling, cleave ( ب to); to hang on ( ب to), persist ( ب in); to keep, adhere ( ب to s.th.); to rise (prices), harden, firm up (quotations) │ تمسك باھدافه (bi-ahdābihī) to be most devoted to s.o., be at s.o.’s beck and call, be under s.o.’s thumb; تمسك بأھداب الشيء to adhere, cling to s.th.; تمسك برأيه (bi-ra’yihī) to stick to one’s opinion VI to hold together, be firmly connected, be interlocked; to compose o.s., pull o.s. together; to remain undaunted, remain calm, be 908 composed; to stay on one’s feet; to be in full possession of one’s strength; to refrain, abstain, keep ( عن from) X to keep, stick, cling, adhere ( ب to); to grab, seize (",
+    "examples": []
+  },
+  {
+    "word": "لغة مضر",
+    "displayWord": "لغة مضر",
+    "translation": "lugat muḍara the language of Mudar, the Arabic language",
+    "examples": []
+  },
+  {
+    "word": "لرصد الأمطر",
+    "displayWord": "لرصد الأمطر",
+    "translation": "maḥaṭṭa li-raṣd al·a. pluviometrical station",
+    "examples": []
+  },
+  {
+    "word": "ل",
+    "displayWord": "ل",
+    "translation": "to s.o.) 925",
+    "examples": []
+  },
+  {
+    "word": "ل",
+    "displayWord": "ل",
+    "translation": "ه) s.o. for a job, for a task); to commission, charge, empower, authorize (",
+    "examples": []
+  },
+  {
+    "word": "ل ه",
+    "displayWord": "ل ه",
+    "translation": "s.o. to do s.th., ب with), order ( ل ه s.o. to do s.th.); to entrust ( ل ه to s.o. a task); (mil.) to detach, detail, transfer ( ل ه s.o. to); (with نفسه nafsahū) to apply o.s., devote o.s. dedicate o.s. ( ل to s.th.); to give ( ھ a country) the mandate ( على over); to comply readily ( ل with an order or instruction), be willing, be prepared, stand ready ( ل to); to present o.s. ( الى to s.o.), turn ( الى toward, to)",
+    "examples": []
+  },
+  {
+    "word": "للأخطار الجوية",
+    "displayWord": "للأخطار الجوية",
+    "translation": "(li-l-akṭār) air-raid warning;",
+    "examples": []
+  },
+  {
+    "word": "ل",
+    "displayWord": "ل",
+    "translation": "s.th. to); to leave, assign, transfer, make over ( عن ل s.th. to); to lower o.s., stoop, condescend; to deign; to dismount, or line up, for battle │ تنازل (تنزل) عن العرش ل (‘arš) to abdicate in favor of; تنازل عن",
+    "examples": []
+  },
+  {
+    "word": "ل",
+    "displayWord": "ل",
+    "translation": "(anfusahum) they made every effort in order to ..., they struggled hard to ...; -- naṣiba a (naṣab) to be tired, fatigued, jaded, worn out, exhausted; to exert o.s. to the utmost ( في in) II to set up, set upright, rear, raise, lift up ( ھ s.th.); to install ( ه ه s.o. as), appoint ( ه ه s.o. to an office) │ نص",
+    "examples": []
+  },
+  {
+    "word": "لله",
+    "displayWord": "لله",
+    "translation": "by the grace of God; واسع النعمة very well off, wealthy, rich; النعم الثلاثة the Three Graces; ولي نعمته (نعمه ) walīy ni‘matihī (ni‘amihī) his benefactor",
+    "examples": []
+  },
+  {
+    "word": "لديه معين الصبر",
+    "displayWord": "لديه معين الصبر",
+    "translation": "(ma‘īn aṣ-ṣabr) to be at the end of one’s patience IV and X to use up, consume, spend, exhaust, drain, deplete ( ھ s.th.); to taste thoroughly, enjoy to the full ھ) s.th.) │ استنفد كل وسع (kulla wus‘in) to exhaust, or avail o.s. of, every possibility",
+    "examples": []
+  },
+  {
+    "word": "لا يملك شروى نقير",
+    "displayWord": "لا يملك شروى نقير",
+    "translation": "he has absolutely nothing, he hasn’t got a red cent to his name; ...}’ \":I~ J,:i \":I nothing at an, not the l....t little bit ;~ naqlra pl. ;W naq<!\",.a corvette ;~W naqqara sman drum having a hemispheric body of copper or wood ~,,;~ niiqUr pl. .;:il; naWliqlr’ (Koranic) a wind instrument ;~~ naqilra (eg.) prattle, idle talk, rigmarole ~LA:.. m,nqar pl. .;:il:.. manclqlr’ beak. bill (of a bird); pickax ;.)L:... mutuiqara bickering, wrangle, argument, quarrel ;;~ tuiq,ra pl. ;s.,; naWliq,r’ bickering, wrangle, argument, quarrel; misfortune, calamity",
+    "examples": []
+  },
+  {
+    "word": "ل",
+    "displayWord": "ل",
+    "translation": "s.th.) VI to have no knowledge, be ignorant ( ھ of s.th.); to pretend not to know ( ھ s.th.), feign ignorance, make as if one doesn’t know; to refuse to have anything to do ( ه with), snub, cut, ignore, pretend not to know ( ه s.o.) X not to know",
+    "examples": []
+  },
+  {
+    "word": "ل",
+    "displayWord": "ل",
+    "translation": "in s.o.’s face)",
+    "examples": []
+  },
+  {
+    "word": "لى",
+    "displayWord": "لى",
+    "translation": "to)",
+    "examples": []
+  },
+  {
+    "word": "له",
+    "displayWord": "له",
+    "translation": "( ١ ā nihāyata) unendingly, to infinity, ad infinitum; للنھاية to the greatest extent, extremely; نھاية الأرب n. al-arab the ultimate goal; النھاية الصغرى (ṣugrā) minimum; النھاية",
+    "examples": []
+  },
+  {
+    "word": "لا نھائي",
+    "displayWord": "لا نھائي",
+    "translation": "lā-nihā’ī infinite, unending",
+    "examples": []
+  },
+  {
+    "word": "لانھائية",
+    "displayWord": "لانھائية",
+    "translation": "lā-nihā’īya infinity",
+    "examples": []
+  },
+  {
+    "word": "ل",
+    "displayWord": "ل",
+    "translation": "by s.th.); to accede ( ل to s.th.), comply (",
+    "examples": []
+  },
+  {
+    "word": "ل",
+    "displayWord": "ل",
+    "translation": "with); to trust ( الى s.o.), have confidence الى) in s.o.), rely, depend ( الى on s.o.); to entrust ( ب الى s.th. to s.o.); to be reassured الى) by s.th.), accept tacitly ( الى s.th.), acquiesce ( الى in s.th.), content o.s. be content ( الى with)",
+    "examples": []
+  },
+  {
+    "word": "ل",
+    "displayWord": "ل",
+    "translation": "or حسنت نيته في ḥasunat nīyatuhū li do.; to have good intentions, be wellintentioned toward ...; اصلح نيته (nīyatahū) to evoke the right intention in one’s heart (ethical and religious); عقد النية على to determine on s.th., resolve to do s.th., direct one’s intention to",
+    "examples": []
+  },
+  {
+    "word": "ل",
+    "displayWord": "ل",
+    "translation": "s.th.), embark ( الى or ل upon), begin ( الى or ل with), start doing s.th. ( الى or ل); (with foll. imperf.) to proceed abruptly to do s.th., set out to do s.th.; to rush, fly ( الى at s.o.); to wake up; to rise, get up ( من from, esp., from sleep); to revolt, rebel, rise ( على against s.o.); -- (habb, ھبوب hubūb, ھبيب habīb) to blow (wind); to rage (storm); to break out (fire); to waft, drift ( على in s.o.’s direction; of a scent), meet ( على s.o.; of a pleasant smell) │ ھب للحرب (ḥarb) to take up arms, enter the war; ھب للمقاومة (muqāwama) to take up arm, in opposition, rise in arms; ھب واقفا (wāqifan) to plant o.s., station o.s, stand; ھبت ريحه (rīḥuhū) he is in clover, he is in luck'. way, he has a lucky hand with everything;",
+    "examples": []
+  },
+  {
+    "word": "ل",
+    "displayWord": "ل",
+    "translation": "of), arrive ( الى or ل at); to be led back, find one’s way back ( الى to the true faith,",
+    "examples": []
+  },
+  {
+    "word": "لھنا",
+    "displayWord": "لھنا",
+    "translation": "here, over here, to this place; up to here, so far, up to this point, up to this amount; من ھنا from here; of this, hereof, from this, hence; for this reason, therefore; by this, hereby; ھنا وھناك here and there",
+    "examples": []
+  },
+  {
+    "word": "ل",
+    "displayWord": "ل",
+    "translation": "or الى ه s.th. at), direct, steer, guide, channel ( ل or الى ه s.th. to); to turn ( ھ s.th., e.g., one’s face, one’s attention, etc., ل or",
+    "examples": []
+  },
+  {
+    "word": "لاشتداد وطأة المرض",
+    "displayWord": "لاشتداد وطأة المرض",
+    "translation": "li-št. w. il-maraḍ) because of the violence with which the disease struck",
+    "examples": []
+  },
+  {
+    "word": "ل",
+    "displayWord": "ل",
+    "translation": "in accordance with. in conformity with, conformable to, according to, commensurate with; in pursuance of, pursuant to, on the strength of, on the basic of",
+    "examples": []
+  },
+  {
+    "word": "ليقاد",
+    "displayWord": "ليقاد",
+    "translation": "īqād kindling, lighting, setting on fire, ignition",
+    "examples": []
+  },
+  {
+    "word": "لدة",
+    "displayWord": "لدة",
+    "translation": "lida childbirth, birth; (pl. لدون lidūn,",
+    "examples": []
+  },
+  {
+    "word": "لدات",
+    "displayWord": "لدات",
+    "translation": "lidāt) person of the same age, contemporary; coetaneous",
+    "examples": []
+  },
+  {
+    "word": "لا يھن",
+    "displayWord": "لا يھن",
+    "translation": "untiring, unflagging, inexhaustible II to weaken, enfeeble ( ه s.o.), sap the strength ( ه of so.); to discourage, dishearten, wear down, unnerve ( ه s.o.); to deem or declare ( ھ s.th.) weak IV to weaken ( ه s.o.); to discourage ( ه s.o.)",
+    "examples": []
   }
 ]

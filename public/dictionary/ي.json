@@ -1,67 +1,1244 @@
 [
   {
-    "word": "يوم",
-    "displayWord": "يَوْم",
-    "root": "يوم",
-    "translation": "day, period, era",
-    "examples": [
-      {
-        "ar": "اليَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِي.",
-        "en": "Today I have perfected for you your religion and completed My favor upon you.",
-        "source": "Holy Quran"
-      }
-    ]
+    "word": "يا ابت",
+    "displayWord": "يا ابت",
+    "translation": "see ابو",
+    "examples": []
   },
   {
-    "word": "يد",
-    "displayWord": "يَد",
-    "root": "يدي",
-    "translation": "hand, power, handle",
-    "examples": [
-      {
-        "ar": "اليَدُ العُلْيَا خَيْرٌ مِنَ اليَدِ السُّفْلَى.",
-        "en": "The upper hand is better than the lower hand.",
-        "source": "Hadith"
-      }
-    ]
+    "word": "يتأخر بعد ذلك من ان",
+    "displayWord": "يتأخر بعد ذلك من ان",
+    "translation": "after that, he did not hesitate long before he …, presently, he ...",
+    "examples": []
   },
   {
-    "word": "يسر",
-    "displayWord": "يُسْر",
-    "root": "يسر",
-    "translation": "ease, prosperity, wealth",
-    "examples": [
-      {
-        "ar": "فَإِنَّ مَعَ الْعُسْرِ يُسْرًا * إِنَّ مَعَ الْعُسْرِ يُسْرًا.",
-        "en": "For indeed, with hardship [there is] ease. Indeed, with hardship [there is] ease.",
-        "source": "Holy Quran"
-      }
-    ]
+    "word": "يكن من امر",
+    "displayWord": "يكن من امر",
+    "translation": "(min amrin) whatever may happen; however things may be; ھو بين",
+    "examples": []
   },
   {
-    "word": "يقين",
-    "displayWord": "يَقِين",
-    "root": "يقن",
-    "translation": "certainty, absolute belief, conviction",
-    "examples": [
-      {
-        "ar": "وَاعْبُدْ رَبَّكَ حَتَّىٰ يَأْتِيَكَ الْيَقِينُ.",
-        "en": "And worship your Lord until there comes to you the certainty.",
-        "source": "Holy Quran"
-      }
-    ]
+    "word": "يوم الاثنين",
+    "displayWord": "يوم الاثنين",
+    "translation": "yaum al-itnaini and الاثنين Monday",
+    "examples": []
+  },
+  {
+    "word": "يختلفون جد الاختلاف",
+    "displayWord": "يختلفون جد الاختلاف",
+    "translation": "(jidda l-iḳtilāf) they differ widely; وقف على ساق الجد ل (sāqi l-j.) to apply o.s. with diligence to, take pains in, make every effort to",
+    "examples": []
+  },
+  {
+    "word": "يفعل",
+    "displayWord": "يفعل",
+    "translation": "to induce s.o. to do; to make s.o. do s.th. (in a narrative); جعله بمننزلة (bimanzilati) to place s.o. on equal footing with; جعله فى متناول يده (fī mutanāwali yadihī) to bring or put s.th. within s.o.’s reach III to seek to bribe, try to win ( ب ه s.o. with s.th.)",
+    "examples": []
+  },
+  {
+    "word": "يحبور",
+    "displayWord": "يحبور",
+    "translation": "yaḥbūr bustard chick (zool.)",
+    "examples": []
+  },
+  {
+    "word": "يوم الحشر",
+    "displayWord": "يوم الحشر",
+    "translation": "yaum al-ḥašr the day of congregation (of the dead), the Day of resurrection",
+    "examples": []
+  },
+  {
+    "word": "يحصى",
+    "displayWord": "يحصى",
+    "translation": "(yuḥṣā) innumerable",
+    "examples": []
+  },
+  {
+    "word": "يستحق الذكر",
+    "displayWord": "يستحق الذكر",
+    "translation": "(dikra) worth mentioning, noteworthy; لا يستحق عليه الرسم (rasmu) not subject to a fee. free of charge",
+    "examples": []
+  },
+  {
+    "word": "يحمور",
+    "displayWord": "يحمور",
+    "translation": "yaḥmūr red; deer, roe, roebuck; wild ass; hemoglobin (physiol.)",
+    "examples": []
+  },
+  {
+    "word": "يبتغون عنه حولا",
+    "displayWord": "يبتغون عنه حولا",
+    "translation": "(yabtagūna) they don’t want it otherwise, they ask for it",
+    "examples": []
+  },
+  {
+    "word": "يدري",
+    "displayWord": "يدري",
+    "translation": "(yadrī wa-lā yadrī) whether he knows it or not, knowingly or without his knowledge; من حي ثلالا (with foll. perf.) without (being, doing, etc.); من حيث ھو such, in itself, العالم من حيث ھو (‘ālam) the world in itself, the world as such; من حيث",
+    "examples": []
+  },
+  {
+    "word": "يزعمون",
+    "displayWord": "يزعمون",
+    "translation": "‘alā ḥīni hum yaz‘umūna whereas they, on the other hand, claim; من حين الى",
+    "examples": []
+  },
+  {
+    "word": "يسيرة خليقة ان تقنعنا بأن",
+    "displayWord": "يسيرة خليقة ان تقنعنا بأن",
+    "translation": "(tuqni‘anā) no more than a quick glance is apt to convince us that ...",
+    "examples": []
+  },
+  {
+    "word": "يذر",
+    "displayWord": "يذر",
+    "translation": "3 yadaru see ( (وذر",
+    "examples": []
+  },
+  {
+    "word": "يربوع",
+    "displayWord": "يربوع",
+    "translation": "yarbū‘ pl. يرابيع yarābī‘ jerboa (Jaculus jaculus; zool.)",
+    "examples": []
+  },
+  {
+    "word": "يرجع ذلك الى ان",
+    "displayWord": "يرجع ذلك الى ان",
+    "translation": "this is due to the fact that ...;",
+    "examples": []
+  },
+  {
+    "word": "يرجع السبب الى",
+    "displayWord": "يرجع السبب الى",
+    "translation": "(sabab) the reason is to be found in ...; رجعت به الذاكرة الى he recalled, remembered ...; رجع في كلامه (kalāmihī) to go back on one’s word II to cause to come back or return; to return, give back; to send back; to turn away ( عن ه s.o. from); to sing or chant in a vibrant, quavering tone; to echo, reverberate ( ھ s.th.) │ رجع",
+    "examples": []
+  },
+  {
+    "word": "يرد ھذا عليك شيئا",
+    "displayWord": "يرد ھذا عليك شيئا",
+    "translation": "this won’t help you at all; لا",
+    "examples": []
+  },
+  {
+    "word": "يرد",
+    "displayWord": "يرد",
+    "translation": "(yuraddu) irrefutable; رده على عقبيه (‘aqibaih) pl. ردھم على اعقابھم (a‘qābihim) to drive s.o. back to where he came from;",
+    "examples": []
+  },
+  {
+    "word": "يبق استزادة لمستزيد",
+    "displayWord": "يبق استزادة لمستزيد",
+    "translation": "(yabqa, li-mustazīdin) there is nothing to be added, nothing more need be said about it",
+    "examples": []
+  },
+  {
+    "word": "يسبق لي ان",
+    "displayWord": "يسبق لي ان",
+    "translation": "I have never before ...; لم يسبق له",
+    "examples": []
+  },
+  {
+    "word": "يشمق",
+    "displayWord": "يشمق",
+    "translation": "look up alphabetically 486",
+    "examples": []
+  },
+  {
+    "word": "يفتح الشھية",
+    "displayWord": "يفتح الشھية",
+    "translation": "(yaftaḥu) stimulating the appetite, appetizing; قلة الشھية للطعام qillat aš-š. li-ṭ-ṭa‘ām want of appetite",
+    "examples": []
+  },
+  {
+    "word": "يا صاح",
+    "displayWord": "يا صاح",
+    "translation": "yā ṣāḥi = يا صاحبي yā ṣāḥibī",
+    "examples": []
+  },
+  {
+    "word": "يفعل",
+    "displayWord": "يفعل",
+    "translation": "he no longer did (so); لم يصبح له وجود it no longer existed VIII to have a morning draught; to light ( ھ s.th., e.g., a lamp); to use for lighting ( ب s.th.) X to begin the day",
+    "examples": []
+  },
+  {
+    "word": "يضحك الثكلى",
+    "displayWord": "يضحك الثكلى",
+    "translation": "(taklā) (that which makes a woman who has lost her child laugh =) irresistibly comical VI to laugh",
+    "examples": []
+  },
+  {
+    "word": "يا ضيعانة",
+    "displayWord": "يا ضيعانة",
+    "translation": "yā ḍī‘āna what a loss!",
+    "examples": []
+  },
+  {
+    "word": "يد طبقة",
+    "displayWord": "يد طبقة",
+    "translation": "yad ṭabiqa closed hand",
+    "examples": []
+  },
+  {
+    "word": "يطق صبرا",
+    "displayWord": "يطق صبرا",
+    "translation": "lam yuṭiq ṣabran be could not stand or bear it, he could not control himself; شيء لا يطاق (yuṭāqu) s.th. unbearable, s.th. intolerable",
+    "examples": []
+  },
+  {
+    "word": "يسكن البيت",
+    "displayWord": "يسكن البيت",
+    "translation": "(yaskunu l-baita) he continued to live in the house; ظل صامتا he remained silent, persisted in his silence; ظل على موقف (mauqif) to persist in a standpoint or attitude II to shade, overshadow ( ھ، ه s.o., s.th.), cast a shadow ( ھ، ه over s.o., over s.th.); to screen, shelter, protect ( ھ، ه s.o., s.th.); to preserve, guard, maintain, keep up 581 ھ) s.th.) IV = II; V to be shaded ( ب by), sit in the shadow ( ب of) X = V; to protect o.s. from the sun ( ب by or through s.th.), hide in the shadow ( ب of s.th.), seek the shadow ( ب of s.th.); to place s.o. under the protection or patronage of s.o. ( ب), seek shelter or refuge with s.o. ( ب), be under the patronage or protection of s.o. ( (ب",
+    "examples": []
+  },
+  {
+    "word": "يعبوب",
+    "displayWord": "يعبوب",
+    "translation": "ya‘būb torrential river",
+    "examples": []
+  },
+  {
+    "word": "يجيبه",
+    "displayWord": "يجيبه",
+    "translation": "(iataṭā‘a, yujībahū) but he couldn’t give him an answer",
+    "examples": []
+  },
+  {
+    "word": "يعسوب",
+    "displayWord": "يعسوب",
+    "translation": "ya‘sūb pl. يعاسيب ya‘āsīb2 male bee, drone; notable, chief, leader",
+    "examples": []
+  },
+  {
+    "word": "يعفور",
+    "displayWord": "يعفور",
+    "translation": "ya‘fūr pl. يعافير ya‘āfīr2 earthcolored gazelle",
+    "examples": []
+  },
+  {
+    "word": "يعقوب",
+    "displayWord": "يعقوب",
+    "translation": "ya‘qūb2 Jacob, James; ya‘qūb (pl.",
+    "examples": []
+  },
+  {
+    "word": "يعاقيب",
+    "displayWord": "يعاقيب",
+    "translation": "ya‘āqīb2) male mountain quail (zool.) │ لحاجة في نفس يعقوب li-hājatin fī nafsi y. for some unknown reason, from secret motives",
+    "examples": []
+  },
+  {
+    "word": "يعقوبي",
+    "displayWord": "يعقوبي",
+    "translation": "ya‘qūbī pl. يعاقبة ya‘āqiba a Jacobite, an adherent of Jacob Baradai; Jacobite (adj.; Chr.)",
+    "examples": []
+  },
+  {
+    "word": "يأخذ الكرى بمعقد جفنه",
+    "displayWord": "يأخذ الكرى بمعقد جفنه",
+    "translation": "(karā bi-m. jafnihī) no slumber closed his lids",
+    "examples": []
+  },
+  {
+    "word": "يوحنا المعمدان",
+    "displayWord": "يوحنا المعمدان",
+    "translation": "yūḥannā l-ma‘madān John the Baptist",
+    "examples": []
+  },
+  {
+    "word": "يوما فيوما",
+    "displayWord": "يوما فيوما",
+    "translation": "(yauman) day after day, day by day; شيئا فشيئا (šai’an) gradually, step by step; امر فقتلوه (fa-qatalūhu) he ordered him to be killed",
+    "examples": []
+  },
+  {
+    "word": "يلة افتتاحية",
+    "displayWord": "يلة افتتاحية",
+    "translation": "(laila) première, opening night",
+    "examples": []
+  },
+  {
+    "word": "يغني فتيلا",
+    "displayWord": "يغني فتيلا",
+    "translation": "(yugnī) it is of no use at all ( من to s.o.), it won’t help him ( عنه ) a bit, it isn’t worth a farthing; لا يجدي فتيلا (yujdī) = لا",
+    "examples": []
+  },
+  {
+    "word": "يغني",
+    "displayWord": "يغني",
+    "translation": "فتيلا",
+    "examples": []
+  },
+  {
+    "word": "يفنى",
+    "displayWord": "يفنى",
+    "translation": "imperishable, inexhaustible IV to annihilate, bring to nought, ruin, destroy (",
+    "examples": []
+  },
+  {
+    "word": "يلي",
+    "displayWord": "يلي",
+    "translation": "(yalī) and فيما بعد (ba‘du) in the following, in what follows, below; فيما اعتقد (a‘taqidu) as I believe; فيما بينھم among themselves, among them; تبسم في خبث tabassama fī kubt he smiled maliciously",
+    "examples": []
+  },
+  {
+    "word": "يقر له حال",
+    "displayWord": "يقر له حال",
+    "translation": "to be flighty, be of unstable temperament; لا يقر له قرار (qarār) to be restless, restive, uneasy, wavering, undecided; -- qarra a i (qarr) to be cold, chilly, cool │ قر عينا (‘ainan) to be of good cheer; قرت عينه (‘ainuhū) to be glad, be delighted ( ب at) II to settle, make sedentary ( في ه s.o. in, at a place), establish",
+    "examples": []
+  },
+  {
+    "word": "يملك قطميرا",
+    "displayWord": "يملك قطميرا",
+    "translation": "(yamliku) he doesn’t own a thing, he hasn’t a red cent to his name",
+    "examples": []
+  },
+  {
+    "word": "يقطين",
+    "displayWord": "يقطين",
+    "translation": "yaqṭīn (coll.; n. un. ة) a variety of squash",
+    "examples": []
+  },
+  {
+    "word": "يوم القيامة",
+    "displayWord": "يوم القيامة",
+    "translation": "yaum al-q. the day of resurrection, the day of final judgment;",
+    "examples": []
+  },
+  {
+    "word": "يقوم",
+    "displayWord": "يقوم",
+    "translation": "no sooner had he got up ...; لا تكاد ترى (tarā) you will hardly ever see, or, you barely see, or, the moment you see …; لم",
+    "examples": []
+  },
+  {
+    "word": "يكد يراھا",
+    "displayWord": "يكد يراھا",
+    "translation": "lam yakad yarāhā no sooner had he seen her, the moment he saw her; لم يكد",
+    "examples": []
+  },
+  {
+    "word": "يلخص",
+    "displayWord": "يلخص",
+    "translation": "yulakkaṣu it can he summed up ( في",
+    "examples": []
+  },
+  {
+    "word": "يدعي وصلا بليلاه",
+    "displayWord": "يدعي وصلا بليلاه",
+    "translation": "(yadda‘ī waṣlan) everybody claims to be the chosen one, every-one brags in his own way",
+    "examples": []
+  },
+  {
+    "word": "يمكن",
+    "displayWord": "يمكن",
+    "translation": "(aktara) as much as possible; لا يمكن it is impossible V to have or gain influence, weight, or prestige ( عند with s.o.), have or gain power; to be native, indigenous, resident; to gain ground; to spread; to be consolidated, firmly established; to consolidate, strengthen, gain in strength; to seize ( من on s.th.), possess o.s., take possession ( من of s.th.); to have command or mastery ( من of s.th.), command, muter (",
+    "examples": []
+  },
+  {
+    "word": "يومه",
+    "displayWord": "يومه",
+    "translation": "(yaumihī) on the very same day; من",
+    "examples": []
   },
   {
     "word": "ينبوع",
-    "displayWord": "يَنْبُوع",
-    "root": "نبع",
-    "translation": "spring, fountain, source",
-    "examples": [
-      {
-        "ar": "العِلْمُ يَنْبُوعٌ لَا يَنْضَبُ عَبْرَ العُصُورِ.",
-        "en": "Knowledge is a fountain that does not run dry across ages.",
-        "source": "Academic Essay"
-      }
-    ]
+    "displayWord": "ينبوع",
+    "translation": "yanbū’ pl. ينابيع yanābī‘2 spring, source, well",
+    "examples": []
+  },
+  {
+    "word": "يا نصيب",
+    "displayWord": "يا نصيب",
+    "translation": "yā-naṣīb lottery",
+    "examples": []
+  },
+  {
+    "word": "ينضب",
+    "displayWord": "ينضب",
+    "translation": "inexhaustible, incessant IV to exhaust, drain, deplete, dry up ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "يستھان",
+    "displayWord": "يستھان",
+    "translation": "(yustahānu) not to be sneezed at, not to be overlooked",
+    "examples": []
+  },
+  {
+    "word": "يوثق",
+    "displayWord": "يوثق",
+    "translation": "yautuqu ( وثاقة watāqa) to be firm, solid; to be sure, be certain ( من of) II to make firm or solid, strengthen, cement, consolidate ( ھ s.th.); to 1047 document, authenticate, confirm, certify ( ھ s.th.), attest ( ھ to), notarize ( ھ s.th.), draw up a notarial deed ( ھ over); to link firmly, hind closely ( بين -- بين s.o. to) III to enter into an agreement, make a treaty ( ه with s.o.) │",
+    "examples": []
+  },
+  {
+    "word": "يجب",
+    "displayWord": "يجب",
+    "translation": "as it should be, as it 1048 must be, comme il faut; -- (wajb, وجيب wajīb, وجبان wajabān) to throb, beat, palpitate (heart) II to make s.th. ( ھ ) s.o.’s ( على ) duty, make s.th. ( ھ ) incumbent ( على on s.o.), impose, enjoin ( على ھ s.th. on s.o.), obligate ( ھ على s.o. to) IV to make s.th. ( ھ ) s.o.’s ( (على duty, make s.th. ( ھ ) incumbent ( على on), impose, enjoin ( على ھ s.th. on s.o.), make necessary, obligatory, binding ( على ھ s.th. for s.o.), obligate ( على s.o., ھ to); to decide positively ( ھ ل s.th. in favor of s.o.), adjudge, adjudicate, award, grant ( ل ھ s.th. to s.o.) X to deserve, merit ( ھ s.th.), be worthy ( ھ of); to be entitled, have a title ( ھ to), have a claim ( ھ on); to deem necessary or obligatory ( ھ s.th.) │ عمل",
+    "examples": []
+  },
+  {
+    "word": "يستوجب الشكر",
+    "displayWord": "يستوجب الشكر",
+    "translation": "(šukra) an act deserving of thanks, a meritorious undertaking",
+    "examples": []
+  },
+  {
+    "word": "يرى من واجبه",
+    "displayWord": "يرى من واجبه",
+    "translation": "he considers it his duty;",
+    "examples": []
+  },
+  {
+    "word": "يفعل ذلك ١٠٥٧",
+    "displayWord": "يفعل ذلك ١٠٥٧",
+    "translation": "I should like him to do this,",
+    "examples": []
+  },
+  {
+    "word": "يده",
+    "displayWord": "يده",
+    "translation": "to put s.th. in s.o.’s power IV to hurry; to take an active part, participate actively (",
+    "examples": []
+  },
+  {
+    "word": "يكن يعرف موقع وقته ذاك من الليل",
+    "displayWord": "يكن يعرف موقع وقته ذاك من الليل",
+    "translation": "(mauqi‘a waqtihī) he did not know what time of the night it was at that moment; see also waqa‘a (at end of illustrative phrases)",
+    "examples": []
+  },
+  {
+    "word": "يلي البدن من الملابس",
+    "displayWord": "يلي البدن من الملابس",
+    "translation": "(badana) the underwear, the underclothes; غرفة تلي السقف (gurfa, saqf) a chamber under the roof; ولى الحكم (ḥukma) to take over the government, come into power II to turn ( ھ ه to or toward s.o. s.th., e.g., the back, the face of s.th.); to turn away ( عن or ه from s.th.), avoid, shun ( عن or ه s.th.); to turn around, turn back, wheel around; to flee ( عن or ھfrom s.th.); to pass, go by, glide away (days, years); to appoint as manager, director, administrator, governor, or ruler (",
+    "examples": []
+  },
+  {
+    "word": "ي السنين",
+    "displayWord": "ي السنين",
+    "translation": "bi-t. s-sinīn with the years, in time, as time goes on",
+    "examples": []
+  },
+  {
+    "word": "يا",
+    "displayWord": "يا",
+    "translation": "yā (vocative and exclamatory particle) O, oh │ يا حسرتي (ḥasratī) oh, my misfortune! يا",
+    "examples": []
+  },
+  {
+    "word": "ياء",
+    "displayWord": "ياء",
+    "translation": "yā’ name of the letter ي",
+    "examples": []
+  },
+  {
+    "word": "ياباني",
+    "displayWord": "ياباني",
+    "translation": "yābānī Japanese; (pl. -ūn) a Japanese 1104",
+    "examples": []
+  },
+  {
+    "word": "ياردة",
+    "displayWord": "ياردة",
+    "translation": "yarda pl. -āt yard (measure of length)",
+    "examples": []
+  },
+  {
+    "word": "يازرجة",
+    "displayWord": "يازرجة",
+    "translation": "yāzirja astrology",
+    "examples": []
+  },
+  {
+    "word": "يازرجي",
+    "displayWord": "يازرجي",
+    "translation": "yāzirjī pl. -īya astrologer",
+    "examples": []
+  },
+  {
+    "word": "يئس",
+    "displayWord": "يئس",
+    "translation": "ya’isa a i ( يأس ya’s, يآسة ya’āsa) to renounce, forgo ( من s.th.); to give up all hope ( من of) IV to make ( ه s.o.) renounce or forgo; to deprive of hope ( ه s.o.) X = I",
+    "examples": []
+  },
+  {
+    "word": "يأس",
+    "displayWord": "يأس",
+    "translation": "ya’s renunciation, resignation; hopelessness, desperation │ سن اليأس sinn al-y. the climacteric",
+    "examples": []
+  },
+  {
+    "word": "يؤوس",
+    "displayWord": "يؤوس",
+    "translation": "ya’ūs in despair, despairing; hopeless, desperate",
+    "examples": []
+  },
+  {
+    "word": "يئس",
+    "displayWord": "يئس",
+    "translation": "ya’is hopeless, desperate (person)",
+    "examples": []
+  },
+  {
+    "word": "ياسمين",
+    "displayWord": "ياسمين",
+    "translation": "yāsamīn jasmine (bot.)",
+    "examples": []
+  },
+  {
+    "word": "ياسنت",
+    "displayWord": "ياسنت",
+    "translation": "yāsint hyacinth (bot.)",
+    "examples": []
+  },
+  {
+    "word": "ياطاش",
+    "displayWord": "ياطاش",
+    "translation": "yāṭāš: خدمة بالياطاش kidma bi-l-y. (tun.) piecework, jobwork",
+    "examples": []
+  },
+  {
+    "word": "يافا",
+    "displayWord": "يافا",
+    "translation": "yāfā Jaffa (seaport in SW Palestine)",
+    "examples": []
+  },
+  {
+    "word": "يافطة",
+    "displayWord": "يافطة",
+    "translation": "yafṭa, yāfiṭa sign, signboard, plaque, name plate, doorplate",
+    "examples": []
+  },
+  {
+    "word": "ياقة",
+    "displayWord": "ياقة",
+    "translation": "yāqa pl. -āt collar",
+    "examples": []
+  },
+  {
+    "word": "ياقوت",
+    "displayWord": "ياقوت",
+    "translation": "yāqūt (coll.; n. un. ة) pl. يواقيت yawāqīt2 hyacinth (bot.); hyacinth, sapphire │ ياقوت",
+    "examples": []
+  },
+  {
+    "word": "ياميش",
+    "displayWord": "ياميش",
+    "translation": "yāmīš dried fruits",
+    "examples": []
+  },
+  {
+    "word": "يانسون",
+    "displayWord": "يانسون",
+    "translation": "yānisūn anise, aniseed",
+    "examples": []
+  },
+  {
+    "word": "ياور",
+    "displayWord": "ياور",
+    "translation": "yāwir pl. -īya adjutant, aide-de-camp",
+    "examples": []
+  },
+  {
+    "word": "ياى",
+    "displayWord": "ياى",
+    "translation": "yāy pl. -āt spring, spiral spring",
+    "examples": []
+  },
+  {
+    "word": "يباب",
+    "displayWord": "يباب",
+    "translation": "yabāb devastated, waste",
+    "examples": []
+  },
+  {
+    "word": "يبس",
+    "displayWord": "يبس",
+    "translation": "yabisa a (yabs, yubs) to be or become dry, to dry II and IV to make dry, to dry ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "يبس",
+    "displayWord": "يبس",
+    "translation": "yabs, yubs, yabas dryness",
+    "examples": []
+  },
+  {
+    "word": "يبس",
+    "displayWord": "يبس",
+    "translation": "yabs, yabis dried, dried out, desiccated, arid; اليبس al-yabs the dry land, land, terra firma",
+    "examples": []
+  },
+  {
+    "word": "يبوسة",
+    "displayWord": "يبوسة",
+    "translation": "yubūsa dryness (also fig., e.g., of writing or speech style)",
+    "examples": []
+  },
+  {
+    "word": "يابس",
+    "displayWord": "يابس",
+    "translation": "yābis dry, dried out, desiccated, arid; rigid, hard, firm, compact; اليابسة alyābisa land, terra firma",
+    "examples": []
+  },
+  {
+    "word": "يتم",
+    "displayWord": "يتم",
+    "translation": "yatama i, yatuma u and yatima II to be or become an orphan, be bereaved of one’s parents IV to orphan, deprive of his parents ( ه s.o.) V = I",
+    "examples": []
+  },
+  {
+    "word": "يتم",
+    "displayWord": "يتم",
+    "translation": "yatm, yutm, yatam orphanhood",
+    "examples": []
+  },
+  {
+    "word": "يتيم",
+    "displayWord": "يتيم",
+    "translation": "yatīm pl. ايتام aitām, يتامى yatāmā orphan; unique of its kind, unequaled, unmatched, incomparable; -- yatīm f. ة single, sole, one only, isolated │ ملجأ الأيتام malja’ al-a. and دار الأيتام orphanage",
+    "examples": []
+  },
+  {
+    "word": "يثرب",
+    "displayWord": "يثرب",
+    "translation": "yatrib2 original name of Medina",
+    "examples": []
+  },
+  {
+    "word": "يحبور",
+    "displayWord": "يحبور",
+    "translation": "see حبر",
+    "examples": []
+  },
+  {
+    "word": "يحمور",
+    "displayWord": "يحمور",
+    "translation": "yaḥmūr see حمر",
+    "examples": []
+  },
+  {
+    "word": "يحيى",
+    "displayWord": "يحيى",
+    "translation": "yaḥyā John",
+    "examples": []
+  },
+  {
+    "word": "يخت",
+    "displayWord": "يخت",
+    "translation": "yakt pl. يخوت yukūt yacht",
+    "examples": []
+  },
+  {
+    "word": "يخضور",
+    "displayWord": "يخضور",
+    "translation": "see خضر",
+    "examples": []
+  },
+  {
+    "word": "يخنة",
+    "displayWord": "يخنة",
+    "translation": "yakna and يخنى yaknī a kind of ragout",
+    "examples": []
+  },
+  {
+    "word": "يد",
+    "displayWord": "يد",
+    "translation": "yad f., pl. ايد aidin, اياد ayādin hand; foreleg; handle; power, control, influenoe, 1105 authority; assistance, help, aid; (Isl. Law) (personal) possession, actual control; benefit; favor │ l. With prepositions: يدا بيد yadan bi-yadin personal(ly), from hand to hand; بين يدي ... (yadai) in front of; بين يديه in front of him; in his presence; in his power; بأيدينا bi-aidīnā or بين ايدينا at our disposal; الكلام بين ايديكم (kalāmu) you have the floor, you may speak; ما بين ايدينا من what … are before us or present themselves to us; تحت اليد on hand, handy, available; تحت يده under his authority, in his power; على يد pl. على ايدي (with foll. genit.) at the hand(s) of; على يده or عن يده with his help, through his good offices;",
+    "examples": []
+  },
+  {
+    "word": "يد محقة",
+    "displayWord": "يد محقة",
+    "translation": "(muḥiqqa) rightful possession (Isl. Law); بقي مكتوف الأيدي امام (baqiya) to stand helpless before ...; دق يدا بيد (daqqa) to clap one’s bands; ذھبوا ايدي (ايادي) سبا dahabū aidiya (ayādiya) sabā to be scattered in all directions; اسدى اليه يدا (asdā) to do s.o. a favor; سقط في يده (suqiṭa) to stand aghast, be embarrassed, be bewildered; اسقط في يده (usqiṭa) do.; شد يده على (šadda yadahū) to cling to s.th.; مشغول باليد or مصنوع باليد handmade; طلب يد المرأة (yada l-mar’a) to propose to a woman, ask her hand in marriage; اعطاه شيئا عن ظھر يد a‘ṭāhu ‘an ẓahri yadin to give s.o. s.th. for nothing, give s.o. s.th. as a present; اليد العاملة labor force, labor; الأيدي العاملة man power, labor, workmen, hands; قدمه باليد (qaddamahū) to band s.th. over personally, deliver s.th. in person; له عندي يد I am obliged to him (or a favor; له يد في he has a hand in ...; له اليد",
+    "examples": []
+  },
+  {
+    "word": "يدوي",
+    "displayWord": "يدوي",
+    "translation": "yadawī manual; hand- (in compounds) │ شغل يدوي (šugl) or عمل يدوي (‘amal) manual work; handwork; صناعة",
+    "examples": []
+  },
+  {
+    "word": "يدوية",
+    "displayWord": "يدوية",
+    "translation": "handicraft; طراز يدوي hand-operated model (of an apparatus); العملة اليدويون (‘amala) the manual workers, labor",
+    "examples": []
+  },
+  {
+    "word": "يربوع",
+    "displayWord": "يربوع",
+    "translation": "yarbū‘ pl. يرابيع yarābī‘2 jerboa (zool.)",
+    "examples": []
+  },
+  {
+    "word": "ياردة",
+    "displayWord": "ياردة",
+    "translation": "look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "يرع",
+    "displayWord": "يرع",
+    "translation": "yari‘a a (yara‘) to be a coward, be chickenhearted",
+    "examples": []
+  },
+  {
+    "word": "يراع",
+    "displayWord": "يراع",
+    "translation": "yarā‘ cowardly; -- (coll.; n. un. (ة glowworm, firefly; cane, reed; reed pen 1106",
+    "examples": []
+  },
+  {
+    "word": "يرقان",
+    "displayWord": "يرقان",
+    "translation": "yaraqān a plant disease, mildew; jaundice; (coll.; n. un. ة) larvae (zool.) │",
+    "examples": []
+  },
+  {
+    "word": "يرقان الضفادع",
+    "displayWord": "يرقان الضفادع",
+    "translation": "tadpoles",
+    "examples": []
+  },
+  {
+    "word": "يزيدي",
+    "displayWord": "يزيدي",
+    "translation": "yazīdī Yazidi, belonging to the Yazidi sect",
+    "examples": []
+  },
+  {
+    "word": "يزرجة",
+    "displayWord": "يزرجة",
+    "translation": "yazrija astrology",
+    "examples": []
+  },
+  {
+    "word": "يزكي",
+    "displayWord": "يزكي",
+    "translation": "yazakī pl. يزك yazak guard, sentry",
+    "examples": []
+  },
+  {
+    "word": "يازول",
+    "displayWord": "يازول",
+    "translation": "yāzūl a variety of wild garlic (Allium roseum L., bot.)",
+    "examples": []
+  },
+  {
+    "word": "يسر",
+    "displayWord": "يسر",
+    "translation": "yasira a (yasar) to be or become easy; -- yasura u (yusr) to be small, little, insignificant; to be or become easy II to level, smoothen, pave, prepare ( على ھ for s.o., s.th.); to ease, make easy, facilitate ( ھ",
+    "examples": []
+  },
+  {
+    "word": "يسر",
+    "displayWord": "يسر",
+    "translation": "yusr ease, easiness, facility ; easy, pleasant circumstances; prosperity, affluence, wealth, abundance, luxury",
+    "examples": []
+  },
+  {
+    "word": "يسرة",
+    "displayWord": "يسرة",
+    "translation": "yasra left aside",
+    "examples": []
+  },
+  {
+    "word": "يسار",
+    "displayWord": "يسار",
+    "translation": "yasār ease, easiness, facility; comfort; prosperity, affluence, wealth, abundance, luxury; left hand; left side │",
+    "examples": []
+  },
+  {
+    "word": "يسارا",
+    "displayWord": "يسارا",
+    "translation": "or عن اليسار to (at, on) the left",
+    "examples": []
+  },
+  {
+    "word": "يساري",
+    "displayWord": "يساري",
+    "translation": "yasārī leftist, left-wing (pol.)",
+    "examples": []
+  },
+  {
+    "word": "يسرى",
+    "displayWord": "يسرى",
+    "translation": "yusrā pl. يسريات yusrayāt left side;",
+    "examples": []
+  },
+  {
+    "word": "يسير",
+    "displayWord": "يسير",
+    "translation": "yasīr easy ( على for); small, little, slight, insignificant, (of time) short; plain, homely; simple, uncomplicated",
+    "examples": []
+  },
+  {
+    "word": "يسقجي",
+    "displayWord": "يسقجي",
+    "translation": "yasaqjī kavass, consular guard, armed attendant 1107",
+    "examples": []
+  },
+  {
+    "word": "يسمين",
+    "displayWord": "يسمين",
+    "translation": "yasmīn jasmine",
+    "examples": []
+  },
+  {
+    "word": "يسوع",
+    "displayWord": "يسوع",
+    "translation": "yasū’2 Jesus",
+    "examples": []
+  },
+  {
+    "word": "يسوعي",
+    "displayWord": "يسوعي",
+    "translation": "yasū’ī Jesuitic(al); (pl. -ūn) Jesuit",
+    "examples": []
+  },
+  {
+    "word": "يشب",
+    "displayWord": "يشب",
+    "translation": "yašb jasper",
+    "examples": []
+  },
+  {
+    "word": "يشم",
+    "displayWord": "يشم",
+    "translation": "yašm jade",
+    "examples": []
+  },
+  {
+    "word": "يشمق",
+    "displayWord": "يشمق",
+    "translation": "yašmak and يشمك yašmak (Turk. yaşmak) face veil worn by women",
+    "examples": []
+  },
+  {
+    "word": "يصب",
+    "displayWord": "يصب",
+    "translation": "yaṣb and يصف yaṣf jasper",
+    "examples": []
+  },
+  {
+    "word": "ياطاش",
+    "displayWord": "ياطاش",
+    "translation": "look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "يعبوب",
+    "displayWord": "يعبوب",
+    "translation": "ya’būb see عب",
+    "examples": []
+  },
+  {
+    "word": "يعسوب",
+    "displayWord": "يعسوب",
+    "translation": "ya’sūb see عسب",
+    "examples": []
+  },
+  {
+    "word": "يعقوب",
+    "displayWord": "يعقوب",
+    "translation": "ya’qūb Jacob, James; see also عقب",
+    "examples": []
+  },
+  {
+    "word": "يعقوبي",
+    "displayWord": "يعقوبي",
+    "translation": "ya’qūbī pl. يعاقبة ya’āqiba Jacobite; Jacobitic (Chr.)",
+    "examples": []
+  },
+  {
+    "word": "يافوخ",
+    "displayWord": "يافوخ",
+    "translation": "yāfūk pl. يوافيخ yawāfīk2 vertex, crown of the head",
+    "examples": []
+  },
+  {
+    "word": "يفطة",
+    "displayWord": "يفطة",
+    "translation": "yafṭa (= يافطة ) sign, signboard, plaque, name plate, doorplate",
+    "examples": []
+  },
+  {
+    "word": "يفع",
+    "displayWord": "يفع",
+    "translation": "yafa’a a (yaf’) to reach adolescence; to be at the age of puberty IV and V do.",
+    "examples": []
+  },
+  {
+    "word": "يفع",
+    "displayWord": "يفع",
+    "translation": "yaf’ adolescence; puberty",
+    "examples": []
+  },
+  {
+    "word": "يفع",
+    "displayWord": "يفع",
+    "translation": "yafa’ hill, range, highland; -- (pl.",
+    "examples": []
+  },
+  {
+    "word": "يافوت",
+    "displayWord": "يافوت",
+    "translation": "look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "يقطين",
+    "displayWord": "يقطين",
+    "translation": "see قطن",
+    "examples": []
+  },
+  {
+    "word": "يقظ",
+    "displayWord": "يقظ",
+    "translation": "yaqiẓa a (yaqaẓ) and yaquẓa u ( يقاظة yaqāẓa) to be awake; to wake; to be on one’s guard, be wary, watchful, alert, vigilant II and IV to wake up ( ه s.o.); to awaken, arouse, stir up, provoke ( ھ s.th.); to warn, alert, put on his guard ( ه s.o.) V to be awake; to be vigilant, watchful, alert, on one’s guard X to wake up, awaken, be awakened, be roused from sleep ( على by); to have o.s. awakened, ask to be wakened; to be awake; to be watchful, vigilant, alert",
+    "examples": []
+  },
+  {
+    "word": "يقظ",
+    "displayWord": "يقظ",
+    "translation": "yaquz, yaqiz pl. ايقاظ aiqāẓ awake; watchful, vigilant, alert, wary, cautious",
+    "examples": []
+  },
+  {
+    "word": "يقظة",
+    "displayWord": "يقظة",
+    "translation": "yaqẓa, yaqaẓa waking, wakefulness; sleeplessness, insomnia; watchfulness, vigilance; wariness, caution; alertness, keenness of the mind",
+    "examples": []
+  },
+  {
+    "word": "يقظان",
+    "displayWord": "يقظان",
+    "translation": "yaqẓān2, f. يقظى yaqẓā pl. يقاظى yaqāzā awake; attentive, alert; wary, cautious; watchful. vigilant │ ابو اليقظان rooster, cook",
+    "examples": []
+  },
+  {
+    "word": "يقن",
+    "displayWord": "يقن",
+    "translation": "yaqina a (yaqn, yaqan) to be sure, certain; to know for certain ( ب or ھ s.th.), be sure, be certain, be convinced ( ب or ھ of) IV, V and X to ascertain ( ب or ھ s.th.), make sure ( ب or ھ of s.th.); to know for certain (",
+    "examples": []
+  },
+  {
+    "word": "يقن",
+    "displayWord": "يقن",
+    "translation": "yaqn, yaqan certainty, certitude",
+    "examples": []
+  },
+  {
+    "word": "يقن",
+    "displayWord": "يقن",
+    "translation": "yaqan, yaqun, yaqin and يقنة yaqana credulous, ingenuous, unsuspecting",
+    "examples": []
+  },
+  {
+    "word": "يقين",
+    "displayWord": "يقين",
+    "translation": "yaqīn certainty, certitude ( ب about), conviction ( ب of) │ يقينا certainly, surely, positively; انا على يقين من ان or انا على يقين ان I am convinced, I am positive, I am certain that ...; كونوا على يقين you can be sure; حق",
+    "examples": []
+  },
+  {
+    "word": "يقيني",
+    "displayWord": "يقيني",
+    "translation": "yaqīnī definitely laid down, positive, absolute, indisputable; يقينيات yaqīnīyāt established truths, axioms",
+    "examples": []
+  },
+  {
+    "word": "يمّ",
+    "displayWord": "يمّ",
+    "translation": "II to betake o.s., repair, resort, go, turn, wend one’s way ( ھ or صوب ṣauba, نحو naḥwa or شطر šaṭra to or toward a place), set out, head, be headed ( ، ھ، صوب، نحو",
+    "examples": []
+  },
+  {
+    "word": "يم",
+    "displayWord": "يم",
+    "translation": "yamm pl. يموم yumūm open sea; (syr.) side │ من يمي from my side, on my part",
+    "examples": []
+  },
+  {
+    "word": "يمام",
+    "displayWord": "يمام",
+    "translation": "yamām (coll.; n. un. ة) pl. -āt, ( يمائم yamā’im2 pigeon, dove",
+    "examples": []
+  },
+  {
+    "word": "يمن",
+    "displayWord": "يمن",
+    "translation": "yamana u, yamina a, yamuna u (yumn,",
+    "examples": []
+  },
+  {
+    "word": "يمن",
+    "displayWord": "يمن",
+    "translation": "yumn good luck, good fortune, prosperity, success",
+    "examples": []
+  },
+  {
+    "word": "يمن",
+    "displayWord": "يمن",
+    "translation": "yaman and يمنة yamna right side or hand; يمنا to (at, on) the right; يمنة yamnatan do. │ شاما ويمنا to the north and south; يمنة ويسرة (yasratan) to the right and left",
+    "examples": []
+  },
+  {
+    "word": "يمنى",
+    "displayWord": "يمنى",
+    "translation": "yamanī from Yemen, Yemenite",
+    "examples": []
+  },
+  {
+    "word": "يمين",
+    "displayWord": "يمين",
+    "translation": "yamīn f. pl. ايمان aiman right side; right hand │ يمينا or عن اليمين to (at, on) the right; يمينا وشمالا to the right and left; ما",
+    "examples": []
+  },
+  {
+    "word": "يمين",
+    "displayWord": "يمين",
+    "translation": "yamīn f., pl. ايمن aimun, ايمان aimān oath │ يمين الأمانة y. al-amāna oath of allegiance; يمين الصبر y. aṣ-ṣabr perjury;",
+    "examples": []
+  },
+  {
+    "word": "يمين قانونية",
+    "displayWord": "يمين قانونية",
+    "translation": "(qānūnīya) oath of office, official oath; يمين كاذبة perjury; يمين الولاء",
+    "examples": []
+  },
+  {
+    "word": "يميني",
+    "displayWord": "يميني",
+    "translation": "yamīnī of or pertaining to the right side, right-hand, right; O اليمينيون the rightwing parties",
+    "examples": []
+  },
+  {
+    "word": "يمنى",
+    "displayWord": "يمنى",
+    "translation": "yumnā pl. يمنيات yumnayāt right hand; right side",
+    "examples": []
+  },
+  {
+    "word": "يناير",
+    "displayWord": "يناير",
+    "translation": "yanāyir ينائر , 2 yanā’ir2 January",
+    "examples": []
+  },
+  {
+    "word": "ينبوع",
+    "displayWord": "ينبوع",
+    "translation": "yanbū‘ see نبع",
+    "examples": []
+  },
+  {
+    "word": "ينسون",
+    "displayWord": "ينسون",
+    "translation": "yansūn (= يانسون ) anise, aniseed",
+    "examples": []
+  },
+  {
+    "word": "ينع",
+    "displayWord": "ينع",
+    "translation": "yana‘a a i (yan‘, yun‘, ينوع yunū‘) to become ripe, ripen, mellow IV do.",
+    "examples": []
+  },
+  {
+    "word": "ينيع",
+    "displayWord": "ينيع",
+    "translation": "yanī‘ ripe, mellow",
+    "examples": []
+  },
+  {
+    "word": "يانع",
+    "displayWord": "يانع",
+    "translation": "yāni‘ pl. ينع yan‘ ripe, mellow",
+    "examples": []
+  },
+  {
+    "word": "يھودي",
+    "displayWord": "يھودي",
+    "translation": "yahūdī Jewish; Jew",
+    "examples": []
+  },
+  {
+    "word": "يھودية",
+    "displayWord": "يھودية",
+    "translation": "yahūdīya Judaism",
+    "examples": []
+  },
+  {
+    "word": "يوبيل",
+    "displayWord": "يوبيل",
+    "translation": "yūlbīl jubilee",
+    "examples": []
+  },
+  {
+    "word": "يوحنا",
+    "displayWord": "يوحنا",
+    "translation": "yūḥannā John │ يوحنا الصابغ John the Baptist 1109",
+    "examples": []
+  },
+  {
+    "word": "يود",
+    "displayWord": "يود",
+    "translation": "yūd iodine",
+    "examples": []
+  },
+  {
+    "word": "ياور",
+    "displayWord": "ياور",
+    "translation": "look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "يورانيوم",
+    "displayWord": "يورانيوم",
+    "translation": "yūrāniyum uranium",
+    "examples": []
+  },
+  {
+    "word": "يوزباشي",
+    "displayWord": "يوزباشي",
+    "translation": "yuzbašī pl. -īya captain, battery commander; (as a naval rank) lieutenant (formerly, Eg.)",
+    "examples": []
+  },
+  {
+    "word": "يوسف",
+    "displayWord": "يوسف",
+    "translation": "yūsuf Joseph; (eg., sur.) يوف افندي y. afandī (coll.) tangerines",
+    "examples": []
+  },
+  {
+    "word": "يوسفي",
+    "displayWord": "يوسفي",
+    "translation": "yūsufī (eg.) tangerines",
+    "examples": []
+  },
+  {
+    "word": "يوطنة",
+    "displayWord": "يوطنة",
+    "translation": "(from Fr. lieutenant; tun.) yūṭana) lieutenant",
+    "examples": []
+  },
+  {
+    "word": "يوغسلافيا",
+    "displayWord": "يوغسلافيا",
+    "translation": "yūgōslāviyī Yugoslavia",
+    "examples": []
+  },
+  {
+    "word": "يوغوسلافي",
+    "displayWord": "يوغوسلافي",
+    "translation": "yūgōslāvī Yugoslavian",
+    "examples": []
+  },
+  {
+    "word": "يافة",
+    "displayWord": "يافة",
+    "translation": "look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "يوليو",
+    "displayWord": "يوليو",
+    "translation": "yūliyō and يوليه yūliya July",
+    "examples": []
+  },
+  {
+    "word": "يوم",
+    "displayWord": "يوم",
+    "translation": "III to hire by the day ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "يوم",
+    "displayWord": "يوم",
+    "translation": "yaum pl. ايام ayyām day; pl. also: age, era, time │ اليوم al-yauma today; يوم yauma on the day when ...; ايام ayyāma in the days of, during; اياما ayyāman for a few days; ايامه ayyāmahū his lifetime, his life",
+    "examples": []
+  },
+  {
+    "word": "يومھا",
+    "displayWord": "يومھا",
+    "translation": "yaumahā then, at that time, that day;",
+    "examples": []
+  },
+  {
+    "word": "يوما",
+    "displayWord": "يوما",
+    "translation": "or يوم ما sometime, some day, one of these days; ذات يوم data yaumin one day, once; يوما يوما or يوما فيوما or يوما بعد يوم or",
+    "examples": []
+  },
+  {
+    "word": "يوما عن يوم",
+    "displayWord": "يوما عن يوم",
+    "translation": "day by day, day after day, from day to day; بعد اليوم from today on, starting today; في يومنا ھذا nowadays, these days; في",
+    "examples": []
+  },
+  {
+    "word": "يوم وليلة",
+    "displayWord": "يوم وليلة",
+    "translation": "(laila) overnight, from one day to the other; كل يوم kulla yaumin daily, every day; من يوم الى يوم or من يوم ليوم from one day to the other, from day to day; من يومه from that time on, henceforth; right away;",
+    "examples": []
+  },
+  {
+    "word": "يومئذ",
+    "displayWord": "يومئذ",
+    "translation": "yauma’idin (on) that day, then, at that time",
+    "examples": []
+  },
+  {
+    "word": "يومذاك",
+    "displayWord": "يومذاك",
+    "translation": "yaumadāka (on) that day, then",
+    "examples": []
+  },
+  {
+    "word": "يومي",
+    "displayWord": "يومي",
+    "translation": "yaumī daily; by the day; يومي daily, every day; يوميات everyday events; everyday chronicle; daily news │ جريدة",
+    "examples": []
+  },
+  {
+    "word": "يومية",
+    "displayWord": "يومية",
+    "translation": "daily newspaper",
+    "examples": []
+  },
+  {
+    "word": "يومية",
+    "displayWord": "يومية",
+    "translation": "yaumīya daily wages, a day’s wages; daily ration; a day’s work, daily task; diary, journal; daybook; calendar",
+    "examples": []
+  },
+  {
+    "word": "يوناني",
+    "displayWord": "يوناني",
+    "translation": "yūnānī Greek; (pl. -ūn) a Greek",
+    "examples": []
+  },
+  {
+    "word": "يونانية",
+    "displayWord": "يونانية",
+    "translation": "yūnānīya Grecism; Greek language",
+    "examples": []
+  },
+  {
+    "word": "يونس",
+    "displayWord": "يونس",
+    "translation": "yūnus Jonah",
+    "examples": []
+  },
+  {
+    "word": "يونوسفير",
+    "displayWord": "يونوسفير",
+    "translation": "yonosfēr ionosphere (radio)",
+    "examples": []
+  },
+  {
+    "word": "يونيو",
+    "displayWord": "يونيو",
+    "translation": "yūniyō and يوية yūniya June 1110",
+    "examples": []
   }
 ]

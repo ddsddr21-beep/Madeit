@@ -1,98 +1,4118 @@
 [
   {
+    "word": "درك",
+    "displayWord": "درك",
+    "translation": "li-llāh darruka exclamation of admiration and praise, see در",
+    "examples": []
+  },
+  {
+    "word": "دار الباى",
+    "displayWord": "دار الباى",
+    "translation": "dār al-bāy (formerly) the Tunisian government",
+    "examples": []
+  },
+  {
+    "word": "دبلوماسية",
+    "displayWord": "دبلوماسية",
+    "translation": "diplomatic mission; بعثة اثرية (atarīya) archaeological expedition; رئيس",
+    "examples": []
+  },
+  {
+    "word": "درب التابنة",
+    "displayWord": "درب التابنة",
+    "translation": "darb at-tabbāna the Milky Way",
+    "examples": []
+  },
+  {
+    "word": "دبلوماسية",
+    "displayWord": "دبلوماسية",
+    "translation": "diplomatic pouch; حقيبة النقود portemonnaie, change purse; حقيبة اليد ḥ. al-yad ladies’ purse, handbag",
+    "examples": []
+  },
+  {
+    "word": "دينه",
+    "displayWord": "دينه",
+    "translation": "(li-llāhi dīnahū) to worship God faithfully and sincerely V to rid o.s. ( من of), free o.s. ( من from), get rid ( من of); to be freed, be delivered, be saved, be rescued, escape ( من from) VI to act with reciprocal integrity and sincerity; to be quits, be even X to extract ( ھ s.th., من from); to copy, excerpt ( ھ s.th., من from); to abstract, take, gather, work out ( ھ s.th., as the quintessence, من of); to deduce, infer, derive ( من s.th., من from); to discover, make out, find out ( ھ s.th.); to select, choose ( ھ s.th.) ; to demand payment of a sum ( ھ ) and get it ( من from s.o.) │ استخلص فائدة من to derive profit from, profit, benefit from; استخلص منه وعدا (wa‘dan) to exact a promise from s.o.",
+    "examples": []
+  },
+  {
+    "word": "دأب",
+    "displayWord": "دأب",
+    "translation": "da’aba a (da’b, da’b, دؤوب du’ūb) to persist, persevere, be indefatigable, untiring, tireless ( فى or على in s.th.); to go in for s.th. ( على ), apply o.s., devote o.s. (",
+    "examples": []
+  },
+  {
+    "word": "دأب",
+    "displayWord": "دأب",
+    "translation": "da’b pl. ادؤب ad’ub habit",
+    "examples": []
+  },
+  {
+    "word": "دأب",
+    "displayWord": "دأب",
+    "translation": "da’b, da’ab and دؤوب du’ūb persistence, perseverance, tirelessness, indefatigability, assiduity, eagerness",
+    "examples": []
+  },
+  {
+    "word": "دئب",
+    "displayWord": "دئب",
+    "translation": "da’ib and دائب dā’ib addicted, devoted, persistent, assiduous, eager, indefatigable, untiring, tireless ( على in)",
+    "examples": []
+  },
+  {
+    "word": "دؤوب",
+    "displayWord": "دؤوب",
+    "translation": "da’ūb untiring, tireless, indefatigable, persevering, persistent",
+    "examples": []
+  },
+  {
+    "word": "دادة",
+    "displayWord": "دادة",
+    "translation": "dāda governess, dry nurse, nurse",
+    "examples": []
+  },
+  {
+    "word": "داغ",
+    "displayWord": "داغ",
+    "translation": "dāg pl. -āt brand (made on cattle, etc.)",
+    "examples": []
+  },
+  {
+    "word": "دال",
+    "displayWord": "دال",
+    "translation": "dāl name of the letter د",
+    "examples": []
+  },
+  {
+    "word": "داليا",
+    "displayWord": "داليا",
+    "translation": "dāliyā dahlia(s) (bot.)",
+    "examples": []
+  },
+  {
+    "word": "داما",
+    "displayWord": "داما",
+    "translation": "dāmā checkers│ لوحة الداما lauḥat ad-d. checkerboard",
+    "examples": []
+  },
+  {
+    "word": "دامجانة",
+    "displayWord": "دامجانة",
+    "translation": "see دمجانة",
+    "examples": []
+  },
+  {
+    "word": "دانتيلا",
+    "displayWord": "دانتيلا",
+    "translation": "(Fr. dentelle) dantilla lace",
+    "examples": []
+  },
+  {
+    "word": "دانق",
+    "displayWord": "دانق",
+    "translation": "dānaq, dāniq pl. دوانق dawāniq2 an ancient coin. = 1/4 dirham; small coin; a square measure (Eg.; = 4 sahm = 29.17 m2)",
+    "examples": []
+  },
+  {
+    "word": "دانمارك",
+    "displayWord": "دانمارك",
+    "translation": "dannmark Denmark",
+    "examples": []
+  },
+  {
+    "word": "دانماركى",
+    "displayWord": "دانماركى",
+    "translation": "danmarkī Danish",
+    "examples": []
+  },
+  {
+    "word": "داية",
+    "displayWord": "داية",
+    "translation": "dāya pl. -āt wet nrse; midwife",
+    "examples": []
+  },
+  {
+    "word": "دب",
+    "displayWord": "دب",
+    "translation": "dabba i (dabb, دبيب dabīb) to creep, crawl (reptile); to proceed, advance, or move slowly; to go on all fours; to enter ( فى s.th.), come ( فى into); to steal, creep ( فى",
+    "examples": []
+  },
+  {
+    "word": "دب",
+    "displayWord": "دب",
+    "translation": "dubb pl. ادباب adbāb, دببة dibaba bear│ الدب الاصغر (aṣgar) Little Bear, Ursa Minor (astron.); الدب الاكبر (akbar) Great Bear, Ursa Major (astron.) 269",
+    "examples": []
+  },
+  {
+    "word": "دبي",
+    "displayWord": "دبي",
+    "translation": "dubbī ursine",
+    "examples": []
+  },
+  {
+    "word": "دبة",
+    "displayWord": "دبة",
+    "translation": "dabba sand hill, mound",
+    "examples": []
+  },
+  {
+    "word": "دبيب",
+    "displayWord": "دبيب",
+    "translation": "dabīb creeping, crawling; infiltration; influx, inflow, flow (e.g., of sensations, of life, of vigor); reptile",
+    "examples": []
+  },
+  {
+    "word": "دباب",
+    "displayWord": "دباب",
+    "translation": "dabbāb creeping, crawling, repent, reptant",
+    "examples": []
+  },
+  {
+    "word": "دبابة",
+    "displayWord": "دبابة",
+    "translation": "dabbāba pl. -āt tank, armored car",
+    "examples": []
+  },
+  {
+    "word": "دابة",
+    "displayWord": "دابة",
+    "translation": "dābba pl. دواب dawābb2 animal, beast; riding animal (horse, mule, donkey)",
+    "examples": []
+  },
+  {
+    "word": "دويبة",
+    "displayWord": "دويبة",
+    "translation": "duwaibba tiny animal, animalcule; insect",
+    "examples": []
+  },
+  {
+    "word": "دبج",
+    "displayWord": "دبج",
+    "translation": "II to embellish, decorate, adorn, ornament (",
+    "examples": []
+  },
+  {
+    "word": "ديباج",
+    "displayWord": "ديباج",
+    "translation": "dībāj pl. دبابيج dabābīj2 silk brocade",
+    "examples": []
+  },
+  {
+    "word": "ديباجة",
+    "displayWord": "ديباجة",
+    "translation": "dībāja (n. un. of ديباج ) brocade; introductory verses or lines, proem, preamble; face, visage; style, elegance of style; renown, repute, standing, prestige",
+    "examples": []
+  },
+  {
+    "word": "دبدب",
+    "displayWord": "دبدب",
+    "translation": "dabdaba to tread, tap",
+    "examples": []
+  },
+  {
+    "word": "دبدبة",
+    "displayWord": "دبدبة",
+    "translation": "dabdaba sound of footsteps, footfall, pitapat; pattering or clattering noise; snapping, flapping noise",
+    "examples": []
+  },
+  {
+    "word": "دبدوبة",
+    "displayWord": "دبدوبة",
+    "translation": "dabdūba pl. دباديب dabādīb2 point, tip, tapered end",
+    "examples": []
+  },
+  {
+    "word": "دبر",
+    "displayWord": "دبر",
+    "translation": "1 dabara u ( دبور dubūr) to turn one’s back; to elapse, pass, go by (time) II to make arrangements, make plans ( ھ for), prepare, plan, organize, design, frame, devise, concert, arrange, get up, bring about ( ھ s.th.); to hatch ( ھ a plot, etc.); to contrive, work up ( ھ a ruse); to direct, conduct, manage, run, engineer, steer, marshal, regulate ( ھ s.th.), be in charge ( ھ of); to manage well, economize ( ھ s.th.) │",
+    "examples": []
+  },
+  {
+    "word": "دبر خطة",
+    "displayWord": "دبر خطة",
+    "translation": "(kiṭṭatan) to devise a plan; دبر",
+    "examples": []
+  },
+  {
+    "word": "دبر",
+    "displayWord": "دبر",
+    "translation": "dubr, dubur pl. ادبار adbār rump backside, buttocks, posteriors; rear part, Rear, hindpart; back; last part, end, tail │",
+    "examples": []
+  },
+  {
+    "word": "دبري",
+    "displayWord": "دبري",
+    "translation": "dabarī trailing behind, belated, late",
+    "examples": []
+  },
+  {
+    "word": "دبرة",
+    "displayWord": "دبرة",
+    "translation": "dabra turn (of fate)",
+    "examples": []
+  },
+  {
+    "word": "دبور",
+    "displayWord": "دبور",
+    "translation": "dabūr west wind",
+    "examples": []
+  },
+  {
+    "word": "دبور",
+    "displayWord": "دبور",
+    "translation": "dabbūr pl. -āt dabābīr2 hornet; wasp",
+    "examples": []
+  },
+  {
+    "word": "دابر",
+    "displayWord": "دابر",
+    "translation": "dābir past, bygone (time); the ultimate, utmost, extremity. end; root │",
+    "examples": []
+  },
+  {
+    "word": "دبارة",
+    "displayWord": "دبارة",
+    "translation": "2 dubāra (= دوبارة ) packthread, string, twine, cord, rope j thread",
+    "examples": []
+  },
+  {
+    "word": "دبس",
+    "displayWord": "دبس",
+    "translation": "1 dibs sirup, molasses, treacle, esp. of grapes",
+    "examples": []
+  },
+  {
+    "word": "دبوس",
+    "displayWord": "دبوس",
+    "translation": "2 dabbūs pl. دبابيس dabābīs2 pin; safety pin │ دبوس انكليزي safety pin",
+    "examples": []
+  },
+  {
+    "word": "دبش",
+    "displayWord": "دبش",
+    "translation": "dabaš junk, rubbish, trash; -- dabš rubblestone, rubble; crushed rock (used as substratum in macadamizing)",
+    "examples": []
+  },
+  {
+    "word": "دبغ",
+    "displayWord": "دبغ",
+    "translation": "dabaga a i u (dabg) to tan ( ھ a hide)",
+    "examples": []
+  },
+  {
+    "word": "دباغة",
+    "displayWord": "دباغة",
+    "translation": "dibāga tanning, tanner’s trade",
+    "examples": []
+  },
+  {
+    "word": "دباغ",
+    "displayWord": "دباغ",
+    "translation": "dabbāg tanner",
+    "examples": []
+  },
+  {
+    "word": "دبق",
+    "displayWord": "دبق",
+    "translation": "dabiqa a (dabaq) to stick, adhere ( ب to); to cleave, cling ( ب to) II to catch with birdlime ( ھ a bird)",
+    "examples": []
+  },
+  {
+    "word": "دبق",
+    "displayWord": "دبق",
+    "translation": "dibq birdlime",
+    "examples": []
+  },
+  {
+    "word": "دبق",
+    "displayWord": "دبق",
+    "translation": "dabiq sticky, gluey, limy",
+    "examples": []
+  },
+  {
+    "word": "دبك",
+    "displayWord": "دبك",
+    "translation": "dabaka u (dabk) to stamp the feet; to dance the dabka (see below)",
+    "examples": []
+  },
+  {
+    "word": "دبكة",
+    "displayWord": "دبكة",
+    "translation": "dabka (syr.) a group dance in which the dancers, lined up with looked arms or holding hands, stamp out the rhythm and sing",
+    "examples": []
+  },
+  {
+    "word": "دبلة",
+    "displayWord": "دبلة",
+    "translation": "dibla pl. دبل dibal ring",
+    "examples": []
+  },
+  {
+    "word": "دبلوم",
+    "displayWord": "دبلوم",
+    "translation": "diblōm and دبلومة diblōma pl. -āt diploma",
+    "examples": []
+  },
+  {
+    "word": "دبلوماسي",
+    "displayWord": "دبلوماسي",
+    "translation": "diblōmāsī diplomatic; diplomat",
+    "examples": []
+  },
+  {
+    "word": "دبلوماسية",
+    "displayWord": "دبلوماسية",
+    "translation": "diblōmāsīya diplomacy",
+    "examples": []
+  },
+  {
+    "word": "دثر",
+    "displayWord": "دثر",
+    "translation": "datara u ( دثور dutūr) to fall into oblivion, be forgotten, become obsolete, antiquated, extinct; to be blotted out, wiped out, effaced, obliterated (track by the wind) II to cover, envelop ( ه s.o.); to destroy, annihilate ( ھ s.th.) V to wrap o.s. ( في in), cover o.s. ( في with) VII to be or become wiped out, blotted out, effaced, obliterated; to be old; to be forgotten, have fallen into oblivion, be obsolete VIII iddatara to wrap o.s. ( ب in), cover o.s. ( ب with)",
+    "examples": []
+  },
+  {
+    "word": "دثار",
+    "displayWord": "دثار",
+    "translation": "ditār pl. دثر dutur blanket, cover",
+    "examples": []
+  },
+  {
+    "word": "دج",
+    "displayWord": "دج",
+    "translation": "dajja i (dajj, دجيج dajīj) to walk slowly II",
+    "examples": []
+  },
+  {
+    "word": "دججه بالسلاح",
+    "displayWord": "دججه بالسلاح",
+    "translation": "to arm s.o. to the teeth",
+    "examples": []
+  },
+  {
+    "word": "دج",
+    "displayWord": "دج",
+    "translation": "dujj (syr.) thrush (zool.)",
+    "examples": []
+  },
+  {
+    "word": "دجة",
+    "displayWord": "دجة",
+    "translation": "dujja intense darkness, pitchdarkness",
+    "examples": []
+  },
+  {
+    "word": "دجاج",
+    "displayWord": "دجاج",
+    "translation": "dajāj (coll.) chickens; fowl (as a generic designation)",
+    "examples": []
+  },
+  {
+    "word": "دجاجة",
+    "displayWord": "دجاجة",
+    "translation": "dajāja (n. un.) hen; chicken │",
+    "examples": []
+  },
+  {
+    "word": "دجاجة الحبش",
+    "displayWord": "دجاجة الحبش",
+    "translation": "d. al-ḥabaš guinea fowl",
+    "examples": []
+  },
+  {
+    "word": "دجر",
+    "displayWord": "دجر",
+    "translation": "dajira a (dajar) to be embarrassed, be at a loss",
+    "examples": []
+  },
+  {
+    "word": "ديجور",
+    "displayWord": "ديجور",
+    "translation": "dajūr pl. دياجير dayājīr2 gloom, darkness, dark",
+    "examples": []
+  },
+  {
+    "word": "ديجوري",
+    "displayWord": "ديجوري",
+    "translation": "daijūrīi dark, gloomy",
+    "examples": []
+  },
+  {
+    "word": "دجل",
+    "displayWord": "دجل",
+    "translation": "dajala u to deceive, dupe, cheat, take in (",
+    "examples": []
+  },
+  {
+    "word": "دجل",
+    "displayWord": "دجل",
+    "translation": "dajl deceit, trickery, humbug, swindle",
+    "examples": []
+  },
+  {
+    "word": "دجال",
+    "displayWord": "دجال",
+    "translation": "dajjāl pl. -ūn, دجاجلة dajājila swindler, cheat, imposter; quack, charlatan (fem. دجالة ); Antichrist",
+    "examples": []
+  },
+  {
+    "word": "دجلة",
+    "displayWord": "دجلة",
+    "translation": "2 dijla the Tigris river",
+    "examples": []
+  },
+  {
+    "word": "دجن",
+    "displayWord": "دجن",
+    "translation": "dajana u (dajn, دجن dujūn) to be dusky, murky, gloomy (day); -- (dujūn) to remain, stay; to get used, become accustomed, become habituated; to become tame, be domesticated II to tame; to domesticate ( ھ an animal) │ دجنه لخدمة",
+    "examples": []
+  },
+  {
+    "word": "دجنة",
+    "displayWord": "دجنة",
+    "translation": "dujna, dujunna darkness, gloominess, gloom",
+    "examples": []
+  },
+  {
+    "word": "داجن",
+    "displayWord": "داجن",
+    "translation": "dājin tame, tamed, domesticated (animal); dark, gloomy │ حيوانات داجنة (ḥayawānāt) domestic animals",
+    "examples": []
+  },
+  {
+    "word": "دواجن",
+    "displayWord": "دواجن",
+    "translation": "dawājin2 poultry",
+    "examples": []
+  },
+  {
+    "word": "دجا",
+    "displayWord": "دجا",
+    "translation": "(دجو ) dajā u to be dark, gloomy, dusky; to overshadow, cover, veil, shroud, blanket (",
+    "examples": []
+  },
+  {
+    "word": "دجى",
+    "displayWord": "دجى",
+    "translation": "dujan gloom, darkness, duskiness",
+    "examples": []
+  },
+  {
+    "word": "دياج الليل",
+    "displayWord": "دياج الليل",
+    "translation": "dayājī l-lail dark of night",
+    "examples": []
+  },
+  {
+    "word": "داج",
+    "displayWord": "داج",
+    "translation": "dājin dark, gloomy",
+    "examples": []
+  },
+  {
+    "word": "دحدح",
+    "displayWord": "دحدح",
+    "translation": "II tadaḥdaḥa to waddle",
+    "examples": []
+  },
+  {
+    "word": "دحدح",
+    "displayWord": "دحدح",
+    "translation": "daḥdaḥ and دحداح daḥdāḥ dumpy, squat, stocky",
+    "examples": []
+  },
+  {
+    "word": "دحر",
+    "displayWord": "دحر",
+    "translation": "daḥara a (daḥr, دحور ) to drive away, chase away ( ه s.o.); to dislodge, remove ( ه s.o.); to defeat ( ه an army) VIII to be driven away, be routed, be repelled, be thrown back; to be defeated (army); to go under, go to ruin, succumb, break down, collapse",
+    "examples": []
+  },
+  {
+    "word": "دحرج",
+    "displayWord": "دحرج",
+    "translation": "daḥraja to roll ( ھ s.th.) II tadaḥraja to roll, roll along; to roll down",
+    "examples": []
+  },
+  {
+    "word": "داحس",
+    "displayWord": "داحس",
+    "translation": "dāḥis pl. dawāḥis whitlow, felon (med.)",
+    "examples": []
+  },
+  {
+    "word": "دحس",
+    "displayWord": "دحس",
+    "translation": "daḥasa a (daḥs) to insert, thrust in, shove in, foist in, smuggle in VII to interfere, meddle; to mix",
+    "examples": []
+  },
+  {
+    "word": "دحض",
+    "displayWord": "دحض",
+    "translation": "daḥāḍa a to be invalid, void, untenable (argument); to disprove, refute, invalidate ھ) an argument) II and IV to disprove, refute, invalidate ( ھ an argument)",
+    "examples": []
+  },
+  {
+    "word": "دحض",
+    "displayWord": "دحض",
+    "translation": "daḥḍ refutation, disproof",
+    "examples": []
+  },
+  {
+    "word": "دحوض",
+    "displayWord": "دحوض",
+    "translation": "duḥūḍ: invalidity, shakiness, weakness, refutability (of an argument or a claim)",
+    "examples": []
+  },
+  {
+    "word": "دحا",
+    "displayWord": "دحا",
+    "translation": "(دحو ) daḥā u (daḥw) to spread out, flatten, level, unroll O مدحى midḥan pl. مداح madāḥin roller, steamroller",
+    "examples": []
+  },
+  {
+    "word": "دخس",
+    "displayWord": "دخس",
+    "translation": "dukas dolphin",
+    "examples": []
+  },
+  {
+    "word": "دخل",
+    "displayWord": "دخل",
+    "translation": "dikala u ( دخول dukūl) to enter ( ھ , less frequently في , also الى , s.th.), go, step, walk, move, come, get ( ھ، في، الى into); to penetrate, pierce ( ھ، في، الى s.th.); to take possession of s.o. ( ه), befall, seize ( ه s.o.; e.g., doubt); to take up ( خدمة a post), start at a job; to enter s.o.’s ( على ) room or house, drop in on s.o. ( على ), come to see s.o. ( على ); to call on s.o. ( على ); to consummate the marriage, cohabit, sleep (\", or على with a woman); to come ( على over s.o.; e.g., joy); (gram.) to be added (",
+    "examples": []
+  },
+  {
+    "word": "دخل",
+    "displayWord": "دخل",
+    "translation": "dakl income; revenues, receipts, returns, takings (as opposed to karj); interference, intervention; doubt, misgiving │ ضريبة الدخل income tax; ليس له",
+    "examples": []
+  },
+  {
+    "word": "دخل",
+    "displayWord": "دخل",
+    "translation": "dakal disturbance, derangement, disorder, imbalance, or defect of the mind; defect, infirmity",
+    "examples": []
+  },
+  {
+    "word": "دخلة",
+    "displayWord": "دخلة",
+    "translation": "dikla intrinsic nature, essence; inner self, innermost, heart, soul (of a person); secret intention │ راجع دخلته rāja‘a diḳlatahū to commune with o.s., search one’s soul",
+    "examples": []
+  },
+  {
+    "word": "دخلة",
+    "displayWord": "دخلة",
+    "translation": "dukla: ليلة الدخلة lailat ad-d. wedding night",
+    "examples": []
+  },
+  {
+    "word": "دخلة",
+    "displayWord": "دخلة",
+    "translation": "dukkala a variety of warbler 273",
+    "examples": []
+  },
+  {
+    "word": "دخيل",
+    "displayWord": "دخيل",
+    "translation": "dakī1 inner, inward, internal; inner self, heart, core; -- (pl. دخلاء dukalā’2) extraneous; foreign, alien; exotic; foreigner, alien, stranger; not genuine, false, spurious; newly added ( على to); novice; (new) convert; guest; protégé, charge, ward │ كلمة دخيلة (kalima), لفظ دخيل (lafẓ) foreign word or expression; (syr.- pal.) دخيلك (dakīlak) please, if you please",
+    "examples": []
+  },
+  {
+    "word": "دخيلة",
+    "displayWord": "دخيلة",
+    "translation": "dakīla pl. دخائل dakā’il2 inner self, inmost being, intrinsic nature, essence; heart, soul │ في دخيلة نفسه inwardly, inside, in his heart; دخائل نفوسنا our inmost being;",
+    "examples": []
+  },
+  {
+    "word": "دخائل الأمور",
+    "displayWord": "دخائل الأمور",
+    "translation": "the underlying nature of things, the factors at the bottom of things; دخائل",
+    "examples": []
+  },
+  {
+    "word": "دخول",
+    "displayWord": "دخول",
+    "translation": "dukūl entry, entranoe, admission; entering, ingress; beginning, setting in; penetration; intrusion, invasion; first coition in marriage (Isl. Law) │ دخول الحرب d. al-ḥarb entry into war",
+    "examples": []
+  },
+  {
+    "word": "دخولية",
+    "displayWord": "دخولية",
+    "translation": "dukūlīya octroi, city toll",
+    "examples": []
+  },
+  {
+    "word": "دخل",
+    "displayWord": "دخل",
+    "translation": "madkal pl. مداخل madākil2 entrance; hallway, vestibule, anteroom; entrance hall, lobby, foyer; mouth (of a port, of a canal); O anode (el.); introduction (to a field of learning); behavior, conduct │",
+    "examples": []
+  },
+  {
+    "word": "داخل",
+    "displayWord": "داخل",
+    "translation": "belonging, pertaining ( في to), falling ( في under), included ( في in); inner, inward, inside, interior, internal; inside, interior (of s.th.); dākila (prep.) within, inside, in;",
+    "examples": []
+  },
+  {
+    "word": "داخلا",
+    "displayWord": "داخلا",
+    "translation": "dākilan inside (adv.) │ من الداخل from within; from the inside",
+    "examples": []
+  },
+  {
+    "word": "داخلة",
+    "displayWord": "داخلة",
+    "translation": "dākila pl. دواخل dawākil2 interior, inside, inmost, hidden part; الداخلة the Dakhla oasis (in central Egypt)",
+    "examples": []
+  },
+  {
+    "word": "داخلي",
+    "displayWord": "داخلي",
+    "translation": "dākilī inner, inward; internal; interior, inside; domestic, home, inland (as opposed to خارجي kārijī external, foreign; pol.); indigenous, native; private; belonging to the house; داخليا dākilīyan inside (adv.) │ تلاميذ داخلية boarding students (as opposed to خارجية day students); حرب داخلية (ḥarb) civil war;",
+    "examples": []
+  },
+  {
+    "word": "داخلية",
+    "displayWord": "داخلية",
+    "translation": "dākilīya interior │ داخلية البلاد the interior of the country, the inland; وزارة الداخلية ministry of the interior; وزير الداخلية minister of the interior",
+    "examples": []
+  },
+  {
+    "word": "دخمس",
+    "displayWord": "دخمس",
+    "translation": "dakmasa ( دخمسة , dakmasa) to fool ( على s.o.) about one’s real intentions, pull the wool over s.o.’s ( على ) eyes; to cheat; to be sly, crafty, artful",
+    "examples": []
+  },
+  {
+    "word": "دخمسة",
+    "displayWord": "دخمسة",
+    "translation": "dakmasa deception, fooling, trickery; cunning, craft, slyness 274",
+    "examples": []
+  },
+  {
+    "word": "دخن",
+    "displayWord": "دخن",
+    "translation": "dakina a to be smoky; to taste or smell of smoke; -- dakina a u to smoke, emit smoke (fire) II to fumigate, fume ( ھ s.th.); to smoke, cure with smoke ( ھ foodstuffs); to smoke ( ھ a cigarette, tobacco, a pipe) IV to smoke, emit smoke (tire) V to be smoked, be cured with smoke; to be fumigated",
+    "examples": []
+  },
+  {
+    "word": "دخن",
+    "displayWord": "دخن",
+    "translation": "dukn pearl millet, dukhn",
+    "examples": []
+  },
+  {
+    "word": "دخن",
+    "displayWord": "دخن",
+    "translation": "dakan smoke, fume, vapor",
+    "examples": []
+  },
+  {
+    "word": "دخان",
+    "displayWord": "دخان",
+    "translation": "dukān (dukkān) pl. ادخنة adkina smoke, fume, vapor; tobacco",
+    "examples": []
+  },
+  {
+    "word": "دخنة",
+    "displayWord": "دخنة",
+    "translation": "dukna smoke color; a kind of incense (Calamus aromatious) O دخينة dakīna cigarette",
+    "examples": []
+  },
+  {
+    "word": "دخاخني",
+    "displayWord": "دخاخني",
+    "translation": "dakākinī (eg., tun.) tobacconist",
+    "examples": []
+  },
+  {
+    "word": "دخن",
+    "displayWord": "دخن",
+    "translation": "madkana pl. مداخن madākin2 chimney, smokestack, funnel",
+    "examples": []
+  },
+  {
+    "word": "داخنة",
+    "displayWord": "داخنة",
+    "translation": "dākina pl. دواخن dawākin2 chimney, smokestack, funnel",
+    "examples": []
+  },
+  {
+    "word": "ديدبان",
+    "displayWord": "ديدبان",
+    "translation": "look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "ديدن",
+    "displayWord": "ديدن",
+    "translation": "daidan habit, practice",
+    "examples": []
+  },
+  {
+    "word": "ددى",
+    "displayWord": "ددى",
+    "translation": "III to pamper, spoil ( ه a child)",
+    "examples": []
+  },
+  {
+    "word": "در",
+    "displayWord": "در",
+    "translation": "darra i u (darr) to flow copiously; to stream, flow, well; to accrue ( على to s.o.; profit, wealth); to be abundant, plentiful IV to cause to flow; to bestow lavishly, heap ( على ه s.th. upon s.o.), shower, overwhelm ( على ه with s.th. s.o.); to yield (",
+    "examples": []
+  },
+  {
+    "word": "درر",
+    "displayWord": "درر",
+    "translation": "darr milk; achievement, accomplishment │ دره 􀍿 li-llāhi darruhū (literally: his achievement is due to God) how capable, how good, how excellent he is!",
+    "examples": []
+  },
+  {
+    "word": "در",
+    "displayWord": "در",
+    "translation": "durr (coll.) pearls",
+    "examples": []
+  },
+  {
+    "word": "درة",
+    "displayWord": "درة",
+    "translation": "durra (n. un.) pl. -āt, درر durar pearl; -- a variety of parrot (Psittacus A1exandri L.)",
+    "examples": []
+  },
+  {
+    "word": "دري",
+    "displayWord": "دري",
+    "translation": "durrī glittering, twinkling, brilliant (star)",
+    "examples": []
+  },
+  {
+    "word": "درة",
+    "displayWord": "درة",
+    "translation": "dirra, darra pl. درر dirar teat; udder",
+    "examples": []
+  },
+  {
+    "word": "دار",
+    "displayWord": "دار",
+    "translation": "dārr flowing copiously; productive, rich, lucrative; profitable",
+    "examples": []
+  },
+  {
+    "word": "درأ",
+    "displayWord": "درأ",
+    "translation": "dara’a (dar’) to reject ( ھ s.th.); to avert, ward off ( ھ s.th., e.g., خطرا kaṭaran a danger, عن from) VI iddāra’a to contend (",
+    "examples": []
+  },
+  {
+    "word": "درء",
+    "displayWord": "درء",
+    "translation": "dar’ repulsion, prevention, averting; warding off, parrying",
+    "examples": []
+  },
+  {
+    "word": "دريئة",
+    "displayWord": "دريئة",
+    "translation": "darī’a pl. -āt target",
+    "examples": []
+  },
+  {
+    "word": "درابزين",
+    "displayWord": "درابزين",
+    "translation": "darābazīn railing, parapet, banisters, balustrade",
+    "examples": []
+  },
+  {
+    "word": "دراج",
+    "displayWord": "دراج",
+    "translation": "Durrës (It. Durazzo, seaport in W Albania)",
+    "examples": []
+  },
+  {
+    "word": "دراق",
+    "displayWord": "دراق",
+    "translation": "durrāq (syr.) peach",
+    "examples": []
+  },
+  {
+    "word": "درامي",
+    "displayWord": "درامي",
+    "translation": "dərāmī dramatic",
+    "examples": []
+  },
+  {
+    "word": "درب",
+    "displayWord": "درب",
+    "translation": "dariba a (darab, درب durba) to be accustomed, be used ( ب to), be practiced, trained, skilled ( ب in) II to habituate, accustom ( ھ، ه s.o.) s.th., في or ب or على to); to practice, drill ( ه s.o., على ب or على in); to school, train, coach, tutor ( ه s.o., ، في",
+    "examples": []
+  },
+  {
+    "word": "درب",
+    "displayWord": "درب",
+    "translation": "darb pl. دروب durūb narrow mountain pass; path, trail, track; road; alley, lane│ درب التبانة d. at-tabbāna the Milky Way",
+    "examples": []
+  },
+  {
+    "word": "دربة",
+    "displayWord": "دربة",
+    "translation": "durba habituation, habitude, habit; familiarity (with s.th.), experience; skill, practice",
+    "examples": []
+  },
+  {
+    "word": "دريبة",
+    "displayWord": "دريبة",
+    "translation": "darība court of first instance (Tun.)",
+    "examples": []
+  },
+  {
+    "word": "درازين",
+    "displayWord": "درازين",
+    "translation": "darābazīn and درزين darbazīn railing, parapet, banisters, balustrade",
+    "examples": []
+  },
+  {
+    "word": "دربس",
+    "displayWord": "دربس",
+    "translation": "darbasa to bolt ( ھ a door)",
+    "examples": []
+  },
+  {
+    "word": "درباس",
+    "displayWord": "درباس",
+    "translation": "dirbās pl. درابيس darābīs2 bolt, doorbolt",
+    "examples": []
+  },
+  {
+    "word": "دربكة",
+    "displayWord": "دربكة",
+    "translation": "darabukka (eg.), dirbakka (syr.) pl. –āt darabukka, a conical, one-headed hand drum, open at the small end",
+    "examples": []
+  },
+  {
+    "word": "دربكة",
+    "displayWord": "دربكة",
+    "translation": "darbaka banging or rattling noise, din, uproar, turmoil",
+    "examples": []
+  },
+  {
+    "word": "درج",
+    "displayWord": "درج",
+    "translation": "daraja u ( دروج durūj) to go, walk, move, proceed, advance (slowly); to approach gradually, step by step ( الى s.th.); to follow a course ( على ), proceed along the lines of (",
+    "examples": []
+  },
+  {
+    "word": "درج",
+    "displayWord": "درج",
+    "translation": "darj entry, entering, registering, registration, recording; a rolled or folded paper; roll, scroll│ فى درج الكتاب in the book; فى درج الكلام d. il-kalām in the course of the talk",
+    "examples": []
+  },
+  {
+    "word": "درج",
+    "displayWord": "درج",
+    "translation": "durj pl. ادراج adrāj drawer (of a table, desk, etc.); desk (e.g., for pupils in school)",
+    "examples": []
+  },
+  {
+    "word": "درج",
+    "displayWord": "درج",
+    "translation": "daraj pl. ادراج adrāj way, route, course; flight of steps, stairs, staircase│",
+    "examples": []
+  },
+  {
+    "word": "درجة",
+    "displayWord": "درجة",
+    "translation": "daraja pl. -at step, stair; flight of steps, stairs, staircase; degree, step, tone (of a scale; mus.); degree (math., geogr.; of temperature); grade, fate; degree, order, rank; club (also, e.g., in trains, of a decoration); phase state, stage (of a development); mark, grade (in school)│",
+    "examples": []
+  },
+  {
+    "word": "درجة الحرارة",
+    "displayWord": "درجة الحرارة",
+    "translation": "d. al-ḥarāra (degree of) temperature; الدرجات العليا (‘ulyā) the maximal temperatures; الدرجات السفلى (suflā) the minimal temperatures; درجة",
+    "examples": []
+  },
+  {
+    "word": "درجة",
+    "displayWord": "درجة",
+    "translation": "of superior quality, high-grade, highclass;",
+    "examples": []
+  },
+  {
+    "word": "دراج",
+    "displayWord": "دراج",
+    "translation": "durrāj pl. دراريج darārīj2 francolin (zool.); see also alphabetically",
+    "examples": []
+  },
+  {
+    "word": "دراجة",
+    "displayWord": "دراجة",
+    "translation": "darrāja pl. -at bicycle│ دراجة نارية motorcycle",
+    "examples": []
+  },
+  {
+    "word": "دراج",
+    "displayWord": "دراج",
+    "translation": "darrāj current, prevalent, widespread, popular, common, in vogue, circulating, in circulation│ الكلام الدراج (kalām) and اللغة الدارجة (luga) the popular language, colloquial language",
+    "examples": []
+  },
+  {
+    "word": "درد",
+    "displayWord": "درد",
+    "translation": "darida a (darad) to become toothless, lose one’s teeth",
+    "examples": []
+  },
+  {
+    "word": "دردى",
+    "displayWord": "دردى",
+    "translation": "durdī sediment, dregs, lees",
+    "examples": []
+  },
+  {
+    "word": "دردبيس",
+    "displayWord": "دردبيس",
+    "translation": "dardabīs ugly old woman. hag",
+    "examples": []
+  },
+  {
+    "word": "دردرة",
+    "displayWord": "دردرة",
+    "translation": "dardara roar, rush (of water); idle talk, prattle, chatter",
+    "examples": []
+  },
+  {
+    "word": "دردار",
+    "displayWord": "دردار",
+    "translation": "dardār elm (bot.)",
+    "examples": []
+  },
+  {
+    "word": "دردور",
+    "displayWord": "دردور",
+    "translation": "durdūr eddy, whirlpool, vortex",
+    "examples": []
+  },
+  {
+    "word": "دردش",
+    "displayWord": "دردش",
+    "translation": "dardaša idle talk, prattle, chatter 277",
+    "examples": []
+  },
+  {
+    "word": "درز",
+    "displayWord": "درز",
+    "translation": "1 daraza u to sew, stitch",
+    "examples": []
+  },
+  {
+    "word": "درز",
+    "displayWord": "درز",
+    "translation": "darz pl. دروز durūz seam, hem; suture",
+    "examples": []
+  },
+  {
+    "word": "درزى",
+    "displayWord": "درزى",
+    "translation": "2 durzī pl. دروز durūz Druse│ جبل الدروز jabal ad-d. the Jebel ed Druz, the mountainous homeland of the Druses in S Syria",
+    "examples": []
+  },
+  {
     "word": "درس",
-    "displayWord": "دَرْس",
-    "root": "درس",
-    "translation": "lesson, class, study",
-    "examples": [
-      {
-        "ar": "فَهِمَ الطُّلَّابُ الدَّرْسَ بَعْدَ تَفْصِيلِ المُعَلِّمِ.",
-        "en": "The students understood the lesson after the teacher's detailing.",
-        "source": "Educational Record"
-      }
-    ]
+    "displayWord": "درس",
+    "translation": "darasa u (dars) to wipe out, blot out, obliterate, efface, extinguish ( ھ s.th.); to thresh ( ھ grain); to learn, study ( ھ s.th.,",
+    "examples": []
   },
   {
-    "word": "دوله",
-    "displayWord": "دَوْلَة",
-    "root": "دول",
-    "translation": "state, country, administration",
-    "examples": [
-      {
-        "ar": "الدَّوْلَةُ مَسْؤُولَةٌ عَنْ حِمَايَةِ المَوَارِدِ العَامَّةِ.",
-        "en": "The state is responsible for protecting public resources.",
-        "source": "Legal Code"
-      }
-    ]
+    "word": "درس",
+    "displayWord": "درس",
+    "translation": "dars effacement, obliteration, extinction; -- (pl. دروس durūs) study, studies; lesson, chapter (of a textbook); class, class hour, period; lecture; lesson (taught by experience, etc.)│ القى دروسا عن (alqā) to lecture on ... ; اعطى دروسا (a‘ṯā) to give lessons; دروس منزلية (manzilīya) homework (of a pupil or student)",
+    "examples": []
   },
   {
-    "word": "دنيا",
-    "displayWord": "دُنْيَا",
-    "root": "دنو",
-    "translation": "world, wordly life",
-    "examples": [
-      {
-        "ar": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً.",
-        "en": "Our Lord, give us in this world [that which is] good and in the Hereafter [that which is] good.",
-        "source": "Holy Quran"
-      }
-    ]
+    "word": "دراس",
+    "displayWord": "دراس",
+    "translation": "dirās threshing (of grain)",
+    "examples": []
   },
   {
-    "word": "دين",
-    "displayWord": "دِين",
-    "root": "دين",
-    "translation": "religion, debt, custom, creed",
-    "examples": [
-      {
-        "ar": "لَكُمْ دِينُكُمْ وَلِيَ دِينِ.",
-        "en": "For you is your religion, and for me is my religion.",
-        "source": "Holy Quran"
-      },
-      {
-        "ar": "الدِّينُ المُعَامَلَةُ.",
-        "en": "Religion is [good] treatment [of others].",
-        "source": "Hadith"
-      }
-    ]
+    "word": "دراسة",
+    "displayWord": "دراسة",
+    "translation": "dirasa pl. -āt studies; study│ دراسة",
+    "examples": []
   },
   {
-    "word": "دليل",
-    "displayWord": "دَلِيل",
-    "root": "دلل",
-    "translation": "evidence, guide, directory, proof",
-    "examples": [
-      {
-        "ar": "هَاتُوا بُرْهَانَكُمْ إِن كُنتُمْ صَادِقِينَ.",
-        "en": "Produce your proof, if you should be truthful.",
-        "source": "Holy Quran"
-      }
-    ]
+    "word": "دراسى",
+    "displayWord": "دراسى",
+    "translation": "dirāsī of or pertaining to study or studies; scholastic, school; instructional, educational, teaching, tuitional│ رسوم",
+    "examples": []
+  },
+  {
+    "word": "دراسية",
+    "displayWord": "دراسية",
+    "translation": "tuition fees; سنة دراسية (sana) academic year; scholastic year, school year",
+    "examples": []
+  },
+  {
+    "word": "دريس",
+    "displayWord": "دريس",
+    "translation": "darīs dried clover",
+    "examples": []
+  },
+  {
+    "word": "دراس",
+    "displayWord": "دراس",
+    "translation": "darrās pl. -ūn (eager) student O دراسة darrāsa flail; threshing machine│O حصادة دراسة (ḥaṣṣāda) combine",
+    "examples": []
+  },
+  {
+    "word": "درواس",
+    "displayWord": "درواس",
+    "translation": "dirwās mastiff",
+    "examples": []
+  },
+  {
+    "word": "دارس",
+    "displayWord": "دارس",
+    "translation": "dāris pl. دوارس dawāris2 effaced, obliterated; old, dilapidated, crumbling │",
+    "examples": []
+  },
+  {
+    "word": "درع",
+    "displayWord": "درع",
+    "translation": "II to arm; to armor, equip with armor ( ھ s.th.) V and VIII iddara‘a to arm o.s., take up arms, put on armor",
+    "examples": []
+  },
+  {
+    "word": "درع",
+    "displayWord": "درع",
+    "translation": "dir‘ m. and f., pl. دروع durū‘, ادرع adru‘, ادراع adrā‘ coat of mail, hauberk; (suit of) plate armor; armor plate; armor; armature; (pl. ادراع adrā‘) chemise 278",
+    "examples": []
+  },
+  {
+    "word": "دراعة",
+    "displayWord": "دراعة",
+    "translation": "darrā‘a pl. -āt armored cruiser",
+    "examples": []
+  },
+  {
+    "word": "دراعة",
+    "displayWord": "دراعة",
+    "translation": "durrā‘a pl. درارع darārī‘2 loose outer garment with sleeves, slit in front",
+    "examples": []
+  },
+  {
+    "word": "دارع",
+    "displayWord": "دارع",
+    "translation": "dāri‘ armored, armor-clad, ironclad",
+    "examples": []
+  },
+  {
+    "word": "دارعة",
+    "displayWord": "دارعة",
+    "translation": "dāri‘a pl. دوارع dawārī‘2 armored cruiser",
+    "examples": []
+  },
+  {
+    "word": "درف",
+    "displayWord": "درف",
+    "translation": "darf side, flank, wing; protection",
+    "examples": []
+  },
+  {
+    "word": "درفة",
+    "displayWord": "درفة",
+    "translation": "darfa pl. درف diraf leaf (of a double door or window)",
+    "examples": []
+  },
+  {
+    "word": "درفيل",
+    "displayWord": "درفيل",
+    "translation": "darfīl dolphin",
+    "examples": []
+  },
+  {
+    "word": "درقة",
+    "displayWord": "درقة",
+    "translation": "1 daraqa (leather) shield O درق daraq thyroid gland",
+    "examples": []
+  },
+  {
+    "word": "درقي",
+    "displayWord": "درقي",
+    "translation": "daraqī shield-shaped; thyroid │ الغدة",
+    "examples": []
+  },
+  {
+    "word": "دراق",
+    "displayWord": "دراق",
+    "translation": "2 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "درك",
+    "displayWord": "درك",
+    "translation": "1 II to last, continue, keep up (rains) III to reach, get, catch, overtake, outdistance, outrun ( ھ، ه s.o., s.th.), catch up, come up ھ, ه) with); to keep up, continue without interruption ( ھ s.th.) IV to attain, reach ( ھ s.th.), arrive ( ھ at); to get, catch, overtake ه) s.o., ھ s.th.), catch up, come up ( ھ, ه with); to come suddenly, unexpectedly ( ه upon s.o.), overtake ( ه s.o.; death); to obtain ( ھ s.th.); to grasp, comprehend ( ھ s.th.); to perceive, discern, notice ( ھ s.th.); to realize, understand ( ھ s.th.), become aware, become conscious ( ھ of s.th.); to mature, ripen (e.g., a fruit); to attain puberty, reach sexual maturity (boy) V",
+    "examples": []
+  },
+  {
+    "word": "درك",
+    "displayWord": "درك",
+    "translation": "darak attainment, achievement, accomplishment; overtaking, catching up; police; (pl. ادراك adrāk) bottom, lowest level",
+    "examples": []
+  },
+  {
+    "word": "دركي",
+    "displayWord": "دركي",
+    "translation": "darakī policeman",
+    "examples": []
+  },
+  {
+    "word": "دركة",
+    "displayWord": "دركة",
+    "translation": "daraka lowest level; pl. –āt descending steps (as opposed to درجات ; cf.",
+    "examples": []
+  },
+  {
+    "word": "درجات الحيات ودركات الموت",
+    "displayWord": "درجات الحيات ودركات الموت",
+    "translation": "darajāt al-ḥayāh wa-d. al-maut)",
+    "examples": []
+  },
+  {
+    "word": "دراك",
+    "displayWord": "دراك",
+    "translation": "darrāk much-accomplishing, efficient, successful",
+    "examples": []
+  },
+  {
+    "word": "دراكا",
+    "displayWord": "دراكا",
+    "translation": "dirākan (adv.) constantly, incessantly, without interruption",
+    "examples": []
+  },
+  {
+    "word": "درك",
+    "displayWord": "درك",
+    "translation": "2 (Engl.) derrick, derrick crane",
+    "examples": []
+  },
+  {
+    "word": "درم",
+    "displayWord": "درم",
+    "translation": "darima a to fall out (teeth) II to clip, trim (",
+    "examples": []
+  },
+  {
+    "word": "درن",
+    "displayWord": "درن",
+    "translation": "darina a (daran) to be dirty, filthy IV do. V to suffer from tuberculosis",
+    "examples": []
+  },
+  {
+    "word": "درن",
+    "displayWord": "درن",
+    "translation": "darn pl. ادران adrān dirt, filth; tubercles; tuberculosis │ درن رئوي (ri’awī) pulmonary tuberculosis",
+    "examples": []
+  },
+  {
+    "word": "درنة",
+    "displayWord": "درنة",
+    "translation": "darana (n. un.) pl. -āt tubercle; small tumor, outgrowth, excrescence, tuberculc, nodule",
+    "examples": []
+  },
+  {
+    "word": "درني",
+    "displayWord": "درني",
+    "translation": "daranī tubercular, tuberculous",
+    "examples": []
+  },
+  {
+    "word": "درھم",
+    "displayWord": "درھم",
+    "translation": "dirham pl. دراھم darāhim2 dirhem, drachma (Ir. = coin of فلس 50 ); a weight (Eg. = 1/ اوقية 12 = ca. 3.12 g); دراھم money, cash",
+    "examples": []
+  },
+  {
+    "word": "دريھمات",
+    "displayWord": "دريھمات",
+    "translation": "duraihimāt (dimin. with a derogatory sense; approx.:) pennies",
+    "examples": []
+  },
+  {
+    "word": "دروة",
+    "displayWord": "دروة",
+    "translation": "dirwa pl. -āt (eg.) protecting screen or wall; parapet",
+    "examples": []
+  },
+  {
+    "word": "درواس",
+    "displayWord": "درواس",
+    "translation": "dirwās mastiff",
+    "examples": []
+  },
+  {
+    "word": "درويش",
+    "displayWord": "درويش",
+    "translation": "darwīš pl. دراويش darāwīš2 dervish",
+    "examples": []
+  },
+  {
+    "word": "درى",
+    "displayWord": "درى",
+    "translation": "1 darī ī ( دراية dirāya) to know ( ب or ھ s.th. or of s.th.); to be aware, be cognizant ( ب or ھ of); to understand, comprehend ( ب or",
+    "examples": []
+  },
+  {
+    "word": "دراية",
+    "displayWord": "دراية",
+    "translation": "dirāya knowledge, cognizance, acquaintance",
+    "examples": []
+  },
+  {
+    "word": "دار",
+    "displayWord": "دار",
+    "translation": "dārin knowing, aware, cognizant ( ب of s.th.)",
+    "examples": []
+  },
+  {
+    "word": "درياق",
+    "displayWord": "درياق",
+    "translation": "diryāq (= ترياق ) theriaca; antidote",
+    "examples": []
+  },
+  {
+    "word": "دزينة",
+    "displayWord": "دزينة",
+    "translation": "(It. dozzina) dazzīna dozen",
+    "examples": []
+  },
+  {
+    "word": "دس",
+    "displayWord": "دس",
+    "translation": "dassa u (dass) to put, get, slip, shove, thrust, insert ( في ھ s.th. into); to bury ( في",
+    "examples": []
+  },
+  {
+    "word": "دسيسة",
+    "displayWord": "دسيسة",
+    "translation": "dasīsa pl. دسائس dasā’is intrigue, machination, scheme, plot │ دس الدسائس dass ad-d. machinations, intrigues, scheming, plotting ( ضد against); plot, conspiracy",
+    "examples": []
+  },
+  {
+    "word": "دساس",
+    "displayWord": "دساس",
+    "translation": "dassās pl. -ūn intriguant, intriguer, schemer, plotter, conspirator; sand snake (Eryx jaculus)",
+    "examples": []
+  },
+  {
+    "word": "دست",
+    "displayWord": "دست",
+    "translation": "1 dast pl. دسوت dusūt place of honor, seat of honor, seat of office; council │ دست الحكم d. al-ḥukm (a ruler’s) throne",
+    "examples": []
+  },
+  {
+    "word": "دست",
+    "displayWord": "دست",
+    "translation": "2 dist pl. دسوت dusūt kettle, boiler, caldron made of copper (eg., syr.)",
+    "examples": []
+  },
+  {
+    "word": "دستة",
+    "displayWord": "دستة",
+    "translation": "3 dasta dozen; pack, packet, package",
+    "examples": []
+  },
+  {
+    "word": "دستور",
+    "displayWord": "دستور",
+    "translation": "dustūr pl. دساتير dasātīr2 statute; regulations; by-laws; (basic) constitutional law; constitution (pol.); -- (colloq.) dastūr permission",
+    "examples": []
+  },
+  {
+    "word": "دستوري",
+    "displayWord": "دستوري",
+    "translation": "dustūrī constitutional │ النظام",
+    "examples": []
+  },
+  {
+    "word": "دستورية",
+    "displayWord": "دستورية",
+    "translation": "dustūrīya constitutionality │ عدم",
+    "examples": []
+  },
+  {
+    "word": "دسر",
+    "displayWord": "دسر",
+    "translation": "dasara u (dasr) to push, shove, push off (",
+    "examples": []
+  },
+  {
+    "word": "دسكر",
+    "displayWord": "دسكر",
+    "translation": "daskara pl. دساكر dasākir2 village",
+    "examples": []
+  },
+  {
+    "word": "دسم",
+    "displayWord": "دسم",
+    "translation": "dasam fatness (of meat); fat, grease",
+    "examples": []
+  },
+  {
+    "word": "دسم",
+    "displayWord": "دسم",
+    "translation": "dasim fat; fatty, greasy, grimy, grubby; rich, abundant, substantial; meaty, pithy, full of thoughts (e.g., reading material)",
+    "examples": []
+  },
+  {
+    "word": "دسامة",
+    "displayWord": "دسامة",
+    "translation": "dasāma fattiness, greasiness, griminess, grubbiness",
+    "examples": []
+  },
+  {
+    "word": "دسومة",
+    "displayWord": "دسومة",
+    "translation": "dusūma fatness; richness, substantiality",
+    "examples": []
+  },
+  {
+    "word": "دسام",
+    "displayWord": "دسام",
+    "translation": "dassām plug, stopper",
+    "examples": []
+  },
+  {
+    "word": "ديسم",
+    "displayWord": "ديسم",
+    "translation": "daisam amaranth (bot.)",
+    "examples": []
+  },
+  {
+    "word": "دسمبر",
+    "displayWord": "دسمبر",
+    "translation": "disembir, disambir December",
+    "examples": []
+  },
+  {
+    "word": "دسو",
+    "displayWord": "دسو",
+    "translation": "II to introduce, bring in ( ھ s.th.) V to be hidden, concealed; to penetrate ( الى into)",
+    "examples": []
+  },
+  {
+    "word": "دش",
+    "displayWord": "دش",
+    "translation": "(Fr. douche) duš shower, douche",
+    "examples": []
+  },
+  {
+    "word": "دشيش",
+    "displayWord": "دشيش",
+    "translation": "dašīš and دشيشة a kind of porridge made of crushed wheat and butter",
+    "examples": []
+  },
+  {
+    "word": "دشت",
+    "displayWord": "دشت",
+    "translation": "dašt junk, trash, rubbish, refuse",
+    "examples": []
+  },
+  {
+    "word": "دشن",
+    "displayWord": "دشن",
+    "translation": "II to hand over, present ( ھ s.th.); to consecrate, dedicate, inaugurate ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "دشو",
+    "displayWord": "دشو",
+    "translation": "V to belch, burp, eruct",
+    "examples": []
+  },
+  {
+    "word": "دعة",
+    "displayWord": "دعة",
+    "translation": "da‘a see ودع",
+    "examples": []
+  },
+  {
+    "word": "دع",
+    "displayWord": "دع",
+    "translation": "da‘‘ to rebuff, turn down (contemptuously, II the poor, an orphan)",
+    "examples": []
+  },
+  {
+    "word": "دعب",
+    "displayWord": "دعب",
+    "translation": "da‘aba a ( دعابة du‘āba) to joke, jest, make fun ( ه with s.o.) III to play, toy ( ه، ھ with s.th., with s.o.); to joke, jest, make fun ( ه with s.o.); to give ( ه s.o.) a good-natured slap or smack ( ب); to flirt ( ھا with a woman) ; to dally, philander, play around ھا) with a woman); to play ( ه about s.o.; e.g., waves); to stroke gently, caress, fondle ( ه s.th.); to beguile, tempt, delude ( ه s.o.; said of hopes); to play ( ھ a musical instrument) │ داعب البيانو to play on the piano VI to make fun, have fun together, have a good time",
+    "examples": []
+  },
+  {
+    "word": "داعب",
+    "displayWord": "داعب",
+    "translation": "dā‘ib joking, jocose, playful, jolly, gay, funny 281",
+    "examples": []
+  },
+  {
+    "word": "دعابة",
+    "displayWord": "دعابة",
+    "translation": "du‘āba pl. -āt joking, jesting, funmaking, fun; joke, jest",
+    "examples": []
+  },
+  {
+    "word": "دعاب",
+    "displayWord": "دعاب",
+    "translation": "da‘‘āb jocose, playful, jolly, gay",
+    "examples": []
+  },
+  {
+    "word": "داعب",
+    "displayWord": "داعب",
+    "translation": "dā‘ib joking, jocose, playful, jolly, gay, funny",
+    "examples": []
+  },
+  {
+    "word": "دعبل",
+    "displayWord": "دعبل",
+    "translation": "di‘bil frog spawn, frog’s eggs",
+    "examples": []
+  },
+  {
+    "word": "دعر",
+    "displayWord": "دعر",
+    "translation": "da‘ira a (da‘ar) to be immoral",
+    "examples": []
+  },
+  {
+    "word": "دعر",
+    "displayWord": "دعر",
+    "translation": "da‘ar immorality, indecency",
+    "examples": []
+  },
+  {
+    "word": "دعر",
+    "displayWord": "دعر",
+    "translation": "da‘ir unchaste, lewd, licentious, dissolute, obscene, bawdy, immoral, indecent",
+    "examples": []
+  },
+  {
+    "word": "دعارة",
+    "displayWord": "دعارة",
+    "translation": "da‘āra, di‘āra indecency, immorality, licentiousness, debauchery │",
+    "examples": []
+  },
+  {
+    "word": "داعر",
+    "displayWord": "داعر",
+    "translation": "dā‘ir pl. دعار du‘‘ār unchaste, lewd, licentious, dissolute, obscene, bawdy, indecent, immoral",
+    "examples": []
+  },
+  {
+    "word": "دعس",
+    "displayWord": "دعس",
+    "translation": "da‘asa a (da‘s) to tread underfoot, trample down, crush ( ھ s.th.); to knock down, run over ( ه s.o.; automobile) VII pass. of I",
+    "examples": []
+  },
+  {
+    "word": "دعك",
+    "displayWord": "دعك",
+    "translation": "da‘aka a (da‘k) to rub ( ھ s.th.); to scrub, scour ( ھ s.th.); to scrub on a washboard (",
+    "examples": []
+  },
+  {
+    "word": "دعم",
+    "displayWord": "دعم",
+    "translation": "da‘ama a (da‘m) and II to support, hold up ھ) s.th.); to prop, shore up, stay, buttress, underpin ( ھ s.th.); to cement, consolidate, strengthen ( ھ s.th.) VIII ادعم idda‘ama to be supported; to rest, be based ( على on)",
+    "examples": []
+  },
+  {
+    "word": "دعمة",
+    "displayWord": "دعمة",
+    "translation": "da‘ma pl. دعم di‘am support, prop",
+    "examples": []
+  },
+  {
+    "word": "دعامة",
+    "displayWord": "دعامة",
+    "translation": "di‘āma pl. -āt, دعائم da‘ā’im2 support, prop, stay, shore; pier; buttress; pillar (esp. fig., e.g., دعائم السيادة pillars of authority)",
+    "examples": []
+  },
+  {
+    "word": "دعو",
+    "displayWord": "دعو",
+    "translation": ") and دعي) دعا da‘ā u ( دعاء du‘ā’) to call ( ه s.o.); to summon ( ب or ه s.o.), call or send for s.o. ( ب or ه); to call up ( ب s.o., الى، ل for); to call upon s.o. ( ه), appeal to s.o. ( (ه for s.th. or to do s.th. ( ل، الى ), invite, urge (",
+    "examples": []
+  },
+  {
+    "word": "دعوة",
+    "displayWord": "دعوة",
+    "translation": "da‘wa call; appeal; bidding, demand, request; call, convocation, summons ( الى to), calling up, summoning; (official) summons, citation; invitation; claim, demand, plea; missionary activity, missionary work (also نشر الدعوة našr add.), propaganda; -- (pl. دعوات da‘awāt) invocation, imploration, supplication, prayer; good wish │ دعوات صالحات good wishes; دعوة بالشر (šarr) imprecation, curse; صاحب الدعوة host",
+    "examples": []
+  },
+  {
+    "word": "دعوى",
+    "displayWord": "دعوى",
+    "translation": "da‘wā pl. دعاوى da‘āwā, دعاو da‘āwin allegation, pretension; claim; lawsuit, case, action, legal proceedings (Isl. Law) │ بدعوى ان on the pretext that ...",
+    "examples": []
+  },
+  {
+    "word": "دعي",
+    "displayWord": "دعي",
+    "translation": "da‘īy pl. ادعياء ad‘iyā’2 adopted son; bastard; braggart, bigmouth, showoff; pretender; swindler, impostor",
+    "examples": []
   },
   {
     "word": "دعاء",
-    "displayWord": "دُعَاء",
-    "root": "دعو",
-    "translation": "supplication, prayer, invocation",
-    "examples": [
-      {
-        "ar": "الدُّعَاءُ سِلَاحُ المُؤْمِنِ فِي المِحَنِ.",
-        "en": "Supplication is the believer's weapon in trials.",
-        "source": "Spiritual Text"
-      }
-    ]
+    "displayWord": "دعاء",
+    "translation": "du‘ā’ pl. ادعية ad‘iya call; invocation of God, supplication, prayer; request, plea; good wish ( ل for s.o.); imprecation, course ( على against s.o.)",
+    "examples": []
+  },
+  {
+    "word": "دعاوة",
+    "displayWord": "دعاوة",
+    "translation": "da’āwa, di‘āwa pl. -āt propaganda (pol.); publicity ( الى for)",
+    "examples": []
+  },
+  {
+    "word": "دعاوى",
+    "displayWord": "دعاوى",
+    "translation": "da‘āwī, di‘āwī propagandistic",
+    "examples": []
+  },
+  {
+    "word": "دعاية",
+    "displayWord": "دعاية",
+    "translation": "di‘āya propaganda (pol.)",
+    "examples": []
+  },
+  {
+    "word": "دعائي",
+    "displayWord": "دعائي",
+    "translation": "di‘ā’ī propagandistic",
+    "examples": []
+  },
+  {
+    "word": "داع",
+    "displayWord": "داع",
+    "translation": "dā‘in pl. دعاة du‘āh one who invites, inviter; propagandist; host; motive, reason, cause │ لا داعي (dā‘iya) it is not necessary, there is no need, there is no cause ( ل for)",
+    "examples": []
+  },
+  {
+    "word": "داعية",
+    "displayWord": "داعية",
+    "translation": "dā‘iya one who calls for s.th. ( الى ), invites to s.th. ( الى ); propagandist (with foll. genit. or الى : of s.th.), herald; 283 (pl. دواع dawā‘in) motive, reason, cause, occasion; pl. دواع requirements, exigencies │ داعية",
+    "examples": []
+  },
+  {
+    "word": "دغدغ",
+    "displayWord": "دغدغ",
+    "translation": "dagdaga to tickle ( ه s.o.); to crush; to chew, munch ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "دغر",
+    "displayWord": "دغر",
+    "translation": "1 dagara a (dagr, دغرى dagrā) to attack (",
+    "examples": []
+  },
+  {
+    "word": "دغر",
+    "displayWord": "دغر",
+    "translation": "dagr attack, assault",
+    "examples": []
+  },
+  {
+    "word": "دغرى",
+    "displayWord": "دغرى",
+    "translation": "dagrā attack, assault",
+    "examples": []
+  },
+  {
+    "word": "دغرى",
+    "displayWord": "دغرى",
+    "translation": "2 dugrī (eg., syr.) direct, straight; straight ahead",
+    "examples": []
+  },
+  {
+    "word": "دغش",
+    "displayWord": "دغش",
+    "translation": "IV ادغشت الدنيا adgašat id-dunyā it became dark, twilight fell",
+    "examples": []
+  },
+  {
+    "word": "دغش",
+    "displayWord": "دغش",
+    "translation": "dagaš darkness, dusk, twilight",
+    "examples": []
+  },
+  {
+    "word": "دغيشة",
+    "displayWord": "دغيشة",
+    "translation": "dagīša darkness, dusk",
+    "examples": []
+  },
+  {
+    "word": "دغص",
+    "displayWord": "دغص",
+    "translation": "dagiṣa a (dagaṣ) to be chock-full, on tile point of bursting",
+    "examples": []
+  },
+  {
+    "word": "داغصة",
+    "displayWord": "داغصة",
+    "translation": "dāgiṣa pl. دواغص dawāgiṣ knee-pan, kneecap, patella",
+    "examples": []
+  },
+  {
+    "word": "دغل",
+    "displayWord": "دغل",
+    "translation": "dagal pl. ادغال adgāl, دغال digāl place with luxuriant tree growth; thicket, bush, jungle; -- defectiveness, faultiness, corruption",
+    "examples": []
+  },
+  {
+    "word": "داغل",
+    "displayWord": "داغل",
+    "translation": "dagil covered with dense undergrowth (place); impenetrable; corrupted",
+    "examples": []
+  },
+  {
+    "word": "دغم",
+    "displayWord": "دغم",
+    "translation": "IV and VIII ادغم iddagama to put ( في ھ s.th. into), insert, incorporate, embody ( في",
+    "examples": []
+  },
+  {
+    "word": "دف",
+    "displayWord": "دف",
+    "translation": "daffa i ( دفيف dafīf) to flap the wings (bird) II to hurry, rush",
+    "examples": []
+  },
+  {
+    "word": "دف",
+    "displayWord": "دف",
+    "translation": "daff pl. دفوف dufūf side; lateral surface",
+    "examples": []
+  },
+  {
+    "word": "دف",
+    "displayWord": "دف",
+    "translation": "duff, daff pl. دفوف dufūf tambourine",
+    "examples": []
+  },
+  {
+    "word": "دفة",
+    "displayWord": "دفة",
+    "translation": "daffa side; leaf (of a double door or window); cover (of a book), الدفتان the two covers of a book; rudder, helm │ قائد الدفة or",
+    "examples": []
+  },
+  {
+    "word": "دفية",
+    "displayWord": "دفية",
+    "translation": "diffīya (eg.) loose woolen cloak",
+    "examples": []
+  },
+  {
+    "word": "دفئ",
+    "displayWord": "دفئ",
+    "translation": "dafi’a a and دفؤ dafu’a u to be warm; to feel warm II and IV to warm, heat ( ھ s.th.) V, VIII ادفأ iddafa’a and X to warm o.s.",
+    "examples": []
   },
   {
     "word": "دفء",
-    "displayWord": "دِفْء",
-    "root": "دفأ",
-    "translation": "warmth, comfort",
-    "examples": [
-      {
-        "ar": "يَبْحَثُ النَّاسُ عَنْ دِفْءِ العَائِلَةِ فِي لَيَالِي الشِّتَاءِ.",
-        "en": "People seek the warmth of the family in winter nights.",
-        "source": "Literary Novel"
-      }
-    ]
+    "displayWord": "دفء",
+    "translation": "dif’ warmth, warmness, heat",
+    "examples": []
+  },
+  {
+    "word": "دفئ",
+    "displayWord": "دفئ",
+    "translation": "dafi’ and دفيء dafī’ warm",
+    "examples": []
+  },
+  {
+    "word": "دفآن",
+    "displayWord": "دفآن",
+    "translation": "daf’ān2, f. دفأى daf’ā warm",
+    "examples": []
+  },
+  {
+    "word": "دفاء",
+    "displayWord": "دفاء",
+    "translation": "difā’ heating",
+    "examples": []
+  },
+  {
+    "word": "دفاءة",
+    "displayWord": "دفاءة",
+    "translation": "dafā’a warmth, warmness, heat □ دفاية daffāya pl. -āt stove 284",
+    "examples": []
+  },
+  {
+    "word": "دفتر",
+    "displayWord": "دفتر",
+    "translation": "daftar pl. دفاتر dafātir 2 booklet; notebook, copybook; daybook, journal; ledger (com.); roster, register, official register │",
+    "examples": []
+  },
+  {
+    "word": "دفتر حسابي",
+    "displayWord": "دفتر حسابي",
+    "translation": "(ḥisābī) account book; bankbook, passbook; دفتر الحسابات d. al-ḥisābāt letter file, letter book, folder, portfolio;",
+    "examples": []
+  },
+  {
+    "word": "دفتر الشروط",
+    "displayWord": "دفتر الشروط",
+    "translation": "publication setting forth the terms of a purchase, the conditions of a lease, the stipulations of a contract, or the like; دفتر الاشتراك subscription booklet; دفتر",
+    "examples": []
+  },
+  {
+    "word": "دفترخانة",
+    "displayWord": "دفترخانة",
+    "translation": "daftarkāna archives, public records office (Eg.) │ دفترخانة الأملاك العقارية d. al-amlāk al-‘aqārīya land-registry office (Tun.)",
+    "examples": []
+  },
+  {
+    "word": "دفتيريا",
+    "displayWord": "دفتيريا",
+    "translation": "diftēriyā diphtheria",
+    "examples": []
+  },
+  {
+    "word": "دفر",
+    "displayWord": "دفر",
+    "translation": "dafara to push, push back ( ه s.o.); dafira a (dafar) to stink",
+    "examples": []
+  },
+  {
+    "word": "دفر",
+    "displayWord": "دفر",
+    "translation": "dafar stench",
+    "examples": []
+  },
+  {
+    "word": "دفر",
+    "displayWord": "دفر",
+    "translation": "dafir stinking, fetid",
+    "examples": []
+  },
+  {
+    "word": "دفس",
+    "displayWord": "دفس",
+    "translation": "dafasa to hide (A s.th.); to push",
+    "examples": []
+  },
+  {
+    "word": "دفع",
+    "displayWord": "دفع",
+    "translation": "dafa‘a a (daf‘) to push; to push away, shove away, push back, drive back, repel, remove, dislodge, drive away ( عن ھ، ه s.o., s.th. from); دفعه جانبا (jāniban) to push, shove, or elbow, s.o. aside; to rid ( عن نفسه o.s., ھ of s.th.), get rid of s.th.; to get the better ( ھ، ه of s.o., of s.th.), conquer, master control ( ه s.o., ھ s.th.); to fight ( ب",
+    "examples": []
+  },
+  {
+    "word": "دفع",
+    "displayWord": "دفع",
+    "translation": "daf‘ pushing back, shoving aside; repulsion. driving away, driving off; dispelling; parrying, warding off, staving off; repulse, rejection. repudiation; rebuttal; handing over, turning in; payment 285",
+    "examples": []
+  },
+  {
+    "word": "دفعة",
+    "displayWord": "دفعة",
+    "translation": "daf‘a (n. vic.) pl. dafa‘āt shove, push, thrust; impetus, impact, momentum, forceful impulse, drive; ejaculation; payment; deposit; disbursement; pl. issues (stock market)",
+    "examples": []
+  },
+  {
+    "word": "دفعة",
+    "displayWord": "دفعة",
+    "translation": "daf‘a pl. dufu‘āt, dafa‘āt that which issues at anyone time, a burst, a gush, a spurt, and the like; time, instance │ دفعة واحدة (duf‘atan) all at one time, all at once, in one stroke, in one fell swoop; ھذه",
+    "examples": []
+  },
+  {
+    "word": "دفعات متفاوتة",
+    "displayWord": "دفعات متفاوتة",
+    "translation": "(mutafāwita) at different times",
+    "examples": []
+  },
+  {
+    "word": "دفاع",
+    "displayWord": "دفاع",
+    "translation": "daffā’ propelling, impelling, giving impetus; O piston (techn.)",
+    "examples": []
+  },
+  {
+    "word": "دفاع",
+    "displayWord": "دفاع",
+    "translation": "difā‘ protection; defense ( عن of s.th., of s.o., also jur.) │ خط الدفاع kaṭṭ ad-d. line of defense; halfbacks (soccer); مجلس",
+    "examples": []
+  },
+  {
+    "word": "دفاعي",
+    "displayWord": "دفاعي",
+    "translation": "difā‘ī defensive, protective",
+    "examples": []
+  },
+  {
+    "word": "دافع",
+    "displayWord": "دافع",
+    "translation": "dāfi‘ repellent, expellant; driving, pushing, giving impetus, incentive, impellent, propelling, propulsive, etc.; repeller; payer, e.g., دافعوا الضرائب the taxpayers; (pl. دوافع dawfi‘2) incentive, impulse, impetus, spur, motive; بدافع (with foll. genit.) motivated by ..., by reason of ..., on the strength of …",
+    "examples": []
+  },
+  {
+    "word": "دفق",
+    "displayWord": "دفق",
+    "translation": "dafaqa u i (dafq) to pour out, pour forth ( ھ s.th.); -- u (dafq, دفوق dufūq) to be shed; to flow, well out, spout, gush forth; to overflow (0 with s.th.) V to pour forth, spout forth, gush forth; to rush in; to break forth, break out, burst out; to go off (shot); to plunge blindly ( في، الى into s.th.); to rush ( على against); to crowd ( على into) VII = V",
+    "examples": []
+  },
+  {
+    "word": "دفق",
+    "displayWord": "دفق",
+    "translation": "dafq pouring out, effusion",
+    "examples": []
+  },
+  {
+    "word": "دفقة",
+    "displayWord": "دفقة",
+    "translation": "dufqa pl. dufuqāt, dufaqāt, dufqāt =",
+    "examples": []
+  },
+  {
+    "word": "دفعة",
+    "displayWord": "دفعة",
+    "translation": "duf‘a │ دفقة واحدة (dufqatan) = دفعة",
+    "examples": []
+  },
+  {
+    "word": "دفاق",
+    "displayWord": "دفاق",
+    "translation": "dafāq bursting forth, darting out, rushing out",
+    "examples": []
+  },
+  {
+    "word": "دافق",
+    "displayWord": "دافق",
+    "translation": "dāfiq pl. دوافق dawāfiq2 bursting forth, breaking out, erupting; gushing, torrential",
+    "examples": []
+  },
+  {
+    "word": "دفلى",
+    "displayWord": "دفلى",
+    "translation": "diflā oleander (Nerium oleander L.; bot.)",
+    "examples": []
+  },
+  {
+    "word": "دفن",
+    "displayWord": "دفن",
+    "translation": "dafana i (dafn) to bury, inter, inhume ( ه s.o.); to hide, conceal, keep secret ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "دفن",
+    "displayWord": "دفن",
+    "translation": "dafn burial, interment, inhumation",
+    "examples": []
+  },
+  {
+    "word": "دفين",
+    "displayWord": "دفين",
+    "translation": "dafn pl. دفناء dufanā’2 buried, intend; hidden, secret",
+    "examples": []
+  },
+  {
+    "word": "دفينة",
+    "displayWord": "دفينة",
+    "translation": "dafīna pl. دفائن dafā’in2 hidden treasure, treasure-trove",
+    "examples": []
+  },
+  {
+    "word": "دفاية",
+    "displayWord": "دفاية",
+    "translation": "see دفئ",
+    "examples": []
+  },
+  {
+    "word": "دق",
+    "displayWord": "دق",
+    "translation": "daqqa i ( دقة diqqa) to be thin, fine, fragile, frail; to be little, small, tiny, minute; to be subtle, delicate; to be insignificant, unimportant, trifling, inconsiderable; to be too fine, too subtle ( عن for perception); -- u (daqq) to crush, bruise, bray ( ھ s.th.); to grind, pulverize, powder ( ھ s.th.); to pound ( ھ s.th., e.g., meat); to strike (clock); to beat, throb (heart); to hammer, throb (engine); to knock, rap, bang ( الباب al-bāba on the door); to bump ( رأسه بالحائط ra’sahū bi-l-ḥā’iṭ one’s head against the wall); to drive ( ھ a nail); to ram in, drive in (constr. eng.); to beat, strum, play ( على a musical instrument); to type ( على on a typewriter); -- to sound, resound, ring out (said of musical instruments) │ دق",
+    "examples": []
+  },
+  {
+    "word": "دق الجرس",
+    "displayWord": "دق الجرس",
+    "translation": "(jarasu) the bell rang; دقت الساعة the clock struck II to triturate, pulverize, reduce to powder (oil s.th.); to he precise, exact, strict, meticulous, painstaking, proceed with utmost accuracy or care ( في in s.th.); to scrutinize, examine closely, determine exactly ( ه s.th.); to do ( ه s.th.) carefully, with precision! دقق البحث (baḥta) to investigate carefully; دقق النظر (naẓara) to watch attentively or carefully, scrutinize, examine closely ( في s.th.); دقق",
+    "examples": []
+  },
+  {
+    "word": "دق",
+    "displayWord": "دق",
+    "translation": "daqq crushing, bruising, braying, pounding; pulverization, trituration; grinding (down); beat(ing), throb(bing); bang(ing), knock(ing), rap(ping); tattoo(ing) │ دق الجرس d. al-jaras peal, ringing, sound of a bell; دق الحنق d. al- ḥanak chatter, prattle",
+    "examples": []
+  },
+  {
+    "word": "دق",
+    "displayWord": "دق",
+    "translation": "diqq fine, thin; little, small, tiny, minute; delicate, fragile, frail │ شجر دق (šajar) shrubbery, brush, scrub; حمى الدق ḥumma d-d. hectic fever",
+    "examples": []
+  },
+  {
+    "word": "دقة",
+    "displayWord": "دقة",
+    "translation": "daqqa (n. vic.) pl. -āt bang, knock, rap; beat, throb; stroke, striking (of a clock); hammer, hammering sound; thumping, thump │ دقات القلب d. al-qalb heartbeats; دقة الجرس d. al-jaras peal, or ring, of a bell; telephone call, ring",
+    "examples": []
+  },
+  {
+    "word": "دقة",
+    "displayWord": "دقة",
+    "translation": "diqqa thinness; fineness; smallness, tininess, minuteness; triviality, pettiness, paltriness; subtlety, subtleness, finesse; critical or precarious state, delicate situation; accuracy, exactness, exactitude, precision │ بدقة exactly, accurately, precisely, minutely, painstakingly, meticulously, sharply; دقة الشعور acuteness of feeling, sensitivity, sensitiveness, sensibility",
+    "examples": []
+  },
+  {
+    "word": "دقة",
+    "displayWord": "دقة",
+    "translation": "duqqa pl. دقق duqaq fine dust; powder",
+    "examples": []
+  },
+  {
+    "word": "دقاق",
+    "displayWord": "دقاق",
+    "translation": "duqāq crushed, brayed, or pulverized, substance; powder; dour of lupine",
+    "examples": []
+  },
+  {
+    "word": "دقيق",
+    "displayWord": "دقيق",
+    "translation": "daqīq pl. دقاق diqaq, ادقة adiqqa fine, thin; delicate, frail, fragile; little, small, tiny, puny, minute; subtle; 287 paltry, petty, trifling, trivial; precise, accurate, exact; painstaking, scrupulous, meticulous; inexorable, relentless, strict, rigorous; delicate (situation), critical, trying, serious, precarious; -- flour, meal │ دقيق الحساب keeping strict account, strict, relentless, inexorable; دقيق الشعور sensitive;",
+    "examples": []
+  },
+  {
+    "word": "دقيق الصنع",
+    "displayWord": "دقيق الصنع",
+    "translation": "d. aṣ-ṣan‘ finely worked, of delicate workmanship; دقيق النظر d. annaẓar clear-sighted, penetrating, discerning, sensitive; ابو دقيق abū d. butterfly; الأعضاء الدقيقة (a‘ḍā’) the genitals",
+    "examples": []
+  },
+  {
+    "word": "دقيقة",
+    "displayWord": "دقيقة",
+    "translation": "daqīqa pl. دقائق daqā’iq2 particle; nicety; intricacy; detail, particular; minute (time unit) │ دقائق الأمور the niceties, intricacies, or secret implications of things",
+    "examples": []
+  },
+  {
+    "word": "دقاق",
+    "displayWord": "دقاق",
+    "translation": "daqqāq grinder, crusher; flour merchant; frequently or constantly beating, striking, etc.; player of an instrument │ ساعة دقاقة repeater (watch)",
+    "examples": []
+  },
+  {
+    "word": "دقاقة",
+    "displayWord": "دقاقة",
+    "translation": "daqqāqa knocker, rapper (of a door)",
+    "examples": []
+  },
+  {
+    "word": "داقرة",
+    "displayWord": "داقرة",
+    "translation": "dāqira pl. دواقر dawāqir2 elay vessel 2 (tun.); -- stipend for underprivileged students (tun.)",
+    "examples": []
+  },
+  {
+    "word": "دقشوم",
+    "displayWord": "دقشوم",
+    "translation": "daqšūm (eg.) rubblestone, crushed rock; brickbats, gravel",
+    "examples": []
+  },
+  {
+    "word": "دقع",
+    "displayWord": "دقع",
+    "translation": "daqi‘a a (daqa‘) to grovel, cringe; to be miserable, wretched, humble, abject; to live in poverty IV do.; to make miserable (",
+    "examples": []
+  },
+  {
+    "word": "دقل",
+    "displayWord": "دقل",
+    "translation": "daqal mast (of a ship); mainmast; (coll.; n. un. ة) a brand of dates of good quality (magr.)",
+    "examples": []
+  },
+  {
+    "word": "دك",
+    "displayWord": "دك",
+    "translation": "1 dakka u (dakk) to make flat, level or even, to smooth, level, ram, stamp, tamp ( ھ earth, the ground, a road); to press down, weigh down; to beat down; to devastate, demolish, destroy, ruin ( ھ s.th.) II to mix, mingle ( ه s.th.) VII to be crushed; to be leveled",
+    "examples": []
+  },
+  {
+    "word": "دك",
+    "displayWord": "دك",
+    "translation": "dakk pl. دكوك dukūk level ground; -- devastation, demolition, destruction",
+    "examples": []
+  },
+  {
+    "word": "دكة",
+    "displayWord": "دكة",
+    "translation": "dakka pl. -āt rubblestone, crushed rock; hallast",
+    "examples": []
+  },
+  {
+    "word": "دكة",
+    "displayWord": "دكة",
+    "translation": "dikka pl. دكك dikak bench",
+    "examples": []
+  },
+  {
+    "word": "دكان",
+    "displayWord": "دكان",
+    "translation": "dukkān pl. دكاكين dakākīn2 bench; store, shop",
+    "examples": []
+  },
+  {
+    "word": "دكانجي",
+    "displayWord": "دكانجي",
+    "translation": "dukkānjī storekeeper, shopkeeper, retailer",
+    "examples": []
+  },
+  {
+    "word": "دك",
+    "displayWord": "دك",
+    "translation": "2 II to provide ( ھ trousers) with a waistband (dikka or tikka)",
+    "examples": []
+  },
+  {
+    "word": "دكة",
+    "displayWord": "دكة",
+    "translation": "dikka (= تكة tikka) waistband (in the upper seam of trousers)",
+    "examples": []
+  },
+  {
+    "word": "دكتاتورية",
+    "displayWord": "دكتاتورية",
+    "translation": "diktātūrīya dictatorship",
+    "examples": []
+  },
+  {
+    "word": "دكتاتورى",
+    "displayWord": "دكتاتورى",
+    "translation": "diktātūrī dictatorial",
+    "examples": []
+  },
+  {
+    "word": "دكتور",
+    "displayWord": "دكتور",
+    "translation": "duktūr pl. كاترة dakātira doctor │ دكتور في",
+    "examples": []
+  },
+  {
+    "word": "دكتوراة",
+    "displayWord": "دكتوراة",
+    "translation": "duktūrāh doctorate, doctorship, doctor’s degree, title of doctor │ الدكتور",
+    "examples": []
+  },
+  {
+    "word": "دكريتو",
+    "displayWord": "دكريتو",
+    "translation": "(It. decreto) dikrītō pl. دكريتات decree",
+    "examples": []
+  },
+  {
+    "word": "داكن",
+    "displayWord": "داكن",
+    "translation": "dākin dark, dark-colored │ احضر",
+    "examples": []
+  },
+  {
+    "word": "داكن",
+    "displayWord": "داكن",
+    "translation": "dark green; اصفر داكن yellowish, of a dingy yellow, mud-colored",
+    "examples": []
+  },
+  {
+    "word": "دكان",
+    "displayWord": "دكان",
+    "translation": "2 see دك 1",
+    "examples": []
+  },
+  {
+    "word": "دل",
+    "displayWord": "دل",
+    "translation": "dalla a ( دلالة dalāa) to show, demonstrate, point out ( على ه to s.o. s.th.); to lead, guide, direct, conduct ( الى or على ه s.o. to), show s.o. ( ه) the way ( الى or على to); to show, indicate, mark ( على s.th.); to point (",
+    "examples": []
+  },
+  {
+    "word": "دل",
+    "displayWord": "دل",
+    "translation": "dall proper, dignified conduct; coquetry, flirtation",
+    "examples": []
+  },
+  {
+    "word": "دلة",
+    "displayWord": "دلة",
+    "translation": "dalla pl. دلال dilāl pot with long curved spout and handle used for making coffee (among Syrian nomads and in some parts of Saudi Arabia)",
+    "examples": []
+  },
+  {
+    "word": "دلال",
+    "displayWord": "دلال",
+    "translation": "dalāl coquetry, coquettishness; pampering, coddling, spoiling",
+    "examples": []
+  },
+  {
+    "word": "دليل",
+    "displayWord": "دليل",
+    "translation": "dalīl pl. ادلة adilla, دلائل dalā’l ادلاء , 2 adillā’2 (the latter of persons) indication (",
+    "examples": []
+  },
+  {
+    "word": "دلال",
+    "displayWord": "دلال",
+    "translation": "dallāl auctioneer; broker, jobber, middleman, agent, commission merchant; hawker",
+    "examples": []
+  },
+  {
+    "word": "دلالة",
+    "displayWord": "دلالة",
+    "translation": "dalāla pl. -āt pointing; guidance; leading, leadership; indication ( على of); sign, token; sense, meaning",
+    "examples": []
+  },
+  {
+    "word": "دلالة",
+    "displayWord": "دلالة",
+    "translation": "dilāla auction, public sale; business of a broker or middleman; brokerage commission; trade of a dealer, jobber or agent",
+    "examples": []
+  },
+  {
+    "word": "دلالة",
+    "displayWord": "دلالة",
+    "translation": "dallāla middlewoman, woman broker",
+    "examples": []
+  },
+  {
+    "word": "دالة",
+    "displayWord": "دالة",
+    "translation": "dālla familiarity, chumminess; liberty (that one takes with s.o.); audacity. boldness",
+    "examples": []
+  },
+  {
+    "word": "دل",
+    "displayWord": "دل",
+    "translation": "1 dulb plane tree, sycamore (bot.)",
+    "examples": []
+  },
+  {
+    "word": "دولب",
+    "displayWord": "دولب",
+    "translation": "2 pl. دواليب look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "دلتا",
+    "displayWord": "دلتا",
+    "translation": "Nile Delta, Lower Egypt",
+    "examples": []
+  },
+  {
+    "word": "دلج",
+    "displayWord": "دلج",
+    "translation": "IV to set out at nightfall",
+    "examples": []
+  },
+  {
+    "word": "دلوح",
+    "displayWord": "دلوح",
+    "translation": "dalūḥ pl. دلح duluḥ moisture-laden cloud",
+    "examples": []
+  },
+  {
+    "word": "دلدل",
+    "displayWord": "دلدل",
+    "translation": "daldala to set into a swinging motion, dangle II tadaldala to hang loosely, dangle",
+    "examples": []
+  },
+  {
+    "word": "دلدل",
+    "displayWord": "دلدل",
+    "translation": "duldul and دلدول duldūl porcupine (zool.)",
+    "examples": []
+  },
+  {
+    "word": "دلس",
+    "displayWord": "دلس",
+    "translation": "II to swindle, cheat; to counterfeit, forge, falsify ( ھ s.th.) III to deceive, defraud ( ه s.o.), impose ( ه on)",
+    "examples": []
+  },
+  {
+    "word": "دلع",
+    "displayWord": "دلع",
+    "translation": "dala‘a a (dal‘) with لسانه lisānahū: to stick out one’s tongue; to loll, let the tongue hang out II to pamper, spoil ( ه a child); to caress, fondle, pet ( ه s.o.) IV شيء يدلع نفسه (eg.) a nauseating, disgusting thing VII to stick out, be stuck out, hang out, loll (tongue); to dart out, lick out, leap out. dare up (dame), break out (fire); to be pampered, spoiled (child)",
+    "examples": []
+  },
+  {
+    "word": "دلع",
+    "displayWord": "دلع",
+    "translation": "dal‘: اسم الدلع ism ad-d. pet name",
+    "examples": []
+  },
+  {
+    "word": "دلاع",
+    "displayWord": "دلاع",
+    "translation": "dallā‘ (coll.; n. un. ة) watermelon (magr.)",
+    "examples": []
+  },
+  {
+    "word": "دلغان",
+    "displayWord": "دلغان",
+    "translation": "dilgan clay",
+    "examples": []
+  },
+  {
+    "word": "دلف",
+    "displayWord": "دلف",
+    "translation": "dalafa i (dalf, دلوف dulūf, دلفان dalafān) to walk with short steps. toddle; to go or walk slowly, saunter, stroll ( الى to); to advance (Jo toward); to approach step by step ( الى s.o. or s.th.); to penetrate, reach (",
+    "examples": []
+  },
+  {
+    "word": "دلفين",
+    "displayWord": "دلفين",
+    "translation": "dulfīn pl. دلافين dalāfīn2 dolphin",
+    "examples": []
+  },
+  {
+    "word": "دلق",
+    "displayWord": "دلق",
+    "translation": "dalaqa u to spill, pour out ( ھ a liquid) VII to be spilled (liquid)",
+    "examples": []
+  },
+  {
+    "word": "دلك",
+    "displayWord": "دلك",
+    "translation": "dalaka u (dalk) to rub ( ھ s.th.); to stroke (",
+    "examples": []
+  },
+  {
+    "word": "دلك",
+    "displayWord": "دلك",
+    "translation": "dalk rubbing; grazing, brushing, touching, touch",
+    "examples": []
+  },
+  {
+    "word": "دلوك",
+    "displayWord": "دلوك",
+    "translation": "dalūk liniment",
+    "examples": []
+  },
+  {
+    "word": "دلوك",
+    "displayWord": "دلوك",
+    "translation": "dulūk, دلوك الشمس d. aš-šams sunset",
+    "examples": []
+  },
+  {
+    "word": "دله",
+    "displayWord": "دله",
+    "translation": "II to rob s.o. ( ه) of his senses, drive ( ه s.o.) crazy (love) V to go out of one’s mind, go crazy (with love) │ تدلھت في حبه (ḥubbihī) she has fallen in love with him",
+    "examples": []
+  },
+  {
+    "word": "دلھم",
+    "displayWord": "دلھم",
+    "translation": "IV idlahamma to be dark, gloomy; to be deep-black",
+    "examples": []
+  },
+  {
+    "word": "دلھم",
+    "displayWord": "دلھم",
+    "translation": "dalham dark, gloomy; deep-black",
+    "examples": []
+  },
+  {
+    "word": "دلو",
+    "displayWord": "دلو",
+    "translation": "II to let hang, dangle ( ھ s.th.); to hang, suspend ( ھ s.th.); to lower ( ھ s.th.); to drop, let down, let fall down ( ھ s.th.) IV = II; to cast down ( ھ glances, الى on s.o.); to let one’s glance ( بانظاره bi-anẓārihī) sweep down; to express, utter, voice ( ب s.th., e.g., برأيه bi-ra’yihī one’s opinion); to deliver, make ( بتصريح a statement; pol.); to adduce, present, advance, offer ( بحجة bi- ḥijjatin an argument); to inform, notify, advise ( ب الى s.o. of), let ( الى s.o.) know ( ب about); to offer, present ( ب الى to s.o. s.th.); to grant, give ( بحديث ل an interview to s.o.); to slander, defame: asperse ( في s.o.) │ ادلى دلوه بين الدلاء (dalwahū, dilā’) or",
+    "examples": []
+  },
+  {
+    "word": "دلو",
+    "displayWord": "دلو",
+    "translation": "dalw usually f., pl. ادل adlin, دلاء dilā’, ادلاء adlā’ leather bucket; bucket, pail; Aquarius (astron.)",
+    "examples": []
+  },
+  {
+    "word": "دلاية",
+    "displayWord": "دلاية",
+    "translation": "dallāya pendant",
+    "examples": []
+  },
+  {
+    "word": "دالية",
+    "displayWord": "دالية",
+    "translation": "dāliya pl. دوال dawālin waterwheel (for irrigation); trellis, espalier on which grapevines are trained; varix, varicose vein",
+    "examples": []
+  },
+  {
+    "word": "داليا",
+    "displayWord": "داليا",
+    "translation": "look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "دم",
+    "displayWord": "دم",
+    "translation": "1 dam pl. دماء dimā’ blood; دماء homicide cases (jur.) │ دم الأخوين d. al-akawain dragon’s blood (a dark-red, resinous substance derived from the dragon tree, Dracaena draco)",
+    "examples": []
+  },
+  {
+    "word": "دمي",
+    "displayWord": "دمي",
+    "translation": "damī blood- (in compounds), sanguine",
+    "examples": []
+  },
+  {
+    "word": "دموي",
+    "displayWord": "دموي",
+    "translation": "damawī blood- (in compounds), sanguine; sanguinary, bloody",
+    "examples": []
+  },
+  {
+    "word": "دم",
+    "displayWord": "دم",
+    "translation": "2 damma u (damm) to coat, smear, besmear (",
+    "examples": []
+  },
+  {
+    "word": "دم",
+    "displayWord": "دم",
+    "translation": "damm ointment, unguent, salve, liniment, embrocation; paint; pigment, dye, dyestuff; rouge",
+    "examples": []
+  },
+  {
+    "word": "دمام",
+    "displayWord": "دمام",
+    "translation": "dimām ointment, unguent, salve, liniment, embrocation; paint; pigment, dye, dyestuff; rouge",
+    "examples": []
+  },
+  {
+    "word": "دميم",
+    "displayWord": "دميم",
+    "translation": "damīm pl. دمام dimām ugly; deformed, misshapen │ دميم الخلقة d. alkilqa ugly to look at, of repulsive appearance",
+    "examples": []
+  },
+  {
+    "word": "دمامي",
+    "displayWord": "دمامي",
+    "translation": "damāma ugliness; ugly appearance; abominableness, monstrosity",
+    "examples": []
+  },
+  {
+    "word": "دمث",
+    "displayWord": "دمث",
+    "translation": "damuta u ( دماثة damāta) to be gentle, mild (character) II to soften, mellow ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "دمث",
+    "displayWord": "دمث",
+    "translation": "damit pl. دماث dimāt: دمث الأخلاق gentle, mild-tempered",
+    "examples": []
+  },
+  {
+    "word": "دماثة",
+    "displayWord": "دماثة",
+    "translation": "damāta mildness, gentleness, tenderness (of character)",
+    "examples": []
+  },
+  {
+    "word": "دمج",
+    "displayWord": "دمج",
+    "translation": "damaja u ( دومج dumūj to enter ( في s.th.), go or come into ( في ), be inserted, incorporated ( في in) II to write shorthand IV to twist tightly, twine firmly ( ھ s.th.); to enter, insert, include, incorporate, embody ( في ھ s.th. in); to 291 introduce, interpolate, intercalate ( في ھ s.th. in); to annex ( في s.th. to) VII to be inserted, be incorporated ( في in); to be annexed ( في to); to merge ( في with), be swallowed up, be absorbed ( في by); to be fused, fuse, amalgamate",
+    "examples": []
+  },
+  {
+    "word": "دمجانة",
+    "displayWord": "دمجانة",
+    "translation": "damajāna (also دامجانة ) pl. -āt demijohn, carboy",
+    "examples": []
+  },
+  {
+    "word": "دمدم",
+    "displayWord": "دمدم",
+    "translation": "damdama to mutter, grumble, growl, snarl",
+    "examples": []
+  },
+  {
+    "word": "دمدم",
+    "displayWord": "دمدم",
+    "translation": "damdama pl. -āt growl, snarl; rumbling noise, rumble",
+    "examples": []
+  },
+  {
+    "word": "دمر",
+    "displayWord": "دمر",
+    "translation": "1 damara u to perish, he ruined, he destroyed II to annihilate, destroy, ruin, demolish, wreck ( ھ s.th.) V to he destroyed, demolished, ruined, wrecked VII to he destroyed, be annihilated",
+    "examples": []
+  },
+  {
+    "word": "دمار",
+    "displayWord": "دمار",
+    "translation": "damār ruin, destruction",
+    "examples": []
+  },
+  {
+    "word": "دمور",
+    "displayWord": "دمور",
+    "translation": "2 dammūr (eg.) a coarse calico-like fabric",
+    "examples": []
+  },
+  {
+    "word": "دموري",
+    "displayWord": "دموري",
+    "translation": "dammūrī (eg.) made of dammūr (see above)",
+    "examples": []
+  },
+  {
+    "word": "دميرة",
+    "displayWord": "دميرة",
+    "translation": "3 damīra (eg.) flood season of the Nile 4□ لا دومرى lā dūmarī (= لا تدمري ) nobody, no one, not a living soul",
+    "examples": []
+  },
+  {
+    "word": "دمس",
+    "displayWord": "دمس",
+    "translation": "damasa u to hide, conceal, disguise ( ھ s.th.); to bury ( ه في الأرض s.o. in the ground) II do.",
+    "examples": []
+  },
+  {
+    "word": "دمس",
+    "displayWord": "دمس",
+    "translation": "dims (eg.) cinders, ashes",
+    "examples": []
+  },
+  {
+    "word": "دماسة",
+    "displayWord": "دماسة",
+    "translation": "damāsa darkness",
+    "examples": []
+  },
+  {
+    "word": "دموس",
+    "displayWord": "دموس",
+    "translation": "dammūs pl. دماميس damāmīs2 cave, cavern",
+    "examples": []
+  },
+  {
+    "word": "ديماس",
+    "displayWord": "ديماس",
+    "translation": "daimās, dīmās, ديموس daimūs pl.",
+    "examples": []
+  },
+  {
+    "word": "دياميس",
+    "displayWord": "دياميس",
+    "translation": "dayāmīs2 dungeon; vault",
+    "examples": []
+  },
+  {
+    "word": "دامس",
+    "displayWord": "دامس",
+    "translation": "dāmis pitch-dark; dark, gloomy, dusky",
+    "examples": []
+  },
+  {
+    "word": "دمشق",
+    "displayWord": "دمشق",
+    "translation": "dimašq2, dimišq2 Damascus (capital of Syria)",
+    "examples": []
+  },
+  {
+    "word": "دمع",
+    "displayWord": "دمع",
+    "translation": "dama‘a a to water (eye) IV to cause to weep, evoke tears, make (the eyes) water",
+    "examples": []
+  },
+  {
+    "word": "دمع",
+    "displayWord": "دمع",
+    "translation": "dam‘ pl. دموع dumū‘ tears",
+    "examples": []
+  },
+  {
+    "word": "دمعة",
+    "displayWord": "دمعة",
+    "translation": "dam‘a (n. un.) tear, teardrop; (eg.) dim‘a gravy",
+    "examples": []
+  },
+  {
+    "word": "دمعي",
+    "displayWord": "دمعي",
+    "translation": "dam‘ī: قنبلة دمعية (qunbula) teargas bomb",
+    "examples": []
+  },
+  {
+    "word": "دمعة",
+    "displayWord": "دمعة",
+    "translation": "dam‘a and دميع damī’ pl. دمعى dam‘ā, دمائع damā’i‘2 readily inclined to weep, frequently weeping, tearful, lachrymose (woman) 292",
+    "examples": []
+  },
+  {
+    "word": "دموع",
+    "displayWord": "دموع",
+    "translation": "damū‘ and دماع dammā‘ watering, watery, tearful (eyes)",
+    "examples": []
+  },
+  {
+    "word": "دمغ",
+    "displayWord": "دمغ",
+    "translation": "1 damaga a to refute, invalidate ( ھ a falsehood, an error, a false accusation); to triumph ( ھ over falsehood; said of truth)",
+    "examples": []
+  },
+  {
+    "word": "دماغ",
+    "displayWord": "دماغ",
+    "translation": "dimāg pl. ادمغة admiga brain",
+    "examples": []
+  },
+  {
+    "word": "دامغة",
+    "displayWord": "دامغة",
+    "translation": "dāmiga cogent argument; شھادة",
+    "examples": []
+  },
+  {
+    "word": "دامغة",
+    "displayWord": "دامغة",
+    "translation": "(šahāda) irrefutable testimony",
+    "examples": []
+  },
+  {
+    "word": "دمغ",
+    "displayWord": "دمغ",
+    "translation": "2 damaga u (damg) to stamp, provide or mark with a stamp ( ھ s.th.); to hallmark (",
+    "examples": []
+  },
+  {
+    "word": "دمغ",
+    "displayWord": "دمغ",
+    "translation": "damg stamping │ دمغ المصوغات d. al-maṣūgāt hallmarking of gold and silver articles",
+    "examples": []
+  },
+  {
+    "word": "دمغة",
+    "displayWord": "دمغة",
+    "translation": "damga stamp; hallmark (on gold and silver articles) │ ورق دمغة waraq d. stamped paper",
+    "examples": []
+  },
+  {
+    "word": "دمقراطي",
+    "displayWord": "دمقراطي",
+    "translation": "dimuqrāṭī democratic; democrat",
+    "examples": []
+  },
+  {
+    "word": "دمقراطية",
+    "displayWord": "دمقراطية",
+    "translation": "dimuqrāṭīya democracy; democratic attitude or conviction",
+    "examples": []
+  },
+  {
+    "word": "دمقس",
+    "displayWord": "دمقس",
+    "translation": "dimaqs raw silk",
+    "examples": []
+  },
+  {
+    "word": "دمقسي",
+    "displayWord": "دمقسي",
+    "translation": "dimaqsī silken, silky",
+    "examples": []
+  },
+  {
+    "word": "دمل",
+    "displayWord": "دمل",
+    "translation": "damala u (daml, دملان damalān) to fertilize, manure, dung ( ھ the soil); -- damila a (damal) to heal, heal up, scar over, cicatrize (wound) VII to heal, heal up, scar overt cicatrize (wound); to fester, suppurate (sore)",
+    "examples": []
+  },
+  {
+    "word": "دمل",
+    "displayWord": "دمل",
+    "translation": "dummal (n. un. ة) pl. دمامل damāmil",
+    "examples": []
+  },
+  {
+    "word": "دماميل",
+    "displayWord": "دماميل",
+    "translation": ", 2 damāmīl2 abscess, boil, sore, tumor, ulcer; furuncle; bubo, plague boil; inveterate evil",
+    "examples": []
+  },
+  {
+    "word": "دملج",
+    "displayWord": "دملج",
+    "translation": "dumluj pl. دمالج damālij2, bracelet, bangle",
+    "examples": []
+  },
+  {
+    "word": "دمن",
+    "displayWord": "دمن",
+    "translation": "1 damana u (damn) to fertilize, manure, dung ( ھ the soil) IV to give o.s. up, devote o.s., apply o.s. ( على or ھ to), go in for ( على or ھ ); to be addicted ( على e.g., to liquor)",
+    "examples": []
+  },
+  {
+    "word": "دمن",
+    "displayWord": "دمن",
+    "translation": "dimn (coll.; n. un. ة) pl. دمن diman fertilizer, manure, dung",
+    "examples": []
+  },
+  {
+    "word": "دمنة",
+    "displayWord": "دمنة",
+    "translation": "dimna pl. دمن diman vestiges or remnants of a dwelling, ruins",
+    "examples": []
+  },
+  {
+    "word": "دمان",
+    "displayWord": "دمان",
+    "translation": "damān fertilizer, manure, dung",
+    "examples": []
+  },
+  {
+    "word": "دمان",
+    "displayWord": "دمان",
+    "translation": "2 dumān see دومان",
+    "examples": []
+  },
+  {
+    "word": "دمنھور",
+    "displayWord": "دمنھور",
+    "translation": "damanhūr2 Damanhur (city in N Egypt)",
+    "examples": []
+  },
+  {
+    "word": "دموي",
+    "displayWord": "دموي",
+    "translation": "see دم 1",
+    "examples": []
+  },
+  {
+    "word": "دمى",
+    "displayWord": "دمى",
+    "translation": "1 damiya a to bleed II and IV to cause to bleed",
+    "examples": []
+  },
+  {
+    "word": "دام",
+    "displayWord": "دام",
+    "translation": "dāmin bleeding, bloody, gory",
+    "examples": []
+  },
+  {
+    "word": "دمية",
+    "displayWord": "دمية",
+    "translation": "2 dumya pl. دمى duman statue, statuette; image, effigy; dummy; doll",
+    "examples": []
+  },
+  {
+    "word": "دمياط",
+    "displayWord": "دمياط",
+    "translation": "dimyāṭ2 Damietta (city in N Egypt)",
+    "examples": []
+  },
+  {
+    "word": "دن",
+    "displayWord": "دن",
+    "translation": "danna u (dann, دنين danīn) to buzz, hum (insect); to drone",
+    "examples": []
+  },
+  {
+    "word": "دن",
+    "displayWord": "دن",
+    "translation": "dann and دنين danīn buzz(ing), hum(ming), droning, drone",
+    "examples": []
+  },
+  {
+    "word": "دن",
+    "displayWord": "دن",
+    "translation": "dann pl. دنان dinān earthen wine jug 293",
+    "examples": []
+  },
+  {
+    "word": "دنأ",
+    "displayWord": "دنأ",
+    "translation": "dana’a a and دنؤ danu’a u ( دنوءة dunū’a,",
+    "examples": []
+  },
+  {
+    "word": "دناءة",
+    "displayWord": "دناءة",
+    "translation": "danā’a) to be low, mean, base, vile, contemptible, despicable",
+    "examples": []
+  },
+  {
+    "word": "دنيء",
+    "displayWord": "دنيء",
+    "translation": "danī’ pl. ادنياء adniyā’ ادناء , 2 adnā’ low, base, mean, vile, despicable, contemptible; inferior, second-rate, of poor quality",
+    "examples": []
+  },
+  {
+    "word": "دناءة",
+    "displayWord": "دناءة",
+    "translation": "danā’a lowness, baseness, meanness, vileness; inferiority دنتلا, دنتلة (Fr. dentelle) dantilla lace, lacework",
+    "examples": []
+  },
+  {
+    "word": "دنجل",
+    "displayWord": "دنجل",
+    "translation": "dinjil (eg.) pl. دناجل danājil2 axle, axle-tree",
+    "examples": []
+  },
+  {
+    "word": "دندرمه",
+    "displayWord": "دندرمه",
+    "translation": "(Turk. dondurma) dandurma ice cream",
+    "examples": []
+  },
+  {
+    "word": "دنادشة",
+    "displayWord": "دنادشة",
+    "translation": "danādiša common people, people of no consequence",
+    "examples": []
+  },
+  {
+    "word": "دندن",
+    "displayWord": "دندن",
+    "translation": "dandana to buzz, hum; to drone; to hum softly, croon (a song); to murmur",
+    "examples": []
+  },
+  {
+    "word": "دندي",
+    "displayWord": "دندي",
+    "translation": "dindī (eg.) turkey",
+    "examples": []
+  },
+  {
+    "word": "دينار",
+    "displayWord": "دينار",
+    "translation": "pl. دنانير look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "دنس",
+    "displayWord": "دنس",
+    "translation": "danisa a (danas) to be soiled, sullied, defiled, polluted II to stain, soil, dirty, befoul, sully, pollute, contaminate ( ھ s.th.); to dishonor, disgrace ( ھ s.th.); to desecrate ( ھ s.th.) V pass. of II",
+    "examples": []
+  },
+  {
+    "word": "دنس",
+    "displayWord": "دنس",
+    "translation": "danas pl. ادناس adnās uncleanness, dirt, filth, squalor; stain, blemish, fault",
+    "examples": []
+  },
+  {
+    "word": "دنس",
+    "displayWord": "دنس",
+    "translation": "danis pl. ادناس adnās, دنساء dunasā’2 unclean, soiled, sullied, foul, polluted, defiled, stained",
+    "examples": []
+  },
+  {
+    "word": "دنف",
+    "displayWord": "دنف",
+    "translation": "danifa a (danaf) to be seriously ill IV do.",
+    "examples": []
+  },
+  {
+    "word": "دنف",
+    "displayWord": "دنف",
+    "translation": "danif pl. ادناف adnāf seriouly ill",
+    "examples": []
+  },
+  {
+    "word": "دنف",
+    "displayWord": "دنف",
+    "translation": "danaf long illness; O cachexia, marasmus (med.)",
+    "examples": []
+  },
+  {
+    "word": "دانق",
+    "displayWord": "دانق",
+    "translation": "look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "دنقلة",
+    "displayWord": "دنقلة",
+    "translation": "dunqula Dongola (town in N Sudan, on the Nile)",
+    "examples": []
+  },
+  {
+    "word": "دنكل",
+    "displayWord": "دنكل",
+    "translation": "= دنجل",
+    "examples": []
+  },
+  {
+    "word": "دنمرك",
+    "displayWord": "دنمرك",
+    "translation": "danmark2 Denmark دنو) and دنى) دنا danū u ( دنو dunūw, دناوة danāwa) to be near, be close; to come or go near s.o. or s.th. ( من or الى or ,(ل approach ( من، الى، ل s.o., s.th.); to come close, get close ( من، الى، ل to), approximate",
+    "examples": []
+  },
+  {
+    "word": "دناية",
+    "displayWord": "دناية",
+    "translation": "danaya) to be low, lowly; to be or become mean, base, vile, despicable, contemptible II to bring close ( ھ s.th., ه s.o., من to), bring, take or move ( ھ s.th., ه s.o.) near ( من ), approximate ( ھ s.th., من to); to apply o.s. ( في to s.th.), busy o.s. ( في with s.th.), delve ( في into); دنى نفسه (nafsahū) to lower o.s., abase o.s., humble o.s. III to approach ( ه s.o., ھ s.th.), come or get near s.o. or s.th. ( ه، ھ ), come or get close ( ه ھ to); to approximate ( ھ s.th.); to measure up ( ھ، ه to) │ شيء لا يدانى (yudānā) an unequaled thing IV to be near, be close; to approach ( من or الى or ل s.o. or s.th.), come, go or draw near s.o. or s.th. (",
+    "examples": []
+  },
+  {
+    "word": "دنو",
+    "displayWord": "دنو",
+    "translation": "dunūw advent, approach; proximity, nearness, imminence (of an event)",
+    "examples": []
+  },
+  {
+    "word": "دنى",
+    "displayWord": "دنى",
+    "translation": "danīy pl. ادنياء adniyā’ near, close; low, lowly; mean, base, vile, despicable, contemptible, inferior, infamous, depraved",
+    "examples": []
+  },
+  {
+    "word": "دنية",
+    "displayWord": "دنية",
+    "translation": "danīy pl. -āt, دنايا danāyā a base quality or habit; s.th. disgraceful, infamy, vile action",
+    "examples": []
+  },
+  {
+    "word": "دنيا",
+    "displayWord": "دنيا",
+    "translation": "dunyā (f. of ادنى adnā) world; earth; this world (as opposed to آخرة ); life in this world. worldly existence; worldly. temporal things or possessions; earthly things or concerns │ الحياة الدنيا life in this world; ام الدنيا umm ad-d. Cairo; اقام الدنيا",
+    "examples": []
+  },
+  {
+    "word": "دنيوي",
+    "displayWord": "دنيوي",
+    "translation": "dunyawī, دنياوي dunyāwī worldly, mundane, secular; earthly, temporal, transitory, transient",
+    "examples": []
+  },
+  {
+    "word": "دناوة",
+    "displayWord": "دناوة",
+    "translation": "danāwa nearness, closeness, proximity, propinquity; lowness, lowliness; meanness, baseness, vileness",
+    "examples": []
+  },
+  {
+    "word": "دناية",
+    "displayWord": "دناية",
+    "translation": "danāya lowness, lowliness; meanness, baseness, vileness",
+    "examples": []
+  },
+  {
+    "word": "دان",
+    "displayWord": "دان",
+    "translation": "dānin low; near, close",
+    "examples": []
+  },
+  {
+    "word": "دھر",
+    "displayWord": "دھر",
+    "translation": "dahr pl. دھور duhūr, ادھر adhur time; long time, age, epoch; lifetime; eternity; fate, destiny │ بنات الدھر banāt ad-d. blows of fate, trials, afflictions, misfortune; تصاريف",
+    "examples": []
+  },
+  {
+    "word": "دھري",
+    "displayWord": "دھري",
+    "translation": "dahrī an adherent of the dahrīya, a materialistic, atheistic doctrine in Islam; atheist, freethinker",
+    "examples": []
+  },
+  {
+    "word": "دھري",
+    "displayWord": "دھري",
+    "translation": "duhrī very old, far advanced in years",
+    "examples": []
+  },
+  {
+    "word": "دھس",
+    "displayWord": "دھس",
+    "translation": "dahasa a (= داس ) to trample underfoot, trample down, crush ( ھ s.th.), tread ( ھ on s.th.); to run over ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "دھش",
+    "displayWord": "دھش",
+    "translation": "dahiša a and pass. duhiša to be astonished, amazed, surprised ( من or ل at); to wonder, marvel ( من at); to be baffled, startled, puzzled, perplexed, taken aback (",
+    "examples": []
+  },
+  {
+    "word": "دھش",
+    "displayWord": "دھش",
+    "translation": "dahiš astonished, amazed, surprised; baffled, puzzled, nonplused, perplexed, startled, disconcerted, alarmed, upset; dazed, stunned",
+    "examples": []
+  },
+  {
+    "word": "دھشة",
+    "displayWord": "دھشة",
+    "translation": "dahša astonishment, amazement, surprise, wonder; perplexity, consternation, bafflement, bewilderment, dismay, alarm",
+    "examples": []
+  },
+  {
+    "word": "دھق",
+    "displayWord": "دھق",
+    "translation": "1 dahaq stocks (to hold the feet of an offender by way of punishment)",
+    "examples": []
+  },
+  {
+    "word": "دھاق",
+    "displayWord": "دھاق",
+    "translation": "diḥāq full (cup), brimful",
+    "examples": []
+  },
+  {
+    "word": "دھقان",
+    "displayWord": "دھقان",
+    "translation": "2 dihqān, pl. دھاقنة dahāqina, دھاقين dahāqīn2 man of importance, one who plays an important role, leading personality; grandee (in ancient Persia) │",
+    "examples": []
+  },
+  {
+    "word": "دھاقين السياسة",
+    "displayWord": "دھاقين السياسة",
+    "translation": "d. as-siyāsa the political leaders",
+    "examples": []
+  },
+  {
+    "word": "دھك",
+    "displayWord": "دھك",
+    "translation": "dahaka a (dahk) to crush; to mash ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "دھلز",
+    "displayWord": "دھلز",
+    "translation": "II tadahlaza to stroll about, walk about (in a hall)",
+    "examples": []
+  },
+  {
+    "word": "دھليز",
+    "displayWord": "دھليز",
+    "translation": "dihlīz pl. دھاليز dahālīz 2 anteroom, vestibule, lobby, foyer; corridor, hall-way │ ابن الدھليز ibn ad-d. pl. ابناء الدھاليز foundling",
+    "examples": []
+  },
+  {
+    "word": "دھلي",
+    "displayWord": "دھلي",
+    "translation": "dihlī Delhi",
+    "examples": []
+  },
+  {
+    "word": "دھم",
+    "displayWord": "دھم",
+    "translation": "dahama a (dahm) and dahima a (daham) to come or descend ( ه upon s.o.) suddenly; to surprise, take unawares, take by surprise ( ه s.o.), come unexpectedly ( ه to s.o.); to enter suddenly, raid, invade ( ھ s.th.) II to blacken ( ه s.th.) III to befall, seize, grip, attack ( ه s.o.), come over s.o. ( ه; e.g., sickness, despair); to surprise, take unawares, catch red-handed ( ه s.o.); to attack suddenly ( ه s.o.), fall upon s.o. ( ,(ه invade, raid ( ه e.g., a house); to overtake ( ه s.o.; fate), catch up with ( ه) IX to be black",
+    "examples": []
+  },
+  {
+    "word": "دھمة",
+    "displayWord": "دھمة",
+    "translation": "duhma blackness",
+    "examples": []
+  },
+  {
+    "word": "دھن",
+    "displayWord": "دھن",
+    "translation": "dahana u (dahn) to oil ( ه، ھ s.th., s.o., ب with); to anoint ( ه، ھ s.th., s.o., ب with); to grease, smear ( ب، ھ s.th., s.o., ب with); to rub, embrocate ( ه، ھ s.th., s.o., ب with); to paint, daub ( ه s.th.); to varnish ( ھ s.th.) II do. III to treat with gentleness ( ه s.o.); to cajole, flatter ( ه s.o.), fawn ( ه on s.o.); to cheat, dupe, gull, take in, outsmart ( ه s.o.) V pass. of I",
+    "examples": []
+  },
+  {
+    "word": "دھن",
+    "displayWord": "دھن",
+    "translation": "dahn oiling, greasing; painting, daubing",
+    "examples": []
+  },
+  {
+    "word": "دھن",
+    "displayWord": "دھن",
+    "translation": "duhn pl. ادھان adhān, دھون duhūn, -āt, دھان dihān oil (edible, lubricating, for the skin); fat, grease",
+    "examples": []
+  },
+  {
+    "word": "دھن",
+    "displayWord": "دھن",
+    "translation": "duhnī oily, oil, oleic, oleo- (in compounds); fatty, greasy",
+    "examples": []
+  },
+  {
+    "word": "دھنيات",
+    "displayWord": "دھنيات",
+    "translation": "duhnīyāt fats, oils; fatty substances",
+    "examples": []
+  },
+  {
+    "word": "دھناء",
+    "displayWord": "دھناء",
+    "translation": "dahnā’ desert",
+    "examples": []
+  },
+  {
+    "word": "دھان",
+    "displayWord": "دھان",
+    "translation": "dahhān house painter, painter",
+    "examples": []
+  },
+  {
+    "word": "دھينة",
+    "displayWord": "دھينة",
+    "translation": "dahīna pomade 296",
+    "examples": []
+  },
+  {
+    "word": "دھان",
+    "displayWord": "دھان",
+    "translation": "dihān pl. -āt, ادھنة adhina cosmetic cream, cold cream, salve, ointment, unguent; consecrated oil, anointing oil; paint, varnish; hypocrisy, dissimulation, deceit; -- (without pl.) painting, daubing; whitewashing │ ورشة للدھان (warša) paintshop",
+    "examples": []
+  },
+  {
+    "word": "دھور",
+    "displayWord": "دھور",
+    "translation": "dahwara to hurl down ( ھ s.th.); to tear down, topple, overthrow ( ھ s.th.) II tadahwara pass. of I; to fall, tumble; to slump, sink; to be dragged down, sink to the lowest level",
+    "examples": []
+  },
+  {
+    "word": "دھي",
+    "displayWord": "دھي",
+    "translation": "dahiya a ( دھاء dahā’) to be clever, smart, cunning, artful, wily; -- dahā a to befall, overtake, hit, strike ( ه s.o.), come over s.o. ه) ; misfortune) II = dahā VI to pretend to be smart or cunning",
+    "examples": []
+  },
+  {
+    "word": "دھاء",
+    "displayWord": "دھاء",
+    "translation": "dahā’ smartness, slyness, shrewdness, subtlety, cunning, craft",
+    "examples": []
+  },
+  {
+    "word": "داه",
+    "displayWord": "داه",
+    "translation": "dāhin pl. دھاة duhāh smart, sly, shrewd, subtle, cunning, wily, artful; resourceful person",
+    "examples": []
+  },
+  {
+    "word": "داھية",
+    "displayWord": "داھية",
+    "translation": "dāhiya smart fellow, old fox, sly dog",
+    "examples": []
+  },
+  {
+    "word": "داھية",
+    "displayWord": "داھية",
+    "translation": "dāhiya pl. دواه dawāhin calamity, disaster, catastrophe │ داھية دھياء (dahyā’) and داھية دھماء (dahmā’) disaster, catastrophe; فليذھب في داھية (fal-yadhab) let him go to hell!",
+    "examples": []
+  },
+  {
+    "word": "داء",
+    "displayWord": "داء",
+    "translation": "(دوء ) dā’ pl. ادواء adwā’ disease, malady │",
+    "examples": []
+  },
+  {
+    "word": "داء الثعلب",
+    "displayWord": "داء الثعلب",
+    "translation": "d. at-ta‘lab alopecia, loss of the hair; O داء الرقص d. ar-raqṣ St. Vitus’s dance; O داء الفيل d. al-fīl elephantiasis; داء",
+    "examples": []
+  },
+  {
+    "word": "دواء",
+    "displayWord": "دواء",
+    "translation": "see دوى",
+    "examples": []
+  },
+  {
+    "word": "دوب",
+    "displayWord": "دوب",
+    "translation": "II to wear out, wear off ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "دوبرة",
+    "displayWord": "دوبرة",
+    "translation": "dūbara packthread, string, twine, cord, rope; thread",
+    "examples": []
+  },
+  {
+    "word": "دوبيت",
+    "displayWord": "دوبيت",
+    "translation": "dūbait a rhymed poem consisting of four hemistichs",
+    "examples": []
+  },
+  {
+    "word": "دوح",
+    "displayWord": "دوح",
+    "translation": "VII to spread",
+    "examples": []
+  },
+  {
+    "word": "دوح",
+    "displayWord": "دوح",
+    "translation": "dauḥ branching trees, branches",
+    "examples": []
+  },
+  {
+    "word": "دوحة",
+    "displayWord": "دوحة",
+    "translation": "dauḥa tall tree with many branches; family tree, genealogical table",
+    "examples": []
+  },
+  {
+    "word": "داحة",
+    "displayWord": "داحة",
+    "translation": "dāḥa top (child’s toy)",
+    "examples": []
+  },
+  {
+    "word": "داخ",
+    "displayWord": "داخ",
+    "translation": "(دوخ ) dāka u (dauk) to conquer, subjugate (",
+    "examples": []
+  },
+  {
+    "word": "دوخة",
+    "displayWord": "دوخة",
+    "translation": "dauka vertigo, dizziness; coma; nausea",
+    "examples": []
+  },
+  {
+    "word": "دائخ",
+    "displayWord": "دائخ",
+    "translation": "dā’ik dizzy",
+    "examples": []
+  },
+  {
+    "word": "دود",
+    "displayWord": "دود",
+    "translation": "1 II to be or become worm-eaten",
+    "examples": []
+  },
+  {
+    "word": "دود",
+    "displayWord": "دود",
+    "translation": "dūd (coll.; n. un. ة) pl. ديدان dīdān worm; maggot; larva; caterpillar │ دودة",
+    "examples": []
+  },
+  {
+    "word": "دود القرمز",
+    "displayWord": "دود القرمز",
+    "translation": "d. al-qirmiz cochineal; دود المش",
+    "examples": []
+  },
+  {
+    "word": "دودي",
+    "displayWord": "دودي",
+    "translation": "dūdī wormlike, worm-shaped, vermiform.",
+    "examples": []
+  },
+  {
+    "word": "دار",
+    "displayWord": "دار",
+    "translation": "(دور ) dāra u (daur, دوران dawarān)to turn, revolve, rotate, move in a circle (، على ب, حول around s.th. or s.o.), circle (، على",
+    "examples": []
+  },
+  {
+    "word": "دار",
+    "displayWord": "دار",
+    "translation": "dār f., pl. دور dūr, ديار diyār, ديارات diyārāt, ديرة diyara house; building, structure, edifice; habitation, dwelling, abode; residence, home; seat, side, locality; area, region; land, country (esp. pl. ديار see below │ دار الآثار museum (of antiquities); دار البريد post office; دار البقاء d. al-baqā’ the eternal abode, the hereafter;",
+    "examples": []
+  },
+  {
+    "word": "دار الصنعة",
+    "displayWord": "دار الصنعة",
+    "translation": "or دار الصناعة arsenal; دار صيني (ṣīnī) cinnamon; دار الضرب d. aḍ-ḍarb and",
+    "examples": []
+  },
+  {
+    "word": "دار السكة",
+    "displayWord": "دار السكة",
+    "translation": "d. as-sikka mint (building); الديار",
+    "examples": []
+  },
+  {
+    "word": "دارة",
+    "displayWord": "دارة",
+    "translation": "dāra pl. -āt halo (of the moon); circle; O (el.) circuit; O villa",
+    "examples": []
+  },
+  {
+    "word": "دارى",
+    "displayWord": "دارى",
+    "translation": "dārī domestic, native",
+    "examples": []
+  },
+  {
+    "word": "دورى",
+    "displayWord": "دورى",
+    "translation": "dūrī domestic (animal); عصفور",
+    "examples": []
+  },
+  {
+    "word": "دوري",
+    "displayWord": "دوري",
+    "translation": "(‘uṣfūr) and دوري house sparrow",
+    "examples": []
+  },
+  {
+    "word": "دور",
+    "displayWord": "دور",
+    "translation": "daur pl. ادوار adwār round (of a patrol; in sports); role, part (played by s.o. or s.th.); film role, stage role; periodic change, rotation, alternation; crop rotation; period; (one’s) turn; phase, stage, step, degree, station; epoch, age. era; fit, attack, paroxysm (of a disease); floor, story; musical composition; number, single performance (within a program) │",
+    "examples": []
+  },
+  {
+    "word": "دور وتسلسل",
+    "displayWord": "دور وتسلسل",
+    "translation": "(wa-tasalsul) vicious circle, circulus vitiosus; دور نھائي (nihā’ī) final round, finals (athlet.); دور الانعقاد d. alin‘ iqād session, term (parl.); الدور الأول (awwal) or دور البطولة d. al-buṭūla leading role, starring role; قام بدور or لعب دورا (la‘iba) to play a part or role; دور ارضي (arḍī) ground floor, first floor; كان دوره it was his turn; الدور له it is his turn; ( ( انا",
+    "examples": []
+  },
+  {
+    "word": "دورة",
+    "displayWord": "دورة",
+    "translation": "daura pl. -āt turn, revolution, gyration, rotation; circulation; cycle; circuit; round, patrol; procession (Chr.); round trip; tour (in general, of an artist or performer); detour; period (O also el.); session (of parliament); course (of instruction) (ir., syr.) │ الدورة الدموية (damawīya) blood circulation; الدورة الجوية (jawwīya) air circulation; ( دورة اجتياز ( تجاوز",
+    "examples": []
+  },
+  {
+    "word": "دورة مالية",
+    "displayWord": "دورة مالية",
+    "translation": "(mālīya) 299 financial period, fiscal year; دورة المياه d. al-miyāh lavatory (with running water), toilet, water closet",
+    "examples": []
+  },
+  {
+    "word": "دوري",
+    "displayWord": "دوري",
+    "translation": "daurī patrolling, patrol- (in compounds); periodic, occurring at regular stated times, recurring, intermittent; circulatory, cyclic, etc., see",
+    "examples": []
+  },
+  {
+    "word": "دور",
+    "displayWord": "دور",
+    "translation": "and دورة series (athlet.) الجھاز الدوري (jahāz) the circulatory system",
+    "examples": []
+  },
+  {
+    "word": "دورية",
+    "displayWord": "دورية",
+    "translation": "daurīya pl. -āt patrol, round; patrol, reconnaissance squad │ دوريات",
+    "examples": []
+  },
+  {
+    "word": "دير",
+    "displayWord": "دير",
+    "translation": "dair pl. اديار adyār, اديرة adyira, ديورة duyūra monastery, convent, cloister",
+    "examples": []
+  },
+  {
+    "word": "ديري",
+    "displayWord": "ديري",
+    "translation": "dairī monastic, ministerial, cloistral",
+    "examples": []
+  },
+  {
+    "word": "ديرة",
+    "displayWord": "ديرة",
+    "translation": "dīra region, area, land, homeland (bedouin)",
+    "examples": []
+  },
+  {
+    "word": "دوار",
+    "displayWord": "دوار",
+    "translation": "duwār, dawār vertigo, dizziness, giddiness; seasickness",
+    "examples": []
+  },
+  {
+    "word": "دوار",
+    "displayWord": "دوار",
+    "translation": "dawwār rapidly or constantly turning, whirling, spinning, rotating, circling, circulating; revolving, rotary, rotatory; whirlpool, eddy, vortex; itinerant, ambulant, roving; (eg.) farm building, farm │ باب دوار revolving door;",
+    "examples": []
+  },
+  {
+    "word": "ديار",
+    "displayWord": "ديار",
+    "translation": "dayyār monastic, friar, monk",
+    "examples": []
+  },
+  {
+    "word": "ديرانى",
+    "displayWord": "ديرانى",
+    "translation": "dairānī monastic, friar, monk",
+    "examples": []
+  },
+  {
+    "word": "دوارة",
+    "displayWord": "دوارة",
+    "translation": "dawwāra whirlpool, eddy, vortex; compass, pair of dividers (syr.) │O دوارة",
+    "examples": []
+  },
+  {
+    "word": "دياري",
+    "displayWord": "دياري",
+    "translation": "diyārī domestic; native",
+    "examples": []
+  },
+  {
+    "word": "دوران",
+    "displayWord": "دوران",
+    "translation": "dawarān turn(ing), rotation, revolution, gyration; circulation, circling, circuiting; round trip, tour",
+    "examples": []
+  },
+  {
+    "word": "دائر",
+    "displayWord": "دائر",
+    "translation": "dā’ir turning, revolving, spinning; circulating; current (e.g., expression), common; ambulant, itinerant; in progress, 300 under way j working, in operation; running (machine, engine); round",
+    "examples": []
+  },
+  {
+    "word": "دائرة",
+    "displayWord": "دائرة",
+    "translation": "dā’ira pl. دوائر dawā’ir2 circle (also math.); ring; circumference, perimeter, periphery; sphere, scope, range, compass, extent, circuit; field, domain (fig.); official agency, department (esp. Ir., Syr., Leb.); office, bureau; department of a court of justice (Eg., Tun.); farm, country estate (eg.); misfortune, calamity, affliction │ في",
+    "examples": []
+  },
+  {
+    "word": "دائرة",
+    "displayWord": "دائرة",
+    "translation": "... within the framework of ...; على شكل",
+    "examples": []
+  },
+  {
+    "word": "دائرة انتخابية",
+    "displayWord": "دائرة انتخابية",
+    "translation": "(intikābīya) electoral district;",
+    "examples": []
+  },
+  {
+    "word": "دارت عليه الدوائر",
+    "displayWord": "دارت عليه الدوائر",
+    "translation": "to suffer adversities",
+    "examples": []
+  },
+  {
+    "word": "دائري",
+    "displayWord": "دائري",
+    "translation": "dā’irī circular, ring-shaped, annular",
+    "examples": []
+  },
+  {
+    "word": "دورق",
+    "displayWord": "دورق",
+    "translation": "dauraq pl. دوارق dawāriq2 (eg.) bulging vessel with a long, slender neck, carafe",
+    "examples": []
+  },
+  {
+    "word": "دوزن",
+    "displayWord": "دوزن",
+    "translation": "dauzana to tune (a musical instrument); O to tune in (radio)",
+    "examples": []
+  },
+  {
+    "word": "دوزان",
+    "displayWord": "دوزان",
+    "translation": "dūzān and دوزنة dauzana tuning (of a musical instrument); دوزنة O tuning (radio)",
+    "examples": []
+  },
+  {
+    "word": "دوزينة",
+    "displayWord": "دوزينة",
+    "translation": "(It. dozzina) dōzīna dozen",
+    "examples": []
+  },
+  {
+    "word": "داس",
+    "displayWord": "داس",
+    "translation": "(دوس ) dāsa u (daus, دياس diyās) to tread, step ( ھ on); to tread ( ھ s.th.); to tread down, trample down, trample underfoot, crush ( ھ s.th.); to thresh (grain); to treat with disdain, humiliate ( ه s.o.); to run over ه) s.o.; automobile) VII pass. of I",
+    "examples": []
+  },
+  {
+    "word": "دوس",
+    "displayWord": "دوس",
+    "translation": "daus treading, trampling, tread, step",
+    "examples": []
+  },
+  {
+    "word": "ديسة",
+    "displayWord": "ديسة",
+    "translation": "dīsa dense forest, jungle, thicket",
+    "examples": []
+  },
+  {
+    "word": "دواسة",
+    "displayWord": "دواسة",
+    "translation": "dawwāsa pedal",
+    "examples": []
+  },
+  {
+    "word": "دوسنطاريا",
+    "displayWord": "دوسنطاريا",
+    "translation": "dusinṭāriyā, دوسنتاريا dysentery",
+    "examples": []
+  },
+  {
+    "word": "دوسية",
+    "displayWord": "دوسية",
+    "translation": "(Fr. dossier) dosyē, دوسيه dōsē pl. -āt dossier, file",
+    "examples": []
+  },
+  {
+    "word": "دوش",
+    "displayWord": "دوش",
+    "translation": "1 (eg.) dawaš to irritate ( ه s.o.) or drive s.o. crazy by noise",
+    "examples": []
+  },
+  {
+    "word": "دوشة",
+    "displayWord": "دوشة",
+    "translation": "dauša (eg.) din, noise, clamor, uproar, hubbub, hullabaloo",
+    "examples": []
+  },
+  {
+    "word": "دوش",
+    "displayWord": "دوش",
+    "translation": "2 (Fr. douche) dūš pl. -āt shower, douche",
+    "examples": []
+  },
+  {
+    "word": "دوطة",
+    "displayWord": "دوطة",
+    "translation": "(It. dote) dōṭa dowry",
+    "examples": []
+  },
+  {
+    "word": "دوغ",
+    "displayWord": "دوغ",
+    "translation": "II to imprint a mark, to brand",
+    "examples": []
+  },
+  {
+    "word": "داغ",
+    "displayWord": "داغ",
+    "translation": "dāg pl. -āt brand (on cattle) 301",
+    "examples": []
+  },
+  {
+    "word": "داف",
+    "displayWord": "داف",
+    "translation": "(دوف ) dāfa u (dauf) to mix, mingle ( في ھ s.th. with); to add, admix ( في ھ s.th. to)",
+    "examples": []
+  },
+  {
+    "word": "دوق",
+    "displayWord": "دوق",
+    "translation": "dūq duke",
+    "examples": []
+  },
+  {
+    "word": "دوقة",
+    "displayWord": "دوقة",
+    "translation": "dūqa duchess",
+    "examples": []
+  },
+  {
+    "word": "دوقي",
+    "displayWord": "دوقي",
+    "translation": "dūqī ducal",
+    "examples": []
+  },
+  {
+    "word": "دوقية",
+    "displayWord": "دوقية",
+    "translation": "dūqīya dukedom, duchy",
+    "examples": []
+  },
+  {
+    "word": "دوك",
+    "displayWord": "دوك",
+    "translation": "II to chatter, prattle",
+    "examples": []
+  },
+  {
+    "word": "دوك",
+    "displayWord": "دوك",
+    "translation": "dauka din, row, hubbub, turnult, confusion",
+    "examples": []
+  },
+  {
+    "word": "دال",
+    "displayWord": "دال",
+    "translation": "(دول 1 ) dāla u\" ( دولة daula) to change periodically, take turns, alternate, rotate; to change, turn (time, fortune) │ دالت دولة",
+    "examples": []
+  },
+  {
+    "word": "دولة",
+    "displayWord": "دولة",
+    "translation": "daula pl. دول duwal alternation, rotation, change; change of time, turn of fortune; dynasty; state, country; power, empire │ صاحب الدولة title of the Prime Minister; دولة رئيس الحكومة daulat r. al-ḥ. His Excellency, the Prime Minister; فخامة",
+    "examples": []
+  },
+  {
+    "word": "دولة",
+    "displayWord": "دولة",
+    "translation": "(dam., pronounced dōle = ركوة rakwa) metal vessel with long curved handle used for making coffee",
+    "examples": []
+  },
+  {
+    "word": "دولي",
+    "displayWord": "دولي",
+    "translation": "daulī state (adj.); duwalī international",
+    "examples": []
+  },
+  {
+    "word": "دولية",
+    "displayWord": "دولية",
+    "translation": "duwalīya internationality; internationalism; the International",
+    "examples": []
+  },
+  {
+    "word": "دويلات",
+    "displayWord": "دويلات",
+    "translation": "duwailāt petty states, small countries",
+    "examples": []
+  },
+  {
+    "word": "دواليك",
+    "displayWord": "دواليك",
+    "translation": "dawālaika alternately, by turns; successively, one by one, one after the other │ وھكذا دواليك (wa-hākadā) and so forth, and so on",
+    "examples": []
+  },
+  {
+    "word": "دوال",
+    "displayWord": "دوال",
+    "translation": "2 dawālin see دول",
+    "examples": []
+  },
+  {
+    "word": "دولاب",
+    "displayWord": "دولاب",
+    "translation": "dūlāb pl. دواليب dawālīb2 wheel; tire; gearing, gears, wheels, mechanism, machine, machinery; closet, looker, cabinet, cupboard │ دولاب الملابس wardrobe",
+    "examples": []
+  },
+  {
+    "word": "دولار",
+    "displayWord": "دولار",
+    "translation": "dūlār pl. -āt dollar",
+    "examples": []
+  },
+  {
+    "word": "دام",
+    "displayWord": "دام",
+    "translation": "( دوم 2 ) dāma u (daum, دوام dawām) to last, continue, go on; to persevere, persist │ ما",
+    "examples": []
+  },
+  {
+    "word": "دام",
+    "displayWord": "دام",
+    "translation": "mā dāma as long as; (the more so) since, inasmuch as, as, because; while he is ..., when he is ... ; ما دام حيا (ḥayyan) as long as he is alive; ما دمت معك (dumtu) so long as (or while) I am with you II to move in a circle, turn, spin, revolve, rotate, gyrate, circle; to turn, revolve, spin, twirl ( ھ s.th.) III to persevere, persist ( على in), apply o.s. diligently and steadily ( على to), pursue with diligence and perseverance ( على s.th.); to continue IV to cause to last or continue, perpetuate, make lasting, make permanent ( ھ s.th.) X to make ( ھ s.th.) last or continue; to continue, go on ( ھ with s.th.)",
+    "examples": []
+  },
+  {
+    "word": "دوم",
+    "displayWord": "دوم",
+    "translation": "daum continuance, permanence, duration; دوما dauman constantly, at all times, ever, always; -- doom palm (bot.)",
+    "examples": []
+  },
+  {
+    "word": "ديمة",
+    "displayWord": "ديمة",
+    "translation": "dīma pl. ديم diyam, ديوم duyūm continuous rain",
+    "examples": []
+  },
+  {
+    "word": "دوام",
+    "displayWord": "دوام",
+    "translation": "dawām duration, continuance, permanence, perpetuity; uninterrupted succession; endurance, perseverance; abiding, stay (of s.o., في at a place); دواما dawāman and على الدوام permanently, perpetually, at all times, ever, always │",
+    "examples": []
+  },
+  {
+    "word": "ديمومة",
+    "displayWord": "ديمومة",
+    "translation": "daimūma = دوام",
+    "examples": []
+  },
+  {
+    "word": "دوامة",
+    "displayWord": "دوامة",
+    "translation": "duwwāma top (child’s toy); whirlpool, eddy, vortex",
+    "examples": []
+  },
+  {
+    "word": "دائم",
+    "displayWord": "دائم",
+    "translation": "dā’im lasting, enduring; endless, eternal, perpetual, everlasting; perennial; continued, continuous, continual, incessant, unceasing, constant; permanent, standing, established; durable │ دائم التقدم",
+    "examples": []
+  },
+  {
+    "word": "دائما",
+    "displayWord": "دائما",
+    "translation": "dā’iman always │ دائما ابدا (abadan) always and ever",
+    "examples": []
+  },
+  {
+    "word": "دائمي",
+    "displayWord": "دائمي",
+    "translation": "dā’imī = دائم",
+    "examples": []
+  },
+  {
+    "word": "دومان",
+    "displayWord": "دومان",
+    "translation": "2 dūmān rudder, helm",
+    "examples": []
+  },
+  {
+    "word": "دومانجي",
+    "displayWord": "دومانجي",
+    "translation": "dūmānjī steersman, helmsman",
+    "examples": []
+  },
+  {
+    "word": "دون",
+    "displayWord": "دون",
+    "translation": "1 II to record, write down, set down, put down in writing ( ھ s.th.); to enter, list, register, book ( ھ s.th.); to collect ( ھ poems) │ دون شرطا (šarṭan) to stipulate a condition V to be recorded, be written down, be put down in writing",
+    "examples": []
+  },
+  {
+    "word": "ديوان",
+    "displayWord": "ديوان",
+    "translation": "dīwān pl. دواوين dawāwīn2 account books of the treasury (in the older Islamic administration); divan, collection of poems written by one author; governmental office, administrative office; chancellery, office, bureau, secretariat; council or state, cabinet; council, consultative assembly, board of advisers, executive committee; government; court or justice, tribunal; hall; davenport, divan; (railway) compartment │ لغة الدواوين lugat ad-d. official jargon, officialese; ديوان التفتيش inquisitional court; the Inquisition",
+    "examples": []
+  },
+  {
+    "word": "ديواني",
+    "displayWord": "ديواني",
+    "translation": "dīwānī administrative, administrational, official; an Ottoman style of cursive (used by the secretaries of the State Chancellery for treaties, diplomas, firmans, etc.)",
+    "examples": []
+  },
+  {
+    "word": "دون",
+    "displayWord": "دون",
+    "translation": "2 dūn low, lowly; bad, poor, inferior; meager, inadequate │ عامله بالدون (‘āmalahū) he snubbed him",
+    "examples": []
+  },
+  {
+    "word": "دون",
+    "displayWord": "دون",
+    "translation": "dūna (prep.) below, beneath, under (in rank, value, etc.); this side of, short of; before; without more than; with the exclusion of, leaving ... aside, disregarding ...; and not by any means, but not │ دون ذلك (with foll. nominative) on the way to that, there is ... , before accomplishing that one must …, دون ذلك",
+    "examples": []
+  },
+  {
+    "word": "دون ما فائدة",
+    "displayWord": "دون ما فائدة",
+    "translation": "with no benefit at all; completely useless; تخشى ان يسعدن دونھا (takšā an yas‘adna) she is afraid they will be happier than she is; تلك الكتب دون غيرھا (kutub, gairihā) those books and no others; ان متعجب من فضلك دون علمك (muta‘ajjib, faḍlika, ‘ilmika) I admire your virtue, but not your knowledge, or, I admire your virtue more than your knowledge; كم الأفواه دون دون التذمر والشكوى (kamma, tadammur, šakwā) he stopped their mouths to keep them from muttering and complaining; اذا كان الغصن دون ما يحتمله (guṣnu, yaḥtamiluhū) if the branch is not strong enough to carry him; وصل دونھم الى",
+    "examples": []
+  },
+  {
+    "word": "دون الحمراء",
+    "displayWord": "دون الحمراء",
+    "translation": "(aši‘‘a, ḥamrā‘) the infrared rays; الموجات دون القصيرة (maujāt) ultrashort waves (radio)",
+    "examples": []
+  },
+  {
+    "word": "دونم",
+    "displayWord": "دونم",
+    "translation": "dūnum a square measure (Ir. = about 2500 m2; Pal. = roughly, 900 m2)",
+    "examples": []
+  },
+  {
+    "word": "دوى",
+    "displayWord": "دوى",
+    "translation": "1 dawā and II to sound, resound, ring out; to drone; to echo, reverberate III to treat ( ه a patient, ھ a disease) VI to treat o.s. (with a medicine); to be cured",
+    "examples": []
+  },
+  {
+    "word": "دوى",
+    "displayWord": "دوى",
+    "translation": "dawan pl. ادواء adwā’ sickness, illness, disease, malady",
+    "examples": []
+  },
+  {
+    "word": "دوي",
+    "displayWord": "دوي",
+    "translation": "dawīy sound, noise, ring, clang, roar, thunder, drone; echo, reverberation",
+    "examples": []
+  },
+  {
+    "word": "دواة",
+    "displayWord": "دواة",
+    "translation": "dawāh (□ دواية dawāya) pl. دوي duwīy, diwīy, دويات dawayāt inkwell",
+    "examples": []
+  },
+  {
+    "word": "دواء",
+    "displayWord": "دواء",
+    "translation": "dawā’ pl. ادوية adwiya remedy, medicament, medication, medicine, drug",
+    "examples": []
+  },
+  {
+    "word": "دوائي",
+    "displayWord": "دوائي",
+    "translation": "dawd'i medicinal, medicative, curative",
+    "examples": []
+  },
+  {
+    "word": "داء",
+    "displayWord": "داء",
+    "translation": "see دوء",
+    "examples": []
+  },
+  {
+    "word": "دواء",
+    "displayWord": "دواء",
+    "translation": "diwā’ treatment, therapy (med.)",
+    "examples": []
+  },
+  {
+    "word": "دوى",
+    "displayWord": "دوى",
+    "translation": "2 (Fr. douille) dūy socket (of a light bulb)",
+    "examples": []
+  },
+  {
+    "word": "ديالوج",
+    "displayWord": "ديالوج",
+    "translation": "diyalōg (Eg. spelling) pl. -āt dialogue",
+    "examples": []
+  },
+  {
+    "word": "ديباج",
+    "displayWord": "ديباج",
+    "translation": "and ديباجة see دبج",
+    "examples": []
+  },
+  {
+    "word": "ديوث",
+    "displayWord": "ديوث",
+    "translation": "dayyūt (□ ديوس ) cuckold; procurer, pimp; a variety of warbler (zool.)",
+    "examples": []
+  },
+  {
+    "word": "ديجور",
+    "displayWord": "ديجور",
+    "translation": "see دجر",
+    "examples": []
+  },
+  {
+    "word": "ديدبان",
+    "displayWord": "ديدبان",
+    "translation": "daidabān, daidubān pl. -āt, ديادبة dayādiba guard, sentry: sentinel │ ديدبان",
+    "examples": []
+  },
+  {
+    "word": "ديدن",
+    "displayWord": "ديدن",
+    "translation": "see ددن",
+    "examples": []
+  },
+  {
+    "word": "دير، ديرة، اديار، اديرة، ديرى، ديار، ديراني",
+    "displayWord": "دير، ديرة، اديار، اديرة، ديرى، ديار، ديراني",
+    "translation": "see دور",
+    "examples": []
+  },
+  {
+    "word": "ديس",
+    "displayWord": "ديس",
+    "translation": "dīs diss (Ampelodesma tenax; bot.)",
+    "examples": []
+  },
+  {
+    "word": "ديسم",
+    "displayWord": "ديسم",
+    "translation": "see دسم",
+    "examples": []
+  },
+  {
+    "word": "ديسمبر",
+    "displayWord": "ديسمبر",
+    "translation": "disembir, disambir December",
+    "examples": []
+  },
+  {
+    "word": "ديك",
+    "displayWord": "ديك",
+    "translation": "dīk pl. ديكة dīka, ديوك duyūk, ادياك adyāk cock, rooster │ ديك الحبش d. al-kabaš turkey, turkey cock; ديك رومي (rūmī) do.;",
+    "examples": []
+  },
+  {
+    "word": "ديكتاتوري",
+    "displayWord": "ديكتاتوري",
+    "translation": "= دكتاتوري",
+    "examples": []
+  },
+  {
+    "word": "ديكور",
+    "displayWord": "ديكور",
+    "translation": "(Fr. décor) pl. -āt décor, stage decoration",
+    "examples": []
+  },
+  {
+    "word": "ديماس",
+    "displayWord": "ديماس",
+    "translation": "daimās, dīmās, ديموس daimūs pl. دياميس dayāmīs2 dungeon, vault",
+    "examples": []
+  },
+  {
+    "word": "ديمة، ديم، ديمومة",
+    "displayWord": "ديمة، ديم، ديمومة",
+    "translation": "see دوم",
+    "examples": []
+  },
+  {
+    "word": "ديموطيقي",
+    "displayWord": "ديموطيقي",
+    "translation": "dīmūṭīqī demotic (writing)",
+    "examples": []
+  },
+  {
+    "word": "ديموقراطي، ديمقراطي",
+    "displayWord": "ديموقراطي، ديمقراطي",
+    "translation": "dimuqrāṭī democratic; democrat ديموقراطية, ديمقراطية dimuqrāṭīya pl. -āt democracy; democratic attitude or conviction",
+    "examples": []
+  },
+  {
+    "word": "دان",
+    "displayWord": "دان",
+    "translation": "(دين 1 ) dāna i to borrow, take up a loan; to be a debtor, be indebted; to owe ( ب ل s.o. s.th., also, e.g., دان له بالشكر (šukr) d. lahū bi-š-šukr to owe s.o. one’s thanks; ب s.th., e.g., بالحياة bi-l-ḥayāh one’s life, ل to s.th. or s.o.); to be indebted ( ب ل to s.o. for); to be subject, subject o.s., bow, yield, ( ل to s.o. or s.th.), be under s.o.’s ( ل) power, owe allegiance ( ل to s.o.), obey ( ل s.o.); to grant a loan, lend money ( ه to s.o.); to subject, subjugate ( ه s.o.): to requite, repay ه) s.o.): to condemn ( ه s.o.), pass judgment ه) on s.o.) III to have a debt ( ه with s.o.), be indebted ( ه to s.o.): to be the creditor ( ه of s.o.), have a money claim ( ه on s.o.) │",
+    "examples": []
+  },
+  {
+    "word": "داينه بمبلغ خمسة قروش",
+    "displayWord": "داينه بمبلغ خمسة قروش",
+    "translation": "(bi-mablag kamsat q.) he had a claim of five piasters on him IV to lend money ( ه to s.o.): to sell on credit (",
+    "examples": []
+  },
+  {
+    "word": "دين",
+    "displayWord": "دين",
+    "translation": "dain pl. ديون duyūn debt; pecuniary obligation, liability: obligation (Isl. Law); claim (Isl. Law), financial claim │ بالدين on credit; رب الدين rabb ad-d. creditor; ديون",
+    "examples": []
+  },
+  {
+    "word": "دين موحد",
+    "displayWord": "دين موحد",
+    "translation": "(muwaḥḥlad) consolidated debt;",
+    "examples": []
+  },
+  {
+    "word": "دين مطلق",
+    "displayWord": "دين مطلق",
+    "translation": "(muṭlaq) debt not bound to the physical person of the debtor, but outliving him (Isl. Law); دين مستغرق (mustagriq) claims against an estate which exceed or equal the assets (Isl. Law)",
+    "examples": []
+  },
+  {
+    "word": "دينونة",
+    "displayWord": "دينونة",
+    "translation": "dainūna judgment; Last Judgment",
+    "examples": []
+  },
+  {
+    "word": "دائن",
+    "displayWord": "دائن",
+    "translation": "dā’in creditor",
+    "examples": []
+  },
+  {
+    "word": "دان",
+    "displayWord": "دان",
+    "translation": "(دين 2 ) dāna i to profess ( ب a religion, a conviction. etc.) │ دان بالإسلام to profess Islam; دان بعاداته (bi-‘ādātihī) to adhere to one’s customs V to profess ( ب a religion)",
+    "examples": []
+  },
+  {
+    "word": "دين",
+    "displayWord": "دين",
+    "translation": "dīn pl. اديان adyān religion, creed, faith, belief │ يوم الدين yaum ad-d. the Day of Judgment",
+    "examples": []
+  },
+  {
+    "word": "ديني",
+    "displayWord": "ديني",
+    "translation": "dīnī religious; spiritual │ لاديني irreligious; O العلم الديني science of religion",
+    "examples": []
+  },
+  {
+    "word": "دين",
+    "displayWord": "دين",
+    "translation": "dayyin religious, pious, godly, devout",
+    "examples": []
+  },
+  {
+    "word": "ديانة",
+    "displayWord": "ديانة",
+    "translation": "diyāna pl. -āt religion; communion, confession, denomination, sect │ صاحب الديانة founder of a religion",
+    "examples": []
+  },
+  {
+    "word": "ديان",
+    "displayWord": "ديان",
+    "translation": "dayyān pious, godly, devout, religious",
+    "examples": []
+  },
+  {
+    "word": "دينار",
+    "displayWord": "دينار",
+    "translation": "pl. دنانير danānīr2 dinar, a monetary unit (Ir., Jord.); pl. دنانير money",
+    "examples": []
+  },
+  {
+    "word": "ديناري",
+    "displayWord": "ديناري",
+    "translation": "dīnārī diamonds (of a deck of cards)",
+    "examples": []
+  },
+  {
+    "word": "دينامو",
+    "displayWord": "دينامو",
+    "translation": "dīnāmō dynamo, generator",
+    "examples": []
+  },
+  {
+    "word": "ديناميت",
+    "displayWord": "ديناميت",
+    "translation": "dīnāmīt dynamite O دينم dainam pl. ديانم dayānim2 dynamo, generator",
+    "examples": []
+  },
+  {
+    "word": "دية",
+    "displayWord": "دية",
+    "translation": "see ودى",
+    "examples": []
+  },
+  {
+    "word": "ديوان",
+    "displayWord": "ديوان",
+    "translation": "pl. دواوين and ديواني see دون 1 ذ",
+    "examples": []
+  },
+  {
+    "word": "ديك رومي",
+    "displayWord": "ديك رومي",
+    "translation": "(dīk) turkey (eg.); جبنة رومي (gibna) a brand of cheese (eg.)",
+    "examples": []
+  },
+  {
+    "word": "دينا",
+    "displayWord": "دينا",
+    "translation": "(dainan) to pay or settle a debt; سدد عجزا (‘ajzan) to cover a deficit; سدد خطاه (kuṭāhu) to guide s.o.’s stepa IV to hit the right thing, say or do the right thing; to be apposite, be to the point V to be guided, be directed, be shown ( الى to) VII to be blocked, be obstructed, be plugged up, become or be clogged or congested 402",
+    "examples": []
+  },
+  {
+    "word": "دار المستشارية",
+    "displayWord": "دار المستشارية",
+    "translation": "dār al-mustašārīya office of the chancellor, chancellery",
+    "examples": []
+  },
+  {
+    "word": "درامة مستخرجة من صلب الحياة",
+    "displayWord": "درامة مستخرجة من صلب الحياة",
+    "translation": "(mustakraja min ṣulbi l-ḥayāh) a drama taken from real life; في صلبه at heart, in his innermost",
+    "examples": []
+  },
+  {
+    "word": "دار الصور المتحركة",
+    "displayWord": "دار الصور المتحركة",
+    "translation": ", motion-picture theater, cinema; صورة شمسية (šamsīya) photograph;",
+    "examples": []
+  },
+  {
+    "word": "دورية",
+    "displayWord": "دورية",
+    "translation": "(daurīya) (short-range) reconnaissance plane, observation plane;",
+    "examples": []
+  },
+  {
+    "word": "دفع معجل",
+    "displayWord": "دفع معجل",
+    "translation": "dafa‘a mu‘ajjalan to pay in advance",
+    "examples": []
+  },
+  {
+    "word": "دور الانعقاد",
+    "displayWord": "دور الانعقاد",
+    "translation": "daur al-in. session, term (parl.)",
+    "examples": []
+  },
+  {
+    "word": "داره",
+    "displayWord": "داره",
+    "translation": "in his own house; في عقر ديارھم within the country; in their own country, on their own ground",
+    "examples": []
+  },
+  {
+    "word": "دين المسيح",
+    "displayWord": "دين المسيح",
+    "translation": "(dīni l-m.) to belong to the Christian religion, be a Christian; كان على",
+    "examples": []
+  },
+  {
+    "word": "ديدان الفيلاريا",
+    "displayWord": "ديدان الفيلاريا",
+    "translation": "dīdān al-fīlāriyā filaria (zool.)",
+    "examples": []
+  },
+  {
+    "word": "دار القرار",
+    "displayWord": "دار القرار",
+    "translation": "the hereafter, the world to come; O قرار الموجه q. al-maujah wave trough (techn.); قرارات التعديل modifying regulations",
+    "examples": []
+  },
+  {
+    "word": "دورا",
+    "displayWord": "دورا",
+    "translation": "(dauran) to pass through a phase or period, go through a stage; قطع برأي (bira’yin) to express a firm opinion; to decide in favor of an opinion; قطع برأيه (bira’yihī) to be guided in one’s decisions by s.o., proceed in accordance with s.o.’s opinion or decision; قطع الرحم (raḥim) to sever the bonds of kinship, break with one’s relatives; to violate the rules of consanguinity; قطع اشواطا (ašwāṭan) to make progress; قطع شوطا كبيرا (بعيدا) في التقدم",
+    "examples": []
+  },
+  {
+    "word": "داني القطوف",
+    "displayWord": "داني القطوف",
+    "translation": "dānī l-quṭūf within reach, at hand; easy to apply, easy to use, handy",
+    "examples": []
+  },
+  {
+    "word": "دبر كمينا",
+    "displayWord": "دبر كمينا",
+    "translation": "(dabbara) to hatch a plot; نصب له",
+    "examples": []
+  },
+  {
+    "word": "دقيق اللواقح",
+    "displayWord": "دقيق اللواقح",
+    "translation": "daqīq al-lawāqiḥ2 pollen",
+    "examples": []
+  },
+  {
+    "word": "درجة مئوية",
+    "displayWord": "درجة مئوية",
+    "translation": "(daraja) centigrade (thermometer)",
+    "examples": []
+  },
+  {
+    "word": "دائرة التمييز",
+    "displayWord": "دائرة التمييز",
+    "translation": "(akrajahū) to deprive s.o. of his clear judgment, rob s.o. of his senses",
+    "examples": []
+  },
+  {
+    "word": "دار النقاھة",
+    "displayWord": "دار النقاھة",
+    "translation": "rest center, convalescent home",
+    "examples": []
+  },
+  {
+    "word": "دفع بمنكبيه الھواء",
+    "displayWord": "دفع بمنكبيه الھواء",
+    "translation": "(mankibaihi, hawā’) approx.: to race along, dash along",
+    "examples": []
+  },
+  {
+    "word": "درجة في النھاية الكبرى",
+    "displayWord": "درجة في النھاية الكبرى",
+    "translation": "(a‘lā darajatin) absolute maximum (of temperature); اعلى درجة 1005",
+    "examples": []
+  },
+  {
+    "word": "دبلوماسية",
+    "displayWord": "دبلوماسية",
+    "translation": "diplomatic corps; الھيئة السعدية (sa‘dīya) the Sa’dist Union (formerly, a political group in Egypt); ھيئة طبية (ṭibbīya) ambulance corps; ھيئة نيابية (niyābīya) representative body, parliamentary body;",
+    "examples": []
+  },
+  {
+    "word": "دعة",
+    "displayWord": "دعة",
+    "translation": "da’a mild-temperedness, meekness, gentleness, gentle-heartedness; calm, composure, equanimity",
+    "examples": []
+  },
+  {
+    "word": "دية",
+    "displayWord": "دية",
+    "translation": "diya pl. -āt blood money, wergild; indemnity for bodily injury",
+    "examples": []
+  },
+  {
+    "word": "دون وعي",
+    "displayWord": "دون وعي",
+    "translation": "unconscious(ly)",
+    "examples": []
   }
 ]

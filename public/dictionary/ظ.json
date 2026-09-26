@@ -1,85 +1,434 @@
 [
   {
-    "word": "ظل",
-    "displayWord": "ظِلّ",
-    "root": "ظلل",
-    "translation": "shade, shadow, protection",
-    "examples": [
-      {
-        "ar": "أَلَمْ تَرَ إِلَىٰ رَبِّكَ كَيْفَ مَدَّ الظِّلَّ.",
-        "en": "Have you not considered your Lord - how He extends the shadow?",
-        "source": "Holy Quran"
-      }
-    ]
+    "word": "ظروف مخففة",
+    "displayWord": "ظروف مخففة",
+    "translation": "ẓurūf mukaffafa extenuating circumstances (jur.)",
+    "examples": []
   },
   {
-    "word": "ظلام",
-    "displayWord": "ظَلَام",
-    "root": "ظلم",
-    "translation": "darkness, obscurity",
-    "examples": [
-      {
-        "ar": "اللَّهُ وَلِيُّ الَّذِينَ آمَنُوا يُخْرِجُهُم مِّنَ الظُّلُمَاتِ إِلَى النُّورِ.",
-        "en": "God is the ally of those who believe. He brings them out from darknesses into the light.",
-        "source": "Holy Quran"
-      }
-    ]
+    "word": "ظاء",
+    "displayWord": "ظاء",
+    "translation": "ẓā’ name of the letter ظ",
+    "examples": []
   },
   {
-    "word": "ظهر",
-    "displayWord": "ظُهْر",
-    "root": "ظهر",
-    "translation": "noon, midday / also (ظَهْر) back / also (ظَهَرَ) he/it appeared",
-    "examples": [
-      {
-        "ar": "نُؤَدِّي صَلَاةَ الظُّهْرِ جَمَاعَةً فِي المَسْجِدِ.",
-        "en": "We perform the Dhuhr prayer in congregation in the mosque.",
-        "source": "Devotional Guide"
-      }
-    ]
+    "word": "ظئر",
+    "displayWord": "ظئر",
+    "translation": "ẓi’r wet nurse",
+    "examples": []
   },
   {
-    "word": "ظلم",
-    "displayWord": "ظُلْم",
-    "root": "ظلم",
-    "translation": "injustice, tyranny, oppression",
-    "examples": [
-      {
-        "ar": "أَلَا لَعْنَةُ اللَّهِ عَلَى الظَّالِمِينَ.",
-        "en": "Unquestionably, the curse of God is upon the wrongdoers.",
-        "source": "Holy Quran"
-      },
-      {
-        "ar": "الظُّلْمُ ظُلُمَاتٌ يَوْمَ القِيَامَةِ.",
-        "en": "Injustice will be darknesses on the Day of Resurrection.",
-        "source": "Hadith"
-      }
-    ]
+    "word": "ظبي",
+    "displayWord": "ظبي",
+    "translation": "ẓaby pl. ظباء ẓibā’ gazelle (Gazella dorcas)",
+    "examples": []
+  },
+  {
+    "word": "ظبية",
+    "displayWord": "ظبية",
+    "translation": "ẓabya pl. ẓabayāt female gazelle",
+    "examples": []
+  },
+  {
+    "word": "ظر",
+    "displayWord": "ظر",
+    "translation": "ẓirr sharp-edged stone, flint",
+    "examples": []
+  },
+  {
+    "word": "ظربان",
+    "displayWord": "ظربان",
+    "translation": "ẓaribān, ẓirbān pl. ظرابين ẓarābīn ظرابي , 2 ẓarābīy polecat, fitchew",
+    "examples": []
+  },
+  {
+    "word": "ظرف",
+    "displayWord": "ظرف",
+    "translation": "ẓarufa u (ẓarf, ظرافة ẓarāfa) to be charming, chic, nice, elegant, neat; to be witty, full of esprit II to adorn, embellish, polish ( ھ، ه s.o., s.th.), impart charm ( ھ، ه to s.o., to s.th.); to put ( ھ s.th.) into an envelope, cover or wrap, to envelop, wrap up, cover ( ھ s.th.) V to affect charm or elegance, display affectedness; to show o.s. elegant, witty, full of esprit VI = V; I to deem or find ( ھ، ه s.o., s.th.) elegant, charming, adroit, witty, etc.",
+    "examples": []
+  },
+  {
+    "word": "ظرف",
+    "displayWord": "ظرف",
+    "translation": "ẓarf elegance, gracefulness, grace, charm; cleverness, resourcefulness; 580 wittiness, esprit; -- (pl. ظروف ẓurūf) vessel, receptacle, container; covering, wrap, cover; (letter) envelope; capsule, case; (gram.) adverb denoting place or time; pl. ظروف circumstances, conditions │ بظرف or في ظرف within, in a (given) period of; ظروف مخففة (mukaffifa) and",
+    "examples": []
+  },
+  {
+    "word": "ظروف التخفيف",
+    "displayWord": "ظروف التخفيف",
+    "translation": "extenuating circumstances;",
+    "examples": []
+  },
+  {
+    "word": "ظروف مشددة",
+    "displayWord": "ظروف مشددة",
+    "translation": "(mušaddida) aggravating circumstances; بحسب الظروف bi-ḥasabi aẓ- ẓ. according to circumstances, depending on the circumstances",
+    "examples": []
+  },
+  {
+    "word": "ظرفي",
+    "displayWord": "ظرفي",
+    "translation": "ẓarfī adverbial │ بينة ظرفية (bayyina) or دليل ظرفي dalīl circumstantial evidence",
+    "examples": []
+  },
+  {
+    "word": "ظريف",
+    "displayWord": "ظريف",
+    "translation": "ẓarīf pl. ظرفاء ẓurafā’2, f. ظرائف ẓarā’if elegant, graceful, charming; full of esprit, witty, nice, fine",
+    "examples": []
+  },
+  {
+    "word": "ظرافة",
+    "displayWord": "ظرافة",
+    "translation": "ẓarāfa elegance, gracefulness, grace, charm; esprit, wittiness",
+    "examples": []
+  },
+  {
+    "word": "ظعن",
+    "displayWord": "ظعن",
+    "translation": "ẓa‘ana a (ẓa‘n) to move away, leave, depart",
+    "examples": []
+  },
+  {
+    "word": "ظعن",
+    "displayWord": "ظعن",
+    "translation": "ẓa‘n departure, start, journey, trek (esp. of a caravan)",
+    "examples": []
+  },
+  {
+    "word": "ظعينة",
+    "displayWord": "ظعينة",
+    "translation": "ẓa‘īna pl. ظعن ẓu‘un, اظعان aẓ‘ān camel-borne sedan chair for women; a woman in such a sedan",
+    "examples": []
+  },
+  {
+    "word": "ظاعن",
+    "displayWord": "ظاعن",
+    "translation": "ẓā‘in ephemeral, transient, transitory",
+    "examples": []
   },
   {
     "word": "ظفر",
-    "displayWord": "ظَفَر",
-    "root": "ظفر",
-    "translation": "victory, triumph, fingernail / also (ظَفِرَ) he won",
-    "examples": [
-      {
-        "ar": "نَالَتِ الحُرِّيَّةُ ظَفَرًا كَبِيرًا بَعْدَ الكِفَاحِ.",
-        "en": "Freedom achieved a great victory after the struggle.",
-        "source": "Historical Record"
-      }
-    ]
+    "displayWord": "ظفر",
+    "translation": "ẓafira a (ẓafar) to be successful, succeed, be victorious, be triumphant; to gain a victory ( على or ب over), conquer, vanquish, defeat, overcome, surmount, overwhelm ( على or ب s.o., s.th.), get the better ( على or ب of s.o., of s.th.); to seize (",
+    "examples": []
+  },
+  {
+    "word": "ظفر",
+    "displayWord": "ظفر",
+    "translation": "ẓufur, ẓufr, ẓifr pl. اظفار aẓfār, اظافر aẓāfir اظافير , 2 aẓāfīr2 nail, fingernail; toenail; claw, talon │ من (منذ) نعومة اظفاره from (the days of) his earliest youth, since his earliest youth or adolescence; ناعم الظفر youthful, of tender age",
+    "examples": []
+  },
+  {
+    "word": "ظفر",
+    "displayWord": "ظفر",
+    "translation": "ẓafar victory, triumph",
+    "examples": []
+  },
+  {
+    "word": "ظفر",
+    "displayWord": "ظفر",
+    "translation": "ẓafir victorious, successful, triumphant; (pl. ظفران ) young man, youth (ḥij.)",
+    "examples": []
+  },
+  {
+    "word": "ظافر",
+    "displayWord": "ظافر",
+    "translation": "ẓāfir victorious, triumphant; successful; victor, conqueror",
+    "examples": []
+  },
+  {
+    "word": "ظل",
+    "displayWord": "ظل",
+    "translation": "ẓalla (1st pers. perf. ẓaliltu) a (ẓall.",
+    "examples": []
+  },
+  {
+    "word": "ظلول",
+    "displayWord": "ظلول",
+    "translation": "ẓulūl) to be; to become, turn into, grow into; (with foll. imperf., participle or",
+    "examples": []
+  },
+  {
+    "word": "ظل",
+    "displayWord": "ظل",
+    "translation": "ẓill pl. ظلال ẓilāl, ظلول ẓulūl, اظلال aẓlāl shadow, shade, umbra; shelter, protection, patronage; shading, hub; slightest indication, semblance, trace, glimpse (of s.th.); tangent (geom.) │ في ظل (with foll. genit.) under the protection or patronage of, under the auspices of; under the sovereignty of; تحت ظل under the protection or patronage of, under the auspices of; ثقيل الظل insufferable, repugnant (of a person); خفيف الظل likable, nice (of a person); استثقل ظله (istatqala) to dislike s.o., find s.o. in sufferable, unbearable, a bore; تقلص (قلص) ظله taqallaṣa ẓilluhū his prestige or authority faded, diminished; it decreased, diminished, dwindled away, waned",
+    "examples": []
+  },
+  {
+    "word": "ظلة",
+    "displayWord": "ظلة",
+    "translation": "ẓulla pl. ظلل ẓulal awning. marquee, canopy, sheltering hut or tent, shelter; shack, shanty; kiosk, stall; beach chair",
+    "examples": []
+  },
+  {
+    "word": "ظليل",
+    "displayWord": "ظليل",
+    "translation": "ẓalīl shady, shaded, umbrageous",
+    "examples": []
+  },
+  {
+    "word": "ظلع",
+    "displayWord": "ظلع",
+    "translation": "ẓala‘a a (ẓal‘) to limp, walk with a limp, walk lamely",
+    "examples": []
+  },
+  {
+    "word": "ظلع",
+    "displayWord": "ظلع",
+    "translation": "ẓali‘ lame",
+    "examples": []
+  },
+  {
+    "word": "ظلف",
+    "displayWord": "ظلف",
+    "translation": "ẓilf pl. ظلوف ẓulūf, اظلاف cloven hoof",
+    "examples": []
+  },
+  {
+    "word": "ظلم",
+    "displayWord": "ظلم",
+    "translation": "ẓalama i (ẓalm, ẓulm) to do wrong or evil; to wrong, treat unjustly, ill-treat, oppress, beset, harm, suppress, tyrannize ( ه s.o.), commit outrage ( ه upon s.o.); to act the tyrant, act tyrannically ( ه toward or against s.o.); -- ẓalima a and IV to be or grow dark, dusky, gloomy, murky, tenebrous, darken, darkle V to complain ( من of, about) VII and VIII اظلم iẓẓalama to suffer injustice, be wronged",
+    "examples": []
+  },
+  {
+    "word": "ظلم",
+    "displayWord": "ظلم",
+    "translation": "ẓulm wrong; iniquity; injustice, inequity, unfairness; oppression, repression, suppression, tyranny; ظلما ẓulman unjustly, wrongfully",
+    "examples": []
+  },
+  {
+    "word": "ظلمة",
+    "displayWord": "ظلمة",
+    "translation": "ẓulma pl. -āt, ẓulumāt, ẓulamāt, ظلم ẓulam darkness, duskiness, gloom, murkiness │ بحر الظلمات baḥr aẓ-ẓ. the Atlantic Ocean",
+    "examples": []
+  },
+  {
+    "word": "ظلماء",
+    "displayWord": "ظلماء",
+    "translation": "ẓalmā’2 darkness │ ليلة ظلماء (laila) pitch-dark night",
+    "examples": []
+  },
+  {
+    "word": "ظلام",
+    "displayWord": "ظلام",
+    "translation": "ẓalām darkness, duskiness, gloom, murkiness",
+    "examples": []
+  },
+  {
+    "word": "ظلام",
+    "displayWord": "ظلام",
+    "translation": "ẓalām evildoer, villain, malefactor, rogue, scoundrel, tyrant, oppressor",
+    "examples": []
+  },
+  {
+    "word": "ظليم",
+    "displayWord": "ظليم",
+    "translation": "ẓalīm pl. ظلمان ẓilmān male ostrich",
+    "examples": []
+  },
+  {
+    "word": "ظلامة",
+    "displayWord": "ظلامة",
+    "translation": "ẓulāma pl. -āt misdeed, wrong, iniquity, injustice, outrage",
+    "examples": []
+  },
+  {
+    "word": "ظلامة",
+    "displayWord": "ظلامة",
+    "translation": "aẓlam2 darker, duskier, gloomier, murkier; a viler, more infamous, more heinous villain",
+    "examples": []
+  },
+  {
+    "word": "ظالم",
+    "displayWord": "ظالم",
+    "translation": "ẓālim pl. -ūn, ظلام ẓullām, ظلمة ẓalama unjust, unfair, iniquitous, tyrannical, oppressing; tyrant, oppressor; offender, transgressor, sinner",
+    "examples": []
+  },
+  {
+    "word": "ظمئ",
+    "displayWord": "ظمئ",
+    "translation": "ẓami’a a ( ظمأ ẓama’, ظماء ẓamā’,",
+    "examples": []
+  },
+  {
+    "word": "ظماءة",
+    "displayWord": "ظماءة",
+    "translation": "ẓamā’a) to thirst, be thirsty II to make ( ه s.o.) thirst",
+    "examples": []
+  },
+  {
+    "word": "ظمء",
+    "displayWord": "ظمء",
+    "translation": "ẓim’, ظمأ and ظماء ẓamā’ thirst",
+    "examples": []
+  },
+  {
+    "word": "ظمآن",
+    "displayWord": "ظمآن",
+    "translation": "ẓam’ān, f. ظمأى ẓam’ā thirsty",
+    "examples": []
+  },
+  {
+    "word": "ظامئ",
+    "displayWord": "ظامئ",
+    "translation": "ẓāmi’ thirsty",
+    "examples": []
   },
   {
     "word": "ظن",
-    "displayWord": "ظَنّ",
-    "root": "ظنن",
-    "translation": "suspicion, belief, conjecture",
-    "examples": [
-      {
-        "ar": "يَا أَيُّهَا الَّذِينَ آمَنُوا اجْتَنِبُوا كَثِيرًا مِّنَ الظَّنِّ إِنَّ بَعْضَ الظَّنِّ إِثْمٌ.",
-        "en": "O you who have believed, avoid much [negative] assumption, indeed some assumption is sin.",
-        "source": "Holy Quran"
-      }
-    ]
+    "displayWord": "ظن",
+    "translation": "ẓanna (1st pers. perf. ẓanantu) u (ẓann) to think, believe, assume, presume, suppose (",
+    "examples": []
+  },
+  {
+    "word": "ظن به الغباء",
+    "displayWord": "ظن به الغباء",
+    "translation": "(gabā’a) to suspect s.o. of stupidity IV to suspect ( ه s.o.) V to surmise, form conjectures",
+    "examples": []
+  },
+  {
+    "word": "ظن",
+    "displayWord": "ظن",
+    "translation": "ẓann pl. ظنون ẓunūn opinion, idea, assumption, view, belief, supposition; doubt, uncertainty │ حسن الظن ḥusn aẓ-ẓ. good opinion; سوء الظن sū’ aẓ-ẓ. low opinion, distrust; في اغلب الظن or في اكثر الظن most probably, most likely; اكثر الظن ان it is very likely that ...; ظنا منه ان (ẓannan) since he believed that ...; ما ظنك ب (ẓannuka) what is one to think of ...; حسن",
+    "examples": []
+  },
+  {
+    "word": "ظنه ب",
+    "displayWord": "ظنه ب",
+    "translation": "(ḥasuna ẓannuhū) to have a good opinion of s.o., think well of s.o.; احسن الظن",
+    "examples": []
+  },
+  {
+    "word": "ظني",
+    "displayWord": "ظني",
+    "translation": "ẓannī resting on mere assumption, presumptive, supposed, hypothetical",
+    "examples": []
+  },
+  {
+    "word": "ظنة",
+    "displayWord": "ظنة",
+    "translation": "ẓinna pl. ظنن ẓinan suspicion, misgiving",
+    "examples": []
+  },
+  {
+    "word": "ظنين",
+    "displayWord": "ظنين",
+    "translation": "ẓanīn suspicious, suspect(ed); unreliable, untrustworthy ( على with regard to); a suspect",
+    "examples": []
+  },
+  {
+    "word": "ظنون",
+    "displayWord": "ظنون",
+    "translation": "ẓanūn suspicious, distrustful",
+    "examples": []
+  },
+  {
+    "word": "ظنبوب",
+    "displayWord": "ظنبوب",
+    "translation": "ẓanbūb pl. ظنابيب ẓanābīb2 shinbone",
+    "examples": []
+  },
+  {
+    "word": "ظھر",
+    "displayWord": "ظھر",
+    "translation": "ẓahara a ( ظھور ẓuhūr) to be or become visible, perceptible, distinct, manifest, clear, apparent, evident, obvious ( ل to s.o.), come to light, appear, manifest itself, come into view, show, emerge, crop up; to appear, seem ( ل to s.o.); to break out (disease); to come out; to appear, be published (book, periodical); to arise, result ( من from); to ascend, climb, mount (",
+    "examples": []
+  },
+  {
+    "word": "ظھر",
+    "displayWord": "ظھر",
+    "translation": "ẓahr cast iron │ ظھر الحديد and حديد",
+    "examples": []
+  },
+  {
+    "word": "ظھر",
+    "displayWord": "ظھر",
+    "translation": "ẓahr pl. ظھور ẓuhūr, اظھر aẓhur back; rear, rear part, rear aide, reverse; flyleaf; deck (of a steamer); upper part, top, surface; ظھورات ẓuhūrāt (as a genit.; eg.) pro tempore, provisional, temporary │ سلسلة الظھر silsilat aẓ-ẓ. spine, vertebral column; ظھرا لبطن ẓahran li-baṭnin upside down, topsy-turvy; ظھرا على عقب (‘aqib) from the ground up, radically, entirely, completely; بظھر الغيب bi-ẓ. il-gaib behind s.o.’s back, insidiously, treacherously; secretly, stealthily, clandestinely; بين",
+    "examples": []
+  },
+  {
+    "word": "ظھر",
+    "displayWord": "ظھر",
+    "translation": "on (e.g., on the ground, on the water. etc.), على ظھر الباخرة on board the steamer;",
+    "examples": []
+  },
+  {
+    "word": "ظھر",
+    "displayWord": "ظھر",
+    "translation": "ẓuhr pl. اظھار aẓhār noon, midday; (f.) midday prayer (Isl. Law) │ بعد الظھر in the afternoon, p.m.; قبل الظھر in the forenoon, a.m.",
+    "examples": []
+  },
+  {
+    "word": "ظھري",
+    "displayWord": "ظھري",
+    "translation": "ẓihrī: نبذه (طرحه) ظھريا to pay no attention to s.th., not to care about s.th. disregard s.th.",
+    "examples": []
+  },
+  {
+    "word": "ظھير",
+    "displayWord": "ظھير",
+    "translation": "ẓahīr helper, assistant, aid, supporter; partisan, backer; back (in soccer); (mor.) decree, edict, ordinance",
+    "examples": []
+  },
+  {
+    "word": "ظھور",
+    "displayWord": "ظھور",
+    "translation": "ẓuḥūr appearance; visibility, conspicuousness; pomp, splendor, show, ostentation, window-dressing │ حب الظھور ḥubb aẓ-ẓ. ostentatiousness, love of pomp;",
+    "examples": []
+  },
+  {
+    "word": "ظھارة",
+    "displayWord": "ظھارة",
+    "translation": "ẓahāra outside, right side (of a garment); blanket (e.g., of a mule)",
+    "examples": []
+  },
+  {
+    "word": "ظھيرة",
+    "displayWord": "ظھيرة",
+    "translation": "ẓahīra noon, midday, midday heat",
+    "examples": []
+  },
+  {
+    "word": "ظھار",
+    "displayWord": "ظھار",
+    "translation": "ẓihār pre-Islamic form of divorce, consisting in the words of repudiation: you are to me like my mother’s back ( انت",
+    "examples": []
+  },
+  {
+    "word": "ظاھر",
+    "displayWord": "ظاھر",
+    "translation": "ẓāhir (of God) mastering, knowing ( على s.th.); visible, perceptible, distinct, manifest, obvious, conspicuous, clear, patent, evident, apparent; external, exterior, outward; seeming, presumed, ostensible, alleged; outside, exterior, surface; outskirts, periphery (of a city); (gram.) substantive; (pl. ظواھر ẓawāhir2) external sense, literal meaning (specif., of Koran and Prophetic Tradition); ظاھرا ẓāhiran externally, outwardly; seemingly, presumedly, ostensibly, allegedly │ ظاھر",
+    "examples": []
+  },
+  {
+    "word": "ظاھري",
+    "displayWord": "ظاھري",
+    "translation": "ẓāhirī outer, outside, external, exterior, outward; superficial; Zahiritic, interpreting the Koran according to its literal meaning",
+    "examples": []
+  },
+  {
+    "word": "ظاھرة",
+    "displayWord": "ظاھرة",
+    "translation": "ẓāhira pl. ظواھر ẓawāhir2 phenomenon, outward sign or token, external symptom or indication │ ظواھر",
+    "examples": []
+  },
+  {
+    "word": "ظاء",
+    "displayWord": "ظاء",
+    "translation": "ẓā’ name of the letter ظ ع",
+    "examples": []
+  },
+  {
+    "word": "ظله",
+    "displayWord": "ظله",
+    "translation": "(ẓilluhū) his prestige declined; it decreased, dwindled, faded II to contract, draw together ( ھ s.th.); to tuck up, roll up ھ) s.th.) V = I; تقلص ظله = قلص ظله",
+    "examples": []
+  },
+  {
+    "word": "ظرف المكان",
+    "displayWord": "ظرف المكان",
+    "translation": "ẓarf al-m. adverb of place (gram.); اماكن وعرة (wa‘ra) difficult terrain, rugged country",
+    "examples": []
   }
 ]

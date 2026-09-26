@@ -1,93 +1,5624 @@
 [
   {
-    "word": "رجل",
-    "displayWord": "رَجُل",
-    "root": "رجل",
-    "translation": "man",
-    "examples": [
-      {
-        "ar": "مِّنَ الْمُؤْمِنِينَ رِجَالٌ صَدَقُوا مَا عَاهَدُوا اللَّهَ عَلَيْهِ.",
-        "en": "Among the believers are men who have been true to their covenant with God.",
-        "source": "Holy Quran"
-      }
-    ]
+    "word": "رجال الامن",
+    "displayWord": "رجال الامن",
+    "translation": "the police",
+    "examples": []
   },
   {
-    "word": "رحمه",
-    "displayWord": "رَحْمَة",
-    "root": "رحم",
-    "translation": "mercy, compassion",
-    "examples": [
-      {
-        "ar": "وَمَا أَرْسَلْنَاكَ إِلَّا رَحْمَةً لِّلْعَالَمِينَ.",
-        "en": "And We have not sent you except as a mercy to the worlds.",
-        "source": "Holy Quran"
-      }
-    ]
+    "word": "رفعنا بعضھم فوق بعض",
+    "displayWord": "رفعنا بعضھم فوق بعض",
+    "translation": "(rafa‘na) we have exalted some of them above the others; البعض—البعض الآخر some—some, a few others; بعضھم بعضا one another, each other, mutually, reciprocally; بعضه فى بعض one in the other, within one another; بعض الشيء ba‘ḍa š-šai’ to some extent, somewhat, a little, rather; ماثلة بعض المماثلة (ba‘ḍa l-m.) he resembled him somewhat, to some extent; منذ قرن وبعض قرن (qarn) for the last hundred years and more",
+    "examples": []
   },
   {
-    "word": "روح",
-    "displayWord": "رُوح",
-    "root": "روح",
-    "translation": "spirit, soul",
-    "examples": [
-      {
-        "ar": "وَيَسْأَلُونَكَ عَنِ الرُّوحِ ۖ قُلِ الرُّوحُ مِنْ أَمْرِ رَبِّي.",
-        "en": "And they ask you about the soul. Say, 'The soul is of the affair of my Lord.'",
-        "source": "Holy Quran"
-      }
-    ]
+    "word": "رواية بوليسية",
+    "displayWord": "رواية بوليسية",
+    "translation": "riwāya būlīsīya detective story",
+    "examples": []
   },
   {
-    "word": "رزق",
-    "displayWord": "رِزْق",
-    "root": "رزق",
-    "translation": "livelihood, provision, bounty",
-    "examples": [
-      {
-        "ar": "إِنَّ اللَّهَ هُوَ الرَّزَّاقُ ذُو الْقُوَّةِ الْمَتِينُ.",
-        "en": "Indeed, God is the Provider, the possessor of power, the Mighty.",
-        "source": "Holy Quran"
-      }
-    ]
+    "word": "رفع المياه",
+    "displayWord": "رفع المياه",
+    "translation": "t. raf‘ al-miyāh Archimedean screw; تابوت الساقية t. as-āqiya scoop wheel, Persian wheel",
+    "examples": []
+  },
+  {
+    "word": "رحب الجوانب",
+    "displayWord": "رحب الجوانب",
+    "translation": "raḥb al-j. roomy; spacious, unconfined; رقيق الجانب friendly, amiable, gentle; مرھوب الجانب feared, dreaded; عزيز",
+    "examples": []
+  },
+  {
+    "word": "رماة جوالة",
+    "displayWord": "رماة جوالة",
+    "translation": "rumāh jawwāla rifleman (mil.; Syr.)",
+    "examples": []
+  },
+  {
+    "word": "راحة الحلقوم",
+    "displayWord": "راحة الحلقوم",
+    "translation": "rāḥat al-ḥ. a kind of sweet made of cornstarch, sugar, mastic and pistachios (eg.)",
+    "examples": []
+  },
+  {
+    "word": "رأسه",
+    "displayWord": "رأسه",
+    "translation": "ra’sahū one’s head); to sympathize (",
+    "examples": []
+  },
+  {
+    "word": "رسم تخطيطي",
+    "displayWord": "رسم تخطيطي",
+    "translation": "(rasm) rough draft, first sketch, design",
+    "examples": []
+  },
+  {
+    "word": "رجع بخفي حنين",
+    "displayWord": "رجع بخفي حنين",
+    "translation": "raja‘a bi-kaffai ḥunain to return with empty hands, without having achieved one’s mission; to accomplish nothing, fail, be unsuccessful",
+    "examples": []
+  },
+  {
+    "word": "رجع ادراجه",
+    "displayWord": "رجع ادراجه",
+    "translation": "raja‘a adrājahū (also (عاد ادراجه to retrace one's steps, go back the way one came; to go back, turn back; ذھب ادراج 276",
+    "examples": []
+  },
+  {
+    "word": "راء",
+    "displayWord": "راء",
+    "translation": "rā’ name of the letter ر",
+    "examples": []
+  },
+  {
+    "word": "رئة",
+    "displayWord": "رئة",
+    "translation": "ri’a pl. رئون ri’ūn, رئات ri’āt lung",
+    "examples": []
+  },
+  {
+    "word": "رئوي",
+    "displayWord": "رئوي",
+    "translation": "ri’awī pulmonary, pulmonic, pneumonic, of or pertaining to the lung, lung (used attributively)",
+    "examples": []
+  },
+  {
+    "word": "رأب",
+    "displayWord": "رأب",
+    "translation": "ra’aba a (ra’b) to mend, repair, patch up (",
+    "examples": []
+  },
+  {
+    "word": "رؤبة",
+    "displayWord": "رؤبة",
+    "translation": "ru’ba patch (for mending a rent)",
+    "examples": []
+  },
+  {
+    "word": "رابور",
+    "displayWord": "رابور",
+    "translation": "(Fr. rapport) report",
+    "examples": []
+  },
+  {
+    "word": "راتينج",
+    "displayWord": "راتينج",
+    "translation": "ratinaj resin",
+    "examples": []
+  },
+  {
+    "word": "راتينة",
+    "displayWord": "راتينة",
+    "translation": "= رتينة (look up alphabetically)",
+    "examples": []
+  },
+  {
+    "word": "رؤد",
+    "displayWord": "رؤد",
+    "translation": "ru’d soft, tender; ru’d and فتاة رؤد (fatāh) delicate young girl",
+    "examples": []
+  },
+  {
+    "word": "رئد",
+    "displayWord": "رئد",
+    "translation": "ri’d pl. ارآد ar’ād person of approximately the same age, contemporary",
+    "examples": []
+  },
+  {
+    "word": "رادار",
+    "displayWord": "رادار",
+    "translation": "rādār radar",
+    "examples": []
+  },
+  {
+    "word": "راديكال",
+    "displayWord": "راديكال",
+    "translation": "radikālī radical",
+    "examples": []
+  },
+  {
+    "word": "راديو",
+    "displayWord": "راديو",
+    "translation": "rādiyō radio",
+    "examples": []
+  },
+  {
+    "word": "راديولوجي",
+    "displayWord": "راديولوجي",
+    "translation": "radiyōlōjī radiology",
+    "examples": []
+  },
+  {
+    "word": "راديوم",
+    "displayWord": "راديوم",
+    "translation": "radiyūm radium │ ذو راديوم فاعل radioactive",
+    "examples": []
+  },
+  {
+    "word": "رأرأ",
+    "displayWord": "رأرأ",
+    "translation": "ra’ra’a: رأرأ بعينه (bi-‘ainaihī) to roll one’s eyes",
+    "examples": []
+  },
+  {
+    "word": "رأس",
+    "displayWord": "رأس",
+    "translation": "ra’asa a ( رئاسة ri’āsa) to be at the head, be the chairman, be in charge ( ھ of s.th.); to preside ( ھ over s.th.); to had, lead, direct, manage, run ( ھ s.th.); -- رؤس ra’usa u to be the chief, the leader II to appoint as chief or head, make the director or leader, entrust with the direction, management or chairmanship ( ه s.o.) V = ra’asa VIII to become or be the chief, head, leader, or director",
+    "examples": []
+  },
+  {
+    "word": "رأس",
+    "displayWord": "رأس",
+    "translation": "ra’s m. and f., pl. رؤوس ru’ūs,",
+    "examples": []
+  },
+  {
+    "word": "رفع به رأسا",
+    "displayWord": "رفع به رأسا",
+    "translation": "to pay attention to s.th.; رأس",
+    "examples": []
+  },
+  {
+    "word": "رأس تنورة",
+    "displayWord": "رأس تنورة",
+    "translation": "Ras Tanura (cape. E Saudi Arabia, oil center); رأس ثوم r. tūm clove of garlic: رأس الجسر r. al-jisr bridgehead; رأس",
+    "examples": []
+  },
+  {
+    "word": "رأس السنة",
+    "displayWord": "رأس السنة",
+    "translation": "r. as-sana New Year; رأس العمود r. al-‘amūd capital (of a column or pilaster); رأس الكتاب letter-head; رأس المال pl. رؤوس المال capital (fin.): مسقط الرأس masqaṭ, masqiṭ ar-r. birthplace, home town; سمط الرأس samṭ ar-r. zenith (astron.); البلد الرأس (balad) the capital city;",
+    "examples": []
+  },
+  {
+    "word": "رؤوس الأصابع",
+    "displayWord": "رؤوس الأصابع",
+    "translation": "tiptoes",
+    "examples": []
+  },
+  {
+    "word": "رأسي",
+    "displayWord": "رأسي",
+    "translation": "ra’sī head (adj.), cephalic; main, chief, principal; perpendicular, vertical",
+    "examples": []
+  },
+  {
+    "word": "رأسمالي",
+    "displayWord": "رأسمالي",
+    "translation": "ra’s-mālī capitalistic; (pl. -ūn) capitalist",
+    "examples": []
+  },
+  {
+    "word": "رأسمالية",
+    "displayWord": "رأسمالية",
+    "translation": "ra’s-mālīya capitalism",
+    "examples": []
+  },
+  {
+    "word": "رئيس",
+    "displayWord": "رئيس",
+    "translation": "ra’īs pl. رؤساء ru’asā’ one at the head, or in charge, of; head; chieftain; leader; chief, boss; rais; director; headmaster, principal, chairman; governor; president; manager, superintendent; conductor (mus.); superior (as distinguished from مرؤوس subordinate); (mil.) captain (Ir. 1922. Leb.; formerly also Syr. And Eg.); رئيس اول (awwal) military rank between captain and major (= Fr. capitaine 1ière classe; Ir. 1922, Syr. 1952) │ رئيس الأساقفة archbishop; رئيس البلدية r. al-baladīya chief of a municipality, mayor; رئيس التحرير editor-in-chief; رئيس",
+    "examples": []
+  },
+  {
+    "word": "رئيسة",
+    "displayWord": "رئيسة",
+    "translation": "ra’īsa manageress; directress; mother superior",
+    "examples": []
+  },
+  {
+    "word": "رئيسي",
+    "displayWord": "رئيسي",
+    "translation": "ra’īsī main, chief, principal, leading │ دور رئيسي (daur) leading role, leading part; سبب رئيسي (sabab) principal cause, main reason; شارع رئيسي main street; الفضائل الرئيسية cardinal virtues (Chr.); مقالة رئيسية (maqāla) editorial, leading article, leader □ ريس rayyis (= رئيس ) mate (naval rank; Eg.) │ رئيس ممتاز (mumtāz) a naval rank (approx. = petty officer 3rd class; Eg. 1939)",
+    "examples": []
+  },
+  {
+    "word": "رئاسة",
+    "displayWord": "رئاسة",
+    "translation": "ri’āsa, رياسة riyāsa (also (رآسة leadership, leading position; management, direction; chairmanship; presidency, presidentship; supervision, superintendency │ رئاسة الوزارة prime ministry, premiership; دار الرياسة presidential palace, seat of the chief executive of a country",
+    "examples": []
+  },
+  {
+    "word": "روائس",
+    "displayWord": "روائس",
+    "translation": "rawā’is2 cliffs lining river bode (wadis)",
+    "examples": []
+  },
+  {
+    "word": "رأف",
+    "displayWord": "رأف",
+    "translation": "ra’afa a and رؤف ra’ufa u ( رأفة ra’fa, رآفة ra’āfa) to show mercy ( ب on s.o.), have pity ( ب with s.o.), be kind, gracious, merciful ( ب to s.o.) V do.",
+    "examples": []
+  },
+  {
+    "word": "رأفة",
+    "displayWord": "رأفة",
+    "translation": "ra’fa and رآفة ra’āfa morcy, compassion, pity: kindliness graciousness",
+    "examples": []
+  },
+  {
+    "word": "رؤوف",
+    "displayWord": "رؤوف",
+    "translation": "ra’ūf merciful, compassionate; kind, benevolent; gracious",
+    "examples": []
+  },
+  {
+    "word": "رافيا",
+    "displayWord": "رافيا",
+    "translation": "rāfiyā raffia, raftia palm",
+    "examples": []
+  },
+  {
+    "word": "رأم",
+    "displayWord": "رأم",
+    "translation": "1 ra’ama a (ra’m) to repair, mend ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "رئم",
+    "displayWord": "رئم",
+    "translation": "2 ra’ima a ( رئمان ri’mān) to love tenderly ( ھ s.th.), be very fond ( ھ of); to treat tenderly, fondle, cares ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "رئم",
+    "displayWord": "رئم",
+    "translation": "ri’m pl. ارآم ar’ām white antelope, addax",
+    "examples": []
+  },
+  {
+    "word": "رءوم",
+    "displayWord": "رءوم",
+    "translation": "ra’ūm loving, tender (mother to her children)",
+    "examples": []
+  },
+  {
+    "word": "رام لله",
+    "displayWord": "رام لله",
+    "translation": "rāmallāh Ramallah (town in W Jordan, N of Jerusalem)",
+    "examples": []
+  },
+  {
+    "word": "رامية",
+    "displayWord": "رامية",
+    "translation": "rāmiya ramie, a strong, lustrous bast fiber; China jute (bot.)",
+    "examples": []
+  },
+  {
+    "word": "راوند",
+    "displayWord": "راوند",
+    "translation": "rāwand rhubarb",
+    "examples": []
+  },
+  {
+    "word": "رأى",
+    "displayWord": "رأى",
+    "translation": "1 ra’ā يرى yarā (ra’y, رؤية ru’ya) to see; to behold, descry, perceive, notice, observe, discern ( ھ s.th.); to look ( ھ ھ at s.th. as), regard ( ھ ھ s.th. as), consider, deem, think ( ھ ھ s.th. to be ...); to judge; to be of the opinion ( ان that), believe, think ( ان that); to express one’s opinion; to feel ( ان that); to deem appropriate, think proper ( ھ s.th.), decide ( ھ on s.th., ان to do s.th.); to consider, contemplate │ أرأيت a-ra’aita tell me! what do you think? رأى رأي العين (ra’ya l-ain) to see with one’s own eyes;",
+    "examples": []
+  },
+  {
+    "word": "رأى رؤيا",
+    "displayWord": "رأى رؤيا",
+    "translation": "(ru’yā) to have a dream; رأى منه",
+    "examples": []
+  },
+  {
+    "word": "رأى من واجبه",
+    "displayWord": "رأى من واجبه",
+    "translation": "(min wājibihī) to regard as one’s duty, deem incumbent upon o.s.; رأى",
+    "examples": []
+  },
+  {
+    "word": "رأي",
+    "displayWord": "رأي",
+    "translation": "ra’y pl. آراء ārā’ opinion, view; idea, notion, concept, conception; advice, suggestion, proposal; (Isl. Law) subjective opinion, decision hued on one’s individual judgment (not on Koran and Sunna) │ في",
+    "examples": []
+  },
+  {
+    "word": "رأيي",
+    "displayWord": "رأيي",
+    "translation": "and عند رأيي in my opinion; انا من ھذا",
+    "examples": []
+  },
+  {
+    "word": "راية",
+    "displayWord": "راية",
+    "translation": "rāya pl. -āt banner, flag 319",
+    "examples": []
+  },
+  {
+    "word": "رؤية",
+    "displayWord": "رؤية",
+    "translation": "ru’ya seeing, looking, viewing; inspection, examination",
+    "examples": []
+  },
+  {
+    "word": "رؤيا",
+    "displayWord": "رؤيا",
+    "translation": "ru’ya pl. رؤى ru’an vision; dream │ سفر الرؤيا sifr ar-r. the ھ pocalypse (Chr.)",
+    "examples": []
+  },
+  {
+    "word": "رئاء",
+    "displayWord": "رئاء",
+    "translation": "ri’ā and رياء riyā’ eyeservice; hypocrisy, dissimulation; dissemblance; simulation ( ب of s.th.) مراآة, مراءاة murā’āh eyeservice; hypocrisy, dissimulation, dissemblance; simulation ( ب of s.th.)",
+    "examples": []
+  },
+  {
+    "word": "راء",
+    "displayWord": "راء",
+    "translation": "rā’in viewer, onlooker, spectator, observer O رائية rā’iya pl. -āt view finder (of a camera)",
+    "examples": []
+  },
+  {
+    "word": "رئة",
+    "displayWord": "رئة",
+    "translation": "2 and رئوي see رء",
+    "examples": []
   },
   {
     "word": "راي",
-    "displayWord": "رَأْي",
-    "root": "رأي",
-    "translation": "opinion, view, judgment",
-    "examples": [
-      {
-        "ar": "رَأْيِي أَنَّ التَّعَاوُنَ هُوَ مِفْتَاحُ حَلِّ الأَزْمَةِ.",
-        "en": "My opinion is that cooperation is the key to resolving the crisis.",
-        "source": "Debate Panel"
-      }
-    ]
+    "displayWord": "راي",
+    "translation": "3 rāy an Egyptian variety of salmon",
+    "examples": []
   },
   {
-    "word": "رغبه",
-    "displayWord": "رَغْبَة",
-    "root": "رغب",
-    "translation": "desire, wish, inclination",
-    "examples": [
-      {
-        "ar": "لَدَيَّ رَغْبَةٌ شَدِيدَةٌ فِي تَعَلُّمِ لُغَاتٍ جَدِيدَةٍ.",
-        "en": "I have a strong desire to learn new languages.",
-        "source": "Personal Journal"
-      }
-    ]
+    "word": "راية",
+    "displayWord": "راية",
+    "translation": "4 see رأى 2",
+    "examples": []
   },
   {
-    "word": "رساله",
-    "displayWord": "رِسَالَة",
-    "root": "رسل",
-    "translation": "message, letter, epistle, mission",
-    "examples": [
-      {
-        "ar": "أُبَلِّغُكُمْ رِسَالَاتِ رَبِّي وَأَنَا لَكُمْ نَاصِحٌ أَمِينٌ.",
-        "en": "I convey to you the messages of my Lord, and I am to you a trustworthy adviser.",
-        "source": "Holy Quran"
-      }
-    ]
+    "word": "رب",
+    "displayWord": "رب",
+    "translation": "rabba u (rabb, ربابة ribāba) to be master, be lord, have possession ( ھ، ه of), control",
+    "examples": []
+  },
+  {
+    "word": "رب",
+    "displayWord": "رب",
+    "translation": "rabb pl. ارباب arbāb lord; master; owner, proprietor (Isl. Law); (with foil. genit.) one possessed of, endowed with, having to do with, etc.; الرب the Lord (= God) │ رب بحري (baḥrī) a naval rank (approx. = seaman; Eg.); رب العائلة father of the family, paterfamilias; ارباب السلطان a. as-sulṭān the rulers; ارباب المال the capitalists; صعود الرب the ھ scension (Chr.); ارباب المعاشات a. al-ma’āšāt pensioners; ارباب السوابق those previously convicted; ارباب الفنون artists",
+    "examples": []
+  },
+  {
+    "word": "ربة",
+    "displayWord": "ربة",
+    "translation": "rabba pl. -āt mistress; lady │ ربة",
+    "examples": []
+  },
+  {
+    "word": "ربة البيت",
+    "displayWord": "ربة البيت",
+    "translation": "r. al-bait landlady; ربة شعره r. ši‘rihī his muse; ربات الحجال r. al-ḥijāl the ladies",
+    "examples": []
+  },
+  {
+    "word": "رب",
+    "displayWord": "رب",
+    "translation": "rubb pl. رباب ribāb, ربوب rubūb rob, thickened juice (of fruit): mash, pulp",
+    "examples": []
+  },
+  {
+    "word": "رب",
+    "displayWord": "رب",
+    "translation": "rubba (with fol. indet. genit.) many a, e.g., رب رجل (rajulin) many a man, رب",
+    "examples": []
+  },
+  {
+    "word": "ربما",
+    "displayWord": "ربما",
+    "translation": "rubbamā sometimes; perhaps, maybe, possibly",
+    "examples": []
+  },
+  {
+    "word": "ربة",
+    "displayWord": "ربة",
+    "translation": "rabba, ribba a kind of skin eruption affecting the head and face",
+    "examples": []
+  },
+  {
+    "word": "رباب",
+    "displayWord": "رباب",
+    "translation": "rabāib, ربابة rabāba rebab or rebec, a stringed instrument of the ھ rabs resembling the fiddle, with one to three strings (in Eg. usually two-stringed)",
+    "examples": []
+  },
+  {
+    "word": "ربيب",
+    "displayWord": "ربيب",
+    "translation": "rabīb pl. -āt ارباء aribbā’ foster son, stepson; foster father; confederate, ally",
+    "examples": []
+  },
+  {
+    "word": "ربيبة",
+    "displayWord": "ربيبة",
+    "translation": "rabība pl. ربائب rabā’ib2 foster daughter, stepdaughter; foster mother; (woman) ally",
+    "examples": []
+  },
+  {
+    "word": "ربوبية",
+    "displayWord": "ربوبية",
+    "translation": "rubūbīya divinity, deity, godship",
+    "examples": []
+  },
+  {
+    "word": "ربان",
+    "displayWord": "ربان",
+    "translation": "rubbān pl. -īya, ربابنة rabābina captain, skipper; a naval rank, approx. = captain, ربان ثان (tānin) approx. = commander (Eg. 1939)",
+    "examples": []
+  },
+  {
+    "word": "رباني",
+    "displayWord": "رباني",
+    "translation": "rabbānī divine; pertaining to God │ الربانيات divine things; الصلاة الربانية (ṣalāh) the Lord’s Prayer (Chr.)",
+    "examples": []
+  },
+  {
+    "word": "راب",
+    "displayWord": "راب",
+    "translation": "rābb stepfather",
+    "examples": []
+  },
+  {
+    "word": "رابة",
+    "displayWord": "رابة",
+    "translation": "rābba stepmother",
+    "examples": []
+  },
+  {
+    "word": "ربأ",
+    "displayWord": "ربأ",
+    "translation": "raba’a a to hold in esteem, esteem highly (",
+    "examples": []
+  },
+  {
+    "word": "ربيئة",
+    "displayWord": "ربيئة",
+    "translation": "rabī’a pl. ربايا rabāya guard",
+    "examples": []
+  },
+  {
+    "word": "ربت",
+    "displayWord": "ربت",
+    "translation": "rabata i (rabt) to pat, caress, stroke ( ه s.o.) II do. │ ربت على خده (kaddihi) to pat s.o.’s cheek; ربت على كتفه (katifihi) to pat s.o. on the shoulder; ربت نفسه to be self-satisfied, self-complacent, smug",
+    "examples": []
+  },
+  {
+    "word": "ربح",
+    "displayWord": "ربح",
+    "translation": "rabiḥa a (ribḥ, rabaḥ) to gain ( ھ من from s.th. s.th.), profit ( من from); to win (sports, games) │ ما ربحت تجارتھم (tijāratuhum) their business was unprofitable II and IV to make ( ه s.o.) gain, allow s.o. ( ه) a profit",
+    "examples": []
+  },
+  {
+    "word": "ربح",
+    "displayWord": "ربح",
+    "translation": "ribḥ pl. ارباح arbāḥ gain, profit; benefit; interest (on money); pl. proceeds, returns, revenues; O dividends │ ربح بسيط simple interest, ربح مركب (murakkab) compound interest",
+    "examples": []
+  },
+  {
+    "word": "رباح",
+    "displayWord": "رباح",
+    "translation": "rabbāḥ pl. ربابيح rabābīḥ2 monkey",
+    "examples": []
+  },
+  {
+    "word": "رابح",
+    "displayWord": "رابح",
+    "translation": "rābiḥ profiteer, gainer, winner; beneficiary; lucrative, gainful, profitable (business)",
+    "examples": []
+  },
+  {
+    "word": "ربد",
+    "displayWord": "ربد",
+    "translation": "V to become clouded, become overcast (sky); to turn ashen, take on a glowering expression (face, with anger) IX to become ashen, assume a glowering expression (face)",
+    "examples": []
+  },
+  {
+    "word": "ربص",
+    "displayWord": "ربص",
+    "translation": "rabaṣa u (rabṣ) to wait, look, watch, be on the lookout ( ب for) V to lurk, lie in wait ( ل for s.o.), waylay, ambush ( ل s.o.); to lay an ambush, move into an ambush; to take up positions (mil.); to expect ( ھ، ب s.th.), wait ( ھ، ب for s.th.) │ تربص الفرصة (furṣata) to wait (or look) for an opportunity; تربص الأمر (amra) to wait for s.th. to befall s.o. or to happen to s.o., e.g.,",
+    "examples": []
+  },
+  {
+    "word": "ربض",
+    "displayWord": "ربض",
+    "translation": "rabaḍa (rabḍ, rubūd) to lie down; to lie, rest (animals; with the chest to the ground); to lurk ( ل for s.o.)",
+    "examples": []
+  },
+  {
+    "word": "ربض",
+    "displayWord": "ربض",
+    "translation": "rabaḍ pl. ارباض arbāḍ outskirts, suburb; place where animals lie down to rest",
+    "examples": []
+  },
+  {
+    "word": "ربط",
+    "displayWord": "ربط",
+    "translation": "rabaṭa u i (rabṭ) to bind, tie up, make fast, moor ( ھ s.th.); to tie, fasten, attach, hitch (",
+    "examples": []
+  },
+  {
+    "word": "ربط على قلبه",
+    "displayWord": "ربط على قلبه",
+    "translation": "(qalbihī) to fortify s.o., give s.o. patience (said of God); ربط جأشه (ja’šahū) to keep one’s self-control, remain calm, be undismayed; ربط 321",
+    "examples": []
+  },
+  {
+    "word": "رابط في قضيته",
+    "displayWord": "رابط في قضيته",
+    "translation": "(qaḍīyatihī) to defend the cause of, fight for VIII to bind o.s., commit o.s. engage o.s.; to be bound ( ب by, also, e.g., by an obligation), be tied ( ب to); to be linked, be connected ( ب with); to depend ( ب on); to unite, join forces",
+    "examples": []
+  },
+  {
+    "word": "ربط",
+    "displayWord": "ربط",
+    "translation": "rabṯ binding, tying; fastening, joining, attaching, connecting; fixation, determination (of an amount, of a number); valuation, assessment │ ربط مالي financial allocation; اھل الحل والربط ahl al- ḥall wa-r. infIuentiBJ people, those in power; مكان الربط makān ar-r. (welded) seam, weld (techn.)",
+    "examples": []
+  },
+  {
+    "word": "ربط",
+    "displayWord": "ربط",
+    "translation": "rabaṭ (tun.) section, quarter (of a city), suburb",
+    "examples": []
+  },
+  {
+    "word": "ربط",
+    "displayWord": "ربط",
+    "translation": "rabṭa pl. -āt, رباط ribāṭ ribbon, band, bandage; bundle; parcel, package │",
+    "examples": []
+  },
+  {
+    "word": "ربطة الرقبة",
+    "displayWord": "ربطة الرقبة",
+    "translation": "r. ar-raqaba necktie; ربط الساق r. as-sāq garter; ربطة النقود money purse",
+    "examples": []
+  },
+  {
+    "word": "رباط",
+    "displayWord": "رباط",
+    "translation": "ribāṭ pl. -āt, ربط rubuṭ, اربطة arbiṭa ribbon, band; ligature, ligament; bandage; dressing (of a wound); bond, fetter, shackle; -- suspension (of a cleric; Chr.); (pl. -āt, ربط rubuṭ) inn for travelers, caravansary; hospice (for Sufis or the poor) │ رباط الاجربة r. al-ajriba garter; رباط",
+    "examples": []
+  },
+  {
+    "word": "رباط",
+    "displayWord": "رباط",
+    "translation": "ribāṭ, رباط الفتح ribāṭ al-fatḥ Rabat (capital of Morocco)",
+    "examples": []
+  },
+  {
+    "word": "رباط الجأش",
+    "displayWord": "رباط الجأش",
+    "translation": "ribāṭ al-ja’š composure, selfcontrol, calmness, intrepidity",
+    "examples": []
+  },
+  {
+    "word": "رابط الجأش",
+    "displayWord": "رابط الجأش",
+    "translation": "rābiṭ al-ja’š composed, calm, unruffled, undismayed, fearless",
+    "examples": []
+  },
+  {
+    "word": "رابطة",
+    "displayWord": "رابطة",
+    "translation": "rābiṭa pl. روابط rawābiṭ2 band; bond, tie; connection, link; confederation, union, league │ روابط الصداقة r. aṣ-ṣadāqa bonds of friendship; الرابطة الاسلامية (Islāmīya) the Moslem League",
+    "examples": []
+  },
+  {
+    "word": "ربع",
+    "displayWord": "ربع",
+    "translation": "raba‘a a to gallop (horse); -- to sit; to squat; to stay, live II to quadruple, multiply by four, increase fourfold ( ھ s.th.); to square ( ھ a number) V to sit or sit down cross-legged; to sit │ تربع على",
+    "examples": []
+  },
+  {
+    "word": "ربع",
+    "displayWord": "ربع",
+    "translation": "rab‘ pl. ربوع rubū‘, رباع ribā‘, ارباع arbā‘, اربع arba‘ home, residence, quarters; pl. ربوع region, area territory, lands; ربع (group of) people │ الربع",
+    "examples": []
+  },
+  {
+    "word": "ربع",
+    "displayWord": "ربع",
+    "translation": "rib‘: حمى الربع ḥummā r-rib‘ quartan (fever)",
+    "examples": []
+  },
+  {
+    "word": "ربع",
+    "displayWord": "ربع",
+    "translation": "rub‘ pl. ارباع arbā‘ quarter, fourth part; roubouh, a dry measure 322 (Eg. =",
+    "examples": []
+  },
+  {
+    "word": "ربعي",
+    "displayWord": "ربعي",
+    "translation": "rub‘ī quarterly, trimestral",
+    "examples": []
+  },
+  {
+    "word": "ربعة",
+    "displayWord": "ربعة",
+    "translation": "rab‘a: ربعة القوام r. al-qiwām and",
+    "examples": []
+  },
+  {
+    "word": "ربعة القامة",
+    "displayWord": "ربعة القامة",
+    "translation": "r. al-qāma (m. and f.) or medium height, medium sized",
+    "examples": []
+  },
+  {
+    "word": "ربعة",
+    "displayWord": "ربعة",
+    "translation": "rub‘a robhah, a dry measure (Eg.; = قدح = ٠.٥١٦ l)",
+    "examples": []
+  },
+  {
+    "word": "رباع",
+    "displayWord": "رباع",
+    "translation": "rabbā‘ athlete (boxer, wrestler, weight lifter, etc.)",
+    "examples": []
+  },
+  {
+    "word": "ربيع",
+    "displayWord": "ربيع",
+    "translation": "rabī‘ spring, springtime, vernal season; name of the third and fourth months of the Muslim year ( ربيع الأول r. al-awwali Rabia I, and ربيع الثاني r. at-tānī Rabia Il); quarter, fourth part",
+    "examples": []
+  },
+  {
+    "word": "رباعي",
+    "displayWord": "رباعي",
+    "translation": "rubā‘ī consisting or four, quadripartite, fourfold, quadruple; quadrangular; tetragonal; (gram.) consisting of four radical letters, quadriliteral; quartet; (pl. -āt) quatrain (poet.) │ مؤتمر رباعي (mu’tamar) fourpower conference; رباعي الأضلاع quadrilateral; رباعي الأرجل r. l-arjul quadruped(al), four-footed; محرك رباعي",
+    "examples": []
+  },
+  {
+    "word": "رابع",
+    "displayWord": "رابع",
+    "translation": "rābi‘ (due to erroneous pointing) =",
+    "examples": []
+  },
+  {
+    "word": "رائع",
+    "displayWord": "رائع",
+    "translation": "q.v.",
+    "examples": []
+  },
+  {
+    "word": "رابغ",
+    "displayWord": "رابغ",
+    "translation": "rābig pleasant, comfortable",
+    "examples": []
+  },
+  {
+    "word": "ربق",
+    "displayWord": "ربق",
+    "translation": "ribq lasso, lariat",
+    "examples": []
+  },
+  {
+    "word": "ربقة",
+    "displayWord": "ربقة",
+    "translation": "ribqa, rabqa pl. ربق ribaq, رباق ribāq, ارباق arbāq noose",
+    "examples": []
+  },
+  {
+    "word": "ربك",
+    "displayWord": "ربك",
+    "translation": "rabaka u (rabk) to muddle, entangle, complicate ( ھ s.th.); to confuse, throw into confusion ( ھ، ه s.o., s.th.); -- rabika a (rabak) to be in an involved, confused situation VIII to be confused; to become involved ( في in)",
+    "examples": []
+  },
+  {
+    "word": "ربك",
+    "displayWord": "ربك",
+    "translation": "rabak involved, confused situation",
+    "examples": []
+  },
+  {
+    "word": "ربك",
+    "displayWord": "ربك",
+    "translation": "rabik: confused; in trouble, beset by difficulties",
+    "examples": []
+  },
+  {
+    "word": "ربل",
+    "displayWord": "ربل",
+    "translation": "rabil plump, fleshy, fat (person)",
+    "examples": []
+  },
+  {
+    "word": "ربلي",
+    "displayWord": "ربلي",
+    "translation": "rablī, rabalī fleshy",
+    "examples": []
+  },
+  {
+    "word": "ربلة",
+    "displayWord": "ربلة",
+    "translation": "rabla pl. rabalāt (mass of) flesh (of the body)",
+    "examples": []
+  },
+  {
+    "word": "ربيل",
+    "displayWord": "ربيل",
+    "translation": "rabīl fleshy, corpulent, fat",
+    "examples": []
+  },
+  {
+    "word": "ربالة",
+    "displayWord": "ربالة",
+    "translation": "rabāla corpulence",
+    "examples": []
+  },
+  {
+    "word": "ربما",
+    "displayWord": "ربما",
+    "translation": "see رب",
+    "examples": []
+  },
+  {
+    "word": "ربا",
+    "displayWord": "ربا",
+    "translation": "(ربو ) rabā u ( رباء rabā’, ربو rubūw) to increase; to grow; to grow up; to exceed, (",
+    "examples": []
+  },
+  {
+    "word": "ربو",
+    "displayWord": "ربو",
+    "translation": "rabw dyspnea, asthma",
+    "examples": []
+  },
+  {
+    "word": "ربوة",
+    "displayWord": "ربوة",
+    "translation": "rubwa (rabwa, ribwa) pl. ربى ruban hill",
+    "examples": []
+  },
+  {
+    "word": "ربوة",
+    "displayWord": "ربوة",
+    "translation": "ribwa pl. -āt ten thousand, myriad",
+    "examples": []
+  },
+  {
+    "word": "ربا",
+    "displayWord": "ربا",
+    "translation": "riban interest; usurious interest; usury",
+    "examples": []
+  },
+  {
+    "word": "ربوى",
+    "displayWord": "ربوى",
+    "translation": "ribawī usurious",
+    "examples": []
+  },
+  {
+    "word": "رباء",
+    "displayWord": "رباء",
+    "translation": "rabā’ surplus, excess; superiority (",
+    "examples": []
+  },
+  {
+    "word": "رابية",
+    "displayWord": "رابية",
+    "translation": "rābiya pl. رواب rawābin hill",
+    "examples": []
+  },
+  {
+    "word": "ربورتاج",
+    "displayWord": "ربورتاج",
+    "translation": "(Fr. reportage) pl. -āt reportage, report",
+    "examples": []
+  },
+  {
+    "word": "رتب",
+    "displayWord": "رتب",
+    "translation": "II to array, arrange, dispose ( ھ s.th. in a regular sequence or order); to decorate, dress (iii a show window); to settle, determine, regulate ( ھ s.th.); to put into proper order, put together ( ھ words); to prepare, set aside, earmark ( ھ s.th.); to fix, appoint ( ل ھ a salary for s.o.); to make ( ھ s.th.) result or accrue ( على from), derive (",
+    "examples": []
+  },
+  {
+    "word": "رتبة",
+    "displayWord": "رتبة",
+    "translation": "rutba pl. رتب rutab degree, grade, level; rank, standing, station; class, quality; (mil.) rank; clerical rank, order (of the Christian ministry); religious ceremony (Chr.) │ كتاب الرتب ritual (of the Roman Catholic Church)",
+    "examples": []
+  },
+  {
+    "word": "رتابة",
+    "displayWord": "رتابة",
+    "translation": "ratāba monotony",
+    "examples": []
+  },
+  {
+    "word": "رتيب",
+    "displayWord": "رتيب",
+    "translation": "ratīb monotonous",
+    "examples": []
+  },
+  {
+    "word": "رتباء",
+    "displayWord": "رتباء",
+    "translation": "rutabā’2 noncommissioned officers (Syr.; mil.)",
+    "examples": []
+  },
+  {
+    "word": "راتب",
+    "displayWord": "راتب",
+    "translation": "rātib monotonous; (pl. رواتب rawātib2 salary, pay, emolument; pl. رواتب certain supererogatory exercises of devotion",
+    "examples": []
+  },
+  {
+    "word": "رتج",
+    "displayWord": "رتج",
+    "translation": "rataja u (ratj) to look, bar, bolt ( ھ the door); -- ratija a (rataj) to be tonguetied, be speechless, falter IV pass. ارتج عليه (urtija) words failed him, he was speechless, he didn't know what to say, he was at a loss",
+    "examples": []
+  },
+  {
+    "word": "رتاج",
+    "displayWord": "رتاج",
+    "translation": "ritāj pl. رتج rutuj, رتائج ratā’ij2 gate, gateway I eli)1 p muḥkam ar-r. firmly bolted (gate)",
+    "examples": []
+  },
+  {
+    "word": "رتع",
+    "displayWord": "رتع",
+    "translation": "rata‘a a (rat‘, رتوع rutū‘, رتاع ritā‘) to pasture, graze; to gormandize, carouse, feast; to revel, indulge freely ( في in) IV to pasture, put out to graze ( ھ cattle)",
+    "examples": []
+  },
+  {
+    "word": "رتق",
+    "displayWord": "رتق",
+    "translation": "rataqa u i (ratq) to mend, repair, patch up, sew up ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "رتق",
+    "displayWord": "رتق",
+    "translation": "ratq pl. رتوق rutūq patching, mending, repair; dam (of a stocking)",
+    "examples": []
+  },
+  {
+    "word": "رتك",
+    "displayWord": "رتك",
+    "translation": "rataka u i, (ratk, ratak, رتكان ratakān) to run with abort steps, trot",
+    "examples": []
+  },
+  {
+    "word": "رتل",
+    "displayWord": "رتل",
+    "translation": "ratila a (ratal) to be regular, well-ordered, neat, tidy II to phrase elegantly ( الكلام alkalāma one’s words); to psalmodize, recite in a singsong; to sing, chant ( ھ spiritual songs, hymns; Chr.)",
+    "examples": []
+  },
+  {
+    "word": "رتل",
+    "displayWord": "رتل",
+    "translation": "ratl pl. ارتال artāl railroad train │",
+    "examples": []
+  },
+  {
+    "word": "رتل آلي",
+    "displayWord": "رتل آلي",
+    "translation": "(ālī) motorized convoy (mil.)",
+    "examples": []
+  },
+  {
+    "word": "رتيلاء",
+    "displayWord": "رتيلاء",
+    "translation": "rutailā’2 harvestman (Phalangium), daddy longlegs; tarantula",
+    "examples": []
+  },
+  {
+    "word": "رتم",
+    "displayWord": "رتم",
+    "translation": "ratama i (ratm) to utter, say ( بكلمة bikalima a word; only with neg.)",
+    "examples": []
+  },
+  {
+    "word": "رتم",
+    "displayWord": "رتم",
+    "translation": "ratam (coll.; n. un. ة) retem (Retama raetam Webb., Genista raetam Forsk.; bot.)",
+    "examples": []
+  },
+  {
+    "word": "رتمة",
+    "displayWord": "رتمة",
+    "translation": "ratma and رتيمة ratīma pl. رتائم ratā’im رتام , 2 ritām thread wound around one’s finger as a reminder 325",
+    "examples": []
+  },
+  {
+    "word": "رتا",
+    "displayWord": "رتا",
+    "translation": "(رتو ) ratā u and II رتى rattā to mend, darn (",
+    "examples": []
+  },
+  {
+    "word": "رتوش",
+    "displayWord": "رتوش",
+    "translation": "(Fr. retouche) ritūš retouch",
+    "examples": []
+  },
+  {
+    "word": "رتينج",
+    "displayWord": "رتينج",
+    "translation": "ratīnaj (= راتينج ) resin",
+    "examples": []
+  },
+  {
+    "word": "رتينة",
+    "displayWord": "رتينة",
+    "translation": "(It. retina) ratīna pl. رتائن ratā’in2 incandescent mantle",
+    "examples": []
+  },
+  {
+    "word": "رث",
+    "displayWord": "رث",
+    "translation": "ratta i ( رثاثة ratāta, رثوثة rutūta) to be ragged, tattered, shabby. worn (garment)",
+    "examples": []
+  },
+  {
+    "word": "رث",
+    "displayWord": "رث",
+    "translation": "ratt pl. رثاث ritāt old, shabby, worn, threadbare │ رث الھيئة r. al-hai’a of shabby appearance",
+    "examples": []
+  },
+  {
+    "word": "رثة",
+    "displayWord": "رثة",
+    "translation": "ritta old, outmoded things, worn clothes",
+    "examples": []
+  },
+  {
+    "word": "رثيث",
+    "displayWord": "رثيث",
+    "translation": "ratīt old, .habby, worn, threadbare",
+    "examples": []
+  },
+  {
+    "word": "رثاثة",
+    "displayWord": "رثاثة",
+    "translation": "ratāta shabbiness, raggedness",
+    "examples": []
+  },
+  {
+    "word": "رثوثة",
+    "displayWord": "رثوثة",
+    "translation": "rutūta shabbiness, raggedness",
+    "examples": []
+  },
+  {
+    "word": "رثو",
+    "displayWord": "رثو",
+    "translation": ") and رثي) رثا ratā u (ratw) to bewail, lament, celebrate in an elegy, in a funeral oration ( ه a deceased person); -- رثى ratā i (raty, رثاء ritā’, مرثية martiya, مرثاة martāh) to bewail, lament, bemoan ( ه a deceased person); to elegize, celebrate in an elegy, in a funeral oration ( ه a deceased person); to mourn ( ل for, over), deplore ( ل s.o. or s.th.); to pity ( ل s.o.), feel sorry ( ل for) │",
+    "examples": []
+  },
+  {
+    "word": "رثاه بمرثاة",
+    "displayWord": "رثاه بمرثاة",
+    "translation": "to elegize s.o. (a deceased person), bewail and celebrate him in an elegy; شيء يرثى له (yurtā) a deplorable, regrettable thing",
+    "examples": []
+  },
+  {
+    "word": "رثى",
+    "displayWord": "رثى",
+    "translation": "raty bewailing, bemoaning, lamentation",
+    "examples": []
+  },
+  {
+    "word": "رثاء",
+    "displayWord": "رثاء",
+    "translation": "ritā’ bewailing, bemoaning, lamentation; regret; elegiac poetry",
+    "examples": []
+  },
+  {
+    "word": "رثية",
+    "displayWord": "رثية",
+    "translation": "ratya pl. ratayāt arthritis, gout",
+    "examples": []
+  },
+  {
+    "word": "رج",
+    "displayWord": "رج",
+    "translation": "raja u (rajj) to convulse, shake, rock ( ھ s.th.); pass. rujja to be shaken, tremble, shake, quake VIII to be convulsed, shake, tremble, quake",
+    "examples": []
+  },
+  {
+    "word": "رج",
+    "displayWord": "رج",
+    "translation": "rajj shaking, rocking, convulsion",
+    "examples": []
+  },
+  {
+    "word": "رجة",
+    "displayWord": "رجة",
+    "translation": "rajja convulsion; shook, concussion",
+    "examples": []
+  },
+  {
+    "word": "رجاج",
+    "displayWord": "رجاج",
+    "translation": "rajjāj trembling, quaking, shaking, rocking",
+    "examples": []
+  },
+  {
+    "word": "رجأ",
+    "displayWord": "رجأ",
+    "translation": "IV to postpone, adjourn, defer, put off ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "رجب",
+    "displayWord": "رجب",
+    "translation": "rajaba u and rajiba a (rajab) to be afraid من) or عن of), be awed ( من or عن by)",
+    "examples": []
+  },
+  {
+    "word": "رجب",
+    "displayWord": "رجب",
+    "translation": "rajab Rajab, the seventh month of the Muslim year",
+    "examples": []
+  },
+  {
+    "word": "رجح",
+    "displayWord": "رجح",
+    "translation": "rajaḥa a i u ( رجوح rujūḥ, رجحان rujḥān) to incline (scale of a balance); to weigh more, be of greater weight; to preponderate, predominate; to surpass, excel ( ه s.o.); to be very likely ( ان that),",
+    "examples": []
+  },
+  {
+    "word": "رجح عنده ان",
+    "displayWord": "رجح عنده ان",
+    "translation": "it appeared to him most likely that ...; -- to weigh ( ھ بيده s.th. in the hand) II to make ( ھ s.th.) outweigh ( على s.th. else), give preponderance ( ھ to s.th., على over); to think ( ھ s.th.) weightier; to prefer ( على ھ s.th. to), give ( ھ s.th.) preference ( على to), favor ( على ھ s.th. more than); to think likely or probable ( ھ s.th., ان that) V to carry greater weight, be weightier, preponderate; to swing back and forth, pendulate; to rock; to seesaw, tester VIII to swing back and forth, pendulate; to rook; to seesaw, tester",
+    "examples": []
+  },
+  {
+    "word": "رجاحة",
+    "displayWord": "رجاحة",
+    "translation": "rajāḥa forbearance, indulgence, leniency; composure, equanimity",
+    "examples": []
+  },
+  {
+    "word": "رجحان",
+    "displayWord": "رجحان",
+    "translation": "rujḥān preponderance, predominance ( على over), ascendancy, superiority 326",
+    "examples": []
+  },
+  {
+    "word": "راجح",
+    "displayWord": "راجح",
+    "translation": "rājiḥ) superior in weight, preponderant; having more in its favor, more acceptable; preferable; probable, likely",
+    "examples": []
+  },
+  {
+    "word": "رجرج",
+    "displayWord": "رجرج",
+    "translation": "rajraja and II tarajraja to tremble, quiver; to sway",
+    "examples": []
+  },
+  {
+    "word": "رجراج",
+    "displayWord": "رجراج",
+    "translation": "rajrāj agitated; trembling, tremulous; swaying; quivering; الرجراج the sea",
+    "examples": []
+  },
+  {
+    "word": "رجز",
+    "displayWord": "رجز",
+    "translation": "1 VIII to compose or declaim poems in the meter rajaz; to thunder, roar, surge (sea)",
+    "examples": []
+  },
+  {
+    "word": "رجز",
+    "displayWord": "رجز",
+    "translation": "rujz, rijz punishment (inflicted by God); dirt, filth",
+    "examples": []
+  },
+  {
+    "word": "رجز",
+    "displayWord": "رجز",
+    "translation": "rajaz name of a poetical meter",
+    "examples": []
+  },
+  {
+    "word": "رجس",
+    "displayWord": "رجس",
+    "translation": "rajisa a (rajs) and rajusa u ( رجاسة rajāsa) to be dirty, filthy; to commit a shameful act, do s.th. disgraceful or dirty",
+    "examples": []
+  },
+  {
+    "word": "رجس",
+    "displayWord": "رجس",
+    "translation": "rijs pl. ارجاس arjās dirt, filth; dirty thing or act, atrocity",
+    "examples": []
+  },
+  {
+    "word": "رجس",
+    "displayWord": "رجس",
+    "translation": "rajas pl. ارجاس arjās dirt, filth",
+    "examples": []
+  },
+  {
+    "word": "رجس",
+    "displayWord": "رجس",
+    "translation": "rajis dirty, filthy",
+    "examples": []
+  },
+  {
+    "word": "رجاسة",
+    "displayWord": "رجاسة",
+    "translation": "rajāsa dirt, squalor",
+    "examples": []
+  },
+  {
+    "word": "رجاس",
+    "displayWord": "رجاس",
+    "translation": "rajjās roaring, surging (sea); thundering",
+    "examples": []
+  },
+  {
+    "word": "رجع",
+    "displayWord": "رجع",
+    "translation": "raja‘a i ( رجوع rujū‘) to come back, come again, return; to recur; to resort, turn ( الى to); to recommence, begin again, resume (",
+    "examples": []
+  },
+  {
+    "word": "رجع الى نفسه",
+    "displayWord": "رجع الى نفسه",
+    "translation": "to watch o.s., examine o.s.;",
+    "examples": []
+  },
+  {
+    "word": "رجعع",
+    "displayWord": "رجعع",
+    "translation": "rujū‘ return; reverting, coming back ( الى to); recourse ( الى to); traceability الى) to); revocation, withdrawal, retraction عن) of s.th.); resignation, surrender ( عن of s.th.); reclamation; recall; restitution, return │ برجوع البريد by return mail",
+    "examples": []
+  },
+  {
+    "word": "رجيع",
+    "displayWord": "رجيع",
+    "translation": "rajī‘ excrement",
+    "examples": []
+  },
+  {
+    "word": "راجع",
+    "displayWord": "راجع",
+    "translation": "rāji‘ returning, reverting, etc.; due, attributable ( الى to); rightfully belonging (",
+    "examples": []
+  },
+  {
+    "word": "رجف",
+    "displayWord": "رجف",
+    "translation": "rajafa a (rajf, رجفان rajfān) to be convulsed, be shaken; to tremble, quake; to shiver, shudder; -- to agitate, convulse, shake ( ه s.o.) IV to make ( ه s.o.) tremble or shudder; to convulse, shake, rock ( ھ s.th.); to spread lies, false rumors; also with ,ب e.g., ارجف بافتراءات (bi-ftirā’āt) to spread calumnies VIII to tremble, quake; to shudder",
+    "examples": []
+  },
+  {
+    "word": "رجفة",
+    "displayWord": "رجفة",
+    "translation": "rajfa (n. vic.) trepidation, tremor; shudder, shiver",
+    "examples": []
+  },
+  {
+    "word": "رجاف",
+    "displayWord": "رجاف",
+    "translation": "rajjāf trembling, quaking; shaken, convulsed",
+    "examples": []
+  },
+  {
+    "word": "رجل",
+    "displayWord": "رجل",
+    "translation": "rajila a to go on foot, walk II to comb ( ھ the hair); to let down ( ھ the hair), let it hang long V = I; to dismount ( من or if from; rider); to assume masculine manners, behave like a man │ ترجل في",
+    "examples": []
+  },
+  {
+    "word": "رجل",
+    "displayWord": "رجل",
+    "translation": "rijl f., pl. ارجل ari\"l foot; leg",
+    "examples": []
+  },
+  {
+    "word": "رجل",
+    "displayWord": "رجل",
+    "translation": "rijl pl. ارجال arjāl swarm (esp. of locusts); -- common purslane (Portulaca oleracea L.; bot.)",
+    "examples": []
+  },
+  {
+    "word": "رجل",
+    "displayWord": "رجل",
+    "translation": "rajil going on foot, pedestrian, walking",
+    "examples": []
+  },
+  {
+    "word": "رجل",
+    "displayWord": "رجل",
+    "translation": "rajul pl. رجال rijāl man; pl. رجالات rijālāt great, important men, leading personalities, men of distinction │ رجال",
+    "examples": []
+  },
+  {
+    "word": "رجالي",
+    "displayWord": "رجالي",
+    "translation": "rijālī men’s, for men (e.g., apparel)",
+    "examples": []
+  },
+  {
+    "word": "رجولة",
+    "displayWord": "رجولة",
+    "translation": "rajūla masculinity, virility, manhood",
+    "examples": []
+  },
+  {
+    "word": "رجولية",
+    "displayWord": "رجولية",
+    "translation": "rajūlīya masculinity, virility, manhood",
+    "examples": []
+  },
+  {
+    "word": "راجل",
+    "displayWord": "راجل",
+    "translation": "rājil pl. رجل rajl, رجالة rajjāla,",
+    "examples": []
+  },
+  {
+    "word": "رجال",
+    "displayWord": "رجال",
+    "translation": "rujjāl, رجلان rujlān going on foot, walking; pedestrian",
+    "examples": []
+  },
+  {
+    "word": "رجم",
+    "displayWord": "رجم",
+    "translation": "1 raiama u (raim) to stone ( ه a.o.); to curse, damn, abuse, revile ( ه s.o.) │ رجم بالغيب (gaib) to talk about s.th. of which one knows nothing; to guess, surmise, make conjectures; to predict the future II رجم",
+    "examples": []
+  },
+  {
+    "word": "رجم",
+    "displayWord": "رجم",
+    "translation": "rajm stoning; (pl. رجم rujam) missile │ رجم بالغيب (gaib) conjecture, guesswork; prophecy",
+    "examples": []
+  },
+  {
+    "word": "رجم",
+    "displayWord": "رجم",
+    "translation": "rujum shooting stars, meteorites",
+    "examples": []
+  },
+  {
+    "word": "رجمة",
+    "displayWord": "رجمة",
+    "translation": "rajma pl. رجم rujam, رجام rijām tombstone",
+    "examples": []
+  },
+  {
+    "word": "رجيم",
+    "displayWord": "رجيم",
+    "translation": "rajīm stoned; cursed, damned; see also alphabetically",
+    "examples": []
+  },
+  {
+    "word": "رجا",
+    "displayWord": "رجا",
+    "translation": "(رجو ) rajā u ( رجاء rajā’, رجاة rajāh, مرجاة marjāh) to hope; to hope for s.th. ( ;(ھ to .xpeat, anticipate ( ھ s.th.), look forward ھ) to); to wish ( ھ for s.th., ھ ل s.o. s.th., e.g., success); to ask ( ھ for s.th., من or s.o., ان to do s.th.), request ( ھ s.th., من from s.o., ان that he ...) │ رجاه في",
+    "examples": []
+  },
+  {
+    "word": "رجا",
+    "displayWord": "رجا",
+    "translation": "rajan and رجاء rajā’ pl. ارجاء arjā’ side, direction; region; -- pl. ارجاء arjā’ vastness (of a land), expanses; whole vicinity or area │ في ارجائه about its interior, e.g., في ارجاء الغرفة (gurfa) all about the room, في ارجاء البلاد all over the country, throughout the country; تجاوبت",
+    "examples": []
+  },
+  {
+    "word": "رجاء",
+    "displayWord": "رجاء",
+    "translation": "rajā’ hope ( ب، في and genit.; of); expectation, anticipation; urgent request │",
+    "examples": []
+  },
+  {
+    "word": "رجاة",
+    "displayWord": "رجاة",
+    "translation": "rajāh hope, expectation, anticipation",
+    "examples": []
+  },
+  {
+    "word": "رجية",
+    "displayWord": "رجية",
+    "translation": "rajīya s.th. hoped for; hope",
+    "examples": []
+  },
+  {
+    "word": "راج",
+    "displayWord": "راج",
+    "translation": "rājin hoping, full of hope",
+    "examples": []
+  },
+  {
+    "word": "رجي",
+    "displayWord": "رجي",
+    "translation": "rajiya a to become silent; to remain silent; pass. رجي عليه (rujiya) to be tonguetied, be unable to utter a sound",
+    "examples": []
+  },
+  {
+    "word": "رجيم",
+    "displayWord": "رجيم",
+    "translation": "(Fr. régime) rijīm diet",
+    "examples": []
+  },
+  {
+    "word": "رحب",
+    "displayWord": "رحب",
+    "translation": "raḥiba a (raḥab) and raḥuba u (ruḥb,",
+    "examples": []
+  },
+  {
+    "word": "رحابة",
+    "displayWord": "رحابة",
+    "translation": "raḥāba) to be wide, spacious, roomy II to welcome ( ب s.o., also ب s.th., e.g., news), bid welcome ( ب to s.o.); to receive graciously, make welcome ( ب s.o.) V to welcome ( ب s.o.), bid welcome ( ب to)",
+    "examples": []
+  },
+  {
+    "word": "رحب",
+    "displayWord": "رحب",
+    "translation": "raḥb wide, spacious, roomy; unconfined │ رحب الصدر r. aṣ-ṣadr generous, magnanimous; broad-minded, open-minded, liberal; frank, candid, openhearted; carefree; صدر رحب (raḥb) generosity, magnanimity; openmindedness, broad-mindedness, liberality; frankness, candor; رحب الباع generous, openhanded, liberal; رحب الذراع do.",
+    "examples": []
+  },
+  {
+    "word": "رحب",
+    "displayWord": "رحب",
+    "translation": "ruḥb vastness, wideness, spaciousness unconfinedness │ اتى على",
+    "examples": []
+  },
+  {
+    "word": "رحبا وسعة",
+    "displayWord": "رحبا وسعة",
+    "translation": "(sa‘atan) to met with a friendly reception",
+    "examples": []
+  },
+  {
+    "word": "رحب",
+    "displayWord": "رحب",
+    "translation": "raḥab vastness, wideness, spaciousness, unconfinedness │ رحب الصدر r. aṣ-ṣadr magnanimity, generosity; lightheartedness",
+    "examples": []
+  },
+  {
+    "word": "رحبة",
+    "displayWord": "رحبة",
+    "translation": "raḥba, raḥaba pl. -āt public square (surrounded by buildings); (pl. raḥabāt and رحاب riḥāb) vastness, expanse │ رحاب",
+    "examples": []
+  },
+  {
+    "word": "رحيب",
+    "displayWord": "رحيب",
+    "translation": "raḥīb = رحب raḥb",
+    "examples": []
+  },
+  {
+    "word": "رحابة",
+    "displayWord": "رحابة",
+    "translation": "raḥāba wideness, vastness, spaciousness, unconfinedness │ رحابة الصدر r. aṣ-ṣadr magnanimity, generosity",
+    "examples": []
+  },
+  {
+    "word": "رحرح",
+    "displayWord": "رحرح",
+    "translation": "raḥraḥa: رحرح بالكلام (kalām) to equivocate, speak ambiguously, beat around the bush",
+    "examples": []
+  },
+  {
+    "word": "رحرح",
+    "displayWord": "رحرح",
+    "translation": "raḥraḥ and رحراح raḥrāḥ wide, broad, flat; carefree, pleasant (life)",
+    "examples": []
+  },
+  {
+    "word": "رحض",
+    "displayWord": "رحض",
+    "translation": "raḥaḍa a (raḥḍ) to rinse, wash",
+    "examples": []
+  },
+  {
+    "word": "رحيق",
+    "displayWord": "رحيق",
+    "translation": "raḥīq exquisite wine; nectar",
+    "examples": []
+  },
+  {
+    "word": "رحل",
+    "displayWord": "رحل",
+    "translation": "1 raḥala a ( رحيل raḥīl) to set out; to depart, leave; to move away, emigrate; to start (",
+    "examples": []
+  },
+  {
+    "word": "رحل",
+    "displayWord": "رحل",
+    "translation": "raḥl pl. رحال riḥāl camel saddle; saddlebags; baggage, luggage; pl. stopping place, stop, stopover │ شد الرحال (šadda) to set out, break camp; القى رحاله alqā riḥālahū to stop ( في in, at)",
+    "examples": []
+  },
+  {
+    "word": "رحلة",
+    "displayWord": "رحلة",
+    "translation": "riḥla travel, journey; trip, tour; travelogue",
+    "examples": []
+  },
+  {
+    "word": "رحلة",
+    "displayWord": "رحلة",
+    "translation": "ruḥla destination, place for which one is bound",
+    "examples": []
+  },
+  {
+    "word": "رحيل",
+    "displayWord": "رحيل",
+    "translation": "raḥīl departure, setting out; emigration; exodus; demise",
+    "examples": []
+  },
+  {
+    "word": "رحال",
+    "displayWord": "رحال",
+    "translation": "raḥḥāl pl. رحل riḥal roving, roaming, peregrinating, wandering, migratory nomadic; -- (pl. رحالة raḥḥāla) great traveler, explorer; nomad │ الطيور",
+    "examples": []
+  },
+  {
+    "word": "رحالة",
+    "displayWord": "رحالة",
+    "translation": "raḥḥāla great traveler, explorer; globetrotter",
+    "examples": []
+  },
+  {
+    "word": "راحل",
+    "displayWord": "راحل",
+    "translation": "rāḥil pl. رحل ruḥḥal departing leaving, parting; traveling; (pl. -ūn) deceased, late, الفقيد الراحل the deceased",
+    "examples": []
+  },
+  {
+    "word": "راحلة",
+    "displayWord": "راحلة",
+    "translation": "raḥila pl. رواحل rawāḥil2 female riding camel│ شد راحلته (šadda) to saddle one’s camel, start out on a journey",
+    "examples": []
+  },
+  {
+    "word": "راحيل",
+    "displayWord": "راحيل",
+    "translation": "2 rāḥīl Rachel",
+    "examples": []
+  },
+  {
+    "word": "رحم",
+    "displayWord": "رحم",
+    "translation": "raḥima a ( رحمة raḥma, مرحمة marḥama) to have mercy ( ه upon s.o.), have compassion ه) for s.o.) ; to spare, let off ( ه s.o.); to be merciful II رحم عليه to say to s.o.: رحمك لله raḥimaka llāh may God have mercy upon you; to ask God to have mercy ( على upon s.o.), plead for God’s mercy ( على for what has happened) V = II; VI to show human understanding for one another, love and respect one another X to ask ( ه s.o.) to have mercy 331",
+    "examples": []
+  },
+  {
+    "word": "رحم",
+    "displayWord": "رحم",
+    "translation": "raḥim, riḥm f., pl. ارحام arḥām uterus; womb; relationship, kinship │ ذوو",
+    "examples": []
+  },
+  {
+    "word": "رحمة",
+    "displayWord": "رحمة",
+    "translation": "raḥma pity, compassion; human understanding, sympathy, kindness; mercy │ كان تحت رحمته to be at s.o.’s mercy; جعله",
+    "examples": []
+  },
+  {
+    "word": "رحيم",
+    "displayWord": "رحيم",
+    "translation": "raḥīm pl. رحماء ruḥamā’ and رحوم ruḥūm merciful, compassionate",
+    "examples": []
+  },
+  {
+    "word": "رحى",
+    "displayWord": "رحى",
+    "translation": "raḥan f., pl. ارحاء arḥā’, رحى ruḥīy, ارحية arḥīya quern, hand mill │ حجر الرحى ḥajar ar-r. millotone; (دارت رحى الحرب (القتال dārat r. l-ḥarb the war (fighting) broke out; the war (fighting) was going on",
+    "examples": []
+  },
+  {
+    "word": "رحوى",
+    "displayWord": "رحوى",
+    "translation": "raḥawī rotating, rotatory",
+    "examples": []
+  },
+  {
+    "word": "رحاوى",
+    "displayWord": "رحاوى",
+    "translation": "raḥḥāy pl. -ūn grinder",
+    "examples": []
+  },
+  {
+    "word": "رخ",
+    "displayWord": "رخ",
+    "translation": "raḳḳa u to mix with water, dilute ( ھ wine)",
+    "examples": []
+  },
+  {
+    "word": "رخ",
+    "displayWord": "رخ",
+    "translation": "raḳḳ (n. un. ة) light shower",
+    "examples": []
+  },
+  {
+    "word": "رخ",
+    "displayWord": "رخ",
+    "translation": "rukk roc, name of a fabulous giant bird; (pl. رخخة rikaka) rook, castle (chess)",
+    "examples": []
+  },
+  {
+    "word": "رخاخ",
+    "displayWord": "رخاخ",
+    "translation": "rakāk soft (ground); comfortable, pleasant, easy (life)",
+    "examples": []
+  },
+  {
+    "word": "رخص",
+    "displayWord": "رخص",
+    "translation": "rakuṣa (rukṣ) to be cheap, inexpensive; (",
+    "examples": []
+  },
+  {
+    "word": "رخاصة",
+    "displayWord": "رخاصة",
+    "translation": "rakāṣa) to be supple, tender, soft II to permit, allow ( ل s.o. ب or في s.th.); to authorize, license ( ل s.o., ب or في to do s.th.); to empower ( ل s.o.); to reduce the price ( ھ of s.th.) IV to reduce the price ( ھ of s.th.) V to be willing to please, meet on fair term. ( مع في s.o. in), show o.s. ready to compromise ( مع with s.o. في in s.th.); to make concessions ( في or ب in s.th.); to permit o.s. liberties, take liberties ( في in) X to find cheap, regard as inexpensive ( ھ s.th.); to request s.o.’s ( ه) permission",
+    "examples": []
+  },
+  {
+    "word": "رخص",
+    "displayWord": "رخص",
+    "translation": "rakṣ supple, tender, soft",
+    "examples": []
+  },
+  {
+    "word": "رخص",
+    "displayWord": "رخص",
+    "translation": "rukṣ cheapness, inexpensiveness",
+    "examples": []
+  },
+  {
+    "word": "رخصة",
+    "displayWord": "رخصة",
+    "translation": "rukṣa pl. رخص rukaṣ permission; concession, license, franchise; admission; authorization; leave; permit │ رخصة قيادة",
+    "examples": []
+  },
+  {
+    "word": "رخيص",
+    "displayWord": "رخيص",
+    "translation": "rakīṣ supple, tender, soft, cheap, inexpensive, low-priced; base, mean, low; trash, trumpery",
+    "examples": []
+  },
+  {
+    "word": "رخم",
+    "displayWord": "رخم",
+    "translation": "rakuma u ( رخامة rakāma) and rakama u to be soft, mellow, gentle, pleasant (voice);",
+    "examples": []
+  },
+  {
+    "word": "رخمت بيضھا",
+    "displayWord": "رخمت بيضھا",
+    "translation": "(على بيضھا ) rakamat baiḍahā (‘alā baiḍihā) to sit on the eggs (hen) II to soften, mellow ( ھ the voice); to apocopate ھ) a word); to tile with marble ( ھ the floor)",
+    "examples": []
+  },
+  {
+    "word": "رخم",
+    "displayWord": "رخم",
+    "translation": "rakam (coll.; n. un. ة) Egyptian vulture (Neophron percnopterus; zool.)",
+    "examples": []
+  },
+  {
+    "word": "رخام",
+    "displayWord": "رخام",
+    "translation": "rukām marble",
+    "examples": []
+  },
+  {
+    "word": "رخام",
+    "displayWord": "رخام",
+    "translation": "rukāma pl. -āt marble slab",
+    "examples": []
+  },
+  {
+    "word": "رخيم",
+    "displayWord": "رخيم",
+    "translation": "rakīm soft, mellow, pleasant, melodious (voice); O note lowered by a semitone, flat (mus.) 332",
+    "examples": []
+  },
+  {
+    "word": "رخو",
+    "displayWord": "رخو",
+    "translation": "rakw, rikw loose, slack; limp, flabby, flaccid; indolent, languid; soft; supple",
+    "examples": []
+  },
+  {
+    "word": "رخاء",
+    "displayWord": "رخاء",
+    "translation": "rakā’ ease, comfort, happiness; prosperity; abundance, opulence (of living); welfare; fairness, lowness (of prices)",
+    "examples": []
+  },
+  {
+    "word": "رخاء",
+    "displayWord": "رخاء",
+    "translation": "rukā’ gentle breeze",
+    "examples": []
+  },
+  {
+    "word": "رخاوة",
+    "displayWord": "رخاوة",
+    "translation": "rakāwa softness; flaccidity, limpness; laxity │ رخاوة العود r. al-‘ūd weakness of character",
+    "examples": []
+  },
+  {
+    "word": "رخي",
+    "displayWord": "رخي",
+    "translation": "rakīy feeble, weakened, languid; relaxed, at ease; cozy, comfortable",
+    "examples": []
+  },
+  {
+    "word": "راخ",
+    "displayWord": "راخ",
+    "translation": "rākin sagging, drooping",
+    "examples": []
+  },
+  {
+    "word": "رد",
+    "displayWord": "رد",
+    "translation": "radda u (radd) to send back; to bring back, take back ( الى ھ، ه s.o., s.th. to); to return (",
+    "examples": []
+  },
+  {
+    "word": "رد عينه عنه",
+    "displayWord": "رد عينه عنه",
+    "translation": "(‘ainahū) he averted his eyes from it II to keep away, avert, prevent, stave off ( ھ s.th.); to repel, throw back (، ھ",
+    "examples": []
+  },
+  {
+    "word": "ردد طرفه بين",
+    "displayWord": "ردد طرفه بين",
+    "translation": "333 (ṭarafahū) to let one’s eyes wander between, look first at one, then at the other V to be thrown back, be reflected (voice, echo); to ring out (shouts); to shift repeatedly (wind); to come and go ( على at s.o.’s house; rarely",
+    "examples": []
+  },
+  {
+    "word": "رد",
+    "displayWord": "رد",
+    "translation": "radd pl. ردود rudūd return; restoration, restitution; refund, reimbursement; repayment, requital; repulsion; warding off, parrying; denial, refusal; rejection; reply, answer; reflection (e.g., of light); refutation; attribution ( الى to) │ رد الفعل al-fi‘l reaction; رد الاعتبار rehabilitation; ردا على (raddan) in reply to ...; اخذ ورد see أخذ akada",
+    "examples": []
+  },
+  {
+    "word": "ردة",
+    "displayWord": "ردة",
+    "translation": "radda ugliness; reverberation, echo; bran",
+    "examples": []
+  },
+  {
+    "word": "ردة",
+    "displayWord": "ردة",
+    "translation": "ridda apostasy ( عن الاسلام or from Islam)",
+    "examples": []
+  },
+  {
+    "word": "ردأ",
+    "displayWord": "ردأ",
+    "translation": "1 rada’a a (rad’) to support, prop, shore up ھ) a wall)",
+    "examples": []
+  },
+  {
+    "word": "ردء",
+    "displayWord": "ردء",
+    "translation": "rid’ pl. ارداء ardā’ support; help, helper",
+    "examples": []
+  },
+  {
+    "word": "ردؤ",
+    "displayWord": "ردؤ",
+    "translation": "2 radu’a u ( رداءة radā’a) to be bad V to become bad, be spoiled",
+    "examples": []
+  },
+  {
+    "word": "رديء",
+    "displayWord": "رديء",
+    "translation": "radī’ pl. اردياء ardiyā’2 bad; mean, base, vile; evil, wicked; vicious, 334 malicious │ رديء السمعة r. as-sum‘a of ill repute",
+    "examples": []
+  },
+  {
+    "word": "رداءة",
+    "displayWord": "رداءة",
+    "translation": "radā’a badness; wickedness; viciousness, maliciousness",
+    "examples": []
+  },
+  {
+    "word": "ردح",
+    "displayWord": "ردح",
+    "translation": "radaḥ long period of time │ ردحا من الھر radaḥan min ad-dahr for a long time",
+    "examples": []
+  },
+  {
+    "word": "ردس",
+    "displayWord": "ردس",
+    "translation": "radasa i u (rads) to crush ( ھ . s.th.); to roll smooth, level by rolling ( ھ ground)",
+    "examples": []
+  },
+  {
+    "word": "ردع",
+    "displayWord": "ردع",
+    "translation": "rada‘a a (rad‘) to keep, prevent ( ه عن s.o. from) VIII to be kept, be prevented ( عن from)",
+    "examples": []
+  },
+  {
+    "word": "رادع",
+    "displayWord": "رادع",
+    "translation": "rādi‘ deterring; (pl. روادع rawādi‘) deterrent; impediment, obstacle, handicap; restriction, limitation, curb, check; inhibition (psych.)",
+    "examples": []
+  },
+  {
+    "word": "ردغة",
+    "displayWord": "ردغة",
+    "translation": "radga, radaga mud, mire, slush",
+    "examples": []
+  },
+  {
+    "word": "ردف",
+    "displayWord": "ردف",
+    "translation": "radafa u (radf) and radifa a to come next, come immediately after s.o. or s.th. ( ,(ھ، ه follow, succeed ( ه s.o., ھ s.th.) III to ride behind s.o. ( ه on the same animal); to be the substitute ( ه of s.o.), replace ( ه s.o., ھ s.th.); to be synonymous ( ھ with) IV to seat ( ه s.o.) behind one (on an animal); to make ( ه s.th.) be followed ( ب by s.th. else); to complement, complete ( ب ھ s.th. with or by) VI to follow one another, come in succession; to pile up in layers, become stratified; to form a single line; to flock, throng ( على to); to be synonymous",
+    "examples": []
+  },
+  {
+    "word": "ردف",
+    "displayWord": "ردف",
+    "translation": "ridf pl. ارداف ardāf rear man (riding on the same animal); one who or that which is subsequent, follows, comes next; posteriors, backside, rump; haunches, croup (of an animal); dual:",
+    "examples": []
+  },
+  {
+    "word": "رداف",
+    "displayWord": "رداف",
+    "translation": "ridāf croup, rump (of an animal)",
+    "examples": []
+  },
+  {
+    "word": "رديف",
+    "displayWord": "رديف",
+    "translation": "radīf rear man, one following next in line; redif, reserve (in the army of the former Turkish Empire)",
+    "examples": []
+  },
+  {
+    "word": "رديفة",
+    "displayWord": "رديفة",
+    "translation": "radīfa fem. of رديف",
+    "examples": []
+  },
+  {
+    "word": "ردم",
+    "displayWord": "ردم",
+    "translation": "radama i u (radm) to fill up with earth ( ھ pit, pond) II to repair, fix, mend IV not to leave ( على s.o.), cling ( على to s.o.; said of disease) V to be mended, be repaired; to repair, mend ( ھ s.th.); to be worn, show signs of wear",
+    "examples": []
+  },
+  {
+    "word": "ردم",
+    "displayWord": "ردم",
+    "translation": "radm filling up (of swamps, ponds, etc.); rubble, debris; dam",
+    "examples": []
+  },
+  {
+    "word": "رديم",
+    "displayWord": "رديم",
+    "translation": "radīm worn, shabby, threadbare (garment)",
+    "examples": []
+  },
+  {
+    "word": "ردن",
+    "displayWord": "ردن",
+    "translation": "radana i (radn) to spin; to purr (cat); to grumble ( على at)",
+    "examples": []
+  },
+  {
+    "word": "ردن",
+    "displayWord": "ردن",
+    "translation": "rudn pl. اردان ardān sleeve",
+    "examples": []
+  },
+  {
+    "word": "ردينى",
+    "displayWord": "ردينى",
+    "translation": "rudainī spear (originally epithet for one of superior quality)",
+    "examples": []
+  },
+  {
+    "word": "ردنجوت",
+    "displayWord": "ردنجوت",
+    "translation": "(Fr. redingote) redengōt frock coat, Prince Albert",
+    "examples": []
+  },
+  {
+    "word": "ردھة",
+    "displayWord": "ردھة",
+    "translation": "radha hall; large room, sitting room, parlor; lobby; entrance hall, vestibule │",
+    "examples": []
+  },
+  {
+    "word": "ردھة الاستقبال",
+    "displayWord": "ردھة الاستقبال",
+    "translation": "reception hall, drawing room, parlor ردھة المحاضرة r. al-muḥāḍarāt lecture room",
+    "examples": []
+  },
+  {
+    "word": "ردي",
+    "displayWord": "ردي",
+    "translation": "radiya a ( ردى radan) to perish, be destroyed II to bring to the ground ( ه s.o.), bring about the fan of ( ه) IV to bring to the ground ( ه s.o.), bring about the fall of ( ;(ه to destroy, ruin ( ه s.o.); to fell ه) 335 s.o.); to kill ( ه s.o.) │ اراده قتيلا (qatīlan) to fell s.o. with a deadly blow V to fall, tumble; to decline, fall off, come down, go from bad to worse; to deteriorate, become worse; to clothe o.s. ( ب with), put on ( ب a garment) VIII to put on ( ھ a garment or headgear); to wear ( ھ a garment, a headgear), be clothed, be clad ( ھ in) │",
+    "examples": []
+  },
+  {
+    "word": "ردى",
+    "displayWord": "ردى",
+    "translation": "radan ruin, destruction",
+    "examples": []
+  },
+  {
+    "word": "رداء",
+    "displayWord": "رداء",
+    "translation": "ridā’ pl. اردية ardiya loose outer garment, cloak, robe; (lady’s) dress, gown; attire, costume │ رداء المساء almasā’ evening gown",
+    "examples": []
+  },
+  {
+    "word": "رذ",
+    "displayWord": "رذ",
+    "translation": "radda u: رذت السماء (samā’) and IV there was a drizzle, it drizzled",
+    "examples": []
+  },
+  {
+    "word": "رذاذ",
+    "displayWord": "رذاذ",
+    "translation": "radād drizzle",
+    "examples": []
+  },
+  {
+    "word": "رذل",
+    "displayWord": "رذل",
+    "translation": "radila a and radula u ( رذالة radāla) to be low, base. vile. despicable. Contemptible; -- radala u (radl) to reject, cast off, discard, repudiate, disown ( ھ، ه s.o., s.th.); to despise, disdain, scorn ( ھ، ه s.o. s.th.); to disapprove ( ھ، ه of) IV to reject, cast off, discard, repudiate, disown ( ھ، ه s.o., s.th.) X to regard as low or despicable (, ھ",
+    "examples": []
+  },
+  {
+    "word": "رذل",
+    "displayWord": "رذل",
+    "translation": "radl rejection; repudiation; (pl.",
+    "examples": []
+  },
+  {
+    "word": "رذول",
+    "displayWord": "رذول",
+    "translation": "rudūl, ارذال ardāl) low, base, mean, vile, despicable, contemptible",
+    "examples": []
+  },
+  {
+    "word": "رذيل",
+    "displayWord": "رذيل",
+    "translation": "radīl pl. رذلاء rudalā’ low, base, mean, vile, despicable, contemptible, depraved",
+    "examples": []
+  },
+  {
+    "word": "رذالة",
+    "displayWord": "رذالة",
+    "translation": "radāla lowness, baseness, meanness, vileness, depravity",
+    "examples": []
+  },
+  {
+    "word": "رذالة",
+    "displayWord": "رذالة",
+    "translation": "radīla pl. رذائل radā’il vice; depravity",
+    "examples": []
+  },
+  {
+    "word": "رز",
+    "displayWord": "رز",
+    "translation": "1 ruzz (= ارز ) aruzz) rice",
+    "examples": []
+  },
+  {
+    "word": "رز",
+    "displayWord": "رز",
+    "translation": "2 razza u (razz) to insert, drive in ( ھ s.th.) II to burnish, polish ( ھ s.th.) IV to telephone",
+    "examples": []
+  },
+  {
+    "word": "رزة",
+    "displayWord": "رزة",
+    "translation": "razza pl. -āt staple, U bolt; ring screw; joint pin O ارزيز irzīz telephone",
+    "examples": []
+  },
+  {
+    "word": "رزأ",
+    "displayWord": "رزأ",
+    "translation": "raza’a a ( رزء raz’) to deprive ( في or ه ھ s.o. of s.th.); pass. رزئ ruzi’a to incur or suffer loss; to lose ( ب s.th.); to be afflicted ب) by)",
+    "examples": []
+  },
+  {
+    "word": "رزء",
+    "displayWord": "رزء",
+    "translation": "ruz’ pl. ارزاء arzā’ heavy loss, serious damage; disaster, calamity",
+    "examples": []
+  },
+  {
+    "word": "رزيئة",
+    "displayWord": "رزيئة",
+    "translation": "razī’a and رزية razīya pl. رزايا razāyā heavy loss, serious damage; disaster, calamity",
+    "examples": []
+  },
+  {
+    "word": "رزب",
+    "displayWord": "رزب",
+    "translation": "razaba u (razb) to keep, stick, cling ( ھ to)",
+    "examples": []
+  },
+  {
+    "word": "رزح",
+    "displayWord": "رزح",
+    "translation": "razaḥa a ( رزوح ruzūḥ, رزاح ruzāḥ, razāḥ) to succumb, collapse, sink to the ground (under a burden); to descend, hover (e.g., silence) III to suffer",
+    "examples": []
+  },
+  {
+    "word": "رزق",
+    "displayWord": "رزق",
+    "translation": "razaqa u to provide with the means of subsistence ( ه s.o.; said of God); to bestow",
+    "examples": []
+  },
+  {
+    "word": "رزق",
+    "displayWord": "رزق",
+    "translation": "rizq pl. ارزاق arzāq livelihood, means of living, subsistence; daily bread, nourishment, sustenance; boon, blessing 336 (of God); property, possessions, wealth, fortune; income; pay, wages │",
+    "examples": []
+  },
+  {
+    "word": "رزم",
+    "displayWord": "رزم",
+    "translation": "razama i u (razm) to bundle, bale, pack, wrap up ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "رزمة",
+    "displayWord": "رزمة",
+    "translation": "rizma pl. رزم rizam bundle; bale, pack; parcel, package; ream (of paper)",
+    "examples": []
+  },
+  {
+    "word": "رزن",
+    "displayWord": "رزن",
+    "translation": "razuna u ( رزانة razāna) to be grave, serious, sedate, staid, calm, composed, self-possessed V to display grave or sedate manners, show o.s. calm, composed, self-possessed",
+    "examples": []
+  },
+  {
+    "word": "رزين",
+    "displayWord": "رزين",
+    "translation": "razīn grave, serious, sedate, staid; composed, calm, self-possessed",
+    "examples": []
+  },
+  {
+    "word": "رزانة",
+    "displayWord": "رزانة",
+    "translation": "razana gravity, sedateness, staidness; composure, self-possession, poise",
+    "examples": []
+  },
+  {
+    "word": "رزنامة",
+    "displayWord": "رزنامة",
+    "translation": "ruznāma see روزنامة",
+    "examples": []
+  },
+  {
+    "word": "رزية",
+    "displayWord": "رزية",
+    "translation": "pl. رزايا see رزيئة",
+    "examples": []
+  },
+  {
+    "word": "رسيس",
+    "displayWord": "رسيس",
+    "translation": "rasīs covered with verdigris",
+    "examples": []
+  },
+  {
+    "word": "رسب",
+    "displayWord": "رسب",
+    "translation": "rasaba u ( رسوب rusūb) to sink to the bottom, settle, subside (esp., in water); to fail, dunk (in an examination) II to cause to settle ( ھ s.th., in a liquid), deposit ( ھ a sediment); to precipitate ( ھ s.th.; chem.) V to settle, subside, be deposited; to precipitate (chem.)",
+    "examples": []
+  },
+  {
+    "word": "رسوب",
+    "displayWord": "رسوب",
+    "translation": "rusūb sediment, deposit; lees, dregs, settlings; precipitate (chem.); failure (in an examination)",
+    "examples": []
+  },
+  {
+    "word": "راسب",
+    "displayWord": "راسب",
+    "translation": "rāsib pl. رواسب rawāsib2 sediment, deposit; dregs, lees, settlings; precipitate (chem.); residue",
+    "examples": []
+  },
+  {
+    "word": "رستامية",
+    "displayWord": "رستامية",
+    "translation": "rustāmīya to tidy, arrange well, put in order ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "رستق",
+    "displayWord": "رستق",
+    "translation": "rastaqa to tidy, arrange well, put in order ھ) s.th.)",
+    "examples": []
+  },
+  {
+    "word": "رستو، روستو",
+    "displayWord": "رستو، روستو",
+    "translation": "(It. arrosto) rostō roast meat",
+    "examples": []
+  },
+  {
+    "word": "رستوران",
+    "displayWord": "رستوران",
+    "translation": "(Fr. restaurant) restorān restaurant",
+    "examples": []
+  },
+  {
+    "word": "رسخ",
+    "displayWord": "رسخ",
+    "translation": "rasaka u ( رسوخ rusūk) to be firmly established, be deeply rooted ( في in s.th.); to be firm, solid, stable; to be conversant, be thoroughly familiar ( في with s.th.), be well versed, be at home ( في in s.th., in a field); to seep in; to permeate ( في a fabric); to become fast (color or dyes in a fabric) II and IV to make ( ھ s.th.) take root(s), establish ( ھ s.th.); to implant ( ھ s.th.); to secure, make fast, fix firmly, ground ( ھ s.th.) │ ارسخ الشيء في ذھنه (dihnihī) to impress or inculcate s.th. upon s.o.",
+    "examples": []
+  },
+  {
+    "word": "راسخ",
+    "displayWord": "راسخ",
+    "translation": "rāsiq, firmly established, deeprooted; grounded, firmly fixed, stable; conversant ( في with s.th.), thoroughly versed, completely at home ( في in a field)",
+    "examples": []
+  },
+  {
+    "word": "رسراس",
+    "displayWord": "رسراس",
+    "translation": "risrās (eg.) glue, adhesive, specif., one for pasting leather, made of a yellow powder 337",
+    "examples": []
+  },
+  {
+    "word": "رسغ",
+    "displayWord": "رسغ",
+    "translation": "rusg pl. ارساغ arsāg, ارسغ arsug wrist",
+    "examples": []
+  },
+  {
+    "word": "رسف",
+    "displayWord": "رسف",
+    "translation": "rasafa u i to go in shackles; to be bound; to be moored (ship)",
+    "examples": []
+  },
+  {
+    "word": "رسل",
+    "displayWord": "رسل",
+    "translation": "rasila a (rasal) to be long and flowing (hair) III to correspond, carry on a correspondence, exchange letters ( ه with s.o.); to contact ( ه s.o.), get in touch ( ه with s.o.) IV to send out, dispatch ( ب or ھ، ه s.o., s.th. الى , also ل, to); to send off, send away ( ب or ھ , .s.o., s.th. الى , also ل, to); to send, forward, ship ( ب or ھ s.th. الى , also ل, to); to send, transmit (radio); to release, let go ( ھ s.th.); to set free ( ھ s.th.); to discharge ( ھ s.th.); to pour forth, vent ( ھ s.th.), give vent ( ھ to); to utter ( ھ words); to shed ( ھ tears); to let ( ھ the hair) hang down, let it fall ( على on) │ ارسل في طلبه (ṭalabihī) to send for s.o.; ارسل الكلام ارسالا (al-kalāma irsālan) to speak without restraint, talk freely; ارسل نفسه مع طبيعتھا (nafsahū) to yield to one’s natural impulse, do the natural thing; ارسل على",
+    "examples": []
+  },
+  {
+    "word": "رسل",
+    "displayWord": "رسل",
+    "translation": "rasl easy, gentle, leisurely (pace, gait); loose, slack, relaxed; long and flowing (hair)",
+    "examples": []
+  },
+  {
+    "word": "رسل",
+    "displayWord": "رسل",
+    "translation": "risl moderation │ على رسلك ! slowly! gently! take it easy!",
+    "examples": []
+  },
+  {
+    "word": "رسيل",
+    "displayWord": "رسيل",
+    "translation": "rasīl pl. رسلاء rusalā’2 messenger; runner (mil.)",
+    "examples": []
+  },
+  {
+    "word": "رسول",
+    "displayWord": "رسول",
+    "translation": "rasūl pl. رسل rusul messenger; emissary; envoy, delegate; apostle (Chr.);",
+    "examples": []
+  },
+  {
+    "word": "رسولي",
+    "displayWord": "رسولي",
+    "translation": "rasūlī apostolic, papal (Chr.) │",
+    "examples": []
+  },
+  {
+    "word": "رسالة",
+    "displayWord": "رسالة",
+    "translation": "risāla pl. -āt, رسائل rasā’l2 consignment, shipment; mail item; (written) communication, (written) report; missive; letter, note; epistle; dispatch; message; treatise; radio message; (pl. -āt) mission, calling, vocation │ رسالة برقية (barqīya) telegram; رسالة غرامية (garāmīya) love letter; رسالة مسجلة (musajjala) registered letter",
+    "examples": []
+  },
+  {
+    "word": "رسيلات",
+    "displayWord": "رسيلات",
+    "translation": "rusailāt: القى الخبر على رسيلاته (kabara) he didn’t take the matter seriously O مرسال mirsāl: مرسال نور m. nūr, pl. -āt searchlight",
+    "examples": []
+  },
+  {
+    "word": "رياضي",
+    "displayWord": "رياضي",
+    "translation": "(riyāḍī) sports reporter",
+    "examples": []
+  },
+  {
+    "word": "رسم",
+    "displayWord": "رسم",
+    "translation": "rasama u (rasm) to draw, trace ( ھ s.th.); to sketch ( ھ s.th.); to describe ( ھ e.g., a circle); to paint ( ھ s.th.); to record, put down in writing ( ھ s.th.); to enter, mark, indicate ( ھ s.th.); to sketch, outline ( ھ s.th.; fig.); to describe, depict, portray, picture ( ھ s.th.); to make, work out, conceive ( خطة kiṭṭatan a plan); to prescribe ( ب or ل ھ to s.o. s.th.), lay down as a rule ( ب or ل ھ for s.o. s.th.); to ordain ه) a priest; Chr.) │ رسم شارة الصليب to make the sign of the cross, cross o.s. (Chr.) II to enter, mark, indicate ( ھ s.th., في in); to appoint to a public office ( ھ s.o.; tun.) V to follow ( ھ s.th., esp. s.o.’s footsteps, an example, etc.); to be appointed to a public office (tun.) VIII to come out, find visible expression; to be traced, engraved, inscribed, written; to impress itself, leave an impression ( على on); to be ordained, be introduced into the office of the ministry (priest; Chr.); to make the sign of the cross (Chr.)",
+    "examples": []
+  },
+  {
+    "word": "رسم",
+    "displayWord": "رسم",
+    "translation": "rasm drawing (e.g., as a subject in school); -- (pl. رسوم rusūm, رسومات rusūmāt) a drawing; sketch; graph; picture; photograph; illustration; pattern (e.g., on a fabric); -- (pl. رسوم ) trace, impression) designation, mark; inscription, legend; record, notes; (official) document, (legal) instrument; writing; design; prescription, regulation; ceremony, form, formality; rate, fee, tax, due │ برسم bi-rasmi intended for, care of (c/o), for; اخذ الرسم akd ar-r. taking of a picture; رسم بياني (bayānī) illustrative figure, diagram (in a book); رسم الدخول admission fee; رسم دخولي (dukūlī) import duty, tariff; رسم شمسي (šamsī) photograph;",
+    "examples": []
+  },
+  {
+    "word": "رسم عمومي",
+    "displayWord": "رسم عمومي",
+    "translation": "layout, ground plan (arch.); رسم",
+    "examples": []
+  },
+  {
+    "word": "رسمي",
+    "displayWord": "رسمي",
+    "translation": "official, formal, conventional; ceremonial; official, officeholder, public servant; رسميا ramīyan officially; رسميات rasmīyāt formalities; ceremonies, ceremonial, ritual; rules, regulations │",
+    "examples": []
+  },
+  {
+    "word": "رجال رسمية",
+    "displayWord": "رجال رسمية",
+    "translation": "officials; ملابس رسمية official dress; court dress; ثياب رسمية uniforms; شبه",
+    "examples": []
+  },
+  {
+    "word": "رسمية",
+    "displayWord": "رسمية",
+    "translation": "šibh r. and شبيه بالرسمي semi-official;",
+    "examples": []
+  },
+  {
+    "word": "رسام",
+    "displayWord": "رسام",
+    "translation": "rassām pl. -āt draftsman; painter, artist",
+    "examples": []
+  },
+  {
+    "word": "رسامة",
+    "displayWord": "رسامة",
+    "translation": "risāma, rasāma ordination, consecration (of a priest; Chr.)",
+    "examples": []
+  },
+  {
+    "word": "روسم",
+    "displayWord": "روسم",
+    "translation": "rausam pl. رواسم rawāsim2 O cliché (Syr.)",
+    "examples": []
+  },
+  {
+    "word": "رئيس المراسم ٣٣٩",
+    "displayWord": "رئيس المراسم ٣٣٩",
+    "translation": "chief of protocol (dipl.);",
+    "examples": []
+  },
+  {
+    "word": "رسن",
+    "displayWord": "رسن",
+    "translation": "rasana pl. ارسن arson, ارسان arsān, ارسنة arnsina halter",
+    "examples": []
+  },
+  {
+    "word": "رسا",
+    "displayWord": "رسا",
+    "translation": "(رسو ) rasā u (rasw) to be firm, stable, steady; to anchor ( على off a coast), cast anchor, land, dock; to ride at anchor ( على off a coast, في in a harbor); to disembark, land ( ب s.o.; ship); to come or go eventually ( على to), land ( على with) │ رسا",
+    "examples": []
+  },
+  {
+    "word": "راس",
+    "displayWord": "راس",
+    "translation": "rāsin pl. رواس rawāsin fixed, stationary, immovable, firm, steady, stable, firmly established; anchored, at anchor; pl. راسيات rāsiyāt, رواس rawāsin towering, unshakable mountains",
+    "examples": []
+  },
+  {
+    "word": "رسى",
+    "displayWord": "رسى",
+    "translation": "(= رسا see above) to anchor",
+    "examples": []
+  },
+  {
+    "word": "رش",
+    "displayWord": "رش",
+    "translation": "rašša u (rašš) to spatter, splash, spurt ( ھ a liquid); to spray ( ھ a liquid); to sprinkle (",
+    "examples": []
+  },
+  {
+    "word": "رش",
+    "displayWord": "رش",
+    "translation": "rašš sprinkling; watering; splattering, spattering; spraying; buckshot │ مصلحة الرش والكنس maṣlaḥat ar-r. wa-lkans street-cleaning department; عربة الرش ‘arabat ar-r. watering cart, sprinkler; رمى",
+    "examples": []
+  },
+  {
+    "word": "رشا",
+    "displayWord": "رشا",
+    "translation": "to fire in bursts (mil.)",
+    "examples": []
+  },
+  {
+    "word": "رشة",
+    "displayWord": "رشة",
+    "translation": "rašša light drizzle",
+    "examples": []
+  },
+  {
+    "word": "رشاش",
+    "displayWord": "رشاش",
+    "translation": "raššāš spattered liquid; drizzle, dribble (esp. fig.)",
+    "examples": []
+  },
+  {
+    "word": "رشاش",
+    "displayWord": "رشاش",
+    "translation": "raššāš pl. -āt water hose; machine gun │ مدفع رشاش (midfa‘) machine gun; مسدس رشاش (musaddas) pl. مسدسات",
+    "examples": []
+  },
+  {
+    "word": "رشاشة",
+    "displayWord": "رشاشة",
+    "translation": "submachine gun, Tommy gun",
+    "examples": []
+  },
+  {
+    "word": "رشاشة",
+    "displayWord": "رشاشة",
+    "translation": "raššāša pl. -āt perfume spray, atomizer; O watering can; shower, douche (Mor.) O مرشة mirašša watering can",
+    "examples": []
+  },
+  {
+    "word": "رشح",
+    "displayWord": "رشح",
+    "translation": "rašaḥa a (rašḥ) to sweat, perspire; to leak, be leaky (vessel); to filter, strain, percolate ھ) a liquid) II to raise, rear, bring up ( ه a child); to train, prepare ( ه s.o.); to nominate, put up as a candidate (. s.o., ل for, e.g., for an office), (with نفسه nafsahū) to be a candidate, apply ( ل for an offioe. etc.); to filter ( ھ s.th.) V to be reared, be brought up; to be suited, qualified, trained ل) for s.th.); to be nominated as a candidate, be a nominee ( ل for s.th.); to catch a cold",
+    "examples": []
+  },
+  {
+    "word": "رشح",
+    "displayWord": "رشح",
+    "translation": "rašḥ secretion (of a fluid); perspiration, sweating; leaking, leakiness; filtering, filtration, percolation; oozing, trickling; cold, catarrh 340",
+    "examples": []
+  },
+  {
+    "word": "رشاحة",
+    "displayWord": "رشاحة",
+    "translation": "rušāḥa transudate, transudation (med.)",
+    "examples": []
+  },
+  {
+    "word": "رشد",
+    "displayWord": "رشد",
+    "translation": "rašada u (rušd) to be on the right way, follow the right course, be well guided, not go astray (esp., in religious matters); to have the true faith, be a true believer; to become sensible, become mature, grow up; to come of age II to lead the right way, guide well ( ه s.o.) IV to lead the right way, guide well ( ه s.o.); to load, guide, direct ( الى • s.o. to s.th.), show ( ه s.o.) the way ( الى to; fig.); to lead s.o. ( ه) to the discovery that ( الى ان ), suggest to s.o. the idea of, make s.o. realize that; to calls.o.’s ه) ) attention ( الى to s.th.), point out ( الى ه to s.o. s.th.); to teach ( الى ه s.o. to do s.th.), instruct, (direct, guide ( الى ه s.o. in); to inform ( الى ه s.o. about), acquaint s.o. ( (ه with the facts of ( الى ); to advise, counsel (",
+    "examples": []
+  },
+  {
+    "word": "رشد",
+    "displayWord": "رشد",
+    "translation": "rušd integrity of (one’s) actions, proper, sensible conduct; reason, good sense, senses; consciousness; maturity (of the mind) │ سن الرشد sinn ar-r. majority, full legal age; بلغ رشده (rušdahū) to come of age; ثاب الى رشده to come to one’s senses, calm, down, sober up; ضاع رشده to go out of one’s mind; ذھب برشده to drive s.o. mad (pain)",
+    "examples": []
+  },
+  {
+    "word": "رشد",
+    "displayWord": "رشد",
+    "translation": "rašad integrity of conduct, straightforwardness, forthrightness",
+    "examples": []
+  },
+  {
+    "word": "رشاد",
+    "displayWord": "رشاد",
+    "translation": "rašād integrity of conduct; reason, good sense, senses; maturity; garden peppergrass (Lepidium sativum L.; bot.)",
+    "examples": []
+  },
+  {
+    "word": "رشيد",
+    "displayWord": "رشيد",
+    "translation": "rašīd rightly guided, following the right way; having the true faith; reasonable, rational, intelligent, discriminating, discerning; mature; (pl.",
+    "examples": []
+  },
+  {
+    "word": "رشداء",
+    "displayWord": "رشداء",
+    "translation": "rušadā’) of full legal age, major; Rosetta (city in N Egypt)",
+    "examples": []
+  },
+  {
+    "word": "راشد",
+    "displayWord": "راشد",
+    "translation": "rāšid following the right way, rightly guided, having the true faith; sensible, reasonable; of full legal age, major │ الخلفاء الراشدون (kulafā’) the orthodox caliphs (i.e., Abū Bakr, ‘Umar, ‘Utmān, ‘Alī)",
+    "examples": []
+  },
+  {
+    "word": "رشرش",
+    "displayWord": "رشرش",
+    "translation": "rušruš pl. رشرش rašārīš2 belt",
+    "examples": []
+  },
+  {
+    "word": "رشراش",
+    "displayWord": "رشراش",
+    "translation": "rašrāš tender (e.g., meat)",
+    "examples": []
+  },
+  {
+    "word": "رشف",
+    "displayWord": "رشف",
+    "translation": "rašafa i u (rašf) and rašifa a (raša), V and VIII to suck, sip ( ھ s.th.); to drink ( ھ s.th.); to drink up, drain ( ھ a vessel)",
+    "examples": []
+  },
+  {
+    "word": "رشفة",
+    "displayWord": "رشفة",
+    "translation": "rašfa (n. un.) pl. -āt gulp, sip (of a drink)",
+    "examples": []
+  },
+  {
+    "word": "رشق",
+    "displayWord": "رشق",
+    "translation": "rašaqa u (rašq) to throw ( ه ب at s.o. s.th.), pelt, strike, hurt ( ه ب s.o. with s.th.); to insert, fasten. fix ( في ھ s.th. in); -- rašuqa u ( رشاقة rašāqa) to he shapely, of graceful stature; to he elegant, graceful, lissome VI to pelt one another, hurt one another",
+    "examples": []
+  },
+  {
+    "word": "رشيق",
+    "displayWord": "رشيق",
+    "translation": "rašīq elegant, graceful (exterior, style); svelte, slender, slim; lissome",
+    "examples": []
+  },
+  {
+    "word": "رشاقة",
+    "displayWord": "رشاقة",
+    "translation": "rašāqa elegance, grace, gracefulness; shapeliness graceful, slender build; nimbleness, agility",
+    "examples": []
+  },
+  {
+    "word": "رشم",
+    "displayWord": "رشم",
+    "translation": "rašama u (rašm) to mark, designate ھ) s.th.); to make the sign of the cross; to seal ( ھ s.th.) │ رشم بصليب على to make the sign of the cross over; رشم الصليب to make the sign of the cross (Chr.)",
+    "examples": []
+  },
+  {
+    "word": "رشمة",
+    "displayWord": "رشمة",
+    "translation": "rašm pl. رشوم rušūm, رشومات rušūmāt sign of the cross (Chr.); anointment (Copt.-Chr.)",
+    "examples": []
+  },
+  {
+    "word": "رشمة",
+    "displayWord": "رشمة",
+    "translation": "rašma ornamental halter decorated with silver pendants, or the like; camel halter",
+    "examples": []
+  },
+  {
+    "word": "راشن",
+    "displayWord": "راشن",
+    "translation": "rāšin tip, baksheesh",
+    "examples": []
+  },
+  {
+    "word": "رشا",
+    "displayWord": "رشا",
+    "translation": "(رشو ) rašā u (rašw) to bribe ( ه s.o.) VIII to accept as bribe, he corrupt, he venal",
+    "examples": []
+  },
+  {
+    "word": "رشو",
+    "displayWord": "رشو",
+    "translation": "rašw bribery, corruption",
+    "examples": []
+  },
+  {
+    "word": "رشوة",
+    "displayWord": "رشوة",
+    "translation": "rišwa, rušwa, rašwa pl. رشا، رشى rišan, rušan, (eg.) رشاوى rašāwā bribe; bribery, corruption, dishonesty",
+    "examples": []
+  },
+  {
+    "word": "رشاء",
+    "displayWord": "رشاء",
+    "translation": "rišā’ rope, well rope",
+    "examples": []
+  },
+  {
+    "word": "رص",
+    "displayWord": "رص",
+    "translation": "raṣṣa u (raš􀀀ṣ) to fit tightly together, press together, compress ( ھ s.th.); to ram, force ( ھ s.th. into the ground); to pile up, stack up ( ھ s.th.); to join together, line up, align, arrange .ide by side ( ھ s.th.) II to fit tightly together, press together, compress (",
+    "examples": []
+  },
+  {
+    "word": "رصاص",
+    "displayWord": "رصاص",
+    "translation": "raṣāṣ lead; bullets │ قلم رصاص qalam r. pencil",
+    "examples": []
+  },
+  {
+    "word": "رصاصة",
+    "displayWord": "رصاصة",
+    "translation": "raṣāṣa (n. un.) pellet; bullet",
+    "examples": []
+  },
+  {
+    "word": "رصاصي",
+    "displayWord": "رصاصي",
+    "translation": "raṣāṣī lead, (made) of lead; leady; leaden, lead-colored, dull gray",
+    "examples": []
+  },
+  {
+    "word": "رصيص",
+    "displayWord": "رصيص",
+    "translation": "raṣīṣ compressed, closely packed, jammed together; compact O تراص tarāṣṣ agglutination",
+    "examples": []
+  },
+  {
+    "word": "رصد",
+    "displayWord": "رصد",
+    "translation": "raṣada u (raṣd) to keep one’s eyes ( ھ، ه on); to lie in wait ( ه for); to observe ( ھ s.th.). watch ( ھ s.th. or over s.th.), control ھ) s.th.); to conjure ( ه demon) │ رصد",
+    "examples": []
+  },
+  {
+    "word": "رصد",
+    "displayWord": "رصد",
+    "translation": "raṣd, raṣad pl. ارصاد arṣād observation │ رصد الأفلاك r. al-aflāk stargazing, astronomy; ارصاد جوية (jawwīya) meteorological observation;",
+    "examples": []
+  },
+  {
+    "word": "رصدخانة",
+    "displayWord": "رصدخانة",
+    "translation": "raṣdakāna observatory",
+    "examples": []
+  },
+  {
+    "word": "رصد",
+    "displayWord": "رصد",
+    "translation": "raṣad pl. ارصاد arṣād spy, watcher, watchdog; lookout, observation post; ambush; talisman 342",
+    "examples": []
+  },
+  {
+    "word": "رصاد",
+    "displayWord": "رصاد",
+    "translation": "raṣṣād: رصاد الجو r. al-jaww meteorologist",
+    "examples": []
+  },
+  {
+    "word": "رصيد",
+    "displayWord": "رصيد",
+    "translation": "raṣīd pl. ارصدة arṣida stock on hand (of merchandise, of supplies); avaible funds; balance (com.; also = remainder of a sum to be paid later); capital (fin.) │ شيك يدون رصيد uncovered check, check without sufficient covering funds",
+    "examples": []
+  },
+  {
+    "word": "راصد",
+    "displayWord": "راصد",
+    "translation": "rāṣid registering; (pl. رصاد ruṣṣād) watcher, watchdog, spy │O خزينة",
+    "examples": []
+  },
+  {
+    "word": "راصدة",
+    "displayWord": "راصدة",
+    "translation": "cash register; O ميزان راصد (mīzān) self-registering balance",
+    "examples": []
+  },
+  {
+    "word": "راصدة",
+    "displayWord": "راصدة",
+    "translation": "rāṣida: راصدة فلكية (falakīya) telescope",
+    "examples": []
+  },
+  {
+    "word": "رصع",
+    "displayWord": "رصع",
+    "translation": "II to inlay, set, stud ( ھ s.th., ب with gems or gold); to adorn, decorate, ornament ( ھ",
+    "examples": []
+  },
+  {
+    "word": "رصف",
+    "displayWord": "رصف",
+    "translation": "raṣafa u (raṣf) to pave, lay with stone ( ھ s.th.); -- raṣufa u ( رصافة raṣāfa) to be firmly joined II to lay with flagstones, pave ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "رصف",
+    "displayWord": "رصف",
+    "translation": "raṣf paving (of roads)",
+    "examples": []
+  },
+  {
+    "word": "رصيف",
+    "displayWord": "رصيف",
+    "translation": "raṣīf firmly joined, firm, solid, compact; -- (pl. ارصفة arṣifa) pavement; sidewalk; quay; wharf, pier; mole, jetty; platform; (pl. رصفاء ruṣafā’) colleague │",
+    "examples": []
+  },
+  {
+    "word": "رصيف المحطة",
+    "displayWord": "رصيف المحطة",
+    "translation": "r. al-maḥaṭṭa (railway) platform; رصيف لأعمال الحفر في البحر (lia‘ māli l-ḥafr fī l-baḥr) offshore drilling platform (for oil drilling); عوائد الرصيف ‘awā’id ar-r. quayage, pierage, wharfage",
+    "examples": []
+  },
+  {
+    "word": "رصيفة",
+    "displayWord": "رصيفة",
+    "translation": "raṣīfa pl. -āt woman colleague │",
+    "examples": []
+  },
+  {
+    "word": "رصيفتنا الغراء",
+    "displayWord": "رصيفتنا الغراء",
+    "translation": "(garrā’) a phrase of courtesy used by one newspaper when referring to another; approx.: our honorable friends",
+    "examples": []
+  },
+  {
+    "word": "رصافة",
+    "displayWord": "رصافة",
+    "translation": "raṣāfa firmness compactness",
+    "examples": []
+  },
+  {
+    "word": "رصن",
+    "displayWord": "رصن",
+    "translation": "raṣuna u ( رصانة raṣāna) to be firm, strong; to be sedate, calm, composed",
+    "examples": []
+  },
+  {
+    "word": "رصين",
+    "displayWord": "رصين",
+    "translation": "raṣīn firm, unshakable; sedate, calm, composed",
+    "examples": []
+  },
+  {
+    "word": "رصانة",
+    "displayWord": "رصانة",
+    "translation": "raṣāna sedateness, composure, calmness, equanimity",
+    "examples": []
+  },
+  {
+    "word": "رض",
+    "displayWord": "رض",
+    "translation": "raḍḍa u (raḍḍ) to crush ( ھ s.th.); to bruise ھ) a part of the body)",
+    "examples": []
+  },
+  {
+    "word": "رض",
+    "displayWord": "رض",
+    "translation": "raḍḍ pl. رضوض ruḍūḍ bruise, contusion",
+    "examples": []
+  },
+  {
+    "word": "رضيض",
+    "displayWord": "رضيض",
+    "translation": "raḍīḍ crushed; bruised",
+    "examples": []
+  },
+  {
+    "word": "رضاب",
+    "displayWord": "رضاب",
+    "translation": "ruḍāb spittle, saliva",
+    "examples": []
+  },
+  {
+    "word": "رضخ",
+    "displayWord": "رضخ",
+    "translation": "raḍaka a i (raḍk) to break, smash, shatter ھ) s.th.); to crack ( ھ a kernel); -- raḍaka a (raḍk) to give ( ھ s.o.) a small, paltry present; -- (ruḍūk) to yield, bow, give in, subordinate o.s., submit ( ل to s.o., to s.th.) VIII ارتضخ لكنة (luknatan) to speak Arabic with a foreign accent",
+    "examples": []
+  },
+  {
+    "word": "رضخ",
+    "displayWord": "رضخ",
+    "translation": "raḍk, رضخة raḍka a small, paltry gift",
+    "examples": []
+  },
+  {
+    "word": "رضيحة",
+    "displayWord": "رضيحة",
+    "translation": "raḍīka a small, paltry gift; tip, baksheesh",
+    "examples": []
+  },
+  {
+    "word": "رضوخ",
+    "displayWord": "رضوخ",
+    "translation": "ruḍūk submission, surrender; yielding, compliance; sympathetic understanding ( ل of)",
+    "examples": []
+  },
+  {
+    "word": "رضرض",
+    "displayWord": "رضرض",
+    "translation": "raḍraḍa to break into coarse pieces, pound, crush ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "رضراض",
+    "displayWord": "رضراض",
+    "translation": "raḍrāḍ pebbles, gravel 343",
+    "examples": []
+  },
+  {
+    "word": "رضع",
+    "displayWord": "رضع",
+    "translation": "raḍi‘a a and raḍa‘a i a (raḍ‘, رضاع raḍā‘) to suck ( ثدي أمه tadya ummihī at its mother’s breast) II and IV to nurse at the breast, suckle, breast-feed ( ه a baby)",
+    "examples": []
+  },
+  {
+    "word": "رضيع",
+    "displayWord": "رضيع",
+    "translation": "raḍī‘ pl: رضعاء ruḍa‘ā‘ رضائع , 2 raḍā’i‘2 suckling, infant, baby; foster brother O رضاعة raḍā‘a pl. -āt nursing bottle",
+    "examples": []
+  },
+  {
+    "word": "رضاع",
+    "displayWord": "رضاع",
+    "translation": "riḍā‘ foster relationship",
+    "examples": []
+  },
+  {
+    "word": "راضع",
+    "displayWord": "راضع",
+    "translation": "rāḍi‘ pl. رضع ruḍḍa‘ sucking; suckling, infant, baby; infant (adj.)",
+    "examples": []
+  },
+  {
+    "word": "رضه",
+    "displayWord": "رضه",
+    "translation": "abbreviation of رضي لله عنه see رضى",
+    "examples": []
+  },
+  {
+    "word": "رضا",
+    "displayWord": "رضا",
+    "translation": "see رضى riḍan",
+    "examples": []
+  },
+  {
+    "word": "رضي",
+    "displayWord": "رضي",
+    "translation": "raḍiya a ( رضى riḍan, رضوان riḍwān,",
+    "examples": []
+  },
+  {
+    "word": "رضى، رضا",
+    "displayWord": "رضى، رضا",
+    "translation": "riḍan contentment, contentedness, satisfaction; agreement, consent, assent, acceptance, approval; pleasure, delight; good will, favor │ عن",
+    "examples": []
+  },
+  {
+    "word": "رضى",
+    "displayWord": "رضى",
+    "translation": "readily, gladly; سريع الرضى easy to please, easily reconciled",
+    "examples": []
+  },
+  {
+    "word": "رضي",
+    "displayWord": "رضي",
+    "translation": "raḍīy pl. ارضياء arḍiyā’2 satisfied, content; pleasant, agreeable │ بنفس راضية (bi-nafs) gladly",
+    "examples": []
+  },
+  {
+    "word": "رضوان",
+    "displayWord": "رضوان",
+    "translation": "riḍwān consent, assent, agreement, acceptance, approval, sanction; good will, favor; pleasure, delight",
+    "examples": []
+  },
+  {
+    "word": "رضاء",
+    "displayWord": "رضاء",
+    "translation": "riḍā’ contentment, contentedness, satisfaction; agreement, consent, assent, acceptance, approval, sanction; propitiation, conciliation",
+    "examples": []
+  },
+  {
+    "word": "راض",
+    "displayWord": "راض",
+    "translation": "rāḍin pl. رضاة ruḍāh satisfied, content; agreeing, consenting; willing, ready; pleasant, agreeable (life)",
+    "examples": []
+  },
+  {
+    "word": "رطب",
+    "displayWord": "رطب",
+    "translation": "raṭiba a and raṭuba u ( رطوبة ruṭūba, رطابة raṭāba) to be moist, damp, humid; to be wet II to moisten ( ھ s.th.); to cool, refresh; to soothe, soften, calm ( القلب alqalba the heart); to become succulent, mellow, ripen (dates) IV to moisten ( ھ s.th.); to become succulent, mellow, ripen (dates) V to be moistened; to be cooled, be refreshed; to be soothed, be softened, be calmed",
+    "examples": []
+  },
+  {
+    "word": "رطب",
+    "displayWord": "رطب",
+    "translation": "raṭb moist, damp, humid; wet; fresh, cool; juicy, succulent, tender (plant)",
+    "examples": []
+  },
+  {
+    "word": "رطب",
+    "displayWord": "رطب",
+    "translation": "ruṭab (coll.; n. un. ة) pl. ارطاب arṭāb, رطاب riṭāb fresh, ripe dates",
+    "examples": []
+  },
+  {
+    "word": "رطيب",
+    "displayWord": "رطيب",
+    "translation": "raṭīb pl. رطاب riṭāb moist, damp, humid; fresh, cool; juicy, succulent, tender (plant)",
+    "examples": []
+  },
+  {
+    "word": "رطوبة",
+    "displayWord": "رطوبة",
+    "translation": "rṭūba moisture, dampness, humidity; wetness",
+    "examples": []
+  },
+  {
+    "word": "راطب",
+    "displayWord": "راطب",
+    "translation": "rāṭib moist, damp, humid; wet",
+    "examples": []
+  },
+  {
+    "word": "رطل",
+    "displayWord": "رطل",
+    "translation": "raṭl pl. ارطال arṭāl rotl, a weight (in Eg. = 449.28 g; in Syr. = 3.202 kg, in Beirut and Aleppo = 2.566 kg)",
+    "examples": []
+  },
+  {
+    "word": "رطم",
+    "displayWord": "رطم",
+    "translation": "raṭama u (raṭm) to involve, implicate, drag ( ه في s.o. into s.th. unpleasant) VIII to tumble, fall, plunge ( في into); to stick fast, be stuck; to be involved, be entangled ( في in s.th.); to run aground, strand (ship); to bump, hit, crash ( ب against) O مرطم marṭam breakwater, mole, jetty",
+    "examples": []
+  },
+  {
+    "word": "رطن",
+    "displayWord": "رطن",
+    "translation": "raṭana u ( رطانة raṭāna, riṭāna) to speak unintelligible language, talk gibberish, jabber",
+    "examples": []
+  },
+  {
+    "word": "رطانة",
+    "displayWord": "رطانة",
+    "translation": "raṭāna, riṭāna lingo, gibberish",
+    "examples": []
+  },
+  {
+    "word": "رطينى",
+    "displayWord": "رطينى",
+    "translation": "rujainā lingo, gibberish",
+    "examples": []
+  },
+  {
+    "word": "رعاع",
+    "displayWord": "رعاع",
+    "translation": "ra‘ā‘ rabble, mob, riffraff, scum, ragtag; rowdies, hooligans",
+    "examples": []
+  },
+  {
+    "word": "رعب",
+    "displayWord": "رعب",
+    "translation": "ra‘aba a (ru‘b) to be alarmed, terrified; to be afraid, be scared II and IV to frighten, scare, terrify ( ه s.o.) VIII to become frightened, become alarmed, be afraid",
+    "examples": []
+  },
+  {
+    "word": "رعب",
+    "displayWord": "رعب",
+    "translation": "ru‘b fright, alarm, dismay",
+    "examples": []
+  },
+  {
+    "word": "راعب",
+    "displayWord": "راعب",
+    "translation": "rā‘ib dreadful, horrifying, terrible",
+    "examples": []
+  },
+  {
+    "word": "رعد",
+    "displayWord": "رعد",
+    "translation": "ra‘ada a u (ra‘d) to thunder; to appall ( ل",
+    "examples": []
+  },
+  {
+    "word": "رعد",
+    "displayWord": "رعد",
+    "translation": "ra‘d pl. رعود ru‘ūd thunder",
+    "examples": []
+  },
+  {
+    "word": "رعدة",
+    "displayWord": "رعدة",
+    "translation": "ra‘da, ri‘da tremor; shudder; shiver",
+    "examples": []
+  },
+  {
+    "word": "رعاد",
+    "displayWord": "رعاد",
+    "translation": "ra‘‘ād (coll.; n. un. ة) electric ray (zool.)",
+    "examples": []
+  },
+  {
+    "word": "رعديد",
+    "displayWord": "رعديد",
+    "translation": "ri‘dīd pl. رعاديد ra‘ādīd2 cowardly; coward",
+    "examples": []
+  },
+  {
+    "word": "رعرع",
+    "displayWord": "رعرع",
+    "translation": "ra‘ra‘a to come into the prime of life (youth) II tara‘ra‘a to grow, develop, flourish, thrive",
+    "examples": []
+  },
+  {
+    "word": "رعرع",
+    "displayWord": "رعرع",
+    "translation": "ra‘ra‘, ru‘rū‘ pl. رعارع ra‘āri‘2 in full bloom",
+    "examples": []
+  },
+  {
+    "word": "رعراع ايوب",
+    "displayWord": "رعراع ايوب",
+    "translation": "ra‘rā‘ ayyūb (eg.) a variety of fleabane (Pulicaria arabica Coss., Pulicarla inuloides D.C.; bot.)",
+    "examples": []
+  },
+  {
+    "word": "رعش",
+    "displayWord": "رعش",
+    "translation": "ra‘aša a (ra‘š) and ra’iša a (ra’aš) to tremble, shake IV to make ( ه s.o.) tremble; to make ( ه s.o.) shiver VIII = ra’aša",
+    "examples": []
+  },
+  {
+    "word": "رعشة",
+    "displayWord": "رعشة",
+    "translation": "ri‘ša tremor │ رعشة الحمى r. al- ḥummā feverish shiver",
+    "examples": []
+  },
+  {
+    "word": "رعص",
+    "displayWord": "رعص",
+    "translation": "V and VIII to writhe, wind, coil 345",
+    "examples": []
+  },
+  {
+    "word": "رعف",
+    "displayWord": "رعف",
+    "translation": "ra‘afa u a and ra‘ifa a: رعف انفه (anfahū) to have a nosebleed",
+    "examples": []
+  },
+  {
+    "word": "رعاف",
+    "displayWord": "رعاف",
+    "translation": "ru‘āf and رعيف ra‘īf nosebleed",
+    "examples": []
+  },
+  {
+    "word": "راعف",
+    "displayWord": "راعف",
+    "translation": "rā‘if tip of the nose",
+    "examples": []
+  },
+  {
+    "word": "رعلة",
+    "displayWord": "رعلة",
+    "translation": "ru‘la wreath",
+    "examples": []
+  },
+  {
+    "word": "رعيل",
+    "displayWord": "رعيل",
+    "translation": "ra‘īl pl. رعال ri‘āl squadron of armored, motorized, or cavalry troops (Syr., Ir.; mil.)",
+    "examples": []
+  },
+  {
+    "word": "رعام",
+    "displayWord": "رعام",
+    "translation": "ru‘ām gladers",
+    "examples": []
+  },
+  {
+    "word": "رعمسيس",
+    "displayWord": "رعمسيس",
+    "translation": "ra‘amsīs Ramses (name of Eg. kings)",
+    "examples": []
+  },
+  {
+    "word": "رعن",
+    "displayWord": "رعن",
+    "translation": "ra‘ana u ( رعونة ru‘ūna) to be lightheaded, frivolous; -- ra‘ana u (ra‘n): رعنته الشمس ra‘anathu š-šamsu to have a sunstroke",
+    "examples": []
+  },
+  {
+    "word": "رعن",
+    "displayWord": "رعن",
+    "translation": "ra‘n sunstroke; -- (pl. رعان ri‘ān) mountain peak",
+    "examples": []
+  },
+  {
+    "word": "رعونة",
+    "displayWord": "رعونة",
+    "translation": "ru‘ūna pl. -āt levity, frivolity, flippancy; thoughtlessness",
+    "examples": []
+  },
+  {
+    "word": "رعا",
+    "displayWord": "رعا",
+    "translation": "(رعو ) ra‘ā u (ra‘w, رعوة ra‘wa, ru‘wa,",
+    "examples": []
+  },
+  {
+    "word": "رعوى",
+    "displayWord": "رعوى",
+    "translation": "ra‘wā, ru‘wā) and IX ارعوى ir‘awā to desist ( من or عن from sin, from error), repent, see the light │ ارعوى عن غيه (gayyihī) to repent, turn over a new leaf",
+    "examples": []
+  },
+  {
+    "word": "رعوى",
+    "displayWord": "رعوى",
+    "translation": "ra‘wā, ru‘wā repentance, amendment, conversion",
+    "examples": []
+  },
+  {
+    "word": "رعوى",
+    "displayWord": "رعوى",
+    "translation": "ra‘awī and رعوية see رعى",
+    "examples": []
+  },
+  {
+    "word": "رعى",
+    "displayWord": "رعى",
+    "translation": "ra‘ā a (ra‘y, رعاية ri‘āya, مرعى mar‘an) to graze; to tend ( ھ a flock of animals); -- (ra‘y, رعاية ri‘āya) to guard, protect, take under one’s wing ( ه s.o.); to care ( ھ، ه for), take care ( ھ، ه of); to watch ھ) over); to male a point ( ھ of s.th.), make it one’s business; to observe, bear in mind, heed, respect ( ھ s.th.); to adhere ( ھ to), comply ( ھ with), abide (e.g., عھدا ‘ahdan or معاھدة mu‘āhadatan by a treaty or an agreement, etc.); to take into consideration ھ) s.th.), allow ( ھ for s.th.) in to supervise, watch, control ( ھ s.th.), keep an eye ( ھ on); to maintain, keep up, preserve ھ) s.th.); to observe, bear in mind, heed, respect ( ھ s.th.), comply ( ھ with, e.g., with regulations); to take into consideration, take into account ( ھ s.th.), allow, make allowance ( ھ for s.th.); to show deference, regard or respect ( ه for s.o.); to make provision, see to it ( ان that) │ راعى خاطره (kāṭirahū) to defer to s.o., respect s.o.’s feelings or wishes IV ارعيته",
+    "examples": []
+  },
+  {
+    "word": "رعى",
+    "displayWord": "رعى",
+    "translation": "ra‘y care, keeping, custody, guardianship; protection; observance ( ل of), adherence ( ل to, e.g., to agreements) │ رعيا لك God be with you!",
+    "examples": []
+  },
+  {
+    "word": "رعية",
+    "displayWord": "رعية",
+    "translation": "ra‘īya pl. رعايا ra‘āyā herd, flock; parish (Chr.); subjects, citizens; a subject, a citizen",
+    "examples": []
+  },
+  {
+    "word": "رعوي",
+    "displayWord": "رعوي",
+    "translation": "ra‘awī, رعاوى ra‘āwī and رعائى ra‘ā’ī pastoral, bucolic │ كنيسة رعائية parish church (Chr.); رسالة رعائية pastoral letter (Chr.)",
+    "examples": []
+  },
+  {
+    "word": "رعاية",
+    "displayWord": "رعاية",
+    "translation": "ri‘āya keeping, custody, charge, care; attention, consideration, regard; patronage, auspices, sponsorship, protectorate │ تحت رعاية under the auspices of, sponsored by; مركز رعاية الطفل markaz r. al-ṭifl health center for children (Eg.);",
+    "examples": []
+  },
+  {
+    "word": "راع",
+    "displayWord": "راع",
+    "translation": "rā‘in pl. رعاة ru‘āh, رعيان ru‘yān,",
+    "examples": []
+  },
+  {
+    "word": "رعاء",
+    "displayWord": "رعاء",
+    "translation": "ru‘ā’, ri‘ā’ shepherd, herdsman; guardian, keeper, protector; patron, sponsor; pastor (Chr.)",
+    "examples": []
+  },
+  {
+    "word": "رغب",
+    "displayWord": "رغب",
+    "translation": "ragiba a ( رغبة ragba, رغب ragab) to desire, wish, want, crave, covet ( في s.th.); to ask ( من or الى s.o., في for s.th., ان to do s.th.), request ( في s.th.; من or الى s.o., ان to do s.th.); to prefer ( في على s.th. to, also ب",
+    "examples": []
+  },
+  {
+    "word": "رغب",
+    "displayWord": "رغب",
+    "translation": "ragab: رغبا ورھبا ragaban warahaban torn between greed and fear",
+    "examples": []
+  },
+  {
+    "word": "رغبة",
+    "displayWord": "رغبة",
+    "translation": "ragba pl. ragabāt wish, desire, longing, appetite ( في for)",
+    "examples": []
+  },
+  {
+    "word": "رغيبة",
+    "displayWord": "رغيبة",
+    "translation": "ragība pl. رغائب ragā’ib2 object of desire, desideratum; wish, desire",
+    "examples": []
+  },
+  {
+    "word": "راغب",
+    "displayWord": "راغب",
+    "translation": "rāgib pl. رغبة desiring, desirous │",
+    "examples": []
+  },
+  {
+    "word": "رغث",
+    "displayWord": "رغث",
+    "translation": "ragaṭa a (rugt) to suck ( ھا at the mother’s teats; said of animals)",
+    "examples": []
+  },
+  {
+    "word": "رغوث",
+    "displayWord": "رغوث",
+    "translation": "ragūt unweaned young female animal",
+    "examples": []
+  },
+  {
+    "word": "رغد",
+    "displayWord": "رغد",
+    "translation": "raguda u ( رغادة ragāda) and ragida (rugd) to be pleasant, comfortable, carefree (life)",
+    "examples": []
+  },
+  {
+    "word": "رغد",
+    "displayWord": "رغد",
+    "translation": "ragd easy, carefree, pleasant, agreeable (life) │ عيش رغد (‘aiš) a life of plenty and opulence",
+    "examples": []
+  },
+  {
+    "word": "رغيد",
+    "displayWord": "رغيد",
+    "translation": "ragīd easy, carefree, pleasant, agreeable (life) │ عيش رغيد (‘aiš) a life of plenty and opulence",
+    "examples": []
+  },
+  {
+    "word": "رغد",
+    "displayWord": "رغد",
+    "translation": "ragad comfort, opulenoe, affluence (of living)",
+    "examples": []
+  },
+  {
+    "word": "رغادة",
+    "displayWord": "رغادة",
+    "translation": "ragāda comfort, opulence, affluence (of living)",
+    "examples": []
+  },
+  {
+    "word": "رغرغ",
+    "displayWord": "رغرغ",
+    "translation": "1 ragraga to live in opulence and luxury 2□ رغرغ ragraga (= غرغر gargara) to gargle",
+    "examples": []
+  },
+  {
+    "word": "رغيف",
+    "displayWord": "رغيف",
+    "translation": "ragīf pl. ارغفة argifa, رغفان rugfān, رغف ruguf loaf of bread; roll, bun (syr.)",
+    "examples": []
+  },
+  {
+    "word": "رغم",
+    "displayWord": "رغم",
+    "translation": "IV to foroe, compel, coerce ( ه على s.o. to do s.th.)",
+    "examples": []
+  },
+  {
+    "word": "رغم",
+    "displayWord": "رغم",
+    "translation": "ragma (prep.) despite, in spite of │ رغم ان although, though; رغما عن ragman ‘an in spite of, despite; رغما عن انفه (anfihī) and",
+    "examples": []
+  },
+  {
+    "word": "رغم مني",
+    "displayWord": "رغم مني",
+    "translation": "‘alā ragmin minnī without my wanting it; بالرغم من in spite of the fact that, although; لا ... الا رغما lā … illā ragman only reluctantly, only with great effort",
+    "examples": []
+  },
+  {
+    "word": "رغام",
+    "displayWord": "رغام",
+    "translation": "ragām dust and sand",
+    "examples": []
+  },
+  {
+    "word": "رغام",
+    "displayWord": "رغام",
+    "translation": "rugām mucus",
+    "examples": []
+  },
+  {
+    "word": "رغامى",
+    "displayWord": "رغامى",
+    "translation": "rugāmā windpipe, trachea (anat.)",
+    "examples": []
+  },
+  {
+    "word": "راغم",
+    "displayWord": "راغم",
+    "translation": "rāgim reluctant, unwilling │ وانفه",
+    "examples": []
+  },
+  {
+    "word": "راغم",
+    "displayWord": "راغم",
+    "translation": "(anfuhū) (as a ḥāl clause) reluctantly, grudgingly",
+    "examples": []
+  },
+  {
+    "word": "رغا",
+    "displayWord": "رغا",
+    "translation": "(رغو ) ragā u (ragw) to foam, froth II and IV do. │ ارغى وازبد (azbada) to fume with rage",
+    "examples": []
+  },
+  {
+    "word": "رغو",
+    "displayWord": "رغو",
+    "translation": "ragwa, rugwa pl. رغاو ragāwin foam, froth, spume; lather; dross, slag",
+    "examples": []
+  },
+  {
+    "word": "رغوي",
+    "displayWord": "رغوي",
+    "translation": "ragwī foamy, frothy",
+    "examples": []
+  },
+  {
+    "word": "رغاء",
+    "displayWord": "رغاء",
+    "translation": "raggā’ windbag (fig., of a person); garrulous; chatterbox, prattler",
+    "examples": []
+  },
+  {
+    "word": "رغاوة",
+    "displayWord": "رغاوة",
+    "translation": "rugāwā foam, froth, spume راغ: ما له ثاغية ولا راغية (tāgiya) he has absolutely nothing, he is devoid of all resources, prop.: he has neither a bleating (sheep) nor a braying (camel)",
+    "examples": []
+  },
+  {
+    "word": "رف",
+    "displayWord": "رف",
+    "translation": "raffa i (raff, رفيف rafīf) to gleam, shimmer, glisten, glitter; -- u i (raff) to quiver, twitch; to flicker; to flap the wings (bird); to flutter; to wave, stream; to flash, flare for a moment; to appear suddenly; -- u I to be anxious to please ( ل s.o.). serve ( ل s.o.) diligently │ رف على ذاكرته it flashed through his mind, it occurred to him all of a sudden",
+    "examples": []
+  },
+  {
+    "word": "رف",
+    "displayWord": "رف",
+    "translation": "raff flight, covey (of birds)",
+    "examples": []
+  },
+  {
+    "word": "رف",
+    "displayWord": "رف",
+    "translation": "raff pl. رفوف rufūf, رفاف rifāf shelf; rack; ledge │ وضعه على الرف to shelve s.th., put s.th. aside",
+    "examples": []
+  },
+  {
+    "word": "رفاف",
+    "displayWord": "رفاف",
+    "translation": "raffāf radiant, flashing, sparkling, glistening",
+    "examples": []
+  },
+  {
+    "word": "رفأ",
+    "displayWord": "رفأ",
+    "translation": "rafa’a a (raf’) to mend, repair, patch ( ھ clothing), sew up, fine-draw ( ھ a rent), darn ( ھ socks); to drag ( ھ a boat) on shore",
+    "examples": []
+  },
+  {
+    "word": "رفاء",
+    "displayWord": "رفاء",
+    "translation": "raffā’ darner, fine-drawer",
+    "examples": []
+  },
+  {
+    "word": "رفاء",
+    "displayWord": "رفاء",
+    "translation": "rifā’ (marital) harmony, love │",
+    "examples": []
+  },
+  {
+    "word": "رفت",
+    "displayWord": "رفت",
+    "translation": "1 rafata i u (raft) to break, smash, crush ( ھ s.th.); to reject, turn down, decline ( ھ s.th.); to dismiss, discharge ( ھ s.o. from service)",
+    "examples": []
+  },
+  {
+    "word": "رفت",
+    "displayWord": "رفت",
+    "translation": "raft dismissal, discharge (from service)",
+    "examples": []
+  },
+  {
+    "word": "رفت",
+    "displayWord": "رفت",
+    "translation": "rufāt mortal remains, body (of a person)",
+    "examples": []
+  },
+  {
+    "word": "رفتية",
+    "displayWord": "رفتية",
+    "translation": "2 raftīya transit duty; clearance certificate, clearance papers (com.)",
+    "examples": []
+  },
+  {
+    "word": "رفث",
+    "displayWord": "رفث",
+    "translation": "rafata i u to behave in an obscene manner",
+    "examples": []
+  },
+  {
+    "word": "رفث",
+    "displayWord": "رفث",
+    "translation": "rafat obscenity",
+    "examples": []
+  },
+  {
+    "word": "رفح",
+    "displayWord": "رفح",
+    "translation": "rafaḥ Rafah (town in S Gaza sector)",
+    "examples": []
+  },
+  {
+    "word": "رفد",
+    "displayWord": "رفد",
+    "translation": "rafada i (rafd) to support, aid, help ( ه s.o.); to support, uphold, carry ( ه s.th.) IV to support, aid, help ( ه s.o.) X to ask ( ه s.o.) for support, appeal ( ه to s.o.) for help",
+    "examples": []
+  },
+  {
+    "word": "رفد",
+    "displayWord": "رفد",
+    "translation": "rifd pl. رفود rufūd, ارفاد arfād present, gift; support",
+    "examples": []
+  },
+  {
+    "word": "رفادة",
+    "displayWord": "رفادة",
+    "translation": "rifāda dressing, bandage (over a wound); saddlecloth, pad 348",
+    "examples": []
+  },
+  {
+    "word": "رافد",
+    "displayWord": "رافد",
+    "translation": "rāfid pl. روافد rawāfid2 tributary stream; الرافدان ar-rāfidān (Euphrates and Tigris = ) Mesopotamia, Iraq",
+    "examples": []
+  },
+  {
+    "word": "رافدة",
+    "displayWord": "رافدة",
+    "translation": "rāfida pl. روافد rawāfid2 support, prop; rafter",
+    "examples": []
+  },
+  {
+    "word": "رفرف",
+    "displayWord": "رفرف",
+    "translation": "rafrafa to flap the wings (bird); to flutter (flag, wings, or the like); to blow (wind); to blindfold ( ھ the eyes)",
+    "examples": []
+  },
+  {
+    "word": "رفرف",
+    "displayWord": "رفرف",
+    "translation": "rafrāf pl. رفارف rafārif 2 cushion, pad; eyeshade, visor (of a cap); fender (of an automobile)",
+    "examples": []
+  },
+  {
+    "word": "رفروف",
+    "displayWord": "رفروف",
+    "translation": "rafrūf pl. رفاريف rafārīf2 eye bandage",
+    "examples": []
+  },
+  {
+    "word": "رفس",
+    "displayWord": "رفس",
+    "translation": "rafasa i u (rafs) to kick ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "رفس",
+    "displayWord": "رفس",
+    "translation": "rafsa (n. vic.) kick",
+    "examples": []
+  },
+  {
+    "word": "رفاس",
+    "displayWord": "رفاس",
+    "translation": "raffās steam launch, steamboat; motor tug; O propeller",
+    "examples": []
+  },
+  {
+    "word": "رفش",
+    "displayWord": "رفش",
+    "translation": "rafš shovel, spade",
+    "examples": []
+  },
+  {
+    "word": "رفاص",
+    "displayWord": "رفاص",
+    "translation": "raffāṣ (= رفاس raffās) steam launch, steamboat",
+    "examples": []
+  },
+  {
+    "word": "رفض",
+    "displayWord": "رفض",
+    "translation": "rafaḍa i u (rafḍ) to leave, abandon ( ھ s.th.); to discard, dismiss ( ھ s.th.); to reject, turn down, decline, refuse to accept ھ) s.th.) IV to finish, conclude, terminate V to he bigoted, fanatic IX to scatter, disperse, break up; to disappear, cease (e.g., pain); to drip (sweat)",
+    "examples": []
+  },
+  {
+    "word": "رفض",
+    "displayWord": "رفض",
+    "translation": "rafḍ dismissal; rejection, refusal, nonacceptance",
+    "examples": []
+  },
+  {
+    "word": "رفيض",
+    "displayWord": "رفيض",
+    "translation": "rafīḍ abandoned; rejected, dismissed",
+    "examples": []
+  },
+  {
+    "word": "رافضة",
+    "displayWord": "رافضة",
+    "translation": "rāfiḍa pl. روافض rawāfiḍ2 turncoats, renegades, dissenters, defectors; troops having deserted their leader; Rafidites, a Shiitio sect",
+    "examples": []
+  },
+  {
+    "word": "رافضي",
+    "displayWord": "رافضي",
+    "translation": "rāfiḍī pl. ارفاض arfāḍ apostate, renegade, turncoat; Rafidite; disloyal, rebellious; bigoted, fanatical",
+    "examples": []
+  },
+  {
+    "word": "رفع",
+    "displayWord": "رفع",
+    "translation": "rafa‘a a (raf‘) to lift, lift up, raise aloft, heave up, hoist up ( ھ s.th.); to raise ( ھ s.th., e.g., one’s head, also fig.: e.g., the intellectual level, a price); to raise in esteem ( ھ s.th.); to make high or higher (",
+    "examples": []
+  },
+  {
+    "word": "رفع من مكانته",
+    "displayWord": "رفع من مكانته",
+    "translation": "(makānatihī) to upgrade s.th.;",
+    "examples": []
+  },
+  {
+    "word": "رفع يديه عنه",
+    "displayWord": "رفع يديه عنه",
+    "translation": "(yadaihī) to desist, refrain from s.th.; رفع الدعوى عليه (da‘wā) to sue s.o., lodge a complaint against s.o. ( امام in a court); رفع قضية عليه (qaḍīyatan) or رفع به",
+    "examples": []
+  },
+  {
+    "word": "رفع",
+    "displayWord": "رفع",
+    "translation": "raf‘ lifting, hoisting (also, of a flag); elevation; raise, raising, stepping up (of prices, of temperatures, etc.); setting up; erection; abolition; lift, (e.g., of a ban); remedy, elimination, removal; remission (of a tax); submission, filing (e.g., of a report); pronunciation of the final consonant with u (gram.) │ رفع الأثقال weight lifting (athlet.)",
+    "examples": []
+  },
+  {
+    "word": "رفعة",
+    "displayWord": "رفعة",
+    "translation": "rif‘a height, elevation (e.g., of a structure); high rank or standing │ صاحب",
+    "examples": []
+  },
+  {
+    "word": "رفاع",
+    "displayWord": "رفاع",
+    "translation": "rifā‘ Shrovetide (Chr.)",
+    "examples": []
+  },
+  {
+    "word": "رفيع",
+    "displayWord": "رفيع",
+    "translation": "rafī‘ high, high-ranking; lofty, exalted, sublime; loud (voice, sound); thin, fine, delicate; exquisite, refined, subtle; artistic │ رفيع الشأن r. aš-ša’n approx.: exalted; formerly, in Tunisia, title of the members of the Bey’s family; صاحب",
+    "examples": []
+  },
+  {
+    "word": "رفيعة",
+    "displayWord": "رفيعة",
+    "translation": "rafī‘a pl. رفائع rafā’i‘2 legal case brought before the competent authorities; a document submitted to a proper authority",
+    "examples": []
+  },
+  {
+    "word": "رافع",
+    "displayWord": "رافع",
+    "translation": "rāfi‘ bearer │ آلة رافعة hoisting gear, lifting apparatus, hoist; windlass, winch; crane; pump; مضخة رافعة (miḍakka) suction pump",
+    "examples": []
+  },
+  {
+    "word": "رافعة",
+    "displayWord": "رافعة",
+    "translation": "rāfi‘a pl. روافع rawāfi‘ hoisting gear, lifting apparatus, hoist; crane; hoisting installation (mining) │O رافعة",
+    "examples": []
+  },
+  {
+    "word": "رفق",
+    "displayWord": "رفق",
+    "translation": "rafaqa u (rifq) and rafiqa a (rafaq) to be kind, friendly, nice ( ب to s.o., also على and ل), treat gently ( ب s.o.,), be courteous ( ب with s.o.) III to be a companion, a comrade ( ه of s.o.); to keep ( ه s.o.) company; to be on intimate terms, be hand in glove, be friends, associate closely ( ه with s.o.); to accompany ( ه s.o.; also mus.); to escort ( ھ، ه s.o., s.th.) IV to be of use, be useful ( ه to s.o.), avail, serve, help ه) s.o.); to accompany ( ھ ب s.th. with);: to attach, enclose, add, append ( ھ ب to s.th. s.th.) V to show o.s. kind, display a gentle, friendly attitude ( ب toward s.o., also ,(مع be nice ( ب to s.o., also مع ); to do gently ( في s.th.), proceed gently ( في in) │ ترفق في سيره (sairihī) to walk slowly, stroll, saunter VI to travel together VIII to profit, benefit, gain ( ب from or by), make use, avail o.s., take advantage ( ب of), utilize ( ب s .h.); to lean one’s elbows, rest one’s arms ( ھ on s.th.)",
+    "examples": []
+  },
+  {
+    "word": "رفق",
+    "displayWord": "رفق",
+    "translation": "rifq friendliness, kindness, gentleness │ جمعية الرفق بالحيوان jam‘īyat ar-r. bi-l-ḥayawān Society for the Prevention of Cruelty to Animals",
+    "examples": []
+  },
+  {
+    "word": "رفقة",
+    "displayWord": "رفقة",
+    "translation": "rifqa, rufqa pl. رفاق rifāq, رفق rifaq, rufaq, ارفاق arfāq group, troop, body (of people); company │ برفقة accompanied by, in the company of",
+    "examples": []
+  },
+  {
+    "word": "رفيق",
+    "displayWord": "رفيق",
+    "translation": "rafīq pl. رفقاء rufaqā’ رفاق , 2 rifāq companion, attendant; escort; buddy, friend; comrade (in Marxist terminology); associate, partner; accomplice; kind ( ب to), mild, gentle, tender │ رفيق المدرسة r. almadrasa classmate, schoolmate",
+    "examples": []
+  },
+  {
+    "word": "رفيقة",
+    "displayWord": "رفيقة",
+    "translation": "rafīqa pl. -āt woman companion; girl friend; sweetheart; mistress, par amour",
+    "examples": []
+  },
+  {
+    "word": "رفل",
+    "displayWord": "رفل",
+    "translation": "rafala u (rafl) to trail a garment; to strut, swagger",
+    "examples": []
+  },
+  {
+    "word": "رفل",
+    "displayWord": "رفل",
+    "translation": "rifl train (of a garment)",
+    "examples": []
+  },
+  {
+    "word": "رفه",
+    "displayWord": "رفه",
+    "translation": "rafuha u ( رفاه rafāh, رفاھة rafāha, رفاھية rafāhīya) to be comfortable, pleasant, luxurious (life) II to make ( ھ life) pleasant and comfortable; to afford ( ه s.o.) a pleasant, luxurious life; to be a source 351 of ease and comfort, make things easy (",
+    "examples": []
+  },
+  {
+    "word": "رفه",
+    "displayWord": "رفه",
+    "translation": "rifh and رفاه rafāh well-being, welfare; personal ease and comfort; good living, luxury, comforts of life",
+    "examples": []
+  },
+  {
+    "word": "رفاھة",
+    "displayWord": "رفاھة",
+    "translation": "rafāha, رفاھية rafāhīya comfortable, luxurious life; luxury; comfort, comfortableness, coziness; complete relaxation and ease",
+    "examples": []
+  },
+  {
+    "word": "رفا",
+    "displayWord": "رفا",
+    "translation": "(رفو ) rafā u (rafw) to darn, mend ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "رق",
+    "displayWord": "رق",
+    "translation": "raqqa i ( رقة riqqa) to be or become thin, delicate, fine; to be tender, soft; to be pure, clear, limpid (water); to soften, relent ( ل toward s.o.), have pity, feel compassion, have sympathy ( ل for) │ رق له",
+    "examples": []
+  },
+  {
+    "word": "رق",
+    "displayWord": "رق",
+    "translation": "raqq pl. رقوق ruqūq turtle",
+    "examples": []
+  },
+  {
+    "word": "رق",
+    "displayWord": "رق",
+    "translation": "riqq quality or condition of being a slave, slavery, bondage",
+    "examples": []
+  },
+  {
+    "word": "رق",
+    "displayWord": "رق",
+    "translation": "raqq, riqq parchment; riqq (eg.) tambourine",
+    "examples": []
+  },
+  {
+    "word": "رق",
+    "displayWord": "رق",
+    "translation": "riqqa thinness; slenderness, slimness; fineness, delicateness, delicacy; gentleness, mildness; amiability, graciousness, friendliness │ رقة الحاشية r. al-ḥāšiya friendliness, courteousness, amiability; رقة الشعور sensitivity, delicacy of feeling, tact; رقة الطبع r. aṭ-ṭab‘ kindness, gentleness, mild temper, friendliness; رقة المزاج gentleness, mild temper",
+    "examples": []
+  },
+  {
+    "word": "رقاق",
+    "displayWord": "رقاق",
+    "translation": "ruqāq flat loaf of bread; O waffles",
+    "examples": []
+  },
+  {
+    "word": "رقيق",
+    "displayWord": "رقيق",
+    "translation": "raqīq pl. ارقاء ariqqā’ رقاق , 2 riqāq slave, slaves (sing. and coll.); flat loaf of bread (mid); thin; slender, slim; line, delicate; soft. tender, gentle; sensitive, tactful, discreet, prudent │ تجارة الرقيق slave trade; رقيق الحال poor, needy; رقيق الحاشية",
+    "examples": []
+  },
+  {
+    "word": "رقيقة",
+    "displayWord": "رقيقة",
+    "translation": "raqīqa lamina, flake",
+    "examples": []
+  },
+  {
+    "word": "رقأ",
+    "displayWord": "رقأ",
+    "translation": "raqa’a a to cease to flow (tears)",
+    "examples": []
+  },
+  {
+    "word": "رقب",
+    "displayWord": "رقب",
+    "translation": "raqaba u ( رقوب ruqūb, رقابة raqāba) to observe, watch, regard attentively ( ھ s.th.); to supervise, control ( ھ s.th.); to wait ( ھ for), await ( ھ s.th.); -- ( رقوب ruqūb) to watch ( ھ over s.th.), guard ( ھ s.th.); to take into consideration, heed, observe, respect ( ھ s.th.); to fear ( ه God); to be on one’s guard, watch out, be careful │ لا يرقب فيه إلا ولا ذمة (illan wa-lā dimmatan) to treat s.o. ruthlessly ill to watch, observe, regard attentively ( ه s.o.,",
+    "examples": []
+  },
+  {
+    "word": "رقبة",
+    "displayWord": "رقبة",
+    "translation": "riqba observation; control; attention; caution, wariness; vigilance, watchfulness",
+    "examples": []
+  },
+  {
+    "word": "رقبة",
+    "displayWord": "رقبة",
+    "translation": "raqaba pl. -āt, رقاب riqāb neck; -- (pl. رقاب ) slave; (īsl. Law) person │O رقبة",
+    "examples": []
+  },
+  {
+    "word": "رقوب",
+    "displayWord": "رقوب",
+    "translation": "ruqūb anticipation, expectation",
+    "examples": []
+  },
+  {
+    "word": "رقيب",
+    "displayWord": "رقيب",
+    "translation": "raqīb pl. رقباء ruqabā’2 vigilant, watchful; guardian, keeper, warden; watcher, observer, lookout; spy; overseer, supervisor, inspector; controller, control officer; postal censor; sergeant (Syr., mil.) │ رقيب اول (awwal) approx.: staff sergeant (Syr., mil.)",
+    "examples": []
+  },
+  {
+    "word": "رقبى",
+    "displayWord": "رقبى",
+    "translation": "ruqbā donation with the proviso that it shall either revert to the donor after the donee’s death or become the property of the donee upon death of the donor (Isl. Law)",
+    "examples": []
+  },
+  {
+    "word": "رقابة",
+    "displayWord": "رقابة",
+    "translation": "raqāba supervision, control; censorship (of the press)",
+    "examples": []
+  },
+  {
+    "word": "رقوبة",
+    "displayWord": "رقوبة",
+    "translation": "raqūba and راقوبة rāqūba (eg.) nest egg",
+    "examples": []
+  },
+  {
+    "word": "رقد",
+    "displayWord": "رقد",
+    "translation": "raqada u (raqd, رقود ruqūd, رقاد ruqād) to sleep, be asleep; to go to bed; to lie down to rest; to lie; to rest; to abate, subside, let up, calm down (e.g., a storm); to be down, be flagging; to be dull, listless (market) │",
+    "examples": []
+  },
+  {
+    "word": "رقد على البيض",
+    "displayWord": "رقد على البيض",
+    "translation": "(baiḍ) to sit on the eggs (hen) II to put ( ه s.o.) to sleep; to make ( ه s.o.) lie down; to put ( ه s.o.) to bed; to lay down, stretch out ( ه s.o.) IV to put to sleep ه) s.o.); to put to bed ( ه a child)",
+    "examples": []
+  },
+  {
+    "word": "رقدة",
+    "displayWord": "رقدة",
+    "translation": "raqda sleep; manner of lying, lying position",
+    "examples": []
+  },
+  {
+    "word": "رقاد",
+    "displayWord": "رقاد",
+    "translation": "ruqād sleep; recumbency, recumbent position",
+    "examples": []
+  },
+  {
+    "word": "رقود",
+    "displayWord": "رقود",
+    "translation": "ruqūd sleep; recumbency, recumbent position; sleeping, sleep (pl. of the active participle)",
+    "examples": []
+  },
+  {
+    "word": "راقود",
+    "displayWord": "راقود",
+    "translation": "rāqūd pl. رواقيد rawāqīd2 large jug",
+    "examples": []
+  },
+  {
+    "word": "راقد",
+    "displayWord": "راقد",
+    "translation": "rāqid pl. رقد ruqqad, رقود ruqūd sleeping, asleep; lying, reclining, recumbent; resting; quiet, dull, listless (market)",
+    "examples": []
+  },
+  {
+    "word": "رقرق",
+    "displayWord": "رقرق",
+    "translation": "raqraqa to mix. dilute ( ھ wine with water) II taraqraqa to overflow ( بالدموع with tears; eyes), be bathed ( بالدموع in tears); to glitter, glisten, sparkle: to stir gently, breathe (wind)",
+    "examples": []
+  },
+  {
+    "word": "رقراق",
+    "displayWord": "رقراق",
+    "translation": "raqrāq bathed (in tears), moist, misty (eyes); glittering, glistening; radiant, brilliant, resplendent",
+    "examples": []
+  },
+  {
+    "word": "رقارق",
+    "displayWord": "رقارق",
+    "translation": "raqāriq not deep, shallow (water)",
+    "examples": []
+  },
+  {
+    "word": "رقش",
+    "displayWord": "رقش",
+    "translation": "raqaša u to variegate, make multicolored ھ) s.th.) II do.; to adorn, embellish, decorate ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "رقص",
+    "displayWord": "رقص",
+    "translation": "raqaṣ u (raqṣ) to dance; to prance (horse;",
+    "examples": []
+  },
+  {
+    "word": "رقص",
+    "displayWord": "رقص",
+    "translation": "raqṣ dancing, dance │ معلم الرقص mu‘allim ar-r. dancing instructor",
+    "examples": []
+  },
+  {
+    "word": "رقصة",
+    "displayWord": "رقصة",
+    "translation": "raqṣa (n. vic.) pl. raqaṣāt dance",
+    "examples": []
+  },
+  {
+    "word": "رقاص",
+    "displayWord": "رقاص",
+    "translation": "raqqāṣ (professional) dancer; pendulum (phys.; also of a timepiece)",
+    "examples": []
+  },
+  {
+    "word": "رقاصة",
+    "displayWord": "رقاصة",
+    "translation": "female dancer; dancing girl, danseuse; ballerina",
+    "examples": []
+  },
+  {
+    "word": "راقص",
+    "displayWord": "راقص",
+    "translation": "rāqiṣ dancer; dance, dancing (used attributively) │ حفلة راقصة (ḥafla) dance, ball; موسيقى راقصة dance music; ليلة",
+    "examples": []
+  },
+  {
+    "word": "راقصة",
+    "displayWord": "راقصة",
+    "translation": "(laila) dancing party",
+    "examples": []
+  },
+  {
+    "word": "راقصة",
+    "displayWord": "راقصة",
+    "translation": "rāqiṣa pl. -āt female dancer; O kneecap, patella",
+    "examples": []
+  },
+  {
+    "word": "رقط",
+    "displayWord": "رقط",
+    "translation": "II to speckle, spot ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "رقع",
+    "displayWord": "رقع",
+    "translation": "raqa‘a a (raq‘) to patch ( ھ a garment); -- raqu‘a u ( رقاعة raqā‘a) to be stupid II = raqa‘a",
+    "examples": []
+  },
+  {
+    "word": "رقعة",
+    "displayWord": "رقعة",
+    "translation": "ruq‘a pl. رقع ruqa‘, رقاع riqā‘ patch; piece of cloth; piece of land, terrain or ground; area; lot, plot of land; ground (of a flag); chessboard; slip of paper, piece of paper; note, brief message; ticket; coupon; bond, security; a cursive style of calligraphy",
+    "examples": []
+  },
+  {
+    "word": "رقيع",
+    "displayWord": "رقيع",
+    "translation": "raqī‘ stupid, silly, foolish; impudent, impartment, shameless; (pl.",
+    "examples": []
+  },
+  {
+    "word": "رقاعة",
+    "displayWord": "رقاعة",
+    "translation": "raqā‘a stupidity, foolishness folly",
+    "examples": []
+  },
+  {
+    "word": "رقم",
+    "displayWord": "رقم",
+    "translation": "raqama u (raqm) to write ( ھ s.th.); to point, provide with points ( ھ a text); to brand ( ھ a hone); to imprint ( ھ a trace, a mark); to mark ( ھ s.th.); to stripe ( ھ a fabric); to number ( ھ s.th.) II to point, provide with points ( ھ a text); to stripe, streak ( ھ s.th.); to rule ( ھ s.th.); to number ھ) s.th.) 354",
+    "examples": []
+  },
+  {
+    "word": "رقم",
+    "displayWord": "رقم",
+    "translation": "raqm pl. ارقام arqām numeral; number, No. │ الأرقام الھندية (hindīya) the numerals of the Arabs; رقم القياس r. alqiyās or رقم قياسي (qiyāsī) record (athlet.),",
+    "examples": []
+  },
+  {
+    "word": "رقيم",
+    "displayWord": "رقيم",
+    "translation": "raqīm inscription tablet; letter, message",
+    "examples": []
+  },
+  {
+    "word": "رقوص",
+    "displayWord": "رقوص",
+    "translation": "II taraqwaṣa (syr.) to toss, fling o.s. about",
+    "examples": []
+  },
+  {
+    "word": "رقى",
+    "displayWord": "رقى",
+    "translation": "raqiya a (raqy, ruqīy) to ascend ( الى or في s.th. or to s.th.); to climb, mount, scale ( ھ s.th.); to rise (in rank), advance, he promoted; to date back, go hack ( الى to a bygone era); رقي به to lead s.o. up; to further, promote, encourage s.th.; - raqa i رقية) ruqya) to use magic or incantations ( ه on s.o., من against s.th.) II to cause to ascend; to promote ( ه s.o.); to raise, further, promote, advance ( ھ s.th.) V to ascend, rise, advance, progress VIII to ascend, rise; to ascend ( ھ s.th.; also. e.g.,",
+    "examples": []
+  },
+  {
+    "word": "رقي",
+    "displayWord": "رقي",
+    "translation": "ruqīy rise, progress, upward development; الرقي به promotion, encouragement, furtherance of s.th.",
+    "examples": []
+  },
+  {
+    "word": "رقية",
+    "displayWord": "رقية",
+    "translation": "ruqya pl. رقى ruqan spell, charm, magic; incantation",
+    "examples": []
+  },
+  {
+    "word": "رقاء",
+    "displayWord": "رقاء",
+    "translation": "raqqā’ magician, sorcerer",
+    "examples": []
+  },
+  {
+    "word": "راق",
+    "displayWord": "راق",
+    "translation": "rāqin ascending, rising; high, highranking; superior, high-grade, high-class, of high standard; educated. refined; advanced │ الطبقة الراقية (ṭabaqa) the upper class",
+    "examples": []
+  },
+  {
+    "word": "راق",
+    "displayWord": "راق",
+    "translation": "rāqin pl. رقاة ruqāh magician, sorcerer",
+    "examples": []
+  },
+  {
+    "word": "رك",
+    "displayWord": "رك",
+    "translation": "1 rakka i (rakk, ركة rikka, ركاكة rakāka) to be weak, feeble; to be poor, meager, scanty; -- u (rakk): رك الشيء في عنقه (fī ‘unuqihī) to saddle s.o. with the responsibility for s.th., thrust s.th. upon s.o.",
+    "examples": []
+  },
+  {
+    "word": "ركة",
+    "displayWord": "ركة",
+    "translation": "rikka weakness feebleness",
+    "examples": []
+  },
+  {
+    "word": "ركيك",
+    "displayWord": "ركيك",
+    "translation": "rakīk pl. ركاك rikāk, رككة rakaka weak, feeble; thin; colorless, pallid (e.g., style); scanty, meager, poor, pitiful",
+    "examples": []
+  },
+  {
+    "word": "ركاك",
+    "displayWord": "ركاك",
+    "translation": "rukāk weak, feeble",
+    "examples": []
+  },
+  {
+    "word": "ركاكة",
+    "displayWord": "ركاكة",
+    "translation": "rakāka weakness, feebleness; lowliness; inadequacy, poorness; colorlessness, pallor (e.g., of style) 355",
+    "examples": []
+  },
+  {
+    "word": "ركة",
+    "displayWord": "ركة",
+    "translation": "2 rukka distaff │ طب الركة ṭibb ar-r. (eg.) popular treatment of illnesses by means of charms and incantations, practiced by women",
+    "examples": []
+  },
+  {
+    "word": "ركب",
+    "displayWord": "ركب",
+    "translation": "rakiba a ( ركوب rukūb) to ride ( ھ an animal); to mount ( ھ an animal); to go, travel ( ھ in a carriage, in an automobile, on a train, on board a ship, etc.), ride ( ھ in a vehicle, on a bicycle); to get, climb ( ھ into a carriage, on a bicycle, etc.), board (",
+    "examples": []
+  },
+  {
+    "word": "ركب",
+    "displayWord": "ركب",
+    "translation": "rakb riders, horsemen, cavalcade; caravan; traveling party; retinue, escort; procession, troop (of people)",
+    "examples": []
+  },
+  {
+    "word": "ركبة",
+    "displayWord": "ركبة",
+    "translation": "rukba pl. ركب rukab, -āt knee │ ابو",
+    "examples": []
+  },
+  {
+    "word": "ركاب",
+    "displayWord": "ركاب",
+    "translation": "rikāb pl. ركب rukub stirrup; (pl. -āt, ركب rukub, ركائب rakā’ib2) riding Camel, riding animal, mount │ حل ركابه",
+    "examples": []
+  },
+  {
+    "word": "ركوب",
+    "displayWord": "ركوب",
+    "translation": "rakūb mount, riding animal",
+    "examples": []
+  },
+  {
+    "word": "ركوبة",
+    "displayWord": "ركوبة",
+    "translation": "rakūba pl. ركائب rakā’ib2 mount, female riding camel",
+    "examples": []
+  },
+  {
+    "word": "ركوب",
+    "displayWord": "ركوب",
+    "translation": "rukūb (horseback, camelback, etc.) riding; traveling (in a vehicle, by sea, by air, etc.); mounting (of a bicycle, of a horse, etc.), boarding (of a train, of a ship, etc.) │ ركوب البحر r. al-baḥr navigation;",
+    "examples": []
+  },
+  {
+    "word": "ركوب الھواء",
+    "displayWord": "ركوب الھواء",
+    "translation": "r. al-hawā’ flying, aviation",
+    "examples": []
+  },
+  {
+    "word": "ركاب",
+    "displayWord": "ركاب",
+    "translation": "rakkāb one who rides frequently, (professional) horseman or rider, jockey",
+    "examples": []
+  },
+  {
+    "word": "ركبان",
+    "displayWord": "ركبان",
+    "translation": "rukbān retinue, escort │ ذكره سار به",
+    "examples": []
+  },
+  {
+    "word": "راكب",
+    "displayWord": "راكب",
+    "translation": "rākib riding, on horseback, mounted; riding, traveling (in a vehicle); (pl. ركاب rukkāb, ركبان rukbān) rider, horseman; (pl. ركاب rukkāb) passenger, occupant (of a conveyance) │ راكب دراجة r. darrāja cyclist",
+    "examples": []
+  },
+  {
+    "word": "ركد",
+    "displayWord": "ركد",
+    "translation": "rakada u ( ركود rukūd) to be motionless, still, stagnant",
+    "examples": []
+  },
+  {
+    "word": "ركود",
+    "displayWord": "ركود",
+    "translation": "rukūd suspension, standstill, stagnation; sluggishness; stillness, tranquility",
+    "examples": []
+  },
+  {
+    "word": "راكد",
+    "displayWord": "راكد",
+    "translation": "rākid stagnant; sluggish",
+    "examples": []
+  },
+  {
+    "word": "ركز",
+    "displayWord": "ركز",
+    "translation": "rakaza u i (rakz) to plant or ram in the ground, set up ( ھ s.th., e.g., a pole); to fix, embed firmly ( ھ s.th.) II to plant or ram in the ground, set up, ( ھ s.th., e.g., a pole); to position, emplace ( ھ s.th.); to fix, embed firmly ( ھ s.th.); to cause to take root, naturalize ( ھ s.th.); to concentrate ( ھ s.th., also one’s thoughts, في on) V to concentrate; تركز tarakkaz ready! (starter’s command; athlet.) VIII to be implanted; to settle permanently, stay ( في at a place); to lean, support one’s weight ( على or الى on); to he fastened, be mounted ( على on); to be based, rest ( على on); to concentrate ( في on); to gravitate ( في to)",
+    "examples": []
+  },
+  {
+    "word": "ركز",
+    "displayWord": "ركز",
+    "translation": "rikz sound, tone",
+    "examples": []
+  },
+  {
+    "word": "ركزة",
+    "displayWord": "ركزة",
+    "translation": "rakza pause, rest, break",
+    "examples": []
+  },
+  {
+    "word": "ركاز",
+    "displayWord": "ركاز",
+    "translation": "rikāz pl. اركزة arkiza, ركزان rikzān precious minerals, buried treasures of the earth",
+    "examples": []
+  },
+  {
+    "word": "ركيزة",
+    "displayWord": "ركيزة",
+    "translation": "rakīza pl. ركائز rakā’iz2 treasure; support, brace, shore, stanchion; pillar, pier; post, pile; shoring",
+    "examples": []
+  },
+  {
+    "word": "ركس",
+    "displayWord": "ركس",
+    "translation": "VIII to suffer a setback, be thrown back; to decline, degenerate, be degenerate; to become stunted, atrophy",
+    "examples": []
+  },
+  {
+    "word": "ركض",
+    "displayWord": "ركض",
+    "translation": "rakaḍa u (rakḍ) to race, rush, run; to run away; to gallop (intrans., said of a horse, and trans. ھ a horse) III to race ( ه s.o.), run a race ( ه with) VI to compete in a race; to run fast",
+    "examples": []
+  },
+  {
+    "word": "ركاض",
+    "displayWord": "ركاض",
+    "translation": "rakkāḍ runner, racer",
+    "examples": []
+  },
+  {
+    "word": "ركوض",
+    "displayWord": "ركوض",
+    "translation": "rakūḍ fast-running, swift",
+    "examples": []
+  },
+  {
+    "word": "ركع",
+    "displayWord": "ركع",
+    "translation": "raka‘a a ( ركوع rukū‘) to bend the body, bow (esp. in prayer); to kneel down, drop to one’s knees II and IV to make ( ه s.o.) kneel down",
+    "examples": []
+  },
+  {
+    "word": "ركعة",
+    "displayWord": "ركعة",
+    "translation": "rak‘a pl. raka’āt a bending of the torso from an upright position, followed by two prostrations (in Muslim prayer ritual)",
+    "examples": []
+  },
+  {
+    "word": "راكع",
+    "displayWord": "راكع",
+    "translation": "rāki‘ pl. ركع rukka‘ bowing to the ground",
+    "examples": []
+  },
+  {
+    "word": "ركل",
+    "displayWord": "ركل",
+    "translation": "rakala u (rakl) to kick ( ه s.o., ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "ركلة",
+    "displayWord": "ركلة",
+    "translation": "rakla (n. vic.) kick",
+    "examples": []
+  },
+  {
+    "word": "ركم",
+    "displayWord": "ركم",
+    "translation": "fJ rakama u (rakm) to pile up, heap up, accumulate, amass ( ھ s.th.) VI to accumulate, be heaped up; to pile up, gather (clouds) VIII = VI",
+    "examples": []
+  },
+  {
+    "word": "ركم",
+    "displayWord": "ركم",
+    "translation": "rakam pile, heap",
+    "examples": []
+  },
+  {
+    "word": "ركام",
+    "displayWord": "ركام",
+    "translation": "rukām pile, heap; lump; cumulus clouds O مركم markam pl. مراكم marākim2 storage battery",
+    "examples": []
+  },
+  {
+    "word": "ركن",
+    "displayWord": "ركن",
+    "translation": "rakana u ( ركون rukūn) and rakina a to lean, support one’s weight ( الى on); to quiet down, become or be calm, to trust (",
+    "examples": []
+  },
+  {
+    "word": "ركن",
+    "displayWord": "ركن",
+    "translation": "rukn pl. اركان arkān support, prop; corner; nook; basis, basic element, first principle; pl. اركان staff (mil.); basic elements, chief elements │ اركان الحرب a. al-ḥarb general staff (mil.); اركان الجيش a. al-jaiš do.; رئيس اركان الجيش chief of general staff; وثيق الأركان of strong build, sturdy",
+    "examples": []
+  },
+  {
+    "word": "ركنى",
+    "displayWord": "ركنى",
+    "translation": "ruknī: ضربة ركنية (ḍarba) corner kick (soccer)",
+    "examples": []
+  },
+  {
+    "word": "ركين",
+    "displayWord": "ركين",
+    "translation": "rakīn firm, steady, confident, imperturbable; grave, calm, sedate",
+    "examples": []
+  },
+  {
+    "word": "ركون",
+    "displayWord": "ركون",
+    "translation": "rukūn reliance, confidence, trust",
+    "examples": []
+  },
+  {
+    "word": "ركوة",
+    "displayWord": "ركوة",
+    "translation": "rakwa pl. rakawāt (syr.) small coffee pot of copper. having a long handle",
+    "examples": []
+  },
+  {
+    "word": "رم",
+    "displayWord": "رم",
+    "translation": "ramma u i (ramm, مرمة maramma) to repair, overhaul ( ھ s.th.); -- i (ramm, رمة rimma) to decay; to rot II to decay; to rot V to be repaired, undergo repair",
+    "examples": []
+  },
+  {
+    "word": "رم",
+    "displayWord": "رم",
+    "translation": "ramm repair",
+    "examples": []
+  },
+  {
+    "word": "رم",
+    "displayWord": "رم",
+    "translation": "ramm: رم الأسنان r. al-asnān caries (med.)",
+    "examples": []
+  },
+  {
+    "word": "رمة",
+    "displayWord": "رمة",
+    "translation": "rimma cadaver",
+    "examples": []
+  },
+  {
+    "word": "رميم",
+    "displayWord": "رميم",
+    "translation": "ramīm decayed, rotten; رمائم ramā’im2 decaying bones",
+    "examples": []
+  },
+  {
+    "word": "رمام",
+    "displayWord": "رمام",
+    "translation": "rumām decayed, rotten",
+    "examples": []
+  },
+  {
+    "word": "رمث",
+    "displayWord": "رمث",
+    "translation": "ramal pl. ارماث armā~ log raft",
+    "examples": []
+  },
+  {
+    "word": "رمح",
+    "displayWord": "رمح",
+    "translation": "ramaḥa a (ramḥ) to pierce, transfix (with a lance; ه s.o.); to gallop (horse)",
+    "examples": []
+  },
+  {
+    "word": "رمح",
+    "displayWord": "رمح",
+    "translation": "rumḥ pl. رماح rimāḥ, ارماح armāḥ lance, pike; spear, javelin; pole │ رمي الرمح ramy ar-r. javelin throwing (athlet.)",
+    "examples": []
+  },
+  {
+    "word": "رماح",
+    "displayWord": "رماح",
+    "translation": "rammāḥ pl. ة lancer; uhlan",
+    "examples": []
+  },
+  {
+    "word": "رمد",
+    "displayWord": "رمد",
+    "translation": "ramida a (ramad) to have sore eyes; to be inflamed (eye) II to burn to ashes, incinerate ( ھ s.th.) V to burn to ashes, become ashes",
+    "examples": []
+  },
+  {
+    "word": "رمد",
+    "displayWord": "رمد",
+    "translation": "ramad ophthalmia, inflammation of the eyes; eye disease │ رمد حبيبي (ḥubaibī) trachoma, granular conjunctivitis; مستشفى",
+    "examples": []
+  },
+  {
+    "word": "رمدي",
+    "displayWord": "رمدي",
+    "translation": "ramadī and طبيب رمدي ophthalmologist, oculist",
+    "examples": []
+  },
+  {
+    "word": "رمد",
+    "displayWord": "رمد",
+    "translation": "ramid sore-eyed",
+    "examples": []
+  },
+  {
+    "word": "رماد",
+    "displayWord": "رماد",
+    "translation": "ramād pl. ارمدة armida ashes │",
+    "examples": []
+  },
+  {
+    "word": "رمادي",
+    "displayWord": "رمادي",
+    "translation": "ramādī ashen, ash-colored, ashgray",
+    "examples": []
+  },
+  {
+    "word": "رمز",
+    "displayWord": "رمز",
+    "translation": "ramaza u i (ramz) to make a sign, to wink, nod, motion; to point ( الى to), indicate ( الى s.th.); to symbolize, represent or express symbolically ( الى s.th.); to designate ( ل ب or الى s.th. with a distinguishing mark)",
+    "examples": []
+  },
+  {
+    "word": "رمز",
+    "displayWord": "رمز",
+    "translation": "ramz pl. رموز rūmūz sign, nod, wink, motion; hint; allusion, intimation; allegory; riddle; symbol. symbolic figure, emblem, character; secret sign, code sign 359",
+    "examples": []
+  },
+  {
+    "word": "رمزي",
+    "displayWord": "رمزي",
+    "translation": "ramzī symbolic(al}; in code, in cipher",
+    "examples": []
+  },
+  {
+    "word": "رمزيات",
+    "displayWord": "رمزيات",
+    "translation": "ramzīyāt cipher, code",
+    "examples": []
+  },
+  {
+    "word": "راموز",
+    "displayWord": "راموز",
+    "translation": "rāmūz pl. روامز rawāmīz2 specimen, sample; O facsimile",
+    "examples": []
+  },
+  {
+    "word": "رمس",
+    "displayWord": "رمس",
+    "translation": "ramasa i u (rams) to bury ( ه s.o.); to cover, efface, wipe out ( ھ tracks) VIII",
+    "examples": []
+  },
+  {
+    "word": "رمس",
+    "displayWord": "رمس",
+    "translation": "rams pl. رموس rumūs, ارماس armās grave, tomb",
+    "examples": []
+  },
+  {
+    "word": "راموس",
+    "displayWord": "راموس",
+    "translation": "rāmūs grave, tomb",
+    "examples": []
+  },
+  {
+    "word": "رمش",
+    "displayWord": "رمش",
+    "translation": "ramaša i u to take with the fingertips ( ھ s.th.); to wink, blink",
+    "examples": []
+  },
+  {
+    "word": "رمش",
+    "displayWord": "رمش",
+    "translation": "ramaš inflammation of the eyelids, conjunctivitis",
+    "examples": []
+  },
+  {
+    "word": "رمشة",
+    "displayWord": "رمشة",
+    "translation": "ramša blink, wink",
+    "examples": []
+  },
+  {
+    "word": "رمش",
+    "displayWord": "رمش",
+    "translation": "rimš pl. رموش rumūš eyelashes",
+    "examples": []
+  },
+  {
+    "word": "رمص",
+    "displayWord": "رمص",
+    "translation": "ramaṣ white secretion (of the eye)",
+    "examples": []
+  },
+  {
+    "word": "رمض",
+    "displayWord": "رمض",
+    "translation": "VIII to be consumed by grief and sorrow",
+    "examples": []
+  },
+  {
+    "word": "رمض",
+    "displayWord": "رمض",
+    "translation": "ramaḍ parchedness, scorchedness (esp. of the ground due to excessive heat)",
+    "examples": []
+  },
+  {
+    "word": "رمضاء",
+    "displayWord": "رمضاء",
+    "translation": "ramḍā’2 sun-baked ground │",
+    "examples": []
+  },
+  {
+    "word": "رمضان",
+    "displayWord": "رمضان",
+    "translation": "ramaḍān2 Ramadan, the ninth month of the Muslim calendar",
+    "examples": []
+  },
+  {
+    "word": "رمق",
+    "displayWord": "رمق",
+    "translation": "ramaqa u (ramq) to regard ( ھ، ه s.o., s.th.), glance, look ( ھ، ه at) II to stare, gaze ( ھ، ه at); to perform ( ھ work) perfunctorily and negligently, botch ( ھ a job); to keep ( ه s.o.) barely alive V to wait ھ) for an opportunity, and the like)",
+    "examples": []
+  },
+  {
+    "word": "رمق",
+    "displayWord": "رمق",
+    "translation": "ramaq pl. ارماق armāq (last) spark of life, breath of life │ سد رمقه sadda ramaqahū to keep s.o. or o.s. barely alive, eke out a living, manage to keep body and soul together; to provide s.o. with a bare existence; to allay s.o.’s hunger; على آخر",
+    "examples": []
+  },
+  {
+    "word": "رمق",
+    "displayWord": "رمق",
+    "translation": "‘alā ākiri ramaqin at the point of death; on the verge of exhaustion, on one’s last legs",
+    "examples": []
+  },
+  {
+    "word": "رمك",
+    "displayWord": "رمك",
+    "translation": "armak2, f. رمكاء ramkā’ 2 ashen, ash-gray",
+    "examples": []
+  },
+  {
+    "word": "رمكة",
+    "displayWord": "رمكة",
+    "translation": "ramak pl. -āt, رماك rimāk, ارماك armāk mare",
+    "examples": []
+  },
+  {
+    "word": "رمل",
+    "displayWord": "رمل",
+    "translation": "II to sprinkle with sand ( ھ s.th., so as to blot it) IV to become a widower or a widow V = IV",
+    "examples": []
+  },
+  {
+    "word": "رمل",
+    "displayWord": "رمل",
+    "translation": "raml pl. رمال rimāl sand │ علم الرمل ‘ilm ar-r. or ضرب الرمل ḍarb ar-r. geomancy (divination by means of figures or lines in the sand)",
+    "examples": []
+  },
+  {
+    "word": "رملي",
+    "displayWord": "رملي",
+    "translation": "ramlī sandy, sabulous; sand- (in compounds) │ ساعة رملية sandglass, hourglass",
+    "examples": []
+  },
+  {
+    "word": "رمل",
+    "displayWord": "رمل",
+    "translation": "ramal name of a poetical meter",
+    "examples": []
+  },
+  {
+    "word": "رمال",
+    "displayWord": "رمال",
+    "translation": "rammāl geomancer",
+    "examples": []
+  },
+  {
+    "word": "رمان",
+    "displayWord": "رمان",
+    "translation": "1 rummān (coll.; n. un. ة) pomegranate;",
+    "examples": []
+  },
+  {
+    "word": "رمانة",
+    "displayWord": "رمانة",
+    "translation": "knob, pommel; (pl. -āt), رمانة يدوية (yadawīya) hand grenade",
+    "examples": []
+  },
+  {
+    "word": "رمى",
+    "displayWord": "رمى",
+    "translation": "1 ramā i (ramy, رماية rimāya) to throw, cast",
+    "examples": []
+  },
+  {
+    "word": "رمي",
+    "displayWord": "رمي",
+    "translation": "ramy (act or process of) throwing, flinging, shooting, etc. │ رمي الحربة r. al- ḥarba javelin throwing, رمي القرص r. alqurṣ discus throwing (athlet.); اعدام رميا",
+    "examples": []
+  },
+  {
+    "word": "رمية",
+    "displayWord": "رمية",
+    "translation": "ramya (n. vic.) throw, toss, fling; shot │ رب رمية من غير رام rubba ramyatin min gairi rāmin many a shot is without a (skilled) marksman (proverbially, of unexpected or undeserved success)",
+    "examples": []
+  },
+  {
+    "word": "رمية",
+    "displayWord": "رمية",
+    "translation": "ramīya pl. رمايا ramāyā game animal (being shot at or already killed)",
+    "examples": []
+  },
+  {
+    "word": "رام",
+    "displayWord": "رام",
+    "translation": "rāmin pl. رماة rumāh throwing; thrower, hurler; marksman; rifleman (Syr., mil.) │ الرامي Sagittarius (astron.); سھم",
+    "examples": []
+  },
+  {
+    "word": "رامية",
+    "displayWord": "رامية",
+    "translation": "2 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "رن",
+    "displayWord": "رن",
+    "translation": "ranna i ( رنين ranīn) to cry, wail, lament; to resound; to echo; to ring",
+    "examples": []
+  },
+  {
+    "word": "رنة",
+    "displayWord": "رنة",
+    "translation": "ranna pl. -āt scream; sound; reverberation, echo",
+    "examples": []
+  },
+  {
+    "word": "رنين",
+    "displayWord": "رنين",
+    "translation": "ranīn lament, wailing; sound; reverberation, echo; resonance; ring",
+    "examples": []
+  },
+  {
+    "word": "رنان",
+    "displayWord": "رنان",
+    "translation": "rannān and مرنان mirnān ringing, resounding; resonant; reverberating, echoing O رنانة rannāna tuning fork (mus.)",
+    "examples": []
+  },
+  {
+    "word": "رنح",
+    "displayWord": "رنح",
+    "translation": "II to make dizzy, make stagger, send reeling ( ه s.o.); to sway ( ھ s.th.) │ رنح",
+    "examples": []
+  },
+  {
+    "word": "رندح",
+    "displayWord": "رندح",
+    "translation": "randaḥa to scan (verse)",
+    "examples": []
+  },
+  {
+    "word": "رنق",
+    "displayWord": "رنق",
+    "translation": "II to cloud, muddy ( ھ water); to blur, dim ھ) the eyes; said of sleep); to halt, stop, stop over, stay; to look, glance ( نحو toward or at s.th.) │ رنق النظر الى (naẓara) to keep looking at, stare at",
+    "examples": []
+  },
+  {
+    "word": "رنق",
+    "displayWord": "رنق",
+    "translation": "ranq turbid, clouded (water)",
+    "examples": []
+  },
+  {
+    "word": "رونق",
+    "displayWord": "رونق",
+    "translation": "raunaq glamor, splendor, beauty 361",
+    "examples": []
+  },
+  {
+    "word": "رنم",
+    "displayWord": "رنم",
+    "translation": "II and V to sing ( ب a song); to intone ( ب a song); to recite in a singsong voice, chant ب) s.th.)",
+    "examples": []
+  },
+  {
+    "word": "رنا",
+    "displayWord": "رنا",
+    "translation": "(رنو ) ranā u to gaze, look ( الى at s.th.)",
+    "examples": []
+  },
+  {
+    "word": "رنى",
+    "displayWord": "رنى",
+    "translation": "II and IV to please delight ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "رھب",
+    "displayWord": "رھب",
+    "translation": "rahaba a (rahab, ruhb, رھبة rahba) to he frightened, be afraid; to fear, dread ( ه s.o.) │ رھب جانبه see جانب II to frighten, scare, alarm, intimidate ( ه s.o.) IV = II; to terrorize ( ه s.o.) V to threaten ( ه s.o.); to become a monk, enter monastic life (Chr.)",
+    "examples": []
+  },
+  {
+    "word": "رھبة",
+    "displayWord": "رھبة",
+    "translation": "rahba fear, fright, alarm, terror; awe",
+    "examples": []
+  },
+  {
+    "word": "رھبى",
+    "displayWord": "رھبى",
+    "translation": "rahbā, ruhbā fear",
+    "examples": []
+  },
+  {
+    "word": "رھبوب",
+    "displayWord": "رھبوب",
+    "translation": "rahbūb great fear, fright, terror",
+    "examples": []
+  },
+  {
+    "word": "رھيب",
+    "displayWord": "رھيب",
+    "translation": "rahīb dreadful, awful, fearful, terrible; solemn, grave",
+    "examples": []
+  },
+  {
+    "word": "راھب",
+    "displayWord": "راھب",
+    "translation": "rāhib pl. رھبان ruhbān monk (Chr.)",
+    "examples": []
+  },
+  {
+    "word": "راھبة",
+    "displayWord": "راھبة",
+    "translation": "rāhiba pl. -āt nun (Chr.)",
+    "examples": []
+  },
+  {
+    "word": "رھبن",
+    "displayWord": "رھبن",
+    "translation": "II tarahbana to become a monk, enter monastic life (Chr.)",
+    "examples": []
+  },
+  {
+    "word": "رھبنة",
+    "displayWord": "رھبنة",
+    "translation": "rahbana and رھبانية rahbānīya monasticism; monastic order, congregation (Chr.)",
+    "examples": []
+  },
+  {
+    "word": "رھج",
+    "displayWord": "رھج",
+    "translation": "rahj, rahaj dust",
+    "examples": []
+  },
+  {
+    "word": "رھط",
+    "displayWord": "رھط",
+    "translation": "rahaṭa a to gobble, gulp greedily",
+    "examples": []
+  },
+  {
+    "word": "رھط",
+    "displayWord": "رھط",
+    "translation": "rahṭ, rahaṭ pl. ارھاط arhāṭ, ارھط arhuṭ, اراھط arāhiṭ اراھيط , 2 arāhīṭ2 group (of people), band, troop",
+    "examples": []
+  },
+  {
+    "word": "رھط",
+    "displayWord": "رھط",
+    "translation": "rahṭ pl. رھاط rihāṭ leather loincloth",
+    "examples": []
+  },
+  {
+    "word": "رھف",
+    "displayWord": "رھف",
+    "translation": "rahufa u ( رھافة rahāfa) to be thin; to be sharp (sword); -- rahafa a (rahf) and IV to make thin ( ھ s.th.); to make sharp, sharpen ( ھ s.th., esp. fig.) │ ارھف الأذن (udn) to prick up one’s ears ( لفلان so as to catch the words of s.o.), (رھف السمع ل (الى (sam‘) to listen closely to",
+    "examples": []
+  },
+  {
+    "word": "رھف",
+    "displayWord": "رھف",
+    "translation": "rahif thin",
+    "examples": []
+  },
+  {
+    "word": "رھيف",
+    "displayWord": "رھيف",
+    "translation": "rahīf thin; slender, slim; sharpened, sharp",
+    "examples": []
+  },
+  {
+    "word": "رھق",
+    "displayWord": "رھق",
+    "translation": "rahiqa a (rahaq) to come over s.o. or s.th.",
+    "examples": []
+  },
+  {
+    "word": "رھل",
+    "displayWord": "رھل",
+    "translation": "rahila a to be flabby, soft; to be bloated, fat (flesh, body) V do.",
+    "examples": []
+  },
+  {
+    "word": "راھل",
+    "displayWord": "راھل",
+    "translation": "rāhil flaccid, flabby, soft, ترھل 362 tarahhul obesity, fatness",
+    "examples": []
+  },
+  {
+    "word": "رھمة",
+    "displayWord": "رھمة",
+    "translation": "rihma pl. رھم riham, رھام rihām drizzle, lasting fine rain",
+    "examples": []
+  },
+  {
+    "word": "رھن",
+    "displayWord": "رھن",
+    "translation": "rahana a (rahn) to pawn, deposit as security ( ھ s.th., عند or ه with s.o.); to mortgage ( ھ real estate) III to bet, lay a wager ( ه with s.o., على on, that ... ) IV to deposit in pledge, give as a security, pawn ھ) s.th.) VIII to receive or take in pledge, as a security ( ھ من s.th. from s.o.); to pawn, deposit in pledge ( ھ s.th.); to make ھ) s.th.) subject ( ب to), make ( ھ s.th.) conditional ( ب on); pass.: urtuhina to be subject ( ب to) │ ارتھن نفسه ب (nafsahū) to pledge o.s. or dedicate o.s. to the cause of X to demand as a security ( ه ھ from s.o. s.th.)",
+    "examples": []
+  },
+  {
+    "word": "رھن",
+    "displayWord": "رھن",
+    "translation": "rahn pawning, mortgaging, pledging; -- (pl. رھون ruhūn, رھونات ruhūnāt, رھان rihān) pawn, pledge; security ( ب for s.th.); hostage; mortgage. hypothec; رھن ب depending on, conditional on, subject to; -- rahna (prep.) pending; depending on, conditional on; subject to, liable to │ محل رھونات maḥall r. pawnshop; رھن اشارته rahna išāratihī at s.o.’s beck and call; رھن سيطرته r. saiṭaratihī under s.o.’s power or dominion; ھذا رھن ذاك this depends on that;",
+    "examples": []
+  },
+  {
+    "word": "رھنية",
+    "displayWord": "رھنية",
+    "translation": "rahnīya mortgage (deed)",
+    "examples": []
+  },
+  {
+    "word": "رھين",
+    "displayWord": "رھين",
+    "translation": "rahīn pawned, mortgaged, pledged, given as security; held in pledge; security ( ب for); responsible ( ب for); subject ( ب to); (prep.) subject to, depending on │ كان رھينه (rahīnahū) to be under obligation to s.o.; to be dependent on s.o.",
+    "examples": []
+  },
+  {
+    "word": "رھينة",
+    "displayWord": "رھينة",
+    "translation": "rahīna pl. رھائن rahā’in2 pawn, pledge, security; hostage; mortgage, hypothec",
+    "examples": []
+  },
+  {
+    "word": "رھان",
+    "displayWord": "رھان",
+    "translation": "rihān bet, wager; competition, contest",
+    "examples": []
+  },
+  {
+    "word": "راھن",
+    "displayWord": "راھن",
+    "translation": "rāhin pledger, mortgagor; fixed, established, certain; lasting, permanent; current; present, actual │ الظروف الراھنة present circumstances; الحالة الراھنة the present condition; the status quo",
+    "examples": []
+  },
+  {
+    "word": "رھا",
+    "displayWord": "رھا",
+    "translation": "(رھو 2 ) rahā u (rahw) to amble",
+    "examples": []
+  },
+  {
+    "word": "رھو",
+    "displayWord": "رھو",
+    "translation": "rahw quiet, calm, peaceful, tranquil; stillness, calm, peace, tranquility; (pl. رھاء rihā’) crane (zool.)",
+    "examples": []
+  },
+  {
+    "word": "رھوان",
+    "displayWord": "رھوان",
+    "translation": "rahwān ambler (horse); pal-frey",
+    "examples": []
+  },
+  {
+    "word": "رھون",
+    "displayWord": "رھون",
+    "translation": "rahwana and II tarahwana to amble (horse)",
+    "examples": []
+  },
+  {
+    "word": "رھوان",
+    "displayWord": "رھوان",
+    "translation": "see رھو",
+    "examples": []
+  },
+  {
+    "word": "راب",
+    "displayWord": "راب",
+    "translation": "(روب 1 ) rāba u (raub) to curdle (milk) II and IV to (cause to) curdle ( ھ milk)",
+    "examples": []
+  },
+  {
+    "word": "روب",
+    "displayWord": "روب",
+    "translation": "raub curdled milk, curds",
+    "examples": []
+  },
+  {
+    "word": "رائب",
+    "displayWord": "رائب",
+    "translation": "rā’ib curdled (milk)",
+    "examples": []
+  },
+  {
+    "word": "روب",
+    "displayWord": "روب",
+    "translation": "2 (Fr. robe) rōb pl. ارواب arwāb dressing gown",
+    "examples": []
+  },
+  {
+    "word": "روبابيكا",
+    "displayWord": "روبابيكا",
+    "translation": "(It. roba vecchia) rōbabēkiyā: بائع",
+    "examples": []
+  },
+  {
+    "word": "روبصة",
+    "displayWord": "روبصة",
+    "translation": "raubaṣa sleepwalking, somnambulism",
+    "examples": []
+  },
+  {
+    "word": "روبل",
+    "displayWord": "روبل",
+    "translation": "rūbel ruble",
+    "examples": []
+  },
+  {
+    "word": "روبية",
+    "displayWord": "روبية",
+    "translation": "rūbīya pl. -āt rupee",
+    "examples": []
+  },
+  {
+    "word": "روتانية",
+    "displayWord": "روتانية",
+    "translation": "rūtāniyā Ruthenia",
+    "examples": []
+  },
+  {
+    "word": "راث",
+    "displayWord": "راث",
+    "translation": "(روث ) rāta u (raut) to drop dung",
+    "examples": []
+  },
+  {
+    "word": "روث",
+    "displayWord": "روث",
+    "translation": "raut (coll.; n. un. ة) pl. ارواث arwāt dung, dropping (of horse, camel, and the like)",
+    "examples": []
+  },
+  {
+    "word": "راج",
+    "displayWord": "راج",
+    "translation": "( روج 1 ) rāja u ( رواج rawāj) to be spread, circulate, be current; to find a good market, sell well, be in demand (merchandise); to be or become brisk, pick up (market); to be at band, be available ( ل for s.o.) II to spread ( ھ rumors, news, etc.), circulate, put into circulation ( ھ s.th.; currency, rumors, news, etc.); to push the sale ( ھ of s.th.), open a market ( ھ for an article); to sell, bring on the market ( ھ an article); to promote, further ( ھ، ل s.th.); to make propaganda ( ل for), propagate ( ل s.th.)",
+    "examples": []
+  },
+  {
+    "word": "رواج",
+    "displayWord": "رواج",
+    "translation": "rawāj circulation; marketability, salability; sales",
+    "examples": []
+  },
+  {
+    "word": "رائح",
+    "displayWord": "رائح",
+    "translation": "rā’ij circulating, current; universal, widespread, common; salable, marketable, in demand, selling well (merchandise); brisk (business market)",
+    "examples": []
+  },
+  {
+    "word": "روج",
+    "displayWord": "روج",
+    "translation": "2 (Fr.) rūž rouge",
+    "examples": []
+  },
+  {
+    "word": "روح",
+    "displayWord": "روح",
+    "translation": ") and ريح) راح rāḥa u ( رواح rawāḥ) to go away, leave, go; (with foll. imperf.) to begin, set out to do II rawwaḥa to fan (air); to refresh, animate, revive ( ھ the heart, the spirits); -- rayyaḥa to give ( ه s.o.) rest, make ( ه s.o.) relax, make ( ه s.o.) comfortable, provide rest and recreation ( ه for s.o.); to rest ( ھ e.g., عينيه one’s eyes) │",
+    "examples": []
+  },
+  {
+    "word": "روح عن نفسه",
+    "displayWord": "روح عن نفسه",
+    "translation": "to find recreation, relax, amuse o.s. III to go in the evening ( ه to s.o.); to alternate, vary ( بين between two things) IV اروح arwaḥa to stink, smell bad; -- اراح arāḥa to give ( ه s.o.) rest, let (",
+    "examples": []
+  },
+  {
+    "word": "راح",
+    "displayWord": "راح",
+    "translation": "rāḥ wine",
+    "examples": []
+  },
+  {
+    "word": "ريح",
+    "displayWord": "ريح",
+    "translation": "rīḥ f. (occasionally m.) pl. رياح riyāḥ, ارواح arwāḥ, ارياح aryāḥ wind; fart; smell, odor │ ابو رياح abū r. weather vane; scarecrow; سكنت ريحه sakanat rīḥuhū to expire, become obsolete, fall into oblivion; ھبت ريحه habbat rīḥuhū 364 he was in clover, he was in luck’s way; ذھب",
+    "examples": []
+  },
+  {
+    "word": "ريح",
+    "displayWord": "ريح",
+    "translation": "rayyiḥ windy",
+    "examples": []
+  },
+  {
+    "word": "روح",
+    "displayWord": "روح",
+    "translation": "m. and f., pl. ارواح arwāḥ breath of life, soul; spirit (in all senses); gun barrel │ روح القدس r. al.quds (qudus), also الروح",
+    "examples": []
+  },
+  {
+    "word": "روحي",
+    "displayWord": "روحي",
+    "translation": "rūḥī spirituous; spiritual; pl. -āt spiritual things │ حالة روحية state (or frame) of mind; مشروبات روحية alcoholic beverages, spirits",
+    "examples": []
+  },
+  {
+    "word": "روح",
+    "displayWord": "روح",
+    "translation": "rauḥ refreshment",
+    "examples": []
+  },
+  {
+    "word": "روحة",
+    "displayWord": "روحة",
+    "translation": "rauḥa pl. -āt journey or errand in the evening",
+    "examples": []
+  },
+  {
+    "word": "راحة",
+    "displayWord": "راحة",
+    "translation": "rāḥa rest, repose; recreation; ease, leisure; vacation; comfort; (pl. -āt, راح rāḥ) palm of the hand, hand │ بالراحة leisurely, gently, slowly, at one’s ease; بكل",
+    "examples": []
+  },
+  {
+    "word": "راحة",
+    "displayWord": "راحة",
+    "translation": "unhurriedly, leisurely; easily, with ease; بيت الراحة bait ar-r. water closet, toilet; اسباب الراحة luxury; معدات الراحة mu‘iddāt ar-r. conveniences; فترة الراحة fatrat ar-r. pause, rest, break, recess; راحة",
+    "examples": []
+  },
+  {
+    "word": "ريحة",
+    "displayWord": "ريحة",
+    "translation": "rīḥa smell, odor",
+    "examples": []
+  },
+  {
+    "word": "روحية",
+    "displayWord": "روحية",
+    "translation": "rūḥīya spirituality; mentality, mental attitude, frame of mind",
+    "examples": []
+  },
+  {
+    "word": "رواح",
+    "displayWord": "رواح",
+    "translation": "rawāḥ departure; going, leaving; return, return trip (as opposed to ;(جيئة rest, repose │ في غدوه ورواحه (gudūwihī) (lit.: in his coming and going, i.e.) in everything he did",
+    "examples": []
+  },
+  {
+    "word": "رياح",
+    "displayWord": "رياح",
+    "translation": "rayyāḥ pl. -āt (eg.) large irrigation canal, main canal (in the Egyptian irrigation system)",
+    "examples": []
+  },
+  {
+    "word": "ريحان",
+    "displayWord": "ريحان",
+    "translation": "raiḥān (coll.) sweet basil (Ocimum basilicum; bot.); (pl. رياحين rayāḥīn2) aromatic plants │ قلم الريحان qalam ar-r. or القلم الريحاني (raiḥānī) a highly decorative style of Arabic calligraphy",
+    "examples": []
+  },
+  {
+    "word": "روحاني",
+    "displayWord": "روحاني",
+    "translation": "rūḥānī spiritual, immaterial; divine, sacred, holy; (pl. -ūn) clergyman, minister (Chr.)",
+    "examples": []
+  },
+  {
+    "word": "روحانية",
+    "displayWord": "روحانية",
+    "translation": "rūḥānīya spirituality; transfiguration",
+    "examples": []
+  },
+  {
+    "word": "رائح",
+    "displayWord": "رائح",
+    "translation": "rā’iḥ: رائح وغاد (gādin) going back and forth, walking up and down",
+    "examples": []
+  },
+  {
+    "word": "رائحة",
+    "displayWord": "رائحة",
+    "translation": "rā’iḥ pl. روائح rawā’iḥ2 odor, smell; fragrance, perfume; pl. روائح perfumes; flavorings (e.g., those used in baking)",
+    "examples": []
+  },
+  {
+    "word": "راد",
+    "displayWord": "راد",
+    "translation": "(رود 2 ) rāda u (raud) to walk about, move about, prowl; to look, search ( ھ for s.th.) in to seek to win ( على ه s.o. for s.th.), try to entice or tempt ( ه على s.o. to do s.th.); to approach, accost ( ه s.o.); to seek to alienate or lure away ( ه عن s.o. from); to attempt to seduce ( ھا a woman) │ راوده عن",
+    "examples": []
+  },
+  {
+    "word": "رود",
+    "displayWord": "رود",
+    "translation": "raud exploration",
+    "examples": []
+  },
+  {
+    "word": "ريادة",
+    "displayWord": "ريادة",
+    "translation": "riyāda exploration",
+    "examples": []
+  },
+  {
+    "word": "رويدا",
+    "displayWord": "رويدا",
+    "translation": "ruwaidan slowly, gently, leisurely │ رويدا رويدا gradually, slowly, by and by;",
+    "examples": []
+  },
+  {
+    "word": "رويدك",
+    "displayWord": "رويدك",
+    "translation": "ruwaidaka take it easy! slowly!",
+    "examples": []
+  },
+  {
+    "word": "رائد",
+    "displayWord": "رائد",
+    "translation": "rā’id pl. رواد ruwwād visitor; scout, reconnoiterer; boy scout; explorer; leader; major (mil.; U.A.R.); precept, guiding principle. rule (of conduct)",
+    "examples": []
+  },
+  {
+    "word": "رود",
+    "displayWord": "رود",
+    "translation": "2 see رؤد",
+    "examples": []
+  },
+  {
+    "word": "رودس",
+    "displayWord": "رودس",
+    "translation": "rudūs Rhodes (chief island of the Dodecanese)",
+    "examples": []
+  },
+  {
+    "word": "روديسيا",
+    "displayWord": "روديسيا",
+    "translation": "rōdīsiya Rhodesia",
+    "examples": []
+  },
+  {
+    "word": "راز",
+    "displayWord": "راز",
+    "translation": "(روز ) rāza u (rauz) to weigh ( ھ s.th.); to examine ( ھ s.th.); to consider ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "روزنامة",
+    "displayWord": "روزنامة",
+    "translation": "rūznāma almanac 1□ روس II (from رأس ) to point, sharpen ( ھ s.th.); to taper ( ھ s.th.); to supply with a heading or title ( ھ essay, book) □ ترويسة tarwīsa head, heading, title, caption",
+    "examples": []
+  },
+  {
+    "word": "روسي",
+    "displayWord": "روسي",
+    "translation": "rūsī Russian",
+    "examples": []
+  },
+  {
+    "word": "روسيا",
+    "displayWord": "روسيا",
+    "translation": "rūsiyā Russia │ روسيا البيضاء (baḍā’) Byelorussia",
+    "examples": []
+  },
+  {
+    "word": "روستو",
+    "displayWord": "روستو",
+    "translation": "(It. arrosto) rostō, لحم روستو (laḥm) fried meat; rout",
+    "examples": []
+  },
+  {
+    "word": "روشن",
+    "displayWord": "روشن",
+    "translation": "raušan pl. رواشن rawāšin2 skylight, scuttle",
+    "examples": []
+  },
+  {
+    "word": "راض",
+    "displayWord": "راض",
+    "translation": "(روض ) rāḍa u (rauḍ, رياضة riyāḍa) to tame, domesticate ( ھ an animal); to break in, train ( ھ an animal); to train, coach ( ه s.o.); to pacify, placate ( ه s.o.) │ راض نفسه to practice ( على s.th.), exercise o.s. ( على in) II = I; to tame, regulate ( ھ e.g., a river) III to seek to make tractable, try to bring round ( ه s.o.) V to practice, exercise o.s.; -- تريض tarayyaḍa (denominative of رياضة ) to (take a) walk, promenade; to do physical exercise, go in for sports VI to haggle, bargain (with one another, over a price) VIII to practice, exercise o.s.; to train o.s., school o.s. ( ب on or by means of); to (take a) walk, promenade X to be or become glad, happy, cheerful",
+    "examples": []
+  },
+  {
+    "word": "روضة",
+    "displayWord": "روضة",
+    "translation": "rauḍa pl. روض rauḍ, -āt, رياض riyāḍ, ريضان rīdān garden; meadow │",
+    "examples": []
+  },
+  {
+    "word": "روضة الأطفال",
+    "displayWord": "روضة الأطفال",
+    "translation": "(pl. رياض ) kindergarten, nursery school",
+    "examples": []
+  },
+  {
+    "word": "رياضة",
+    "displayWord": "رياضة",
+    "translation": "riyāḍa pl. -āt practice, exercise; physical exercise, gymnastics; sport; walk, promenade; relaxation, rest; spiritual exercise; رياضات religious exercises, devotions (Chr.); mathematics │ رياضة نفسه r. nafshī walking, promenading; الرياضة",
+    "examples": []
+  },
+  {
+    "word": "رياضة عقلية",
+    "displayWord": "رياضة عقلية",
+    "translation": "(‘aqlīya) exercise of wits, intellectual games",
+    "examples": []
+  },
+  {
+    "word": "رياضي",
+    "displayWord": "رياضي",
+    "translation": "riyāḍī sportive, sports (adj.); (pl. -ūn) sportsman; mathematic(al) │ اخبار",
+    "examples": []
+  },
+  {
+    "word": "رياضية",
+    "displayWord": "رياضية",
+    "translation": "sports news; مراسل رياضي (murāsil) sports reporter; الألعاب الرياضية sports",
+    "examples": []
+  },
+  {
+    "word": "رياضات",
+    "displayWord": "رياضات",
+    "translation": "riyāḍīyāt mathematics",
+    "examples": []
+  },
+  {
+    "word": "راع",
+    "displayWord": "راع",
+    "translation": "(روع ) rā‘a u (rau‘) to frighten, scare, alarm ه) s.o.); to startle, surprise ( ه s.o.); to awaken s.o.’s ( ه) admiration, appeal ( ه to s.o.), please, delight, thrill ( ه s.o.) │ ما",
+    "examples": []
+  },
+  {
+    "word": "راعني الا مجيؤك",
+    "displayWord": "راعني الا مجيؤك",
+    "translation": "(illā majī’uka) your arrival has been a complete surprise to me II and IV to frighten, scare, alarm, awe ( ه s.o.) V and VIII to be frightened, be alarmed ( من at, by)",
+    "examples": []
+  },
+  {
+    "word": "روع",
+    "displayWord": "روع",
+    "translation": "rau‘ fright, alarm, dismay, fear; -- rū‘ heart, mind, soul │ ھدئ روعك (haddi’) and سكن روعك (sakkin) take it easy! relax!",
+    "examples": []
+  },
+  {
+    "word": "روع",
+    "displayWord": "روع",
+    "translation": "rawa‘ beauty 367",
+    "examples": []
+  },
+  {
+    "word": "روعة",
+    "displayWord": "روعة",
+    "translation": "rau‘a fright, alarm, fear; awe; astonishment, surprise; perplexity; charm, beauty, magnificence, splendor",
+    "examples": []
+  },
+  {
+    "word": "رائع",
+    "displayWord": "رائع",
+    "translation": "splendid, admirable, wonderful, marvelous, glorious, magnificent; charming, delightful; awesome, imposing, impressive, thrilling; clear as daylight │ في",
+    "examples": []
+  },
+  {
+    "word": "رائعة النھار",
+    "displayWord": "رائعة النھار",
+    "translation": "fī r. in-nahār in broad daylight;",
+    "examples": []
+  },
+  {
+    "word": "رائعة",
+    "displayWord": "رائعة",
+    "translation": "rā’i‘a pl. روائع rawā’i‘ an imposing thing │ روائع الفن r. al-fan masterpieces of art",
+    "examples": []
+  },
+  {
+    "word": "راغ",
+    "displayWord": "راغ",
+    "translation": "(روغ ) rāga u (raug, روغان rawagān) to turn off, swerve; to dodge, evade ( عن، من s.o.), get out of the way of ( عن، من ); furtively to turn away; to go away ( الى to), depart, leave ( الى for) III to deal in an underhanded, fraudulent manner ( ه with s.o.), double-cross ( ه s.o.); to dodge, engage in low trickery, play fast and loose; to light with unfair means ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "رواغ",
+    "displayWord": "رواغ",
+    "translation": "rawāg dodge, shift, artifice, sly trick",
+    "examples": []
+  },
+  {
+    "word": "رواغ",
+    "displayWord": "رواغ",
+    "translation": "rawwāg sly, wily, insidious, crafty",
+    "examples": []
+  },
+  {
+    "word": "رويغة",
+    "displayWord": "رويغة",
+    "translation": "ruwaiga dodge, shift, artifice, sly trick",
+    "examples": []
+  },
+  {
+    "word": "روغان",
+    "displayWord": "روغان",
+    "translation": "rawagān turning off; swerving; dodging, evasion",
+    "examples": []
+  },
+  {
+    "word": "راق",
+    "displayWord": "راق",
+    "translation": "(روق ) rāqa u ( روق rauq) to be clear, be pore (liquid); to surpass, excel ( على s.o., s.th.), prove superior ( على to); to please, delight, ( ه or ل s.o., also في عينه fī ‘ainihī s.o.), give s.o. pleasure, appeal to s.o. (، ه",
+    "examples": []
+  },
+  {
+    "word": "راق",
+    "displayWord": "راق",
+    "translation": "rāq pl. -āt layer, stratum",
+    "examples": []
+  },
+  {
+    "word": "روق",
+    "displayWord": "روق",
+    "translation": "rauq pl. ارواق arwāq portico; horn",
+    "examples": []
+  },
+  {
+    "word": "روقة",
+    "displayWord": "روقة",
+    "translation": "rauqa beautiful, pretty, handsome (of persons; for both gender, sing. and pl.)",
+    "examples": []
+  },
+  {
+    "word": "رواق",
+    "displayWord": "رواق",
+    "translation": "riwāq, ruwāq pl. اروقة arwiqa tent; curtain, screen; flap of the tent for protection against the wind (used by Syrian Bedouins); sun roof of mate over a bazaar (syr.); portico; open gallery, colonnade, loggia; porch, veranda (syr.); pavilion of an exposition; living quarters, dormitories and workrooms of the students of Al Azhar University in Cairo, divided according to provinces and nationalities │ ضرب رواقه to pitch one’s tent, take up quarters, settle down",
+    "examples": []
+  },
+  {
+    "word": "رواقي",
+    "displayWord": "رواقي",
+    "translation": "riwāqī stoic(al); (pl. -ūn) a stoic; friar; الرواقية ar-riwāqīya Stoicism 368",
+    "examples": []
+  },
+  {
+    "word": "راووق",
+    "displayWord": "راووق",
+    "translation": "rāwūq filter",
+    "examples": []
+  },
+  {
+    "word": "رائق",
+    "displayWord": "رائق",
+    "translation": "rā’iq clear, pure",
+    "examples": []
+  },
+  {
+    "word": "رول",
+    "displayWord": "رول",
+    "translation": "1 II to slaver, slobber, drool",
+    "examples": []
+  },
+  {
+    "word": "روال",
+    "displayWord": "روال",
+    "translation": "ruwāl slaver, slobber",
+    "examples": []
+  },
+  {
+    "word": "رول",
+    "displayWord": "رول",
+    "translation": "2 (Fr. rôle) rōl role",
+    "examples": []
+  },
+  {
+    "word": "رام",
+    "displayWord": "رام",
+    "translation": "( روم 1 ) rāma u (raum, مرام marām) to desire, wish, want, covet ( ھ s.th.), crave (",
+    "examples": []
+  },
+  {
+    "word": "رام",
+    "displayWord": "رام",
+    "translation": "rāmallāh Ramallah (town in W Jordan, N of Jerusalem)",
+    "examples": []
+  },
+  {
+    "word": "روم",
+    "displayWord": "روم",
+    "translation": "raum wish, desire",
+    "examples": []
+  },
+  {
+    "word": "رومي",
+    "displayWord": "رومي",
+    "translation": "rūmī pl. اروام arwām Romaean, Byzantine; Greek Orthodox (Church) │",
+    "examples": []
+  },
+  {
+    "word": "روما",
+    "displayWord": "روما",
+    "translation": "rōmā and رومة rōma Rome",
+    "examples": []
+  },
+  {
+    "word": "رومية",
+    "displayWord": "رومية",
+    "translation": "rūmiya Rome",
+    "examples": []
+  },
+  {
+    "word": "روماني",
+    "displayWord": "روماني",
+    "translation": "rūmānī Roman; Romanian; Romanic",
+    "examples": []
+  },
+  {
+    "word": "رومانيا",
+    "displayWord": "رومانيا",
+    "translation": "rūmāniyā Romania",
+    "examples": []
+  },
+  {
+    "word": "روماتزم",
+    "displayWord": "روماتزم",
+    "translation": "(Engl.) rūmātism rheumatism",
+    "examples": []
+  },
+  {
+    "word": "روند",
+    "displayWord": "روند",
+    "translation": "riwand, راوند rāwad rhubarb",
+    "examples": []
+  },
+  {
+    "word": "رونق",
+    "displayWord": "رونق",
+    "translation": "see رنق",
+    "examples": []
+  },
+  {
+    "word": "روى",
+    "displayWord": "روى",
+    "translation": "1 rawiya a ( ري ray, riyy) to drink one’s fill, quench one’s thirst; to be irrigated; -- rawā i to bring ( على or ل s.o.) water, give (",
+    "examples": []
+  },
+  {
+    "word": "ري",
+    "displayWord": "ري",
+    "translation": "riyy quenching (of thirst); -- riyy, rayy watering, irrigation; moistening, wetting",
+    "examples": []
+  },
+  {
+    "word": "ريا",
+    "displayWord": "ريا",
+    "translation": "rayyan aroma, fragrance",
+    "examples": []
+  },
+  {
+    "word": "روي",
+    "displayWord": "روي",
+    "translation": "rawīy thirst-quenching",
+    "examples": []
+  },
+  {
+    "word": "روي",
+    "displayWord": "روي",
+    "translation": "rawīy final letter, rhyming letter (in Arabic verse); rhyme │ ذو روي واحد monotonous (song)",
+    "examples": []
+  },
+  {
+    "word": "رواء",
+    "displayWord": "رواء",
+    "translation": "rawā’ fresh (water)",
+    "examples": []
+  },
+  {
+    "word": "رواء",
+    "displayWord": "رواء",
+    "translation": "ruwā’ prettiness, comeliness pleasing appearance",
+    "examples": []
+  },
+  {
+    "word": "روية",
+    "displayWord": "روية",
+    "translation": "rawīya deliberation, reflection, consideration │ عن روية deliberately, on purpose, عن غير روية offhand, casually",
+    "examples": []
+  },
+  {
+    "word": "رواية",
+    "displayWord": "رواية",
+    "translation": "riwāya pl. -āt tale, narrative; report, account; story; novel; play, drama; motion picture, film │ رواية",
+    "examples": []
+  },
+  {
+    "word": "رواية ناطقة",
+    "displayWord": "رواية ناطقة",
+    "translation": "sound film; رواية ھزلية (hazlīya) comedy",
+    "examples": []
+  },
+  {
+    "word": "روائي",
+    "displayWord": "روائي",
+    "translation": "riwā’ī novelist; dramatist, playwright; author, writer",
+    "examples": []
+  },
+  {
+    "word": "ريان",
+    "displayWord": "ريان",
+    "translation": "rayyān2, f. ريا rayyā, pl. رواء riwā’ sated with drink; well-watered, wellirrigated; luxuriant, lush, verdant; full, plump (face); succulent, juicy, fresh, pretty; see also alphabetically",
+    "examples": []
+  },
+  {
+    "word": "راو",
+    "displayWord": "راو",
+    "translation": "rāwin pl. rāwiyūn, رواة ruwāh and",
+    "examples": []
+  },
+  {
+    "word": "راوية",
+    "displayWord": "راوية",
+    "translation": "rāwiya pl. روايا rawāyā transmitter (esp. of ancient Arabic poetry); relater; narrator, storyteller",
+    "examples": []
+  },
+  {
+    "word": "راية",
+    "displayWord": "راية",
+    "translation": "2 see راى",
+    "examples": []
+  },
+  {
+    "word": "رؤيا",
+    "displayWord": "رؤيا",
+    "translation": "3 see رأي",
+    "examples": []
+  },
+  {
+    "word": "ري، ريان، ريا",
+    "displayWord": "ري، ريان، ريا",
+    "translation": "1 see روى 2□ رية riyya = رئة ri’a (see (رء",
+    "examples": []
+  },
+  {
+    "word": "رياء",
+    "displayWord": "رياء",
+    "translation": "3 see رأى ﷼ riyāl pl. -āt riyal, a silver coin: in Eg. = 20 qirš šāg (piasters); in Ir. = 200 fals; ﷼",
+    "examples": []
+  },
+  {
+    "word": "ريان",
+    "displayWord": "ريان",
+    "translation": "Riyan (town and airport in S Hadhramaut, on Gulf of Aden)",
+    "examples": []
+  },
+  {
+    "word": "راب",
+    "displayWord": "راب",
+    "translation": "( ريب ) rāba i (raib) to disquiet, alarm, fill with suspicion or misgivings ( ه s.o., ھ about s.th.); to give pause (. ه to s.o.), make ه) s.o.) 8top and think ( ان that), make ( ه s.o.) uneasy; to cast a suspicion ( ه on s.o.), show ( ه s.o.) in a suspicious light; to doubt, question, suspect ( ه s.th.) IV to disquiet, alarm, startle, fill with suspicion or misgivings ( ه s.o.) V to have doubts or misgivings ( ب، في about), be suspicious ( ب or في of) VIII to be suspicious, smell a rat; to suspect, doubt, question ( ب or في s.o., s.th.), have doubts or misgivings ( ب or في about), wavervdoubtfully ( بين between) X to be invdoubt, be skeptical ( في about), be suspicious,vhave misgivings, entertain doubts",
+    "examples": []
+  },
+  {
+    "word": "ريب",
+    "displayWord": "ريب",
+    "translation": "raib doubt; suspicion; uncertainty │ بلا ريب (bilā) no doubt, undoubtedly, doubtless; لا ريب فيه (raib) there is no doubt about it; ريب المنون r. al-manūn unpredictable turn of fortune, threatening fate; misfortune",
+    "examples": []
+  },
+  {
+    "word": "ريبة",
+    "displayWord": "ريبة",
+    "translation": "rība pl. ريب riyab doubt, suspicion, misgiving",
+    "examples": []
+  },
+  {
+    "word": "راث",
+    "displayWord": "راث",
+    "translation": "( ريث ) rāta i (rait) to hesitate, delay, tarry V to hesitate, tarry, be tardy; to give ( ب or",
+    "examples": []
+  },
+  {
+    "word": "ريثما",
+    "displayWord": "ريثما",
+    "translation": "raitamā (conj.) as long as, while; when; until ريح, ريحة, رياح, ريحان, اريح, اريحية, ارياح, مرياح see",
+    "examples": []
+  },
+  {
+    "word": "روح",
+    "displayWord": "روح",
+    "translation": "٣٧٠",
+    "examples": []
+  },
+  {
+    "word": "ريخ",
+    "displayWord": "ريخ",
+    "translation": "(G.) raik Reich □ ريس rayyis (= رئيس ra’īs) mate (Eg. Naval rank) │ ريس ممتاز (mumtāz) a naval rank (approx.: petty officer 3rd class; Eg. 1939) □ رياسة riyāsa (= رئاسة ri’āsa) see رأس",
+    "examples": []
+  },
+  {
+    "word": "رياسي",
+    "displayWord": "رياسي",
+    "translation": "riyāsī presidential",
+    "examples": []
+  },
+  {
+    "word": "راش",
+    "displayWord": "راش",
+    "translation": "(ريش ) rāša i (raiš) to provide with feathers, feather ( ھ s.th.); to feather one’s nest, become wealthy II to provide with feathers, feather ( ھ s.th.); to fledge, grow feathers (bird) V to fledge (bird); to become wealthy",
+    "examples": []
+  },
+  {
+    "word": "ريش",
+    "displayWord": "ريش",
+    "translation": "rīš (coll.; n. un. ة) pl. رياش riyāš,",
+    "examples": []
+  },
+  {
+    "word": "ريشة",
+    "displayWord": "ريشة",
+    "translation": "rīša (n. un.) pl. -āt feather; quill; writing pen (also ريشة الكتابة ); brush (of a painter); plectrum; lancet; (eg.) reed (of certain wind instruments, e.g., of the oboe; mus.) │ وزن الريشة wazn ar-r. featherweight (athlet.)",
+    "examples": []
+  },
+  {
+    "word": "ريشي",
+    "displayWord": "ريشي",
+    "translation": "rīšī feather (adj.), feathery, feathered, plumed, pinnate",
+    "examples": []
+  },
+  {
+    "word": "رياش",
+    "displayWord": "رياش",
+    "translation": "riyāš household effects; furniture; equipment",
+    "examples": []
+  },
+  {
+    "word": "راع",
+    "displayWord": "راع",
+    "translation": "(ريع ) rā‘a i (rai‘, ريوع ruyū‘, رياع riyā‘,",
+    "examples": []
+  },
+  {
+    "word": "ريعان",
+    "displayWord": "ريعان",
+    "translation": "raya‘ān to increase, grow, flourish, thrive II to increase, augment ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "ريع",
+    "displayWord": "ريع",
+    "translation": "rai‘ pl. ريوع ruyū‘ yield; returns, proceeds, income (accruing from an estate), interest; profit share royalty; prime, choicest part │ ريع الشباب r. aššabāb the prime of youth",
+    "examples": []
+  },
+  {
+    "word": "ريعان",
+    "displayWord": "ريعان",
+    "translation": "rai‘ān prime, choicest part │ في",
+    "examples": []
+  },
+  {
+    "word": "ريعان الشباب",
+    "displayWord": "ريعان الشباب",
+    "translation": "fī r. iš-šabāb in the prime of youth; في ريعان النھار fī r. in-nahār in broad daylight",
+    "examples": []
+  },
+  {
+    "word": "رائعة",
+    "displayWord": "رائعة",
+    "translation": "rā’i‘a: في رائعة النھار fī r. in-nahār in broad daylight (see also (روع",
+    "examples": []
+  },
+  {
+    "word": "ريف",
+    "displayWord": "ريف",
+    "translation": "rīf pl. ارياف aryāf fertile, cultivated land; country (as opposed to city), countryside, rural الريف or ريف مصر Lower Egypt; seashore. seacoast; Er Rif (hilly coastal region of NE Morocco)",
+    "examples": []
+  },
+  {
+    "word": "ريفي",
+    "displayWord": "ريفي",
+    "translation": "rīfī rural, rustic, peasant (adj.), country (used attributively); peasant, farmer; provincial, yokel, bumpkin; inhabitant of Er Rif (in Morocco)",
+    "examples": []
+  },
+  {
+    "word": "راق",
+    "displayWord": "راق",
+    "translation": "(ريق ) rāqa i ( ريق raiq) to shine, glisten, glow, burn; to flow out, pour forth IV to pour out, shed, splll (see also (روق",
+    "examples": []
+  },
+  {
+    "word": "ريق",
+    "displayWord": "ريق",
+    "translation": "rīq and ريقة rīqa pl. ارياق aryāq saliva, spittle │ على الريق before break-fast, on an empty stomach; بلع ريقه and ابتلع (rīqahū) (lit.: to swallow one’s saliva, i.e.) to catch one’s breath, rest a while, take a short break; to hold back, restrain o.s. (of s.o. in a rage); بلعه ريقه (balla‘ahū rīqahū) to allow s.o. a break, let s.o. catch his breath; اجرى الريق (ajā) to make the saliva flow, i.e., to make the mouth water, stimulate the appetite; لايجف له ريق (yajiffu) be is untiring (in speaking), he talks incessantly",
+    "examples": []
+  },
+  {
+    "word": "ريق",
+    "displayWord": "ريق",
+    "translation": "rayyiq: في ريق الشباب r. iš-šabāb in the full bloom of youth",
+    "examples": []
+  },
+  {
+    "word": "رال",
+    "displayWord": "رال",
+    "translation": "(ريل 2 ) rāla i and II to slobber, slaver, drool",
+    "examples": []
+  },
+  {
+    "word": "رام",
+    "displayWord": "رام",
+    "translation": "( ريم 1 ) rāma i (raim) to go away, move, budge; to leave ( ھ a place) │ ما رام مكانه",
+    "examples": []
+  },
+  {
+    "word": "ريم",
+    "displayWord": "ريم",
+    "translation": "rīm (eg.) froth, foam",
+    "examples": []
+  },
+  {
+    "word": "ريم",
+    "displayWord": "ريم",
+    "translation": "2 rīm (= رئم ) addax, white antelope",
+    "examples": []
+  },
+  {
+    "word": "ران",
+    "displayWord": "ران",
+    "translation": "(رين 1 )rāna i to take possession ( على or ھ of s.th.), seize, overcome ( على، ب or ه s.o., said of passion); to descend or come upon s.th. ( على ); to reign, prevail ( على in, e.g., silence in a room)",
+    "examples": []
+  },
+  {
+    "word": "ريان",
+    "displayWord": "ريان",
+    "translation": "2 , f. ريا see روي",
+    "examples": []
+  },
+  {
+    "word": "ريان",
+    "displayWord": "ريان",
+    "translation": "3 look up alphabetically ز",
+    "examples": []
+  },
+  {
+    "word": "ريح زعزع",
+    "displayWord": "ريح زعزع",
+    "translation": "rīḥ za‘za‘ and ريح زعزعان (za‘za‘ān) violent gale, hurricane",
+    "examples": []
+  },
+  {
+    "word": "رسالة مسجلة",
+    "displayWord": "رسالة مسجلة",
+    "translation": "registered letter; مراسلات مسجلة (murāsalāt) registered mail; اطنان مسجلة register tons; حفلة مسجلة (ḥafla) concert of recorded music",
+    "examples": []
+  },
+  {
+    "word": "رملية ٤٤١",
+    "displayWord": "رملية ٤٤١",
+    "translation": "(ramlīya) hourglass; ساعة شمسية (šamsīya) sundial; ابن ساعته ibn sā‘atihī transitory, ephemeral",
+    "examples": []
+  },
+  {
+    "word": "روحھم اشد ما يكون تعطشا الى العلم",
+    "displayWord": "روحھم اشد ما يكون تعطشا الى العلم",
+    "translation": "(rūḥuhum, ta‘attušan, ‘ilm) they are extremely eager for knowledge",
+    "examples": []
+  },
+  {
+    "word": "رأيه",
+    "displayWord": "رأيه",
+    "translation": "(ra’yahū) to share s.o.’s opinion IV to make ( ه s.o.) a partner, participant, associate ( في in), give ( ه s.o.) a share ( في in), have ( ه s.o.) share ( في in); to tie s.th. (",
+    "examples": []
+  },
+  {
+    "word": "رحب الصدر؛ صدرا من الزمان",
+    "displayWord": "رحب الصدر؛ صدرا من الزمان",
+    "translation": "(zamān) quite a stretch of time, for some time; في الصدر in the foreground; سخم بصدره (sakkama) to irritate s.o., make s.o. angry; انشرح صدره inšaraḥa ṣadruhū to be gladdened, be pleased, be cheered, be happy, rejoice",
+    "examples": []
+  },
+  {
+    "word": "ريح صرصر",
+    "displayWord": "ريح صرصر",
+    "translation": "rīḥ ṣarṣar violent, cold wind, icy gale",
+    "examples": []
+  },
+  {
+    "word": "رد له الصاع صاعين",
+    "displayWord": "رد له الصاع صاعين",
+    "translation": "(radda, ṣā‘ain) or to pay s.o. back twofold, bring double retaliation on s.o.",
+    "examples": []
+  },
+  {
+    "word": "رادع",
+    "displayWord": "رادع",
+    "translation": "(gair) completely unrestrained, out of all control",
+    "examples": []
+  },
+  {
+    "word": "رأسه",
+    "displayWord": "رأسه",
+    "translation": "(ra’sahū) or برأسه to bow one’s head V to seek to gain access ( الى to); to penetrate ( الى s.th. or into s.th.) to get ( الى to), reach ( الى s.th.), arrive ( الى at); (in a speech, and the like) to touch ( الى on a subject), go into s.th. ( الى ), treat of s.th. (",
+    "examples": []
+  },
+  {
+    "word": "رأسه",
+    "displayWord": "رأسه",
+    "translation": "(ra’sahū) to chop off s.o.’s head, behead s.o. IV to make or let fly ( ھ، ه s.o., s.th.), to fly ( ھ s.th.): to blow away ( ھ s.th.; of the wind); to make ( ھ s.th.) disappear at once, dispel ( ھ s.th.) V to see an evil omen ( من or ب in) VI to be scattered, be dispersed, scatter, disperse, spread, diffuse; to be exuded, rise (fragrance); to fly apart, fly about, fly in all directions (esp. sparks); to vanish, disappear, be dispelled X to make fly, cause to fly ( ھ s.th.); to knock ( ھ s.th.) out of s.o.’s hand; to alarm or upset seriously (",
+    "examples": []
+  },
+  {
+    "word": "رياضية",
+    "displayWord": "رياضية",
+    "translation": "(riyāḍīya) sport plane; طيارة قذافة (qaddāfa) bomber; طيارة مائية seaplane",
+    "examples": []
+  },
+  {
+    "word": "رجع",
+    "displayWord": "رجع",
+    "translation": "(عاد) على عقبيه (‘aqibaihi) pl. رجعوا عادوا) على اعقابھم ) to retrace one’s steps, turn back; رده على عقبيه (raddahū) pl. ردھم",
+    "examples": []
+  },
+  {
+    "word": "رفع القربان على",
+    "displayWord": "رفع القربان على",
+    "translation": "or قدم القربان على (qaddama) to read Mass for s.o. (Chr.)",
+    "examples": []
+  },
+  {
+    "word": "رسامة قسوسية",
+    "displayWord": "رسامة قسوسية",
+    "translation": "risāma qusūsīya ordination (of a priest; Chr.)",
+    "examples": []
+  },
+  {
+    "word": "رسولي",
+    "displayWord": "رسولي",
+    "translation": "(rasūlī) (pl. قصاد quṣṣād) apostolic delegate",
+    "examples": []
+  },
+  {
+    "word": "روابط",
+    "displayWord": "روابط",
+    "translation": "without any reservation, without qualification; بلا قيد ولا شرط (šarṯ) without any reservation, without qualification; with no strings attached; unconditional; قلم",
+    "examples": []
+  },
+  {
+    "word": "رواية كشكشية",
+    "displayWord": "رواية كشكشية",
+    "translation": "riwāya kaškašīya burlesque, popular comedy",
+    "examples": []
+  },
+  {
+    "word": "رجال الكھنوت",
+    "displayWord": "رجال الكھنوت",
+    "translation": "the clergy, the ministry",
+    "examples": []
+  },
+  {
+    "word": "رسمي",
+    "displayWord": "رسمي",
+    "translation": "(rasmī) and لباس عسكري (‘askarī) uniform; لباس السھرة l. as-sahra evening gown, evening clothes, formal dress; لباس",
+    "examples": []
+  },
+  {
+    "word": "ربه",
+    "displayWord": "ربه",
+    "translation": "(nidaā’a rabbihī) to be called away by the Lord, pass away",
+    "examples": []
+  },
+  {
+    "word": "رجله بقدر كسائه",
+    "displayWord": "رجله بقدر كسائه",
+    "translation": "(rijlahū bi-qadri kisā’ihī) to cut one’s coat according to one’s cloth, make the beet of it, adjust o.s. to the circumstances; مد رجليه بقدر لحافه (rijlaihi bi-gadri likāfihī) do.; مد سمعه (sam‘ahū) to prick up one’s ears; مد المائدة to set the table; مد في المشي (mašy) to take long strides; مد المواسير to lay pipe; مد اليه يده (yadahū) to extend one’s hand to s.o. II to extend, distend, expand, dilate ( ھ s.th.); to stretch out ( ھ s.th.); to spread, spread out (",
+    "examples": []
+  },
+  {
+    "word": "رياضي",
+    "displayWord": "رياضي",
+    "translation": "(riyāḍī) athletic club; دار النادي clubhouse",
+    "examples": []
+  },
+  {
+    "word": "رئيس النيابة",
+    "displayWord": "رئيس النيابة",
+    "translation": "chief prosecutor; وكيل النيابة representative of the prosecution, prosecuting attorney; النيابات المالية (mālīya) the financial delegations (in Algeria)",
+    "examples": []
+  },
+  {
+    "word": "رجل واسع الحيلة",
+    "displayWord": "رجل واسع الحيلة",
+    "translation": "(rajul, ḥila) a resourceful, ingenious man; ثوب واسع (taub) wide or loose garment; سھل واسع (sahl) vast (sweeping) plain; شارع واسع broad street",
+    "examples": []
   }
 ]

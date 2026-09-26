@@ -1,98 +1,5420 @@
 [
   {
-    "word": "كتاب",
-    "displayWord": "كِتَاب",
-    "root": "كتب",
-    "translation": "book, scripture, writing, letter",
-    "examples": [
-      {
-        "ar": "الْكِتَابُ خَيْرُ جَلِيسٍ فِي الزَّمَانِ لِمَنْ يَبْحَثُ عَنِ الحِكْمَةِ.",
-        "en": "The book is the best companion in time for whoever seeks wisdom.",
-        "source": "Classical Proverb"
-      },
-      {
-        "ar": "ذَٰلِكَ الْكِتَابُ لَا رَيْبَ ۛ فِيهِ ۛ هُدًى لِّلْمُتَّقِينَ.",
-        "en": "This is the Book about which there is no doubt, a guidance for those conscious of God.",
-        "source": "Holy Quran"
-      }
-    ]
+    "word": "كبير الامناء",
+    "displayWord": "كبير الامناء",
+    "translation": "approx.: Chief Master of Ceremonies (ibid.); امين المخزن a. almaḳzan warehouse superintendent; stock clerk; امين سر الدولة a. sirr ad-daula and",
+    "examples": []
   },
   {
-    "word": "كلام",
-    "displayWord": "كَلَام",
-    "root": "كلم",
-    "translation": "speech, talk, words",
-    "examples": [
-      {
-        "ar": "خَيْرُ الكَلَامِ مَا قَلَّ وَدَلَّ وَلَمْ يُطِلْ فَيُمِلَّ.",
-        "en": "The best speech is that which is brief, clear, and not long-winded to cause boredom.",
-        "source": "Classical Rhetoric"
-      }
-    ]
+    "word": "كاتبة",
+    "displayWord": "كاتبة",
+    "translation": "typewriter; آلة لعب القمار a. la‘b alqimār slot machine; آلة موسيقية (mūsīqīya) musical instrument; آلة التنبيه alarm; siren horn (of an automobile); آلة صماء (ṣammā’) (fig.) tool, creature, puppet",
+    "examples": []
+  },
+  {
+    "word": "كان على بصيرة من",
+    "displayWord": "كان على بصيرة من",
+    "translation": "to have insight into s.th., be informed about s.th.; نافذ البصيرة discerning, clear-sighted, perspicacious, sharp-witted; نفاذ البصيرة nafād al.-b. sharp discernment, perspicacity",
+    "examples": []
+  },
+  {
+    "word": "كان باكورة اعماله",
+    "displayWord": "كان باكورة اعماله",
+    "translation": "the first thing he did was...",
+    "examples": []
+  },
+  {
+    "word": "كتاب",
+    "displayWord": "كتاب",
+    "translation": "to send letter after letter",
+    "examples": []
+  },
+  {
+    "word": "كاھله",
+    "displayWord": "كاھله",
+    "translation": "and اثقل كاھله (kāhilahū) to burden s.o. or s.th; اثقل كاھل الميزان to burden the budget IV to burden ( ھ, ه s.o., s.th.); to oppress, distress ( ه s.o.). weigh heavily ( ه on); to be hard to bear ( ه for s.o.)│ اثقل كاھله (kāhilahū) see II; VI to become or be heavy; to be troublesome, burdensome (",
+    "examples": []
+  },
+  {
+    "word": "كل صوب وحدب",
+    "displayWord": "كل صوب وحدب",
+    "translation": "from all sides, from all directions, from everywhere; في كل صوب",
+    "examples": []
+  },
+  {
+    "word": "كھربائي",
+    "displayWord": "كھربائي",
+    "translation": "(kahrabā’ī) electrolysis; التحليل",
+    "examples": []
+  },
+  {
+    "word": "كأمس الدابر",
+    "displayWord": "كأمس الدابر",
+    "translation": "(ka-amsi d-dābir) to vanish into thin air, disappear without leaving a trace (lit.: like yesterday gone by); ذھب ببھائه (bibahā’ihi) to take the glamor away from s.th.; ذھب بنفسه (bi-nafsihī) to kill s.o. (joy, terror, etc.); ذھب بخياله (bi-kayālihī) to let one’s imagination wander ( الى to); ذھب",
+    "examples": []
+  },
+  {
+    "word": "كان منه بالمرصاد",
+    "displayWord": "كان منه بالمرصاد",
+    "translation": "and وقف له بالمرصاد to lie in ambush for s.o., waylay s.o.",
+    "examples": []
+  },
+  {
+    "word": "كرسي مريح",
+    "displayWord": "كرسي مريح",
+    "translation": "(kursī) armchair; club chair, easy chair",
+    "examples": []
+  },
+  {
+    "word": "كرة السلة",
+    "displayWord": "كرة السلة",
+    "translation": "kurat as-s. basketball",
+    "examples": []
+  },
+  {
+    "word": "كان اكبر شاغل له",
+    "displayWord": "كان اكبر شاغل له",
+    "translation": "(akbara šāgilin) it was his greatest worry",
+    "examples": []
+  },
+  {
+    "word": "كھربائي يدوي",
+    "displayWord": "كھربائي يدوي",
+    "translation": "(yadawī) electric flashlight",
+    "examples": []
+  },
+  {
+    "word": "كل شيء",
+    "displayWord": "كل شيء",
+    "translation": "without any possessions at all, completely destitute",
+    "examples": []
+  },
+  {
+    "word": "كانت له الصفقة الخاسرة",
+    "displayWord": "كانت له الصفقة الخاسرة",
+    "translation": "do.",
+    "examples": []
+  },
+  {
+    "word": "كل حدب وصوب",
+    "displayWord": "كل حدب وصوب",
+    "translation": "(ḥadabin) or من كل صوب",
+    "examples": []
+  },
+  {
+    "word": "كيميائية",
+    "displayWord": "كيميائية",
+    "translation": "(kīmiyā’īya) chemically, by chemical means; في صورة ما اذا in case that ..., if; في صورة مصغرة (muṣaggara) on a reduced scale, in miniature",
+    "examples": []
+  },
+  {
+    "word": "كان له ضلع في الأمر",
+    "displayWord": "كان له ضلع في الأمر",
+    "translation": "he had s.th. to do with the matter, he had a hand in it, he played a role in the affair",
+    "examples": []
+  },
+  {
+    "word": "كارتداد الطرف",
+    "displayWord": "كارتداد الطرف",
+    "translation": "ka-rtidādi ṭ-ṭ. in the twinkling of an eye, instantly",
+    "examples": []
+  },
+  {
+    "word": "كانوا على طرفي النقيض",
+    "displayWord": "كانوا على طرفي النقيض",
+    "translation": "(ṭarafai naqīḍ) they were at variance, they carried on a feud;",
+    "examples": []
+  },
+  {
+    "word": "كان واياه على طرفي نقيض",
+    "displayWord": "كان واياه على طرفي نقيض",
+    "translation": "(wa-iyyāhu) they held diametrically opposed views or positions; اطراف البدن a. al-badan the extremities of the bod, the limbs; اطراف",
+    "examples": []
+  },
+  {
+    "word": "كان على العكس من",
+    "displayWord": "كان على العكس من",
+    "translation": "to be in contrast to, be in opposition to; بالعكس on the contrary, conversely; والعكس بالعكس and vice versa;",
+    "examples": []
+  },
+  {
+    "word": "كان على الباطل",
+    "displayWord": "كان على الباطل",
+    "translation": "or كان على خطأ (kaṭa’in) to be on the wrong way, be wrong, be mistaken;",
+    "examples": []
+  },
+  {
+    "word": "كتب الاعتماد",
+    "displayWord": "كتب الاعتماد",
+    "translation": "kutub al-i‘t. or اوراق",
+    "examples": []
+  },
+  {
+    "word": "كانت عليه",
+    "displayWord": "كانت عليه",
+    "translation": "restoration of the status quo ante;",
+    "examples": []
+  },
+  {
+    "word": "كذبا على",
+    "displayWord": "كذبا على",
+    "translation": "(kidban kidban a lie against); to falsify, forge ( ھ s.th., e.g., a handwriting); to invent ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "كان عندي في مقام والدي",
+    "displayWord": "كان عندي في مقام والدي",
+    "translation": "; 1936 (m. wālidī) he assumed the responsibility of fatherhood for me; cf. also muqām and under ق م",
+    "examples": []
+  },
+  {
+    "word": "كيلومترات",
+    "displayWord": "كيلومترات",
+    "translation": "at a distance of 1o km; عن قيد",
+    "examples": []
+  },
+  {
+    "word": "ك",
+    "displayWord": "ك",
+    "translation": "ka (with foll. genit.) as, like; all but, as good as; as, in my (your, etc.) capacity of │",
+    "examples": []
+  },
+  {
+    "word": "كالأول",
+    "displayWord": "كالأول",
+    "translation": "ka-l-awwali as before, as at the beginning, as from the outset; كھذا ka-hādā such, e.g., رجل كھذا rajulun kahādā such a man, a man like this; ھم كالمجمعين على ذلك (ka-l-mujmi‘īna) they are as good as unanimous about it, they are 806 practically agreed on it; انا كمسلم anā kamuslimin I (in my capacity) as a Muslim",
+    "examples": []
+  },
+  {
+    "word": "كأن",
+    "displayWord": "كأن",
+    "translation": "ka-anna (conj. introducing a nominal clause) as if, as though; it is (was) as if │ كأني بھا ka-annī bihā (with imperf.) it is like seeing her before me; I am under the impression that she …, it looks to me as if she ...",
+    "examples": []
+  },
+  {
+    "word": "كذا",
+    "displayWord": "كذا",
+    "translation": "ka-dā so, thus, that way; so and so, such and such, so-and-so much, so-and-so many │ كذا مكذا so and so, such and such, so-and-so much, so-and-so many; وكذا",
+    "examples": []
+  },
+  {
+    "word": "كذلك",
+    "displayWord": "كذلك",
+    "translation": "ka-dālika so, like this, thus; equally; likewise",
+    "examples": []
+  },
+  {
+    "word": "كما",
+    "displayWord": "كما",
+    "translation": "ka-mā (conj. introducing a verbal clause) as, just as, as also, as on the other hand; (introducing a main clause) equally, likewise, as well │ كما ان ka-mā anna (introducing a nominal clause) as, just as quite as, as also, as on the other hand; كما",
+    "examples": []
+  },
+  {
+    "word": "كئب",
+    "displayWord": "كئب",
+    "translation": "ka’iba a ( كأب ka’b, كأبة ka’ba, كآبة ka’āba) to be dejected, dispirited, downcast, sad (",
+    "examples": []
+  },
+  {
+    "word": "كأب",
+    "displayWord": "كأب",
+    "translation": "ka’b, كأبة ka’ba, كآبة ka’āba and",
+    "examples": []
+  },
+  {
+    "word": "كئب",
+    "displayWord": "كئب",
+    "translation": "ka’ib and كئيب ka’īb sad, dispirited, dejected, downcast, depressed, melancholy; gloomy, morose; grave",
+    "examples": []
+  },
+  {
+    "word": "كابل",
+    "displayWord": "كابل",
+    "translation": "1 (Fr. cable) kabil cable",
+    "examples": []
+  },
+  {
+    "word": "كابل",
+    "displayWord": "كابل",
+    "translation": "2 kābul2 Kabul (capital of Afghanistan)",
+    "examples": []
+  },
+  {
+    "word": "كابين",
+    "displayWord": "كابين",
+    "translation": "(Fr. cabine) kābīn pl. كبائن kabā’in كباين , 2 kabāyin2 cabin",
+    "examples": []
+  },
+  {
+    "word": "كاتدرائية",
+    "displayWord": "كاتدرائية",
+    "translation": "kātidrā’īya cathedral",
+    "examples": []
+  },
+  {
+    "word": "كاثوليكي",
+    "displayWord": "كاثوليكي",
+    "translation": "kātūlīkī Catholic; a Catholic; see also كثلك",
+    "examples": []
+  },
+  {
+    "word": "كاخية",
+    "displayWord": "كاخية",
+    "translation": "kākiya pl. كواخ kawākin butler, steward",
+    "examples": []
+  },
+  {
+    "word": "كاد",
+    "displayWord": "كاد",
+    "translation": "1 kād anacardium (bot.) │ كاد ھندي (hindī) cashew tree (Anacardium occidentale; bot.)",
+    "examples": []
+  },
+  {
+    "word": "كأد",
+    "displayWord": "كأد",
+    "translation": "2 ka’ada a to be sad, distressed, worried",
+    "examples": []
+  },
+  {
+    "word": "كأداء",
+    "displayWord": "كأداء",
+    "translation": "ka’dā’2 sadness, sorrow, distress, grief; fear; dark night │ عقبة كأداء (‘aqaba) insurmountable obstacle",
+    "examples": []
+  },
+  {
+    "word": "كؤود",
+    "displayWord": "كؤود",
+    "translation": "ka’ūd: عقبة كؤود (‘aqaba) insurmountable obstacle",
+    "examples": []
+  },
+  {
+    "word": "كادر",
+    "displayWord": "كادر",
+    "translation": "(Fr. cadre) kādir cadre (of a military unit, of a governmental agency, of a corporation, etc.), skeleton organization, skeleton unit, skeleton crew (of a naval unit)",
+    "examples": []
+  },
+  {
+    "word": "كادميوم",
+    "displayWord": "كادميوم",
+    "translation": "kadmiyom cadmium",
+    "examples": []
+  },
+  {
+    "word": "كار",
+    "displayWord": "كار",
+    "translation": "kār pl. -āt work, job, occupation, business; calling, vocation, profession, trade │ ابن كار ibn k. (eg.) artisan, craftsman; ارباب الكارات artisans, craftsmen;",
+    "examples": []
+  },
+  {
+    "word": "كارتون",
+    "displayWord": "كارتون",
+    "translation": "kartōn cardboard, pasteboard; (pl. -āt) carton",
+    "examples": []
+  },
+  {
+    "word": "كاردينال",
+    "displayWord": "كاردينال",
+    "translation": "kardīnāl pl. كرادلة karādila cardinal",
+    "examples": []
+  },
+  {
+    "word": "كارى",
+    "displayWord": "كارى",
+    "translation": "= كرى karrī curry",
+    "examples": []
+  },
+  {
+    "word": "كاريكاتورية",
+    "displayWord": "كاريكاتورية",
+    "translation": "karīkātūrīya caricature, cartoon",
+    "examples": []
+  },
+  {
+    "word": "كاز",
+    "displayWord": "كاز",
+    "translation": "= غاز gāz gas",
+    "examples": []
+  },
+  {
+    "word": "كازينو",
+    "displayWord": "كازينو",
+    "translation": "kāzīnō pl. كازينوھات kāzīnōhāt casino",
+    "examples": []
+  },
+  {
+    "word": "كأس",
+    "displayWord": "كأس",
+    "translation": "ka’s f., pl. كؤوس ku’ūs, كئاس ki’ās, كأسات ka’sāt cup; drinking glass, tumbler; goblet; chalice, calix; calyx (bot.)",
+    "examples": []
+  },
+  {
+    "word": "كساتا",
+    "displayWord": "كساتا",
+    "translation": "kāsātā cassata (Italian ice cream)",
+    "examples": []
+  },
+  {
+    "word": "كاغط",
+    "displayWord": "كاغط",
+    "translation": "kāgiṭ (mor.) paper",
+    "examples": []
+  },
+  {
+    "word": "كاف",
+    "displayWord": "كاف",
+    "translation": "kāf name of the letter ك",
+    "examples": []
+  },
+  {
+    "word": "كافور",
+    "displayWord": "كافور",
+    "translation": "kāfūr camphor, camphor tree; (eg.) blue gum (Eucalyptus globulus Lab.; bot.)",
+    "examples": []
+  },
+  {
+    "word": "كاكنج",
+    "displayWord": "كاكنج",
+    "translation": "kākinj, kākanj alkekengi, ground cherry (Physalis alkekengi; bot.)",
+    "examples": []
+  },
+  {
+    "word": "كالو",
+    "displayWord": "كالو",
+    "translation": "(It. callo) kallō pl. كالوھات corn (on the toes)",
+    "examples": []
+  },
+  {
+    "word": "كالون",
+    "displayWord": "كالون",
+    "translation": "gālōn gallon; -- (eg.) kālūn and كيلون kailūn pl. كوالين kawālīn2 lock (of a door)",
+    "examples": []
+  },
+  {
+    "word": "كواليني",
+    "displayWord": "كواليني",
+    "translation": "kawālīnī pl. -ya locksmith",
+    "examples": []
+  },
+  {
+    "word": "كامبوديا",
+    "displayWord": "كامبوديا",
+    "translation": "kambōdiyā Cambodia",
+    "examples": []
+  },
+  {
+    "word": "كامبيو",
+    "displayWord": "كامبيو",
+    "translation": "(It. cambio) kombiyō rate of exchange",
+    "examples": []
+  },
+  {
+    "word": "كامخ",
+    "displayWord": "كامخ",
+    "translation": "kāmak, kāmik pl. كوامخ kawāmik2 vinegar sauce, pickle; (mixed) pickles",
+    "examples": []
+  },
+  {
+    "word": "كاميرا",
+    "displayWord": "كاميرا",
+    "translation": "kāmērā camera",
+    "examples": []
+  },
+  {
+    "word": "كاميه",
+    "displayWord": "كاميه",
+    "translation": "kāmīh cameo (precious stone)",
+    "examples": []
+  },
+  {
+    "word": "كانتين",
+    "displayWord": "كانتين",
+    "translation": "kantīn post exchange, canteen",
+    "examples": []
+  },
+  {
+    "word": "كاھية",
+    "displayWord": "كاھية",
+    "translation": "kāhiya pl. كواه kawāhin chief officer of a",
+    "examples": []
+  },
+  {
+    "word": "كھاية",
+    "displayWord": "كھاية",
+    "translation": "kihāya (Tun.); deputy, vice-, under-, sub- (Tun.)",
+    "examples": []
+  },
+  {
+    "word": "كاوتشق",
+    "displayWord": "كاوتشق",
+    "translation": "kautšuq rubber, caoutchouc",
+    "examples": []
+  },
+  {
+    "word": "كب",
+    "displayWord": "كب",
+    "translation": "kabba u (kabb) to prostrate, throw prostrate لوجھه) li-wajhihī or على وجھه ه s.o.); to overturn, overthrow, topple, upset, capsize, turn upside down, revert, invert (",
+    "examples": []
+  },
+  {
+    "word": "كب",
+    "displayWord": "كب",
+    "translation": "kabb prostration; overthrow, overturn, reversal; bending, tilting, inclination",
+    "examples": []
+  },
+  {
+    "word": "كبة",
+    "displayWord": "كبة",
+    "translation": "kubba pl. كبب kubab ball; clew, hank; ball of thread, hank of yarn; (syr., ir.) a kind of meatballs made of bulgur, onions, minced meat and piñons; (eg.) bubo, plague boil",
+    "examples": []
+  },
+  {
+    "word": "كباب",
+    "displayWord": "كباب",
+    "translation": "kabāb fried or broiled meat; cabobs, meat roasted in small pieces on a skewer; a kind of meatballs made of finely chopped meat (syr., eg.) │ كباب صيني (ṣīnī; eg.) cubeb (Piper cubeba Tr.; bot.)",
+    "examples": []
+  },
+  {
+    "word": "كبابة",
+    "displayWord": "كبابة",
+    "translation": "kabāba, kubāba cubeb (Piper cubeba; bot.)",
+    "examples": []
+  },
+  {
+    "word": "كبيبة",
+    "displayWord": "كبيبة",
+    "translation": "(eg.) kubēba a kind of meatballs, hamburgers │ كبيبة بطاطس (eg.) baked potato dough stuffed with minced meat, meat patties □ كباية kubbāya pl. -āt drinking glass, tumbler 808",
+    "examples": []
+  },
+  {
+    "word": "كباريه",
+    "displayWord": "كباريه",
+    "translation": "(Fr. cabaret) kabārēh pl. -āt cabaret",
+    "examples": []
+  },
+  {
+    "word": "كبت",
+    "displayWord": "كبت",
+    "translation": "1 kabata i (kabt) to put down, crush, suppress, repress, stifle, subdue, restrain, curb ( ھ s.th.) │ كبت غيظه في جوفه (gaiẓahū fī jaufihī) to suppress one’s anger; كبت",
+    "examples": []
+  },
+  {
+    "word": "كبت",
+    "displayWord": "كبت",
+    "translation": "kabt suppression, repression",
+    "examples": []
+  },
+  {
+    "word": "كبوت",
+    "displayWord": "كبوت",
+    "translation": "2 kabbūt pl. كبابيت kabābīt2 hood, cowl; hooded mantle; top of a carriage or automobile",
+    "examples": []
+  },
+  {
+    "word": "كبتولة",
+    "displayWord": "كبتولة",
+    "translation": "kabtūla lump, chunk; ball; pellet",
+    "examples": []
+  },
+  {
+    "word": "كبتن",
+    "displayWord": "كبتن",
+    "translation": "(Engl.) kabtan captain (military rank)",
+    "examples": []
+  },
+  {
+    "word": "كبح",
+    "displayWord": "كبح",
+    "translation": "kabaḥa a (kabḥ) to rein in ( ھ a horse); to check, curb, control ( ھ s.th.); to hamper, hinder, prevent, detain, restrain, hold back",
+    "examples": []
+  },
+  {
+    "word": "كبح",
+    "displayWord": "كبح",
+    "translation": "kabḥ curbing, checking, subdual, restraint, control; suppression, repression; hindering, prevention O مكبح mikbaḥ brake (of an automobile)",
+    "examples": []
+  },
+  {
+    "word": "كبد",
+    "displayWord": "كبد",
+    "translation": "kabada u i (kabd) to affect severely, afflict gravely, wear out, wear down ( ه s.o.; of pain, losses, etc.) II to cause ( ھ ه to s.o. s.th., esp. losses), inflict ( ھ ه upon s.o. s.th., esp. losses); to culminate, pass through the meridian (star); to reach its climax III to bear, suffer, endure, undergo, sustain, stand ( ھ s.th.) V to bear, suffer, endure, undergo, sustain, stand ( ھ losses, hardships, etc.); to have to take upon o.s. (",
+    "examples": []
+  },
+  {
+    "word": "كبد",
+    "displayWord": "كبد",
+    "translation": "kabid, kabd, kibd m. and f., pl. اكباد akbād, كبود kubūd liver; interior, heart; middle, center; -- kabid, kabad center of the sky, zenith",
+    "examples": []
+  },
+  {
+    "word": "كباد",
+    "displayWord": "كباد",
+    "translation": "kubād liver ailment",
+    "examples": []
+  },
+  {
+    "word": "كباد",
+    "displayWord": "كباد",
+    "translation": "kabbād, kubbād name of several citrus plants (Citrus medica Risso, Citrus Bigaradia Duh., also Zollikoferia spinosa B.; eg.); kabbād (syr.) citron (Citrus medica)",
+    "examples": []
+  },
+  {
+    "word": "كبر",
+    "displayWord": "كبر",
+    "translation": "1 kabara u (kabr) to exceed in age ( ب ه s.o. by), be older ( ه than s.o., ب so-and-so much); -- kabura u (kubr, kibar, كبارة kabāra) to be or become great, big, large; to grow, increase, augment, become greater, bigger or larger; to become famous, gain significance, become important; to become too great, too big, toe large ( عن for s.th.); to disdain ( عن s.th.); to become toe oppressive, too painful, too distressing, too burdensome; to appear intolerable ( الى to s.o.); to become too difficult, too hard ( الى for s.o.), appear insurmountable ( الى to s.o.) II to make great(er), big(ger), large(r), enlarge, magnify, enhance, aggrandize ( ھ s.th.); to extend, expand, widen, amplify (",
+    "examples": []
+  },
+  {
+    "word": "كبر",
+    "displayWord": "كبر",
+    "translation": "kibr bigness, largeness, magnitude; greatness, eminence, grandeur; significance, importance; standing, prestige; nobility; pride, haughtiness, presumption, arrogance",
+    "examples": []
+  },
+  {
+    "word": "كبر",
+    "displayWord": "كبر",
+    "translation": "kubr greatness, eminence, grandeur; bigness, largeness, magnitude; size, bulk, extent, expanse; power, might; glory, fame, renown, standing, prestige; nobility; main part, bulk",
+    "examples": []
+  },
+  {
+    "word": "كبر",
+    "displayWord": "كبر",
+    "translation": "kibar bigness, largeness, magnitude; greatness, eminence, grandeur; old age",
+    "examples": []
+  },
+  {
+    "word": "كبرة",
+    "displayWord": "كبرة",
+    "translation": "kabra old age",
+    "examples": []
+  },
+  {
+    "word": "كبير",
+    "displayWord": "كبير",
+    "translation": "kabīr pl. كبار kibār, كبراء kubarā’2 great, big, large, sizable; bulky, voluminous, spacious; extensive, comprehensive; significant, considerable, formidable, huge, vast, enormous; powerful, influential, distinguished, eminent; important; old │ كبير امراء البحار k. umara’ al-b. Admiral of the Fleet (Eg.);",
+    "examples": []
+  },
+  {
+    "word": "كبيرة الخدم",
+    "displayWord": "كبيرة الخدم",
+    "translation": "k. al-kadam female head of the houaehold staff; كبير الأساقفة k. al-asāqifa archbishop; كبير السن k. as-sinn old; كبير",
+    "examples": []
+  },
+  {
+    "word": "كبيرة",
+    "displayWord": "كبيرة",
+    "translation": "kabīra pl. -āt, كبائر kabā’ir كبر , 2 kubur great sin, grave offense, Atrocious crime",
+    "examples": []
+  },
+  {
+    "word": "كبار",
+    "displayWord": "كبار",
+    "translation": "kubār, kubbār very great, very big, huge",
+    "examples": []
+  },
+  {
+    "word": "كبرياء",
+    "displayWord": "كبرياء",
+    "translation": "kibriyā’ grandeur, glory, magnificence, majesty; pride, haughtiness, presumption, arrogance",
+    "examples": []
+  },
+  {
+    "word": "كبر",
+    "displayWord": "كبر",
+    "translation": "2 kabar capers; caper shrub",
+    "examples": []
+  },
+  {
+    "word": "كبرت",
+    "displayWord": "كبرت",
+    "translation": "kabrata to coat with sulfur ( ھ s.th.); to sulfurize, sulfurate ( ھ s.th.); to vulcanize (",
+    "examples": []
+  },
+  {
+    "word": "كبريت",
+    "displayWord": "كبريت",
+    "translation": "kibrīt sulfur; matches │ عود كبريت ‘ūd k. matches, a match",
+    "examples": []
+  },
+  {
+    "word": "كبريتة",
+    "displayWord": "كبريتة",
+    "translation": "kibrīta match, matchstick",
+    "examples": []
+  },
+  {
+    "word": "كبريتي",
+    "displayWord": "كبريتي",
+    "translation": "kibrītī sulfureous, sulfurate, sulfurous, sulfuric │ حمام كبريتي (ḥammām) sulfur bath; ينبوع كبريتي (yanbū‘) sulfur spring",
+    "examples": []
+  },
+  {
+    "word": "كبريتات",
+    "displayWord": "كبريتات",
+    "translation": "kibrītāt sulfate",
+    "examples": []
+  },
+  {
+    "word": "كبري",
+    "displayWord": "كبري",
+    "translation": "kubrī or كوبري (from Turk. köprü) pl.",
+    "examples": []
+  },
+  {
+    "word": "كباري",
+    "displayWord": "كباري",
+    "translation": "kabārī bridge; deck",
+    "examples": []
+  },
+  {
+    "word": "كبس",
+    "displayWord": "كبس",
+    "translation": "kabasa i (kabs) to exert pressure ( على on), press ( على s.th. or on s.th.), squeeze ( على s.th.); to attack, raid, take by surprise ( ھ a place); to intercalate ( السنة بيوم as-sanata bi-yaumin a day in a leap year); to preserve (in vinegar, or the like), pickle ( ھ s.th.); to marinate ( ھ s.th.); to conserve ( ھ s.th.) II to press or squeeze hard ( ھ s.th.); to massage ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "كبس",
+    "displayWord": "كبس",
+    "translation": "kabs pressure, squeeze, pressing; raid, attack; preservation (esp. in vinegar), pickling; intercalation (of a day; astron.)",
+    "examples": []
+  },
+  {
+    "word": "كبس",
+    "displayWord": "كبس",
+    "translation": "kabsa (n. vic.) raid, surprise attack",
+    "examples": []
+  },
+  {
+    "word": "كباس",
+    "displayWord": "كباس",
+    "translation": "kabbas piston; press; ramrod │ O",
+    "examples": []
+  },
+  {
+    "word": "كبيس",
+    "displayWord": "كبيس",
+    "translation": "kabīs preserved (esp. in vinegar), pickled; pickled food, preserves; intercalary, intercalated, interpolated │ سنة",
+    "examples": []
+  },
+  {
+    "word": "كبيسة",
+    "displayWord": "كبيسة",
+    "translation": "(sana) leap year",
+    "examples": []
+  },
+  {
+    "word": "كابوس",
+    "displayWord": "كابوس",
+    "translation": "kābūs pl. كوابيس kawābīs2 nightmare, incubus; terrible vision, phantom, bugbear",
+    "examples": []
+  },
+  {
+    "word": "كبس",
+    "displayWord": "كبس",
+    "translation": "mikbas pl. مكابس makābis2 or مكباس mikbās pl. مكابيس makābīs2 press; piston (of a pump); ramrod │ مكبس القطن m. alquṭn cotton press; O مكبس الخطابات letter press, copying press; O مكبس مائي (mā’ī) hydraulic press",
+    "examples": []
+  },
+  {
+    "word": "كبسول",
+    "displayWord": "كبسول",
+    "translation": "kabsūl or كبسولة kabsūla capsule; percussion cap, primer, detonator; snap fastener",
+    "examples": []
+  },
+  {
+    "word": "كبش",
+    "displayWord": "كبش",
+    "translation": "kabaša u (kabš) to take a handful ( ھ of s.th.); to grasp with the hand, clench ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "كبش",
+    "displayWord": "كبش",
+    "translation": "kabš pl. كباش kibāš, اكباش akbāš ram, male sheep; bellwether; chieftain, chief, head, leader; battering-ram; pile driver; rammer; (pl. كبوش kubūš)buttress, pier, stay, prop, support; mulberry │ كبش",
+    "examples": []
+  },
+  {
+    "word": "كبشة",
+    "displayWord": "كبشة",
+    "translation": "kabša a handful; grasp, grip",
+    "examples": []
+  },
+  {
+    "word": "كبشة",
+    "displayWord": "كبشة",
+    "translation": "kabša ladle, scoop",
+    "examples": []
+  },
+  {
+    "word": "كبشة",
+    "displayWord": "كبشة",
+    "translation": "kubša pl. كبش kubaš hook, clamp, cramp, brace; clasp, brooch 811",
+    "examples": []
+  },
+  {
+    "word": "كبكب",
+    "displayWord": "كبكب",
+    "translation": "kabkaba to topple, upset, capsize, overturn, turn upside down, revert, invert (",
+    "examples": []
+  },
+  {
+    "word": "كبيكج",
+    "displayWord": "كبيكج",
+    "translation": "kabīkaj Asiatic crowfoot (Ranunculus Asiaticus; bot.)",
+    "examples": []
+  },
+  {
+    "word": "كبل",
+    "displayWord": "كبل",
+    "translation": "1 kabala i (kabl) to put in irons, shackle, fetter ( ه s.o.); to keep waiting ( ه s.o., ھ for s.th., esp. for the payment of a debt) II to put in irons, shackle, fetter ( ه s.o.) III to keep waiting ( ه s.o., ھ for s.th., esp. for the payment of a debt), defer, put off ( الدين addaina the payment of a debt)",
+    "examples": []
+  },
+  {
+    "word": "كبل",
+    "displayWord": "كبل",
+    "translation": "kabl, kibl pl. كبول kubūl leg iron, chain, shackle, fetter",
+    "examples": []
+  },
+  {
+    "word": "كبولي",
+    "displayWord": "كبولي",
+    "translation": "kabūlī and كابولي kābūlī pl. كوابيل kawābīl2 bracket, corbel, console (arch.); lean to roof, pent roof, shed roof (arch.)",
+    "examples": []
+  },
+  {
+    "word": "كابل",
+    "displayWord": "كابل",
+    "translation": "2 and كابلي look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "كابين",
+    "displayWord": "كابين",
+    "translation": "pl. كباين look up alphabetically كبو) كبا) kabā u (kabw, kubūw) to fall forward ( ل",
+    "examples": []
+  },
+  {
+    "word": "كبوة",
+    "displayWord": "كبوة",
+    "translation": "kabwa (n. vic.) fall, tumble, drop; stumble, trip, slip, false step; dust",
+    "examples": []
+  },
+  {
+    "word": "كاب",
+    "displayWord": "كاب",
+    "translation": "kābin dull, dim, pale, dead, flat; slack, weak, decrepit; see كاب alphabetically",
+    "examples": []
+  },
+  {
+    "word": "كباية",
+    "displayWord": "كباية",
+    "translation": "see كب",
+    "examples": []
+  },
+  {
+    "word": "كبوت",
+    "displayWord": "كبوت",
+    "translation": "see كبت 2",
+    "examples": []
+  },
+  {
+    "word": "كت",
+    "displayWord": "كت",
+    "translation": "katta i (katt) to hum softly",
+    "examples": []
+  },
+  {
+    "word": "كت",
+    "displayWord": "كت",
+    "translation": "katt and كتيت katīt soft humming",
+    "examples": []
+  },
+  {
+    "word": "كتالوج",
+    "displayWord": "كتالوج",
+    "translation": "katālōg pl. -āt catalogue",
+    "examples": []
+  },
+  {
+    "word": "كتب",
+    "displayWord": "كتب",
+    "translation": "kataba u (katb, كتبة kitba, كتابة kitāba) to write, pen, write down, put down in writing, note down, inscribe, enter, record, book, register ( ھ s.th.); to compose, draw up, indite, draft ( ھ s.th.); to bequeath, make over by will ( ل ھ s.th. to s.o.); to prescribe ( على ھ s.th. to s.o.); to foreordain, destine ( ل or على ھ s.th. to s.o.; of God); pass. kutiba to be rated, be foreordained, be destined ( ل to s.o.) │ كتب",
+    "examples": []
+  },
+  {
+    "word": "كتاب",
+    "displayWord": "كتاب",
+    "translation": "kitāb pl. كتب kutub piece of writing, record, paper; letter, note, message; document, deed; contract (esp. marriage contract); book; الكتاب the Koran; the Bible │ اھل الكتب ahl a1-k. the people of the Book, the adherents of a revealed religion, the kitabis, i.e., Christians and Jews; كتاب الزواج k. az-zawāj marriage contract; كتاب الطلاق k. aṭ-ṭalāq bill of divorce; كتاب تعليمي (ta‘līmī) textbook; كتاب",
+    "examples": []
+  },
+  {
+    "word": "كتبي",
+    "displayWord": "كتبي",
+    "translation": "kutubī pl. -ya bookseller, bookdealer 812",
+    "examples": []
+  },
+  {
+    "word": "كتابخانة",
+    "displayWord": "كتابخانة",
+    "translation": "kitābkāna and كتبخانة kutubkāna library; bookstore",
+    "examples": []
+  },
+  {
+    "word": "كتاب",
+    "displayWord": "كتاب",
+    "translation": "kuttāb pl. كتاتيب katātīb2 kuttab, Koran school (lowest elementary school)",
+    "examples": []
+  },
+  {
+    "word": "كتيب",
+    "displayWord": "كتيب",
+    "translation": "kutayyib booklet",
+    "examples": []
+  },
+  {
+    "word": "كتابة",
+    "displayWord": "كتابة",
+    "translation": "kitāba (act or practice of) writing; art of writing, penmanship; system of writing, script; inscription; writing, legend; placard, poster; piece of writing, record, paper; secretariat; written amulet, charm; pl. كتابات writings, essays; كتابة kitābatan in writing │ بالكتابة written; بدون",
+    "examples": []
+  },
+  {
+    "word": "كتابة",
+    "displayWord": "كتابة",
+    "translation": "bi-dūn k. unwritten, oral; blank; كتابة",
+    "examples": []
+  },
+  {
+    "word": "كتابة الدولة",
+    "displayWord": "كتابة الدولة",
+    "translation": "k. ad-daula (Magr.) secretariat of stae; كتابة عامة (‘āmma) secretariat general; اسم الكتابة ism al-k. pen name, nom de plume; آلة الكتابة typewriter; لغة الكتابة lugat al-k. literary language; ورق الكتابة waraq al-k. writing paper",
+    "examples": []
+  },
+  {
+    "word": "كتابي",
+    "displayWord": "كتابي",
+    "translation": "kitābī written, in writing; clerical; literary; scriptural, relating to the revealed Scriptures (Koran, Bible); kitabi, adherent of a revealed religion; the written part (of an examination) │ اسلوب كتابي (uslūb) literary style; غلطة كتابية (galṭa) slip of the pen, clerical error; اعمال كتابية clerical work, office work, desk work; الكمال الكتابي (kamāl) literary perfection; لغة كتابية (luga) literary language; موظف كتابي (muwaẓẓaf) clerk, clerical worker (of a government office)",
+    "examples": []
+  },
+  {
+    "word": "كتيبة",
+    "displayWord": "كتيبة",
+    "translation": "katība pl. كتائب katā’ib2 squadron; cavalry detachment; (Eg. 1939) battalion, (Ir. after 1922) regiment, (later) battalion, (Syr.) battalion of armored, cavalry, or motorized, unite (mil.); (piece of) writing, record, paper, document; written amulet",
+    "examples": []
+  },
+  {
+    "word": "كاتب",
+    "displayWord": "كاتب",
+    "translation": "kātib pl. -ūn, كتاب kuttāb, كتبة kataba writer; scribe, scrivener; secretary; clerk typist; office worker, clerical employee; clerk, registrar, actuary, court clerk; notary; writer, author │ كاتب الدولة k. ad-daula (Mag.) (under)secretary of state;",
+    "examples": []
+  },
+  {
+    "word": "كاتب السر",
+    "displayWord": "كاتب السر",
+    "translation": "k. s-sirr private secretary; كاتب",
+    "examples": []
+  },
+  {
+    "word": "كاتبة",
+    "displayWord": "كاتبة",
+    "translation": "kātiba pl. -āt woman secretary; authoress, writer",
+    "examples": []
+  },
+  {
+    "word": "كتابخانة",
+    "displayWord": "كتابخانة",
+    "translation": "and كتبخانة see كتب",
+    "examples": []
+  },
+  {
+    "word": "كتف",
+    "displayWord": "كتف",
+    "translation": "katafa i (katf) to fetter, shackle ( ه s.o., esp. by tying his hands); to tie up, bind ( ھ s.th.) II to tie the hands behind the back; to cross, fold ( ھ hands, arms behind the back or in front of the chest) V and X to cross or fold one’s arms VI to stand shoulder to shoulder; to support one another; to be united in solidarity, stand together",
+    "examples": []
+  },
+  {
+    "word": "كتف",
+    "displayWord": "كتف",
+    "translation": "katif, katf, kitf pl. اكتاف aktāf, كتفة kitafa shoulder; shoulder blade, scapula; mountain slope; O end support of a bridge; (pl. اكتاف aktāf) buttress, pier │ ما",
+    "examples": []
+  },
+  {
+    "word": "كتاف",
+    "displayWord": "كتاف",
+    "translation": "kitāf pl. كتف kutuf shackle, manacle, handcuff",
+    "examples": []
+  },
+  {
+    "word": "كتف",
+    "displayWord": "كتف",
+    "translation": "aktaf2, f. كتفاء katfā’2, pl. كتف kutf broad-shouldered",
+    "examples": []
+  },
+  {
+    "word": "كتكت",
+    "displayWord": "كتكت",
+    "translation": "1 katkat floss, silk waste",
+    "examples": []
+  },
+  {
+    "word": "كتكوت",
+    "displayWord": "كتكوت",
+    "translation": "2 katkūt pl. كتاكيت katākīt2 chicken, chick",
+    "examples": []
+  },
+  {
+    "word": "كتل",
+    "displayWord": "كتل",
+    "translation": "katala u (katl) and II to agglomerate, conglomerate, gather into a compact mass, press into a lump ( ھ s.th.) V to be heaped up, piled up, agglomerated, clustered, clotted, massed, pressed into a compact mass or lump; to agglomerate, cluster, clot, pile up, gather in a mass; to unite in a bloc or group",
+    "examples": []
+  },
+  {
+    "word": "كتلة",
+    "displayWord": "كتلة",
+    "translation": "kutla pl. كتل kutal lump, chunk, clod, clot; bulk, mass; cube; block; bloc; beam, joist, transom, lintel, girder │ كتل",
+    "examples": []
+  },
+  {
+    "word": "كتلة الجسد",
+    "displayWord": "كتلة الجسد",
+    "translation": "kutlat al-jasad bulk of the body, frame; كتلة من الأعصاب (a‘ṣāb) a fearless, husky fellow; الكتلة الوطنية (waṭanīya) the National Bloc",
+    "examples": []
+  },
+  {
+    "word": "كتم",
+    "displayWord": "كتم",
+    "translation": "katama u (katm, كتمان kitmān) to hide ( ھ s.th., عن from s.o.); to conceal, secrete, keep secret ( ھ s.th., عن from s.o.); to suppress, repress, restrain, check, curb, subdue ( ھ anger, passion); to hold ( ھone’s breath); to lower, muffle ( ھ the voice); to stifle, smother, quench ( ھ fire) │ كتم انفاسه to take s.o.’s breath away, drive s.o. out of his senses II to hide, conceal ( ھ s.th.) III to hide, conceal, keep, withhold (",
+    "examples": []
+  },
+  {
+    "word": "كتم",
+    "displayWord": "كتم",
+    "translation": "katm and كتمان kitmān secrecy, concealment, secretion, silence; restraint, control, suppression (esp. of an emotion)",
+    "examples": []
+  },
+  {
+    "word": "كتيم",
+    "displayWord": "كتيم",
+    "translation": "katīm shut tight, hermetically sealed, impenetrable, impermeable, impervious",
+    "examples": []
+  },
+  {
+    "word": "كتوم",
+    "displayWord": "كتوم",
+    "translation": "katūm reticent, reserved, secretive, uncommunicative, taciturn, discreet",
+    "examples": []
+  },
+  {
+    "word": "كتام",
+    "displayWord": "كتام",
+    "translation": "kitām (eg.) constipation",
+    "examples": []
+  },
+  {
+    "word": "كاتم",
+    "displayWord": "كاتم",
+    "translation": "kātim: كاتم السر k. as-sirr (private) secretary",
+    "examples": []
+  },
+  {
+    "word": "كتن",
+    "displayWord": "كتن",
+    "translation": "1 katina a (katan) to be dirty, soiled, smutty, blackened by soot II to smut, soil (",
+    "examples": []
+  },
+  {
+    "word": "كتن",
+    "displayWord": "كتن",
+    "translation": "katan dirt, smut, soot",
+    "examples": []
+  },
+  {
+    "word": "كتان",
+    "displayWord": "كتان",
+    "translation": "2 kattān (kittān) flax; linen",
+    "examples": []
+  },
+  {
+    "word": "كتاني",
+    "displayWord": "كتاني",
+    "translation": "kattānī made of linen, linen (adj.)",
+    "examples": []
+  },
+  {
+    "word": "كتينة",
+    "displayWord": "كتينة",
+    "translation": "3 (It. catena) katīna (watch) chain",
+    "examples": []
+  },
+  {
+    "word": "كث",
+    "displayWord": "كث",
+    "translation": "katta i a ( كثث katat, كثاثة katāta, كثوثة kutūta) to be thick or dense (esp. hair)",
+    "examples": []
+  },
+  {
+    "word": "كثث",
+    "displayWord": "كثث",
+    "translation": "katat thickness, density",
+    "examples": []
+  },
+  {
+    "word": "كث",
+    "displayWord": "كث",
+    "translation": "katt and كثيث katīt thick, dense, thick-grown, densely crowded",
+    "examples": []
+  },
+  {
+    "word": "كثب",
+    "displayWord": "كثب",
+    "translation": "katab nearness, proximity, vicinity │ على",
+    "examples": []
+  },
+  {
+    "word": "كثب من",
+    "displayWord": "كثب من",
+    "translation": "and عن كثب من in the vicinity (or neighborhood) of, near; من (عن) كثب from nearby, at a short distance",
+    "examples": []
+  },
+  {
+    "word": "كثيب",
+    "displayWord": "كثيب",
+    "translation": "katīb pl. اكثبة aktiba, كثب kutub,",
+    "examples": []
+  },
+  {
+    "word": "كثبان",
+    "displayWord": "كثبان",
+    "translation": "kutbān sandhill, dune",
+    "examples": []
+  },
+  {
+    "word": "كثر",
+    "displayWord": "كثر",
+    "translation": "katara u (katr) to outnumber, exceed in number ( ھ, ه s.o., s.th.) – katura u ( كثرة katra) to be much, many or numerous; to be more ( عن than); to happen frequently, occur often; to increase, augment, multiply, grow II to increase, augment, compound, multiply ( ھ s.th.) III to outnumber, exceed in number ( ھ, ه s.o., s.th.); to vie in quantity or number ( ھ, ه with) IV to do much ( من in or of s.th.); to give much or frequently ( من ل to s.o. of s.th.); to do constantly, always or frequently ( من or في s.th.); to increase, augment ( ھ s.th.) VI to band together, form a gang, rally ( على against) X = IV; to regard as too much, deem excessive, find exorbitant ( ھ s.th.); to regard as too high, as too troublesome ( ھ s.th.); to think not worth the trouble ( ھ s.th., على with regard to s.o.); to begrudge",
+    "examples": []
+  },
+  {
+    "word": "كثر",
+    "displayWord": "كثر",
+    "translation": "kutr large quantity, abundance, plenty; major portion, greater part",
+    "examples": []
+  },
+  {
+    "word": "كثرة",
+    "displayWord": "كثرة",
+    "translation": "katra large quantity, great number, multitude, abundance, copiousness, numerousness, frequency, multiplicity, plurality; majority, major portion ( من of) │ بكثرة plentifully, abundantly, a lot; جمع",
+    "examples": []
+  },
+  {
+    "word": "كثير",
+    "displayWord": "كثير",
+    "translation": "katīr pl. كثار kitār much, many, numerous, abundant, plentiful, copious; frequent; a large portion, a great deal, a great many, a lot; الكثير the most part, most من) of); كثيرا katīran very, much, to a large extent; often, frequently │ كثيرا ما katīran mā often, frequently; بكثير (after a comparative) far, by far; الكثير من، الكثيرون",
+    "examples": []
+  },
+  {
+    "word": "كثيراء",
+    "displayWord": "كثيراء",
+    "translation": "katīrā’2 tragacanth (Astragalus gummifer Lab.; bot.); gum obtained from tragacanth",
+    "examples": []
+  },
+  {
+    "word": "كثف",
+    "displayWord": "كثف",
+    "translation": "katufa u ( كثافة katāfa) to be thick or dense; to thicken, be condensed, become thicker or denser II to make thick or dense, thicken, compress, solidify, concentrate ( ھ s.th.); to inspissate, condense ( ھ s.th.); O (el.) to increase the capacity V and VI to grow denser, become concentrated; to thicken, become viscous; to be condensed",
+    "examples": []
+  },
+  {
+    "word": "كثيف",
+    "displayWord": "كثيف",
+    "translation": "katīf pl. كثاف kitāf thick; dense; compact; heavy, coarse, crude; viscous, sirupy (e.g., sauce)",
+    "examples": []
+  },
+  {
+    "word": "كثافة",
+    "displayWord": "كثافة",
+    "translation": "katāfa thickness; density; heaviness; solidity, firmness; compactness, fullness, intensity; consistency, degree of density or viscosity; O capacity (el.) │ كثافة السكان k. as-sukkān density of population; O كثافة",
+    "examples": []
+  },
+  {
+    "word": "كثلك",
+    "displayWord": "كثلك",
+    "translation": "II takatlaka to become (a) Catholic",
+    "examples": []
+  },
+  {
+    "word": "كثوليكي",
+    "displayWord": "كثوليكي",
+    "translation": "katūlīkī pl. كثلكة katlaka Catholic; a Catholic",
+    "examples": []
+  },
+  {
+    "word": "كثيراء",
+    "displayWord": "كثيراء",
+    "translation": "katīrā’2 tragacanth (Astragalus gummifer Lab.; bot.); gum obtained from tragacanth",
+    "examples": []
+  },
+  {
+    "word": "كح",
+    "displayWord": "كح",
+    "translation": "kaḥḥa u to cough",
+    "examples": []
+  },
+  {
+    "word": "كحة",
+    "displayWord": "كحة",
+    "translation": "kuḥḥa cough",
+    "examples": []
+  },
+  {
+    "word": "كحت",
+    "displayWord": "كحت",
+    "translation": "kaḥata a and II (eg.) to scrape off, scratch off ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "كحكح",
+    "displayWord": "كحكح",
+    "translation": "kaḥkaḥa to cough, cough slightly, hack",
+    "examples": []
+  },
+  {
+    "word": "كحكحة",
+    "displayWord": "كحكحة",
+    "translation": "kaḥkaḥa short, dry cough",
+    "examples": []
+  },
+  {
+    "word": "كحل",
+    "displayWord": "كحل",
+    "translation": "kaḥala u a (kaḥl) and II to rub, paint or smear (with kohl) ( ھ the eyes) V and VIII to color (the edges of) the eyelids with kohl │ ما اكتحل غماضا (غمضا ) (gamīḍan, gimāḍan, gumḍan) to find no sleep",
+    "examples": []
+  },
+  {
+    "word": "كحل",
+    "displayWord": "كحل",
+    "translation": "kuḥl pl. اكحال akḥāl antimony; kohl, a preparation of pulverized antimony used for darkening (the edges of) the eyelids; any preparation for coloring the eyelids",
+    "examples": []
+  },
+  {
+    "word": "كحل",
+    "displayWord": "كحل",
+    "translation": "kaḥal black coloring (of the edges) of the eyelids",
+    "examples": []
+  },
+  {
+    "word": "كحل",
+    "displayWord": "كحل",
+    "translation": "kaḥil darkened with kohl, dyed black (eyelids)",
+    "examples": []
+  },
+  {
+    "word": "كحلي",
+    "displayWord": "كحلي",
+    "translation": "kuḥlī dark blue, navy blue",
+    "examples": []
+  },
+  {
+    "word": "كحلة",
+    "displayWord": "كحلة",
+    "translation": "kuḥla (eg.) pointing, filling or grouting of the joints (of a wall; masonry)",
+    "examples": []
+  },
+  {
+    "word": "كحلاء",
+    "displayWord": "كحلاء",
+    "translation": "kaḥlā’ (eg.) a variety of blueweed (Echium cericeum V.; bot.)",
+    "examples": []
+  },
+  {
+    "word": "كحيل",
+    "displayWord": "كحيل",
+    "translation": "kaḥīl pl. كحائل kaḥā’il2 black, dyed black, darkened with kohl (eyelid); horse of noblest breed",
+    "examples": []
+  },
+  {
+    "word": "كحول",
+    "displayWord": "كحول",
+    "translation": "kuḥūl alcohol, spirit",
+    "examples": []
+  },
+  {
+    "word": "كحولي",
+    "displayWord": "كحولي",
+    "translation": "kuḥūlī alcoholic, spirituous",
+    "examples": []
+  },
+  {
+    "word": "كحيلي",
+    "displayWord": "كحيلي",
+    "translation": "kuḥailī and كحيلان kuḥailān horse of noblest bread 816",
+    "examples": []
+  },
+  {
+    "word": "كحال",
+    "displayWord": "كحال",
+    "translation": "kiḥāl antimony powder, eye powder",
+    "examples": []
+  },
+  {
+    "word": "كحال",
+    "displayWord": "كحال",
+    "translation": "kaḥḥāl eye doctor, oculist (old designation)",
+    "examples": []
+  },
+  {
+    "word": "كاحل",
+    "displayWord": "كاحل",
+    "translation": "kāḥil pl. كواحل kawāḥil2 anklebone",
+    "examples": []
+  },
+  {
+    "word": "كخية",
+    "displayWord": "كخية",
+    "translation": "kikya and كاخية kākiya pl. كواخ kawākin butler, steward",
+    "examples": []
+  },
+  {
+    "word": "كد",
+    "displayWord": "كد",
+    "translation": "kadda u (kadd) to work hard, exert o.s., toil, labor, slave; to fatigue, wear out, overwork, exhaust, weary, tire ( ه s.o.) II to chase away, drive away ( ه s.o.) VIII and X to urge, drive, rush ( ه s.o.); to wear out, overwork, exhaust, weary, tire ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "كد",
+    "displayWord": "كد",
+    "translation": "kadd trouble, pains, labor, toil, hard work",
+    "examples": []
+  },
+  {
+    "word": "كدود",
+    "displayWord": "كدود",
+    "translation": "kadūd industrious, hard-working, diligent",
+    "examples": []
+  },
+  {
+    "word": "كدح",
+    "displayWord": "كدح",
+    "translation": "kadaḥa a (kadḥ) to exert o.s., work hard, toil, labor, slave ( في in or with s.th.) VIII to earn a living ( لعياله li-‘iyālihī for one’s family)",
+    "examples": []
+  },
+  {
+    "word": "كدح",
+    "displayWord": "كدح",
+    "translation": "kadḥ exertion, toil, labor, drudgery",
+    "examples": []
+  },
+  {
+    "word": "كدر",
+    "displayWord": "كدر",
+    "translation": "1 kadura u and kadira a (kadar, كدارة kadāra, كدور kudūra, كدور kudūr, كدرة kudra) to be turbid, roily, muddy, roiled (liquid); -- kadira a (kadar, كدرة kudra) to be muddy, cloudy, blackish, dingy, flat, swarthy, grimy (color); (kadar, كدورة kudūra) to be dreary, unhappy (life); to be angry ( على with s.o.) II to render turbid, to roil, muddy ( ھ s.th.), trouble, disturb, spoil, ruffle ( ھ s.th., على for s.o., e.g., s.o.’s peace of mind); to grieve, worry, trouble, vex, irritate, annoy, molest, disturb, distress ( ھ s.o.) V to be turbid, roily, muddy, roiled, troubled; to be angry, be sore ( من at s.th.), feel offended, be annoyed, be displeased ( من by s.th.), be peeved ( من at, about) VII to become turbid, muddy, dull, flat; to swoop down (bird)",
+    "examples": []
+  },
+  {
+    "word": "كدر",
+    "displayWord": "كدر",
+    "translation": "kadar turbidity, muddiness, cloudiness, opaqueness, roiledness; worry, sorrow, grief, distress, vexation, irritation, annoyance",
+    "examples": []
+  },
+  {
+    "word": "كدرة",
+    "displayWord": "كدرة",
+    "translation": "kudra turbidity, muddiness, cloudiness, roiledness, impurity; dingy color, dinginess",
+    "examples": []
+  },
+  {
+    "word": "كدرة",
+    "displayWord": "كدرة",
+    "translation": "kadara clod of dirt, filth",
+    "examples": []
+  },
+  {
+    "word": "كدر",
+    "displayWord": "كدر",
+    "translation": "kadir and كدير kadīr turbid, muddy, roily, roiled; dull, flat, dingy, grimy (color); worried, troubled, disturbed",
+    "examples": []
+  },
+  {
+    "word": "كادر",
+    "displayWord": "كادر",
+    "translation": "2 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "كدس",
+    "displayWord": "كدس",
+    "translation": "kadasa i (kads) and II to pile up, heap up, accumulate, amass ( ھ s.th.); to cram together, press together, compress ( ھ s.th.) V to be heaped up, be piled up; to pile up, accumulate (intr.); to press together, get crammed up",
+    "examples": []
+  },
+  {
+    "word": "كدس",
+    "displayWord": "كدس",
+    "translation": "kuds pl. اكداس akdās heap, pile; stack (of grain, hay, etc.)",
+    "examples": []
+  },
+  {
+    "word": "كداس",
+    "displayWord": "كداس",
+    "translation": "kuddās pl. كداديس kadādīs2 heap, pile; stack (of grain, hay, etc.)",
+    "examples": []
+  },
+  {
+    "word": "كداسة",
+    "displayWord": "كداسة",
+    "translation": "kudāsa heap, pile, stack",
+    "examples": []
+  },
+  {
+    "word": "كدش",
+    "displayWord": "كدش",
+    "translation": "kadaša i (kadš) to gain, earn",
+    "examples": []
+  },
+  {
+    "word": "كديش",
+    "displayWord": "كديش",
+    "translation": "kadīš pl. كدش kudš cart horse, nag, jade",
+    "examples": []
+  },
+  {
+    "word": "كدم",
+    "displayWord": "كدم",
+    "translation": "kadama a i (kadm) to bite (with the front teeth); to bruise, contuse",
+    "examples": []
+  },
+  {
+    "word": "كدم",
+    "displayWord": "كدم",
+    "translation": "kadma pl. kadamāt bite; wound caused by a bite; bruise, contusion",
+    "examples": []
+  },
+  {
+    "word": "كدى",
+    "displayWord": "كدى",
+    "translation": "kadā i (kady) to give little, skimp, stint II to beg IV = I",
+    "examples": []
+  },
+  {
+    "word": "كدية",
+    "displayWord": "كدية",
+    "translation": "kudya begging, mendicity",
+    "examples": []
+  },
+  {
+    "word": "كذا",
+    "displayWord": "كذا",
+    "translation": "ka-dā see ك ka",
+    "examples": []
+  },
+  {
+    "word": "كذب",
+    "displayWord": "كذب",
+    "translation": "kadaba i (kidb, kadib, كذبة kadba, kidba) to lie; to deceive, delude, mislead; to tell ( ه or على s.o.) a lie, to lie ( ه or على to s.o.) II to accuse of lying, call a liar ( ه s.o.), disbelieve s.o., give the lie to s.o. ( ه); to disprove, refute, disown, deny ( ب or ھs. th.) │ ما كذب ان فعل he did not hesitate to do so IV to cause ( ه s.o.) to lie; to call a liar, prove a liar ( ه s.o.), give the lie ( ه to s.o.)",
+    "examples": []
+  },
+  {
+    "word": "كذب",
+    "displayWord": "كذب",
+    "translation": "kidb, kadib and كذبة kadba, kidba lie; deceit, falsehood, untruth │ كذبة ابريل April fool’s joke",
+    "examples": []
+  },
+  {
+    "word": "كذوب",
+    "displayWord": "كذوب",
+    "translation": "kadūb liar",
+    "examples": []
+  },
+  {
+    "word": "كذاب",
+    "displayWord": "كذاب",
+    "translation": "kaddāb liar, swindler; lying, untruthful; false, deceitful",
+    "examples": []
+  },
+  {
+    "word": "كاذب",
+    "displayWord": "كاذب",
+    "translation": "kādib liar; lying, untruthful; false, deceptive, fallacious, delusive, specious, sham, make-believe │ امل كاذب (amal) fallacious hope; بلاغ كاذب (balāg) slander, defamation (jur.)",
+    "examples": []
+  },
+  {
+    "word": "كذلك",
+    "displayWord": "كذلك",
+    "translation": "see ك ka",
+    "examples": []
+  },
+  {
+    "word": "كرة",
+    "displayWord": "كرة",
+    "translation": "1 see كرو 2",
+    "examples": []
+  },
+  {
+    "word": "كر",
+    "displayWord": "كر",
+    "translation": "2 karra u (karr, كرور kurūr, تكرار takrār) to turn around and attack ( على s.o., s.th.); to return, come back, recur; to withdraw, retreat, fall back; to attack ( على s.o.), bear down ( على upon); -- a ( كرير karīr) to rattle in the throat II to repeat, reiterate, do again, do repeatedly ( ھ s.th.); to pose over and over again ( ھ a question, على to s.o.), ask ( على s.o.) repeatedly ( ھ a question); to clarify, filter ( ھ s.th.); to rectify, purify ( ھ s.th.); to refine ( ھ sugar, etc.) V to be repeated, be reiterated, recur; to be rectified, be purified, be refined",
+    "examples": []
+  },
+  {
+    "word": "كر",
+    "displayWord": "كر",
+    "translation": "karr attack, charge │ الكر والفر (farr) attack and retreat (in battle); بين كر وفر alternately, intermittently, by fits and starts, by jerks; على كر الدھور and على كر",
+    "examples": []
+  },
+  {
+    "word": "كرة",
+    "displayWord": "كرة",
+    "translation": "karra attack; return, comeback, recurrence; -- (pl. -āt) one time (= مرة ); a hundred thousand; karratan once; sometimes, at times; at a time │ كرة اخرى karratan ukrā a second time, once more;",
+    "examples": []
+  },
+  {
+    "word": "كرة بعد كرة",
+    "displayWord": "كرة بعد كرة",
+    "translation": "repeatedly, time and again",
+    "examples": []
+  },
+  {
+    "word": "كرار",
+    "displayWord": "كرار",
+    "translation": "look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "كرور",
+    "displayWord": "كرور",
+    "translation": "kurūr return, comeback, recurrence; succession, sequence, order",
+    "examples": []
+  },
+  {
+    "word": "كرير",
+    "displayWord": "كرير",
+    "translation": "karīr rattle in the throat",
+    "examples": []
+  },
+  {
+    "word": "كرارية",
+    "displayWord": "كرارية",
+    "translation": "kurrārīya pl. -āt (eg.) spool, bobbin, reel",
+    "examples": []
+  },
+  {
+    "word": "كراج",
+    "displayWord": "كراج",
+    "translation": "garāž pl. -āt garage (syr.)",
+    "examples": []
+  },
+  {
+    "word": "كرار",
+    "displayWord": "كرار",
+    "translation": "karār pl. -āt pantry, storeroom; cellar",
+    "examples": []
+  },
+  {
+    "word": "كرافتة",
+    "displayWord": "كرافتة",
+    "translation": "karāfatta neoktie, cravat",
+    "examples": []
+  },
+  {
+    "word": "كراكوفيا",
+    "displayWord": "كراكوفيا",
+    "translation": "karākōfiyā Cracow (city in S Poland)",
+    "examples": []
+  },
+  {
+    "word": "كراميل",
+    "displayWord": "كراميل",
+    "translation": "(Fr. caramel) karamēl caramel candy",
+    "examples": []
+  },
+  {
+    "word": "كرب",
+    "displayWord": "كرب",
+    "translation": "1 karaba u (karb) to oppress, distress, grieve, worry, trouble, fill with concern ( ه s.o.); to overburden ( ھ a beast of burden) IV to hurry, hasten, rush VII and VIII to be worried, grieved, troubled, distressed, anxious, apprehensive, feel concern, be afraid",
+    "examples": []
+  },
+  {
+    "word": "كرب",
+    "displayWord": "كرب",
+    "translation": "karb pl. كروب kurūb worry, sorrow, care, grief; apprehension, concern, anxiety, fear; distress, trouble; pain, torment, torture, agony",
+    "examples": []
+  },
+  {
+    "word": "كربة",
+    "displayWord": "كربة",
+    "translation": "kurba pl. كرب kurab worry, sorrow, care, grief; apprehension. concern, anxiety, fear; distress, trouble; pain, torment, torture, agony",
+    "examples": []
+  },
+  {
+    "word": "كرب",
+    "displayWord": "كرب",
+    "translation": "2 kreb crepe │ كرب ديشين k. dīšīn and كرب",
+    "examples": []
+  },
+  {
+    "word": "كروب",
+    "displayWord": "كروب",
+    "translation": "3 karūb and كروبي karūbī pl. -ūn, كاروبيم kārūbīm cherub, archangel",
+    "examples": []
+  },
+  {
+    "word": "كرباج",
+    "displayWord": "كرباج",
+    "translation": "kurbāj, kirbāj pl. كرابيج karābīj2 whip, lash, riding whip, kurbash",
+    "examples": []
+  },
+  {
+    "word": "كرباس",
+    "displayWord": "كرباس",
+    "translation": "kirbās pl. كرابيس karābīs2 a white cotton fabric",
+    "examples": []
+  },
+  {
+    "word": "كربال",
+    "displayWord": "كربال",
+    "translation": "kirbāl pl. كرابيل karābīl2 teasing bow (for combing or carding cotton); coarse sieve",
+    "examples": []
+  },
+  {
+    "word": "كربلاء",
+    "displayWord": "كربلاء",
+    "translation": "karbalā’2 Karbala (holy city of the Shiites in central Iraq)",
+    "examples": []
+  },
+  {
+    "word": "كربون",
+    "displayWord": "كربون",
+    "translation": "(Fr. carbon) karbōn coal │ ورق كربون waraq k. carbon paper",
+    "examples": []
+  },
+  {
+    "word": "كرات",
+    "displayWord": "كرات",
+    "translation": "1 kurāt (eg.) = كراث",
+    "examples": []
+  },
+  {
+    "word": "كرتن",
+    "displayWord": "كرتن",
+    "translation": "1 kartana to put under quarantine, to quarantine ( على s.o.) II takartana to be put under quarantine, be quarantined",
+    "examples": []
+  },
+  {
+    "word": "كرتون",
+    "displayWord": "كرتون",
+    "translation": "2 kartūn pl. كراتين karātin2 cardboard, pasteboard; carton",
+    "examples": []
+  },
+  {
+    "word": "كرث",
+    "displayWord": "كرث",
+    "translation": "karata u i (kart) to oppress, depress, distress, worry, trouble ( ه s.o.); to concern, affect, move ( ه s.o.) IV do. VIII to care ( ل for), heed, bear in mind ( ل s.th.), pay attention ( ل to), take an interest ( ل in)",
+    "examples": []
+  },
+  {
+    "word": "كريث",
+    "displayWord": "كريث",
+    "translation": "karīt oppressed, depressed, distressed, anguished, worried, troubled, vexed, annoyed",
+    "examples": []
+  },
+  {
+    "word": "كراث",
+    "displayWord": "كراث",
+    "translation": "karrāt, kurrāt leek (Allium parrum L.; bot.)",
+    "examples": []
+  },
+  {
+    "word": "كارث",
+    "displayWord": "كارث",
+    "translation": "kārit oppressive, grievous, painful",
+    "examples": []
+  },
+  {
+    "word": "كارثة",
+    "displayWord": "كارثة",
+    "translation": "kārita pl. كوارث kawārit2 disaster, catastrophe │ كارثة الأمطار k. al-amṯār natural catastrophe, torrential rains",
+    "examples": []
+  },
+  {
+    "word": "كرجي",
+    "displayWord": "كرجي",
+    "translation": "kurjī Georgian (adj and n.) 819",
+    "examples": []
+  },
+  {
+    "word": "كرح",
+    "displayWord": "كرح",
+    "translation": "kirḥ pl. اكراح akrāḥ monk’s cell",
+    "examples": []
+  },
+  {
+    "word": "كرخانة",
+    "displayWord": "كرخانة",
+    "translation": "karkāna pl. -āt, كراخين karākīn workshop, factory; (eg.) brothel",
+    "examples": []
+  },
+  {
+    "word": "كرخانجي",
+    "displayWord": "كرخانجي",
+    "translation": "karkānjī artisan, craftsman",
+    "examples": []
+  },
+  {
+    "word": "كردي",
+    "displayWord": "كردي",
+    "translation": "kurdī Kurdish; (pl. اكراد akrād) Kurd │ جبل الأكراد jabal al-a. the Kurdish mountains, Kurdistan",
+    "examples": []
+  },
+  {
+    "word": "كردان",
+    "displayWord": "كردان",
+    "translation": "kirdān pl. كرادين karādīn2 necklace",
+    "examples": []
+  },
+  {
+    "word": "كردس",
+    "displayWord": "كردس",
+    "translation": "kardasa to heap up, pile up ( ھ s.th.); to crowd together, cram together ( ھ , s.o., s.th.) II takardasa to be heaped up, be piled up; to flock together, crowd together",
+    "examples": []
+  },
+  {
+    "word": "كردون",
+    "displayWord": "كردون",
+    "translation": "(Fr. cordon) kordōn pl. -āt cordon; ribbon, braid, lace, trimming │ كردون صحي (ṣiḥḥī) sanitary cordon",
+    "examples": []
+  },
+  {
+    "word": "كرز",
+    "displayWord": "كرز",
+    "translation": "1 karaza i ( كروز kurūz) to hide, seek refuge الى) with)",
+    "examples": []
+  },
+  {
+    "word": "كرز",
+    "displayWord": "كرز",
+    "translation": "2 karaza (karz) to preach, spread ( بالإنجيل bi-l-injīl the Gospel)",
+    "examples": []
+  },
+  {
+    "word": "كرز",
+    "displayWord": "كرز",
+    "translation": "karz and كرازة karāza sermon, preaching of the Gospel │ الكرازة المرقسية (marqusīya) the missionary province of St. Mark, the jurisdiction of the Coptic Patriarchate",
+    "examples": []
+  },
+  {
+    "word": "كارز",
+    "displayWord": "كارز",
+    "translation": "kāriz preacher",
+    "examples": []
+  },
+  {
+    "word": "كرز",
+    "displayWord": "كرز",
+    "translation": "3 karaz (coll.; n. un. ة) cherry",
+    "examples": []
+  },
+  {
+    "word": "كرزى",
+    "displayWord": "كرزى",
+    "translation": "karazī cherry-red",
+    "examples": []
+  },
+  {
+    "word": "كرس",
+    "displayWord": "كرس",
+    "translation": "1 II to lay the foundation ( ھ of a building) V to stick together, cohere",
+    "examples": []
+  },
+  {
+    "word": "كرسي",
+    "displayWord": "كرسي",
+    "translation": "kursī pl. كراسي karāsīy, كراس karāsin chair; throne, see; seat; professorial chair; base, pedestal, socle; bearing (techn.) │ كرسي بيل k. bīl and كرسي",
+    "examples": []
+  },
+  {
+    "word": "كراسة",
+    "displayWord": "كراسة",
+    "translation": "kurrāsa pl. -āt, karārīs2 quire; booklet; notebook, copy book; sketchbook; brochure; installment, fascicle (of a book)",
+    "examples": []
+  },
+  {
+    "word": "كرس",
+    "displayWord": "كرس",
+    "translation": "2 II to consecrate, dedicate, inaugurate, open ceremonially ( ھ s.th.; Chr.); to hallow, sanctify ( ھ e.g., principles); to dedicate, devote ( ل ھ s.th. to s.o.)",
+    "examples": []
+  },
+  {
+    "word": "كرسوع",
+    "displayWord": "كرسوع",
+    "translation": "kursū‘ pl. كراسيع karāsī‘2 carpal end of the ulna, carpal bone, wristbone",
+    "examples": []
+  },
+  {
+    "word": "كرسف",
+    "displayWord": "كرسف",
+    "translation": "karsafa to hamstring, hook ( ھ an animal)",
+    "examples": []
+  },
+  {
+    "word": "كرسنة",
+    "displayWord": "كرسنة",
+    "translation": "kirsinna, kirsanna variety of vetch (bot.)",
+    "examples": []
+  },
+  {
+    "word": "كرش",
+    "displayWord": "كرش",
+    "translation": "kariša a (karaš) to be wrinkled, shriveled, crumpled, crinkled, puckered; to shrivel, form wrinkles, be drawn into wrinkle II to wrinkls one’s face, knit one’s brows, frown V = I",
+    "examples": []
+  },
+  {
+    "word": "كرش",
+    "displayWord": "كرش",
+    "translation": "kirš, kariš f., pl. اكراش akrāš, كروش kurūš stomach (primarily of ruminants = craw); paunch; belly",
+    "examples": []
+  },
+  {
+    "word": "كرشة",
+    "displayWord": "كرشة",
+    "translation": "kirša (eg.) tripe, intestines",
+    "examples": []
+  },
+  {
+    "word": "كريشة",
+    "displayWord": "كريشة",
+    "translation": "(eg.) krēša a thin, crinkled fabric; crepe",
+    "examples": []
+  },
+  {
+    "word": "كرشوني",
+    "displayWord": "كرشوني",
+    "translation": "karšūnī Karshuni, Arabic written in Syriac characters 820",
+    "examples": []
+  },
+  {
+    "word": "كريطة",
+    "displayWord": "كريطة",
+    "translation": "look up alphabetically; كرارط, كرارطي ibid.",
+    "examples": []
+  },
+  {
+    "word": "كرع",
+    "displayWord": "كرع",
+    "translation": "kara’a and kari’a a (kar’, كروع kurū’) to sip V to wash one’s feet, perform the partial ablution of the legs (in preparation for prayer); to belch, burp, eruct",
+    "examples": []
+  },
+  {
+    "word": "كرعة",
+    "displayWord": "كرعة",
+    "translation": "kar’a (n. vic.) sipping, sip, swallow",
+    "examples": []
+  },
+  {
+    "word": "كراع",
+    "displayWord": "كراع",
+    "translation": "kurā’ m. and f., pl. اكرع akru’,",
+    "examples": []
+  },
+  {
+    "word": "كارع",
+    "displayWord": "كارع",
+    "translation": "kāri’ pl. كوارع kawāri’ foot, trotter; ankle, anklebone; pl. (eg.) dish prepared of sheep’s trotters",
+    "examples": []
+  },
+  {
+    "word": "كرفس",
+    "displayWord": "كرفس",
+    "translation": "karafs celery (Apium graveolens L.; bot.)",
+    "examples": []
+  },
+  {
+    "word": "كرك",
+    "displayWord": "كرك",
+    "translation": "1 kurk (syr.) fur",
+    "examples": []
+  },
+  {
+    "word": "كركة",
+    "displayWord": "كركة",
+    "translation": "2 karaka distilling apparatus, distilling flask, retort",
+    "examples": []
+  },
+  {
+    "word": "كركي",
+    "displayWord": "كركي",
+    "translation": "3 kurkī pl. كراكي karākīy crane (zool.); ( سمك) الكراكي (samak) al-k. pike (zool.)",
+    "examples": []
+  },
+  {
+    "word": "كراكة",
+    "displayWord": "كراكة",
+    "translation": "4 karrāka pl. -āt dredging machine, dredge; penitentiary",
+    "examples": []
+  },
+  {
+    "word": "كريك",
+    "displayWord": "كريك",
+    "translation": "5 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "كركب",
+    "displayWord": "كركب",
+    "translation": "karkaba (eg.) to throw into disorder, upset, confuse, disturb (III s.th.); to make a noise",
+    "examples": []
+  },
+  {
+    "word": "كركبة",
+    "displayWord": "كركبة",
+    "translation": "karkaba disorder, confusion, muddle, jumble",
+    "examples": []
+  },
+  {
+    "word": "كركدن",
+    "displayWord": "كركدن",
+    "translation": "karkaddan, karkadann rhinoceros │",
+    "examples": []
+  },
+  {
+    "word": "كركدن بحري",
+    "displayWord": "كركدن بحري",
+    "translation": "(baḥrī) narwhal (zool.)",
+    "examples": []
+  },
+  {
+    "word": "كركر",
+    "displayWord": "كركر",
+    "translation": "karkara to repeat, reiterate, do repeatedly ھ) s.th.); to rumble (stomach); to tickle │",
+    "examples": []
+  },
+  {
+    "word": "كركر في الضحك",
+    "displayWord": "كركر في الضحك",
+    "translation": "(ḍaḥk) to burst into loud laughter, roar with laughter",
+    "examples": []
+  },
+  {
+    "word": "كركرة",
+    "displayWord": "كركرة",
+    "translation": "karkara loud laughter; rumbling (of the stomach)",
+    "examples": []
+  },
+  {
+    "word": "كركم",
+    "displayWord": "كركم",
+    "translation": "kurkum (bot.) turmeric (Curcuma longa L.; plant and rootstock); curoumin",
+    "examples": []
+  },
+  {
+    "word": "كركند",
+    "displayWord": "كركند",
+    "translation": "karkand spinel ruby (gem); (eg.) lobster (zool.)",
+    "examples": []
+  },
+  {
+    "word": "كركوز",
+    "displayWord": "كركوز",
+    "translation": "karakūz shadow play",
+    "examples": []
+  },
+  {
+    "word": "كركون",
+    "displayWord": "كركون",
+    "translation": "karakōn (eg.) police station",
+    "examples": []
   },
   {
     "word": "كرم",
-    "displayWord": "كَرَم",
-    "root": "كرم",
-    "translation": "generosity, nobility",
-    "examples": [
-      {
-        "ar": "يَشْتَهِرُ أَهْلُ الشَّرْقِ بِالكَرَمِ وَحُسْنِ الضِّيَافَةِ.",
-        "en": "People of the East are famous for generosity and good hospitality.",
-        "source": "Travel Memoir"
-      }
-    ]
+    "displayWord": "كرم",
+    "translation": "1 karuma u (karam, كرمة karama, كرامة karāma) to be noble, high-minded, noblehearted, magnanimous, generous, liberal, munificent; to be precious II to call noble and high-minded ( ه s.o.); to honor, revere, venerate, treat with deference ( ه s.o.); to exalt ( على ه s.o. above another), bestow honor ( على ه upon s.o. before others) │ كرم",
+    "examples": []
   },
   {
-    "word": "كمال",
-    "displayWord": "كَمَال",
-    "root": "كمل",
-    "translation": "perfection, completeness",
-    "examples": [
-      {
-        "ar": "الْتَّطَوُّرُ المُسْتَمِرُّ هُوَ سَعْيٌ دَائِمٌ نَحْوَ الكَمَالِ.",
-        "en": "Continuous development is a permanent pursuit of perfection.",
-        "source": "Philosophical Treatise"
-      }
-    ]
+    "word": "كرم",
+    "displayWord": "كرم",
+    "translation": "karm (coll.) pl. كروم kurūm vine, grapes, grapevines; vineyard; garden, orchard │ بنت الكرم bint al-k. wine",
+    "examples": []
   },
   {
-    "word": "كون",
-    "displayWord": "كَوْن",
-    "root": "كون",
-    "translation": "universe, existence, being",
-    "examples": [
-      {
-        "ar": "الْتَّأَمُّلُ فِي بَدِيعِ صُنْعِ الكَوْنِ يَزِيدُ الإِيمَانَ.",
-        "en": "Contemplating the wonderful design of the universe increases faith.",
-        "source": "Spiritual Essay"
-      }
-    ]
+    "word": "كرمة",
+    "displayWord": "كرمة",
+    "translation": "karma grapevine, vine",
+    "examples": []
+  },
+  {
+    "word": "كرم",
+    "displayWord": "كرم",
+    "translation": "karam noble nature; highmindedness, noble-mindedness, nobleheartedness, generosity, magnanimity; kindness, friendliness, amicability; liberality, munificence; كرما karaman moat kindly, obligingly, out of kindness │",
+    "examples": []
+  },
+  {
+    "word": "كرم الأخلاق",
+    "displayWord": "كرم الأخلاق",
+    "translation": "noble-mindedness, noble character; كرم الحتد k. al-maḥtid noble descent 821",
+    "examples": []
+  },
+  {
+    "word": "كرمة لك",
+    "displayWord": "كرمة لك",
+    "translation": "kurmatan laka and كرمانا لك kurmānan laka for your sake, as a favor to you, in your honor",
+    "examples": []
+  },
+  {
+    "word": "كرامة",
+    "displayWord": "كرامة",
+    "translation": "karāma nobility; highmindedness, noble-heartedness; generosity, magnanimity; liberality, munificence; honor, dignity; respect, esteem, standing, prestige; mark of honor, token of esteem, favor; (pl. -āt) miracle (worked by a saint) │ حبا وكرامة لك (ḥubban wa-karāmatan) for your sake and in your honor; most gladly, with the greatest pleasure; صاحب كرامات worker of miracles",
+    "examples": []
+  },
+  {
+    "word": "كريم",
+    "displayWord": "كريم",
+    "translation": "karīm pl. كرماء kuramā’2, kirām noble; distinguished, high-ranking, eminent; high-minded, noble-minded, noble-hearted; generous, liberal, munificent, hospitable, beneficent; benefactor; kind, kindly, friendly, amicable, obliging, gracious; respectable, honorable, decent; precious, valuable, costly; thoroughbred; see also alphabetically; الكريمان the two noble things, namely Holy War and the pilgrimage to Mecca │ كريم الأخلاق highminded, noble-minded, noble-hearted, noble; كريم الأصل k. al-aṣl of noble descent, highborn, highbred; حجر كريم (ḥajar) precious stone, gem; حصان كريم thoroughbred horse; دخل كريم (dakl) a decent income; القارئ الكريم the gentle reader; المعادن الكريمة the precious metals;",
+    "examples": []
+  },
+  {
+    "word": "كريمة",
+    "displayWord": "كريمة",
+    "translation": "karīma pl. كرائم karā’im2 precious thing, object of value, valuable; vital part (of the body; esp. eye); daughter; see also alphabetically; الكريمتان the two eyes │",
+    "examples": []
+  },
+  {
+    "word": "كرائم المال",
+    "displayWord": "كرائم المال",
+    "translation": "(الأموال ) the most prized possession(s)",
+    "examples": []
+  },
+  {
+    "word": "كرام",
+    "displayWord": "كرام",
+    "translation": "karrām pl. -ūn winegrower, vinedresser",
+    "examples": []
+  },
+  {
+    "word": "كريم",
+    "displayWord": "كريم",
+    "translation": "2 and كريمة look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "كرمش",
+    "displayWord": "كرمش",
+    "translation": "karmaša (eg.) to pucker, be drawn into folds; to crinkle, become wrinkled, shrivel II takarmaša do.",
+    "examples": []
+  },
+  {
+    "word": "كرمش",
+    "displayWord": "كرمش",
+    "translation": "karmaša fold, crease, wrinkle, crinkle, pucker; knitting كرمل: الكرمل 2 al-karmal Mount Carmel (promontory in N Palestine)",
+    "examples": []
+  },
+  {
+    "word": "كرملي",
+    "displayWord": "كرملي",
+    "translation": "karmalī Carmelite",
+    "examples": []
+  },
+  {
+    "word": "كرملا",
+    "displayWord": "كرملا",
+    "translation": "2 karamillā caramel (candy)",
+    "examples": []
+  },
+  {
+    "word": "كراميل",
+    "displayWord": "كراميل",
+    "translation": "look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "كرنب",
+    "displayWord": "كرنب",
+    "translation": "kurunb (coll.) cabbage",
+    "examples": []
+  },
+  {
+    "word": "كرنبة",
+    "displayWord": "كرنبة",
+    "translation": "kurunba (n. un.) head of cabbage",
+    "examples": []
+  },
+  {
+    "word": "كرنتينة",
+    "displayWord": "كرنتينة",
+    "translation": "kurantīna pl. -āt quarantine",
+    "examples": []
+  },
+  {
+    "word": "كرنيش",
+    "displayWord": "كرنيش",
+    "translation": "look up alphabetically 822",
+    "examples": []
+  },
+  {
+    "word": "كرناف",
+    "displayWord": "كرناف",
+    "translation": "kurnāf pl. كرانيف karānīf2 palm stump",
+    "examples": []
+  },
+  {
+    "word": "كرنافة",
+    "displayWord": "كرنافة",
+    "translation": "kunāfa pl. -āt gunstock, rifle butt",
+    "examples": []
+  },
+  {
+    "word": "كرنك",
+    "displayWord": "كرنك",
+    "translation": "1 (Engl.) krank pl. -āt crank, crank shaft",
+    "examples": []
+  },
+  {
+    "word": "كرنك",
+    "displayWord": "كرنك",
+    "translation": "2 karnak a brand of Egyptian cotton (named after الكرنن , a village near Luxor)",
+    "examples": []
+  },
+  {
+    "word": "كرنيش",
+    "displayWord": "كرنيش",
+    "translation": "and كورنيش (Fr. corniche) kornīš pl.",
+    "examples": []
+  },
+  {
+    "word": "كرانيش",
+    "displayWord": "كرانيش",
+    "translation": "karānīš2 cornice, ledge, molding, shelf; coast road, road skirting the shoreline",
+    "examples": []
+  },
+  {
+    "word": "كره",
+    "displayWord": "كره",
+    "translation": "kariha a (karh, kurh, كراھة karāha, كراھية karāhiya) to feel disgust ( ھ at), be disgusted ( ھ by); to detest, loathe, abhor, hate ( ھ s.th.); to dislike ( ھ s.th.); karuha u كراھة) karāha) to be repugnant, offensive, hateful, odious, detestable II to make s.o. (",
+    "examples": []
+  },
+  {
+    "word": "كره",
+    "displayWord": "كره",
+    "translation": "karh, kurh hatred, hate; aversion, antipathy, dislike, distaste; detestation, abhorrence, disgust, repugnance, loathing;",
+    "examples": []
+  },
+  {
+    "word": "كرھا",
+    "displayWord": "كرھا",
+    "translation": "karhan, kurhan and على كره ‘ala kurhin, على كره منه unwillingly, reluctantly, grudgingly, forcedly; under compulsion, under duress",
+    "examples": []
+  },
+  {
+    "word": "كره",
+    "displayWord": "كره",
+    "translation": "karih loathsome, repugnant, offensive",
+    "examples": []
+  },
+  {
+    "word": "كريه",
+    "displayWord": "كريه",
+    "translation": "karīh unpleasant, disagreeable, offensive, bad, repugnant, repulsive, loathsome, hateful, detestable, abominable, ugly",
+    "examples": []
+  },
+  {
+    "word": "كراھة",
+    "displayWord": "كراھة",
+    "translation": "karāha hatred, hate; aversion, antipathy, dislike, distaste; abhorrence, detestation, disgust, repugnance, loathing",
+    "examples": []
+  },
+  {
+    "word": "كراھية",
+    "displayWord": "كراھية",
+    "translation": "karāhiya aversion, antipathy, dislike, distaste, disgust, repugnance, loathing; incompatibility (as a reason of divorce); baseness, abominableness, reprehensibility (Isl. Law) │ على كراھية unwillingly, grudgingly, forcedly",
+    "examples": []
+  },
+  {
+    "word": "كريھة",
+    "displayWord": "كريھة",
+    "translation": "karīha pl. كرائه karā’ih2 adversity; misfortune, calamity",
+    "examples": []
+  },
+  {
+    "word": "كاره",
+    "displayWord": "كاره",
+    "translation": "kārih reluctant, grudging, unwilling, averse",
+    "examples": []
+  },
+  {
+    "word": "كرو",
+    "displayWord": "كرو",
+    "translation": "2 ) and كري) كرا karā u (karw) and كرى karā i (kary) to dig ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "كرو",
+    "displayWord": "كرو",
+    "translation": "karw digging, excavation",
+    "examples": []
+  },
+  {
+    "word": "كرة",
+    "displayWord": "كرة",
+    "translation": "2 kura pl. -āt, كرى kuran globe, sphere; ball │ كرة الأرض k. al-a. and كرة ارضية (arḍīya) terrestrial globe, globe; كرة الثلج k. at-talji snowball; كرة السلة k. as-salla basketball;",
+    "examples": []
+  },
+  {
+    "word": "كرة الطاولة",
+    "displayWord": "كرة الطاولة",
+    "translation": "k. al-ṭāwula table tennis; كرة القدم k. al-qadam football, soccer; كرة 823",
+    "examples": []
+  },
+  {
+    "word": "كرية",
+    "displayWord": "كرية",
+    "translation": "kurayya globule; pellet │ الكريات",
+    "examples": []
+  },
+  {
+    "word": "كري",
+    "displayWord": "كري",
+    "translation": "kuriy and كروي kurawī globular, globate, globose, ball-shaped, ball-like, spherical",
+    "examples": []
+  },
+  {
+    "word": "كروية",
+    "displayWord": "كروية",
+    "translation": "kurawīya globosity, sphericity, roundness │ كروية الأرض k. al-arḍ the sphericity of the earth",
+    "examples": []
+  },
+  {
+    "word": "كرواتيا",
+    "displayWord": "كرواتيا",
+    "translation": "kuruwātiyā Croatia",
+    "examples": []
+  },
+  {
+    "word": "كروان",
+    "displayWord": "كروان",
+    "translation": "karawān and كيروان a variety of plover (Charadrius cedicnemus L.; zool.)",
+    "examples": []
+  },
+  {
+    "word": "كروب",
+    "displayWord": "كروب",
+    "translation": "karūb and كروبي karūbī pl. -ūn, كروبيم karūbīm cherub, archangel",
+    "examples": []
+  },
+  {
+    "word": "كروسة",
+    "displayWord": "كروسة",
+    "translation": "(It. carozza) karōsa pl. -āt state carriage, coach",
+    "examples": []
+  },
+  {
+    "word": "كروكي",
+    "displayWord": "كروكي",
+    "translation": "(Fr. croquis) krōkī pl. كروكيات krōkīyāt sketch, draft, croquis",
+    "examples": []
+  },
+  {
+    "word": "كروم",
+    "displayWord": "كروم",
+    "translation": "krōm chrome, chromium",
+    "examples": []
+  },
+  {
+    "word": "كرويا",
+    "displayWord": "كرويا",
+    "translation": "karawyā caraway (Carum carvi L.; bot.)",
+    "examples": []
+  },
+  {
+    "word": "كري",
+    "displayWord": "كري",
+    "translation": "1 kariya a (karan) to sleep, be asleep, slumber; -- karā i (kary) to dig ( ھ e.g., a canal) III and IV to rent, lease, let, let out, farm out, hire out ( ھ ه to s.o. s.th.) V to sleep, be asleep, slumber VIII and X to rent, hire ( ھ s.th.); to lease, take on lease (",
+    "examples": []
+  },
+  {
+    "word": "كرى",
+    "displayWord": "كرى",
+    "translation": "karan sleep, slumber",
+    "examples": []
+  },
+  {
+    "word": "كراء",
+    "displayWord": "كراء",
+    "translation": "kirā’ rent, hire, hiring; lease; rental, hire; wages, pay",
+    "examples": []
+  },
+  {
+    "word": "كرى، كرية",
+    "displayWord": "كرى، كرية",
+    "translation": "2 see كرو 1",
+    "examples": []
+  },
+  {
+    "word": "كرى",
+    "displayWord": "كرى",
+    "translation": "3 karrī curry",
+    "examples": []
+  },
+  {
+    "word": "كريت",
+    "displayWord": "كريت",
+    "translation": "kirīt, كريد kirīd Crete",
+    "examples": []
+  },
+  {
+    "word": "كريطة",
+    "displayWord": "كريطة",
+    "translation": "(Span. carreta) karrīṭa pl. كراريط karārīṭ2 (tun.) cart, wagon, dray",
+    "examples": []
+  },
+  {
+    "word": "كرارطي",
+    "displayWord": "كرارطي",
+    "translation": "karariṭī carrier, carter, drayman",
+    "examples": []
+  },
+  {
+    "word": "كريك",
+    "displayWord": "كريك",
+    "translation": "(Turk. körek) kurīk pl. -āt shovel",
+    "examples": []
+  },
+  {
+    "word": "كري",
+    "displayWord": "كري",
+    "translation": "(Fr. crème) krēm cream │ كريم",
+    "examples": []
+  },
+  {
+    "word": "كريمة",
+    "displayWord": "كريمة",
+    "translation": "(It. crema; eg.) kréma cream; a kind of thick sauce (served as a condiment)",
+    "examples": []
+  },
+  {
+    "word": "كز",
+    "displayWord": "كز",
+    "translation": "kazza (1st pers. perf. kazuztu) u ( كزازة kazāza, كزوزة kuzūza) to become dry and tough, dry up, shrivel; to be withered, shriveled, shrunk; to contract, shrink; (eg.) to have an aversion ( من to), feel disgust (",
+    "examples": []
+  },
+  {
+    "word": "كز",
+    "displayWord": "كز",
+    "translation": "kazz pl. كز kuzz dry, dried up, withered, desiccated; shriveled, shrunk; tough, inflexible, unyielding, rigid, stiff │",
+    "examples": []
+  },
+  {
+    "word": "كز اليدين",
+    "displayWord": "كز اليدين",
+    "translation": "k. al-yadain closefisted, miserly, niggardly 824",
+    "examples": []
+  },
+  {
+    "word": "كزز",
+    "displayWord": "كزز",
+    "translation": "kazaz miserliness, niggardliness",
+    "examples": []
+  },
+  {
+    "word": "كزاز",
+    "displayWord": "كزاز",
+    "translation": "kuzāz, kuzzāz tetanus",
+    "examples": []
+  },
+  {
+    "word": "كزازة",
+    "displayWord": "كزازة",
+    "translation": "kazāza dryness; boringness, dullness, tediousness; stinginess, niggardliness; stiffness, rigidity",
+    "examples": []
+  },
+  {
+    "word": "كزبرة",
+    "displayWord": "كزبرة",
+    "translation": "kuzbara, kuzbura coriander (Coriandrum sativum L.; bot.) │ كزبرة الثعلب k. at-ta‘lab pimpernel; كزبرة خضراء (kaḍrā’) chervil;",
+    "examples": []
+  },
+  {
+    "word": "كزبرة الصخر",
+    "displayWord": "كزبرة الصخر",
+    "translation": "k. aṣ-ṣakr hair-cap moss (Polytrichum communis L.; bot.)",
+    "examples": []
+  },
+  {
+    "word": "كزورنة",
+    "displayWord": "كزورنة",
+    "translation": "(eg.) kazarāna (from It. casseruola) casserole, cooking vessel",
+    "examples": []
+  },
+  {
+    "word": "كسب",
+    "displayWord": "كسب",
+    "translation": "kasaba i (kasb) to gain, win, acquire ( ھ s.th.); to earn ( ھ s.th.); to profit, win, gain; to gather, acquire ( ھ knowledge); to obtain, get, attain ( ھ s.th.) │ كسب ھتافا ل (hutafan) win acclaim for, he applauded for; ما كسبت يداه (yadāhu) what he has earned in the hereafter by his (good and evil) deeds II to make or let s.o. ( ھ ) gain, win or obtain ( ھ s.th.); to let s.o. ( ه) share the profit IV to make or let s.o. ( ه) gain, win or obtain ( ھ s.th.), secure ( ھ ه for s.o. s.th.); to impart ( ھ ھ or ه to s.o. or to s.th. s.th., also e.g., to the face a certain expression) │ اكسب مناعة ضد (manā‘atan ḍidda) to make immune to ... V to earn ( ھ s.th.); to acquire, obtain ( ھ s.th.); to gain, win ( ھ s.th.) VIII do.; to possess have, own ( ھ s.th.); to take on ( ھ a new quality, a color, a different aspect, and the like)",
+    "examples": []
+  },
+  {
+    "word": "كسب",
+    "displayWord": "كسب",
+    "translation": "kasb acquisition; earnings; gain, profit; winnings; s.th. acquired or gained, acquirement; acquired knowledge, learning",
+    "examples": []
+  },
+  {
+    "word": "كسب",
+    "displayWord": "كسب",
+    "translation": "kusb and كسب kusba oil cake",
+    "examples": []
+  },
+  {
+    "word": "كاسب",
+    "displayWord": "كاسب",
+    "translation": "kāsib winner; earner, provider",
+    "examples": []
+  },
+  {
+    "word": "كسبرة",
+    "displayWord": "كسبرة",
+    "translation": "kasbara coriander (bot.; = كزبرة , q.v.)",
+    "examples": []
+  },
+  {
+    "word": "كستاك",
+    "displayWord": "كستاك",
+    "translation": "kustāk see كستك",
+    "examples": []
+  },
+  {
+    "word": "كستبان",
+    "displayWord": "كستبان",
+    "translation": "kustubān pl. كساتبين kasātibīn2 thimble",
+    "examples": []
+  },
+  {
+    "word": "كسكت",
+    "displayWord": "كسكت",
+    "translation": "(Turk. köstek) kustak and كستيك pl. كساتك kasātik watch chain",
+    "examples": []
+  },
+  {
+    "word": "كستلية",
+    "displayWord": "كستلية",
+    "translation": "(It. sastoletta) kustulēta, kustalēta cutlet, chop",
+    "examples": []
+  },
+  {
+    "word": "كستنة",
+    "displayWord": "كستنة",
+    "translation": "kastana chestnut (bot.)",
+    "examples": []
+  },
+  {
+    "word": "كستنائي",
+    "displayWord": "كستنائي",
+    "translation": "kastanā’ī maroon, chestnutcolored",
+    "examples": []
+  },
+  {
+    "word": "كسح",
+    "displayWord": "كسح",
+    "translation": "kasaḥa a (kasḥ) to sweep; to clean, clean out, empty; -- kasiḥa a (kaṣaḥ) to be crippled; to become a cripple II (eg.) to cripple ( ه s.o.); to bend, twist, warp (o s.th.) VIII to sweep away ( ھ s.th.); to wash away, flush out, remove ( ھ s.th.); to overrun ( ھ s.th.); to flood, overflow ( ھ s.th.), spread, fan out ( ھ over s.th.); to plunder, pillage, sack ( ھ a captured town); to snatch up, seize ( ھ s.th.), take hold ( ھ of)",
+    "examples": []
+  },
+  {
+    "word": "كسح",
+    "displayWord": "كسح",
+    "translation": "kasḥ sweeping; cleaning; clearing; emptying (e.g., of a latrine); lameness, paralysis, palsy",
+    "examples": []
+  },
+  {
+    "word": "كساح",
+    "displayWord": "كساح",
+    "translation": "kusāḥ rachitis, rickets",
+    "examples": []
+  },
+  {
+    "word": "كساحة",
+    "displayWord": "كساحة",
+    "translation": "kusāḥa sweepings; refuse, garbage, rubbish, trash",
+    "examples": []
+  },
+  {
+    "word": "كسيح",
+    "displayWord": "كسيح",
+    "translation": "kasīḥ lame, palsied, paralyzed; crippled",
+    "examples": []
+  },
+  {
+    "word": "كاسحة",
+    "displayWord": "كاسحة",
+    "translation": "kāsiḥa: كاسحة الألغام k. al-algām mine sweeper",
+    "examples": []
+  },
+  {
+    "word": "كسد",
+    "displayWord": "كسد",
+    "translation": "kasada and kasuda u ( كساد kasād, كسود kasūd) to find no market, not to move, sell badly (merchandise); to be stagnant, dull, listless (business, market) IV to be dull, listless (market)",
+    "examples": []
+  },
+  {
+    "word": "كساد",
+    "displayWord": "كساد",
+    "translation": "kasād unsalableness of merchandise; economic depression, dullness of the market, stagnation of commerce, recession; slump O مكاسدة mukāsada dumping",
+    "examples": []
+  },
+  {
+    "word": "كاسد",
+    "displayWord": "كاسد",
+    "translation": "kāsid and كسيد kasīd selling badly, little in demand (merchandise); stagnant, dull, listless (market)",
+    "examples": []
+  },
+  {
+    "word": "كسر",
+    "displayWord": "كسر",
+    "translation": "1 kasara i (kasr) to break, shatter, fracture (",
+    "examples": []
+  },
+  {
+    "word": "كسر",
+    "displayWord": "كسر",
+    "translation": "kasr breaking, fracturing; shattering, fragmentation; -- (pl. كسور kusūr) break, breach, fracture; crack, rupture; fracture of a bone; (pl. كسر kusūr,",
+    "examples": []
+  },
+  {
+    "word": "كسورات",
+    "displayWord": "كسورات",
+    "translation": ") fraction (arith.) │ كسر عشري",
+    "examples": []
+  },
+  {
+    "word": "كسر",
+    "displayWord": "كسر",
+    "translation": "kasr, kisr: كسر البيت k. al-bait nook of the house; جثم في كسر بيته to live in seclusion, stay in one’s four walls",
+    "examples": []
+  },
+  {
+    "word": "كسرة",
+    "displayWord": "كسرة",
+    "translation": "kasra defeat, breakdown, collapse; the vowel point for i; nook of the house",
+    "examples": []
+  },
+  {
+    "word": "كسرة",
+    "displayWord": "كسرة",
+    "translation": "kisra pl. كسر kisar, -āt fragment; a small piece; chunk (of bread); slice (of bread)",
+    "examples": []
+  },
+  {
+    "word": "كسير",
+    "displayWord": "كسير",
+    "translation": "kasīr pl. كسرى kasrā, كسارى kasārā broken, fractured, shattered; defeated; see also كسرى alphabetically O كسارة kassāra nutcracker",
+    "examples": []
+  },
+  {
+    "word": "كسيرة",
+    "displayWord": "كسيرة",
+    "translation": "kusaira diopter (phys.)",
+    "examples": []
+  },
+  {
+    "word": "كسر",
+    "displayWord": "كسر",
+    "translation": "maksir: صلب المكسر ṣulb al-m. hard to break, robust, sturdy, hardy, firm, strong; طيب المكسر ṭayyib al-m. standing the test, proving its value, of excellent quality; لين المكاسر layyin al-makāsir soft, gentle",
+    "examples": []
+  },
+  {
+    "word": "كاسر",
+    "displayWord": "كاسر",
+    "translation": "kāsir breaking, shattering, etc.; (pl.",
+    "examples": []
+  },
+  {
+    "word": "كواسر",
+    "displayWord": "كواسر",
+    "translation": "kawāsir2) rapacious, ferocious, savage (predatory animal) │ كاسر الحجر k. al-ḥajar saxifrage, stonebreak (bot.); طير",
+    "examples": []
+  },
+  {
+    "word": "كاسر",
+    "displayWord": "كاسر",
+    "translation": "(ṭair) bird of prey; كواسر الطير k. aṭ- ṭair predatory birds",
+    "examples": []
+  },
+  {
+    "word": "كسرونة",
+    "displayWord": "كسرونة",
+    "translation": "kasarōna (eg.) see كزرونة",
+    "examples": []
+  },
+  {
+    "word": "كسرى",
+    "displayWord": "كسرى",
+    "translation": "kisrā pl. اكاسرة akāsira, اكاسر akāsir2 Khosrau; designation of the Persian kings in general",
+    "examples": []
+  },
+  {
+    "word": "كسع",
+    "displayWord": "كسع",
+    "translation": "kasa‘a a to chase away ( ه s.o.); to strike, shove, push, kick ( ه s.o. from behind) VIII to put its tail ( ب) between its legs",
+    "examples": []
+  },
+  {
+    "word": "كسف",
+    "displayWord": "كسف",
+    "translation": "kasafa i ( كسوف kusūf) to be or become dark, gloomy; to be eclipsed, pass through an eclipse (sun); -- to reprimand, reprove (",
+    "examples": []
+  },
+  {
+    "word": "كسف",
+    "displayWord": "كسف",
+    "translation": "kasf darkening, occultation, eclipse; dark, darkness, gloominess",
+    "examples": []
+  },
+  {
+    "word": "كسوف ١",
+    "displayWord": "كسوف ١",
+    "translation": "cuaUf occultation, eclipse, solar eclipse",
+    "examples": []
+  },
+  {
+    "word": "كاسف",
+    "displayWord": "كاسف",
+    "translation": "kāsif dejected, downcast, sad, worried, grieved; gloomy",
+    "examples": []
+  },
+  {
+    "word": "كسكس",
+    "displayWord": "كسكس",
+    "translation": "kaskasa to pound, bray, grind, powder, pulverize; (eg.) to retreat, fall back, withdraw",
+    "examples": []
+  },
+  {
+    "word": "كسكسو",
+    "displayWord": "كسكسو",
+    "translation": "kuskusū and كسكسي kuskusī couscous, dish prepared of groats and salt water (staple food in northwest Africa)",
+    "examples": []
+  },
+  {
+    "word": "كسكاس",
+    "displayWord": "كسكاس",
+    "translation": "kuskās, kaskās sieve for preparing couscous",
+    "examples": []
+  },
+  {
+    "word": "كسل",
+    "displayWord": "كسل",
+    "translation": "kasila a (kasal) to be lazy, idle, sluggish, indolent, negligent; to idle, loaf II to make lazy or negligent ( ه s.o.) VI = I",
+    "examples": []
+  },
+  {
+    "word": "كسل",
+    "displayWord": "كسل",
+    "translation": "kasal laziness, sluggishness, idleness, inactivity, loafing, indolence, negligence",
+    "examples": []
+  },
+  {
+    "word": "كسل",
+    "displayWord": "كسل",
+    "translation": "kasil and كسول kasūl lazy, idle",
+    "examples": []
+  },
+  {
+    "word": "كسلان",
+    "displayWord": "كسلان",
+    "translation": "kaslān f. ة، كسلى kaslā, pl. كسالى kasālā, kusālā, كسلى kaslā lazy, sluggish, slothful, indolent, idle, inactive",
+    "examples": []
+  },
+  {
+    "word": "كسم",
+    "displayWord": "كسم",
+    "translation": "kasama i (kasm) to make living ( على عياله ‘alā ‘iyālihī for one’s family) II to give form ( ھ to s.th.), shape, fashion ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "كسم",
+    "displayWord": "كسم",
+    "translation": "kasm cut, style (of a dress); clothing, clothes, costume, fashion; form, shape; manner, mode",
+    "examples": []
+  },
+  {
+    "word": "كسيم",
+    "displayWord": "كسيم",
+    "translation": "kasīm duty, rate, tax 827",
+    "examples": []
+  },
+  {
+    "word": "كسو",
+    "displayWord": "كسو",
+    "translation": ") and كسي) كسا kasā u (kasw) to clothe, dress, garb, attire ( ھ s.o. with or in); to hang, drape, face, line, case ( ب or ھ",
+    "examples": []
+  },
+  {
+    "word": "كسوة",
+    "displayWord": "كسوة",
+    "translation": "kiswa pl. كسى kusan, kisan, كساو kasāwin clothing, clothes, apparel, attire, raiment; dress, garment; suit of clothes; uniform; draping, lining, casing, facing, paneling, wainscoting (e.g., of walls) │",
+    "examples": []
+  },
+  {
+    "word": "كساء",
+    "displayWord": "كساء",
+    "translation": "kisā’ pl. اكسية aksiya garment; dress",
+    "examples": []
+  },
+  {
+    "word": "كش",
+    "displayWord": "كش",
+    "translation": "kašša i to recoil ( من from)",
+    "examples": []
+  },
+  {
+    "word": "كشة",
+    "displayWord": "كشة",
+    "translation": "kušša lock of hair",
+    "examples": []
+  },
+  {
+    "word": "كشتبان",
+    "displayWord": "كشتبان",
+    "translation": "kuštubān, kuštibān pl. كشاتبين kašātibīn2 thimble",
+    "examples": []
+  },
+  {
+    "word": "كشح",
+    "displayWord": "كشح",
+    "translation": "kašaḥa a (kašḥ): كشح له بالعداوة (bil-‘ adāwa) to harbor enmity toward s.o., hate s.o.; -- to disperse, scatter, break up ( ه a crowd), send away, dismiss, drive away, chase away ( ه s.o.) III كاشحة في العداوة (bil-‘ adāwa) to harbor enmity toward s.o., hate s.o. VII to be dispersed, be scattered; to disperse, scatter, break up; to be dispelled",
+    "examples": []
+  },
+  {
+    "word": "كشح",
+    "displayWord": "كشح",
+    "translation": "kašḥ pl. كشوح kušūḥ region of the hip, haunch, flank, side, waist; Venus’sshell, cowrie │ طوى كشح على (ṭawā kašḥahū) to keep s.th. to o.s., keep s.th. secret; طوى كشحه ( كشحا) عن to turn from s.o., break with s.o.; ولاه كشحه (wallāhu) to turn one’s back on s.o.",
+    "examples": []
+  },
+  {
+    "word": "كشاحة",
+    "displayWord": "كشاحة",
+    "translation": "kušāḥa secret enmity, rancor, grudge, resentment, hate",
+    "examples": []
+  },
+  {
+    "word": "كاشح",
+    "displayWord": "كاشح",
+    "translation": "kāšiḥ secret enemy",
+    "examples": []
+  },
+  {
+    "word": "كشر",
+    "displayWord": "كشر",
+    "translation": "kašara i (kašr) and II to bare one’s teeth; to grimace; to grin, smile ( الى at s.o.); to scowl, glower, bear a grim expression │",
+    "examples": []
+  },
+  {
+    "word": "كشر عن اسنانه",
+    "displayWord": "كشر عن اسنانه",
+    "translation": "to bare or show one’s teeth;",
+    "examples": []
+  },
+  {
+    "word": "كشر عن نابه",
+    "displayWord": "كشر عن نابه",
+    "translation": "(انيابه ) do.",
+    "examples": []
+  },
+  {
+    "word": "كشرة",
+    "displayWord": "كشرة",
+    "translation": "kišra grimace",
+    "examples": []
+  },
+  {
+    "word": "كشط",
+    "displayWord": "كشط",
+    "translation": "kašaṭa i (kašṭ) to take off ( ھ a wrapping, a covering); to pull off ( ھ s.th.); to erase ( ھ s.th. written); to remove ( ھ s.th.); to scratch off, scrape off ( ھ s.th., ب e.g., with a knife so as to clean it)",
+    "examples": []
+  },
+  {
+    "word": "كشب",
+    "displayWord": "كشب",
+    "translation": "kašafa i (kašf) to pull away, remove, take off, throw open, lift, raise ( ھ a covering, a curtain, a veil, etc., عن from); to reveal, disclose, uncover, expose, bare ( ھ or عن s.th.); to clear up ( ھ or عن s.th.), shed light ( ھ or عن on); to show, demonstrate ( ھ or عن s.th.); to open up, lay open, lay bare ( ھ or عن s.th.); to bring to light ( ھ or عن s.th.); to study, scrutinize, 828 investigate, examine ( عن s.th.); to examine medically ( على s.o.) │",
+    "examples": []
+  },
+  {
+    "word": "كشف القناع عن",
+    "displayWord": "كشف القناع عن",
+    "translation": "to unveil, unmask s.o. or s.th.; كشف عليه طبيا (ṭibbīyan) to examine s.o. medically ; كشفت الحرب عن ساقھا (ḥarbu) the war was or become violent, flared up; war broke out III to discuss, reveal, manifest, demonstrate, show ( ب ه to s.o. s.th.), evince ( toward s.o. s.th.); to make known ( ب or ھ ه to s.o. s.th.), inform ( ب or ھ ه s.o. of) │ كاشفه بالعداوة (bil-‘ adāwa) to manifest open hostility toward s.o. V to be uncovered, be exposed, be laid open, be bared, be disclosed, be revealed, be brought to light; to come to light, become visible, manifest itself, show; to open, be opened up ( عن",
+    "examples": []
+  },
+  {
+    "word": "كشف",
+    "displayWord": "كشف",
+    "translation": "kašf uncovering, disclosure; baring, exposure, unveiling; revelation, illumination (mys.); investigation, inquiry, search, quest, study; examination, scrutiny; inspection; boy scout movement; -- (pl. كشوف kušūf, كشوفات kušūfāt) report, account; statement, specification, enumeration; table, schedule, chart; list, roster, index, register, inventory; pl. كشوف discoveries │ كشف طبي ṭibbī) medical examination; كشف الاقتراع muster roll; كشف",
+    "examples": []
+  },
+  {
+    "word": "كشفي",
+    "displayWord": "كشفي",
+    "translation": "kašfī of or pertaining to boy scouts │ حركة كشفية (ḥaraka) boy scout movement",
+    "examples": []
+  },
+  {
+    "word": "كشاف",
+    "displayWord": "كشاف",
+    "translation": "kaššāf pl. كشافة kaššāfa discoverer, inventor; explorer, reconnoiterer, scout; boy scout │ O كشاف كھربائي (kahrabā’ī) searchlight; مصباح كشاف (miṣbāḥ) and نور",
+    "examples": []
+  },
+  {
+    "word": "كشاف",
+    "displayWord": "كشاف",
+    "translation": "(nūr) pl. انوار كشافة do.",
+    "examples": []
+  },
+  {
+    "word": "كشافة",
+    "displayWord": "كشافة",
+    "translation": "kaššāfa exploration; reconnaissance, reconnoitering, scouting (mil.); boy scout movement, scouting",
+    "examples": []
+  },
+  {
+    "word": "كشافي",
+    "displayWord": "كشافي",
+    "translation": "kišāfī of boy scouts, boy scout (adj.)",
+    "examples": []
+  },
+  {
+    "word": "كشيف",
+    "displayWord": "كشيف",
+    "translation": "kašīf uncovered, open, exposed",
+    "examples": []
+  },
+  {
+    "word": "كاشف",
+    "displayWord": "كاشف",
+    "translation": "kāšif pl. كشفة kašafa uncovering, revealing, etc.; serving exploratory purposes, instrumental in reconnaissance, conducive to discovery, detection or disclosure; examiner, investigator, discoverer; supervisor, inspector; (Eg.) head of a muqāṭa‘a, district chief (obsolete); detector (radio); كاشف and كاشفة reagent (chem.) │ ضوء كاشف (ḍau’) pl.",
+    "examples": []
+  },
+  {
+    "word": "كشك",
+    "displayWord": "كشك",
+    "translation": "1 kušk pl. اكشاك akšāk kiosk; summerhouse, pavilion, cabin, log cabin; hut, shed, shanty; (telephone) booth; stall, stand, booth (at a fair, etc.) │ كشك الاستحمام bathhouse; beach chair; كشك الاشارات k. alilšārāt block station, signal box (railroad);",
+    "examples": []
+  },
+  {
+    "word": "كشك الديدبان",
+    "displayWord": "كشك الديدبان",
+    "translation": "k. ad-daidabān sentry box; O",
+    "examples": []
+  },
+  {
+    "word": "كشك محول",
+    "displayWord": "كشك محول",
+    "translation": "(muḥawwil) transformer house",
+    "examples": []
+  },
+  {
+    "word": "كشك",
+    "displayWord": "كشك",
+    "translation": "2 kišk a dough made of bulgur and sour milk, cut into small pieces, dried and need for the preparation of other dishes (so in Egypt; there are several other ways of preparing it) │ (eg.) كشك الماز kišk almāz asparagus",
+    "examples": []
+  },
+  {
+    "word": "كشكش",
+    "displayWord": "كشكش",
+    "translation": "kaškaša to rustle; to flee, run away; (eg.) to pleat",
+    "examples": []
+  },
+  {
+    "word": "كشكش",
+    "displayWord": "كشكش",
+    "translation": "kaškaš pl. كشاكش kašākiš2 seam; hem, edge, border",
+    "examples": []
+  },
+  {
+    "word": "كشكول",
+    "displayWord": "كشكول",
+    "translation": "kaškūl beggar’s bag; scrapbook; album",
+    "examples": []
+  },
+  {
+    "word": "كشمش",
+    "displayWord": "كشمش",
+    "translation": "kišmiš a kind of currants",
+    "examples": []
+  },
+  {
+    "word": "كشمير",
+    "displayWord": "كشمير",
+    "translation": "kašmīr2 Kashmir (region in NE India); kašmīr cashmere (a soft, twilled woolen fabric)",
+    "examples": []
+  },
+  {
+    "word": "كشنى",
+    "displayWord": "كشنى",
+    "translation": "kušnā lentil tare, slender vetch (bot.) □ كض (for كظ ) V to be replete, overfull, overloaded, overburdened VIII to be overfilled, be replete ( ب with s.th.), be chock-full",
+    "examples": []
+  },
+  {
+    "word": "كظ",
+    "displayWord": "كظ",
+    "translation": "kaẓẓa u (kaẓẓ) to fill, overfill ( ھ s.th.); to burden, weight, encumber ( ھ s.th.); to overstuff, surfeit, cloy ( ھ the stomach)VIII to be crammed full, be jampacked, be overcrowded ( ب with, esp. with people); to sate o.s. eat one’s fill; to be overstuffed, be surfeited, be cloyed ( ب with); to be abundant, copious, plentiful",
+    "examples": []
+  },
+  {
+    "word": "كظة",
+    "displayWord": "كظة",
+    "translation": "kiẓẓa gorging, cloying, overstuffing (of the stomach); surfeit",
+    "examples": []
+  },
+  {
+    "word": "كظيظ",
+    "displayWord": "كظيظ",
+    "translation": "kaẓīẓ overfilled, overstuffed, cloyed, surfeited",
+    "examples": []
+  },
+  {
+    "word": "كظر",
+    "displayWord": "كظر",
+    "translation": "kuẓr suet",
+    "examples": []
+  },
+  {
+    "word": "كظم",
+    "displayWord": "كظم",
+    "translation": "kaẓama i (kaẓm, كظوم kuẓūm) to conceal or suppress ( ھ one’s anger); to be mum, keep silent",
+    "examples": []
+  },
+  {
+    "word": "كظيم",
+    "displayWord": "كظيم",
+    "translation": "kaẓīm filled with anger",
+    "examples": []
+  },
+  {
+    "word": "كعب",
+    "displayWord": "كعب",
+    "translation": "ka‘aba u i ( كعوب ku‘ūb) to be full and round, be swelling (breasts) II to make cubic, to cube ( ھ s.th.); to dice ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "كعب",
+    "displayWord": "كعب",
+    "translation": "ka‘b pl. كعاب ki‘āb, كعوب ku‘ūb knot, knob, node (of cane); joint, articulation; ankle, anklebone; heel (of the fact, of a shoe); ferrule; die; cube; high rank, fame, glory, honor │ كعب الكتاب (pl.",
+    "examples": []
+  },
+  {
+    "word": "كعوب",
+    "displayWord": "كعوب",
+    "translation": ") spine of a book; ارقى كعبا arqā ka‘ban abler, more capable, more qualified, more efficient; رجل عالي الكعب rajul ‘ālī l-k. a distinguished, capable, successful man; علو الكعب ‘ulūw al-k. high rank, outstanding position; ذھب كعبھم their days of glory are past 830",
+    "examples": []
+  },
+  {
+    "word": "كعب",
+    "displayWord": "كعب",
+    "translation": "ku‘b breasts, bosom",
+    "examples": []
+  },
+  {
+    "word": "كعبة",
+    "displayWord": "كعبة",
+    "translation": "ka‘ba pl. ka‘abāt cube, cubic structure; الكعبة the Kaaba (in Mecca); (fig.) shrine; object of veneration, focus of interest",
+    "examples": []
+  },
+  {
+    "word": "كعبي",
+    "displayWord": "كعبي",
+    "translation": "ka‘bī cubic",
+    "examples": []
+  },
+  {
+    "word": "كعبة",
+    "displayWord": "كعبة",
+    "translation": "ku‘ba virginity",
+    "examples": []
+  },
+  {
+    "word": "كعاب",
+    "displayWord": "كعاب",
+    "translation": "ka‘āb having swelling breasts, buxom (girl)",
+    "examples": []
+  },
+  {
+    "word": "كاعب",
+    "displayWord": "كاعب",
+    "translation": "kā‘ib pl. كواعب kawā‘ib2 welldeveloped, full and round, swelling (bosom); having swelling breasts, buxom (girl); كواعب buxom girls",
+    "examples": []
+  },
+  {
+    "word": "كعبرة",
+    "displayWord": "كعبرة",
+    "translation": "ku‘bura and كعبورة ku‘būra pl. كعابر ka‘ābir2 knotty excrescence, knot, knob, node; كعبرة radius (anat.) │ عظم الكعبرة ‘aẓm al-k. radius (anat.)",
+    "examples": []
+  },
+  {
+    "word": "كعبل",
+    "displayWord": "كعبل",
+    "translation": "ka‘bala (eg.) to trip up ( ه s.o.); to make ( ه s.o.) stumble",
+    "examples": []
+  },
+  {
+    "word": "كعك",
+    "displayWord": "كعك",
+    "translation": "ka‘k (coll.; n. un. ة) cake; designation of various kinds of pastry, also of small baked goods; pretzel (syr.)",
+    "examples": []
+  },
+  {
+    "word": "كعم",
+    "displayWord": "كعم",
+    "translation": "ka‘ama a (ka‘m) to muzzle ( ھ a camel); to gag ( ه s.o.); to cap, seal ( ھ a vessel)",
+    "examples": []
+  },
+  {
+    "word": "كغم",
+    "displayWord": "كغم",
+    "translation": "abbreviation of كيلوغرام kīlogrām kilogram",
+    "examples": []
+  },
+  {
+    "word": "كف",
+    "displayWord": "كف",
+    "translation": "kaffa u (kaff) to border, edge, hem ( ھ a garment); to desist, refrain ( عن from), cease, forbear ( عن doing s.th.), give up, stop ( عن s.th.); to renounce, waive, forgo (",
+    "examples": []
+  },
+  {
+    "word": "كف",
+    "displayWord": "كف",
+    "translation": "kaff desistance, refraining ( عن from); abstaining, abstention ( من from); cessation, suspension, stop, stoppage, discontinuation ( عن of s.th.); -- kaff f., pl.",
+    "examples": []
+  },
+  {
+    "word": "كفوف",
+    "displayWord": "كفوف",
+    "translation": "kufūf, اكف akuff palm of the hand; glove; paw, foot, claw (of an animal); slap; scale (of a balance); handful; quire; bar (of chocolate) │ كف مريم k. mayam (eg.) agnus castus, chaste tree (Vitex agnus-castus; bot.); rose of Jericho, resurrection plant (Anastatica hierochuntica L.; bot.); الكف الجذماء (jadmā’) star α in the constellation Cetus;",
+    "examples": []
+  },
+  {
+    "word": "كفه",
+    "displayWord": "كفه",
+    "translation": "(ḥayātahū) to risk one’s life; استدر الأكف istadarra l-akuffa to secure generous contributions",
+    "examples": []
+  },
+  {
+    "word": "كفة",
+    "displayWord": "كفة",
+    "translation": "kiffa, kaffa pl. كفف kifaf, كفاف kifāf palm of the hand; scale (of a balance)",
+    "examples": []
+  },
+  {
+    "word": "كفة",
+    "displayWord": "كفة",
+    "translation": "kaffa: كفة بارود k. bārūd (eg.) cartridge pouch",
+    "examples": []
+  },
+  {
+    "word": "كفة",
+    "displayWord": "كفة",
+    "translation": "kuffa pl. كفف kufaf edge, seam, hem, border",
+    "examples": []
+  },
+  {
+    "word": "كفاف",
+    "displayWord": "كفاف",
+    "translation": "kafāf sufficiency, sufficient means for a living",
+    "examples": []
+  },
+  {
+    "word": "كفاف",
+    "displayWord": "كفاف",
+    "translation": "kifāf border, edge, fringe, seam, hem 831",
+    "examples": []
+  },
+  {
+    "word": "كفافة",
+    "displayWord": "كفافة",
+    "translation": "kifāfa hemming; hem",
+    "examples": []
+  },
+  {
+    "word": "كفيف",
+    "displayWord": "كفيف",
+    "translation": "kafīf blind │ كفيف البصر k. al-baṣar blind",
+    "examples": []
+  },
+  {
+    "word": "كافة",
+    "displayWord": "كافة",
+    "translation": "kāffa totality, entirety; (with foll. genit.) all; the people, the masses, the populace; kāffatan all without exception, one and all; altogether, in the aggregate, collectively",
+    "examples": []
+  },
+  {
+    "word": "كفأ",
+    "displayWord": "كفأ",
+    "translation": "kafa’a a (kaf’) to turn around, turn over, reverse, invert ( ھ s.th.); to turn away, turn aside, turn back ( من from) III to reward ( ه s.o.); to requite, return, repay, recompense ( ب ھ s.th. with); to compensate, make up ( ب ھ for s.th. with); to be similar, equal ( ھ to s.th.), equal ( ھ s.th.), be commensurate ( ھ with); to measure up, come up ( ھ to s.th.), compare favorably ( ھ with) IV to turn over, reverse, invert ( ھ s.th.) VI to be equal, be on a par; to (counter)balance each other, be perfectly matched VII to be turned away, be turned aside; to be changed, be altered; to recede, change, fade (color); to turn back, withdraw, retreat, fall back, give way; to be inverted, be reversed, be turned around or over; to fall down. tumble, topple",
+    "examples": []
+  },
+  {
+    "word": "كفء",
+    "displayWord": "كفء",
+    "translation": "kaf’, kif’, kuf’ pl. اكفاء akfā’, كفاء kifā’ equal, alike; adequate, appropriate, suitable, fit ( ل for); equal ( ل to s.o.), a match ( ل for); qualified, capable, able, competent, efficient",
+    "examples": []
+  },
+  {
+    "word": "كفوء",
+    "displayWord": "كفوء",
+    "translation": "kufū’, كفؤ kufu’ equal, comparable (",
+    "examples": []
+  },
+  {
+    "word": "كفاء",
+    "displayWord": "كفاء",
+    "translation": "kifā’ an equivalent",
+    "examples": []
+  },
+  {
+    "word": "كفاء",
+    "displayWord": "كفاء",
+    "translation": "kafā’ equality; adequacy, adequateness",
+    "examples": []
+  },
+  {
+    "word": "كفاءة",
+    "displayWord": "كفاءة",
+    "translation": "kafā’a equality; adequacy, adequateness; comparableness; fitness, suitability, appropriateness; competence, efficiency, ability, capability; pl. كفاءات qualifications, abilities, capabilities",
+    "examples": []
+  },
+  {
+    "word": "كفت",
+    "displayWord": "كفت",
+    "translation": "kafata i (kaft) to restrain, detain, turn away, prevent, hold back ( من ه s.o. from) II to plate ( ب ھ s.th. with); to inlay ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "كفت",
+    "displayWord": "كفت",
+    "translation": "kift cooking pot",
+    "examples": []
+  },
+  {
+    "word": "كفتة",
+    "displayWord": "كفتة",
+    "translation": "kufta meat balls, hamburgers, oblong or round │ سمك كفتة (samak) fried fish cakes; كفتة بطاطس potato dumplings stuffed with meat",
+    "examples": []
+  },
+  {
+    "word": "كفيت",
+    "displayWord": "كفيت",
+    "translation": "takfīt inlaid work, inlay; plating, platework",
+    "examples": []
+  },
+  {
+    "word": "كفح",
+    "displayWord": "كفح",
+    "translation": "kafḥ a (kafḥ) to face frankly, confront, encounter or meet face to face ( ه s.o.) III = I; to combat ( ه s.o., ھ s.th.), fight, battle, struggle, contend ( ه against); to defend ( عن s.th.), fight ( عن for) │ كافح اموره (umūrahū) to manage one’s affairs personally",
+    "examples": []
   },
   {
     "word": "كفاح",
-    "displayWord": "كِفَاح",
-    "root": "كفح",
-    "translation": "struggle, fight, battle, effort",
-    "examples": [
-      {
-        "ar": "نَالَتِ الشُّعُوبُ حُرِّيَّتَهَا بَعْدَ كِفَاحٍ مَرِيرٍ.",
-        "en": "Nations achieved their freedom after a bitter struggle.",
-        "source": "Historical Analysis"
-      }
-    ]
+    "displayWord": "كفاح",
+    "translation": "kifāḥ and مكافحة mukāfaḥa opposition, fight, battle, struggle (with genit.: against); contention, strife",
+    "examples": []
+  },
+  {
+    "word": "كفر",
+    "displayWord": "كفر",
+    "translation": "1 kafara i (kafr) to cover, hide ( ھ s.th.); -- (kufr, كفران kufrān, كفور kufūr) to be irreligious, be an infidel, not to believe ( 􀍿 با in God); 􀍿 كفر با also: to blaspheme God, curse, swear; to 632 renege one’s faith. become an infidel; to be ungrateful (",
+    "examples": []
+  },
+  {
+    "word": "كفر",
+    "displayWord": "كفر",
+    "translation": "kafr pl. كفور kufūr small village, hamlet",
+    "examples": []
+  },
+  {
+    "word": "كفر",
+    "displayWord": "كفر",
+    "translation": "kufr and كفران kufrān unbelief, infidelity │ 􀍿 كفر با godlessness, atheism; blasphemy, profanity; كفران بالنعمة (ni’ma) ingratitude, ungratefulness",
+    "examples": []
+  },
+  {
+    "word": "كفار",
+    "displayWord": "كفار",
+    "translation": "kaffār infidel, unbeliever",
+    "examples": []
+  },
+  {
+    "word": "كفارة",
+    "displayWord": "كفارة",
+    "translation": "kaffāra penance, atonement ( عن for a sin), expiation ( عن of); reparation, amends; expiatory gifts, expiations (distributed to the poor at a funeral)",
+    "examples": []
+  },
+  {
+    "word": "كافر",
+    "displayWord": "كافر",
+    "translation": "kāfir pl. –ūn, كفار kuffār, كفرة kafara, كفار kifār irreligious, unbelieving; unbeliever, infidel, atheist; ungrateful │",
+    "examples": []
+  },
+  {
+    "word": "كافر بالنعمة",
+    "displayWord": "كافر بالنعمة",
+    "translation": "(ni’ma) ungrateful",
+    "examples": []
+  },
+  {
+    "word": "كافور",
+    "displayWord": "كافور",
+    "translation": "2 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "كفس",
+    "displayWord": "كفس",
+    "translation": "kafisa a (kafas) to be bandy-legged VII do.",
+    "examples": []
+  },
+  {
+    "word": "كفكف",
+    "displayWord": "كفكف",
+    "translation": "kafkafa to hold back ( ھ tears)",
+    "examples": []
+  },
+  {
+    "word": "كفل",
+    "displayWord": "كفل",
+    "translation": "kafala u (kafl, كفالة kafāla) to feed, support ه) s.o.), provide ( ه for s.o.; عائلة ‘ā’ilatan for a family); -- kafala u i, kafila a and kafula u (kafl, كفول kufūl, كفالة kafāla) to vouch, answer, go bail, be guaranty, be or stand sponsor, be responsible, liable, answerable ( ب for); to guarantee, sponsor ه) s.o.); to be legal guardian ( ه of s.o.); to secure; to warrant, ensure ( ھ s.th.); to guarantee ( ل ھ s.th. to s.o.); O to cover, back (currency with gold) II to feed, support ( ه s. o.), provide ( ه for); to admit as security sponsor or bail ( ه s.o.); to name sponsor, ask to be security or to go bail, appoint security or bail ( ه s.o.) III to conclude an agreement, make a contract ( ه with s.o.) IV to appoint as security, sponsor or bail ( ه s.o.), make ( ه s.o.) go bail V to be security, go bail, vouch, be or become responsible, answerable or liable (",
+    "examples": []
+  },
+  {
+    "word": "كفل",
+    "displayWord": "كفل",
+    "translation": "kafl guaranty, warranty",
+    "examples": []
+  },
+  {
+    "word": "كفل",
+    "displayWord": "كفل",
+    "translation": "kafal pl. اكفال akfāl, كفول kufūl rump, buttocks; croup of a horse",
+    "examples": []
+  },
+  {
+    "word": "كفالة",
+    "displayWord": "كفالة",
+    "translation": "kafāla bail, guaranty, security, sponsorship; pledge, deposit, surety, collateral │ كفالة مالية (mālīya) surety, security; bail; caution money; كفالة بالنفس (nafs) bail (esp. for due appearance of a person in court; Isl. Law); في كفالة فلان under the protection or tutelage of s.o., in s.o.’s custody",
+    "examples": []
+  },
+  {
+    "word": "كفيل",
+    "displayWord": "كفيل",
+    "translation": "kafīl pl. كفلاء kufalā’2 responsible, liable, answerable; bail, bailsman, security, surety, sponsor, bondsman; guarantor ( ب of s.th.); vouching ( ب for s.th.), guaranteeing ( ب s.th.); protector; legal guardian │ كفيل بالنفس (nafs) bail, bailsman (esp. one guaranteeing the due appearance of a person in court; Isl. Law) 833",
+    "examples": []
+  },
+  {
+    "word": "كافل",
+    "displayWord": "كافل",
+    "translation": "kāfil pl. كفل kufal breadwinner, supporter, provider; bail, bailsman, security, surety, sponsor, bondsman; protector; legal guardian",
+    "examples": []
+  },
+  {
+    "word": "كفن",
+    "displayWord": "كفن",
+    "translation": "kafana i (kafn) to cover with a winding sheet, to shroud, dress for the grave ( ھ the deceased) II do.; to wrap ( ب ھ s.th. in), cover ( ب ھ s.th. with)",
+    "examples": []
+  },
+  {
+    "word": "كفن",
+    "displayWord": "كفن",
+    "translation": "kafn saltless",
+    "examples": []
+  },
+  {
+    "word": "كفن",
+    "displayWord": "كفن",
+    "translation": "kafan pl. اكفان akfān shroud, winding sheet",
+    "examples": []
+  },
+  {
+    "word": "كفھر",
+    "displayWord": "كفھر",
+    "translation": "IV kafhara ( اكفھرار ikfihrār) to be dark, grow dark, darken, be or become gloomy",
+    "examples": []
+  },
+  {
+    "word": "كفى",
+    "displayWord": "كفى",
+    "translation": "kafā i ( كفاية kifāya) to be enough, sufficient ه) for s.o.), suffice ( ه s.o.); to meet all requirements; to protect ( ه ه s.o. from s.o.,",
+    "examples": []
+  },
+  {
+    "word": "كفاية",
+    "displayWord": "كفاية",
+    "translation": "kifāya sufficient amount, degree, extent, etc., sufficiency; that which suffices for performing a duty, a task, etc.; capability, capacity, ability, qualification; appropriateness, suitability, fitness; competence, efficiency, skill │ بالكفاية sufficiently, enough; كفاية القتال fighting power; عدم الكفاية الجنسية ‘adam al-k. aljinsīya sexual impotence; في ھذا كفاية enough of that, that’s enough",
+    "examples": []
+  },
+  {
+    "word": "كفي",
+    "displayWord": "كفي",
+    "translation": "kafīy sufficient, enough",
+    "examples": []
+  },
+  {
+    "word": "كاف",
+    "displayWord": "كاف",
+    "translation": "kāfin pl. كفاة kufāh sufficient, enough, adequate; appropriate, suitable, suited, fit; capable, able, qualified, skilled, skillful, competent, efficient",
+    "examples": []
+  },
+  {
+    "word": "كلا",
+    "displayWord": "كلا",
+    "translation": "1 kilā, f. كلتا kiltā; كلي kilai, f. كلتي kiltai (with dependent genit. or suffix) both (of); see also alphabetically",
+    "examples": []
+  },
+  {
+    "word": "كل",
+    "displayWord": "كل",
+    "translation": "2 kalla i (kall, كلة killa, كلال kalāl, ; كلالة kalāla, كلول kulūl, كلولة kulūla) to be or become tired, fatigued, weary, exhausted, weak; to be dim, dull, languid, expreosionless, (glance, eyes); to become blunt (sword) │ لا يكل indefatigable, untiring II to crown ( ه s.o., also fig. ھ s.th.); (Chr.) to perform the marriage ceremony (priest); to become dull, obtuse, expressionless (face); to become blunt (sword) │ كلل بالنجاح kullila bi-l-najāḥ to be crowned by success IV to make languid or tired, to weary, tire, fatigue, exhaust, wear out, harass, torment ( ه s.o.); to dim ( ھ the glance) V to be crowned; to wear a crown; (Chr.) to be married",
+    "examples": []
+  },
+  {
+    "word": "كل",
+    "displayWord": "كل",
+    "translation": "kall weariness, tiredness, fatigue, exhaustion; dimness, dullness; dull, dim, feeble (glance, mind) 834",
+    "examples": []
+  },
+  {
+    "word": "كلة",
+    "displayWord": "كلة",
+    "translation": "killa pl. -āt, كلل kilal thin veil, drape, curtain; mosquito net",
+    "examples": []
+  },
+  {
+    "word": "كلل",
+    "displayWord": "كلل",
+    "translation": "kalal, كلال kalāl and كلالة kalāla weariness, tiredness, fatigue, exhaustion; dimness, dullness",
+    "examples": []
+  },
+  {
+    "word": "كليل",
+    "displayWord": "كليل",
+    "translation": "kalīl exhausted, tired, weary, faint, languid; weak, feeble; dull, blunt",
+    "examples": []
+  },
+  {
+    "word": "كال",
+    "displayWord": "كال",
+    "translation": "kāll tired, fatigued, faint, languid",
+    "examples": []
+  },
+  {
+    "word": "كل",
+    "displayWord": "كل",
+    "translation": "3 kull totality, entirety; everyone, each one, anyone; (with foil. def. noun) whole, entire, all; (with fall. indef. noun) every;",
+    "examples": []
+  },
+  {
+    "word": "كل من فلان وفلان وفلان",
+    "displayWord": "كل من فلان وفلان وفلان",
+    "translation": "(kullun min) A as well as B as well as C; على كل ‘alā kullin in any case, at any rate; كله kulluhū he entirely, all of him, it entirely, all of it; كل ذلك kullu dālika all that; كل البيت kullu l-baiti or البيت كله al-b. kulluhū the whole house; كل الرجال or الرجال كلھم all men; الحقيقة كل الحقيقة (kullu l-ḥ.) the whole truth, nothing but the truth; السر كل السر (sirr) a very great secret; الخير كل الخير (kair) true or complete happiness; كل رجل kullu rajulin every man; كل شيء k. šai’in every thing, everything, all; كل احد k. aḥadin and كل واحد k. wāḥidin every (single) one, each one; كل من kullu man everyone who, whoever, whosoever; كل ما kullu mā all that …, whatever, whatsoever; كل ما في الأمر ان k. mā fī l-amri anna there is no more to it than ..., it’s nothing but ...; كل وقت kulla waqtin at any time, always; في كل سبعة ايام fī kulli sab‘ati ayyāmin in each seven days, every seven days; لكل الف li-kulli alfin per (one) thousand",
+    "examples": []
+  },
+  {
+    "word": "كلما",
+    "displayWord": "كلما",
+    "translation": "kullamā whenever; the more ..., in the same measure as … │ كلما – كلما the more -- the more",
+    "examples": []
+  },
+  {
+    "word": "كلي",
+    "displayWord": "كلي",
+    "translation": "kullī total, entire, all-round, overall, sweeping, comprehensive, complete; absolute, universal",
+    "examples": []
+  },
+  {
+    "word": "كلية",
+    "displayWord": "كلية",
+    "translation": "kullīya totality, entirety; integrity, wholeness, entireness, completeness; (pl. -āt) faculty, school (of a university); college; institute of higher learning, academy, secondary school; كليات the complete works (of an author); الكليات the five logical predicates or general conceptions (philos.); kullīyatan wholly, entirely, totally, absolutely │ بالكلية on the whole, in the aggregate, altogether; -- لا",
+    "examples": []
+  },
+  {
+    "word": "كلة",
+    "displayWord": "كلة",
+    "translation": "4 kulla pl. كلل kulal bullet; cannon ball; shell, grenade; a marble",
+    "examples": []
+  },
+  {
+    "word": "كلا",
+    "displayWord": "كلا",
+    "translation": "kallā not at all, on the contrary; by no means! certainly not! never! no! (see also",
+    "examples": []
+  },
+  {
+    "word": "كلا ثم كلا",
+    "displayWord": "كلا ثم كلا",
+    "translation": "1 │ كل (tumma) a thousand times no! not at all!",
+    "examples": []
+  },
+  {
+    "word": "كلأ",
+    "displayWord": "كلأ",
+    "translation": "kala’a a ( كلء kal’, كلاء kilā’, كلاءة kilā’a) to guard, preserve, watch, protect ( ه s.o.) VIII to find no sleep (eye)",
+    "examples": []
+  },
+  {
+    "word": "كلأ",
+    "displayWord": "كلأ",
+    "translation": "kala’ pl. اكلاء aklā’ grass, herbage, pasture",
+    "examples": []
+  },
+  {
+    "word": "كلوء",
+    "displayWord": "كلوء",
+    "translation": "kalū’: كلوء العين k. al-‘ain sleepless, awake 835",
+    "examples": []
+  },
+  {
+    "word": "كلاسكي",
+    "displayWord": "كلاسكي",
+    "translation": "kilāsikī classic(a1)",
+    "examples": []
+  },
+  {
+    "word": "كلاكس",
+    "displayWord": "كلاكس",
+    "translation": "kalāks pl. -āt horn of an automobile",
+    "examples": []
+  },
+  {
+    "word": "كلب",
+    "displayWord": "كلب",
+    "translation": "kaliba a (kalab) to be seized by hydrophobia; to become mad, crazy; to covet greedily ( على s.th.) VI to rage, rave, storm; to fan, pounce, rush in ( على upon), assail ( على s.o.); to assail each other, rush against each other X to be raging, raving, rabid, furious, mad, frenzied, possessed",
+    "examples": []
+  },
+  {
+    "word": "كلب",
+    "displayWord": "كلب",
+    "translation": "kalb pl. كلاب kilāb dog │ الكلب الأكبر the constellation Canis Major with its main star Sirius; الكلب الأصغر the constellation Canis Minor with its main star Procyon; كلب البحر k. al-baḥr shark;",
+    "examples": []
+  },
+  {
+    "word": "كلب الماء",
+    "displayWord": "كلب الماء",
+    "translation": "otter; beaver",
+    "examples": []
+  },
+  {
+    "word": "كلبة",
+    "displayWord": "كلبة",
+    "translation": "kalba pl. -āt bitch",
+    "examples": []
+  },
+  {
+    "word": "كلبي",
+    "displayWord": "كلبي",
+    "translation": "kalbī canine (adj.)",
+    "examples": []
+  },
+  {
+    "word": "كلب",
+    "displayWord": "كلب",
+    "translation": "kalab rabies, hydrophobia; burning thirst; greed ( على for)",
+    "examples": []
+  },
+  {
+    "word": "كلب",
+    "displayWord": "كلب",
+    "translation": "kalib affected with rabies, rabid; mad; greedy",
+    "examples": []
+  },
+  {
+    "word": "كلاب",
+    "displayWord": "كلاب",
+    "translation": "kullāb and كلوب kallūb pl. كلاليب kalālīb2 hook; cramp",
+    "examples": []
+  },
+  {
+    "word": "كلابة",
+    "displayWord": "كلابة",
+    "translation": "kullāba pl. -āt (pair of) pincers, tongs",
+    "examples": []
+  },
+  {
+    "word": "كليب",
+    "displayWord": "كليب",
+    "translation": "kalīb pl. كلبى kalbā affected with rabies, rabid, raging",
+    "examples": []
+  },
+  {
+    "word": "كلبش",
+    "displayWord": "كلبش",
+    "translation": "kalabš manacles, handcuffs",
+    "examples": []
+  },
+  {
+    "word": "كلت",
+    "displayWord": "كلت",
+    "translation": "kalata i to pour, pour out ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "كلح",
+    "displayWord": "كلح",
+    "translation": "kalaḥa a ( كلاح kulāḥ, كلوح kulūḥ) to frown, scowl, look gloomy IV and V do.",
+    "examples": []
+  },
+  {
+    "word": "كلحة",
+    "displayWord": "كلحة",
+    "translation": "kalaḥa zone around the mouth, mien, facial expression",
+    "examples": []
+  },
+  {
+    "word": "كالح",
+    "displayWord": "كالح",
+    "translation": "kāliḥ grave, austere, somber, gloomy; fallow, livid, dull grey; turned colorless, faded",
+    "examples": []
+  },
+  {
+    "word": "كلخ",
+    "displayWord": "كلخ",
+    "translation": "kalk giant fennel (Ferula communis L.; Ferula sinaica B.; bos.); -- (eg.) kalak ammoniac",
+    "examples": []
+  },
+  {
+    "word": "كلداني",
+    "displayWord": "كلداني",
+    "translation": "kaldānī Chaldean (adj. and n.); astrologer",
+    "examples": []
+  },
+  {
+    "word": "كلس",
+    "displayWord": "كلس",
+    "translation": "1 II to plaster with lime, whitewash ( ھ s.th.); to calcine, calcify ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "كلس",
+    "displayWord": "كلس",
+    "translation": "kils lime",
+    "examples": []
+  },
+  {
+    "word": "كلسي",
+    "displayWord": "كلسي",
+    "translation": "kilsī calcic, limy, lime- (in compounds) │ حجارة كلسية limestone",
+    "examples": []
+  },
+  {
+    "word": "كلاسة",
+    "displayWord": "كلاسة",
+    "translation": "kallāsa limekiln",
+    "examples": []
+  },
+  {
+    "word": "كلسة",
+    "displayWord": "كلسة",
+    "translation": "2 (It. calza) kalsa pl. -āt stocking",
+    "examples": []
+  },
+  {
+    "word": "كواليس",
+    "displayWord": "كواليس",
+    "translation": "see كوليس",
+    "examples": []
+  },
+  {
+    "word": "كلسون",
+    "displayWord": "كلسون",
+    "translation": "(Fr. caleçon) kalsūn pl. -āt (pair of men’s) drawers",
+    "examples": []
+  },
+  {
+    "word": "كلسيطة",
+    "displayWord": "كلسيطة",
+    "translation": "(It. calzeta) kalsīṭa pl. كلاسط kalāsiṭ2 stocking",
+    "examples": []
+  },
+  {
+    "word": "كلسيوم",
+    "displayWord": "كلسيوم",
+    "translation": "kalsiyōm calcium",
+    "examples": []
+  },
+  {
+    "word": "كلف",
+    "displayWord": "كلف",
+    "translation": "kalifa a (kalaf) to become brownish red (face); to become freckled, be covered with freckles; to like ( ب s.th.), be intent, bent, set. keen ( ب on), be very attached ( ب to s.o. or s.th.), be very fond ( ب of s.o. or s.th.); to be in love, fall in love ( ب with s.o.) II to commission, charge, entrust ( ه s.o., ب or ھ with), assign ( ب or ھ ه to s.o. a task, a job); to cost ( ھ ه s.o. a certain amount) │ كلف خاطره (kāṭirahū) (eg.) to take the trouble, go to the trouble, bother; to put s.o. to the trouble, bother s.o.; كلفه",
+    "examples": []
+  },
+  {
+    "word": "كلفه ثمنا باھظا",
+    "displayWord": "كلفه ثمنا باھظا",
+    "translation": ";… (tamanan) to cost s.o. dearly; مھما كلفه الأمر (mahmā, amr) whatever it may cost him, at any cost V to burden o.s., be burdened ( ھ or ب with s.th.); to take upon o.s. ( ھ a job, a task, coats, an office, etc.); to take over, defray, have to bear ( ھ s.th., e.g., expenses); to do reluctantly or unwillingly, do in a studied or affected manner, simulate, feign, affect ھ) s.th.); to force o.s. ( ھ to do s.th.). do s.th. ( ھ ) with difficulty, e.g., تكلف الضحك (ḍaḥk) to force a laugh; to be affected, mannered, unnatural, stiff, formal, ceremonious, punctilious, stand on ceremony; to employ ( ھ e.g., care), spend",
+    "examples": []
+  },
+  {
+    "word": "كلف",
+    "displayWord": "كلف",
+    "translation": "kalaf (coll.; n. un. ة) freckles │ كلف",
+    "examples": []
+  },
+  {
+    "word": "كلف",
+    "displayWord": "كلف",
+    "translation": "kalif very much in love ( ب with), very attached ( ب to), very fond ( ب of)",
+    "examples": []
+  },
+  {
+    "word": "كلفة",
+    "displayWord": "كلفة",
+    "translation": "kulfa pl. كلف kulaf discomfort; trouble, inconvenience; nuisance; ceremonial, ceremony, formality, ceremoniousness, affectedness of behavior, affectation, mannerism, pose; costs, expenses, expenditure, outlay; trimmings, fittings, accessories, notions, ornaments (buttons, buckles, clasps, braiding, lace, etc.); lady’s maid │ الكلف",
+    "examples": []
+  },
+  {
+    "word": "كلاف",
+    "displayWord": "كلاف",
+    "translation": "kallāf stable hand, hostler, groom",
+    "examples": []
+  },
+  {
+    "word": "كلافي",
+    "displayWord": "كلافي",
+    "translation": "kallāfī hirer of donkeys",
+    "examples": []
+  },
+  {
+    "word": "كلك",
+    "displayWord": "كلك",
+    "translation": "kalak pl. -āt (ir.) raft of inflated skins",
+    "examples": []
+  },
+  {
+    "word": "كلكتا",
+    "displayWord": "كلكتا",
+    "translation": "kalkattā Calcutta (city in NE India)",
+    "examples": []
+  },
+  {
+    "word": "كلاكيع",
+    "displayWord": "كلاكيع",
+    "translation": "kalākī‘ كلاكيع العظام : 2 k. al-‘iẓām bone fragments",
+    "examples": []
+  },
+  {
+    "word": "كلكل",
+    "displayWord": "كلكل",
+    "translation": "kalkala and II takalkala to become callous (skin)",
+    "examples": []
+  },
+  {
+    "word": "كلكل",
+    "displayWord": "كلكل",
+    "translation": "kalkal pl. كلاكل kalākil2 chest, thorax │ تحت كلاكله, تحت كلكله under the 837 oppressive burden of s.th.; بكلكله to oppress s.o. gravely, weigh heavily upon s.o.",
+    "examples": []
+  },
+  {
+    "word": "كلكلة",
+    "displayWord": "كلكلة",
+    "translation": "kalkala callosity, callus",
+    "examples": []
+  },
+  {
+    "word": "كلم",
+    "displayWord": "كلم",
+    "translation": "II to address ( ه s.o.), speak, talk ( ه to or with s.o.) III to speak, talk, converse ( ه with s.o.) V to speak, talk ( مع with or to s.o., عن or على about, of); to utter, express, voice, say ( ب or ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "كلم",
+    "displayWord": "كلم",
+    "translation": "kalm pl. كلوم kulūm, كلام kilām wound, cut, slash",
+    "examples": []
+  },
+  {
+    "word": "كلمة",
+    "displayWord": "كلمة",
+    "translation": "kalima pl. -āt (coll. كلم kalim) word; speech, address; utterance, remark, saying; aphorism, maxim; brief announcement, a few (introductory) words; short treatise; importance, weight, influence, authority, ascendancy, powerful position │ كلمة فكلمة kalimatan fakalimatan word by word, literally; بكلمة",
+    "examples": []
+  },
+  {
+    "word": "كلام",
+    "displayWord": "كلام",
+    "translation": "kalām talking, speaking; speech; language, mode of expression, style; talk, conversation, discussion; debate, dispute, controversy; words, word, saying, utterance, statement, remark; aphorism, maxim, phrase, idiom, figure of speech; (gram.) sentence, clause │ بالكلام orally, verbally; فتح فمه بالكلام (famahū) to open one’s mouth in order to say s.th., prepare to say s.th.; كلام فارغ idle talk, prattle, poppycock, bosh, nonsense; طريق الكلام manner of speaking, diction; علم الكلام ‘ilm al-k. scholastic theology (Isl.); كثير الكلام talkative, loquacious, garrulous; لغة الكلام lugat al-k. colloquial language, everyday speech",
+    "examples": []
+  },
+  {
+    "word": "كلامي",
+    "displayWord": "كلامي",
+    "translation": "kalāmī of or pertaining to speech or words, speech-, word- (in oompounds), verbal; spoken, oral; scholastic, theological │ مشادة كلامية (mašādda) battle of words, dispute, altercation",
+    "examples": []
+  },
+  {
+    "word": "كليم",
+    "displayWord": "كليم",
+    "translation": "kalīm pl. كلمى kalmā wounded, injured; sore; -- (pl. كلماء kulamā’) person addressed; speaker, spokesman, mouthpiece │ كليم لله epithet of Moses",
+    "examples": []
+  },
+  {
+    "word": "كليم",
+    "displayWord": "كليم",
+    "translation": "see also alphabetically",
+    "examples": []
+  },
+  {
+    "word": "كلماني",
+    "displayWord": "كلماني",
+    "translation": "kalmānī, kalamānī, killimānī eloquent; fluent speaker",
+    "examples": []
+  },
+  {
+    "word": "كلما",
+    "displayWord": "كلما",
+    "translation": "kullamā see كل 2",
+    "examples": []
+  },
+  {
+    "word": "كالون",
+    "displayWord": "كالون",
+    "translation": "look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "كلية",
+    "displayWord": "كلية",
+    "translation": "kulya and كلوة kulwa pl. كلى kulan, □ كلاوى kalāwī kidney",
+    "examples": []
+  },
+  {
+    "word": "كلوي",
+    "displayWord": "كلوي",
+    "translation": "kulwī of or pertaining to the kidneys, renal, nephric, nephritic, nephro- (in compounds) │ التھاب كلوي inflammation of the kidneys, nephritis; مغص كلوي (magṣ) renal colic",
+    "examples": []
+  },
+  {
+    "word": "كليشيه",
+    "displayWord": "كليشيه",
+    "translation": "kilīšēh pl. -āt cliché",
+    "examples": []
+  },
+  {
+    "word": "كليم",
+    "displayWord": "كليم",
+    "translation": "kilīm pl. اكلمة aklima kilim, carpet, rug (usually long and narrow)",
+    "examples": []
+  },
+  {
+    "word": "كم",
+    "displayWord": "كم",
+    "translation": "1 kam (interrogative and exclamatory particle with foll. noun in acc.) how much? how many! how much! │ كم ولد لك (waladan) how many sons do you have? كم مرة (marratan) or كم من مرة how many times? how often? how often! كم بالحري (ḥarīy) how much more ...! how much rather ...!",
+    "examples": []
+  },
+  {
+    "word": "كم",
+    "displayWord": "كم",
+    "translation": "2 kamm amount, quantity │ نظرية الكم naẓariyat al-k. quantum theory (phys.)",
+    "examples": []
+  },
+  {
+    "word": "كمي",
+    "displayWord": "كمي",
+    "translation": "kammī quantitative",
+    "examples": []
+  },
+  {
+    "word": "كمية",
+    "displayWord": "كمية",
+    "translation": "kammīya pl. -āt amount, quantity, magnitude",
+    "examples": []
+  },
+  {
+    "word": "كم",
+    "displayWord": "كم",
+    "translation": "3 kamma u (kamm) to cover, cover up, conceal, hide, cloak ( ھ s.th.); to plug up, stop up ( ھ s.th.); to muzzle ( ھ s.o.) │ كم",
+    "examples": []
+  },
+  {
+    "word": "كم",
+    "displayWord": "كم",
+    "translation": "kumm pl. اكمام akmām, كممة kimama sleeve",
+    "examples": []
+  },
+  {
+    "word": "كم",
+    "displayWord": "كم",
+    "translation": "kimm pl. اكمام akmām, اكمة akimma,",
+    "examples": []
+  },
+  {
+    "word": "كمام",
+    "displayWord": "كمام",
+    "translation": "kimām, اكاميم akāmīm2 calyx (bot.); perianth (bot.)",
+    "examples": []
+  },
+  {
+    "word": "كمام",
+    "displayWord": "كمام",
+    "translation": "kimām muzzle",
+    "examples": []
+  },
+  {
+    "word": "كمامة",
+    "displayWord": "كمامة",
+    "translation": "kimāma pl. -āt, كمائم kamā’im2 muzzle; cloth for muffling the mouth; mask; O gas mask; perianth, calyx",
+    "examples": []
+  },
+  {
+    "word": "كمء",
+    "displayWord": "كمء",
+    "translation": "kam’ pl. اكمؤ akmu’ truffle; mushroom",
+    "examples": []
+  },
+  {
+    "word": "كمأة",
+    "displayWord": "كمأة",
+    "translation": "kam’a (pl.) truffles",
+    "examples": []
+  },
+  {
+    "word": "كما",
+    "displayWord": "كما",
+    "translation": "ka-mā see ك ka",
+    "examples": []
+  },
+  {
+    "word": "كمان",
+    "displayWord": "كمان",
+    "translation": "kamān violin, fiddle",
+    "examples": []
+  },
+  {
+    "word": "كمانجي",
+    "displayWord": "كمانجي",
+    "translation": "kamānjī player of a كمنجة (q.v.)",
+    "examples": []
+  },
+  {
+    "word": "كمب",
+    "displayWord": "كمب",
+    "translation": "(Engl.) kamb camp",
+    "examples": []
+  },
+  {
+    "word": "كمبيالة",
+    "displayWord": "كمبيالة",
+    "translation": "(It. cambiale) kambiyāla pl. -āt bill of exchange, draft",
+    "examples": []
+  },
+  {
+    "word": "كمبريت",
+    "displayWord": "كمبريت",
+    "translation": "kambarīt batiste, cambric",
+    "examples": []
+  },
+  {
+    "word": "كمبيو",
+    "displayWord": "كمبيو",
+    "translation": "(It. cambio) kambiyō exchange, money exchange; rate of exchange",
+    "examples": []
+  },
+  {
+    "word": "كمت",
+    "displayWord": "كمت",
+    "translation": "kamata u (kamt) to suppress ( ھ one’s anger)",
+    "examples": []
+  },
+  {
+    "word": "كميت",
+    "displayWord": "كميت",
+    "translation": "kumait (m. and f.) reddish-brown, chestnut, bay, maroon",
+    "examples": []
+  },
+  {
+    "word": "كمثرى",
+    "displayWord": "كمثرى",
+    "translation": "kummatrā (coll.; n. un. كمثراة kummatrāh pl. كمثريات kummatrayāt) pear",
+    "examples": []
+  },
+  {
+    "word": "كمح",
+    "displayWord": "كمح",
+    "translation": "kamaḥa a (kamḥ) to pull up, rein in ( ھ an animal) IV do.",
+    "examples": []
+  },
+  {
+    "word": "كمخ",
+    "displayWord": "كمخ",
+    "translation": "1 kamaka a (kamk) with بانفه bi-anfihī to turn up one’s nose, be haughty IV = I",
+    "examples": []
+  },
+  {
+    "word": "كماخ",
+    "displayWord": "كماخ",
+    "translation": "kumāk pride, haughtiness, overweening, self-conceit",
+    "examples": []
+  },
+  {
+    "word": "كامخ",
+    "displayWord": "كامخ",
+    "translation": "2 kāmak, kāmik pl. كوامخ kawāmik2 vinegar sauce, pickle; (mixed) pickles",
+    "examples": []
+  },
+  {
+    "word": "كمخا",
+    "displayWord": "كمخا",
+    "translation": "3 kamkā silk fabric, damask",
+    "examples": []
+  },
+  {
+    "word": "كمد",
+    "displayWord": "كمد",
+    "translation": "kamida a (kamd) to be sad, grieved, distressed, heartsick; to be smutty, swarthy, dull, flat (color); to fade, lose color, become discolored II to apply a hot compress, a hot pack ( ھ to a limb) IV to sadden, grieve, worry, make heartsick ( ه s.o.) X to become smutty, swarthy, dull, flat; to darken, become dark (color) 839",
+    "examples": []
+  },
+  {
+    "word": "كمد",
+    "displayWord": "كمد",
+    "translation": "kamd, kamad and كمدة kumda dull, swarthy color; dullness, duskiness, swarthiness; sadness, grief",
+    "examples": []
+  },
+  {
+    "word": "كمد",
+    "displayWord": "كمد",
+    "translation": "kamid and كميد kamld aad, grieved. worried. heartaick; gloomy. dark",
+    "examples": []
+  },
+  {
+    "word": "كمد",
+    "displayWord": "كمد",
+    "translation": "kimād and كمادة kimāda compress, pack",
+    "examples": []
+  },
+  {
+    "word": "كامد",
+    "displayWord": "كامد",
+    "translation": "kāmid sad, grieved, worried, heartsick; gloomy, dark; swarthy, darkcolored",
+    "examples": []
+  },
+  {
+    "word": "كمر",
+    "displayWord": "كمر",
+    "translation": "1 kamar pl. اكمار akmār belt",
+    "examples": []
+  },
+  {
+    "word": "كمرة",
+    "displayWord": "كمرة",
+    "translation": "kamara pl. -āt beam, girder, specif., iron girder; arm, jib │ كمرة حمالة (ḥammāla) and كمرة تحميل قضبان الونش (quḍbān al-winš) beam, bridge (of a traveling crane)",
+    "examples": []
+  },
+  {
+    "word": "كمرك",
+    "displayWord": "كمرك",
+    "translation": "(syr.) gumrug pl. كمارك gamārig2 customs; customhouse",
+    "examples": []
+  },
+  {
+    "word": "كمركي",
+    "displayWord": "كمركي",
+    "translation": "gumrugī customs-, tariff- (in compounds)",
+    "examples": []
+  },
+  {
+    "word": "كمساري",
+    "displayWord": "كمساري",
+    "translation": "kumsārī pl. كمسارية kumsārīya (eg.) (streetcar, railroad, etc.) conductor",
+    "examples": []
+  },
+  {
+    "word": "كمش",
+    "displayWord": "كمش",
+    "translation": "kamaša u (kamš) to seize, grasp, grip, clutch ( ھ s.th.) V to become wrinkled, to wrinkle; to shrink; to contract; to recoil within o.s. cower, quail VII to become wrinkled, to wrinkle; to shrink; to contract; to tighten, become cramped, be convulsed; to recoil within o.s., cower, quail; to withdraw within o.s., become or be preoccupied with o.s. be self-absorbed; to collect one’s thoughts, gather one’s strength, concentrate (also with (على نفسه",
+    "examples": []
+  },
+  {
+    "word": "كمشة",
+    "displayWord": "كمشة",
+    "translation": "kamša a handful",
+    "examples": []
+  },
+  {
+    "word": "كمش",
+    "displayWord": "كمش",
+    "translation": "kamiš, كميش kamīš adroit, skillful, skilled │ كميش الإزار k. al-izār do.; efficient, active, diligent, industrious",
+    "examples": []
+  },
+  {
+    "word": "كماشة",
+    "displayWord": "كماشة",
+    "translation": "kammāša pl. -āt (pair) of pincers",
+    "examples": []
+  },
+  {
+    "word": "كمع",
+    "displayWord": "كمع",
+    "translation": "III to sleep ( ه with s.o.), embrace ( ه s.o.), have sexual intercourse ( ه with s.o.)",
+    "examples": []
+  },
+  {
+    "word": "كميع",
+    "displayWord": "كميع",
+    "translation": "kamī’ bedfellow",
+    "examples": []
+  },
+  {
+    "word": "كمل",
+    "displayWord": "كمل",
+    "translation": "kamala, kamula u and kamila a ( كمال kamāl, كمول kumūl) to be or become whole, entire, integral, perfect, complete; to be finished, done, completed, accomplished; to be concluded, come to a close II and IV to finish, wind up, conclude, complete, consummate ( ھ s.th.); to carry out, execute ( ھ s.th.); to perfect, round out, complement, supplement ( ھ s.th.) VI and VIII to be perfect, consummate, integral, be or become complete, finished, done, accomplished, concluded; to reach completion, fulfillment or perfection, to mature, ripen; to be perfected X to complete ( ھ s.th.); to perfect ( ھ s.th.); to round out, complement, supplement (. s.th.); to carry out, meet, fulfill ( ھ s.th., e.g., conditions)",
+    "examples": []
+  },
+  {
+    "word": "كمال",
+    "displayWord": "كمال",
+    "translation": "kamāl pl. -āt perfection; completeness; completion, consummation, conclusion, termination, windup; maturity, ripeness │ بكماله in its full scope, completely, entirely, wholly, totally",
+    "examples": []
+  },
+  {
+    "word": "كمالي",
+    "displayWord": "كمالي",
+    "translation": "kamālī luxury, luxurious, de luxe;",
+    "examples": []
+  },
+  {
+    "word": "كماليات",
+    "displayWord": "كماليات",
+    "translation": "luxuries; luxury",
+    "examples": []
+  },
+  {
+    "word": "كمالة",
+    "displayWord": "كمالة",
+    "translation": "kamāla (colloq.) that which fills up or completes a weight or number, a complement; addition, supplement 840",
+    "examples": []
+  },
+  {
+    "word": "كامل",
+    "displayWord": "كامل",
+    "translation": "kāmil pl. كملة kamala perfect, consummate; genuine, sterling; complete, full, plenary, full-strength; completed, concluded; whole, entire, total, integral; name of a poetic meter; folio format (paper) │ بكامله wholly, entirely, totally, altogether, in its entirety; O لبن كامل (laban) unskimmed, full-bodied milk",
+    "examples": []
+  },
+  {
+    "word": "كمن",
+    "displayWord": "كمن",
+    "translation": "kamana u and kamina a ( كمون kumūn) to hide; to be hidden, concealed, latent; to have its secret seat ( في in); to ambush, waylay ( ل s.o.) V to lie in wait ( ل for s.o.), ambush, waylay ( ل s.o.) X to hide, lie concealed",
+    "examples": []
+  },
+  {
+    "word": "كمنة",
+    "displayWord": "كمنة",
+    "translation": "kumna black cataract (med.)",
+    "examples": []
+  },
+  {
+    "word": "كمان",
+    "displayWord": "كمان",
+    "translation": "look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "كمون",
+    "displayWord": "كمون",
+    "translation": "kammūn cumin (Cuminum cyminum L.; bot.) │ كمون اسود black caraway, black cumin (Nigella sativa L.; bot.); كمون بري (barrī) do.; كمون حلو (ḥulw) anise, aniseed",
+    "examples": []
+  },
+  {
+    "word": "كمين",
+    "displayWord": "كمين",
+    "translation": "kamīn pl. كمناء kumanā’2 hidden, lying in ambush; ambush, secret attack │",
+    "examples": []
+  },
+  {
+    "word": "كمينا",
+    "displayWord": "كمينا",
+    "translation": "to set a trap for s.o.",
+    "examples": []
+  },
+  {
+    "word": "كامن",
+    "displayWord": "كامن",
+    "translation": "kāmin hidden, concealed, latent; secret; pl. كوامن kawāmin2 underlying factors, hidden background, latent depths",
+    "examples": []
+  },
+  {
+    "word": "كمنجا",
+    "displayWord": "كمنجا",
+    "translation": "kamanjā and كمنجة kamanja oriental stringed instrument having one or two strings; (Western) violin, fiddle",
+    "examples": []
+  },
+  {
+    "word": "كمه",
+    "displayWord": "كمه",
+    "translation": "kamah blindness (from birth)",
+    "examples": []
+  },
+  {
+    "word": "كمي",
+    "displayWord": "كمي",
+    "translation": "kamīy pl. كماة kumāh, اكماء akmā’ armed and ironclad, in full armor; brave, valiant, courageous",
+    "examples": []
+  },
+  {
+    "word": "كميون",
+    "displayWord": "كميون",
+    "translation": "(Fr. camion) kamiyōn pl. -āt truck, lorry",
+    "examples": []
+  },
+  {
+    "word": "كن",
+    "displayWord": "كن",
+    "translation": "kanna u (kann, كنون kunūn) to hide ( ھ s.th.); to conceal, cover, cloak ( ھ s.th.); to shelter, ensconce, contain ( ھ s.th.); to harbor ( ل ھ friendship toward); to calm down, subside, abate (wind) II to hide, conceal, secrete, keep secret ( ھ s.th.); to calm, quiet, still, assuage ( ھ s.th.) IV to hide, conceal, secrete, keep secret ( ھ s.th.) VIII to be hidden, be concealed X to be hidden, be concealed; to seek shelter; to lie comfortably, nestle, cuddle, snuggle; to calm down 841",
+    "examples": []
+  },
+  {
+    "word": "كن",
+    "displayWord": "كن",
+    "translation": "kann, kinn pl. اكنان aknān, اكنة akinna place where one is sheltered; cover, shelter, retreat, refuge; nest; home, house, hut; arbor, bower",
+    "examples": []
+  },
+  {
+    "word": "كنة",
+    "displayWord": "كنة",
+    "translation": "kanna pl. كنائن kanā’in2 daughter-inlaw; sister-in-law",
+    "examples": []
+  },
+  {
+    "word": "كنة",
+    "displayWord": "كنة",
+    "translation": "kinna shelter, cover, covering",
+    "examples": []
+  },
+  {
+    "word": "كنة",
+    "displayWord": "كنة",
+    "translation": "kunna pl. -āt, كنان kinān shed roof, pent roof, awning",
+    "examples": []
+  },
+  {
+    "word": "كنان",
+    "displayWord": "كنان",
+    "translation": "kinān pl. -āt akinna shed roof, pent roof, awning",
+    "examples": []
+  },
+  {
+    "word": "كنانة",
+    "displayWord": "كنانة",
+    "translation": "kināna pl. كنائن kanā’in2 quiver (for arrows) │ ارض كنانة arḍ kināna, الكنانة Egypt (land of the Kinana tribe)",
+    "examples": []
+  },
+  {
+    "word": "كانون",
+    "displayWord": "كانون",
+    "translation": "kānūn pl. كوانين kawānīn2 stove",
+    "examples": []
+  },
+  {
+    "word": "كانون",
+    "displayWord": "كانون",
+    "translation": "kānūn: كانون الأول k. al-awwal December (Syr., Leb., Jord., Ir.); كانون",
+    "examples": []
+  },
+  {
+    "word": "كنين",
+    "displayWord": "كنين",
+    "translation": "kanīn hidden, concealed; well-kept",
+    "examples": []
+  },
+  {
+    "word": "كنار",
+    "displayWord": "كنار",
+    "translation": "1 kanār edge, rim, border, fringe, hem, selvage",
+    "examples": []
+  },
+  {
+    "word": "كناري",
+    "displayWord": "كناري",
+    "translation": "2 kanārī canary",
+    "examples": []
+  },
+  {
+    "word": "كنب",
+    "displayWord": "كنب",
+    "translation": "1 kanab callocity, callus",
+    "examples": []
+  },
+  {
+    "word": "كنب",
+    "displayWord": "كنب",
+    "translation": "kanib and مكنب muknib callous (skin)",
+    "examples": []
+  },
+  {
+    "word": "كنبه",
+    "displayWord": "كنبه",
+    "translation": "2 or كنبيه (Fr. canapé) kanabēh pl. -āt sofa",
+    "examples": []
+  },
+  {
+    "word": "كنجرو",
+    "displayWord": "كنجرو",
+    "translation": "kangarū kangaroo (eg.)",
+    "examples": []
+  },
+  {
+    "word": "كنود",
+    "displayWord": "كنود",
+    "translation": "1 kunūd ingratitude",
+    "examples": []
+  },
+  {
+    "word": "كنود",
+    "displayWord": "كنود",
+    "translation": "kanūd ungrateful",
+    "examples": []
+  },
+  {
+    "word": "كندا",
+    "displayWord": "كندا",
+    "translation": "2 kanadā Canada",
+    "examples": []
+  },
+  {
+    "word": "كندي",
+    "displayWord": "كندي",
+    "translation": "kanadī Canadian",
+    "examples": []
+  },
+  {
+    "word": "كندر",
+    "displayWord": "كندر",
+    "translation": "1 kundur frankincense",
+    "examples": []
+  },
+  {
+    "word": "كندرة",
+    "displayWord": "كندرة",
+    "translation": "2 kundura pl. كنادر kanādir2 (syr.) (Western-style) shoe",
+    "examples": []
+  },
+  {
+    "word": "كندش",
+    "displayWord": "كندش",
+    "translation": "kunduš magpie",
+    "examples": []
+  },
+  {
+    "word": "كنار",
+    "displayWord": "كنار",
+    "translation": "look up alphabetically",
+    "examples": []
   },
   {
     "word": "كنز",
-    "displayWord": "كَنْز",
-    "root": "كنز",
-    "translation": "treasure",
-    "examples": [
-      {
-        "ar": "وَكَانَ تَحْتَهُ كَنزٌ لَّهُمَا.",
-        "en": "And beneath it was a treasure for them.",
-        "source": "Holy Quran"
-      }
-    ]
+    "displayWord": "كنز",
+    "translation": "kanaza i (kanz) to bury ( في الأرض in the ground, ھ a treasure); to pile up, heap up, lay up, accumulate, amass, collect, gather, save, hoard ( ھ s.th.) VIII to be firm, compact, sturdy, strapping; to accumulate, amass, gather ( ھ money, treasures); to hide ( ھ money, treasures)",
+    "examples": []
+  },
+  {
+    "word": "كنز",
+    "displayWord": "كنز",
+    "translation": "kanz pl. كنوز kunūz treasure",
+    "examples": []
+  },
+  {
+    "word": "كنز",
+    "displayWord": "كنز",
+    "translation": "kaniz firm, compact (flesh); sturdy, strapping (body)",
+    "examples": []
+  },
+  {
+    "word": "كنس",
+    "displayWord": "كنس",
+    "translation": "kanasa u (kans) to sweep ( ھ the house) II do.",
+    "examples": []
+  },
+  {
+    "word": "كنس",
+    "displayWord": "كنس",
+    "translation": "kans sweeping, cleaning",
+    "examples": []
+  },
+  {
+    "word": "كناس",
+    "displayWord": "كناس",
+    "translation": "kannās sweeper; street sweeper, street cleaner",
+    "examples": []
+  },
+  {
+    "word": "كناسة",
+    "displayWord": "كناسة",
+    "translation": "kunāsa sweepings, refuse, garbage, offal",
+    "examples": []
+  },
+  {
+    "word": "كنيس",
+    "displayWord": "كنيس",
+    "translation": "kanīs nose bag",
+    "examples": []
+  },
+  {
+    "word": "كنيس",
+    "displayWord": "كنيس",
+    "translation": "kanīs synagogue",
+    "examples": []
+  },
+  {
+    "word": "كنيسة",
+    "displayWord": "كنيسة",
+    "translation": "kanīsa pl. كنائس kanā’is2 church (Chr.); synagogue, temple (Jud.)",
+    "examples": []
+  },
+  {
+    "word": "كنسي",
+    "displayWord": "كنسي",
+    "translation": "kanasī and كنائسي kanā’isī ecclesiastic(al); clerical 842",
+    "examples": []
+  },
+  {
+    "word": "كناش",
+    "displayWord": "كناش",
+    "translation": "kunnāš, كناشة kunnāša scrapbook; كناشات fundamentals, principles",
+    "examples": []
+  },
+  {
+    "word": "كنصول",
+    "displayWord": "كنصول",
+    "translation": "(Fr. console) kunṣōl pl. -āt console",
+    "examples": []
+  },
+  {
+    "word": "كنعان",
+    "displayWord": "كنعان",
+    "translation": "kan‘ān Canaan",
+    "examples": []
+  },
+  {
+    "word": "كنغر",
+    "displayWord": "كنغر",
+    "translation": "kangar kangaroo",
+    "examples": []
+  },
+  {
+    "word": "كنف",
+    "displayWord": "كنف",
+    "translation": "kanafa u (kanf) to guard, protect ( ه s.o.); to fence in, hedge, provide with an enclosure ھ) s.th.); to surround ( ھ s.th., ه s.o.); to help, assist ( ه s.o.) III and IV to shelter, protect, help, assist ( ه s.o.) VIII to surround (on both sides), enclose, embrace ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "كنف",
+    "displayWord": "كنف",
+    "translation": "kanaf pl. اكناف aknāf side, flank; wing; shadow, shelter, pale, fold; bosom │ في كنف under cover of ..., in an atmosphere of ...; في اكنافه under his protection, under his sponsorship",
+    "examples": []
+  },
+  {
+    "word": "كنافة",
+    "displayWord": "كنافة",
+    "translation": "kunāfa pl. -āt vermicelli baked in sugar, melted butter and honey",
+    "examples": []
+  },
+  {
+    "word": "كنيف",
+    "displayWord": "كنيف",
+    "translation": "kanīf pl. كنف kunuf water closet, toilet; public lavatory",
+    "examples": []
+  },
+  {
+    "word": "كنفاش",
+    "displayWord": "كنفاش",
+    "translation": "(Engl.) kanfāš canvas",
+    "examples": []
+  },
+  {
+    "word": "كنكة",
+    "displayWord": "كنكة",
+    "translation": "kanaka (= تنكة eg.) pl. -āt coffee pot",
+    "examples": []
+  },
+  {
+    "word": "كنكن",
+    "displayWord": "كنكن",
+    "translation": "1 kankana to stay at home; to settle down, make o.s. at home; to nestle, snuggle, cuddle up",
+    "examples": []
+  },
+  {
+    "word": "كنكينا",
+    "displayWord": "كنكينا",
+    "translation": "2 kanakīnā quinine",
+    "examples": []
+  },
+  {
+    "word": "كنه",
+    "displayWord": "كنه",
+    "translation": "VIII to fathom, probe, sound, investigate, explore ( ھ s.th.), look ( ھ into s.th.); to get to the bottom ( ھ of s.th.); to understand thoroughly, grasp in its entirety ( ھ s.th.) X to seek to explore or find out ( ھ s.th.); to fathom, discover, find out, grasp, understand ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "كنه",
+    "displayWord": "كنه",
+    "translation": "kunh utmost degree, extreme; core, essence, substance, true nature, essential being │ يعرفه كنه المعرفة ya‘rifuhū kunha lma‘ rifa he understands it most thoroughly, he grasps its very essence",
+    "examples": []
+  },
+  {
+    "word": "كنھور",
+    "displayWord": "كنھور",
+    "translation": "kanahwar cumuli",
+    "examples": []
+  },
+  {
+    "word": "كنو",
+    "displayWord": "كنو",
+    "translation": ") and كنا (كني kanā u and كنى kanā i ( كناية kināya) to use metonymically ( ب عن s.th. for); to allude ( عن ب with s.th. to); -- كنى kanā i ( كنية kunya) and II to call ( ه s.o.) by the surname of ( ب) V and VIII to be known by the surname of ( ب), call o.s. by the surname of ( (ب",
+    "examples": []
+  },
+  {
+    "word": "كنية",
+    "displayWord": "كنية",
+    "translation": "kunya pl. كنى kunan surname, agnomen (consisting of abū or umm followed by the name of the son)",
+    "examples": []
+  },
+  {
+    "word": "كناية",
+    "displayWord": "كناية",
+    "translation": "kināya indirect expression, metonymy; allusion; indirect declaration of (legal) intent (Isl. Law) │ بالكناية indirect, not clear and unequivocal (as opposed to صريح) ؛ ھو كناية عن it is tantamount to ..., it means ..., it stands for ..., it consists in ...; كناية عن kināyatan ‘an tantamount to; in lieu of, instead of",
+    "examples": []
+  },
+  {
+    "word": "كھرب",
+    "displayWord": "كھرب",
+    "translation": "kahraba to electrify, electrize ( ھ s.th.); to ionize ( ھ s.th.) II takahraba to be electrified, be electrized, become electric; to be charged with electricity; to be ionized",
+    "examples": []
+  },
+  {
+    "word": "كھربة",
+    "displayWord": "كھربة",
+    "translation": "kahraba electrization, electrification; electricity 843",
+    "examples": []
+  },
+  {
+    "word": "كھرب",
+    "displayWord": "كھرب",
+    "translation": "kahrab pl. كھارب kahārib2 electron",
+    "examples": []
+  },
+  {
+    "word": "كھيرب",
+    "displayWord": "كھيرب",
+    "translation": "kuhairib pl. -āt electron",
+    "examples": []
+  },
+  {
+    "word": "كھيربي",
+    "displayWord": "كھيربي",
+    "translation": "kuhairibī electronic, electron- (in compounds) │ المجھر الكھيربي (mijhar) electron microscope",
+    "examples": []
+  },
+  {
+    "word": "كھاربي",
+    "displayWord": "كھاربي",
+    "translation": "kahāribī electronic, electron- (in compounds)",
+    "examples": []
+  },
+  {
+    "word": "كھرباء",
+    "displayWord": "كھرباء",
+    "translation": "kahrabā’ and كھربا kahrabā amber; electricity; الكھرباء (eg.) the streetcar, the trolley",
+    "examples": []
+  },
+  {
+    "word": "كھربائي",
+    "displayWord": "كھربائي",
+    "translation": "kahrabā’ī and كھربي kahrabī electric(al); electrician │ تيار كھربائي (ṭayyār) electric current; جامعة كھربائية storage battery, secondary battery, accumulator; مصباح كھربائي (miṣbāḥ) electric lamp, lightbulb; علاج كھربائي diathermy; عالم كھربائي electrophysicist;",
+    "examples": []
+  },
+  {
+    "word": "كھربائي",
+    "displayWord": "كھربائي",
+    "translation": "(nūr) electric light",
+    "examples": []
+  },
+  {
+    "word": "كھربائية",
+    "displayWord": "كھربائية",
+    "translation": "kahrabā’īya and كھربية kahrabīya electricity",
+    "examples": []
+  },
+  {
+    "word": "كھرطيسي",
+    "displayWord": "كھرطيسي",
+    "translation": "kahraṭīsī electromagnetic",
+    "examples": []
+  },
+  {
+    "word": "كھرمان",
+    "displayWord": "كھرمان",
+    "translation": "kahramān amber",
+    "examples": []
+  },
+  {
+    "word": "كھف",
+    "displayWord": "كھف",
+    "translation": "kahf pl. كھوف kuhūf cave, cavern; depression, hollow, cavity │ كھف رئوي (ri’awī) pulmonary abscess, vomica (med.); اصحاب الكھف the Seven Sleepers",
+    "examples": []
+  },
+  {
+    "word": "كھل",
+    "displayWord": "كھل",
+    "translation": "kahala a ( كھول kuhūl), kahula u ( كھولة kuhūla) and VIII to be middle-aged, be at the height of one’s life",
+    "examples": []
+  },
+  {
+    "word": "كھل",
+    "displayWord": "كھل",
+    "translation": "kahl pl. كھل kuhhal, كھال kihāl, كھول kuhūl, كھلان kuhlān middle-aged, man of mature age",
+    "examples": []
+  },
+  {
+    "word": "كھل",
+    "displayWord": "كھل",
+    "translation": "kuhūla maturity of age",
+    "examples": []
+  },
+  {
+    "word": "كاھل",
+    "displayWord": "كاھل",
+    "translation": "kāhil pl. كواھل kawāhil2 upper part of the back; withers │ ثقل كاھله taqqala kāhilahū to load, burden, encumber s.o. or s.th., e.g., ثقل كاھل الميزان (k. al-mīzān) to burden the budget; تخفيف العبء عن كاھله (t. al-‘ib’) unburdening, disencumbrance of s.o. or s.th.",
+    "examples": []
+  },
+  {
+    "word": "كھامة",
+    "displayWord": "كھامة",
+    "translation": "kahāma dullness, bluntness; lassitude languor, weakness",
+    "examples": []
+  },
+  {
+    "word": "كھن",
+    "displayWord": "كھن",
+    "translation": "1 kahana a u ( كھانة kahāna) to predict the future, tell the fortune ( ل of s.o.), prophesy ل) to s.o.) V to predict, foretell, presage, prophesy ( ب s.th.)",
+    "examples": []
+  },
+  {
+    "word": "كھانة",
+    "displayWord": "كھانة",
+    "translation": "kahāna prediction; prophecy",
+    "examples": []
+  },
+  {
+    "word": "كھانة",
+    "displayWord": "كھانة",
+    "translation": "kihāna divination, soothsaying, fortunetelling",
+    "examples": []
+  },
+  {
+    "word": "كھنوت",
+    "displayWord": "كھنوت",
+    "translation": "kahnūt, kahanūt priesthood │",
+    "examples": []
+  },
+  {
+    "word": "كھنوتي",
+    "displayWord": "كھنوتي",
+    "translation": "kahanūtī priestly, sacerdotal, ministerial, clerical, ecclesiastic(al)",
+    "examples": []
+  },
+  {
+    "word": "كاھن",
+    "displayWord": "كاھن",
+    "translation": "kāhin pl. كھان kuhhān, كھنة kahana diviner, soothsayer, prognosticator, fortuneteller; priest رئيس الكھنة and كبير",
+    "examples": []
+  },
+  {
+    "word": "كھنة",
+    "displayWord": "كھنة",
+    "translation": "2 kuhna rags, shreds, scrap, junk; ragged, tattered",
+    "examples": []
+  },
+  {
+    "word": "كھنجي",
+    "displayWord": "كھنجي",
+    "translation": "kuhnajī ragman, rag picker",
+    "examples": []
+  },
+  {
+    "word": "كھاية",
+    "displayWord": "كھاية",
+    "translation": "kihāya administrative district in Tunisia",
+    "examples": []
+  },
+  {
+    "word": "كاھية",
+    "displayWord": "كاھية",
+    "translation": "kāhiya pl. كواه kawāhin chief officer of a كھاية ; deputy, vice-, under-, sub- (Tun.)",
+    "examples": []
+  },
+  {
+    "word": "كوة",
+    "displayWord": "كوة",
+    "translation": "kūwa pl. -āt, كوى kuwan, كواء kiwā’ aperture; small window, attic window, skylight; peephole 844",
+    "examples": []
+  },
+  {
+    "word": "كواليني",
+    "displayWord": "كواليني",
+    "translation": "kawālīnī pl. -ya locksmith",
+    "examples": []
+  },
+  {
+    "word": "كوب",
+    "displayWord": "كوب",
+    "translation": "kūb pl. اكواب akwāb drinking glass, tumbler, (ir.) cup",
+    "examples": []
+  },
+  {
+    "word": "كوبة",
+    "displayWord": "كوبة",
+    "translation": "kūba drinking glass, tumbler; hearts (in a deck of cards)",
+    "examples": []
+  },
+  {
+    "word": "كوبرته",
+    "displayWord": "كوبرته",
+    "translation": "(It. coperta) kūbarta deck (of a ship)",
+    "examples": []
+  },
+  {
+    "word": "كوبري",
+    "displayWord": "كوبري",
+    "translation": "(Turk. köprü) kūbrī pl. □ كباري kabārī bridge (eg.)",
+    "examples": []
+  },
+  {
+    "word": "كوبنھاج",
+    "displayWord": "كوبنھاج",
+    "translation": "(Fr. Copenhague) Copenhagen",
+    "examples": []
+  },
+  {
+    "word": "كوبنھاجن",
+    "displayWord": "كوبنھاجن",
+    "translation": "kōbinhāgin Copenhagen",
+    "examples": []
+  },
+  {
+    "word": "كوبيا",
+    "displayWord": "كوبيا",
+    "translation": "(It. copia) kōbiyā copy │ قلم كوبيا qalam k. copying pencil, indelible pencil",
+    "examples": []
+  },
+  {
+    "word": "كوبيل",
+    "displayWord": "كوبيل",
+    "translation": "(Engl. cobble) cobbled pavement, cobblestones",
+    "examples": []
+  },
+  {
+    "word": "كوبيه",
+    "displayWord": "كوبيه",
+    "translation": "(It. copia) kōbiya copy",
+    "examples": []
+  },
+  {
+    "word": "كوتر",
+    "displayWord": "كوتر",
+    "translation": "(Engl. cutter) kōtar pl. كواتر kawātir2 (eg.) cutter, yawl",
+    "examples": []
+  },
+  {
+    "word": "كوثة",
+    "displayWord": "كوثة",
+    "translation": "kauta fertility; abundance, profusion",
+    "examples": []
+  },
+  {
+    "word": "كوثر",
+    "displayWord": "كوثر",
+    "translation": "kautar much, ample, abundant, plentiful, large quantity; الكوثر al-kautar name of a river in Paradise",
+    "examples": []
+  },
+  {
+    "word": "كوثل",
+    "displayWord": "كوثل",
+    "translation": "kautal stern (of a ship)",
+    "examples": []
+  },
+  {
+    "word": "كوخ",
+    "displayWord": "كوخ",
+    "translation": "2 kūk pl. اكواخ akwāk hut",
+    "examples": []
+  },
+  {
+    "word": "كاخية",
+    "displayWord": "كاخية",
+    "translation": "2 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "كاد",
+    "displayWord": "كاد",
+    "translation": "(كود 1 ) kāda (1st pers. perf. kidtu) imperf. يكاد yakādu to be on the point ( ان of doing s.th.), be about ( ان to do s.th.), (with imperf.) it wouldn’t have taken much more ..., he (it) all but ..., he (would have) almost ... │ كاد يموت he almost died; كدت",
+    "examples": []
+  },
+  {
+    "word": "كاد",
+    "displayWord": "كاد",
+    "translation": "kād: بالكاد almost, nearly; see also alphabetically",
+    "examples": []
+  },
+  {
+    "word": "كود",
+    "displayWord": "كود",
+    "translation": "2 II to heap up, pile up ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "كودة",
+    "displayWord": "كودة",
+    "translation": "kauda pl. اكواد akwād heap, pile",
+    "examples": []
+  },
+  {
+    "word": "كودية زار",
+    "displayWord": "كودية زار",
+    "translation": "3 (eg.) kudyit zār woman leader of the Zar ritual",
+    "examples": []
+  },
+  {
+    "word": "كور",
+    "displayWord": "كور",
+    "translation": "1 II to roll, roll up, coil, roll into a ball ( ھ s.th.), to wind ( ھ the turban); to make round, ball-shaped ( ھ s.th.); to clench (",
+    "examples": []
+  },
+  {
+    "word": "كور",
+    "displayWord": "كور",
+    "translation": "kūr pl. اكوار akwār, اكور akwur,",
+    "examples": []
+  },
+  {
+    "word": "كيران",
+    "displayWord": "كيران",
+    "translation": "kīrān camel saddle; forge, furnace, smelting furnace, bellows",
+    "examples": []
+  },
+  {
+    "word": "كورة",
+    "displayWord": "كورة",
+    "translation": "kūra pl. كور kuwar district, rural district, small town, village, ball (= (كرة",
+    "examples": []
+  },
+  {
+    "word": "كورى",
+    "displayWord": "كورى",
+    "translation": "see below, alphabetically",
+    "examples": []
+  },
+  {
+    "word": "كوارة",
+    "displayWord": "كوارة",
+    "translation": "kuwāra pl. كوائر kawā’ir2 beehive",
+    "examples": []
+  },
+  {
+    "word": "كوروي",
+    "displayWord": "كوروي",
+    "translation": "kūrawī ball-shaped, globular, spherical",
+    "examples": []
+  },
+  {
+    "word": "كار",
+    "displayWord": "كار",
+    "translation": "2 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "كوردون",
+    "displayWord": "كوردون",
+    "translation": "(Fr. cordon) kordōn pl. -āt cordon; ribbon, braid, lace, trimming 845",
+    "examples": []
+  },
+  {
+    "word": "كورس",
+    "displayWord": "كورس",
+    "translation": "(Engl.) kōras chorus (also fig.); choir",
+    "examples": []
+  },
+  {
+    "word": "كورسيه",
+    "displayWord": "كورسيه",
+    "translation": "(Fr. corset) korsēh pl. كورسيھات korsēhāt corset",
+    "examples": []
+  },
+  {
+    "word": "كورك، كوريك",
+    "displayWord": "كورك، كوريك",
+    "translation": "(Turk. kürek) kūrēk forced labor (eg.)",
+    "examples": []
+  },
+  {
+    "word": "كورنيش",
+    "displayWord": "كورنيش",
+    "translation": "(Fr. corniche) see كرنيش",
+    "examples": []
+  },
+  {
+    "word": "كورريا",
+    "displayWord": "كورريا",
+    "translation": "kōriyā Korea",
+    "examples": []
+  },
+  {
+    "word": "كوري",
+    "displayWord": "كوري",
+    "translation": "kōrī Korean",
+    "examples": []
+  },
+  {
+    "word": "كوريك",
+    "displayWord": "كوريك",
+    "translation": "see كريك and كورك",
+    "examples": []
+  },
+  {
+    "word": "كوز",
+    "displayWord": "كوز",
+    "translation": "kūz pl. اكواز akwāz, كيزان kīzān small jug of clay or tin; mug, tankard │ كوز الذرة k. addura (eg.) corncob",
+    "examples": []
+  },
+  {
+    "word": "كوس",
+    "displayWord": "كوس",
+    "translation": "1 kūs pl. -āt small drum",
+    "examples": []
+  },
+  {
+    "word": "كاس",
+    "displayWord": "كاس",
+    "translation": "2 kās pl. اكواس akwās = كأس",
+    "examples": []
+  },
+  {
+    "word": "كويس",
+    "displayWord": "كويس",
+    "translation": "3 kuwayyis (eg.) nice, fine, pretty, comely, handsome, beautiful",
+    "examples": []
+  },
+  {
+    "word": "كوسا",
+    "displayWord": "كوسا",
+    "translation": "or كوسى kūsā (coll.; n. un. كوساة kūsāh, □",
+    "examples": []
+  },
+  {
+    "word": "كوساية",
+    "displayWord": "كوساية",
+    "translation": "kūsāya) (eg., syr.) zucchini; see also under كيس",
+    "examples": []
+  },
+  {
+    "word": "كوسج",
+    "displayWord": "كوسج",
+    "translation": "kausaj swordfish (Xiphias gladius)",
+    "examples": []
+  },
+  {
+    "word": "كوشة",
+    "displayWord": "كوشة",
+    "translation": "kūša pl. كوش kuwaš kiln (specif., limekiln)",
+    "examples": []
+  },
+  {
+    "word": "كوع",
+    "displayWord": "كوع",
+    "translation": "kū’ and كاع kā’ pl. اكواع akwā’, كيعان kī’ān projecting carpal end of the radius, wristbone; elbow (anat.); kū’ elbow, angle, bend (of a pipe); curve, turn, bend (of a road) │ كوع الماسورة kneepiece or elbow of a pipe; لا يعرف الكوع من البوع (ya’rifu) he doesn’t know his knee from his elbow (proverbially of a stupid person)",
+    "examples": []
+  },
+  {
+    "word": "كوف",
+    "displayWord": "كوف",
+    "translation": "V to band together, throng together, gather in a crowd",
+    "examples": []
+  },
+  {
+    "word": "كوفي",
+    "displayWord": "كوفي",
+    "translation": "kūfī Kufic; Kufic writing; الكوفيون the Kufic (school of) grammarians",
+    "examples": []
+  },
+  {
+    "word": "كوفية",
+    "displayWord": "كوفية",
+    "translation": "kūfīya pl. -āt kaffiyeh, square kerchief diagonally folded and worn under the ‘iqāl as a headdress",
+    "examples": []
+  },
+  {
+    "word": "كوك",
+    "displayWord": "كوك",
+    "translation": "(Engl.) kōk coke",
+    "examples": []
+  },
+  {
+    "word": "كوكب",
+    "displayWord": "كوكب",
+    "translation": "kaukab pl. كواكب kawākib2 star (also, fig., of screen, stage, etc.); leucoma, white opacity in the cornea of the eye │ كوكب",
+    "examples": []
+  },
+  {
+    "word": "كوكبة",
+    "displayWord": "كوكبة",
+    "translation": "kaukaba star; group, troop, party; (pl. كواكب kawākib2) (Syr.; mil.) squadron (of armored units, of cavalry)",
+    "examples": []
+  },
+  {
+    "word": "كوكبي",
+    "displayWord": "كوكبي",
+    "translation": "kaukabī star-shaped, stelliform, starlike, stellular, stellate, stellar; starry, starred; astral",
+    "examples": []
+  },
+  {
+    "word": "كوكتيل",
+    "displayWord": "كوكتيل",
+    "translation": "koktēl cocktail",
+    "examples": []
+  },
+  {
+    "word": "كولان",
+    "displayWord": "كولان",
+    "translation": "kaulān, kūlān papyrus (Cyperus papyrus; bot.)",
+    "examples": []
+  },
+  {
+    "word": "كولومبو",
+    "displayWord": "كولومبو",
+    "translation": "kolombō Colombo (capital of Ceylon)",
+    "examples": []
+  },
+  {
+    "word": "كولومبيا",
+    "displayWord": "كولومبيا",
+    "translation": "kolombiyā Colombia",
+    "examples": []
+  },
+  {
+    "word": "كولونيا",
+    "displayWord": "كولونيا",
+    "translation": "kolōniyā Cologne; Eau de Cologne",
+    "examples": []
+  },
+  {
+    "word": "كوليرا",
+    "displayWord": "كوليرا",
+    "translation": "(Fr. choléra) kōlīrā cholera",
+    "examples": []
+  },
+  {
+    "word": "كوليس",
+    "displayWord": "كوليس",
+    "translation": "kūlīs pl. كواليس kawālīs2 side scene, coulisse, backdrop │ وراء الكواليس behind the scene, backstage (also fig.)",
+    "examples": []
+  },
+  {
+    "word": "كوالين",
+    "displayWord": "كوالين",
+    "translation": "pl. of كالون , which see (alphabetically);",
+    "examples": []
+  },
+  {
+    "word": "كواليني",
+    "displayWord": "كواليني",
+    "translation": "ibid.",
+    "examples": []
+  },
+  {
+    "word": "كوم",
+    "displayWord": "كوم",
+    "translation": "II to heap, pile up, stack up ( ھ s.th.) V to be piled up; to pile up; to accumulate; to sink to the ground, crumple, collapse in a heap",
+    "examples": []
+  },
+  {
+    "word": "كوم",
+    "displayWord": "كوم",
+    "translation": "kaum pl. اكوام akwām, كيمان kīmān heap, pile; hill; pl. كيمان kīmān esp. garbage piles, refuse dump",
+    "examples": []
+  },
+  {
+    "word": "كومة",
+    "displayWord": "كومة",
+    "translation": "kauma, kūma pl. -āt, كوم kuwam,",
+    "examples": []
+  },
+  {
+    "word": "كوماندان",
+    "displayWord": "كوماندان",
+    "translation": "kom6ndan commBndant, commander 846",
+    "examples": []
+  },
+  {
+    "word": "كومساري",
+    "displayWord": "كومساري",
+    "translation": "see كمساري",
+    "examples": []
+  },
+  {
+    "word": "كومسيوجي",
+    "displayWord": "كومسيوجي",
+    "translation": "kūmisyōjī commission merchant",
+    "examples": []
+  },
+  {
+    "word": "كومودينو",
+    "displayWord": "كومودينو",
+    "translation": "(It. coomidino) komudīnū bedside table",
+    "examples": []
+  },
+  {
+    "word": "كوميديا",
+    "displayWord": "كوميديا",
+    "translation": "kōmīdiyā comedy",
+    "examples": []
+  },
+  {
+    "word": "كان",
+    "displayWord": "كان",
+    "translation": "(كون 1 ) kāna u (kaun, كيان kiyān, كينونة kainīna) to be; to exist; to happen, occur, take place; with acc. of the predicate: to be s.th.; with foll. perf. denoting the pluperfect; with foll. imperf. expressing duration in the past = Engl. progressive past: was doing (often corresponding to Engl. “used to ...”, “would ...”); with ل: to belong to, be one’s own ( كان له بيت he had or owned a house); with ل and s.th.: to be the right man for, be qualified for; with",
+    "examples": []
+  },
+  {
+    "word": "كون",
+    "displayWord": "كون",
+    "translation": "kaun pl. اكوان akwān being, esse; existence; event, occurrence, incident;",
+    "examples": []
+  },
+  {
+    "word": "كوني",
+    "displayWord": "كوني",
+    "translation": "kaunī of or relating to the universe or cosmos, universal, cosmic, cosmo- (in compounds) │ O الأشعة الكونية (aši‘‘a) cosmic rays; نظام كوني cosmic system",
+    "examples": []
+  },
+  {
+    "word": "كيان",
+    "displayWord": "كيان",
+    "translation": "kiyān being, esse; existence; essence, substance; nature",
+    "examples": []
+  },
+  {
+    "word": "كائن",
+    "displayWord": "كائن",
+    "translation": "kā’in being; existing, existent; situated, located; a being, entity, creature, creation; (pl. -āt) thing; s.th. existing, an existent │ الكائن المطلق (muṭlaq) the Absolute Being, God; الكائنات the created things, the universe, the world; كائنا من كان (man) whoever it may be; كائنا ما كان be it what it may, whatever it may be",
+    "examples": []
+  },
+  {
+    "word": "كيوان",
+    "displayWord": "كيوان",
+    "translation": "2 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "كونتراتو",
+    "displayWord": "كونتراتو",
+    "translation": "(It. contratto) kontrātō agreement, accord, treaty, contract",
+    "examples": []
+  },
+  {
+    "word": "كونكرداتو",
+    "displayWord": "كونكرداتو",
+    "translation": "(It. concordato) konkurdātō settlement, composition (between debtor and creditors)",
+    "examples": []
+  },
+  {
+    "word": "كونياك",
+    "displayWord": "كونياك",
+    "translation": "konyāk cognac □ مكوه for مكوى see كوى 1",
+    "examples": []
+  },
+  {
+    "word": "كوى",
+    "displayWord": "كوى",
+    "translation": "1 kawā i ( كي kayy) to burn ( ھ s.th.); to sear ھ) s.th.); to cauterize, treat with a cautery ه) s.o.; med.); to brand ( ه s.o.); to bite, burn (acid); to sting (scorpion); to press, iron (",
+    "examples": []
+  },
+  {
+    "word": "كي",
+    "displayWord": "كي",
+    "translation": "kayy burning; cauterization, cautery; pressing, ironing │ حجر الكي ḥajar al-k. lunar caustic, silver nitrate; O الكي الكھربائي (kahrabā’ī) diathermy",
+    "examples": []
+  },
+  {
+    "word": "كية",
+    "displayWord": "كية",
+    "translation": "kayya a burn, a brand",
+    "examples": []
+  },
+  {
+    "word": "كواء",
+    "displayWord": "كواء",
+    "translation": "kawwā’ slanderer, calumniator; ironer, presser",
+    "examples": []
+  },
+  {
+    "word": "كواية",
+    "displayWord": "كواية",
+    "translation": "kawwāya ironing woman, ironer",
+    "examples": []
+  },
+  {
+    "word": "كوية",
+    "displayWord": "كوية",
+    "translation": "kawīya (syr.) press, crease (in trousers)",
+    "examples": []
+  },
+  {
+    "word": "كاو",
+    "displayWord": "كاو",
+    "translation": "kāwin caustic",
+    "examples": []
+  },
+  {
+    "word": "كوى",
+    "displayWord": "كوى",
+    "translation": "2 kuwan see كوة",
+    "examples": []
+  },
+  {
+    "word": "كي",
+    "displayWord": "كي",
+    "translation": "1 kai, لكي li-kai so that, in order that, in order to │ كي لا and لكي لا in order not to, lest 848",
+    "examples": []
+  },
+  {
+    "word": "كيما",
+    "displayWord": "كيما",
+    "translation": "kai-mā, لكيما li-kai-mā that, so that, in order that, in order to",
+    "examples": []
+  },
+  {
+    "word": "كي",
+    "displayWord": "كي",
+    "translation": "2 kayy and كية kayya see كوى 1",
+    "examples": []
+  },
+  {
+    "word": "كيت",
+    "displayWord": "كيت",
+    "translation": "1 kīt Indian dress material",
+    "examples": []
+  },
+  {
+    "word": "كيت وكيت",
+    "displayWord": "كيت وكيت",
+    "translation": "2 kaita wa-kaita, kaiti wa-kaiti so and so, such and such, thus and thus",
+    "examples": []
+  },
+  {
+    "word": "كاد",
+    "displayWord": "كاد",
+    "translation": "(كيد 1 ) kāda i (kaid, مكيدة makīda) to deceive, dupe, outwit ( ه s.o.); to harm by artful machinations ( ل s.o., s.th.), lay snares ( ل for s.o.), plot s.o.’s ( ل) downfall, conspire ل) against s.o.) III to deceive, dupe, outwit ه) s.o.); to seek to double-cross ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "كيد",
+    "displayWord": "كيد",
+    "translation": "kaid pl. كياد kiyād ruse, artifice, stratagem; craftiness, slyness, cunning, subtlety; deception, deceit; artful plot; trick, dodge",
+    "examples": []
+  },
+  {
+    "word": "كاد",
+    "displayWord": "كاد",
+    "translation": "2 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "كير",
+    "displayWord": "كير",
+    "translation": "kīr pl. اكيار akyār, كيران kīrān bellows",
+    "examples": []
+  },
+  {
+    "word": "كيروسين",
+    "displayWord": "كيروسين",
+    "translation": "(Engl.) kirūsīn kerosene",
+    "examples": []
+  },
+  {
+    "word": "كاس",
+    "displayWord": "كاس",
+    "translation": "(كيس ) kāsa i (kais, كياسة kiyāsa) to be smart, clever, intelligent; to be nice, fine, pretty, comely, handsome, attractive, chic II to refine, make elegant",
+    "examples": []
+  },
+  {
+    "word": "كيس",
+    "displayWord": "كيس",
+    "translation": "kais smartness, cleverness, intelligence; subtlety, finesse, gracefulness, elegance",
+    "examples": []
+  },
+  {
+    "word": "كيس",
+    "displayWord": "كيس",
+    "translation": "kais m. and f., pl. اكياس akyās, كيسة kiyasa, sack; bag; pouch; purse; Turkish towel │ كيس الوسادة pillowcase, pillow slip;",
+    "examples": []
+  },
+  {
+    "word": "كيس الصفراء",
+    "displayWord": "كيس الصفراء",
+    "translation": "k. aṣ-ṣafrā’ gall, bile; على كيسه at his expense",
+    "examples": []
+  },
+  {
+    "word": "كيس",
+    "displayWord": "كيس",
+    "translation": "kayyis pl. اكياس akyās, كيسى kaisā, f. كيسة kayyisa, pl. كياس kiyās sly, smart, astute, shrewd, sagacious; adroit, dexterous, skillful; nice, fine, elegant, stylish, chic, attractive, comely, pretty, handsome",
+    "examples": []
+  },
+  {
+    "word": "كياسة",
+    "displayWord": "كياسة",
+    "translation": "kiyāsa adroitness, dexterity, skill; cleverness, smartness, astuteness, shrewdness, slyness, sagacity, subtlety, finesse; courtesy, civility, politeness; gracefulness, grace; elegance, chic, stylishness",
+    "examples": []
+  },
+  {
+    "word": "كيف",
+    "displayWord": "كيف",
+    "translation": "II to form, shape, fashion, mold ( ھ s.th.); to fit, condition, modify, conform, adjust, adapt ( ھ s.th., نفسه o.s.); to regulate ( ھ s.th.); to put in high spirits, exhilarate, amuse, delight ( ھ s.o.); to intoxicate slightly, dope, stupefy ( ه s.o.; of a narcotic) Y to be shaped, be formed; to assume a form, take on a shape; to adapt o.s., adjust o.s., conform; to be in high spirits, be cheerful, gay; to amuse o.s., enjoy o.s., have a good time, have fun; to revel; to be slightly intoxicated, be tipsy, fuddled; to smoke (tobacco, etc.)",
+    "examples": []
+  },
+  {
+    "word": "كيف",
+    "displayWord": "كيف",
+    "translation": "kaifa (interrogative and exclamatory particle) how? how ...! │ كيف",
+    "examples": []
+  },
+  {
+    "word": "كيفما",
+    "displayWord": "كيفما",
+    "translation": "kaifamā however, howsoever │",
+    "examples": []
+  },
+  {
+    "word": "كيفما كان الحال",
+    "displayWord": "كيفما كان الحال",
+    "translation": "whatever the case may be, be that as it may; in any case, at any rate",
+    "examples": []
+  },
+  {
+    "word": "كيف",
+    "displayWord": "كيف",
+    "translation": "kaif state, condition; mood, humor, state of mind, frame of mind; pleasure, delight, well-being, good humor, 849 high spirits; discretion, option. will; (pl. كيوف kuyūf) narcotic, opiate │ على كيفك at your discretion, as you please; as you wish, as you like; اصحاب الكيف bons vivants, epicures",
+    "examples": []
+  },
+  {
+    "word": "كيفي",
+    "displayWord": "كيفي",
+    "translation": "kaifī arbitrary, discretionary, optional; qualitative",
+    "examples": []
+  },
+  {
+    "word": "كيفية",
+    "displayWord": "كيفية",
+    "translation": "kaifīya manner, mode, fashion; property, quality; nature, state, condition; particulars, particular circumstances (e.g., of an event) │ كيفية العمل k. al-‘amal operation (e.g., of a machine); كيفية",
+    "examples": []
+  },
+  {
+    "word": "كيكة",
+    "displayWord": "كيكة",
+    "translation": "1 kaika pl. كياكي kayākī egg",
+    "examples": []
+  },
+  {
+    "word": "كيكة",
+    "displayWord": "كيكة",
+    "translation": "2 kīka, كيكا kīkā (eg.) hide-and-seek",
+    "examples": []
+  },
+  {
+    "word": "كال",
+    "displayWord": "كال",
+    "translation": "(كيل ) kāla i (kail, مكال makāl, مكيل makīl) to measure ( ھ s.th.); to weigh ( ھ s.th.); to compare by measuring ( ب ھ s.th. with), measure s.th. ( ھ ) by the standard of ( ;(ب to measure out, mete out, allot, apportion (",
+    "examples": []
+  },
+  {
+    "word": "كيل",
+    "displayWord": "كيل",
+    "translation": "kail pl. اكيال akyāl measure; dry measure for grain; holding capacity",
+    "examples": []
+  },
+  {
+    "word": "كيلة",
+    "displayWord": "كيلة",
+    "translation": "kaila pl. -āt kilah, a dry measure (Eg. = 16.72 l; Pal. = 361)",
+    "examples": []
+  },
+  {
+    "word": "كيلي",
+    "displayWord": "كيلي",
+    "translation": "kailī and مكيل makīl (volumetrically) measurable, volumetric(al)",
+    "examples": []
+  },
+  {
+    "word": "كيال",
+    "displayWord": "كيال",
+    "translation": "kayyāl corn measurer; one who metes out, who determines the right measure, muter, lord",
+    "examples": []
+  },
+  {
+    "word": "كيلو",
+    "displayWord": "كيلو",
+    "translation": "kīlō and كيلوجرام kilogrām pl. -āt kilogram",
+    "examples": []
+  },
+  {
+    "word": "كيلوسيكل",
+    "displayWord": "كيلوسيكل",
+    "translation": "(Fr. kilocycle) kīlōsikl pl. -āt kilocycle (radio)",
+    "examples": []
+  },
+  {
+    "word": "كيلومتر",
+    "displayWord": "كيلومتر",
+    "translation": "kīlōmitr pl. -āt kilometer",
+    "examples": []
+  },
+  {
+    "word": "كيلوواط",
+    "displayWord": "كيلوواط",
+    "translation": "kīlōwāṭ kilowatt",
+    "examples": []
+  },
+  {
+    "word": "كيلون",
+    "displayWord": "كيلون",
+    "translation": "= كالون look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "كيما",
+    "displayWord": "كيما",
+    "translation": "kai-mā see كي 1",
+    "examples": []
+  },
+  {
+    "word": "كيموس",
+    "displayWord": "كيموس",
+    "translation": "kaimūs gastric juice",
+    "examples": []
+  },
+  {
+    "word": "كيمياء",
+    "displayWord": "كيمياء",
+    "translation": "kīmiyā’ chemistry; alchemy │ الكيمياء",
+    "examples": []
+  },
+  {
+    "word": "كيمي",
+    "displayWord": "كيمي",
+    "translation": "kīmī chemical",
+    "examples": []
+  },
+  {
+    "word": "كيميائي",
+    "displayWord": "كيميائي",
+    "translation": "kīmiyā’ī, كيماوي kīmāwī chemical; -- (pl. -ūn) chemist; alchemist;",
+    "examples": []
+  },
+  {
+    "word": "كيماويات",
+    "displayWord": "كيماويات",
+    "translation": "kīmāwīyāt chemicals كين) كان) kāna i (kain) to humble o.s., abase o.s., eat humble pie, submit, resign o.s. X do.",
+    "examples": []
+  },
+  {
+    "word": "كينا",
+    "displayWord": "كينا",
+    "translation": "kīnā quinine │ خشب الكينا kašab al-k. cinchona, china bark, Peruvian bark",
+    "examples": []
+  },
+  {
+    "word": "كينين",
+    "displayWord": "كينين",
+    "translation": "kīnīn quinine",
+    "examples": []
+  },
+  {
+    "word": "كيھك",
+    "displayWord": "كيھك",
+    "translation": "kiyahk, kīhak the fourth month of the Coptic year",
+    "examples": []
+  },
+  {
+    "word": "كيوان",
+    "displayWord": "كيوان",
+    "translation": "kaiwān the planet Saturn",
+    "examples": []
+  },
+  {
+    "word": "كيوبيد",
+    "displayWord": "كيوبيد",
+    "translation": "(Engl.) kiyūbīd Cupid 850 ل",
+    "examples": []
+  },
+  {
+    "word": "كفالة",
+    "displayWord": "كفالة",
+    "translation": "(kafāla) on bail; الى اللقاء good by! so long! au revoir!",
+    "examples": []
+  },
+  {
+    "word": "كم مرة",
+    "displayWord": "كم مرة",
+    "translation": "kam marratan how often? how many times? للمرة السادسة for the sixth times; لآخر مرة li-ākiri marratin or للمرة",
+    "examples": []
+  },
+  {
+    "word": "كان معه",
+    "displayWord": "كان معه",
+    "translation": "it was with him, he had it with him;",
+    "examples": []
+  },
+  {
+    "word": "كان منھم",
+    "displayWord": "كان منھم",
+    "translation": "what share they had in ..., to what extent they were involved in ..., what part they played in … from, beginning , starting ..., since, for; after │ من شھر (šahr) for a month (past), since one month ago; من مدة (mudda) for some time (in the past); بعد ايام من ھذه",
+    "examples": []
+  },
+  {
+    "word": "كريم النحيزة",
+    "displayWord": "كريم النحيزة",
+    "translation": "high-minded, nobleminded, of generous disposition",
+    "examples": []
+  },
+  {
+    "word": "كل انحاء العالم",
+    "displayWord": "كل انحاء العالم",
+    "translation": "( المعمورة ) (‘ālam) all over the world; النحو المقارن (muqārin) comparative grammar",
+    "examples": []
+  },
+  {
+    "word": "كل مناسبة",
+    "displayWord": "كل مناسبة",
+    "translation": "whenever an opportunity arises, at every suitable occasion",
+    "examples": []
+  },
+  {
+    "word": "كان نصيبه من ذلك الإخفاق",
+    "displayWord": "كان نصيبه من ذلك الإخفاق",
+    "translation": ";... (ikfāqu) to have bad luck in s.th., draw a blank; ھو على",
+    "examples": []
+  },
+  {
+    "word": "كالتنوين والإضافة",
+    "displayWord": "كالتنوين والإضافة",
+    "translation": "(iḍāfa) they are like day and light, they are diametrically opposed, they are as unlike as they could be",
+    "examples": []
+  },
+  {
+    "word": "كتفيه",
+    "displayWord": "كتفيه",
+    "translation": "(katifaihi) to shrug (one’s shoulders);",
+    "examples": []
+  },
+  {
+    "word": "كل وجه",
+    "displayWord": "كل وجه",
+    "translation": "in every respect, from every point of view, on all grounds; من وجوه كثيرة from many points of view, in many respects; من",
+    "examples": []
+  },
+  {
+    "word": "كما يود",
+    "displayWord": "كما يود",
+    "translation": "as he likes; وددت لو كان غنيا (lau, ganīyan) I wish he were rich; ود نفسه بعيدا",
+    "examples": []
+  },
+  {
+    "word": "كذا",
+    "displayWord": "كذا",
+    "translation": "(ḥaddi k.) this gets to the point where ...; وصل الى الصفحة الحاصمة (ṣafḥa) to enter the decisive phase II to connect, join, unite, combine ( ب ھ s.th. with); to make ( ھ، ه s.o., s.th.) get ( الى to), see that s.o. or s.th. ( ھ، ه ) gets to ( ھ ); to get, take, bring, move, lead, show, conduct, convey, channel ( الى ھ، ه s.o., s.th. to); to give ( ه s.o.) a ride, a lift; to carry, transport, transfer, convey ( الى، ھ s.th. to); to deliver, transmit, communicate ( الى ھ s.th. to); to conduct, act as a conductor (el.); to accompany, escort ( الى ه s.o. to); to connect ( الى ھ s.th. to an electric circuit, ب",
+    "examples": []
   }
 ]

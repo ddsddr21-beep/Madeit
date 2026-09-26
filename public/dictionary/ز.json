@@ -1,80 +1,2624 @@
 [
   {
-    "word": "زهره",
-    "displayWord": "زَهْرَة",
-    "root": "زهر",
-    "translation": "flower, blossom, splendor",
-    "examples": [
-      {
-        "ar": "تَفَتَّحَتْ زَهْرَةُ اليَاسَمِينِ مَعَ خُيُوطِ الفَجْرِ الأُولَى.",
-        "en": "The jasmine flower bloomed with the first threads of dawn.",
-        "source": "Romantic Prose"
-      }
-    ]
+    "word": "زيارة مجاملة",
+    "displayWord": "زيارة مجاملة",
+    "translation": "ziyārat m. courtesy call; قواعد",
+    "examples": []
+  },
+  {
+    "word": "زوج",
+    "displayWord": "زوج",
+    "translation": "2 = □ جوز II to give in marriage □ جوز jauz pl. اجواز ajwāz = زوج couple □ مجوز (syr.; pronounced məžwez, ",
+    "examples": []
+  },
+  {
+    "word": "زاء",
+    "displayWord": "زاء",
+    "translation": "zā’ name of the letter ز",
+    "examples": []
+  },
+  {
+    "word": "زاؤوق",
+    "displayWord": "زاؤوق",
+    "translation": "zā’ūq quicksilver, mercury",
+    "examples": []
+  },
+  {
+    "word": "زئبق",
+    "displayWord": "زئبق",
+    "translation": "zi’baq quicksilver, mercury",
+    "examples": []
+  },
+  {
+    "word": "زاج",
+    "displayWord": "زاج",
+    "translation": "zāj vitriol",
+    "examples": []
+  },
+  {
+    "word": "زاجورا",
+    "displayWord": "زاجورا",
+    "translation": "zāgōra Zagora, a brand of Egyptian cotton",
+    "examples": []
+  },
+  {
+    "word": "زأر",
+    "displayWord": "زأر",
+    "translation": "za’ara a (za’r, زئير za’īr) to roar, bellow",
+    "examples": []
+  },
+  {
+    "word": "زئير",
+    "displayWord": "زئير",
+    "translation": "za’īr roaring, roar, bellowing",
+    "examples": []
+  },
+  {
+    "word": "زأط",
+    "displayWord": "زأط",
+    "translation": "za’aṭ a ( زئاط zi’āṭ) to clamor, be vociferous",
+    "examples": []
+  },
+  {
+    "word": "زاغ",
+    "displayWord": "زاغ",
+    "translation": "zāg pl. زيغان zīgān crow",
+    "examples": []
+  },
+  {
+    "word": "زؤان",
+    "displayWord": "زؤان",
+    "translation": "1 zu’ān darnel (Lolium temulentum; bot.)",
+    "examples": []
+  },
+  {
+    "word": "زان",
+    "displayWord": "زان",
+    "translation": "2 (syr., eg.) beech │ ثمر زان tamar z. beechnuts",
+    "examples": []
+  },
+  {
+    "word": "زانة",
+    "displayWord": "زانة",
+    "translation": "zāna pl. -āt spear; pole │( الوثب (القفز",
+    "examples": []
+  },
+  {
+    "word": "زاووق",
+    "displayWord": "زاووق",
+    "translation": "zāwūq quicksilver, mercury",
+    "examples": []
+  },
+  {
+    "word": "زاي",
+    "displayWord": "زاي",
+    "translation": "zāy name of the letter ز",
+    "examples": []
+  },
+  {
+    "word": "زب",
+    "displayWord": "زب",
+    "translation": "zubb pl. ازباب azbāb penis",
+    "examples": []
+  },
+  {
+    "word": "زبيب",
+    "displayWord": "زبيب",
+    "translation": "zabīb (coll.; n. un. ة) dried grapes, raisins; (eg.) a strong colorless liquor made of raisins, milky white when diluted with water",
+    "examples": []
+  },
+  {
+    "word": "زبد",
+    "displayWord": "زبد",
+    "translation": "zabada a to chum ( ھ milk) II to foam, froth, cream (milk) IV to froth, become foamy, foam (also, with rage)",
+    "examples": []
+  },
+  {
+    "word": "زبد",
+    "displayWord": "زبد",
+    "translation": "zabad pl. ازباد azbād foam, froth; dross │ زبد البحر z. al-baḥr meerschaum",
+    "examples": []
+  },
+  {
+    "word": "زبدة",
+    "displayWord": "زبدة",
+    "translation": "zubda (fresh) butter (as opposed to",
+    "examples": []
+  },
+  {
+    "word": "زبدية",
+    "displayWord": "زبدية",
+    "translation": "zabdīya pl. زبادي zabādīy bowl",
+    "examples": []
+  },
+  {
+    "word": "زباد",
+    "displayWord": "زباد",
+    "translation": "zabād civet │ سنور الزباد sinnūr azz. civet cat",
+    "examples": []
+  },
+  {
+    "word": "زبادي",
+    "displayWord": "زبادي",
+    "translation": "zabādī and لبن زبادي (laban) curdled milk (eg.)",
+    "examples": []
+  },
+  {
+    "word": "زبر",
+    "displayWord": "زبر",
+    "translation": "zabara u i to scold ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "زبر",
+    "displayWord": "زبر",
+    "translation": "zubr penis",
+    "examples": []
+  },
+  {
+    "word": "زبرة",
+    "displayWord": "زبرة",
+    "translation": "zubra pl. زبر zubar piece of iron",
+    "examples": []
+  },
+  {
+    "word": "زبور",
+    "displayWord": "زبور",
+    "translation": "zabūr (Book of) Psalms, Psalter",
+    "examples": []
+  },
+  {
+    "word": "زبرج",
+    "displayWord": "زبرج",
+    "translation": "zibrij ornament, ornamentation, decoration, embellishment",
+    "examples": []
+  },
+  {
+    "word": "زبرجد",
+    "displayWord": "زبرجد",
+    "translation": "zabarjad chrysolite (min.)",
+    "examples": []
+  },
+  {
+    "word": "زبط",
+    "displayWord": "زبط",
+    "translation": "zabaṭa i (zabṭ) to quack (duck)",
+    "examples": []
+  },
+  {
+    "word": "زبط",
+    "displayWord": "زبط",
+    "translation": "zabaṭ (eg.) mud, mire",
+    "examples": []
+  },
+  {
+    "word": "زباطة",
+    "displayWord": "زباطة",
+    "translation": "zubāṭa (eg.) bunch of dates",
+    "examples": []
+  },
+  {
+    "word": "زوبعة",
+    "displayWord": "زوبعة",
+    "translation": "zauba‘a pl. زوابع zawābi‘2 storm, hurricane",
+    "examples": []
+  },
+  {
+    "word": "زبق",
+    "displayWord": "زبق",
+    "translation": "zabaqa u i (zabq) to tear out, pluck out ( ھ hair) VII to slip in",
+    "examples": []
+  },
+  {
+    "word": "زبل",
+    "displayWord": "زبل",
+    "translation": "II to dung, manure",
+    "examples": []
+  },
+  {
+    "word": "زبل",
+    "displayWord": "زبل",
+    "translation": "zibl, زبلة zibla dung, manure",
+    "examples": []
+  },
+  {
+    "word": "زبال",
+    "displayWord": "زبال",
+    "translation": "zabbāl street sweeper; garbage collector",
+    "examples": []
+  },
+  {
+    "word": "زبالة",
+    "displayWord": "زبالة",
+    "translation": "zubāla refuse, rubbish, garbage, sweepings",
+    "examples": []
+  },
+  {
+    "word": "زبون",
+    "displayWord": "زبون",
+    "translation": "zabūn kicking (camel); hot, fierce, cruel (battle); stupid, foolish; fool; -- (pl. زبائن zabā’in2) customer, client, buyer; guest (of a hotel, end the like) │ زبون دائم patron, regular customer",
+    "examples": []
+  },
+  {
+    "word": "زبون",
+    "displayWord": "زبون",
+    "translation": "zubūn undergarment (nejd, ir.)",
+    "examples": []
+  },
+  {
+    "word": "زبانة",
+    "displayWord": "زبانة",
+    "translation": "zibāna clientele, patronage, custom",
+    "examples": []
+  },
+  {
+    "word": "زبانى",
+    "displayWord": "زبانى",
+    "translation": "zubānā pedipalpus or claw of a scorpion, of a crayfish (usually dual: زبانيا (العقرب",
+    "examples": []
+  },
+  {
+    "word": "زبانية",
+    "displayWord": "زبانية",
+    "translation": "zabāniya myrmidons; engels who thrust the damned into Hell",
+    "examples": []
+  },
+  {
+    "word": "زبية",
+    "displayWord": "زبية",
+    "translation": "zubya pl. زبى zuban elevated place above the waterline │ بلغ السيل الزبى balaga s-sailu z-zubā the matter reached a climax, things came to a head",
+    "examples": []
+  },
+  {
+    "word": "زت",
+    "displayWord": "زت",
+    "translation": "zatta (syr.) to throw",
+    "examples": []
+  },
+  {
+    "word": "زج",
+    "displayWord": "زج",
+    "translation": "zajja (1st pers. perf. zajajtu) u (zajj) to throw, hurl ( ھ s.th.); to push, shove, urge, drive ( ب or ھ، ه s.o. or s.th.); to press, squeeze, force, cram ( ب or ھ، ه s.o. or s.th., في into) │ زج به في السجن (zujja, sijn) he was thrown into prison II to pencil (",
+    "examples": []
+  },
+  {
+    "word": "زج",
+    "displayWord": "زج",
+    "translation": "zujj pl. زجاج zijāj ferrule; arrowhead; spearhead",
+    "examples": []
+  },
+  {
+    "word": "زجاج",
+    "displayWord": "زجاج",
+    "translation": "zujāj glass (as substance)",
+    "examples": []
+  },
+  {
+    "word": "زجاجة",
+    "displayWord": "زجاجة",
+    "translation": "zujāja (u. un.) pl. -āt piece of glass; (glass) bottle, flask; (drinking) glass, tumbler",
+    "examples": []
+  },
+  {
+    "word": "زجاجي",
+    "displayWord": "زجاجي",
+    "translation": "zujājī glass (adj.), glassy, vitreous",
+    "examples": []
+  },
+  {
+    "word": "زجاج",
+    "displayWord": "زجاج",
+    "translation": "zajjāj glazier",
+    "examples": []
+  },
+  {
+    "word": "زجر",
+    "displayWord": "زجر",
+    "translation": "zajara u (zajr) to drive back, drive away; to hold back, restrain, prevent ( عن ه s.o. from); to rebuke, scold, upbraid ( ه s.o.) VII and VIII ازدجر izdajara pass. of I",
+    "examples": []
+  },
+  {
+    "word": "زجر",
+    "displayWord": "زجر",
+    "translation": "zajr forcible prevention; suppression (of customs, abuses, crimes); rebuke, reprimand",
+    "examples": []
+  },
+  {
+    "word": "زجري",
+    "displayWord": "زجري",
+    "translation": "zajrī reformatory, penitentiary (adj.) │ معھد زجري (ma‘had) reformatory, reform school",
+    "examples": []
+  },
+  {
+    "word": "زاجر",
+    "displayWord": "زاجر",
+    "translation": "zājir handicap, impediment, obstacle",
+    "examples": []
+  },
+  {
+    "word": "زاجرة",
+    "displayWord": "زاجرة",
+    "translation": "zājira pl. زواجر zawājir2 check, curb; restriction, limitation",
+    "examples": []
+  },
+  {
+    "word": "زجل",
+    "displayWord": "زجل",
+    "translation": "zajala u (zajl) to let go, release ( ھ a carrier pigeon) 373",
+    "examples": []
+  },
+  {
+    "word": "زجل",
+    "displayWord": "زجل",
+    "translation": "zajal pl. ازجال azjāl popular Arabic poem in strophic form; soft humming sound produced by the jinn at night",
+    "examples": []
+  },
+  {
+    "word": "زجال",
+    "displayWord": "زجال",
+    "translation": "zajjāl reciter of azjal (see above)",
+    "examples": []
+  },
+  {
+    "word": "زجا",
+    "displayWord": "زجا",
+    "translation": "(يزجو ) zajā u to drive, urge on ( ه، ھ s.th., s.o.); to squeeze, press, force, cram ( ه، ھ s.th., s.o., في into) II to shove, push ( ھ s.th., ه s.o.); to drive, urge on ( ھ s.th., ه s.o.); to jostle, crowd, cram, jam ( ه، ھ s.th., s.o., الى into); to take or bring (forcibly) ( ھ الى، ه s.o., s.th. into); to make ھ) time) pass; to pass, spend ( ھ time) IV to shove, push ( ھ s.th., ه s.o.); to drive, urge on ( ھ s.th., ه s.o.); to jostle, crowd, cram, jam ( ه، ھ s.th., s.o., الى into); to take or bring (forcibly) ( الى ھ، ه s.o., s.th. into); to make pass, while away ( ھ time); to extend ( ھ ل s.th. to s.o.; greetings, compliments, thanks); to bestow ( ھ ل s.th. on s.o.; e.g., praise) │ ازجى الى الذھن ان (dihn) to suggest (the idea or assumption) that ...",
+    "examples": []
+  },
+  {
+    "word": "زحر",
+    "displayWord": "زحر",
+    "translation": "zaḥara a i ( زحير zaḥīr, زحار zuḥār) to groan, moan",
+    "examples": []
+  },
+  {
+    "word": "زحير",
+    "displayWord": "زحير",
+    "translation": "zaḥīr, groan, moan(s)",
+    "examples": []
+  },
+  {
+    "word": "زحار",
+    "displayWord": "زحار",
+    "translation": "zuḥār, groan, moan(s); dysentery (med.)",
+    "examples": []
+  },
+  {
+    "word": "زحزح",
+    "displayWord": "زحزح",
+    "translation": "zaḥzaḥa ( زحزحة zaḥzaḥa) to move ( ھ s.th., from its place); to tear, rip ( ھ عن s.th. off) II tazaḥzaḥa to budge, move( عن away from)",
+    "examples": []
+  },
+  {
+    "word": "زحف",
+    "displayWord": "زحف",
+    "translation": "zaḥafa a (zaḥf) to crawl, creep on the ground; to crawl about; to advance (army); to march, be on the march ( على against or toward)",
+    "examples": []
+  },
+  {
+    "word": "زحف",
+    "displayWord": "زحف",
+    "translation": "zaḥf advance, march (of an army); (pl. زحوف zuḥūf) soldiery, army",
+    "examples": []
+  },
+  {
+    "word": "زحف",
+    "displayWord": "زحف",
+    "translation": "creeping, crawling",
+    "examples": []
+  },
+  {
+    "word": "زحافة",
+    "displayWord": "زحافة",
+    "translation": "zaḥḥāfa pl. -āt reptile; implement for leveling the ground, leveler; ski",
+    "examples": []
+  },
+  {
+    "word": "زاحف",
+    "displayWord": "زاحف",
+    "translation": "zāḥif creeping, crawling; pl.",
+    "examples": []
+  },
+  {
+    "word": "زواحف",
+    "displayWord": "زواحف",
+    "translation": "zawāḥif2 reptiles",
+    "examples": []
+  },
+  {
+    "word": "زحل",
+    "displayWord": "زحل",
+    "translation": "zaḥala a (zaḥl, زحول zuḥūl) to move away, withdraw, retire ( عن from a place) II to remove ( ھ، ه s.o., s.th.) V = I",
+    "examples": []
+  },
+  {
+    "word": "زحل",
+    "displayWord": "زحل",
+    "translation": "zuḥal2 the planet Saturn",
+    "examples": []
+  },
+  {
+    "word": "زحلقة",
+    "displayWord": "زحلقة",
+    "translation": "zaḥlaqa to roll, slide ( ھ s.th.) II tazaḥlaqa to glide, slide, slip, skid",
+    "examples": []
+  },
+  {
+    "word": "زحلقة",
+    "displayWord": "زحلقة",
+    "translation": "zaḥlaqa: ميدان الزحلقة maidān az-z. skating rink",
+    "examples": []
+  },
+  {
+    "word": "زحلاوي",
+    "displayWord": "زحلاوي",
+    "translation": "zaḥlāwī from Zaḥle (Lebanon), made in Zaḥle (e.g., arrack)",
+    "examples": []
+  },
+  {
+    "word": "زحم",
+    "displayWord": "زحم",
+    "translation": "zaḥama a (zaḥm) to push, shove, hustle, jostle, crowd, press, beset ( ه s.o.) III to push, shove, hustle, jostle, crowd, press, beset ( ه s.o.); to compete, vie ( ه with s.o.) VI to press together, crowd together, mill .bout; to be closely packed lei in); to compete with one another VIII ازدحم izdaḥama to be crowded, teem, swarm ( ب with); to jostle, crowd together, mill about (e.g., people)",
+    "examples": []
+  },
+  {
+    "word": "زحمة",
+    "displayWord": "زحمة",
+    "translation": "zaḥma crush, jam; crowd, throng",
+    "examples": []
+  },
+  {
+    "word": "زحام",
+    "displayWord": "زحام",
+    "translation": "ziḥām crush, jam; crowd, throng",
+    "examples": []
+  },
+  {
+    "word": "زخة",
+    "displayWord": "زخة",
+    "translation": "zakka pl. -āt downpour, heavy shower",
+    "examples": []
+  },
+  {
+    "word": "زخر",
+    "displayWord": "زخر",
+    "translation": "zakara a (zakr, زخور zukūr) to swell, rise (e.g., river); to be overfull, brimful ( ب of); to boast ( ب of s.th.), vaunt ( ب s.th.) V to swell; to rise; to abound ( ب in), be full ( ب of)",
+    "examples": []
+  },
+  {
+    "word": "زاخر",
+    "displayWord": "زاخر",
+    "translation": "zākir and زخار zakkār full, brimful, filled to overflowing; abounding in water (seas); excessive, profuse; exuberant (feeling)",
+    "examples": []
+  },
+  {
+    "word": "زخرف",
+    "displayWord": "زخرف",
+    "translation": "zakrafa to adorn, embellish, decorate, ornament ( ھ s.th.) II tazakrafa to adorn o.s.; to be embellished, ornamented",
+    "examples": []
+  },
+  {
+    "word": "زخرف",
+    "displayWord": "زخرف",
+    "translation": "zukruf pl. زخارف zakārif decoration, ornament, embellishment; makeup, getup (e.g., of a book); vain, trifling finery │ زخارف لفظية (lafẓīya) flowers of speech, rhetorical flourishes;",
+    "examples": []
+  },
+  {
+    "word": "زخارف الدنيا",
+    "displayWord": "زخارف الدنيا",
+    "translation": "z. ad-dunyā the vanities of this world",
+    "examples": []
+  },
+  {
+    "word": "زخرفة",
+    "displayWord": "زخرفة",
+    "translation": "zakrafa pl. -āt decoration (also stage decoration); ornamentation",
+    "examples": []
+  },
+  {
+    "word": "زخرفي",
+    "displayWord": "زخرفي",
+    "translation": "zukrufī ornamental, decorative",
+    "examples": []
+  },
+  {
+    "word": "زخم",
+    "displayWord": "زخم",
+    "translation": "zakama a (zakm) to throat back ( ه s.o.); -- zakima a (zakam) to stink",
+    "examples": []
+  },
+  {
+    "word": "زخم",
+    "displayWord": "زخم",
+    "translation": "zakim stinking",
+    "examples": []
+  },
+  {
+    "word": "زخمة",
+    "displayWord": "زخمة",
+    "translation": "zakma plectrum",
+    "examples": []
+  },
+  {
+    "word": "زخمة",
+    "displayWord": "زخمة",
+    "translation": "zakama stench",
+    "examples": []
+  },
+  {
+    "word": "زر",
+    "displayWord": "زر",
+    "translation": "zarra u to button, button up ( ھ s.th.); to screw, contort ( عينه ‘ainahū one’s eye) II to button, button up ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "زر",
+    "displayWord": "زر",
+    "translation": "zirr pl. ازرار azrār, زرور zurūr button; push button; knob, pommel; bud (of a plant); tassel (of the tarboosh, etc.)",
+    "examples": []
+  },
+  {
+    "word": "زرب",
+    "displayWord": "زرب",
+    "translation": "zariba a to flow (water) II to pen, corral (",
+    "examples": []
+  },
+  {
+    "word": "زربية",
+    "displayWord": "زربية",
+    "translation": "zurbīya, zirbīya pl. زرابى zarābīy carpet, rug",
+    "examples": []
+  },
+  {
+    "word": "زريبة",
+    "displayWord": "زريبة",
+    "translation": "zarība pl. زرائب zarā’ib2 zareba, cattle pen, corral, stockade, fold; (cattle) barn; (North Af.) hut made of branches",
+    "examples": []
+  },
+  {
+    "word": "زاروب",
+    "displayWord": "زاروب",
+    "translation": "zārūb pl. زوارب zawārib2 a long, narrow lane",
+    "examples": []
+  },
+  {
+    "word": "زربول",
+    "displayWord": "زربول",
+    "translation": "zarbūl pl. زرابيل zarābīl2 and زربون zarbūn pl. زرابين zarābīn a kind of shoe",
+    "examples": []
+  },
+  {
+    "word": "زرد",
+    "displayWord": "زرد",
+    "translation": "zarada u (zard) to choke ( ه s.o.). strangle (",
+    "examples": []
+  },
+  {
+    "word": "زردة",
+    "displayWord": "زردة",
+    "translation": "zarda sweet dish made of rice and honey",
+    "examples": []
+  },
+  {
+    "word": "زرد",
+    "displayWord": "زرد",
+    "translation": "zard pl. زرود zarūd chain mail, coat of mail │ حمار الزرد zebra",
+    "examples": []
+  },
+  {
+    "word": "زردة",
+    "displayWord": "زردة",
+    "translation": "zarada chain link",
+    "examples": []
+  },
+  {
+    "word": "زردية",
+    "displayWord": "زردية",
+    "translation": "zardīya pliers",
+    "examples": []
+  },
+  {
+    "word": "زرزر",
+    "displayWord": "زرزر",
+    "translation": "zarzara to chirp",
+    "examples": []
+  },
+  {
+    "word": "زرزر",
+    "displayWord": "زرزر",
+    "translation": "zurzur and زرزور zurzūr pl. زرازير zarāzīr2 starling (zool.)",
+    "examples": []
+  },
+  {
+    "word": "زرزوري",
+    "displayWord": "زرزوري",
+    "translation": "zurzūrī gray with white spots (horse)",
+    "examples": []
+  },
+  {
+    "word": "زرع",
+    "displayWord": "زرع",
+    "translation": "zara‘a a (zar‘) to sow ( ھ s.th.); to spread, scatter ( ھ s.th.); to plant, raise, grow ( ھ plants); to till, cultivate ( الأرض al-arḍa land); to lay ( لغما lugman mine) VII pass. of I; VIII ازدرع izdara‘a to sow",
+    "examples": []
+  },
+  {
+    "word": "زرع",
+    "displayWord": "زرع",
+    "translation": "sowing; (pl. زروع zurū‘) seed; young standing crop, green crop; plantation; field(s) │ الزرع والضرع (ḍar‘) agriculture and stock farming",
+    "examples": []
+  },
+  {
+    "word": "زراعة",
+    "displayWord": "زراعة",
+    "translation": "zirā‘a agriculture; tilling, tillage; cultivation (of land); growing, raising (of crops); farming │ زراعة البساتين horticulture 375",
+    "examples": []
+  },
+  {
+    "word": "زراعي",
+    "displayWord": "زراعي",
+    "translation": "zirā‘ī agricultural, agrarian, farm- (in compounds) │ ارض زراعية (arḍ) arable land; طريق زراعي field path, dirt road",
+    "examples": []
+  },
+  {
+    "word": "زريعة",
+    "displayWord": "زريعة",
+    "translation": "zarī‘a that whicb is sown or planted; crop",
+    "examples": []
+  },
+  {
+    "word": "زراع",
+    "displayWord": "زراع",
+    "translation": "zarrā‘ pl. ة, -ūn peasant, farmer; planter",
+    "examples": []
+  },
+  {
+    "word": "زارع",
+    "displayWord": "زارع",
+    "translation": "zāri‘ pl. زراع zurrā‘ seedsman, sower; peasant; farmer; planter",
+    "examples": []
+  },
+  {
+    "word": "زرافة",
+    "displayWord": "زرافة",
+    "translation": "zarāfa pl. -āt body, group, cluster (of people) │ زرافات ووحدانا see واحد",
+    "examples": []
+  },
+  {
+    "word": "زرافة",
+    "displayWord": "زرافة",
+    "translation": "zarāfa, zurāfa pl. زرافى zarāfā, zurāfā, زرائف zarā’if2 giraffe",
+    "examples": []
+  },
+  {
+    "word": "زرق",
+    "displayWord": "زرق",
+    "translation": "2 zaraqa u i (= ذرق ) to drop excrement (bird); -- zaraqa u (zarq) to hit, pierce ( ب ه s.o. with); to jab, bore ( ھ، ه into s.o. or s.th.); to throw, hurl ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "زرق",
+    "displayWord": "زرق",
+    "translation": "zarq: زرق الإبر z. al-ibar injections, injectings",
+    "examples": []
+  },
+  {
+    "word": "زرق",
+    "displayWord": "زرق",
+    "translation": "2 zariqa a (zaraq) and IX to be blue",
+    "examples": []
+  },
+  {
+    "word": "زرق",
+    "displayWord": "زرق",
+    "translation": "zaraq blue, blueness, blue color; O glaucoma (med.)",
+    "examples": []
+  },
+  {
+    "word": "زرقة",
+    "displayWord": "زرقة",
+    "translation": "zurqa blue, blueness, blue color; O cyanosis",
+    "examples": []
+  },
+  {
+    "word": "زورق",
+    "displayWord": "زورق",
+    "translation": "2 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "زرقون",
+    "displayWord": "زرقون",
+    "translation": "zarqūn a bright red",
+    "examples": []
+  },
+  {
+    "word": "زركش",
+    "displayWord": "زركش",
+    "translation": "zarkaša to embellish with brocade embroidery; to adorn, embellish, decorate, ornament ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "زركش",
+    "displayWord": "زركش",
+    "translation": "zarkaš brocade, gold and silver embroidery",
+    "examples": []
+  },
+  {
+    "word": "زرنيخ",
+    "displayWord": "زرنيخ",
+    "translation": "zirnīk, zarnik arsenic",
+    "examples": []
+  },
+  {
+    "word": "زرى",
+    "displayWord": "زرى",
+    "translation": "zarā i ( زراية zirāya) to rebuke, scold, upbraid ( على s.o.), find fault ( ھ على with s.o. because of s.th.); to revile, disparage (",
+    "examples": []
+  },
+  {
+    "word": "زرى",
+    "displayWord": "زرى",
+    "translation": "zarīy bad, poor, miserable, despicable, contemptible",
+    "examples": []
+  },
+  {
+    "word": "زراية",
+    "displayWord": "زراية",
+    "translation": "zirāya contempt, disdain; revilement, disparagement",
+    "examples": []
+  },
+  {
+    "word": "زعبر",
+    "displayWord": "زعبر",
+    "translation": "za‘bara to deceive, cheat ( على s.o.)",
+    "examples": []
+  },
+  {
+    "word": "زعبوط",
+    "displayWord": "زعبوط",
+    "translation": "za‘abūṭ pl. زعابيط za‘ābīṭ2 a woolen fabric; woolen garment with a low neckline, worn esp. by the fellahin (eg.) 376",
+    "examples": []
+  },
+  {
+    "word": "زعتر",
+    "displayWord": "زعتر",
+    "translation": "za‘tar = سعتر",
+    "examples": []
+  },
+  {
+    "word": "زعج",
+    "displayWord": "زعج",
+    "translation": "za‘aja a and IV to disturb ( ه s.o.); to trouble, inconvenience, molest, pester, harass ( ه s.o.); to disquiet, alarm make uneasy, upset (. s.o.); to stir up ( ه s.o. من or",
+    "examples": []
+  },
+  {
+    "word": "زعج",
+    "displayWord": "زعج",
+    "translation": "za‘aj uneasiness, unrest",
+    "examples": []
+  },
+  {
+    "word": "زعر",
+    "displayWord": "زعر",
+    "translation": "za‘ir thin-haired",
+    "examples": []
+  },
+  {
+    "word": "زعارة",
+    "displayWord": "زعارة",
+    "translation": "za‘āra maliciousness, meanness",
+    "examples": []
+  },
+  {
+    "word": "زعرور",
+    "displayWord": "زعرور",
+    "translation": "zū‘rūr pl. زعارير za‘ārīr2 illtempered, peevish, testy, irascible; azarole, Neapolitan medlar (Crataegus azarolus; bot.)",
+    "examples": []
+  },
+  {
+    "word": "زعزع",
+    "displayWord": "زعزع",
+    "translation": "za‘za‘a to shake violently, convulse, rock ( ھ s.th.); to shake, upset ( ھ e.g., a resolve, a belief, etc.) II taza‘zaa to be convulsed; to work loose, wobble, be loose; to shake, rock, totter │ لا يتزعزع unshakable",
+    "examples": []
+  },
+  {
+    "word": "زعزعة",
+    "displayWord": "زعزعة",
+    "translation": "za‘za‘a pl. زعازع convulsion, shock, concussion",
+    "examples": []
+  },
+  {
+    "word": "زعزوع",
+    "displayWord": "زعزوع",
+    "translation": "za‘zū‘ lean, skinny, lanky, spindling",
+    "examples": []
+  },
+  {
+    "word": "زعط",
+    "displayWord": "زعط",
+    "translation": "za‘aṭa (za‘ṭ) to drive away",
+    "examples": []
+  },
+  {
+    "word": "زعف",
+    "displayWord": "زعف",
+    "translation": "za‘afa a (za‘f) to kill instantly ( ه s.o.) IV do.",
+    "examples": []
+  },
+  {
+    "word": "زعفران",
+    "displayWord": "زعفران",
+    "translation": "za‘farān saffron",
+    "examples": []
+  },
+  {
+    "word": "زعق",
+    "displayWord": "زعق",
+    "translation": "za‘aqa a (za‘q) to cry, yell, shriek, scream",
+    "examples": []
+  },
+  {
+    "word": "زعق",
+    "displayWord": "زعق",
+    "translation": "za‘q clamor, shouting, crying, screaming, yelling",
+    "examples": []
+  },
+  {
+    "word": "زعقة",
+    "displayWord": "زعقة",
+    "translation": "za‘qa pl. za‘aqāt cry, outcry, yell, scream, shriek",
+    "examples": []
+  },
+  {
+    "word": "زعيق",
+    "displayWord": "زعيق",
+    "translation": "za‘īq clamor, shouting, crying, screaming, yelling",
+    "examples": []
+  },
+  {
+    "word": "زعل",
+    "displayWord": "زعل",
+    "translation": "za‘ila a (za‘al) to be bored, be fed up ( من with s.th.), be tired ( من of); to be annoyed, angry II to annoy, vex ( ه s.o.) IV to trouble, annoy ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "زعل",
+    "displayWord": "زعل",
+    "translation": "za‘al displeasure, annoyance, irritation, vexation",
+    "examples": []
+  },
+  {
+    "word": "زعل",
+    "displayWord": "زعل",
+    "translation": "za‘il annoyed, angry, vexed, put out",
+    "examples": []
+  },
+  {
+    "word": "زعلان",
+    "displayWord": "زعلان",
+    "translation": "za‘lān2 annoyed, angry, vexed, put out",
+    "examples": []
+  },
+  {
+    "word": "زاعولة",
+    "displayWord": "زاعولة",
+    "translation": "zā‘ūla annoyance, anger, irritation) vexation",
+    "examples": []
+  },
+  {
+    "word": "زعم",
+    "displayWord": "زعم",
+    "translation": "za‘ama u (za‘m) to maintain, allege, claim, pretend ( ان that), declare ( ل ان to s.o. that); to believe; to take ( ه ھ s.o. for or to be ...), regard ( ه ھ s.o. as); │ زعم لنفسه to claim for o.s. ( ھ s.th.) V to set o.s. up as leader; to 377 be the leader ( ه of), lead, command ( ھ a body of soldier, or the like); to pretend to be the leader, pose as leader, be bossy",
+    "examples": []
+  },
+  {
+    "word": "زعم",
+    "displayWord": "زعم",
+    "translation": "za‘m allegation, claim │ في زعمھم as they claim, III they say",
+    "examples": []
+  },
+  {
+    "word": "زعيم",
+    "displayWord": "زعيم",
+    "translation": "za‘īm, pl. زعماء zu‘amā’2 leader; ringleader; colonel (Ir. 1922); brigadier general (mil.; formerly syr.); guarantor ( ب of)",
+    "examples": []
+  },
+  {
+    "word": "زعامة",
+    "displayWord": "زعامة",
+    "translation": "za‘āma leadership; leading position in politics",
+    "examples": []
+  },
+  {
+    "word": "زعنفة",
+    "displayWord": "زعنفة",
+    "translation": "zi‘nifa pl. زعانف za‘ānif2, horde, pack, mob, rabble, rifraff; low hue, mean; pl. fins (of fish); flippers (of whale, seal, and the like)",
+    "examples": []
+  },
+  {
+    "word": "زغب",
+    "displayWord": "زغب",
+    "translation": "zagab down, lid, fuzz",
+    "examples": []
+  },
+  {
+    "word": "زغب",
+    "displayWord": "زغب",
+    "translation": "zagib downy, fluffy, fuzzy, covered with fuzz",
+    "examples": []
+  },
+  {
+    "word": "زغبر",
+    "displayWord": "زغبر",
+    "translation": "zagbar nap (of a fabric) │ اخذ بزغبره he took all of it",
+    "examples": []
+  },
+  {
+    "word": "زغد",
+    "displayWord": "زغد",
+    "translation": "zagada a to nudge, poke ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "زغر",
+    "displayWord": "زغر",
+    "translation": "zagara a (eg.) to eye ( الى or ل s.th., s.o.), lear ( الى or ل at)",
+    "examples": []
+  },
+  {
+    "word": "زغرد",
+    "displayWord": "زغرد",
+    "translation": "zagrada ( زغردة zagrada) to utter shrill, long-drawn and trilling sounds (as a manifestation of joy by Arab women)",
+    "examples": []
+  },
+  {
+    "word": "زغاريد",
+    "displayWord": "زغاريد",
+    "translation": "zagārīd2 shrill, trilling cries of joy (of women)",
+    "examples": []
+  },
+  {
+    "word": "زغرط",
+    "displayWord": "زغرط",
+    "translation": "zagraṭa = زغرد",
+    "examples": []
+  },
+  {
+    "word": "زغاريط",
+    "displayWord": "زغاريط",
+    "translation": "zagārīṭ زغاريد = 2",
+    "examples": []
+  },
+  {
+    "word": "زغزغ",
+    "displayWord": "زغزغ",
+    "translation": "zagzaga to hide, conceal ( ھ s.th.); (eg.) to tickle ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "زغطة",
+    "displayWord": "زغطة",
+    "translation": "zuguṭṭa (eg.) hiccup",
+    "examples": []
+  },
+  {
+    "word": "زغل",
+    "displayWord": "زغل",
+    "translation": "zagala a (zag,) to pour out ( ھ s.th.); to counterfeit ( ھ e.g., coins), adulterate, debase ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "زغل",
+    "displayWord": "زغل",
+    "translation": "zagal counterfeit money",
+    "examples": []
+  },
+  {
+    "word": "زغلل",
+    "displayWord": "زغلل",
+    "translation": "zuglala to dazzIe ( النظر an-naẓar the eyes)",
+    "examples": []
+  },
+  {
+    "word": "زغلول",
+    "displayWord": "زغلول",
+    "translation": "zuglūl pl. زغاليل zagālīl2 baby, infant; zaglūl (eg.) squab, young pigeon",
+    "examples": []
+  },
+  {
+    "word": "زف",
+    "displayWord": "زف",
+    "translation": "zaffa (1st pers. perf. zafaftu) i (zaff, زفوف zufūf) to hurry; -- u (zaff, زفاف zifāf) to conduct in solemn procession ( ھا the bride, على or الى to the bridegroom); pass.",
+    "examples": []
+  },
+  {
+    "word": "زفت الى",
+    "displayWord": "زفت الى",
+    "translation": "zuffat ilā to be married off to, be given in marriage to; to conduct in solemn procession to her new home ( ھا the bride, also said of the bridegroom); to inform (",
+    "examples": []
+  },
+  {
+    "word": "زفة",
+    "displayWord": "زفة",
+    "translation": "zaffa procession (of people), wedding procession; -- one time; زفة zaffatan once (= marratan)",
+    "examples": []
+  },
+  {
+    "word": "زفاف",
+    "displayWord": "زفاف",
+    "translation": "zifāf wedding, wedding ceremony │ ليلة الزفاف lailat az-z. wedding night",
+    "examples": []
+  },
+  {
+    "word": "زفوف",
+    "displayWord": "زفوف",
+    "translation": "zafūf ostrich; fleet, swift (camel)",
+    "examples": []
+  },
+  {
+    "word": "زفيف",
+    "displayWord": "زفيف",
+    "translation": "zafīf sough(ing) (of the wind)",
+    "examples": []
+  },
+  {
+    "word": "زفت",
+    "displayWord": "زفت",
+    "translation": "II to smear with pitch, to pitch; to asphalt ھ) a road)",
+    "examples": []
+  },
+  {
+    "word": "زفت",
+    "displayWord": "زفت",
+    "translation": "zift pitch; asphalt │ زفت وقطران (qaṭrān) (lit., pitch and tar) unpleasant, annoying, awkward; damned (bad luck)! O مزفتة mizfata pl. مزافت mazāfit2 asphalting machine",
+    "examples": []
+  },
+  {
+    "word": "زفر",
+    "displayWord": "زفر",
+    "translation": "2 zafara i (zafr, زفير zafīr) to sigh deeply, heave deep sighs; to pant, groan, moan; 378 to blow off, exhaust, puff out (",
+    "examples": []
+  },
+  {
+    "word": "زفرة",
+    "displayWord": "زفرة",
+    "translation": "zafra pl. zafarāt sigh, moan",
+    "examples": []
+  },
+  {
+    "word": "زفير",
+    "displayWord": "زفير",
+    "translation": "zafīr exhaling, exhalation, expiration; sighing, moaning, moans; see also alphabetically",
+    "examples": []
+  },
+  {
+    "word": "زفر",
+    "displayWord": "زفر",
+    "translation": "2 II to soil with grease begrime ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "زفر",
+    "displayWord": "زفر",
+    "translation": "zafar grease, greasy food │ ثلاثاء",
+    "examples": []
+  },
+  {
+    "word": "زفر",
+    "displayWord": "زفر",
+    "translation": "zafir greasy; grimy; unclean, dirty, filthy; stinking, rancid, rank",
+    "examples": []
+  },
+  {
+    "word": "زفزفة",
+    "displayWord": "زفزفة",
+    "translation": "zafzafa soughing, whistling (of the wind)",
+    "examples": []
+  },
+  {
+    "word": "زفن",
+    "displayWord": "زفن",
+    "translation": "zafana i to dance, gambol",
+    "examples": []
+  },
+  {
+    "word": "زفير",
+    "displayWord": "زفير",
+    "translation": "zafīr zephyr cloth",
+    "examples": []
+  },
+  {
+    "word": "زق",
+    "displayWord": "زق",
+    "translation": "zaqqa u (zaqq) to feed ( ھ its young ones; of a bird)",
+    "examples": []
+  },
+  {
+    "word": "زق",
+    "displayWord": "زق",
+    "translation": "ziqq pl. ازقاق azqāq, زقاق ziqāq, زقان zuqqān skin (as a receptacle)",
+    "examples": []
+  },
+  {
+    "word": "زقاق",
+    "displayWord": "زقاق",
+    "translation": "zuqāq m. and f., pl. ازقة aziqqa lane, alley; strait, corridor (geogr.)",
+    "examples": []
+  },
+  {
+    "word": "زقزق",
+    "displayWord": "زقزق",
+    "translation": "zaqzaqa ( زقزقة zaqzaqa) to peep, chirp, cheep; to feed ( ھ its young ones; of a bird); to dandle, rock in one’s arms ( ه a child)",
+    "examples": []
+  },
+  {
+    "word": "زقزاق",
+    "displayWord": "زقزاق",
+    "translation": "zaqzāq pewit, lapwing",
+    "examples": []
+  },
+  {
+    "word": "زقلة",
+    "displayWord": "زقلة",
+    "translation": "1 zuqla and زقلية zuqlīya (eg.) club, cudgel, truncheon",
+    "examples": []
+  },
+  {
+    "word": "زقيلة",
+    "displayWord": "زقيلة",
+    "translation": "2 zaqīla pl. زقائل zaqā’il2 narrow road, path, trail",
+    "examples": []
+  },
+  {
+    "word": "زقم",
+    "displayWord": "زقم",
+    "translation": "zaqama u (zaqm) to swallow gulp, gobble (",
+    "examples": []
+  },
+  {
+    "word": "زقوم",
+    "displayWord": "زقوم",
+    "translation": "zaqqūm zaqqum, an infernal tree with exceedingly bitter fruit, mentioned in the Koran",
+    "examples": []
+  },
+  {
+    "word": "زقا",
+    "displayWord": "زقا",
+    "translation": "(زقو ) zaqā u to cry, crow, peep, cheep",
+    "examples": []
+  },
+  {
+    "word": "زقاء",
+    "displayWord": "زقاء",
+    "translation": "zuqā’ crowing (of a rooster)",
+    "examples": []
+  },
+  {
+    "word": "زكب",
+    "displayWord": "زكب",
+    "translation": "zakaba u ( زكوب zukūb) to fill up, fill ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "زكيبة",
+    "displayWord": "زكيبة",
+    "translation": "zakība pl. زكائب zakā’ib2 (eg.) sack, bag, gunny sack",
+    "examples": []
+  },
+  {
+    "word": "زكرة",
+    "displayWord": "زكرة",
+    "translation": "zukra pl. زكر zukar small (wine)skin; -- a wind instrument resembling the oboe (tun.)",
+    "examples": []
+  },
+  {
+    "word": "زكم",
+    "displayWord": "زكم",
+    "translation": "pass. zukima to catch a cold",
+    "examples": []
+  },
+  {
+    "word": "زكام",
+    "displayWord": "زكام",
+    "translation": "zukām (common) cold, catarrh",
+    "examples": []
+  },
+  {
+    "word": "زكمة",
+    "displayWord": "زكمة",
+    "translation": "zakma (common) cold, catarrh",
+    "examples": []
+  },
+  {
+    "word": "زكانة",
+    "displayWord": "زكانة",
+    "translation": "zakāna flair; intuition زكو) and زكى ) زكا zakā u ( زكاء zakā’) to thrive; to grow, increase; to be pure in heart, be just, righteous, good; to be fit, suitable ( ب for s.o.), befit ( ب s.o.); --zakiya a to grow, increase II to increase, augment, make grow ( ھ s.th.); to purify, chasten ( ھ s.th.); to justify, vindicate ( ه s.o.), vouch for, or bear witness to, s.o.’s ( ه) integrity, declare ه) s.o.) honest, upright or just, attest the honorable record of s.o. ( ه); to attest the truth, validity or credibility of s.th. ( ھ ); to command, praise ( ه s.o.); to recommend IV to cause to grow; to grow ( ھ s.th.) V to be purified, be chastened",
+    "examples": []
+  },
+  {
+    "word": "زكي",
+    "displayWord": "زكي",
+    "translation": "zakīy pl. ازكياء azkiyā’2 pure; chaste; guiltless, blameless, sinless; also =",
+    "examples": []
+  },
+  {
+    "word": "زكاء",
+    "displayWord": "زكاء",
+    "translation": "zakā’ growth; (moral) purity, integrity, honesty, righteousness زكوة) زكاة) zakāh pl. زكا zakan, زكوات zakawāt purity; justness, integrity, honesty; justification, vindication; alms- 379 giving, alms, charity; alms tax (Isl. Law) │ زكاة الفطر z. al-fiṭr obligatory donation of foodstuffs required at the end of Ramadan, the month of fasting",
+    "examples": []
+  },
+  {
+    "word": "زل",
+    "displayWord": "زل",
+    "translation": "zalla (1st pers. perf. zalaltu) i (zall) and zalla (1st pers. perf. zaliltu) a ( زلل zalal) to slip; to make a mistake, commit an error, a slip; to slide off s.o. ( عن ), fail to affect s.o. ( ;عن said of evil) IV to cause ( ه s.o.) to slip; to make ( ه s.o.) stumble or trip",
+    "examples": []
+  },
+  {
+    "word": "زل",
+    "displayWord": "زل",
+    "translation": "zall a kind of reed (syr.)",
+    "examples": []
+  },
+  {
+    "word": "زلة",
+    "displayWord": "زلة",
+    "translation": "zalla slip, lapse │ زلة اللسان z. lisān slip of the tongue",
+    "examples": []
+  },
+  {
+    "word": "زل",
+    "displayWord": "زل",
+    "translation": "zalal slip, slipping; lapse; mistake, error, oversight",
+    "examples": []
+  },
+  {
+    "word": "زلال",
+    "displayWord": "زلال",
+    "translation": "zulāl cold water زلال البيض z. albaiḍ white of egg, albumen",
+    "examples": []
+  },
+  {
+    "word": "زلالي",
+    "displayWord": "زلالي",
+    "translation": "zulālī albuminous; زلاليات zulālīyāt proteins │ مواد زلالية (mawādd2) proteins",
+    "examples": []
+  },
+  {
+    "word": "زلابية",
+    "displayWord": "زلابية",
+    "translation": "zalābiya pl. -āt a kind of doughnut cooked in oil and sprinkled with sugar",
+    "examples": []
+  },
+  {
+    "word": "زلج",
+    "displayWord": "زلج",
+    "translation": "1 zalaja a ( زلوج zulūj) and zalija a to slip; to slide along, glide along V do. │ تزلج على",
+    "examples": []
+  },
+  {
+    "word": "زلج",
+    "displayWord": "زلج",
+    "translation": "zalj slippery",
+    "examples": []
+  },
+  {
+    "word": "زليج",
+    "displayWord": "زليج",
+    "translation": "zalīj slippery",
+    "examples": []
+  },
+  {
+    "word": "زليج",
+    "displayWord": "زليج",
+    "translation": "2 zulaij faïence, ornamental tile",
+    "examples": []
+  },
+  {
+    "word": "زليجي",
+    "displayWord": "زليجي",
+    "translation": "zulaijī faience, ornamental tile",
+    "examples": []
+  },
+  {
+    "word": "زلزل",
+    "displayWord": "زلزل",
+    "translation": "zalzala to shake, rook, convulse, cause to tremble ( ه، ھ s.th., s.o.); pass. zulzila also: to waver, stumble II tazalzala to quake (earth)",
+    "examples": []
+  },
+  {
+    "word": "زلزلة",
+    "displayWord": "زلزلة",
+    "translation": "zalzala pl. زلازل zalāzil earthquake",
+    "examples": []
+  },
+  {
+    "word": "زلزال",
+    "displayWord": "زلزال",
+    "translation": "zalzāl, zilzāl concussion, shock, convulsion; earthquake",
+    "examples": []
+  },
+  {
+    "word": "زلط",
+    "displayWord": "زلط",
+    "translation": "zalaṭa u to swallow, gulp down, gobble ( ھ s.th.) II to strip, undress ( ه s.o.) V to undress, strip",
+    "examples": []
+  },
+  {
+    "word": "زلط",
+    "displayWord": "زلط",
+    "translation": "zulṭ nakedness, nudity",
+    "examples": []
+  },
+  {
+    "word": "زلط",
+    "displayWord": "زلط",
+    "translation": "zalaṭ (coll.; n. un. ة) (eg.) gravel, pebbles; road metal, ballast",
+    "examples": []
+  },
+  {
+    "word": "زلعة",
+    "displayWord": "زلعة",
+    "translation": "zal‘a pl. زلع zila‘ (eg.) a kind of tall clay jar",
+    "examples": []
+  },
+  {
+    "word": "زلعوم",
+    "displayWord": "زلعوم",
+    "translation": "zal‘ūm pl. زلاعيم zalā‘īm2 gullet, throat",
+    "examples": []
+  },
+  {
+    "word": "زلف",
+    "displayWord": "زلف",
+    "translation": "zalafa u (zalf, zalaf, زليف zalīf) to approach ( الى s.o. or s.th.), advance ( الى toward), go near II to exaggerate, blow up ھ) a report, في in) IV to bring near, bring close ( ھ، ه s.o., s.th.) V to flatter ( الى s.o.), fawn ( الى upon s.o.), curry favor, ingratiate o.s. ( الى with s.o., also ل) VIII ازدلف izdalafa to flatter",
+    "examples": []
+  },
+  {
+    "word": "زلف",
+    "displayWord": "زلف",
+    "translation": "zalaf servile flattery, sycophancy, toadyism, bootlicking",
+    "examples": []
+  },
+  {
+    "word": "زلفة",
+    "displayWord": "زلفة",
+    "translation": "zulfa and زلفى zulfā servile flattery, sycophancy, toadyism, bootlicking",
+    "examples": []
+  },
+  {
+    "word": "زلق",
+    "displayWord": "زلق",
+    "translation": "zaliqa a (zalaq) and zalaqa u (zalq) to glide, slide; to slip II to make slippery ( ھ s.th.); to slip, glide ( في ھ s.th. into) IV to cause ( ه s.o.) to slip │ ازلقه ببصره (bibaṣarihī) to look at s.o. sternly or disapprovingly V and VII to glide, slide; to skid, slither, slide ( الى into s.th.), to slip; to ski; to skate │ انزلق على الثلج (talj) 380 to ski; to skate VII to slip from s.o.’s ( (عن hand, from s.th. ( (عن",
+    "examples": []
+  },
+  {
+    "word": "زلق",
+    "displayWord": "زلق",
+    "translation": "zaliq slippery",
+    "examples": []
+  },
+  {
+    "word": "زلقة",
+    "displayWord": "زلقة",
+    "translation": "zalqa (n. vic.) slip, skid, slideslip",
+    "examples": []
+  },
+  {
+    "word": "زلاقة",
+    "displayWord": "زلاقة",
+    "translation": "zalāqa slipperiness",
+    "examples": []
+  },
+  {
+    "word": "زلاقة",
+    "displayWord": "زلاقة",
+    "translation": "zallāqa pl. -āt sleigh, sledge, sled; toboggan; toboggan chute, sledding course; gutter, eaves trough",
+    "examples": []
+  },
+  {
+    "word": "زلم",
+    "displayWord": "زلم",
+    "translation": "1 zalam pl. ازلام azlām arrow without head and feathers, used in divination",
+    "examples": []
+  },
+  {
+    "word": "زلومة",
+    "displayWord": "زلومة",
+    "translation": "2 zullūma, zallūma pl. زلالم zalālim2 trunk (of an elephant)",
+    "examples": []
+  },
+  {
+    "word": "زم",
+    "displayWord": "زم",
+    "translation": "zamma u (zamm) to tie up, fasten, tighten (",
+    "examples": []
+  },
+  {
+    "word": "زمام",
+    "displayWord": "زمام",
+    "translation": "zimām pl. ازمة azimma camel halter, nose rope of the camel; rein, bridle; halter; day hook; register; ground, land │",
+    "examples": []
+  },
+  {
+    "word": "زمت",
+    "displayWord": "زمت",
+    "translation": "V to be prim, sedate, staid",
+    "examples": []
+  },
+  {
+    "word": "زمت",
+    "displayWord": "زمت",
+    "translation": "tazammut primness gravity, sedateness",
+    "examples": []
+  },
+  {
+    "word": "زمجر",
+    "displayWord": "زمجر",
+    "translation": "zamjara ( زمجرة zamjara) to scold; to storm, rage, rave",
+    "examples": []
+  },
+  {
+    "word": "زمر",
+    "displayWord": "زمر",
+    "translation": "1 zamara i u (zamr, زمير zamīr) to blow, play (a wind instrument) II do.",
+    "examples": []
+  },
+  {
+    "word": "زمر",
+    "displayWord": "زمر",
+    "translation": "zamr blowing, playing (of a wind instrument)",
+    "examples": []
+  },
+  {
+    "word": "زمر",
+    "displayWord": "زمر",
+    "translation": "zamr pl. زمور zumūr a wind instrument resembling the shoe; horn (of an automobile; syr.)",
+    "examples": []
+  },
+  {
+    "word": "زمرة",
+    "displayWord": "زمرة",
+    "translation": "zumra pl. زمر zumar troop; group (of people); زمرة دموية blood group",
+    "examples": []
+  },
+  {
+    "word": "زمار",
+    "displayWord": "زمار",
+    "translation": "zammār player (on a wind instrument), piper",
+    "examples": []
+  },
+  {
+    "word": "زمارة",
+    "displayWord": "زمارة",
+    "translation": "zammāra, zummāra pl. زمامير zamāmīr2 (eg.) a wood-wind instrument consisting of two pipes, related to the clarinet; siren │ زمارة الإنذار z. al-indār warning siren",
+    "examples": []
+  },
+  {
+    "word": "زمرد",
+    "displayWord": "زمرد",
+    "translation": "zumurrud emerald",
+    "examples": []
+  },
+  {
+    "word": "زمردى",
+    "displayWord": "زمردى",
+    "translation": "zumurrudī emerald(-colored)",
+    "examples": []
+  },
+  {
+    "word": "زمزم",
+    "displayWord": "زمزم",
+    "translation": "zamzama to rumble, roll (thunder); to murmur",
+    "examples": []
+  },
+  {
+    "word": "زمزم",
+    "displayWord": "زمزم",
+    "translation": "zamzam copious, abundant (esp. water); Zemzem, name of a well in Mecca",
+    "examples": []
+  },
+  {
+    "word": "زمزمية",
+    "displayWord": "زمزمية",
+    "translation": "zamzamīya water flasak, canteen; O thermos bottle",
+    "examples": []
+  },
+  {
+    "word": "زمزمة",
+    "displayWord": "زمزمة",
+    "translation": "zamzama pl. زمازم zamāzim2 roll of thunder; roar of a lion 381",
+    "examples": []
+  },
+  {
+    "word": "زمط",
+    "displayWord": "زمط",
+    "translation": "zamaṭa to escape, slip away",
+    "examples": []
+  },
+  {
+    "word": "زمع",
+    "displayWord": "زمع",
+    "translation": "II end IV to determine ( على، ھ on), decide, resolve, be determined ( على، ھ to do s.th.)",
+    "examples": []
+  },
+  {
+    "word": "زمل",
+    "displayWord": "زمل",
+    "translation": "1 III to keep ( ه s.o.) company, be s.o.’s ( (ه companion, be a colleague or associate ( ه",
+    "examples": []
+  },
+  {
+    "word": "زملة",
+    "displayWord": "زملة",
+    "translation": "zumla party, company (of people)",
+    "examples": []
+  },
+  {
+    "word": "زميل",
+    "displayWord": "زميل",
+    "translation": "zamīl pl. زملاء zumalā’2 companion, crony, associate, comrade; colleague; accomplice",
+    "examples": []
+  },
+  {
+    "word": "زميلة",
+    "displayWord": "زميلة",
+    "translation": "zamiīla pl. -āt (woman) companion; (woman) colleague; sister ship",
+    "examples": []
+  },
+  {
+    "word": "زمالة",
+    "displayWord": "زمالة",
+    "translation": "zamāla comradeship; colleagueship; fellowship │ زمالة دراسية (dirāsīya) scholarship, stipend (ir.)",
+    "examples": []
   },
   {
     "word": "زمن",
-    "displayWord": "زَمَن",
-    "root": "زمن",
-    "translation": "time, era, age",
-    "examples": [
-      {
-        "ar": "الزَّمَنُ كَفِيلٌ بِشِفَاءِ الجُرُوحِ وَمَحْوِ الآلَامِ.",
-        "en": "Time is capable of healing wounds and erasing pains.",
-        "source": "Philosophical Novel"
-      }
-    ]
+    "displayWord": "زمن",
+    "translation": "zamina a ( زمانة zamāna) to be chronically ill IV to stay long, remain ( ب at a place); to last long; to be chronic (disease)",
+    "examples": []
   },
   {
-    "word": "زياره",
-    "displayWord": "زِيَارَة",
-    "root": "زور",
-    "translation": "visit, calling",
-    "examples": [
-      {
-        "ar": "تُعَدُّ زِيَارَةُ المَرِيضِ مِنَ الأَعْمَالِ الَّتِي تُقَرِّبُ بَيْنَ القُلُوبِ.",
-        "en": "Visiting the sick is considered one of the deeds that bring hearts closer.",
-        "source": "Ethical Treatise"
-      }
-    ]
+    "word": "زمن",
+    "displayWord": "زمن",
+    "translation": "zaman pl. ازمان azmān time; period, stretch of time; duration; زمنا zamanan for some time",
+    "examples": []
   },
   {
-    "word": "زراعه",
-    "displayWord": "زِرَاعَة",
-    "root": "زرع",
-    "translation": "agriculture, farming, cultivation",
-    "examples": [
-      {
-        "ar": "زِرَاعَةُ القَمْحِ تُسْهِمُ فِي الأَمْنِ الغِذَائِيِّ لِلْبَلَدِ.",
-        "en": "Wheat cultivation contributes to the food security of the country.",
-        "source": "Agronomy Report"
-      }
-    ]
+    "word": "زمنة",
+    "displayWord": "زمنة",
+    "translation": "zamana period or time",
+    "examples": []
   },
   {
-    "word": "زياده",
-    "displayWord": "زِيَادَة",
-    "root": "زيد",
-    "translation": "increase, addition, excess",
-    "examples": [
-      {
-        "ar": "وَقُل رَّبِّ زِدْنِي عِلْمًا.",
-        "en": "And say, 'My Lord, increase me in knowledge.'",
-        "source": "Holy Quran"
-      }
-    ]
+    "word": "زمن",
+    "displayWord": "زمن",
+    "translation": "zamin, زمين zamīn pl. زمنى zamnā chronically ill",
+    "examples": []
   },
   {
-    "word": "زهد",
-    "displayWord": "زُهْد",
-    "root": "زهد",
-    "translation": "asceticism, abstinence",
-    "examples": [
-      {
-        "ar": "تَمَيَّزَ الحَكِيمُ بِزُهْدِهِ فِي زَخَارِفِ الدُّنْيَا الفَانِيَةِ.",
-        "en": "The wise man was distinguished by his asceticism in the decorations of the mortal world.",
-        "source": "Biographical Chronicles"
-      }
-    ]
+    "word": "زمان",
+    "displayWord": "زمان",
+    "translation": "zamān pl. ازمنة azmina time; duration; fortune, late, destiny │ من زمان for some time (past), for quite a while; على",
+    "examples": []
+  },
+  {
+    "word": "زمنى",
+    "displayWord": "زمنى",
+    "translation": "zamanī temporal, time (adj.); worldly, earthly; passing, transient, transitory; secular │ الغام زمنية mines with time fuse; قنبلة زمنية (qunbula) time bomb",
+    "examples": []
+  },
+  {
+    "word": "زماني",
+    "displayWord": "زماني",
+    "translation": "zamānī temporal, time; worldly, earthly; passing, transient, transitory; secular",
+    "examples": []
+  },
+  {
+    "word": "زمنية",
+    "displayWord": "زمنية",
+    "translation": "zamanīya and زمانية zamānīya period or time, given time",
+    "examples": []
+  },
+  {
+    "word": "زمانة",
+    "displayWord": "زمانة",
+    "translation": "zamāna chronic illness",
+    "examples": []
+  },
+  {
+    "word": "زمھر",
+    "displayWord": "زمھر",
+    "translation": "zamhara to become red, flushed, bloodshot IV ازمھر izmaharra do.",
+    "examples": []
+  },
+  {
+    "word": "زمھرير",
+    "displayWord": "زمھرير",
+    "translation": "zamharīr bitter cold, severe frost",
+    "examples": []
+  },
+  {
+    "word": "زن",
+    "displayWord": "زن",
+    "translation": "zanna u (zann) to buzz, drone (insect)",
+    "examples": []
+  },
+  {
+    "word": "زن",
+    "displayWord": "زن",
+    "translation": "zann buzz(ing), drone",
+    "examples": []
+  },
+  {
+    "word": "زنأ",
+    "displayWord": "زنأ",
+    "translation": "zana’a to be limited, be restricted, be confined, be curbed, be suppressed II to restrict, keep within bounds, beset, harry, drive in a corner ( على s.o.)",
+    "examples": []
+  },
+  {
+    "word": "زنبر",
+    "displayWord": "زنبر",
+    "translation": "II tazanbara to display proud, haughty manners ( على toward s.o.)",
+    "examples": []
+  },
+  {
+    "word": "زنبور",
+    "displayWord": "زنبور",
+    "translation": "zunbūr pl. زنابير zanābīr2 hornet",
+    "examples": []
+  },
+  {
+    "word": "زنبرك",
+    "displayWord": "زنبرك",
+    "translation": "zanbarak, zunburuk, zunburak pl. زنابك (metal) spring; spiral spring; cock (of a rifle, etc.)",
+    "examples": []
+  },
+  {
+    "word": "زنبق",
+    "displayWord": "زنبق",
+    "translation": "zanbaq (coll.; n. un. ة) pl. زنابق zanābiq2 lily; iris (bot.) □ زنبلك zanbalik = زنبرك",
+    "examples": []
+  },
+  {
+    "word": "زنبيل",
+    "displayWord": "زنبيل",
+    "translation": "zanbīl, zinbīl pl. زناببيل zanābīl2 basket made of palm leaves",
+    "examples": []
+  },
+  {
+    "word": "زنتاري",
+    "displayWord": "زنتاري",
+    "translation": "zintārī dysentery",
+    "examples": []
+  },
+  {
+    "word": "زنج",
+    "displayWord": "زنج",
+    "translation": "zanj, zinj (coll.) pl. زنوج zunūj Negro(es)",
+    "examples": []
+  },
+  {
+    "word": "زنجي",
+    "displayWord": "زنجي",
+    "translation": "zanjī, zinjī Negro (adj. and n.)",
+    "examples": []
+  },
+  {
+    "word": "زنجبار",
+    "displayWord": "زنجبار",
+    "translation": "zanjabār Zanzibar (island and seaport of E African coast) 382",
+    "examples": []
+  },
+  {
+    "word": "زنجبيل",
+    "displayWord": "زنجبيل",
+    "translation": "zanjabīl ginger",
+    "examples": []
+  },
+  {
+    "word": "زنجر",
+    "displayWord": "زنجر",
+    "translation": "1 zanjara to flip, snap (with the fingers)",
+    "examples": []
+  },
+  {
+    "word": "زنجار",
+    "displayWord": "زنجار",
+    "translation": "2 zinjār verdigris",
+    "examples": []
+  },
+  {
+    "word": "زنجفر",
+    "displayWord": "زنجفر",
+    "translation": "zunjufr, zinjafr cinnabar",
+    "examples": []
+  },
+  {
+    "word": "زنجير",
+    "displayWord": "زنجير",
+    "translation": "zinjīr pl. زناجير zanājīr2 chain │ حساب",
+    "examples": []
+  },
+  {
+    "word": "زنخ",
+    "displayWord": "زنخ",
+    "translation": "zanika a (zanak) to turn rancid",
+    "examples": []
+  },
+  {
+    "word": "زنخ",
+    "displayWord": "زنخ",
+    "translation": "zanik rancid, rank",
+    "examples": []
+  },
+  {
+    "word": "زند",
+    "displayWord": "زند",
+    "translation": "zand m. and f., pl. زناد zinād, زنود zunūd stick of a fire drill, a primitive device for kindling fire; by extension, the whole fire drill; -- zand, zind (pl. زنود zunūd) ulna (anat.); forearm",
+    "examples": []
+  },
+  {
+    "word": "زناد",
+    "displayWord": "زناد",
+    "translation": "zinād pl. ازند aznida fire steel; cock, hammer (of a rifle, etc.) │ حجر الزناد ḥajar az-zinād flint",
+    "examples": []
+  },
+  {
+    "word": "زندق",
+    "displayWord": "زندق",
+    "translation": "II tazandaqa to be a freethinker, an atheist",
+    "examples": []
+  },
+  {
+    "word": "زندقة",
+    "displayWord": "زندقة",
+    "translation": "zandaqa atheism",
+    "examples": []
+  },
+  {
+    "word": "زنديق",
+    "displayWord": "زنديق",
+    "translation": "zindīq pl. زنادقة zanādiqa zendik, unbeliever, freethinker, atheist",
+    "examples": []
+  },
+  {
+    "word": "زنر",
+    "displayWord": "زنر",
+    "translation": "II: زنر اليه بعينه (bi-‘ainihī) to glare at s.o.",
+    "examples": []
+  },
+  {
+    "word": "زنار",
+    "displayWord": "زنار",
+    "translation": "zunnār and زنارة zunnāra pl.",
+    "examples": []
+  },
+  {
+    "word": "زنانير",
+    "displayWord": "زنانير",
+    "translation": "zanānīr2 belt, girdle; sash; band or rope worn around the waist; cross stripe, traverse band",
+    "examples": []
+  },
+  {
+    "word": "زنزانة",
+    "displayWord": "زنزانة",
+    "translation": "zinzāna pl. -āt prison cell (eg.)",
+    "examples": []
+  },
+  {
+    "word": "زنلخت",
+    "displayWord": "زنلخت",
+    "translation": "zanzalakt China tree (Melia azedarach; bot.)",
+    "examples": []
+  },
+  {
+    "word": "زنطارية",
+    "displayWord": "زنطارية",
+    "translation": "zinṭārīya dysentery",
+    "examples": []
+  },
+  {
+    "word": "زنق",
+    "displayWord": "زنق",
+    "translation": "zanaqa i (rang) to tighten, constrict ( ھ s.th.); to hobble ( ھ an animal) II to keep on short rations, scrimp ( على s.o.), be stingy, tight-fisted ( على toward)",
+    "examples": []
+  },
+  {
+    "word": "زنقة",
+    "displayWord": "زنقة",
+    "translation": "zanaqa (magr. zanga) pl. زنق zinaq narrow street, lane, alley, dead-end street",
+    "examples": []
+  },
+  {
+    "word": "زنق",
+    "displayWord": "زنق",
+    "translation": "zināq neckband, collar",
+    "examples": []
+  },
+  {
+    "word": "زنك",
+    "displayWord": "زنك",
+    "translation": "zink zinc",
+    "examples": []
+  },
+  {
+    "word": "زنمردة",
+    "displayWord": "زنمردة",
+    "translation": "zanmarda virago, termagant",
+    "examples": []
+  },
+  {
+    "word": "زنيم",
+    "displayWord": "زنيم",
+    "translation": "zanīm low, despised, ignoble, mean; bastard; stranger, outsider",
+    "examples": []
+  },
+  {
+    "word": "زنى",
+    "displayWord": "زنى",
+    "translation": "zanā i ( زنى, زنا zinan, زناء zinā’) to commit adultery, fornicate, whore",
+    "examples": []
+  },
+  {
+    "word": "زنى",
+    "displayWord": "زنى",
+    "translation": "zinan adultery; fornication",
+    "examples": []
+  },
+  {
+    "word": "زناء",
+    "displayWord": "زناء",
+    "translation": "zinā’ adultery; fornication",
+    "examples": []
+  },
+  {
+    "word": "زان",
+    "displayWord": "زان",
+    "translation": "zānin pl.; زناة zunāh fornicator, adulterer",
+    "examples": []
+  },
+  {
+    "word": "زاننية",
+    "displayWord": "زاننية",
+    "translation": "zāniya pl. زوان zawānin2 whore, harlot; adulteress",
+    "examples": []
+  },
+  {
+    "word": "زھد",
+    "displayWord": "زھد",
+    "translation": "zahada a, zahida a and zahuda u (zuhd) to abstain ( في from, also عن, ھ ), renounce, abandon, foresake ( في s.th., also ,(عن، ھ withdraw ( في، ھ from), refuse to have anything to do with ( زھد في │ ( في، ھ",
+    "examples": []
+  },
+  {
+    "word": "زھد",
+    "displayWord": "زھد",
+    "translation": "zuhd (voluntary) renunciation ( في of s.th.); jndifference ( في to, esp. to worldly things); abstemiousness, abstinence; asceticism │ الزھد في الدنيا (dunyā) asceticism",
+    "examples": []
+  },
+  {
+    "word": "زھيد",
+    "displayWord": "زھيد",
+    "translation": "zahīd little, low, moderate (esp. price), insignificant, peltry, trifling. small; a little, a small amount ( في of)",
+    "examples": []
+  },
+  {
+    "word": "زھادة",
+    "displayWord": "زھادة",
+    "translation": "zahāda smallness, lowness, moderateness",
+    "examples": []
+  },
+  {
+    "word": "زھد",
+    "displayWord": "زھد",
+    "translation": "zāhid pl. زھاد zuhhād abstemious, abstinent, continent, self-denying; ascetic 383",
+    "examples": []
+  },
+  {
+    "word": "زھر",
+    "displayWord": "زھر",
+    "translation": "zahara a ( زھور zuhūr) to shine, give light, be radiant IV to glow, gleam, glare, shine; to blossom, be in bloom (plant, flower) VIII ازدھر izdahara to shine brightly, be radiant; to blossom, be in bloom; to flourish, prosper, thrive",
+    "examples": []
+  },
+  {
+    "word": "زھر",
+    "displayWord": "زھر",
+    "translation": "zahr, (coll.; n. un. ة) pl. زھور zuhūr,",
+    "examples": []
+  },
+  {
+    "word": "زھرة",
+    "displayWord": "زھرة",
+    "translation": "zahra (n. un.) pl. āt flower, blossom; splendor, beauty",
+    "examples": []
+  },
+  {
+    "word": "زھرة",
+    "displayWord": "زھرة",
+    "translation": "zuhra brilliancy, light, brightness; beauty │ زھرة الغسيل bluing",
+    "examples": []
+  },
+  {
+    "word": "زھرى",
+    "displayWord": "زھرى",
+    "translation": "zuharzi syphilis │ امراض زھرية venereal diseases",
+    "examples": []
+  },
+  {
+    "word": "زھر",
+    "displayWord": "زھر",
+    "translation": "zuhrīya pl. -āt flower vase",
+    "examples": []
+  },
+  {
+    "word": "زھار",
+    "displayWord": "زھار",
+    "translation": "zahhār, florist",
+    "examples": []
+  },
+  {
+    "word": "زھراوى",
+    "displayWord": "زھراوى",
+    "translation": "zahrāwī gay, merry, cheerful (person)",
+    "examples": []
+  },
+  {
+    "word": "زاھر",
+    "displayWord": "زاھر",
+    "translation": "zāhir shining, luminous, radiant, brilliant; bright",
+    "examples": []
+  },
+  {
+    "word": "زھف",
+    "displayWord": "زھف",
+    "translation": "zahafa a ( زھوف zuhūf): زھف الى الموت to be on the verge of death VIII ازدھف الى",
+    "examples": []
+  },
+  {
+    "word": "زھق",
+    "displayWord": "زھق",
+    "translation": "zahaqa a (zahq, زھوق zuhūq) to die, pass away, run out, come to nothing; زھقت نفسه (nafsuhū) and زھقت روحه (rūḥuhū) to give up the ghost, die; to weary, become tired (",
+    "examples": []
+  },
+  {
+    "word": "زھوق",
+    "displayWord": "زھوق",
+    "translation": "zuhūq dying, passing, bound to vanish",
+    "examples": []
+  },
+  {
+    "word": "زھم",
+    "displayWord": "زھم",
+    "translation": "zuhm offensive smell",
+    "examples": []
+  },
+  {
+    "word": "زھم",
+    "displayWord": "زھم",
+    "translation": "zahm malodorous, fetid",
+    "examples": []
+  },
+  {
+    "word": "زھمة",
+    "displayWord": "زھمة",
+    "translation": "zuhma offensive smell",
+    "examples": []
+  },
+  {
+    "word": "زھومة",
+    "displayWord": "زھومة",
+    "translation": "zuhūma offensive smell",
+    "examples": []
+  },
+  {
+    "word": "زھا",
+    "displayWord": "زھا",
+    "translation": "(زھو ) zahā u (zahw) to blossom, flower, be in bloom; to grow, thrive; to shine brightly, be radiant, glow, gleam; to give o.s. airs, be haughty, conceited; to pride o.s. ( ب upon, both in a favorable and a pejorative sense); pass. زھى zuhiya to be proud, conceited ( ب of), pride o.s. ( ب on), boast ( ب of), vaunt ( ب s.th.) IV to blossom, flower, be in bloom; to grow, thrive; to give o.s. airs, be conceited, be boastful VIII ازدھى izdahā and pass. uzduhiya to be self-satisfied, complacent, conceited, proud; izdahā to shine ( ب at, in s.th.), have ( ب an accomplishment) to show; to boast ( ب of s.th.), vaunt ( ب s.th.)",
+    "examples": []
+  },
+  {
+    "word": "زھو",
+    "displayWord": "زھو",
+    "translation": "zahw and zuhuw bloom, florescence; splendor; beauty; pride; haughtiness, arrogance; vanity, a vain or futile thing or things; fun, play, amusement 384",
+    "examples": []
+  },
+  {
+    "word": "زھى",
+    "displayWord": "زھى",
+    "translation": "zahīy brilliant, splendid, magnificent, gorgeous, sumptuous",
+    "examples": []
+  },
+  {
+    "word": "زھاء",
+    "displayWord": "زھاء",
+    "translation": "zahā’ radiance, brilliancy, splendor",
+    "examples": []
+  },
+  {
+    "word": "زھاء",
+    "displayWord": "زھاء",
+    "translation": "zuhā’ number, amount; zuhā’a roughly, about, some (with foll. figure)",
+    "examples": []
+  },
+  {
+    "word": "زاه",
+    "displayWord": "زاه",
+    "translation": "zāhin shining, brilliant, radiant, resplendent; glowing; splendid, gorgeous, magnificent, gaudy, beautiful",
+    "examples": []
+  },
+  {
+    "word": "زوبعة",
+    "displayWord": "زوبعة",
+    "translation": "see زبع",
+    "examples": []
+  },
+  {
+    "word": "زوج",
+    "displayWord": "زوج",
+    "translation": "2 II to pair, couple ( من or ب ھ s.th. with), join in pairs or couples ( ھ s.th.); to double, geminate ( ھ s.th.); to employ parallelism (rhet.); to marry off, give in marriage ( ه، ھ، ھا من a girl to s.o.) III to form a pair or couple; to use in parallel construction, join in a pair ( بين two words, rhet.); to marry, join in wedlock, unite in matrimony ( بين -- و s.o. with) V to get married ( من, ب، على، ه with), marry (, من, ب",
+    "examples": []
+  },
+  {
+    "word": "زوجة",
+    "displayWord": "زوجة",
+    "translation": "zauja pl. ازواج azwāj one of a pair; husband; wife; mate, partner; couple, pair (also, e.g., of shoes); dual زوجان couple",
+    "examples": []
+  },
+  {
+    "word": "زوجة",
+    "displayWord": "زوجة",
+    "translation": "zauja pl. -āt wife",
+    "examples": []
+  },
+  {
+    "word": "زيجة",
+    "displayWord": "زيجة",
+    "translation": "zīja marriage, wedding",
+    "examples": []
+  },
+  {
+    "word": "زوجي",
+    "displayWord": "زوجي",
+    "translation": "zaujī in pairs, paired; double; marital, matrimonial, conjugal; doubles (tennis)",
+    "examples": []
+  },
+  {
+    "word": "زيجي",
+    "displayWord": "زيجي",
+    "translation": "zījī marital, matrimonial, conjugal, connubial",
+    "examples": []
+  },
+  {
+    "word": "زوجية",
+    "displayWord": "زوجية",
+    "translation": "zaujīya pl. -āt matrimony, marriage",
+    "examples": []
+  },
+  {
+    "word": "زواج",
+    "displayWord": "زواج",
+    "translation": "zawāj marriage ( من with); wedding; matrimony, wedlock │ وحدة",
+    "examples": []
+  },
+  {
+    "word": "زواج",
+    "displayWord": "زواج",
+    "translation": "zawāj doubling, duplication; parallelism (rhet.)",
+    "examples": []
+  },
+  {
+    "word": "زاج",
+    "displayWord": "زاج",
+    "translation": "2 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "زاح",
+    "displayWord": "زاح",
+    "translation": "(زوح ) zāḥa u = ( زيح) زاح zāḥa i",
+    "examples": []
+  },
+  {
+    "word": "زود",
+    "displayWord": "زود",
+    "translation": "II to supply with provisions ( ه ھ s.o.), provision ( ھ ب , s.o. with); to provide, supply, equip ( ب ھ، ه s.o., s.th. with); to endow ( ه ب s.o. with); to enrich ( ھ ب s.th. with) IV to supply with provisions ( ه s.o.) V to be supplied (with provisions); to take along provisions (on a journey); to learn (",
+    "examples": []
+  },
+  {
+    "word": "زاد",
+    "displayWord": "زاد",
+    "translation": "zād pl. ازواد azwād, ازودة azwida provisions, supplies, stores",
+    "examples": []
+  },
+  {
+    "word": "زواد",
+    "displayWord": "زواد",
+    "translation": "zawād provisions",
+    "examples": []
+  },
+  {
+    "word": "زوادة",
+    "displayWord": "زوادة",
+    "translation": "zuwwāda provisions",
+    "examples": []
+  },
+  {
+    "word": "زائدة",
+    "displayWord": "زائدة",
+    "translation": "pl. زوائد see زيد",
+    "examples": []
+  },
+  {
+    "word": "زار",
+    "displayWord": "زار",
+    "translation": "(زور ) zāra u (zaur, زيارة ziyāra) to visit ( ه s.o.), call ( ه on s.o.), pay a visit ( ه to); to afflict ( ه s.o.) II to forge, falsify, counterfeit ( ه s.th.); to fake, simulate VI to exchange visits IX to turn aside, turn away, dissociate o.s. ( عن from); to be averse ( عن to s.th.); ازور به to turn s.o. away, alienate s.o. ( عن from) X to desire s.o.’s ( ه) visit",
+    "examples": []
+  },
+  {
+    "word": "زور",
+    "displayWord": "زور",
+    "translation": "zaur upper part of the chest; throat │ آلام الزور sore throat",
+    "examples": []
+  },
+  {
+    "word": "زور",
+    "displayWord": "زور",
+    "translation": "zūr lie, untruth; falsehood │ شھادة",
+    "examples": []
+  },
+  {
+    "word": "زور",
+    "displayWord": "زور",
+    "translation": "zūr force │ بالزور by force, forcibly",
+    "examples": []
+  },
+  {
+    "word": "زور",
+    "displayWord": "زور",
+    "translation": "zawar inclination, obliqueness, slant; crookedness; falseness; perfidy, insidiousness; squint",
+    "examples": []
+  },
+  {
+    "word": "زورة",
+    "displayWord": "زورة",
+    "translation": "zaura (n. vic.) pl. -āt visit, call",
+    "examples": []
+  },
+  {
+    "word": "زيارة",
+    "displayWord": "زيارة",
+    "translation": "ziyāra pl. -āt visit; call (social, of a doctor)",
+    "examples": []
+  },
+  {
+    "word": "زائر",
+    "displayWord": "زائر",
+    "translation": "zā’ir pl. -ūn, زوار zuwwār, f. زائرة zā’ira pl. -āt, زور zuwwar visitor, caller, guest",
+    "examples": []
+  },
+  {
+    "word": "زورق",
+    "displayWord": "زورق",
+    "translation": "zauraq pl. زوارق zawāriq2 boat, rowboat, skiff │ زورق بخاري (bukhārī) steam launch;",
+    "examples": []
+  },
+  {
+    "word": "زورق الصيد",
+    "displayWord": "زورق الصيد",
+    "translation": "z. aṣ-ṣaid fishing boat; زورق",
+    "examples": []
+  },
+  {
+    "word": "زاغ",
+    "displayWord": "زاغ",
+    "translation": "(زوغ 1 ) zāga u (zaug, زوغان zawagān) to turn aside, depart, deviate ( عن from), swerve; to deviate from truth, to swindle; see also زيغ VI to turn aside, swerve",
+    "examples": []
+  },
+  {
+    "word": "زاغ",
+    "displayWord": "زاغ",
+    "translation": "2 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "زوفاء",
+    "displayWord": "زوفاء",
+    "translation": "zūfā’, زوفى zūfā hyssop (bot.)",
+    "examples": []
+  },
+  {
+    "word": "زوق",
+    "displayWord": "زوق",
+    "translation": "1 II to adorn, embellish, ornament, decorate ( ھ s.th.); to picture, visualize ( ھ a story, in one’s imagination)",
+    "examples": []
+  },
+  {
+    "word": "زواق",
+    "displayWord": "زواق",
+    "translation": "zawāq embellishment, adornment, ornamentation; decoration; finery, attire; face painting, make-up, cosmetics",
+    "examples": []
+  },
+  {
+    "word": "زاووق، زاؤوق",
+    "displayWord": "زاووق، زاؤوق",
+    "translation": "2 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "زول",
+    "displayWord": "زول",
+    "translation": ") and زال (زيل zāla (1st pers. perf. zultu) u (",
+    "examples": []
+  },
+  {
+    "word": "زوال",
+    "displayWord": "زوال",
+    "translation": "zawāl) to go away, withdraw ( عن or",
+    "examples": []
+  },
+  {
+    "word": "زال منه الغضب",
+    "displayWord": "زال منه الغضب",
+    "translation": "(gaḍab) his wrath abated; زال",
+    "examples": []
+  },
+  {
+    "word": "زول",
+    "displayWord": "زول",
+    "translation": "zaul pl. ازوال azwāl person, body, figure, nightly apparition, specter, ghost, phantom, spirit",
+    "examples": []
+  },
+  {
+    "word": "زوال",
+    "displayWord": "زوال",
+    "translation": "zawāl end, passage, extinction, disappearance, vanishing, cessation; setting (of the sun); noon │ سريع الزوال ephemeral, evanescent, fleeting, بعد الزوال in the afternoon; عند الزوال around noon, by noon; خط الزوال kaṯṭ az-z. meridian",
+    "examples": []
+  },
+  {
+    "word": "زوالي",
+    "displayWord": "زوالي",
+    "translation": "zawālī: في الساعة الرابعة زوالية atfour o’clock in the afternoon, at four p.m.",
+    "examples": []
+  },
+  {
+    "word": "زولية",
+    "displayWord": "زولية",
+    "translation": "zūlīya pl. زوالي zawālī (ir., saud.) knotted rug",
+    "examples": []
+  },
+  {
+    "word": "زائل",
+    "displayWord": "زائل",
+    "translation": "zā’il transitory, passing, evanescent, fleeting, ephemeral, shortlived",
+    "examples": []
+  },
+  {
+    "word": "زولوجيا",
+    "displayWord": "زولوجيا",
+    "translation": "zōlōjiyā zoology",
+    "examples": []
+  },
+  {
+    "word": "زولوجي",
+    "displayWord": "زولوجي",
+    "translation": "zōlōjī zoologic(al)",
+    "examples": []
+  },
+  {
+    "word": "زام",
+    "displayWord": "زام",
+    "translation": "(زوم ) zāma u (eg.) to growl, snarl (dog) II to mumble, mutter",
+    "examples": []
+  },
+  {
+    "word": "زوم",
+    "displayWord": "زوم",
+    "translation": "zūm pl. ازوام azwām juice, sap",
+    "examples": []
+  },
+  {
+    "word": "زان، زانة",
+    "displayWord": "زان، زانة",
+    "translation": "1 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "زوان",
+    "displayWord": "زوان",
+    "translation": "2 ziwān, zuwān = زؤان (q.v.)",
+    "examples": []
+  },
+  {
+    "word": "زوى",
+    "displayWord": "زوى",
+    "translation": "zawā i to contract, wrinkle, knit ( ھ s.th., e.g., the eyebrows), to remove ( ھ s.th.); to hide, conceal ( ھ s.th.) │ زوى ما بين",
+    "examples": []
+  },
+  {
+    "word": "زاوية",
+    "displayWord": "زاوية",
+    "translation": "zāwiya pl. زوايا zawāyā corner, nook; angle (math.); a small mosque, prayer room; (North Afr.) small cupolaed mosque erected over the tomb of a Muslim saint, with teaching facilities and a hospice attached to it, usually the establishment of a religious order │ الزاوية",
+    "examples": []
+  },
+  {
+    "word": "زي",
+    "displayWord": "زي",
+    "translation": "II زيى، زيا zayyā to dress, clothe, costume ( ه",
+    "examples": []
+  },
+  {
+    "word": "زي",
+    "displayWord": "زي",
+    "translation": "ziyy pl. ازياء azyā’ clothing, dress, apparel, attire; O uniform; outward appearance, make-up; costume; style of dress, manner of dressing; fashion; exterior, guise, form, shape │ على الزي",
+    "examples": []
+  },
+  {
+    "word": "زيبق",
+    "displayWord": "زيبق",
+    "translation": "zībaq (= زئبق zi‘baq) quicksilver, mercury",
+    "examples": []
+  },
+  {
+    "word": "زيت",
+    "displayWord": "زيت",
+    "translation": "II to oil, lubricate, grease ( ھ a machine, and the like); to add oil ( ھ to some food)",
+    "examples": []
+  },
+  {
+    "word": "زيت",
+    "displayWord": "زيت",
+    "translation": "zait pl. زيوت zuyūt oil (edible, fuel, motor oil, etc.) │ زيت حار (ḥārr) linseed oil; زيت حلو (ḥulw) sweet oil, oil free of hydrogen sulfide; زيت الحوت z. al-ḥūt codliver oil; زيت الخروع z. al-kirwa‘ castor oil;",
+    "examples": []
+  },
+  {
+    "word": "زيت السمك",
+    "displayWord": "زيت السمك",
+    "translation": "z. as-samak cod-liver oil; زيت",
+    "examples": []
+  },
+  {
+    "word": "زيتي",
+    "displayWord": "زيتي",
+    "translation": "zaitī oily, oil (adj.), oil-bearing │",
+    "examples": []
+  },
+  {
+    "word": "زيات",
+    "displayWord": "زيات",
+    "translation": "zayyāt oil dealer, oilman",
+    "examples": []
+  },
+  {
+    "word": "زيتون",
+    "displayWord": "زيتون",
+    "translation": "zaitūn (coll.; n. un. ة) olive tree; olive(s) │ احد الزيتون aḥad az-z. Palm Sunday (Chr.); جبل ازيتون jabal az-z. Mount of Olives (Jerusalem)",
+    "examples": []
+  },
+  {
+    "word": "زيتونة",
+    "displayWord": "زيتونة",
+    "translation": "zaitūna (n. un.) pl. -āt olive tree; olive │ جامع الزيتونة the Zaitouna Mosque (large mosque and university in Tunis)",
+    "examples": []
+  },
+  {
+    "word": "زيتوني",
+    "displayWord": "زيتوني",
+    "translation": "zaitūnī olivaceous, olive-colored, olive-green; (pl. -ūn) student of the Great Mosque of Tunis",
+    "examples": []
+  },
+  {
+    "word": "زيتونية",
+    "displayWord": "زيتونية",
+    "translation": "zaitūnīya, احد الزيتونية aḥad az-az. Palm Sunday (Cop.-Chr.)",
+    "examples": []
+  },
+  {
+    "word": "زيج",
+    "displayWord": "زيج",
+    "translation": "1 zīj leveling line (used by masons); ephemeris, astronomical almanac",
+    "examples": []
+  },
+  {
+    "word": "زيجة",
+    "displayWord": "زيجة",
+    "translation": "2 zīja and زيجي zījī see زوج",
+    "examples": []
+  },
+  {
+    "word": "زاح",
+    "displayWord": "زاح",
+    "translation": "(زيح ) zāḥa i (zaiḥ, zuyūḥ, زيحان zayaḥān) to go away, depart, leave IV to remove, drive away, banish ( ھ s.th.), do away with ( ;(ھ to take away ( ھ s.th.); to pull away, throw back ( ھ a curtain, a veil, etc., عن from s.th.) │ ازاح اللثام عن to reveal, disclose s.th.;",
+    "examples": []
+  },
+  {
+    "word": "زيح",
+    "displayWord": "زيح",
+    "translation": "zīh pl. ازياح azyāḥ (straight) line",
+    "examples": []
+  },
+  {
+    "word": "زياح",
+    "displayWord": "زياح",
+    "translation": "zayyāḥ pl. -āt religious procession",
+    "examples": []
+  },
+  {
+    "word": "زاد",
+    "displayWord": "زاد",
+    "translation": "(زيد ) zāda i ( زيادة ziyāda) to become greater, become more, grow, increase, be compounded, multiply; to be greater, be more, amount to more ( عن or على than), exceed ( عن or على s.th., an amount, ب by), go beyond an amount or number ( على ); to augment, increase, compound ( ھ s.th.), make ( ھ s.th.) grow or increase; to step up, raise ( من، ھ s.th., الى ھ s.th. to); to add",
+    "examples": []
+  },
+  {
+    "word": "زيادة",
+    "displayWord": "زيادة",
+    "translation": "ziyāda increase, increment, accretion, growth; surplus, overplus, excess; increase, augmentation, raising, stepping up; enhancement, elevation, intensification; extra pay, allowance (in addition to the salary); addition; زيادة ziyādatan in addition, additionally │ زيادة",
+    "examples": []
+  },
+  {
+    "word": "زيادة عن تحمله",
+    "displayWord": "زيادة عن تحمله",
+    "translation": "ḥammalahū z. ‘an taḥammulihi he loaded him with more than he could carry; زيادة على ذلك (ziyādatan) moreover, besides; زيادة المواليد excess of births; لزيادة الإيضاح (īḍāḥ) in order to make it even clearer, for further elucidation",
+    "examples": []
+  },
+  {
+    "word": "زائد",
+    "displayWord": "زائد",
+    "translation": "zā’id increasing, growing; excessive, immoderate; exceeding ( عن s.th.), in excess ( عن of); additional, extra, supernumerary │ زائد على الحاجة more than necessary, surplus",
+    "examples": []
+  },
+  {
+    "word": "زائدة",
+    "displayWord": "زائدة",
+    "translation": "zā’ida pl. زوائد zawā’id2 appendage, appendix (anat., zool., bot.); outgrowth (med.) │ زائدة معوية (mi‘awīya) and زائدة دودية (dūdīya) vermiform appendix (anat.)",
+    "examples": []
+  },
+  {
+    "word": "زير",
+    "displayWord": "زير",
+    "translation": "1 II (mor.) to close ( ھ a button)",
+    "examples": []
+  },
+  {
+    "word": "زير",
+    "displayWord": "زير",
+    "translation": "2 zīr pl. ازيار azyār, زيار ziyār (eg., magr.) large, almost conical jar, made of porous clay, for storing water",
+    "examples": []
+  },
+  {
+    "word": "زير",
+    "displayWord": "زير",
+    "translation": "3 zīr the highest string of stringed instruments (mus.) 389",
+    "examples": []
+  },
+  {
+    "word": "زيز",
+    "displayWord": "زيز",
+    "translation": "zīz (coll.; n. un. ة) pl. زيزان zīzān cicada; chrysalis",
+    "examples": []
+  },
+  {
+    "word": "زيزفون",
+    "displayWord": "زيزفون",
+    "translation": "zaizafūn jujube (Zizyphus; bot.); linden tree",
+    "examples": []
+  },
+  {
+    "word": "زاغ",
+    "displayWord": "زاغ",
+    "translation": "(زيغ 1 ) zāga i (zaig, زيغان zayagān) to turn aside; to depart, deviate ( عن from); to swerve; to turn away ( عن from), turn one’s back ( عن on); to wander, stray, roam (eyes) IV to cause ( ھ s.th.) to deviate │",
+    "examples": []
+  },
+  {
+    "word": "زيغ",
+    "displayWord": "زيغ",
+    "translation": "zaig and زيغان zayagān a turning aside; deviation, departure ( عن from) │ زيغ",
+    "examples": []
+  },
+  {
+    "word": "زائغ",
+    "displayWord": "زائغ",
+    "translation": "zāig deviating, divergent; false, wrong, distorted, perverted │ نظرات زائغة (nazarāt) wandering glances",
+    "examples": []
+  },
+  {
+    "word": "زاغ",
+    "displayWord": "زاغ",
+    "translation": "2 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "زاف",
+    "displayWord": "زاف",
+    "translation": "(زيف ) zāfa i (zaif) to be false, be spurious II to counterfeit ( ھ money); to declare ( ھ s.th.) to be false or spurious",
+    "examples": []
+  },
+  {
+    "word": "زيف",
+    "displayWord": "زيف",
+    "translation": "zaif falseness; pride; (pl. زيوف zuyūf) false, spurious, forged, counterfeit",
+    "examples": []
+  },
+  {
+    "word": "زائف",
+    "displayWord": "زائف",
+    "translation": "zā’if false; forged, counterfeit, spurious │ اخبار زائفة false reports; نقود زائفة counterfeit money",
+    "examples": []
+  },
+  {
+    "word": "زيق",
+    "displayWord": "زيق",
+    "translation": "1 II (eg.) to creak, screech",
+    "examples": []
+  },
+  {
+    "word": "زيق",
+    "displayWord": "زيق",
+    "translation": "2 zīq pl. ازياق azyāq collar, neckband; border, hem (of a garment)",
+    "examples": []
+  },
+  {
+    "word": "زال",
+    "displayWord": "زال",
+    "translation": "(زيل ) and II, III, VI see زول",
+    "examples": []
+  },
+  {
+    "word": "زان",
+    "displayWord": "زان",
+    "translation": "(زين 1 ) zāna i (zain) to decorate, adorn ( ھ s.th.) II to adorn, decorate, embellish, ornament ( ھ s.th.); to grace ( ھ، ه s.o., s.th.);to shave ( ه s.o.); زينت نفسھا (nafsahā) to make herself up (lady); to paint in glowing tones, present in a favorable light, extol ( ل، الى ھ s.th. to s.o.); to conjure up (",
+    "examples": []
+  },
+  {
+    "word": "زين",
+    "displayWord": "زين",
+    "translation": "zain beauty; beautiful, nice, pretty",
+    "examples": []
+  },
+  {
+    "word": "زينة",
+    "displayWord": "زينة",
+    "translation": "zīna pl. -āt embellishment, adornment, ornament, decoration; cloth., attire, finery; toilette │ زينة الوجه z. al-wajh make-up; بيت الزينة bait az-z. beauty shop;",
+    "examples": []
+  },
+  {
+    "word": "زيان",
+    "displayWord": "زيان",
+    "translation": "zayyān beautiful",
+    "examples": []
+  },
+  {
+    "word": "زيان",
+    "displayWord": "زيان",
+    "translation": "ziyān embellishment, adornment, decoration; ornament",
+    "examples": []
+  },
+  {
+    "word": "زيانة",
+    "displayWord": "زيانة",
+    "translation": "ziyāna barber’s or hairdresser’s trade",
+    "examples": []
+  },
+  {
+    "word": "زان",
+    "displayWord": "زان",
+    "translation": "2 look up alphabetically",
+    "examples": []
+  },
+  {
+    "word": "زينكو",
+    "displayWord": "زينكو",
+    "translation": "zinkō zinc 390 س",
+    "examples": []
+  },
+  {
+    "word": "زيوت طيارة",
+    "displayWord": "زيوت طيارة",
+    "translation": "volatile oils; طيار اول (awwal) a military rank, approx.: first lieutenant of the Air Force (Eg. طيار ثان ;( 1939 (ṭānin) approx.: second lieutenant of the Air Force (Eg. 1939)",
+    "examples": []
+  },
+  {
+    "word": "زنة",
+    "displayWord": "زنة",
+    "translation": "zina weighing; weight",
+    "examples": []
   }
 ]

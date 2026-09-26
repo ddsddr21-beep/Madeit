@@ -1,80 +1,1046 @@
 [
   {
-    "word": "ذهب",
-    "displayWord": "ذَهَب",
-    "root": "ذهب",
-    "translation": "gold, wealth / also (ذَهَبَ) he went",
-    "examples": [
-      {
-        "ar": "زُيِّنَ لِلنَّاسِ حُبُّ الشَّهَوَاتِ مِنَ النِّسَاءِ وَالْبَنِينَ وَالْقَنَاطِيرِ الْمُقَنْطَرَةِ مِنَ الذَّهَبِ وَالْفِضَّةِ.",
-        "en": "Beautified for people is the love of that which they desire - of women and sons, heaped-up sums of gold and silver.",
-        "source": "Holy Quran"
-      }
-    ]
+    "word": "ذكره",
+    "displayWord": "ذكره",
+    "translation": "al-badi’u dikruhu (the person or thing) mentioned at the outset, the firstmentioned",
+    "examples": []
+  },
+  {
+    "word": "ذراعيه",
+    "displayWord": "ذراعيه",
+    "translation": "in his arms; من بينھم min bainihim from among them, from their midst; بين بين something between, a cross, a mixture, a combination; neither good nor bad, medium, tolerable; شيء بين بين something between, a cross, a mixture, a combination; بين وقت وآخر (waqt, āḳar), بين",
+    "examples": []
+  },
+  {
+    "word": "ذب حن حياض الدين",
+    "displayWord": "ذب حن حياض الدين",
+    "translation": "(dabba) to defend the faith; احواض الفم والحديد coal and iron deposits O حويضة ḥuwaiḍa renal pelvis (anat.)",
+    "examples": []
+  },
+  {
+    "word": "ذھب كأمس الدابر",
+    "displayWord": "ذھب كأمس الدابر",
+    "translation": "(ka-amsi d-dābiri) to vanish into thin air, disappear without leaving a trace (actually: like yesterday gone by)",
+    "examples": []
+  },
+  {
+    "word": "ذا",
+    "displayWord": "ذا",
+    "translation": "(demonstr. pron.) pl. اولاء ulā’i this one, this;",
+    "examples": []
+  },
+  {
+    "word": "ذلك",
+    "displayWord": "ذلك",
+    "translation": "ma‘a dālika yet, still, 306 nevertheless, for all that; وذلك ان (anna) that is (to say), namely, to wit; وذلك لأن (li-anna) and that is because ..., for the one reason that ...;",
+    "examples": []
+  },
+  {
+    "word": "ذلك بأن",
+    "displayWord": "ذلك بأن",
+    "translation": "(bi-anna) this is due to the fact that ...; كذلك ka-dālika so, thus, in that manner; equally, likewise, in the lame manner; -- ذلكم dālikum f. تلكم tilkum, pl.",
+    "examples": []
+  },
+  {
+    "word": "ذأب",
+    "displayWord": "ذأب",
+    "translation": "X to be wolflike, be fierce or cruel like a wolf",
+    "examples": []
+  },
+  {
+    "word": "ذئب",
+    "displayWord": "ذئب",
+    "translation": "di‘b pl. ذئاب di’āb, ذؤبان du’bān dieb (Canis anthus), jackal; wolf │ مرض الذئب",
+    "examples": []
+  },
+  {
+    "word": "ذؤابة",
+    "displayWord": "ذؤابة",
+    "translation": "du’āba pl. ذوائب dawā’ib2 lock, strand (of hair); tuft, wisp",
+    "examples": []
+  },
+  {
+    "word": "ذات، ذاتي",
+    "displayWord": "ذات، ذاتي",
+    "translation": "and ذاتية see ذو",
+    "examples": []
+  },
+  {
+    "word": "ذا",
+    "displayWord": "ذا",
+    "translation": "see ذا",
+    "examples": []
+  },
+  {
+    "word": "ذال",
+    "displayWord": "ذال",
+    "translation": "dāl name of the letter ذ",
+    "examples": []
+  },
+  {
+    "word": "ذب",
+    "displayWord": "ذب",
+    "translation": "dabba u to drive away, chase away ( ھ، ه s.o., s.th.); to defend ( عن s.o., s.th.)",
+    "examples": []
+  },
+  {
+    "word": "ذباب",
+    "displayWord": "ذباب",
+    "translation": "dubāb (coll.; n. un. ة) pl. اذبة adibba, ذبان dibbān flies, fly │ ذباب قارض gadfly, horsefly",
+    "examples": []
+  },
+  {
+    "word": "ذبابة",
+    "displayWord": "ذبابة",
+    "translation": "dubāba pl. -āt (n. un. of ذباب ) fly; tip (of the sword, or the like)",
+    "examples": []
+  },
+  {
+    "word": "ذبانة",
+    "displayWord": "ذبانة",
+    "translation": "dubbāna, dibbāna fly; sight, bead (on a firearm)",
+    "examples": []
+  },
+  {
+    "word": "ذبح",
+    "displayWord": "ذبح",
+    "translation": "dabaḥa a (dabḥ) to kill (by slitting the throat); to slaughter, butcher; to massacre; to murder, slay; to sacrifice, offer up, immolate ( ھ an animal) II to kill, slaughter, butcher, massacre, murder",
+    "examples": []
+  },
+  {
+    "word": "ذبح",
+    "displayWord": "ذبح",
+    "translation": "dabḥ slaughtering, slaughter",
+    "examples": []
+  },
+  {
+    "word": "ذبح",
+    "displayWord": "ذبح",
+    "translation": "dibḥ sacrificial victim, blood sacrifice",
+    "examples": []
+  },
+  {
+    "word": "ذبحة",
+    "displayWord": "ذبحة",
+    "translation": "dibḥa, dubḥa angina (med.); diphtheria │ الذبحة الصدرية (ṣadrīya) angina pectoris (med.); O الذبحة الفؤادية (fu’ādīya) do.",
+    "examples": []
+  },
+  {
+    "word": "ذباح",
+    "displayWord": "ذباح",
+    "translation": "dabbāḥ slaughtering, killing, murdering; slaughterer, butcher",
+    "examples": []
+  },
+  {
+    "word": "ذبيح",
+    "displayWord": "ذبيح",
+    "translation": "dabīḥ slaughtered",
+    "examples": []
+  },
+  {
+    "word": "ذبيحة",
+    "displayWord": "ذبيحة",
+    "translation": "dabīḥa pl. ذبائح dabā’iḥ2 slaughter animal; sacrificial victim, blood sacrifice; sacrifice, immolation; offering, oblation",
+    "examples": []
+  },
+  {
+    "word": "ذبذب",
+    "displayWord": "ذبذب",
+    "translation": "dabdaba to set into a swinging motion, swing, dangle ( ھ s.th.) II tadabdaba to swing, pendulate; to oscillate (el.); to be deflected (magnetic needle); to vibrate; to fluctuate; to waver, vacillate, hesitate",
+    "examples": []
+  },
+  {
+    "word": "ذبذبة",
+    "displayWord": "ذبذبة",
+    "translation": "dabdaba pl. -āt pendulous motion, pendulation; oscillation (el.); vibration",
+    "examples": []
+  },
+  {
+    "word": "ذبل",
+    "displayWord": "ذبل",
+    "translation": "dabala, dabula u (dabl, ذبول dubūl) to be wilted, to wilt, wither; to fade; to become dry, dry up; to waste away; to become dull, lose its luster (eye)",
+    "examples": []
+  },
+  {
+    "word": "ذبل",
+    "displayWord": "ذبل",
+    "translation": "dabl mother-of-pearl, nacre",
+    "examples": []
+  },
+  {
+    "word": "ذبالة",
+    "displayWord": "ذبالة",
+    "translation": "dubāla wick",
+    "examples": []
+  },
+  {
+    "word": "ذابل",
+    "displayWord": "ذابل",
+    "translation": "dābil pl. ذبل dubul wilted, withered; dry, dried up; faded (color); languid, dull, lackluster, languishing (glance); feeble, weak, tired 307",
+    "examples": []
+  },
+  {
+    "word": "ذحل",
+    "displayWord": "ذحل",
+    "translation": "daḥl pl. اذحال adḥāl, ذحول duḥūl resentment, rancor, hatred; revengefulness, vindictiveness; blood revenge",
+    "examples": []
+  },
+  {
+    "word": "ذخر",
+    "displayWord": "ذخر",
+    "translation": "dakara a to keep, preserve, store away, put away ( ھ s.th.); to save, lay by ( ھ s.th.) VIII ادخر iddakara to keep, preserve, store away, put away ( ھ s.th.); to store, accumulate, gather, hoard, amass ( ھ s.th.); to lay by ( ھ s.th.); to save ( ھ s.th., also strength, trouble, etc.) │ ادخر حبا ل (ḥubban) to harbor love for; لا يدخر جھدا (juhdan) he spares no effort",
+    "examples": []
+  },
+  {
+    "word": "ذخر",
+    "displayWord": "ذخر",
+    "translation": "dukr pl. اذخار adkār s.th. stored away, put by, hoarded, or accumulated; stores, supplies; treasure",
+    "examples": []
+  },
+  {
+    "word": "ذخيرة",
+    "displayWord": "ذخيرة",
+    "translation": "dakīra pl. ذخائر dakā’ir2 treasure; stores, supplies; provisions, food; ammunition (mil.); (holy) relic",
+    "examples": []
+  },
+  {
+    "word": "ذرة",
+    "displayWord": "ذرة",
+    "translation": "1 dura see ذرو",
+    "examples": []
+  },
+  {
+    "word": "ذر",
+    "displayWord": "ذر",
+    "translation": "2 darra u (darr) to strew, scatter, spread ( ھ s.th.); to sprinkle ( ب ھ on s.th. s.th.) │ ذر",
+    "examples": []
+  },
+  {
+    "word": "ذر",
+    "displayWord": "ذر",
+    "translation": "darr strewing, scattering, sprinkling; (coll.) tiny particles, atoms, specks, motes",
+    "examples": []
+  },
+  {
+    "word": "ذرة",
+    "displayWord": "ذرة",
+    "translation": "darra (n. un.) pl. -āt atom; tiny particle; speck, mote │ مثقال ذرة mitqāl d. the weight of a dust particle, a tiny amount; a little bit; مقدار ذرة miqdār d. a tiny amount, a jot, an iota; ذرة من الشك (šakk) the least doubt",
+    "examples": []
+  },
+  {
+    "word": "ذري",
+    "displayWord": "ذري",
+    "translation": "darrī atomic │ قنبلة ذرية (qunbula) atomic bomb; النشاط الذري (našāṭ) and طاقة",
+    "examples": []
+  },
+  {
+    "word": "ذرية",
+    "displayWord": "ذرية",
+    "translation": "(ṭāqa) atomic energy",
+    "examples": []
+  },
+  {
+    "word": "ذرور",
+    "displayWord": "ذرور",
+    "translation": "darūr powder",
+    "examples": []
+  },
+  {
+    "word": "ذروري",
+    "displayWord": "ذروري",
+    "translation": "darūrī powdery, powdered, pulverized",
+    "examples": []
+  },
+  {
+    "word": "ذريرة",
+    "displayWord": "ذريرة",
+    "translation": "(darīra pl. ذرائر darā’ir2 fragrant powder, cosmetic scented powder",
+    "examples": []
+  },
+  {
+    "word": "ذري",
+    "displayWord": "ذري",
+    "translation": "durrī of or pertaining to the offspring or progeny",
+    "examples": []
+  },
+  {
+    "word": "ذرية",
+    "displayWord": "ذرية",
+    "translation": "durrīya pl. -āt, ذراري darārīy progeny, descendants, children, offspring",
+    "examples": []
+  },
+  {
+    "word": "ذرب",
+    "displayWord": "ذرب",
+    "translation": "dariba a (darab) to be sharp, cutting",
+    "examples": []
+  },
+  {
+    "word": "ذرب",
+    "displayWord": "ذرب",
+    "translation": "darab diarrhea (med.)",
+    "examples": []
+  },
+  {
+    "word": "ذرب",
+    "displayWord": "ذرب",
+    "translation": "darib pl. ذرب durb sharp, cutting │",
+    "examples": []
+  },
+  {
+    "word": "ذراح",
+    "displayWord": "ذراح",
+    "translation": "durrāḥ pl. ذراريح darārīḥ2 Spanish fly, blister beetle (zool.)",
+    "examples": []
+  },
+  {
+    "word": "ذرع",
+    "displayWord": "ذرع",
+    "translation": "dara‘a a (dar‘) to measure ( ھ s.th.); to take the measure or measurements ( ھ of s.th.); to cover ( ھ a distance); to cross, travel ( ھ a country), travel through ( ھ ); to intercede, intervene, mediate, put in a word ( ل for s.o., on behalf of s.o., عند with s.o. else) V to use, employ, apply ( بذريعة bi-darī‘a or بوسيلة bi-wasīla a means, an expedient); to use as a pretext, as an excuse ( ب s.th.); to use as a means ( ب s.th., الى to an end) VII to proceed, advance; to intervene",
+    "examples": []
+  },
+  {
+    "word": "ذرع",
+    "displayWord": "ذرع",
+    "translation": "dar‘ power, ability, capability ( ب to do s.th.) │ ضاق ذرعا ب and ضاق عنه ذرعا (dar‘an) not to be up to s.th., be unable to do or accomplish s.th.; to be unable to stand or bear s.th., be fed up with, be tired of, feel uneasy about, be oppressed by 308",
+    "examples": []
+  },
+  {
+    "word": "ذراع",
+    "displayWord": "ذراع",
+    "translation": "dirā‘ f. and m., pl. اذرع adru‘, ذرعان dur‘ān arm; forearm; connecting rod; cubit, in Syria = .68 m │in Egypt: ذراع",
+    "examples": []
+  },
+  {
+    "word": "ذريع",
+    "displayWord": "ذريع",
+    "translation": "darī‘ stepping lively, walking briskly; rapid, quick; torrential; rapidly spreading, sweeping (death); devastating; intercessor",
+    "examples": []
+  },
+  {
+    "word": "ذريعة",
+    "displayWord": "ذريعة",
+    "translation": "darī‘a pl. ذرائع darā’i‘2 medium, means, expedient; pretext, excuse",
+    "examples": []
+  },
+  {
+    "word": "ذرف",
+    "displayWord": "ذرف",
+    "translation": "darafa i (darf, ذريف darīf, ذروف durūf,",
+    "examples": []
+  },
+  {
+    "word": "ذرفان",
+    "displayWord": "ذرفان",
+    "translation": "darafan) to flow, well forth (tears); to shed ( ھ tears; said of the eye) II to exceed ( على an age) X to let flow, shed ( ھ tears)",
+    "examples": []
+  },
+  {
+    "word": "ذرق",
+    "displayWord": "ذرق",
+    "translation": "daraqa i u (darq) to drop excrement (bird) IV do.",
+    "examples": []
+  },
+  {
+    "word": "ذرق",
+    "displayWord": "ذرق",
+    "translation": "darq droppings, excrement (of a bird) ذرو) and ذرى) ذرا darā u (darw) to disperse, scatter ( ھ s.th.); to carry off, blow away (",
+    "examples": []
+  },
+  {
+    "word": "ذرة",
+    "displayWord": "ذرة",
+    "translation": "dura durra, a variety of sorghum │",
+    "examples": []
+  },
+  {
+    "word": "ذرة شامي",
+    "displayWord": "ذرة شامي",
+    "translation": "(eg.) Indian corn, maize (Zea mays L.); ذرة صفراء (ṣafrā’) do. (syr.);",
+    "examples": []
+  },
+  {
+    "word": "ذرة عويجة",
+    "displayWord": "ذرة عويجة",
+    "translation": "(eg.) a variety of millet (Andropogon Sorghum Brot. var. Schwein furtianus Kcke.); ذرة بيضاء (baiḍā’) millet (syr.)",
+    "examples": []
+  },
+  {
+    "word": "ذرى",
+    "displayWord": "ذرى",
+    "translation": "daran protection, shelter",
+    "examples": []
+  },
+  {
+    "word": "ذروة",
+    "displayWord": "ذروة",
+    "translation": "durwa, dirwa pl. ذرى duran summit; top; peak; culmination, climax, acme, apex",
+    "examples": []
+  },
+  {
+    "word": "ذعر",
+    "displayWord": "ذعر",
+    "translation": "da‘ara a (da‘r) to frighten, scare, alarm, terrify ( ه s.o.); pass. du‘ira to be frightened ( ل by), get alarmed ( ل at); -- da‘ira a (da‘ar) to be terrified, alarmed, dismayed IV to frighten, scare, alarm, terrify ( ه s.o.) V and VII to be frightened, become alarmed",
+    "examples": []
+  },
+  {
+    "word": "ذعر",
+    "displayWord": "ذعر",
+    "translation": "du‘r fright, terror, alarm, panic",
+    "examples": []
+  },
+  {
+    "word": "ذعر",
+    "displayWord": "ذعر",
+    "translation": "da‘ar fright, alarm, dismay, consternation",
+    "examples": []
+  },
+  {
+    "word": "ذعاف",
+    "displayWord": "ذعاف",
+    "translation": "du‘āf lethal, deadly, immediately killing (poison) │ موت ذعاف (maut) a sudden, immediate death",
+    "examples": []
+  },
+  {
+    "word": "ذعق",
+    "displayWord": "ذعق",
+    "translation": "da‘aqa a (da‘q) to frighten ( ه s.o.) by screaming",
+    "examples": []
+  },
+  {
+    "word": "ذعن",
+    "displayWord": "ذعن",
+    "translation": "da‘ana a (da‘an) and IV to submit, yield, give in ( ل to s.o.), obey ( ل s.o., an order, etc.); to concede voluntarily, grant willingly ( ب ل to s.o. s.th.)",
+    "examples": []
+  },
+  {
+    "word": "ذفر",
+    "displayWord": "ذفر",
+    "translation": "dafar pungent smell, stench",
+    "examples": []
+  },
+  {
+    "word": "ذقن",
+    "displayWord": "ذقن",
+    "translation": "daqan, diqan pl. اذقان adqān, ذقون duqūn chin; -- daqn f., pl. ذقون duqūn beard, whiskers │ ذقن الشيخ d. aš-šaik; wormwood, absinthe; خروا لأذقانھم karrū liadqānihim they prostrated themselves;",
+    "examples": []
   },
   {
     "word": "ذكر",
-    "displayWord": "ذِكْر",
-    "root": "ذكر",
-    "translation": "remembrance, mention, invocation",
-    "examples": [
-      {
-        "ar": "أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ.",
-        "en": "Unquestionably, by the remembrance of God do hearts find peace.",
-        "source": "Holy Quran"
-      }
-    ]
+    "displayWord": "ذكر",
+    "translation": "dakara u (dikr, تذكار tadkār) to remember, bear in mind ( ھ s.th.), think ( ھ of); to keep in mind ( ھ s.th.); to recall, recollect ( ھ s.th.); -- (dikr) to speek, talk (",
+    "examples": []
+  },
+  {
+    "word": "ذكر",
+    "displayWord": "ذكر",
+    "translation": "dikr recollection, remembrance, reminiscence, memory, commemoration; reputation, repute, renown; naming, stating, mention(ing), quoting, citation; report, account, narration, narrative; invocation of God, mention of the Lord’s name; (in Sufism) incessant repetition of certain words or formulas in praise of God, often accompanied by music and dancing │ على ذكر (with foll. genit.) apropos of, speaking of ...; وعلى ذكر ذلك speaking of that, incidentally, in that connection; الذكر الحكيم the Koran;",
+    "examples": []
+  },
+  {
+    "word": "ذكر",
+    "displayWord": "ذكر",
+    "translation": "dakar pl. ذكور dukūr, ذكورة dukūra, ذكران dukrān male; (pl. (ذكور penis",
+    "examples": []
+  },
+  {
+    "word": "ذكرة",
+    "displayWord": "ذكرة",
+    "translation": "dukra reputation, repute, renown",
+    "examples": []
+  },
+  {
+    "word": "ذكرى",
+    "displayWord": "ذكرى",
+    "translation": "dikrā pl. ذكريات dikrayāt remembrance, recollection, memory; pl. reminiscences, memoirs",
+    "examples": []
+  },
+  {
+    "word": "ذكير",
+    "displayWord": "ذكير",
+    "translation": "dakīr steel",
+    "examples": []
+  },
+  {
+    "word": "ذاكرة",
+    "displayWord": "ذاكرة",
+    "translation": "dākira memory",
+    "examples": []
   },
   {
     "word": "ذكاء",
-    "displayWord": "ذَكَاء",
-    "root": "ذكي",
-    "translation": "intelligence, sharpness",
-    "examples": [
-      {
-        "ar": "الْتَّمَارِينُ العَقْلِيَّةُ تُنَمِّي ذَكَاءَ الطِّفْلِ.",
-        "en": "Mental exercises develop the child's intelligence.",
-        "source": "Pediatric Science"
-      }
-    ]
+    "displayWord": "ذكاء",
+    "translation": "dakā’) to blaze, flare up (fire); to exude a strong odor; -- ذكي dakiya ( ذكاء dakā’) to be sharp-witted, intelligent II and IV to cause to blaze, fan ( ھ the fire); to kindle ( ھ s.th.) II to immolate an animal X = dakā",
+    "examples": []
   },
   {
-    "word": "ذوق",
-    "displayWord": "ذَوْق",
-    "root": "ذوق",
-    "translation": "taste, politeness, etiquette",
-    "examples": [
-      {
-        "ar": "أَظْهَرَ الطَّالِبُ ذَوْقًا عَالِيًا فِي الحِوَارِ مَعَ مُعَلِّمِهِ.",
-        "en": "The student showed high politeness in dialogue with his teacher.",
-        "source": "Modern Ethics"
-      }
-    ]
+    "word": "ذكاء",
+    "displayWord": "ذكاء",
+    "translation": "dakā’ acumen, mental, acuteness, intelligence, brightness; -- dukā’2 the sun",
+    "examples": []
+  },
+  {
+    "word": "ذكي",
+    "displayWord": "ذكي",
+    "translation": "dakīy pl. اذكياء adkiyā’2 intelligent, sharp-witted, clever, bright; redolent, fragrant; tasty, savory, delicious",
+    "examples": []
+  },
+  {
+    "word": "ذل",
+    "displayWord": "ذل",
+    "translation": "dalla i (dall, dull, ذلالة dalāla, ذلة dilla, مذلة madalla) to be low, lowly, humble, despised, contemptible II to lower, debase, degrade, humiliate, humble ( ھ, ه s.o., s.th.); to subject, break, subdue, conquer ( ه s.o.); to overcome, surmount ( ھ difficulties, obstacles) IV to lower, debase, degrade, humiliate, humble ( ھ, ه s.o., s.th.); to subject, break, subdue, conquer ( ھ, ه s.o. s.th.) V to lower o.s, humble o.s., cringe ( الى or ل before s.o.); to be humble, obsequious X to think ( ه s.o.) low or despicable; to think little ( ه of), disesteem ( ه s.o.); to deride, flout, disparage, run down ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "ذل",
+    "displayWord": "ذل",
+    "translation": "dull lowness, lowliness, insignificance; ignominy, disgrace, shame, degradation, humiliation; humility, humbleness, meekness, submissiveness",
+    "examples": []
+  },
+  {
+    "word": "ذلة",
+    "displayWord": "ذلة",
+    "translation": "dilla lowness, baseness, vileness, depravity; submissivness, obsequiousness",
+    "examples": []
+  },
+  {
+    "word": "ذليل",
+    "displayWord": "ذليل",
+    "translation": "dalīl pl. اذلاء adillā’ اذلة , 2 adilla low, lowly; despised, despicable, contemptible; docile, tractable, pliable; humble, submissive, abject, servile; obsequious, cowering, cringing ذلول dalūl pl. ذلل dulul docile, tractable, gentie (animal); female riding camel",
+    "examples": []
+  },
+  {
+    "word": "ذلذل",
+    "displayWord": "ذلذل",
+    "translation": "duldul pl. ذلاذل dalādil2 lowest, nethermost part of s.th.; train, hem (of a garment) │",
+    "examples": []
+  },
+  {
+    "word": "ذلاذل الناس",
+    "displayWord": "ذلاذل الناس",
+    "translation": "the mob, the riffraff",
+    "examples": []
+  },
+  {
+    "word": "ذلق",
+    "displayWord": "ذلق",
+    "translation": "dalq tip, point; tip of the tongue",
+    "examples": []
+  },
+  {
+    "word": "ذلق",
+    "displayWord": "ذلق",
+    "translation": "dalq, daliq, ذليق dalīq eloquent, glib, facile (tongue)",
+    "examples": []
+  },
+  {
+    "word": "ذلاقة",
+    "displayWord": "ذلاقة",
+    "translation": "dalāqa eloquence, glibness (of the tongue)",
+    "examples": []
+  },
+  {
+    "word": "ذلك",
+    "displayWord": "ذلك",
+    "translation": "etc., see ذا",
+    "examples": []
+  },
+  {
+    "word": "ذم",
+    "displayWord": "ذم",
+    "translation": "damma u (damm, مذمة madamma) to blame, find blameworthy, dispraise, criticize ( ه s.o.), find fault ( ه with s.o.) II to rebuke, censure sharply ( ه s.o.)",
+    "examples": []
+  },
+  {
+    "word": "ذم",
+    "displayWord": "ذم",
+    "translation": "damm censure, dispraise, derogation, disparagement",
+    "examples": []
+  },
+  {
+    "word": "ذمة",
+    "displayWord": "ذمة",
+    "translation": "dimma pl ذمم dimam protection, care, custody; covenant of protection, compact; responsibility, answerableness; financial obligation, liability, debt; inviolability, security of life and property; safeguard, guarantee, security; conscience │؟ بالذمة honestly? really? seriously? في",
+    "examples": []
+  },
+  {
+    "word": "ذمتي",
+    "displayWord": "ذمتي",
+    "translation": "and على ذمتي upon my word, truly; بذمته, في ذمته in s.o.’s debt, indebted to s.o.;",
+    "examples": []
+  },
+  {
+    "word": "ذمي",
+    "displayWord": "ذمي",
+    "translation": "dimmī a zimmi, a free non-Muslim subject living in a Muslim country (see ذمة dimma: (اھل الذمة",
+    "examples": []
+  },
+  {
+    "word": "ذمام",
+    "displayWord": "ذمام",
+    "translation": "dimām pl. اذمة adimma right, claim, title; protection, custody; security of life and property │ في ذمام الليل fī d. al-lail under cover of darkness",
+    "examples": []
+  },
+  {
+    "word": "ذميم",
+    "displayWord": "ذميم",
+    "translation": "damīm censured; blameworthy, objectionable, reprehensible; ugly, unfair, nasty",
+    "examples": []
+  },
+  {
+    "word": "ذميمة",
+    "displayWord": "ذميمة",
+    "translation": "damīima pl. ذمائم damā’im2 blame, censure",
+    "examples": []
+  },
+  {
+    "word": "ذمر",
+    "displayWord": "ذمر",
+    "translation": "V to grumble, complain ( من or على about)",
+    "examples": []
+  },
+  {
+    "word": "ذمار",
+    "displayWord": "ذمار",
+    "translation": "dimār sacred possession, cherished goods; honor",
+    "examples": []
+  },
+  {
+    "word": "ذمي",
+    "displayWord": "ذمي",
+    "translation": "damiya a ( ذماء damā’) to be in the throes of death",
+    "examples": []
+  },
+  {
+    "word": "ذماء",
+    "displayWord": "ذماء",
+    "translation": "damā’ last remnant; last breath of life │ ذماء من الحياة (ḥayāh) last breath of life",
+    "examples": []
   },
   {
     "word": "ذنب",
-    "displayWord": "ذَنْب",
-    "root": "ذنب",
-    "translation": "sin, fault, tail",
-    "examples": [
-      {
-        "ar": "رَبَّنَا اغْفِرْ لَنَا ذُنُوبَنَا وَإِسْرَافَنَا فِي أَمْرِنَا.",
-        "en": "Our Lord, forgive us our sins and the excess [committed] in our affairs.",
-        "source": "Holy Quran"
-      }
-    ]
+    "displayWord": "ذنب",
+    "translation": "IV to do wrong, commit a sin, a crime, an offense; to be guilty, be culpable X to find or declare ( ه s.o.) guilty of a sin, of a crime, of an offense",
+    "examples": []
+  },
+  {
+    "word": "ذنب",
+    "displayWord": "ذنب",
+    "translation": "danb pl. ذنوب dunūb offense, sin, crime, misdeed",
+    "examples": []
+  },
+  {
+    "word": "ذنب",
+    "displayWord": "ذنب",
+    "translation": "danab pl. ذنب adnāb tail; end; adherent (pol.), follower, henchman",
+    "examples": []
+  },
+  {
+    "word": "ذنبي",
+    "displayWord": "ذنبي",
+    "translation": "danabī caudal, tail- (in compounds); append aged, appendant, dependent",
+    "examples": []
+  },
+  {
+    "word": "ذنيب",
+    "displayWord": "ذنيب",
+    "translation": "dunaib petiole, leafstalk (bot.)",
+    "examples": []
+  },
+  {
+    "word": "ذھب",
+    "displayWord": "ذھب",
+    "translation": "dahaba a ( ذھاب dahāb, مذھب madhab) to go ( الى to); to betake o.s., travel ( الى to); to go away, leave, depart; to disappear, vanish, decline, dwindle; to perish, die, be destroyed; with ب: to carry s.th. off, take s.th. away, abduct, steal s.th., sweep s.th. or s.o. away, annihilate, destroy s.th. or s.o.; ذھب به الى to lead or conduct s.o. to, take s.o. along to; to think, believe ( الى s.th.), hold the view, be of the opinion ( الى that); to escape ( عن s.o.; fig.), slip ( عن s.o.’s mind), ذھب عنه ان to lose sight of the fact that ..., forget that ... ; to ignore, skip, omit ( عن s.th.); (with imperf.) to prepare to ..., be about to ... │ ذھب وجاء to go back and forth, walk up and down; ذھب الى ابعد",
+    "examples": []
+  },
+  {
+    "word": "ذھب",
+    "displayWord": "ذھب",
+    "translation": "dahab (m. and f.) gold; gold piece, gold coin │O ذھب ابيض (abyaḍ) platinum",
+    "examples": []
+  },
+  {
+    "word": "ذھبي",
+    "displayWord": "ذھبي",
+    "translation": "dahabī golden, of gold; precious, excellent, apposite (e.g., advice, saying, etc.) │ آية ذھبية golden word, maxim, epigram",
+    "examples": []
+  },
+  {
+    "word": "ذھبية",
+    "displayWord": "ذھبية",
+    "translation": "dahabīya pl. -āt dahabeah, a long light-draft houseboat, used on the Nile",
+    "examples": []
+  },
+  {
+    "word": "ذھاب",
+    "displayWord": "ذھاب",
+    "translation": "dahāb going; passing, passage, falling away, decrease, dwindling, loss, disappearance; leave, departure; trip, journey; outward-bound trip or journey (as opposed to اياب iyāb return trip; railroad); opinion, view ( الى ان that) │ ذھابا",
+    "examples": []
+  },
+  {
+    "word": "ذھوب",
+    "displayWord": "ذھوب",
+    "translation": "duhūb going │ ذھوب ومآب coming and going; في جيئة وذھوب coming and going, in a state of fluctuation, having its ups and downs",
+    "examples": []
+  },
+  {
+    "word": "ذاھب",
+    "displayWord": "ذاھب",
+    "translation": "dāhib: ذاھب اللون d. al-laun faded, colorless, discolored",
+    "examples": []
+  },
+  {
+    "word": "ذھل",
+    "displayWord": "ذھل",
+    "translation": "dahala a (dahl, ذھول duhūl) to forget, overlook, omit, neglect, fail to heed ( عن s.th.); -- dahlia a ( ذھول duhūl) to be perplexed, alarmed, dismayed, startled, surprised, baffled; to be astonished, be amazed; to frighten, scare, take alarm, flinch; to be absent-minded, be distracted; to be or become distracted ( عن from), forget, overlook, fail to heed, neglect ( عن s.th.) IV to baffle, startle, nonplus ( ه s.o.); to distract ( عن ه s.o. from), make ( ه s.o.) forget ( عن s.th.) VII = dahila",
+    "examples": []
+  },
+  {
+    "word": "ذھول",
+    "displayWord": "ذھول",
+    "translation": "duhūl perplexity, consternation, bafflement, daze, stupor; confusion, bewilderment, dismay, alarm, fright; surprise; amazement, astonishment; absentmindedness, distraction, distractedness ( عن from)",
+    "examples": []
+  },
+  {
+    "word": "ذاھل",
+    "displayWord": "ذاھل",
+    "translation": "diJAil negligent, forgetful, oblivious, distracted, absent-minded; dazed, in a stupor",
+    "examples": []
+  },
+  {
+    "word": "ذھل",
+    "displayWord": "ذھل",
+    "translation": "mudhil startling, baffling, amazing",
+    "examples": []
+  },
+  {
+    "word": "ذھن",
+    "displayWord": "ذھن",
+    "translation": "dihn pl. اذھان adhān mind; intellect",
+    "examples": []
+  },
+  {
+    "word": "ذھني",
+    "displayWord": "ذھني",
+    "translation": "dihnī mental, intellectual",
+    "examples": []
+  },
+  {
+    "word": "ذھنية",
+    "displayWord": "ذھنية",
+    "translation": "dihnīya mentality",
+    "examples": []
+  },
+  {
+    "word": "ذو",
+    "displayWord": "ذو",
+    "translation": "dū, genit. ذي dī, acc. ذا dā, f. ذات dāt, pl. m.",
+    "examples": []
+  },
+  {
+    "word": "ذوو",
+    "displayWord": "ذوو",
+    "translation": "dawū, اولو ulū, pl. f. ذوات dawāt (with foll. genit.) possessor, owner, holder or muter of, endowed or provided with, embodying or comprising s.th. │ ذو عقل dū ‘aql endowed with brains, bright, intelligent; ذو مال rich, wealthy; ذو صحة dū ṣiḥḥa healthy; ذو شأن dū ša’n important, significant; ذو القربى dū l-qurbā relative, kin(sman); غير ذي زرع (zar‘) uncultivated (land); من ذي قبل min dī qablu than before;",
+    "examples": []
+  },
+  {
+    "word": "ذات",
+    "displayWord": "ذات",
+    "translation": "dāt pl. ذوات dawāt being, essence, nature; self; person, personality; the same, the selfsame; -self; الذوات people of rank, people of distinction, notables; ذاتا dātan personally │ ذات البين d. al-bain disagreement, dissension, disunion, discord, enmity; friendship; ذات الجنب d. al-janb pleurisy (med.); ذات الرئة d. ar-ri’a pneumonia; ذات الصدر d. aṣ-ṣadr disease of the chest, pectoral ailment; ذات اليد d. alyad wealth, affluence; ذات ايدينا d. aidīnā our possessions; ذات اليمين dāta l-yamīn to the right, ذات الشمال dāta š-šimāli to the left, ذات اليسار dāta l-yasāri do.; ذات مرة dāta marratin once, one time, في ذات مرة fī dāti marratin do.; ذات يوم dāta yaumin one day, في ذات يوم fī dāti yaumin do.; في ذات غد fī dāti gadin sometime in the future, before long; في ذات ... fī dāti ... (with foll. genit.) as to …, concerning ..., with reference to …, re; بالذات bi-d-dāt none other than ..., ... of all things, ... of all 314 people; personally, in person; انا بالذات I, of all people, ..., none other than I ...; في لندن",
+    "examples": []
+  },
+  {
+    "word": "ذات الشيء",
+    "displayWord": "ذات الشيء",
+    "translation": "the same thing; ذات الأشياء the same things; السنة ذاتھا (sana) the same year; لذاته by himself (itself); in itself; as such; for his (its) own sake; في ذاته in itself; في حد ذاته fī ḥaddi d. do.; قائم بذاته selfexistent, independent, self-contained, isolated; الثقة بالذات (tiqa) self-confidence;",
+    "examples": []
+  },
+  {
+    "word": "ذاتي",
+    "displayWord": "ذاتي",
+    "translation": "dātī own, proper; self-produced, self-created, spontaneous; personal; selfacting, automatic; subjective (philos.); (pl. -ūn) subjectivist (philos.); ذاتيا dātīyan of o.s., by o.s.; personally, in person │ الحكم",
+    "examples": []
+  },
+  {
+    "word": "ذاتية",
+    "displayWord": "ذاتية",
+    "translation": "dātīya personality; subjectivism (philos.); identity (of a person) │ تحقيق",
+    "examples": []
+  },
+  {
+    "word": "ذواتي",
+    "displayWord": "ذواتي",
+    "translation": "dawātī high-class, exclusive, luxurious",
+    "examples": []
+  },
+  {
+    "word": "ذوابة",
+    "displayWord": "ذوابة",
+    "translation": "1 see ذأب",
+    "examples": []
+  },
+  {
+    "word": "ذاب",
+    "displayWord": "ذاب",
+    "translation": "(ذوب 1 )) dāba u (daub), (daub, ذوبان ) to dissolve; to melt; to melt away; to liquefy, deliquesce; to dwindle away, vanish; to pine away, waste away ( حسرة واسى ḥasratan wa-asan with grief and sorrow) │ ذاب حياء (hayā’an) to die of shame; ذابت",
+    "examples": []
+  },
+  {
+    "word": "ذوب",
+    "displayWord": "ذوب",
+    "translation": "daub dissolution; solution (also, as a liquid)",
+    "examples": []
+  },
+  {
+    "word": "ذوبان",
+    "displayWord": "ذوبان",
+    "translation": "dawabān dissolution, melting, deliquescence, liquefaction │ ذوبان الثلج",
+    "examples": []
+  },
+  {
+    "word": "ذائب",
+    "displayWord": "ذائب",
+    "translation": "dā’ib dissolved; melted, molten; salable, dissoluble",
+    "examples": []
+  },
+  {
+    "word": "ذات",
+    "displayWord": "ذات",
+    "translation": "and ذوات see ذو",
+    "examples": []
+  },
+  {
+    "word": "ذاد",
+    "displayWord": "ذاد",
+    "translation": "(ذود ) dāda u (daud, ذياد diyād) to scatter, drive away, chase away; to remove ( ، عن ھ",
+    "examples": []
+  },
+  {
+    "word": "ذود",
+    "displayWord": "ذود",
+    "translation": "daud defense, protection ( عن of s.th.)",
+    "examples": []
+  },
+  {
+    "word": "ذياد",
+    "displayWord": "ذياد",
+    "translation": "diyād defense, protection ( عن of s.th.)",
+    "examples": []
+  },
+  {
+    "word": "ذائد",
+    "displayWord": "ذائد",
+    "translation": "dā’id pl. ذادة dāda defender, protector",
+    "examples": []
+  },
+  {
+    "word": "ذاق",
+    "displayWord": "ذاق",
+    "translation": "(ذوق ) dāqa u (dauq, ذواق dawāq, مذاق madāq) to taste, sample ( ھ food, etc.); to try, try out, teat ( ھ s.th.); to get a taste 315 ھ) of s.th.), experience, undergo, suffer ( ھ s.th.), go through s.th. ( ھ ) IV to have ( ه s.o.) taste or sample ( ھ s.th.), give ( ھ ه s.o. s.th.) to taste V to taste ( ھ s.th.) slowly, repeatedly, thoroughly; to get a taste ( ھ of s.th.); to sense, perceive ( ھ s.th.); to enjoy thoroughly, savor, relish ( ھ s.th.); to derive pleasure ( من from)",
+    "examples": []
+  },
+  {
+    "word": "ذوق",
+    "displayWord": "ذوق",
+    "translation": "dauq pl. اذواق adwāq gustatory sense; taste ( ل for; also, e.g., literary taste); perceptivity, responsiveness ( في for); sensitivity, sensitiveness; savoirvivre, suavity, urbanity, tact; liking, inclination; taste, flavor (of food, etc.) │",
+    "examples": []
+  },
+  {
+    "word": "ذوقي",
+    "displayWord": "ذوقي",
+    "translation": "dauqī of taste, gustative, gustatory",
+    "examples": []
+  },
+  {
+    "word": "ذواق",
+    "displayWord": "ذواق",
+    "translation": "dawāq taste",
+    "examples": []
+  },
+  {
+    "word": "ذواق",
+    "displayWord": "ذواق",
+    "translation": "dawwāq epicure, connoisseur, gourmet, bon vivant",
+    "examples": []
+  },
+  {
+    "word": "ذائقة",
+    "displayWord": "ذائقة",
+    "translation": "dā’iqa sense of taste",
+    "examples": []
+  },
+  {
+    "word": "ذوى",
+    "displayWord": "ذوى",
+    "translation": "dawā i and dawiya a to wither, wilt, fad.; to be withered, be dry IV to cause to wilt, to dry",
+    "examples": []
+  },
+  {
+    "word": "ذاو",
+    "displayWord": "ذاو",
+    "translation": "dāwin withered, faded, drooping",
+    "examples": []
+  },
+  {
+    "word": "ذي",
+    "displayWord": "ذي",
+    "translation": "see ذو",
+    "examples": []
+  },
+  {
+    "word": "ذاع",
+    "displayWord": "ذاع",
+    "translation": "( ذيع ) dā’a i ( ذيوع duyū‘) to spread, get about, circulate, be spread, be disseminated, be or become widespread; to leak out, become public, become generally known IV to spread. spread out, disseminate, propagate ( ھ or ب s.th.); to make known, announce, make public, publicize, publish ( ھ or ب s.th.); to promulgate ( ھ or ب s.th.); to show, manifest, display ( ھ or ب s.th.), give evidence ( ھ or ب of); to reveal, disclose, divulge ( ھ or ب s.th.); to emit ( ھ electric waves); to broadcast, transmit ( ھ s.th., على to the public; radio) │ اذاع بالتلفزة (talfaza) to telecast ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "ذيوع",
+    "displayWord": "ذيوع",
+    "translation": "duyū‘ widespreadness, commonness; spreading, spread, dispersion, diffusion; circulation (of news)",
+    "examples": []
+  },
+  {
+    "word": "ذائع",
+    "displayWord": "ذائع",
+    "translation": "dā’i‘ widespread, common, general; circulating, in circulation; widely known │ ذائع الصيت d. aṣ-ṣīt famous, noted, renowned, widely known",
+    "examples": []
+  },
+  {
+    "word": "ذيل",
+    "displayWord": "ذيل",
+    "translation": "II to furnish ( ھ s.th., esp. a book) with an appendix, add a supplement ( ھ to); to provide ( ھ s.th.) at the end ( ب with) IV to trample underfoot, degrade, debase ( ھ s.th.)",
+    "examples": []
+  },
+  {
+    "word": "ذيل",
+    "displayWord": "ذيل",
+    "translation": "dail pl. ذيول duyūl, اذيال adyāl the lowest or rearmost part of s.th., lower end; tail; hem, border (of a garment); train (of a skirt); lappet, coat tail; bottom, foot, end (of a page); appendage, appendicle; add.nda, supplement, appendix (of a book); retinue, 316 attendants, suite; dependent; result, consequence │ في ذيله immediately thereafter: طاھر الذيل innocent, blameless, upright, honest; طھارة الذيل ṭahārat ad-d. innocence, moral integrity, probity, uprightness, honesty; طويل الذيل long, lengthy, extensive: تمسك باذياله tamassaka bi-adyālihī to cling to s.o.’s coat tails, hold on to s.o.; جر عليه ذيل العفاء (jarra, ‘alaihi) to wipe out s.th., bring about the doom of s.th., let s.th. sink into oblivion: لاذ بأذيال الشيء to resort to s.th. ر",
+    "examples": []
+  },
+  {
+    "word": "ذوات الأربع",
+    "displayWord": "ذوات الأربع",
+    "translation": "dawāt al-arba‘ the quadrupeds",
+    "examples": []
+  },
+  {
+    "word": "ذلك الى",
+    "displayWord": "ذلك الى",
+    "translation": "I am thereby referring to …; كان",
+    "examples": []
+  },
+  {
+    "word": "ذكي",
+    "displayWord": "ذكي",
+    "translation": "dakīy, e.g., (رائحة زكية",
+    "examples": []
+  },
+  {
+    "word": "ذلك",
+    "displayWord": "ذلك",
+    "translation": "because of that, for that reason, therefore; كان السبب فيه (sababa) to be the cause of s.th., be to blame for s.th.; يرجع",
+    "examples": []
+  },
+  {
+    "word": "ذوق سليم",
+    "displayWord": "ذوق سليم",
+    "translation": "(dauq) good taste",
+    "examples": []
+  },
+  {
+    "word": "ذروة المعالي",
+    "displayWord": "ذروة المعالي",
+    "translation": "(darwat l-ma‘ālī) to attain to greatest honors",
+    "examples": []
+  },
+  {
+    "word": "ذھب لبعض شأنه",
+    "displayWord": "ذھب لبعض شأنه",
+    "translation": "(li-ba‘ḍi ša’nihī) he attended to a task; he went to do s.th.; انصرف الى",
+    "examples": []
+  },
+  {
+    "word": "ذو نشاط اشعاعي",
+    "displayWord": "ذو نشاط اشعاعي",
+    "translation": "(našāṭ) radioactive",
+    "examples": []
+  },
+  {
+    "word": "ذات صلاحية",
+    "displayWord": "ذات صلاحية",
+    "translation": "competent authorities; مطلق",
+    "examples": []
+  },
+  {
+    "word": "ذرعا ب",
+    "displayWord": "ذرعا ب",
+    "translation": "(dar‘an) not to be up to s.th.. be unable to do or accomplish s.th.; not to be able to stand or bear s.th., be fed up with, be tired of, feel uneasy about, be oppressed by; ضاق عنه ذرعا do.; ضاق صدره (ṣadruhū) to be annoyed, angry; ضاقت يده",
+    "examples": []
+  },
+  {
+    "word": "ذھنه",
+    "displayWord": "ذھنه",
+    "translation": "(dihnihī) do.; طرق سمعه (sam‘ahū) and",
+    "examples": []
+  },
+  {
+    "word": "ذلك",
+    "displayWord": "ذلك",
+    "translation": "besides",
+    "examples": []
+  },
+  {
+    "word": "ذرة",
+    "displayWord": "ذرة",
+    "translation": "‘i. dura corncob (syr.)",
+    "examples": []
+  },
+  {
+    "word": "ذلك",
+    "displayWord": "ذلك",
+    "translation": "in contrast with that, contrary to that;",
+    "examples": []
   },
   {
     "word": "ذكريات",
-    "displayWord": "ذِكْرَيَات",
-    "root": "ذكر",
-    "translation": "memories, recollections",
-    "examples": [
-      {
-        "ar": "نَحْتَفِظُ بِالذِّكْرَيَاتِ الجَمِيلَةِ فِي صُوَرٍ قَدِيمَةٍ.",
-        "en": "We keep beautiful memories in old photos.",
-        "source": "Modern Essay"
-      }
-    ]
+    "displayWord": "ذكريات",
+    "translation": "(dikrayāt) to revive, or reawaken, memories; اعاد طبع الكتاب (ṭab‘a l-k.) to reprint a book; يعيد القول ويبدأه (yu‘īdu, yabda’uhū) he keeps talking of it, he continue, to bring up the subject; اعاد النظر",
+    "examples": []
+  },
+  {
+    "word": "ذلك",
+    "displayWord": "ذلك",
+    "translation": "besides, moreover",
+    "examples": []
+  },
+  {
+    "word": "ذو ملاحظة",
+    "displayWord": "ذو ملاحظة",
+    "translation": "considerable, notable 859",
+    "examples": []
+  },
+  {
+    "word": "ذاته",
+    "displayWord": "ذاته",
+    "translation": "by o.s., of one’s own accord, spontaneously, automatically",
+    "examples": []
+  },
+  {
+    "word": "ذكره",
+    "displayWord": "ذكره",
+    "translation": "(dikruhū) it has been discussed, it has been mentioned above; كما مر بنا as it has passed before us, as we have already mentioned; مر بالامتحان to pass the examination; مر بسلام (bi-salām) to turn out well, go off without mishap; مر عليه",
+    "examples": []
+  },
+  {
+    "word": "ذھب صيحة في واد",
+    "displayWord": "ذھب صيحة في واد",
+    "translation": "(ṣaiḥatan) to die unheard (call); ھام في وديان approx.: he was no longer himself, he was floating in higher realms, he was beside himself, he was out of his senses; في كل واد everywhere, on all sides; وادى حلفا w. ḥalfa Wadi Halfa (town in N Sudan, on Egyptian border) وذر) ) only imperf. يذر yadaru and imp. ذر dar to let, leave; to let alone, leave alone; to let be, stop, cease; to leave behind",
+    "examples": []
+  },
+  {
+    "word": "ذلك",
+    "displayWord": "ذلك",
+    "translation": "I can’t do that II to make wider, roomier, more spacious ( ھ s.th.); to extend expand ( ھ s.th.); to widen, enlarge ھ) or من s.th.); to broaden ( ھ s.th.); to be generous, liberal, openhanded ( على toward s.o., ھ ه toward s.o. with s.th.); to make rich. enrich ( على s.o.) │ وسع خطاه (kuṭāhu) to take longer strides, stride out, quicken one’s pace; وسع المكان ل (makāna) to make room for IV = II; to be or become rich │",
+    "examples": []
   }
 ]
