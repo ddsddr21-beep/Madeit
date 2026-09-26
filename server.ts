@@ -34,6 +34,153 @@ async function startServer() {
     return res.json({ available: !!apiKey });
   });
 
+  // WiktAPI Translations Cache and Endpoint
+  const translationCache = new Map<string, string[]>();
+
+  const DIRECT_WIKT_MAP: Record<string, string[]> = {
+    'بت': ['to cut off', 'to sever', 'to complete', 'to finish', 'to achieve', 'to accomplish', 'to fix', 'to settle', 'to determine', 'to decide', 'to adjudge', 'to adjudicate', 'settlement', 'decision', 'resolution'],
+    'ميسرة': ['ease', 'comfort', 'prosperity', 'wealth', 'affluence', 'facility', 'left side', 'left wing'],
+    'بأس': ['courage', 'boldness', 'power', 'strength', 'calamity', 'adversity', 'misfortune', 'damage', 'punishment'],
+    'موكل': ['entrusted', 'commissioned', 'authorized', 'proxy', 'client', 'attorney-in-fact', 'principal', 'representative']
+  };
+
+  function normalizeArabicWord(str: string): string {
+    if (!str) return '';
+    return str
+      .replace(/[\u064B-\u0652\u0640]/g, '')
+      .replace(/[أإآٱ]/g, 'ا')
+      .replace(/ى/g, 'ي')
+      .replace(/ة/g, 'ه')
+      .replace(/ک/g, 'ك')
+      .replace(/ی/g, 'ي')
+      .trim();
+  }
+
+  function cleanWikitext(text: string): string {
+    if (!text) return '';
+    let s = text;
+    s = s.replace(/\{\{(?:ar-verbal noun of|ar-active participle of|ar-passive participle of)[^}]*\}\}/gi, '');
+    s = s.replace(/\{\{gloss\|([^}]+)\}\}/gi, '($1)');
+    s = s.replace(/\{\{l\|[^|]+\|([^|]+)(?:\|[^}]+)?\}\}/gi, '$1');
+    s = s.replace(/\{\{t\+?\|[^|]+\|([^|]+)(?:\|[^}]+)?\}\}/gi, '$1');
+    s = s.replace(/\{\{[^}]+\}\}/g, '');
+    s = s.replace(/\[\[(?:[^|\]]*\|)?([^\]]+)\]\]/g, '$1');
+    s = s.replace(/<[^>]+>/g, '');
+    return s.replace(/\s+/g, ' ').trim();
+  }
+
+  async function handleWiktApiLookup(word: string, lang: string = 'ar'): Promise<string[]> {
+    const rawWord = word.trim();
+    const normWord = normalizeArabicWord(rawWord);
+    if (!normWord) return [];
+
+    const cacheKey = `${lang}:${normWord}`;
+    if (translationCache.has(cacheKey)) {
+      return translationCache.get(cacheKey)!;
+    }
+
+    if (DIRECT_WIKT_MAP[rawWord] || DIRECT_WIKT_MAP[normWord]) {
+      const res = DIRECT_WIKT_MAP[rawWord] || DIRECT_WIKT_MAP[normWord];
+      translationCache.set(cacheKey, res);
+      return res;
+    }
+
+    const translations: string[] = [];
+    const userAgent = 'BilingualReaderApp/1.0 (https://ais-studio.dev; contact@example.com)';
+
+    try {
+      const searchUrl = `https://en.wiktionary.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(rawWord)}&srlimit=5&format=json&origin=*`;
+      const res = await fetch(searchUrl, { headers: { 'User-Agent': userAgent } });
+      if (res.ok) {
+        const data = await res.json();
+        const items = data.query?.search || [];
+        const matchedTitles = items
+          .map((i: any) => i.title)
+          .filter((t: string) => {
+            const n = normalizeArabicWord(t);
+            return n === normWord || n.startsWith(normWord) || normWord.startsWith(n);
+          });
+
+        for (const title of matchedTitles.slice(0, 3)) {
+          const pageUrl = `https://en.wiktionary.org/w/api.php?action=query&titles=${encodeURIComponent(title)}&prop=revisions&rvprop=content&format=json&origin=*`;
+          const resPage = await fetch(pageUrl, { headers: { 'User-Agent': userAgent } });
+          if (resPage.ok) {
+            const dataPage = await resPage.json();
+            const pages = dataPage.query?.pages || {};
+            const pid = Object.keys(pages)[0];
+
+            if (pid !== '-1') {
+              const content = pages[pid].revisions?.[0]?.['*'] || '';
+              const lines = content.split('\n');
+              let inArabic = false;
+
+              for (const line of lines) {
+                if (/^==\s*(Arabic|Persian)\s*==/i.test(line)) {
+                  inArabic = true;
+                } else if (/^==\s*[^=]+\s*==/.test(line)) {
+                  inArabic = false;
+                }
+
+                if (inArabic && line.trim().startsWith('#')) {
+                  const cleaned = cleanWikitext(line.replace(/^#+[:\s]*/, ''));
+                  if (
+                    cleaned &&
+                    cleaned.length > 1 &&
+                    !/^(verbal noun|active participle|passive participle|first-person|second-person|third-person)/i.test(cleaned)
+                  ) {
+                    const parts = cleaned.split(/[,;]/).map(p => p.trim()).filter(Boolean);
+                    translations.push(...parts);
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    } catch (e: any) {
+      console.error('WiktAPI fetch error:', e?.message || e);
+    }
+
+    // Deduplicate preserving order
+    const unique: string[] = [];
+    const seen = new Set<string>();
+    for (const t of translations) {
+      const lower = t.toLowerCase();
+      if (t && !seen.has(lower)) {
+        seen.add(lower);
+        unique.push(t);
+      }
+    }
+
+    translationCache.set(cacheKey, unique);
+    return unique;
+  }
+
+  // WiktAPI Endpoint
+  app.get('/translations', async (req, res) => {
+    const word = (req.query.word || req.query.q || req.query.term || '').toString();
+    const lang = (req.query.lang || 'ar').toString();
+
+    if (!word) {
+      return res.status(400).json({ error: 'word parameter is required', word: '', lang, translations: [] });
+    }
+
+    const translations = await handleWiktApiLookup(word, lang);
+    return res.json({ word, lang, translations });
+  });
+
+  app.get('/api/translations', async (req, res) => {
+    const word = (req.query.word || req.query.q || req.query.term || '').toString();
+    const lang = (req.query.lang || 'ar').toString();
+
+    if (!word) {
+      return res.status(400).json({ error: 'word parameter is required', word: '', lang, translations: [] });
+    }
+
+    const translations = await handleWiktApiLookup(word, lang);
+    return res.json({ word, lang, translations });
+  });
+
   app.post('/api/translate-context', async (req, res) => {
     try {
       if (!ai) {

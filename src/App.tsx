@@ -269,203 +269,46 @@ export default function App() {
     return 'ا';
   };
 
-  // Load a single letter dictionary file from server and cache it
-  const fetchLetterEntries = async (letter: string): Promise<DictionaryEntry[]> => {
-    if (dictionaryCache[letter]) {
-      return dictionaryCache[letter];
+  // WiktAPI Client Cache
+  const wiktCacheRef = useRef<Map<string, string[]>>(new Map());
+
+  // Fetch WiktAPI English translations for Arabic word
+  const fetchWiktTranslationsFromApi = async (surfaceWord: string): Promise<DictionaryEntry | null> => {
+    if (!surfaceWord) return null;
+
+    const normKey = surfaceWord.trim().toLowerCase();
+    if (wiktCacheRef.current.has(normKey)) {
+      const cached = wiktCacheRef.current.get(normKey)!;
+      if (!cached || cached.length === 0) return null;
+      return {
+        word: surfaceWord,
+        displayWord: surfaceWord,
+        translation: cached.map((t, i) => `${i + 1}) ${t}`).join('\n'),
+        examples: []
+      };
     }
+
     try {
-      const res = await fetch(`/dictionary/${encodeURIComponent(letter)}.json`);
+      const res = await fetch(`/translations?word=${encodeURIComponent(surfaceWord)}&lang=ar`);
       if (res.ok) {
-        const list: DictionaryEntry[] = await res.json();
-        setDictionaryCache(prev => ({ ...prev, [letter]: list }));
-        return list;
+        const data = await res.json();
+        const translations: string[] = data.translations || [];
+        wiktCacheRef.current.set(normKey, translations);
+
+        if (translations.length > 0) {
+          return {
+            word: surfaceWord,
+            displayWord: surfaceWord,
+            translation: translations.map((t, i) => `${i + 1}) ${t}`).join('\n'),
+            examples: []
+          };
+        }
       }
     } catch (e) {
-      console.error(`Error fetching dictionary for letter ${letter}:`, e);
-    }
-    return [];
-  };
-
-  // Find all candidate matches for a normalized word (without using Array.find)
-  const findCandidatesInList = (normalizedWord: string, list: DictionaryEntry[]): DictionaryEntry[] => {
-    return list.filter(entry => {
-      const normWord = normalizeArabicWordForLookup(entry.word);
-      const normDisplay = normalizeArabicWordForLookup(entry.displayWord);
-      const normRoot = entry.root ? normalizeArabicWordForLookup(entry.root) : '';
-      return normWord === normalizedWord || normDisplay === normalizedWord || normRoot === normalizedWord;
-    });
-  };
-
-  // Clean up raw dictionary translation text for readable user-friendly display without losing original content
-  const formatTranslationForDisplay = (text: string): string => {
-    if (!text) return '';
-
-    let cleaned = text;
-
-    // 1. Remove non-printable control characters (such as ASCII 0x1F unit separators)
-    cleaned = cleaned.replace(/[\u0000-\u001F\u007F-\u009F]/g, '');
-
-    // 2. Replace raw pipe symbols '│' used in Hans Wehr as sense/idiom separators with clean '; '
-    cleaned = cleaned.replace(/\s*│\s*/g, ' ; ');
-
-    // 3. Expand standard dictionary abbreviations for clear reading
-    cleaned = cleaned.replace(/\bs\.o\./gi, 'someone');
-    cleaned = cleaned.replace(/\bs\.th\./gi, 'something');
-    cleaned = cleaned.replace(/\bs\.t\./gi, 'something');
-    cleaned = cleaned.replace(/\bo\.s\./gi, 'oneself');
-
-    // 4. Remove isolated typography/OCR placeholder marks like 'ھ' or 'هـ' inside English parentheticals
-    cleaned = cleaned.replace(/\(\s*[ھهـ]\s*/g, '(');
-    cleaned = cleaned.replace(/\s+[ھهـ]\s+/g, ' ');
-
-    // 5. Clean up weird spaces before punctuation and ensure single space after
-    cleaned = cleaned.replace(/\s+([,;:.!?])/g, '$1');
-    cleaned = cleaned.replace(/([,;:.!?])(?=[a-zA-Z])/g, '$1 ');
-    cleaned = cleaned.replace(/\s{2,}/g, ' ');
-
-    // 6. Clean up leading/trailing orphan punctuation
-    cleaned = cleaned.replace(/^[;,.\s]+/, '');
-    cleaned = cleaned.replace(/[;,.\s]+$/, '');
-
-    return cleaned.trim();
-  };
-
-  // Combine all matching candidate entries for a word preserving original dictionary file order
-  const rankAndSelectEntries = (surfaceWord: string, candidates: DictionaryEntry[]): DictionaryEntry | null => {
-    if (!candidates || candidates.length === 0) return null;
-
-    const hasHarakat = /[\u064B-\u0652]/.test(surfaceWord);
-
-    // Filter by exact surface match if surfaceWord has harakat
-    let matchingCandidates = candidates;
-    if (hasHarakat) {
-      const exactMatches = candidates.filter(
-        entry => (entry.displayWord && entry.displayWord === surfaceWord) || entry.word === surfaceWord
-      );
-      if (exactMatches.length > 0) {
-        matchingCandidates = exactMatches;
-      }
+      console.error('Error fetching WiktAPI translations:', e);
     }
 
-    // Preserve the original dictionary file order
-    // Collect all unique translations from matching candidates
-    const uniqueTranslations: string[] = [];
-    const seenTrans = new Set<string>();
-
-    for (const entry of matchingCandidates) {
-      const rawTrans = entry.translation ? entry.translation.trim() : '';
-      if (!rawTrans) continue;
-
-      const formattedTrans = formatTranslationForDisplay(rawTrans);
-      if (!formattedTrans) continue;
-
-      const normTransKey = formattedTrans.toLowerCase();
-      if (!seenTrans.has(normTransKey)) {
-        seenTrans.add(normTransKey);
-        uniqueTranslations.push(formattedTrans);
-      }
-    }
-
-    if (uniqueTranslations.length === 0) {
-      return null;
-    }
-
-    // Combine all unique translations preserving dictionary order
-    let combinedTranslation = '';
-    if (uniqueTranslations.length === 1) {
-      combinedTranslation = uniqueTranslations[0];
-    } else {
-      combinedTranslation = uniqueTranslations.map((t, i) => `${i + 1}) ${t}`).join('\n');
-    }
-
-    // Aggregate examples from all matching candidates without duplicates
-    const aggregatedExamples: { ar: string; en: string; source?: string }[] = [];
-    const seenExamples = new Set<string>();
-
-    for (const entry of matchingCandidates) {
-      if (entry.examples && Array.isArray(entry.examples)) {
-        for (const ex of entry.examples) {
-          if (ex && ex.ar) {
-            const key = `${ex.ar.trim()}|${(ex.en || '').trim()}`;
-            if (!seenExamples.has(key)) {
-              seenExamples.add(key);
-              aggregatedExamples.push(ex);
-            }
-          }
-        }
-      }
-    }
-
-    const primaryEntry = matchingCandidates[0];
-
-    return {
-      word: primaryEntry.word,
-      displayWord: primaryEntry.displayWord || primaryEntry.word,
-      root: primaryEntry.root || primaryEntry.word,
-      translation: combinedTranslation,
-      examples: aggregatedExamples
-    };
-  };
-
-  const localDictionaryLookup = (surfaceWord: string, entries: DictionaryEntry[]): DictionaryEntry | null => {
-    const normalized = normalizeArabicWordForLookup(surfaceWord);
-    if (!normalized) return null;
-
-    // Level 1: Direct match without stemming
-    let candidates = findCandidatesInList(normalized, entries);
-    if (candidates.length > 0) {
-      return rankAndSelectEntries(surfaceWord, candidates);
-    }
-
-    // Level 2: Prefix / Suffix stripping (Morphological Stemming Fallback)
-    // Prefix "ال"
-    if (normalized.startsWith('ال') && normalized.length > 3) {
-      const stripped = normalized.substring(2);
-      candidates = findCandidatesInList(stripped, entries);
-      if (candidates.length > 0) {
-        return rankAndSelectEntries(surfaceWord, candidates);
-      }
-    }
-
-    // Coordinating prefixes
-    const prefixes = ['وال', 'بال', 'فال', 'لال', 'كال', 'و', 'ب', 'ف', 'ل', 'ك'];
-    for (const prefix of prefixes) {
-      if (normalized.startsWith(prefix) && normalized.length > prefix.length + 1) {
-        const stripped = normalized.substring(prefix.length);
-        candidates = findCandidatesInList(stripped, entries);
-        if (candidates.length > 0) {
-          return rankAndSelectEntries(surfaceWord, candidates);
-        }
-      }
-    }
-
-    // Suffixes
-    const suffixes = ['ون', 'ين', 'ات', 'ان', 'ها', 'هم', 'كم', 'نا', 'ه', 'ت'];
-    for (const suffix of suffixes) {
-      if (normalized.endsWith(suffix) && normalized.length > suffix.length + 2) {
-        const stripped = normalized.substring(0, normalized.length - suffix.length);
-        candidates = findCandidatesInList(stripped, entries);
-        if (candidates.length > 0) {
-          return rankAndSelectEntries(surfaceWord, candidates);
-        }
-      }
-    }
-
-    // Combination (Al- + Suffix)
-    if (normalized.startsWith('ال') && normalized.length > 4) {
-      const strippedPrefix = normalized.substring(2);
-      for (const suffix of suffixes) {
-        if (strippedPrefix.endsWith(suffix) && strippedPrefix.length > suffix.length + 2) {
-          const strippedBoth = strippedPrefix.substring(0, strippedPrefix.length - suffix.length);
-          candidates = findCandidatesInList(strippedBoth, entries);
-          if (candidates.length > 0) {
-            return rankAndSelectEntries(surfaceWord, candidates);
-          }
-        }
-      }
-    }
-
+    wiktCacheRef.current.set(normKey, []);
     return null;
   };
 
@@ -482,9 +325,7 @@ export default function App() {
     setAiError(null);
     setIsDictionaryLoading(true);
 
-    const letter = getNormalizedFirstLetter(surfaceWord);
-    const entries = await fetchLetterEntries(letter);
-    const lookupResult = localDictionaryLookup(surfaceWord, entries);
+    const lookupResult = await fetchWiktTranslationsFromApi(surfaceWord);
 
     setClickedWordData(lookupResult);
     setIsDictionaryLoading(false);
@@ -768,9 +609,7 @@ export default function App() {
     setDirectSearchResult([]);
 
     const surfaceWord = getSurfaceForm(searchTerm);
-    const letter = getNormalizedFirstLetter(surfaceWord);
-    const entries = await fetchLetterEntries(letter);
-    const match = localDictionaryLookup(surfaceWord, entries);
+    const match = await fetchWiktTranslationsFromApi(surfaceWord);
 
     if (match) {
       setDirectSearchResult([match]);
@@ -1278,33 +1117,33 @@ export default function App() {
                       )}
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-1">
+                    <div className="pt-1">
                       
-                      {/* SECTION 1: الترجمة المباشرة */}
+                      {/* SECTION 1: الترجمة المباشرة من WiktAPI */}
                       <div className="space-y-3">
-                        <span className="text-xs font-bold text-stone-500 font-mono block border-b border-stone-100 pb-1">الترجمة المباشرة</span>
+                        <span className="text-xs font-bold text-stone-500 font-mono block border-b border-stone-100 pb-1">الترجمة المباشرة (WiktAPI - lang=ar)</span>
                         
                         {isDictionaryLoading ? (
                           <div className="p-4 space-y-2 animate-pulse text-center text-stone-500">
                             <RefreshCw className="w-5 h-5 mx-auto animate-spin mb-1 text-amber-800" />
-                            <span>يبحث المعجم في ملف الحرف المطلوب...</span>
+                            <span>جاري جلب الترجمات الإنجليزية من WiktAPI...</span>
                           </div>
                         ) : (
                           <div className="space-y-3">
                             {clickedWordData ? (
-                              <div className="bg-white p-4 rounded-lg border border-stone-200">
-                                <span className="text-[10px] text-stone-400 block font-mono">المعنى المعجمي الموثق:</span>
-                                <p className="text-lg font-bold text-stone-900 capitalize dir-ltr text-left whitespace-pre-line">
+                              <div className="bg-white p-4 rounded-lg border border-stone-200 space-y-1">
+                                <span className="text-[10px] text-stone-400 block font-mono">الترجمات الإنجليزية الموثوقة:</span>
+                                <p className="text-base font-bold text-stone-900 dir-ltr text-left whitespace-pre-line leading-relaxed">
                                   {clickedWordData.translation}
                                 </p>
                               </div>
                             ) : !aiContextResult && (
                               <div className="bg-stone-50 p-4 rounded-lg border border-stone-200 text-center text-stone-500 text-xs">
-                                لا توجد بيانات معجمية محلية لهذه الكلمة
+                                لا تتوفر ترجمات إنجليزية لهذه الكلمة في WiktAPI.
                               </div>
                             )}
 
-                            {/* Show contextual choice inside the translation section instead of a separate column */}
+                            {/* Show contextual choice inside the translation section when triggered */}
                             {aiContextResult && (
                               <div className="bg-amber-50 p-4 rounded-lg border border-amber-200 space-y-1">
                                 <span className="text-[10px] text-amber-800 font-bold block font-mono flex items-center gap-1">
@@ -1320,29 +1159,6 @@ export default function App() {
                             {aiError && (
                               <p className="text-xs text-red-600 mt-1">{aiError}</p>
                             )}
-                          </div>
-                        )}
-                      </div>
-
-                      {/* SECTION 2: أمثلة على الكلمة */}
-                      <div className="space-y-3">
-                        <span className="text-xs font-bold text-stone-500 font-mono block border-b border-stone-100 pb-1">أمثلة على الكلمة</span>
-                        
-                        {clickedWordData && clickedWordData.examples && clickedWordData.examples.length > 0 ? (
-                          <div className="space-y-3 max-h-[180px] overflow-y-auto">
-                            {clickedWordData.examples.map((ex, i) => (
-                              <div key={i} className="p-3 rounded-lg bg-white border border-stone-200 border-r-4 border-r-amber-800 text-xs space-y-1">
-                                <p className="font-amiri font-bold text-stone-900 leading-relaxed">{ex.ar}</p>
-                                <p className="font-serif text-stone-600 italic text-left dir-ltr">{ex.en}</p>
-                                {ex.source && (
-                                  <p className="text-[10px] text-stone-400 text-right mt-1 font-mono">المصدر المعجمي المعتمد: {ex.source}</p>
-                                )}
-                              </div>
-                            ))}
-                          </div>
-                        ) : (
-                          <div className="bg-stone-50 p-4 rounded-lg border border-stone-200 text-center text-stone-400 text-xs italic">
-                            لا تتوفر أمثلة معجمية حقيقية موثقة لهذه الكلمة في المعجم المحلي.
                           </div>
                         )}
                       </div>
@@ -1512,14 +1328,14 @@ export default function App() {
           </div>
         )}
 
-        {/* --- VIEW: 3. LOCAL DICTIONARY LOOKUP (Search Tab) --- */}
+        {/* --- VIEW: 3. DICTIONARY LOOKUP (WiktAPI Tab) --- */}
         {currentTab === 'dictionary' && (
           <div className="space-y-6">
             
             <div className="text-right space-y-2">
-              <h2 className="text-2xl font-bold font-amiri text-stone-900">المعجم المحلي العربي-الإنجليزي الموثوق</h2>
+              <h2 className="text-2xl font-bold font-amiri text-stone-900">خدمة المعاني المباشرة عبر WiktAPI</h2>
               <p className="text-stone-500 text-sm max-w-2xl leading-relaxed">
-                ابحث عن أي كلمة عربية (مثال: كتاب، صبر، حياة، علم) لتصل فوراً إلى ترجمتها المباشرة من المصادر المفتوحة المعتمدة والأمثلة الأدبية الحقيقية. المعجم يعمل بشكل كامل على جهازك دون الحاجة للاتصال بالإنترنت.
+                ابحث عن أي كلمة عربية (مثال: بت، ميسرة، بأس، موكل) لتستخرج فوراً جميع ترجماتها الإنجليزية المعتمدة عبر WiktAPI (مع تفعيل التخزين المؤقت لمنع تكرار طلب الشبكة).
               </p>
             </div>
 
@@ -1530,7 +1346,7 @@ export default function App() {
                   type="text"
                   value={searchTerm}
                   onChange={e => setSearchTerm(e.target.value)}
-                  placeholder="اكتب الكلمة العربية هنا واضغط بحث..."
+                  placeholder="اكتب الكلمة العربية هنا واضغط بحث (مثال: بت، ميسرة، بأس، موكل)..."
                   dir="rtl"
                   className="w-full pl-12 pr-4 py-3 border border-stone-300 rounded-xl text-base font-amiri bg-white shadow-xs focus:outline-hidden focus:border-amber-800 focus:ring-1 focus:ring-amber-800"
                   required
@@ -1539,75 +1355,42 @@ export default function App() {
                   type="submit"
                   className="absolute left-3 top-2.5 px-3 py-1.5 text-xs font-semibold rounded-lg bg-amber-800 hover:bg-amber-900 text-white transition-all cursor-pointer"
                 >
-                  بحث معجمي
+                  بحث في WiktAPI
                 </button>
               </div>
             </form>
-
-            {/* Dictionary Manifest Stats (no boxes, elegant design) */}
-            {manifest && (
-              <div className="flex items-center justify-center gap-4 text-xs text-stone-500 font-mono">
-                <span>إجمالي الكلمات المدرجة: {manifest.totalEntries}</span>
-                <span>·</span>
-                <span>تخزين القاموس: مقسم إلى {Object.keys(manifest.letters).length} ملفاً حسب الحرف الأول</span>
-              </div>
-            )}
 
             {/* Direct Search results */}
             <div className="max-w-xl mx-auto">
               {isSearchingDirect ? (
                 <div className="p-8 text-center animate-pulse text-stone-500 space-y-2">
                   <RefreshCw className="w-6 h-6 mx-auto animate-spin text-amber-800" />
-                  <span>يبحث المعجم في ملف الحرف المطلوب...</span>
+                  <span>جاري استعلام WiktAPI عن ترجمات الكلمة الإنجليزية...</span>
                 </div>
               ) : directSearchResult.length > 0 ? (
                 <div className="p-6 rounded-xl border border-amber-200 bg-white shadow-xs text-right space-y-4">
                   
                   <div className="flex items-center justify-between border-b border-stone-150 pb-3">
-                    <span className="text-xs text-amber-850 font-semibold font-mono">النتيجة المعجمية</span>
+                    <span className="text-xs text-amber-850 font-semibold font-mono">نتائج WiktAPI (lang=ar)</span>
                     <h3 className="text-2xl font-bold font-amiri text-stone-900 bg-amber-50 px-3 py-1 rounded-lg border border-amber-100">{directSearchResult[0].displayWord}</h3>
                   </div>
 
                   <div className="space-y-3">
                     <div>
-                      <span className="text-xs font-bold text-stone-400 font-mono">الترجمة المباشرة (Direct Translation)</span>
-                      <p className="text-xl font-bold text-stone-900 capitalize text-left dir-ltr whitespace-pre-line">
+                      <span className="text-xs font-bold text-stone-400 font-mono">الترجمات الإنجليزية المباشرة</span>
+                      <p className="text-base font-bold text-stone-900 dir-ltr text-left whitespace-pre-line leading-relaxed mt-1">
                         {directSearchResult[0].translation}
                       </p>
                     </div>
-
-                    {directSearchResult[0].root && (
-                      <div>
-                        <span className="text-xs font-bold text-stone-400 font-mono">الجذر الأصلي (Lemma/Root)</span>
-                        <p className="text-sm font-bold font-amiri text-amber-900">{directSearchResult[0].root}</p>
-                      </div>
-                    )}
-
-                    {directSearchResult[0].examples && directSearchResult[0].examples.length > 0 && (
-                      <div className="space-y-2 pt-2">
-                        <span className="text-xs font-bold text-stone-400 font-mono block">أمثلة معجمية حقيقية موثقة</span>
-                        <div className="space-y-2">
-                          {directSearchResult[0].examples.map((ex, i) => (
-                            <div key={i} className="p-3 rounded-lg bg-stone-50 border-r-4 border-amber-800 text-xs space-y-1">
-                              <p className="font-amiri font-bold text-stone-900 text-sm leading-relaxed">{ex.ar}</p>
-                              <p className="font-serif text-stone-600 italic text-left dir-ltr">{ex.en}</p>
-                              {ex.source && (
-                                <p className="text-[10px] text-stone-400 text-right mt-1">المصدر: {ex.source}</p>
-                              )}
-                            </div>
-                          ))}
-                        </div>
-                      </div>
-                    )}
                   </div>
 
                 </div>
               ) : searchTerm && (
                 <div className="bg-stone-50 p-8 rounded-xl border border-stone-200 text-center space-y-1">
                   <Info className="w-8 h-8 text-stone-400 mx-auto mb-2" />
-                  <p className="text-stone-600 font-semibold">لم نعثر على نتائج مطابقة لـ "{searchTerm}"</p>
+                  <p className="text-stone-600 font-semibold">لم نعثر على ترجمات إنجليزية لـ "{searchTerm}" في WiktAPI</p>
                   <p className="text-stone-400 text-xs max-w-sm mx-auto leading-relaxed">
-                    تأكد من كتابة الكلمة بشكل صحيح. المعجم المحلي المدمج يركز حالياً على الأصول الكلاسيكية الهامة والكلمات الأكثر استخداماً.
+                    تأكد من كتابة الكلمة بشكل صحيح. WiktAPI يعود بالترجمات المباشرة فقط دون أي توليد اصطناعي.
                   </p>
                 </div>
               )}
