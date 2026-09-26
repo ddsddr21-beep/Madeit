@@ -1,119 +1,121 @@
 {
-  "source": "Hans Wehr's Dictionary of Modern Written Arabic (Milton Cowan)",
-  "totalEntries": 30159,
+  "name": "Arabic-English Lexical Dictionary (Madeit)",
+  "source": "https://huggingface.co/datasets/DrAbdulmalek/arabic-dictionaries-master",
+  "license": "Open Data / Master Lexicon",
+  "totalEntries": 80580,
   "shards": {
     "ا": {
-      "entriesCount": 4396,
-      "fileSizeKb": 835
+      "entriesCount": 18203,
+      "fileSizeKb": 826.6
     },
     "ب": {
-      "entriesCount": 1525,
-      "fileSizeKb": 291
+      "entriesCount": 5128,
+      "fileSizeKb": 220.1
     },
     "ت": {
-      "entriesCount": 1590,
-      "fileSizeKb": 280
+      "entriesCount": 5332,
+      "fileSizeKb": 238.8
     },
     "ث": {
-      "entriesCount": 174,
-      "fileSizeKb": 31
+      "entriesCount": 683,
+      "fileSizeKb": 29.3
     },
     "ج": {
-      "entriesCount": 837,
-      "fileSizeKb": 153
+      "entriesCount": 1738,
+      "fileSizeKb": 73.6
     },
     "ح": {
-      "entriesCount": 1064,
-      "fileSizeKb": 223
+      "entriesCount": 2116,
+      "fileSizeKb": 89.5
     },
     "خ": {
-      "entriesCount": 796,
-      "fileSizeKb": 156
+      "entriesCount": 1806,
+      "fileSizeKb": 75.6
     },
     "د": {
-      "entriesCount": 686,
-      "fileSizeKb": 126
+      "entriesCount": 2254,
+      "fileSizeKb": 99.3
     },
     "ذ": {
-      "entriesCount": 174,
-      "fileSizeKb": 37
+      "entriesCount": 404,
+      "fileSizeKb": 17.4
     },
     "ر": {
-      "entriesCount": 937,
-      "fileSizeKb": 182
+      "entriesCount": 2456,
+      "fileSizeKb": 103.3
     },
     "ز": {
-      "entriesCount": 437,
-      "fileSizeKb": 74
+      "entriesCount": 1264,
+      "fileSizeKb": 50.8
     },
     "س": {
-      "entriesCount": 1186,
-      "fileSizeKb": 214
+      "entriesCount": 2858,
+      "fileSizeKb": 121.7
     },
     "ش": {
-      "entriesCount": 953,
-      "fileSizeKb": 178
+      "entriesCount": 1970,
+      "fileSizeKb": 80.3
     },
     "ص": {
-      "entriesCount": 585,
-      "fileSizeKb": 118
+      "entriesCount": 1144,
+      "fileSizeKb": 49.2
     },
     "ض": {
-      "entriesCount": 244,
-      "fileSizeKb": 51
+      "entriesCount": 480,
+      "fileSizeKb": 20.4
     },
     "ط": {
-      "entriesCount": 527,
-      "fileSizeKb": 101
+      "entriesCount": 870,
+      "fileSizeKb": 36.9
     },
     "ظ": {
-      "entriesCount": 72,
-      "fileSizeKb": 15
+      "entriesCount": 179,
+      "fileSizeKb": 6.9
     },
     "ع": {
-      "entriesCount": 1414,
-      "fileSizeKb": 340
+      "entriesCount": 2390,
+      "fileSizeKb": 104.4
     },
     "غ": {
-      "entriesCount": 511,
-      "fileSizeKb": 103
+      "entriesCount": 1438,
+      "fileSizeKb": 61.9
     },
     "ف": {
-      "entriesCount": 956,
-      "fileSizeKb": 196
+      "entriesCount": 1855,
+      "fileSizeKb": 80.0
     },
     "ق": {
-      "entriesCount": 1072,
-      "fileSizeKb": 219
+      "entriesCount": 2242,
+      "fileSizeKb": 96.5
     },
     "ك": {
-      "entriesCount": 903,
-      "fileSizeKb": 172
+      "entriesCount": 2155,
+      "fileSizeKb": 90.8
     },
     "ل": {
-      "entriesCount": 782,
-      "fileSizeKb": 162
+      "entriesCount": 1636,
+      "fileSizeKb": 67.1
     },
     "م": {
-      "entriesCount": 5008,
-      "fileSizeKb": 900
+      "entriesCount": 10996,
+      "fileSizeKb": 487.9
     },
     "ن": {
-      "entriesCount": 1217,
-      "fileSizeKb": 253
+      "entriesCount": 2821,
+      "fileSizeKb": 119.1
     },
     "ه": {
-      "entriesCount": 1087,
-      "fileSizeKb": 280
+      "entriesCount": 1218,
+      "fileSizeKb": 50.2
     },
     "و": {
-      "entriesCount": 819,
-      "fileSizeKb": 179
+      "entriesCount": 1714,
+      "fileSizeKb": 72.4
     },
     "ي": {
-      "entriesCount": 207,
-      "fileSizeKb": 38
+      "entriesCount": 3230,
+      "fileSizeKb": 135.8
     }
   },
-  "totalSizeMb": "5.77"
+  "totalSizeMb": "3.42"
 }

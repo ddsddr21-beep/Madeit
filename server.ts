@@ -37,6 +37,19 @@ async function startServer() {
   // WiktAPI Translations Cache and Endpoint
   const translationCache = new Map<string, string[]>();
 
+  // Arabic-English Lexical Dictionary (DrAbdulmalek dataset)
+  let lexiconMap: Record<string, string[]> = {};
+  try {
+    const lexiconPath = path.resolve(__dirname, 'public/dictionary/ar_en_lexicon.json');
+    if (fs.existsSync(lexiconPath)) {
+      const raw = fs.readFileSync(lexiconPath, 'utf-8');
+      lexiconMap = JSON.parse(raw);
+      console.log(`Loaded ${Object.keys(lexiconMap).length} lexical dictionary entries into memory.`);
+    }
+  } catch (e) {
+    console.error('Failed to load ar_en_lexicon.json in server:', e);
+  }
+
   const DIRECT_WIKT_MAP: Record<string, string[]> = {
     'بت': ['to cut off', 'to sever', 'to complete', 'to finish', 'to achieve', 'to accomplish', 'to fix', 'to settle', 'to determine', 'to decide', 'to adjudge', 'to adjudicate', 'settlement', 'decision', 'resolution'],
     'ميسرة': ['ease', 'comfort', 'prosperity', 'wealth', 'affluence', 'facility', 'left side', 'left wing'],
@@ -54,6 +67,48 @@ async function startServer() {
       .replace(/ک/g, 'ك')
       .replace(/ی/g, 'ي')
       .trim();
+  }
+
+  function lookupLexicon(rawWord: string): { word: string; normalized: string; meanings: string[] } {
+    if (!rawWord) return { word: '', normalized: '', meanings: [] };
+    const clean = rawWord
+      .replace(/^[\s\p{P}«»“”()\[\]{}،.:؛!؟-]+/gu, '')
+      .replace(/[\s\p{P}«»“”()\[\]{}،.:؛!؟-]+$/gu, '')
+      .trim();
+    const norm = normalizeArabicWord(clean);
+
+    if (lexiconMap[clean]) {
+      return { word: clean, normalized: norm, meanings: lexiconMap[clean].slice(0, 3) };
+    }
+    if (lexiconMap[norm]) {
+      return { word: clean, normalized: norm, meanings: lexiconMap[norm].slice(0, 3) };
+    }
+
+    // Try stripping definite article 'ال'
+    if (norm.startsWith('ال') && norm.length > 3) {
+      const stripped = norm.slice(2);
+      if (lexiconMap[stripped]) {
+        return { word: clean, normalized: norm, meanings: lexiconMap[stripped].slice(0, 3) };
+      }
+    }
+
+    // Try stripping common Arabic conjunction prefixes (و, ف, ب, ل, ك)
+    for (const prefix of ['و', 'ف', 'ب', 'ل', 'ك']) {
+      if (norm.startsWith(prefix) && norm.length > 3) {
+        const strippedConj = norm.slice(1);
+        if (lexiconMap[strippedConj]) {
+          return { word: clean, normalized: norm, meanings: lexiconMap[strippedConj].slice(0, 3) };
+        }
+        if (strippedConj.startsWith('ال') && strippedConj.length > 3) {
+          const strippedBoth = strippedConj.slice(2);
+          if (lexiconMap[strippedBoth]) {
+            return { word: clean, normalized: norm, meanings: lexiconMap[strippedBoth].slice(0, 3) };
+          }
+        }
+      }
+    }
+
+    return { word: clean, normalized: norm, meanings: [] };
   }
 
   function cleanWikitext(text: string): string {
@@ -179,6 +234,33 @@ async function startServer() {
 
     const translations = await handleWiktApiLookup(word, lang);
     return res.json({ word, lang, translations });
+  });
+
+  // Local Arabic -> English Lexical Dictionary (DrAbdulmalek dataset)
+  app.get('/api/lexicon', (req, res) => {
+    const word = (req.query.word || req.query.q || req.query.term || '').toString();
+    if (!word) {
+      return res.status(400).json({ error: 'word parameter is required', word: '', meanings: [] });
+    }
+    const result = lookupLexicon(word);
+    return res.json(result);
+  });
+
+  app.get('/api/lexicon/metadata', (req, res) => {
+    try {
+      const metaPath = path.resolve(__dirname, 'public/dictionary/dataset_metadata.json');
+      if (fs.existsSync(metaPath)) {
+        const meta = JSON.parse(fs.readFileSync(metaPath, 'utf-8'));
+        return res.json(meta);
+      }
+    } catch (e) {
+      console.error('Error serving dataset metadata:', e);
+    }
+    return res.json({
+      datasetName: 'arabic-dictionaries-master',
+      datasetAuthor: 'DrAbdulmalek',
+      sourceUrl: 'https://huggingface.co/datasets/DrAbdulmalek/arabic-dictionaries-master'
+    });
   });
 
   app.post('/api/translate-context', async (req, res) => {

@@ -1,0 +1,11 @@
+{
+  "datasetName": "arabic-dictionaries-master",
+  "sourceUrl": "https://huggingface.co/datasets/DrAbdulmalek/arabic-dictionaries-master",
+  "creator": "DrAbdulmalek (Hugging Face)",
+  "description": "Master Arabic-to-English lexical dictionary extracted directly from Hugging Face dataset repository. Cleaned from encoding defects (Windows-1256, double UTF-8), non-Arabic entries, HTML tags, and metadata artifacts, keeping up to 3 concise English meanings per Arabic word.",
+  "format": "Letter-sharded JSON (A-Y) with O(1) key lookup",
+  "totalEntries": 80580,
+  "totalSizeKb": 3505.9,
+  "maxMeaningsPerWord": 3,
+  "generatedAt": "2026-09-26"
+}

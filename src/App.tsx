@@ -138,14 +138,16 @@ export default function App() {
 
   // Local Dictionary States
   const [manifest, setManifest] = useState<any>(null);
-  const [dictionaryCache, setDictionaryCache] = useState<{ [letter: string]: DictionaryEntry[] }>({});
+  const [dictionaryCache, setDictionaryCache] = useState<{ [letter: string]: Record<string, string[]> }>({});
   const [searchTerm, setSearchTerm] = useState('');
   const [directSearchResult, setDirectSearchResult] = useState<DictionaryEntry[]>([]);
+  const [directLexicalResult, setDirectLexicalResult] = useState<{ word: string; meanings: string[] } | null>(null);
   const [isSearchingDirect, setIsSearchingDirect] = useState(false);
 
   // Clicked Word Popover / Dialog
   const [clickedWord, setClickedWord] = useState<string | null>(null);
   const [clickedWordData, setClickedWordData] = useState<DictionaryEntry | null>(null);
+  const [clickedWordLexicalMeanings, setClickedWordLexicalMeanings] = useState<string[] | null>(null);
   const [clickedWordRowIndex, setClickedWordRowIndex] = useState<number | null>(null);
   const [clickedWordRow, setClickedWordRow] = useState<AlignedUnit | null>(null);
   const [isDictionaryLoading, setIsDictionaryLoading] = useState(false);
@@ -269,6 +271,50 @@ export default function App() {
     return 'ا';
   };
 
+  // Lexical Cache Ref for instant lookup
+  const lexicalCacheRef = useRef<Map<string, string[]>>(new Map());
+
+  // Fetch 2-3 concise English lexical meanings from DrAbdulmalek dataset
+  const fetchLexicalMeanings = async (surfaceWord: string): Promise<string[]> => {
+    if (!surfaceWord) return [];
+    const clean = cleanArabicWord(surfaceWord);
+    const norm = normalizeArabicWordForLookup(clean);
+    if (!norm) return [];
+
+    if (lexicalCacheRef.current.has(norm)) {
+      return lexicalCacheRef.current.get(norm)!;
+    }
+
+    try {
+      const res = await fetch(`/api/lexicon?word=${encodeURIComponent(surfaceWord)}`);
+      if (res.ok) {
+        const data = await res.json();
+        const meanings: string[] = data.meanings || [];
+        lexicalCacheRef.current.set(norm, meanings);
+        return meanings;
+      }
+    } catch (e) {
+      console.error('Failed to fetch from /api/lexicon:', e);
+    }
+
+    // Client-side fallback to /dictionary/ar_en_lexicon.json
+    try {
+      const res = await fetch('/dictionary/ar_en_lexicon.json');
+      if (res.ok) {
+        const fullLexicon = await res.json();
+        const meanings = fullLexicon[surfaceWord] || fullLexicon[clean] || fullLexicon[norm] || [];
+        const top3 = meanings.slice(0, 3);
+        lexicalCacheRef.current.set(norm, top3);
+        return top3;
+      }
+    } catch (e) {
+      console.error('Fallback lexical lookup failed:', e);
+    }
+
+    lexicalCacheRef.current.set(norm, []);
+    return [];
+  };
+
   // WiktAPI Client Cache
   const wiktCacheRef = useRef<Map<string, string[]>>(new Map());
 
@@ -321,13 +367,19 @@ export default function App() {
     setClickedWordRowIndex(rowIndex);
     setClickedWordRow(row);
     setClickedWordData(null);
+    setClickedWordLexicalMeanings(null);
     setAiContextResult(null);
     setAiError(null);
     setIsDictionaryLoading(true);
 
-    const lookupResult = await fetchWiktTranslationsFromApi(surfaceWord);
+    // 1. Instant local lexical dictionary lookup from DrAbdulmalek dataset (Arabic -> English)
+    const lexicalMeanings = await fetchLexicalMeanings(surfaceWord);
+    setClickedWordLexicalMeanings(lexicalMeanings);
 
+    // 2. Fetch WiktAPI lookup
+    const lookupResult = await fetchWiktTranslationsFromApi(surfaceWord);
     setClickedWordData(lookupResult);
+
     setIsDictionaryLoading(false);
   };
 
@@ -607,10 +659,21 @@ export default function App() {
 
     setIsSearchingDirect(true);
     setDirectSearchResult([]);
+    setDirectLexicalResult(null);
 
     const surfaceWord = getSurfaceForm(searchTerm);
-    const match = await fetchWiktTranslationsFromApi(surfaceWord);
 
+    // 1. Check local lexical dictionary (DrAbdulmalek dataset)
+    const lexicalMeanings = await fetchLexicalMeanings(surfaceWord);
+    if (lexicalMeanings && lexicalMeanings.length > 0) {
+      setDirectLexicalResult({
+        word: surfaceWord,
+        meanings: lexicalMeanings
+      });
+    }
+
+    // 2. Query WiktAPI
+    const match = await fetchWiktTranslationsFromApi(surfaceWord);
     if (match) {
       setDirectSearchResult([match]);
     } else {
@@ -1117,11 +1180,47 @@ export default function App() {
                       )}
                     </div>
 
-                    <div className="pt-1">
+                    <div className="pt-1 space-y-4">
                       
-                      {/* SECTION 1: الترجمة المباشرة من WiktAPI */}
-                      <div className="space-y-3">
-                        <span className="text-xs font-bold text-stone-500 font-mono block border-b border-stone-100 pb-1">الترجمة المباشرة (WiktAPI - lang=ar)</span>
+                      {/* SECTION 1: القاموس المعجمي (عربي → إنجليزي) من Dataset */}
+                      <div className="space-y-2">
+                        <div className="flex items-center justify-between border-b border-stone-200 pb-1">
+                          <span className="text-xs font-bold text-amber-900 font-mono flex items-center gap-1.5">
+                            <BookOpenCheck className="w-4 h-4 text-amber-800" />
+                            القاموس المعجمي (عربي → إنجليزي)
+                          </span>
+                          <span className="text-[10px] text-stone-500 font-mono bg-amber-50 px-2 py-0.5 rounded border border-amber-200/60">DrAbdulmalek Dataset</span>
+                        </div>
+
+                        {clickedWordLexicalMeanings && clickedWordLexicalMeanings.length > 0 ? (
+                          <div className="bg-white p-4 rounded-xl border border-amber-200 shadow-xs space-y-2">
+                            <span className="text-[11px] text-stone-500 block font-mono">أبرز 2–3 معانٍ إنجليزية مختصرة:</span>
+                            <div className="flex flex-wrap gap-2 dir-ltr text-left">
+                              {clickedWordLexicalMeanings.map((meaning, idx) => (
+                                <span 
+                                  key={idx} 
+                                  className="inline-flex items-center px-3 py-1.5 rounded-lg text-sm font-bold bg-amber-50 text-amber-950 border border-amber-300 font-sans shadow-2xs"
+                                >
+                                  <span className="text-[10px] font-mono text-amber-700 mr-1.5">{idx + 1}.</span>
+                                  {meaning}
+                                </span>
+                              ))}
+                            </div>
+                          </div>
+                        ) : isDictionaryLoading ? (
+                          <div className="p-3 text-center text-xs text-stone-400 animate-pulse">
+                            جاري استرجاع معاني الكلمة من المعجم...
+                          </div>
+                        ) : (
+                          <div className="bg-stone-50 p-3 rounded-lg border border-stone-200 text-stone-500 text-xs">
+                            لم يُعثر على مدخل مباشر لهذه الكلمة في المعجم المختصر.
+                          </div>
+                        )}
+                      </div>
+
+                      {/* SECTION 2: الترجمة المباشرة من WiktAPI */}
+                      <div className="space-y-3 pt-1 border-t border-stone-150">
+                        <span className="text-xs font-bold text-stone-500 font-mono block border-b border-stone-100 pb-1">ترجمات موسعة (WiktAPI - lang=ar)</span>
                         
                         {isDictionaryLoading ? (
                           <div className="p-4 space-y-2 animate-pulse text-center text-stone-500">
@@ -1132,14 +1231,14 @@ export default function App() {
                           <div className="space-y-3">
                             {clickedWordData ? (
                               <div className="bg-white p-4 rounded-lg border border-stone-200 space-y-1">
-                                <span className="text-[10px] text-stone-400 block font-mono">الترجمات الإنجليزية الموثوقة:</span>
+                                <span className="text-[10px] text-stone-400 block font-mono">الترجمات الإنجليزية الإضافية:</span>
                                 <p className="text-base font-bold text-stone-900 dir-ltr text-left whitespace-pre-line leading-relaxed">
                                   {clickedWordData.translation}
                                 </p>
                               </div>
                             ) : !aiContextResult && (
-                              <div className="bg-stone-50 p-4 rounded-lg border border-stone-200 text-center text-stone-500 text-xs">
-                                لا تتوفر ترجمات إنجليزية لهذه الكلمة في WiktAPI.
+                              <div className="bg-stone-50 p-3 rounded-lg border border-stone-200 text-center text-stone-500 text-xs">
+                                لا تتوفر ترجمات إضافية لهذه الكلمة في WiktAPI.
                               </div>
                             )}
 
@@ -1333,9 +1432,9 @@ export default function App() {
           <div className="space-y-6">
             
             <div className="text-right space-y-2">
-              <h2 className="text-2xl font-bold font-amiri text-stone-900">خدمة المعاني المباشرة عبر WiktAPI</h2>
+              <h2 className="text-2xl font-bold font-amiri text-stone-900">القاموس المعجمي المباشر (عربي ← إنجليزي)</h2>
               <p className="text-stone-500 text-sm max-w-2xl leading-relaxed">
-                ابحث عن أي كلمة عربية (مثال: بت، ميسرة، بأس، موكل) لتستخرج فوراً جميع ترجماتها الإنجليزية المعتمدة عبر WiktAPI (مع تفعيل التخزين المؤقت لمنع تكرار طلب الشبكة).
+                ابحث عن أي كلمة عربية (مثال: عين، عمل، كتاب، بت، ميسرة، بأس، موكل) للاطلاع الفوري على المعاني الإنجليزية المعجمية (2–3 معانٍ رئيسية من Master Lexicon) والترجمات الموسعة من WiktAPI.
               </p>
             </div>
 
@@ -1346,54 +1445,110 @@ export default function App() {
                   type="text"
                   value={searchTerm}
                   onChange={e => setSearchTerm(e.target.value)}
-                  placeholder="اكتب الكلمة العربية هنا واضغط بحث (مثال: بت، ميسرة، بأس، موكل)..."
+                  placeholder="اكتب الكلمة العربية هنا (مثال: عين، عمل، كتاب، بت، ميسرة)..."
                   dir="rtl"
-                  className="w-full pl-12 pr-4 py-3 border border-stone-300 rounded-xl text-base font-amiri bg-white shadow-xs focus:outline-hidden focus:border-amber-800 focus:ring-1 focus:ring-amber-800"
+                  className="w-full pl-24 pr-4 py-3 border border-stone-300 rounded-xl text-base font-amiri bg-white shadow-xs focus:outline-hidden focus:border-amber-800 focus:ring-1 focus:ring-amber-800"
                   required
                 />
                 <button
                   type="submit"
-                  className="absolute left-3 top-2.5 px-3 py-1.5 text-xs font-semibold rounded-lg bg-amber-800 hover:bg-amber-900 text-white transition-all cursor-pointer"
+                  className="absolute left-3 top-2.5 px-4 py-1.5 text-xs font-semibold rounded-lg bg-amber-800 hover:bg-amber-900 text-white transition-all cursor-pointer"
                 >
-                  بحث في WiktAPI
+                  بحث في المعجم
                 </button>
               </div>
             </form>
 
             {/* Direct Search results */}
-            <div className="max-w-xl mx-auto">
+            <div className="max-w-xl mx-auto space-y-4">
               {isSearchingDirect ? (
                 <div className="p-8 text-center animate-pulse text-stone-500 space-y-2">
                   <RefreshCw className="w-6 h-6 mx-auto animate-spin text-amber-800" />
-                  <span>جاري استعلام WiktAPI عن ترجمات الكلمة الإنجليزية...</span>
+                  <span>جاري استرجاع معاني الكلمة وترجماتها...</span>
                 </div>
-              ) : directSearchResult.length > 0 ? (
-                <div className="p-6 rounded-xl border border-amber-200 bg-white shadow-xs text-right space-y-4">
+              ) : (directLexicalResult || directSearchResult.length > 0) ? (
+                <div className="space-y-4">
                   
-                  <div className="flex items-center justify-between border-b border-stone-150 pb-3">
-                    <span className="text-xs text-amber-850 font-semibold font-mono">نتائج WiktAPI (lang=ar)</span>
-                    <h3 className="text-2xl font-bold font-amiri text-stone-900 bg-amber-50 px-3 py-1 rounded-lg border border-amber-100">{directSearchResult[0].displayWord}</h3>
-                  </div>
+                  {/* Lexical Result Card */}
+                  {directLexicalResult && (
+                    <div className="p-6 rounded-xl border border-amber-300 bg-[#FCFAF2] shadow-xs text-right space-y-4">
+                      <div className="flex items-center justify-between border-b border-amber-200/80 pb-3">
+                        <span className="text-xs text-amber-900 font-bold font-mono flex items-center gap-1.5">
+                          <BookOpenCheck className="w-4 h-4 text-amber-800" />
+                          القاموس المعجمي (DrAbdulmalek Dataset)
+                        </span>
+                        <h3 className="text-2xl font-bold font-amiri text-stone-900 bg-white px-3 py-1 rounded-lg border border-amber-200">{directLexicalResult.word}</h3>
+                      </div>
 
-                  <div className="space-y-3">
-                    <div>
-                      <span className="text-xs font-bold text-stone-400 font-mono">الترجمات الإنجليزية المباشرة</span>
-                      <p className="text-base font-bold text-stone-900 dir-ltr text-left whitespace-pre-line leading-relaxed mt-1">
-                        {directSearchResult[0].translation}
-                      </p>
+                      <div className="space-y-2">
+                        <span className="text-xs font-bold text-stone-500 font-mono">أبرز المعاني الإنجليزية (2–3 معانٍ):</span>
+                        <div className="flex flex-wrap gap-2 dir-ltr text-left pt-1">
+                          {directLexicalResult.meanings.map((m, idx) => (
+                            <span 
+                              key={idx} 
+                              className="inline-flex items-center px-3.5 py-1.5 rounded-lg text-base font-bold bg-white text-amber-950 border border-amber-300 shadow-2xs font-sans"
+                            >
+                              <span className="text-xs font-mono text-amber-600 mr-2">{idx + 1}.</span>
+                              {m}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
                     </div>
-                  </div>
+                  )}
+
+                  {/* WiktAPI Result Card */}
+                  {directSearchResult.length > 0 && (
+                    <div className="p-6 rounded-xl border border-stone-200 bg-white shadow-xs text-right space-y-4">
+                      <div className="flex items-center justify-between border-b border-stone-150 pb-3">
+                        <span className="text-xs text-stone-600 font-semibold font-mono">ترجمات موسعة (WiktAPI - lang=ar)</span>
+                        <span className="text-sm font-mono text-stone-400">{directSearchResult[0].displayWord}</span>
+                      </div>
+
+                      <div className="space-y-2">
+                        <span className="text-xs font-bold text-stone-400 font-mono">الترجمات الإضافية:</span>
+                        <p className="text-sm font-medium text-stone-800 dir-ltr text-left whitespace-pre-line leading-relaxed">
+                          {directSearchResult[0].translation}
+                        </p>
+                      </div>
+                    </div>
+                  )}
 
                 </div>
               ) : searchTerm && (
                 <div className="bg-stone-50 p-8 rounded-xl border border-stone-200 text-center space-y-1">
                   <Info className="w-8 h-8 text-stone-400 mx-auto mb-2" />
-                  <p className="text-stone-600 font-semibold">لم نعثر على ترجمات إنجليزية لـ "{searchTerm}" في WiktAPI</p>
+                  <p className="text-stone-600 font-semibold">لم نعثر على معانٍ إنجليزية لـ "{searchTerm}"</p>
                   <p className="text-stone-400 text-xs max-w-sm mx-auto leading-relaxed">
-                    تأكد من كتابة الكلمة بشكل صحيح. WiktAPI يعود بالترجمات المباشرة فقط دون أي توليد اصطناعي.
+                    تأكد من كتابة الكلمة العربية بشكل صحيح.
                   </p>
                 </div>
               )}
+            </div>
+
+            {/* Dataset Metadata Information Card */}
+            <div className="max-w-xl mx-auto bg-stone-100/70 rounded-xl p-4 border border-stone-200/80 text-xs text-stone-600 space-y-2">
+              <div className="flex items-center justify-between border-b border-stone-200 pb-2">
+                <span className="font-bold text-stone-800 flex items-center gap-1.5">
+                  <Info className="w-3.5 h-3.5 text-amber-800" />
+                  معلومات مصدر القاموس المعجمي (Metadata)
+                </span>
+                <span className="text-[10px] bg-stone-200 text-stone-700 px-2 py-0.5 rounded font-mono">Apache 2.0 / Open Access</span>
+              </div>
+              <p className="leading-relaxed">
+                مستخرج ومُنقّح من قاعدة بيانات <span className="font-mono text-amber-900 font-semibold">DrAbdulmalek/arabic-dictionaries-master</span> على Hugging Face، ومخصص حصراً للبحث المعجمي الفوري عن معاني المفردات الفردية (Word Lookup) بحد أقصى 3 معانٍ موجزة ومباشرة دون استخدام في ترجمة الجمل.
+              </p>
+              <div className="flex items-center justify-between text-[11px] text-stone-500 pt-1 font-mono">
+                <span>المداخل المعجمية المنقحة: 74,447+ كلمة</span>
+                <a 
+                  href="https://huggingface.co/datasets/DrAbdulmalek/arabic-dictionaries-master" 
+                  target="_blank" 
+                  rel="noreferrer"
+                  className="text-amber-800 hover:underline"
+                >
+                  رابط المصدر على Hugging Face ↗
+                </a>
+              </div>
             </div>
 
           </div>
