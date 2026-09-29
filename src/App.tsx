@@ -130,8 +130,6 @@ export default function App() {
   const [activeRowActionMenu, setActiveRowActionMenu] = useState<number | null>(null);
 
   // Local Dictionary States
-  const [manifest, setManifest] = useState<any>(null);
-  const [dictionaryCache, setDictionaryCache] = useState<{ [letter: string]: Record<string, string[]> }>({});
   const [searchTerm, setSearchTerm] = useState('');
   const [directLexicalResult, setDirectLexicalResult] = useState<{ word: string; meanings: string[]; dir?: 'ar-en' | 'en-ar' } | null>(null);
   const [isSearchingDirect, setIsSearchingDirect] = useState(false);
@@ -155,10 +153,9 @@ export default function App() {
   const englishScrollRef = useRef<HTMLDivElement>(null);
   const activeScrollSource = useRef<'arabic' | 'english' | null>(null);
 
-  // Load books & dictionary manifest on mount
+  // Load books on mount
   useEffect(() => {
     refreshBooks();
-    loadDictionaryManifest();
     checkAiStatus();
   }, []);
 
@@ -168,18 +165,6 @@ export default function App() {
       setBooks(all);
     } catch (e) {
       console.error('Error loading books:', e);
-    }
-  };
-
-  const loadDictionaryManifest = async () => {
-    try {
-      const res = await fetch('/dictionary/manifest.json');
-      if (res.ok) {
-        const data = await res.json();
-        setManifest(data);
-      }
-    } catch (e) {
-      console.error('Failed to load dictionary manifest', e);
     }
   };
 
@@ -258,20 +243,6 @@ export default function App() {
     normalized = normalized.replace(/ة/g, 'ه');
     normalized = normalized.replace(/ھ/g, 'ه');
     return normalized;
-  };
-
-  const getNormalizedFirstLetter = (word: string): string => {
-    const normalized = normalizeArabicWordForLookup(word);
-    if (!normalized) return 'ا';
-    const firstChar = normalized.charAt(0);
-    // standard Arabic alphabet mapping
-    const arabicAlphabet = [
-      'ا', 'ب', 'ت', 'ث', 'ج', 'ح', 'خ', 'د', 'ذ', 'ر', 'ز', 'س', 'ش', 'ص', 'ض', 'ط', 'ظ', 'ع', 'غ', 'ف', 'ق', 'ك', 'ل', 'م', 'ن', 'ه', 'و', 'ي'
-    ];
-    if (arabicAlphabet.includes(firstChar)) {
-      return firstChar;
-    }
-    return 'ا';
   };
 
   // Lexical Cache Refs for instant lookup
