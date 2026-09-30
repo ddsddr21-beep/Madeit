@@ -438,10 +438,10 @@ export default function App() {
             <span
               key={i}
               onClick={() => handleWordClick(token, rowIndex, row)}
-              className={`cursor-pointer transition-all duration-150 rounded px-1 ${
+              className={`cursor-pointer transition-all duration-150 rounded px-1.5 py-0.5 ${
                 isCurrentlyClicked 
-                  ? 'bg-amber-800 text-[#FAF8F5] font-semibold scale-102 shadow-xs' 
-                  : 'hover:bg-[#EBE7DD]/70 hover:text-amber-950 focus:bg-[#EBE7DD]/70 focus:text-amber-950'
+                  ? 'bg-[#8C6239] text-[#FAF8F5] font-semibold shadow-2xs' 
+                  : 'hover:bg-[#EBE7DD]/40 hover:text-[#3D2E21] focus:bg-[#EBE7DD]/40 focus:text-[#3D2E21]'
               }`}
             >
               {token}
@@ -477,10 +477,10 @@ export default function App() {
             <span
               key={i}
               onClick={() => handleEnglishWordClick(token, rowIndex, row)}
-              className={`cursor-pointer transition-all duration-150 rounded px-1 inline-block ${
+              className={`cursor-pointer transition-all duration-150 rounded px-1.5 py-0.5 inline-block ${
                 isCurrentlyClicked 
-                  ? 'bg-amber-800 text-[#FAF8F5] font-semibold scale-102 shadow-xs' 
-                  : 'hover:bg-[#EBE7DD]/70 hover:text-amber-950 focus:bg-[#EBE7DD]/70 focus:text-amber-950'
+                  ? 'bg-[#8C6239] text-[#FAF8F5] font-semibold shadow-2xs' 
+                  : 'hover:bg-[#EBE7DD]/40 hover:text-[#3D2E21] focus:bg-[#EBE7DD]/40 focus:text-[#3D2E21]'
               }`}
             >
               {token}
@@ -715,48 +715,48 @@ export default function App() {
     <div className="min-h-screen flex flex-col font-sans select-none bg-[#FAF8F5] overflow-x-hidden pb-16 md:pb-0">
       
       {/* 1. Header (Top Navigation Bar - 3-Zone Contract) */}
-      <header className="border-b border-[#DCD7CA]/40 bg-[#FAF8F5] sticky top-0 z-50">
+      <header className="border-b border-[#DCD7CA]/50 bg-[#FAF8F5]/95 backdrop-blur-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
           
-          {/* Zone 1: Brand Title (One Single text wordmark) */}
+          {/* Zone 1: Brand Title (One Single text wordmark with Scholarly Book icon) */}
           <div className="flex items-center gap-2">
-            <BookOpen className="w-5 h-5 text-amber-850 shrink-0" />
-            <h1 className="text-base sm:text-lg md:text-xl font-bold font-amiri tracking-wide text-stone-900 select-none truncate max-w-[150px] xs:max-w-[200px] sm:max-w-none">
+            <BookOpen className="w-5 h-5 text-[#8C6239] shrink-0" />
+            <h1 className="text-lg sm:text-xl font-bold font-amiri tracking-wide text-[#3D2E21] select-none truncate max-w-[160px] xs:max-w-[220px] sm:max-w-none">
               مِحراب القراءة الموازية
             </h1>
           </div>
 
           {/* Zone 2: Navigation links */}
-          <nav className="hidden md:flex items-center gap-6 text-sm font-medium h-full pt-1">
+          <nav className="hidden md:flex items-center gap-8 text-sm font-medium h-full pt-1">
             <button 
               onClick={() => { setCurrentTab('library'); setClickedWord(null); }}
-              className={`hover:text-amber-800 transition-all select-none pb-2 -mb-px cursor-pointer ${currentTab === 'library' ? 'text-amber-900 border-b-2 border-amber-800 font-semibold' : 'text-stone-500'}`}
+              className={`hover:text-[#8C6239] transition-all select-none pb-2 -mb-px cursor-pointer border-b-2 ${currentTab === 'library' ? 'text-[#8C6239] border-[#8C6239] font-bold' : 'text-[#8E867E] border-transparent font-normal'}`}
             >
               المكتبة اللغوية
             </button>
             {selectedBook && (
               <button 
                 onClick={() => setCurrentTab('reader')}
-                className={`hover:text-amber-800 transition-all select-none pb-2 -mb-px cursor-pointer ${currentTab === 'reader' ? 'text-amber-900 border-b-2 border-amber-800 font-semibold' : 'text-stone-500'}`}
+                className={`hover:text-[#8C6239] transition-all select-none pb-2 -mb-px cursor-pointer border-b-2 ${currentTab === 'reader' ? 'text-[#8C6239] border-[#8C6239] font-bold' : 'text-[#8E867E] border-transparent font-normal'}`}
               >
                 قارئ النصوص
               </button>
             )}
             <button 
               onClick={() => { setCurrentTab('dictionary'); setClickedWord(null); }}
-              className={`hover:text-amber-800 transition-all select-none pb-2 -mb-px cursor-pointer ${currentTab === 'dictionary' ? 'text-amber-900 border-b-2 border-amber-800 font-semibold' : 'text-stone-500'}`}
+              className={`hover:text-[#8C6239] transition-all select-none pb-2 -mb-px cursor-pointer border-b-2 ${currentTab === 'dictionary' ? 'text-[#8C6239] border-[#8C6239] font-bold' : 'text-[#8E867E] border-transparent font-normal'}`}
             >
               المعجم المحلي
             </button>
           </nav>
 
-          {/* Zone 3: Primary action button */}
+          {/* Zone 3: Primary action button (Premium gold-embossed book button) */}
           <div className="flex items-center gap-2">
             <button
               onClick={() => { setIsAddingBook(true); setClickedWord(null); }}
-              className="flex items-center gap-1.5 px-2.5 py-1.5 sm:px-4 sm:py-2 text-xs font-semibold rounded-lg bg-amber-800 hover:bg-amber-900 text-white transition-all whitespace-nowrap cursor-pointer"
+              className="flex items-center gap-1.5 px-3 py-1.8 sm:px-4 sm:py-2 text-xs font-bold rounded-lg bg-[#3D2E21] hover:bg-[#4E3D2F] text-[#FAF8F5] border border-[#8C6239]/30 transition-all whitespace-nowrap cursor-pointer shadow-xs active:scale-98"
             >
-              <Plus className="w-4 h-4 shrink-0" />
+              <Plus className="w-4 h-4 text-[#D1A153] shrink-0" />
               <span className="hidden sm:inline">إضافة نص جديد</span>
               <span className="sm:hidden text-[11px]">أضف نصاً</span>
             </button>
@@ -872,102 +872,117 @@ export default function App() {
 
         {/* --- VIEW: 1. LIBRARY (books catalog) --- */}
         {currentTab === 'library' && (
-          <div className="space-y-6">
+          <div className="space-y-10">
             
-            {/* Library Hero Header */}
-            <div className="p-8 rounded-xl bg-radial from-amber-900 to-stone-900 text-stone-50 border border-stone-800 text-right space-y-3 shadow-lg">
-              <h2 className="text-3xl font-bold font-amiri tracking-wide text-amber-200">مرحباً بك في محراب القراءة الموازية</h2>
-              <p className="text-stone-300 text-base max-w-3xl leading-relaxed">
-                منصة قراءة علمية تفاعلية تمكنك من مقارنة وتحليل النصوص الفلسفية والأدبية الكلاسيكية باللغتين العربية والإنجليزية جنباً إلى جنب، مع معجم محلي متكامل يستكشف الكلمات عند النقر المباشر عليها.
+            {/* Library Scholarly Header */}
+            <div className="p-8 sm:p-10 rounded-2xl bg-[#FCFAF6] border border-[#DCD7CA]/60 border-r-4 border-r-[#8C6239] text-right space-y-4 shadow-sm">
+              <span className="text-xs font-mono tracking-wider text-[#8E867E] uppercase">مكتبة الترجمة الرقمية</span>
+              <h2 className="text-3xl sm:text-4xl font-bold font-amiri text-[#3D2E21] tracking-wide">مِحراب القراءة الموازية</h2>
+              <p className="text-stone-600 text-base max-w-3xl leading-relaxed">
+                منصة قراءة علمية تفاعلية مصممة خصيصاً لتدارس ومقارنة عيون الأدب والفلسفة الكلاسيكية باللغتين العربية والإنجليزية جنباً إلى جنب، مع معجم محلي متكامل ومساعد سياقي ذكي.
               </p>
               
-              {books.length === 0 && (
-                <div className="pt-4 flex items-center gap-3">
+              {books.length === 0 ? (
+                <div className="pt-2">
                   <button
                     onClick={loadSamples}
-                    className="px-5 py-2.5 rounded-lg bg-amber-700 hover:bg-amber-600 text-white font-semibold text-sm transition-all flex items-center gap-2 cursor-pointer shadow-md"
+                    className="px-5 py-2.5 rounded-lg bg-[#3D2E21] hover:bg-[#4E3D2F] text-[#FAF8F5] text-xs font-semibold tracking-wide transition-all flex items-center gap-2 cursor-pointer shadow-xs"
                   >
-                    <Sparkles className="w-4 h-4" />
-                    <span>تنزيل المقتطفات الكلاسيكية النموذجية (1-click)</span>
+                    <Sparkles className="w-4 h-4 text-[#D1A153]" />
+                    <span>تحميل المقتطفات الأدبية النموذجية</span>
                   </button>
+                </div>
+              ) : (
+                <div className="flex items-center gap-2 text-xs text-[#8E867E] font-mono pt-1">
+                  <span>المجلدات المتوفرة: {books.length} مجلدات</span>
+                  <span>·</span>
+                  <span>قاعدة البيانات: DrAbdulmalek Lexicon</span>
                 </div>
               )}
             </div>
 
-            {/* Books Catalogue List */}
-            <div className="space-y-4">
-              <div className="flex items-center justify-between">
-                <h3 className="text-lg font-bold text-stone-800">الكتب والنصوص المخزنة محلياً ({books.length})</h3>
+            {/* Books Shelf Grid */}
+            <div className="space-y-6">
+              <div className="flex items-center justify-between border-b border-[#DCD7CA]/40 pb-3">
+                <h3 className="text-sm font-bold font-mono tracking-wider text-[#8C6239] uppercase">فهرس المجلدات والأعمال الأدبية</h3>
                 {books.length > 0 && (
                   <button
                     onClick={() => setIsAddingBook(true)}
-                    className="text-sm text-amber-800 hover:text-amber-900 font-semibold flex items-center gap-1 cursor-pointer"
+                    className="text-xs text-[#3D2E21] hover:text-[#8C6239] font-bold flex items-center gap-1 cursor-pointer transition-colors"
                   >
                     <Plus className="w-4 h-4" />
-                    <span>إضافة كتاب جديد</span>
+                    <span>إدراج كتاب جديد</span>
                   </button>
                 )}
               </div>
 
               {books.length === 0 ? (
-                <div className="p-12 border-2 border-dashed border-stone-300 rounded-xl flex flex-col items-center justify-center text-center bg-[#FAF8F5]">
-                  <FileText className="w-12 h-12 text-stone-400 mb-3" />
-                  <p className="text-stone-600 font-semibold text-lg mb-1">المكتبة خالية من الكتب المضافة</p>
+                <div className="p-16 border border-dashed border-[#DCD7CA] rounded-2xl flex flex-col items-center justify-center text-center bg-[#FCFAF6]/60">
+                  <FileText className="w-12 h-12 text-[#8E867E]/60 mb-4" />
+                  <p className="text-[#3D2E21] font-bold text-lg mb-2">المكتبة الرقمية خالية الآن</p>
                   <p className="text-stone-500 text-sm max-w-md leading-relaxed mb-6">
-                    ابدأ الآن وأضف كتابك أو مذكراتك الخاصة، أو قم بتحميل المقتطفات النموذجية التي أعددناها لك لتجربة القراءة التفاعلية على الفور.
+                    ابدأ بإنشاء مجلدك المتوازي الخاص بوضع نصوصك وتقسيمها، أو قم فوراً بتحميل المقتطفات الجاهزة لتجربة منصة القراءة.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3">
                     <button
                       onClick={() => setIsAddingBook(true)}
-                      className="px-6 py-2.5 rounded-lg bg-amber-800 hover:bg-amber-900 text-white font-semibold text-sm flex items-center gap-2 shadow-sm cursor-pointer"
+                      className="px-6 py-2.5 rounded-lg bg-[#3D2E21] hover:bg-[#4E3D2F] text-white font-semibold text-xs flex items-center justify-center gap-2 cursor-pointer shadow-xs transition-colors"
                     >
                       <Plus className="w-4 h-4" />
-                      <span>إضافة نص جديد الآن</span>
+                      <span>إدراج كتاب جديد</span>
                     </button>
                     <button
                       onClick={loadSamples}
-                      className="px-5 py-2.5 rounded-lg border border-stone-300 hover:bg-stone-50 text-stone-700 font-semibold text-sm flex items-center gap-2 cursor-pointer"
+                      className="px-5 py-2.5 rounded-lg border border-[#DCD7CA] hover:bg-stone-50 text-stone-700 font-semibold text-xs flex items-center justify-center gap-2 cursor-pointer transition-colors"
                     >
-                      <Sparkles className="w-4 h-4 text-amber-700" />
-                      <span>تنزيل المقتطفات الكلاسيكية</span>
+                      <Sparkles className="w-4 h-4 text-[#8C6239]" />
+                      <span>تنزيل المقتطفات الجاهزة</span>
                     </button>
                   </div>
                 </div>
               ) : (
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   {books.map(book => {
                     const totalUnits = book.alignedRows.length;
                     return (
                       <div 
                         key={book.id}
                         onClick={() => handleSelectBook(book)}
-                        className="p-5.5 rounded-xl border border-[#DCD7CA]/45 bg-[#FCFAF8] hover:border-amber-800 hover:bg-[#F3EFE6]/35 transition-all duration-150 cursor-pointer text-right flex flex-col justify-between h-48 group"
+                        className="relative group p-6 rounded-xl border border-[#DCD7CA]/70 bg-[#FCFAF8] hover:border-[#8C6239] hover:bg-white shadow-xs hover:shadow-md transition-all duration-300 cursor-pointer text-right flex flex-col justify-between h-56 border-r-8 border-r-[#3D2E21]"
                       >
-                        <div className="space-y-2">
-                          <h4 className="text-lg font-bold font-amiri text-stone-900 group-hover:text-amber-900 line-clamp-1">
+                        {/* Elegant Decorative Spine Line inside the book volume */}
+                        <div className="absolute right-0 top-0 bottom-0 w-1 bg-gradient-to-r from-black/10 to-transparent" />
+                        
+                        <div className="space-y-3">
+                          {/* Title - Visual Hero of the book volume */}
+                          <h4 className="text-xl font-bold font-amiri text-[#3D2E21] leading-snug group-hover:text-[#8C6239] transition-colors line-clamp-2 pr-1">
                             {book.title}
                           </h4>
+                          
                           {book.author && (
-                            <p className="text-stone-500 text-sm font-medium">المؤلف: {book.author}</p>
+                            <p className="text-stone-500 text-xs font-mono font-medium tracking-wide">
+                              المؤلف: {book.author}
+                            </p>
                           )}
                           
-                          {/* UNBOXED Static Metadata (no pills) with clean separators */}
-                          <div className="flex items-center gap-2 text-xs text-stone-400 font-mono mt-1">
+                          {/* Unboxed inline metadata with simple dot separator */}
+                          <div className="flex items-center gap-2 text-[11px] text-[#8E867E] font-mono pt-1">
                             <span>جمل متوازية: {totalUnits}</span>
                             <span>·</span>
                             <span>أضيف: {new Date(book.createdAt).toLocaleDateString('ar-EG')}</span>
                           </div>
                         </div>
 
-                        <div className="pt-4 border-t border-[#DCD7CA]/35 flex items-center justify-between">
-                          <span className="text-amber-850 group-hover:underline text-xs font-bold flex items-center gap-1">
-                            <span>افتح القارئ</span>
-                            <ChevronLeft className="w-3.5 h-3.5 transform group-hover:-translate-x-1 transition-transform" />
+                        <div className="pt-4 border-t border-[#DCD7CA]/40 flex items-center justify-between">
+                          <span className="text-[#8C6239] group-hover:underline text-xs font-bold font-mono tracking-wider flex items-center gap-1">
+                            <span>تصفّح المجلد</span>
+                            <ChevronLeft className="w-3.5 h-3.5 transform group-hover:-translate-x-1 transition-transform duration-200" />
                           </span>
+                          
                           <button
                             onClick={(e) => handleDeleteBook(book.id, e)}
-                            className="p-1.5 rounded-md text-stone-400 hover:text-red-700 hover:bg-red-50/50 transition-colors"
-                            title="حذف هذا الكتاب"
+                            className="p-1.5 rounded-lg text-stone-400 hover:text-red-700 hover:bg-red-50/50 transition-colors"
+                            title="حذف هذا المجلد من الذاكرة المحلية"
                           >
                             <Trash2 className="w-4 h-4" />
                           </button>
@@ -995,13 +1010,13 @@ export default function App() {
               </div>
 
               {/* Reader Modes & Alignment Switchers */}
-              <div className="flex flex-wrap items-center gap-2.5 justify-end w-full md:w-auto">
+              <div className="flex flex-wrap items-center gap-3 justify-end w-full md:w-auto">
                 
                 {/* Segemented Filter Tabs for Display Mode */}
-                <div className="flex items-center gap-1 p-1 bg-[#EBE7DD]/60 border border-[#DCD7CA]/30 rounded-lg text-xs font-medium w-full sm:w-auto justify-between sm:justify-start">
+                <div className="flex items-center gap-1 p-1 bg-[#FAF8F5] border border-[#DCD7CA]/70 rounded-lg text-xs font-medium w-full sm:w-auto justify-between sm:justify-start shadow-2xs">
                   <button 
                     onClick={() => { setReaderMode('sideBySide'); setIsEditingAlignments(false); }}
-                    className={`px-2.5 py-1.5 sm:px-3 sm:py-1.5 rounded-md transition-all flex items-center justify-center gap-1.5 cursor-pointer flex-1 sm:flex-none ${readerMode === 'sideBySide' && !isEditingAlignments ? 'bg-amber-800 text-white shadow-xs font-semibold' : 'text-stone-600 hover:text-stone-900 hover:bg-[#EBE7DD]/40'}`}
+                    className={`px-2.5 py-1.5 sm:px-3 sm:py-1.5 rounded-md transition-all flex items-center justify-center gap-1.5 cursor-pointer flex-1 sm:flex-none ${readerMode === 'sideBySide' && !isEditingAlignments ? 'bg-[#8C6239] text-white font-semibold' : 'text-[#8E867E] hover:text-[#3D2E21] hover:bg-[#FCFAF6]'}`}
                     title="قراءة جنباً إلى جنب"
                   >
                     <Columns className="w-3.5 h-3.5" />
@@ -1009,7 +1024,7 @@ export default function App() {
                   </button>
                   <button 
                     onClick={() => { setReaderMode('arabicAbove'); setIsEditingAlignments(false); }}
-                    className={`px-2.5 py-1.5 sm:px-3 sm:py-1.5 rounded-md transition-all flex items-center justify-center gap-1.5 cursor-pointer flex-1 sm:flex-none ${readerMode === 'arabicAbove' && !isEditingAlignments ? 'bg-amber-800 text-white shadow-xs font-semibold' : 'text-stone-600 hover:text-stone-900 hover:bg-[#EBE7DD]/40'}`}
+                    className={`px-2.5 py-1.5 sm:px-3 sm:py-1.5 rounded-md transition-all flex items-center justify-center gap-1.5 cursor-pointer flex-1 sm:flex-none ${readerMode === 'arabicAbove' && !isEditingAlignments ? 'bg-[#8C6239] text-white font-semibold' : 'text-[#8E867E] hover:text-[#3D2E21] hover:bg-[#FCFAF6]'}`}
                     title="قراءة العربية فوق الإنجليزية"
                   >
                     <Rows className="w-3.5 h-3.5" />
@@ -1017,7 +1032,7 @@ export default function App() {
                   </button>
                   <button 
                     onClick={() => { setReaderMode('arabicOnly'); setIsEditingAlignments(false); }}
-                    className={`px-2.5 py-1.5 sm:px-3 sm:py-1.5 rounded-md transition-all flex items-center justify-center gap-1.5 cursor-pointer flex-1 sm:flex-none ${readerMode === 'arabicOnly' && !isEditingAlignments ? 'bg-amber-800 text-white shadow-xs font-semibold' : 'text-stone-600 hover:text-stone-900 hover:bg-[#EBE7DD]/40'}`}
+                    className={`px-2.5 py-1.5 sm:px-3 sm:py-1.5 rounded-md transition-all flex items-center justify-center gap-1.5 cursor-pointer flex-1 sm:flex-none ${readerMode === 'arabicOnly' && !isEditingAlignments ? 'bg-[#8C6239] text-white font-semibold' : 'text-[#8E867E] hover:text-[#3D2E21] hover:bg-[#FCFAF6]'}`}
                     title="قراءة العربية فقط"
                   >
                     <span className="font-amiri font-bold text-xs">ع</span>
@@ -1025,7 +1040,7 @@ export default function App() {
                   </button>
                   <button 
                     onClick={() => { setReaderMode('englishOnly'); setIsEditingAlignments(false); }}
-                    className={`px-2.5 py-1.5 sm:px-3 sm:py-1.5 rounded-md transition-all flex items-center justify-center gap-1.5 cursor-pointer flex-1 sm:flex-none ${readerMode === 'englishOnly' && !isEditingAlignments ? 'bg-amber-800 text-white shadow-xs font-semibold' : 'text-stone-600 hover:text-stone-900 hover:bg-[#EBE7DD]/40'}`}
+                    className={`px-2.5 py-1.5 sm:px-3 sm:py-1.5 rounded-md transition-all flex items-center justify-center gap-1.5 cursor-pointer flex-1 sm:flex-none ${readerMode === 'englishOnly' && !isEditingAlignments ? 'bg-[#8C6239] text-white font-semibold' : 'text-[#8E867E] hover:text-[#3D2E21] hover:bg-[#FCFAF6]'}`}
                     title="قراءة الإنجليزية فقط"
                   >
                     <span className="font-bold text-[10px] sm:text-xs">EN</span>
@@ -1041,8 +1056,8 @@ export default function App() {
                   }}
                   className={`px-3 py-1.5 sm:px-3.5 sm:py-1.5 rounded-lg text-xs font-semibold flex items-center justify-center gap-1.5 cursor-pointer border transition-all w-full sm:w-auto ${
                     isEditingAlignments 
-                      ? 'bg-amber-100 border-amber-300 text-amber-900 font-bold' 
-                      : 'border-[#DCD7CA]/60 hover:bg-[#EBE7DD]/40 text-stone-700'
+                      ? 'bg-[#F3EFE6] border-[#8C6239] text-[#8C6239] font-bold' 
+                      : 'border-[#DCD7CA] hover:bg-[#FCFAF6] text-[#8E867E] bg-[#FAF8F5]'
                   }`}
                 >
                   <Sliders className="w-3.5 h-3.5" />
@@ -1054,12 +1069,12 @@ export default function App() {
             {/* Sync Scrolling controls when side-by-side active */}
             {readerMode === 'sideBySide' && !isEditingAlignments && (
               <div className="flex items-center justify-end px-2">
-                <label className="flex items-center gap-2 cursor-pointer text-xs font-semibold text-stone-500">
+                <label className="flex items-center gap-2 cursor-pointer text-xs font-medium text-[#8E867E] hover:text-[#3D2E21] transition-colors">
                   <input 
                     type="checkbox" 
                     checked={syncScroll} 
                     onChange={e => setSyncScroll(e.target.checked)}
-                    className="rounded-xs accent-amber-850"
+                    className="rounded-xs accent-[#8C6239] cursor-pointer"
                   />
                   <span>تفعيل مزامنة التمرير الرأسي بين العمودين</span>
                 </label>
@@ -1070,14 +1085,15 @@ export default function App() {
             {!isEditingAlignments ? (
               <div className="relative flex-1">
                 
-                 {/* Mode A: Side by Side (2-Columns layout) */}
+                 {/* Mode A: Side by Side (2-Columns book-page layout) */}
                 {readerMode === 'sideBySide' && (
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 h-[68vh] min-h-[500px]">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 h-[68vh] min-h-[500px]">
                     
-                    {/* Arabic Column Container */}
-                    <div className="flex flex-col h-full bg-[#FCFAF8] border border-[#DCD7CA]/45 rounded-xl overflow-hidden">
-                      <div className="p-3.5 bg-[#F3EFE6] border-b border-[#DCD7CA]/40 font-bold font-amiri text-lg text-stone-850">
-                        <span>النص العربي الأصيل</span>
+                    {/* Arabic Column Book Page */}
+                    <div className="flex flex-col h-full bg-[#FCFAF8] border border-[#DCD7CA]/60 rounded-xl overflow-hidden shadow-2xs">
+                      <div className="px-5 py-3.5 bg-[#F5F2EB] border-b border-[#DCD7CA]/40 flex items-center justify-between">
+                        <span className="font-bold font-amiri text-lg text-[#3D2E21]">النص العربي الأصيل</span>
+                        <span className="text-[10px] font-mono text-[#8E867E]">الأصل</span>
                       </div>
                       
                       <div 
@@ -1085,12 +1101,12 @@ export default function App() {
                         onScroll={handleArabicScroll}
                         onMouseEnter={() => { activeScrollSource.current = 'arabic'; }}
                         onMouseLeave={() => { activeScrollSource.current = null; }}
-                        className="flex-1 p-4 sm:p-8 overflow-y-auto space-y-6 sm:space-y-8 dir-rtl"
+                        className="flex-1 p-6 sm:p-8 overflow-y-auto space-y-6 dir-rtl select-text"
                       >
                         {selectedBook.alignedRows.map((row, index) => (
                           <div 
                             key={row.id} 
-                            className="pb-5 hover:bg-[#F3EFE6]/40 px-3.5 py-3 rounded-xl transition-all duration-150"
+                            className="pb-4 hover:bg-[#F3EFE6]/25 px-2 rounded-lg transition-colors duration-150 border-b border-[#DCD7CA]/15 last:border-0"
                           >
                             {renderInteractiveArabicText(row.arabic, index, row)}
                           </div>
@@ -1098,10 +1114,11 @@ export default function App() {
                       </div>
                     </div>
 
-                    {/* English Column Container */}
-                    <div className="flex flex-col h-full bg-[#FCFAF8] border border-[#DCD7CA]/45 rounded-xl overflow-hidden">
-                      <div className="p-3.5 bg-[#F3EFE6] border-b border-[#DCD7CA]/40 font-semibold text-sm text-stone-700">
-                        <span>الترجمة الإنجليزية</span>
+                    {/* English Column Book Page */}
+                    <div className="flex flex-col h-full bg-[#FCFAF8] border border-[#DCD7CA]/60 rounded-xl overflow-hidden shadow-2xs">
+                      <div className="px-5 py-3.5 bg-[#F5F2EB] border-b border-[#DCD7CA]/40 flex items-center justify-between">
+                        <span className="font-semibold text-sm text-[#3D2E21]">الترجمة الإنجليزية</span>
+                        <span className="text-[10px] font-mono text-[#8E867E]">SUPPORTING TRANSLATION</span>
                       </div>
                       
                       <div 
@@ -1109,12 +1126,12 @@ export default function App() {
                         onScroll={handleEnglishScroll}
                         onMouseEnter={() => { activeScrollSource.current = 'english'; }}
                         onMouseLeave={() => { activeScrollSource.current = null; }}
-                        className="flex-1 p-4 sm:p-8 overflow-y-auto space-y-6 sm:space-y-8 dir-ltr"
+                        className="flex-1 p-6 sm:p-8 overflow-y-auto space-y-6 dir-ltr select-text"
                       >
                         {selectedBook.alignedRows.map((row, index) => (
                           <div 
                             key={row.id} 
-                            className="pb-5 hover:bg-[#F3EFE6]/40 px-3.5 py-3 rounded-xl transition-all duration-150 min-h-[46px] flex items-center"
+                            className="pb-4 hover:bg-[#F3EFE6]/25 px-2 rounded-lg transition-colors duration-150 min-h-[46px] flex items-center border-b border-[#DCD7CA]/15 last:border-0"
                           >
                             {renderInteractiveEnglishText(row.english, index, row)}
                           </div>
@@ -1125,19 +1142,27 @@ export default function App() {
                   </div>
                 )}
 
-                {/* Mode B: Arabic Above English */}
+                {/* Mode B: Arabic Above English (Continuous Prose Aligned Flow - Default) */}
                 {readerMode === 'arabicAbove' && (
-                  <div className="bg-[#FCFAF8] border border-[#DCD7CA]/45 rounded-xl p-4 sm:p-8 space-y-6 sm:space-y-8 max-h-[68vh] overflow-y-auto">
+                  <div className="bg-[#FCFAF8] border border-[#DCD7CA]/60 rounded-xl p-6 sm:p-10 space-y-8 max-h-[68vh] overflow-y-auto shadow-2xs select-text">
                     {selectedBook.alignedRows.map((row, index) => (
-                      <div key={row.id} className="p-4 sm:p-6 rounded-xl bg-[#F3EFE6]/30 border border-[#DCD7CA]/30 flex flex-col gap-3 sm:gap-4 hover:bg-[#F3EFE6]/70 transition-all duration-150">
-                        <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-3 sm:gap-4">
-                          <span className="text-xs font-mono text-stone-400 bg-[#EBE7DD]/60 px-2.5 py-1 rounded-md self-start shrink-0">جملة {index + 1}</span>
-                          <div className="flex-1 w-full text-right">
-                            {renderInteractiveArabicText(row.arabic, index, row)}
-                          </div>
+                      <div 
+                        key={row.id} 
+                        className="group relative pb-6 border-b border-[#DCD7CA]/25 last:border-0 last:pb-0"
+                      >
+                        {/* Quiet, unboxed index counter */}
+                        <div className="flex items-center gap-2 mb-2 text-[10px] font-mono text-[#8E867E]">
+                          <span>السطر {index + 1}</span>
                         </div>
+
+                        {/* Arabic text - Primary visual hero */}
+                        <div className="text-right">
+                          {renderInteractiveArabicText(row.arabic, index, row)}
+                        </div>
+
+                        {/* English text - Supporting subtitle */}
                         {row.english && (
-                          <div className="pt-3 border-t border-[#DCD7CA]/30 text-left sm:pl-8 dir-ltr">
+                          <div className="mt-3 pt-2.5 border-t border-dashed border-[#DCD7CA]/25 text-left dir-ltr">
                             {renderInteractiveEnglishText(row.english, index, row)}
                           </div>
                         )}
@@ -1146,22 +1171,28 @@ export default function App() {
                   </div>
                 )}
 
-                {/* Mode C: Arabic Only */}
+                {/* Mode C: Arabic Only (Continuous Prose) */}
                 {readerMode === 'arabicOnly' && (
-                  <div className="bg-[#FCFAF8] border border-[#DCD7CA]/45 rounded-xl p-4 sm:p-8 max-h-[68vh] overflow-y-auto space-y-6 sm:space-y-8 text-right">
+                  <div className="bg-[#FCFAF8] border border-[#DCD7CA]/60 rounded-xl p-6 sm:p-10 max-h-[68vh] overflow-y-auto space-y-6 text-right select-text shadow-2xs">
                     {selectedBook.alignedRows.map((row, index) => (
-                      <div key={row.id} className="pb-6 hover:bg-[#F3EFE6]/30 px-4 py-2 rounded-lg transition-colors duration-150">
+                      <div 
+                        key={row.id} 
+                        className="pb-4 border-b border-[#DCD7CA]/15 last:border-0 last:pb-0"
+                      >
                         {renderInteractiveArabicText(row.arabic, index, row)}
                       </div>
                     ))}
                   </div>
                 )}
 
-                {/* Mode D: English Only */}
+                {/* Mode D: English Only (Continuous Prose) */}
                 {readerMode === 'englishOnly' && (
-                  <div className="bg-[#FCFAF8] border border-[#DCD7CA]/45 rounded-xl p-4 sm:p-8 max-h-[68vh] overflow-y-auto space-y-6 sm:space-y-8 text-left dir-ltr">
+                  <div className="bg-[#FCFAF8] border border-[#DCD7CA]/60 rounded-xl p-6 sm:p-10 max-h-[68vh] overflow-y-auto space-y-6 text-left dir-ltr select-text shadow-2xs">
                     {selectedBook.alignedRows.map((row, index) => (
-                      <div key={row.id} className="pb-6 hover:bg-[#F3EFE6]/30 px-4 py-2 rounded-lg transition-colors duration-150">
+                      <div 
+                        key={row.id} 
+                        className="pb-4 border-b border-[#DCD7CA]/15 last:border-0 last:pb-0"
+                      >
                         {renderInteractiveEnglishText(row.english, index, row)}
                       </div>
                     ))}
@@ -1704,7 +1735,7 @@ export default function App() {
         <button
           onClick={() => { setCurrentTab('library'); setClickedWord(null); }}
           className={`flex flex-col items-center justify-center gap-1 cursor-pointer transition-colors w-16 h-full ${
-            currentTab === 'library' ? 'text-amber-900 font-bold' : 'text-stone-400'
+            currentTab === 'library' ? 'text-[#8C6239] font-bold' : 'text-[#8E867E]'
           }`}
         >
           <BookOpen className="w-5 h-5" />
@@ -1715,7 +1746,7 @@ export default function App() {
           <button
             onClick={() => { setCurrentTab('reader'); setClickedWord(null); }}
             className={`flex flex-col items-center justify-center gap-1 cursor-pointer transition-colors w-16 h-full ${
-              currentTab === 'reader' ? 'text-amber-900 font-bold' : 'text-stone-400'
+              currentTab === 'reader' ? 'text-[#8C6239] font-bold' : 'text-[#8E867E]'
             }`}
           >
             <FileText className="w-5 h-5" />
@@ -1726,7 +1757,7 @@ export default function App() {
         <button
           onClick={() => { setCurrentTab('dictionary'); setClickedWord(null); }}
           className={`flex flex-col items-center justify-center gap-1 cursor-pointer transition-colors w-16 h-full ${
-            currentTab === 'dictionary' ? 'text-amber-900 font-bold' : 'text-stone-400'
+            currentTab === 'dictionary' ? 'text-[#8C6239] font-bold' : 'text-[#8E867E]'
           }`}
         >
           <Languages className="w-5 h-5" />
