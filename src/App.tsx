@@ -712,10 +712,10 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col font-sans select-none bg-[#FAF8F5] overflow-x-hidden pb-16 md:pb-0">
+    <div className="app-shell min-h-screen flex flex-col font-sans select-none bg-[#FAF8F5] overflow-x-hidden pb-16 md:pb-0">
       
       {/* 1. Header (Top Navigation Bar - 3-Zone Contract) */}
-      <header className="border-b border-[#DCD7CA]/50 bg-[#FAF8F5]/95 backdrop-blur-md sticky top-0 z-50">
+      <header className="site-header border-b border-[#DCD7CA]/50 bg-[#FAF8F5]/95 backdrop-blur-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
           
           {/* Zone 1: Brand Title (One Single text wordmark with Scholarly Book icon) */}
@@ -766,7 +766,18 @@ export default function App() {
       </header>
 
       {/* Main Content Viewports */}
-      <main className="flex-1 max-w-7xl w-full mx-auto p-4 sm:p-6 lg:p-8 flex flex-col gap-6 overflow-x-hidden">
+      <main className="app-main flex-1 w-full mx-auto p-4 sm:p-6 lg:p-8 flex flex-col gap-6 overflow-x-hidden">
+        <aside className="literary-rail hidden xl:flex" aria-label="هوية التطبيق">
+          <div className="rail-arch" aria-hidden="true"><BookOpen className="w-10 h-10" /></div>
+          <div className="rail-copy">
+            <span className="rail-kicker">القراءة جسر</span>
+            <strong>بين روحين</strong>
+            <span className="rail-english">Reading is a bridge<br />between two souls</span>
+          </div>
+          <div className="rail-divider" />
+          <div className="rail-footer">LITERATURE<br />CONNECTIONS</div>
+        </aside>
+        <div className="app-content">
 
         {/* --- ADD BOOK OVERLAY PANEL / DIALOG --- */}
         {isAddingBook && (
@@ -872,10 +883,10 @@ export default function App() {
 
         {/* --- VIEW: 1. LIBRARY (books catalog) --- */}
         {currentTab === 'library' && (
-          <div className="space-y-10">
+          <div className="library-view space-y-10">
             
             {/* Library Scholarly Header */}
-            <div className="p-8 sm:p-10 rounded-2xl bg-[#FCFAF6] border border-[#DCD7CA]/60 border-r-4 border-r-[#8C6239] text-right space-y-4 shadow-sm">
+            <div className="library-hero p-8 sm:p-10 rounded-2xl bg-[#FCFAF6] border border-[#DCD7CA]/60 border-r-4 border-r-[#8C6239] text-right space-y-4 shadow-sm">
               <span className="text-xs font-mono tracking-wider text-[#8E867E] uppercase">مكتبة الترجمة الرقمية</span>
               <h2 className="text-3xl sm:text-4xl font-bold font-amiri text-[#3D2E21] tracking-wide">مِحراب القراءة الموازية</h2>
               <p className="text-stone-600 text-base max-w-3xl leading-relaxed">
@@ -941,14 +952,14 @@ export default function App() {
                   </div>
                 </div>
               ) : (
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="library-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   {books.map(book => {
                     const totalUnits = book.alignedRows.length;
                     return (
                       <div 
                         key={book.id}
                         onClick={() => handleSelectBook(book)}
-                        className="relative group p-6 rounded-xl border border-[#DCD7CA]/70 bg-[#FCFAF8] hover:border-[#8C6239] hover:bg-white shadow-xs hover:shadow-md transition-all duration-300 cursor-pointer text-right flex flex-col justify-between h-56 border-r-8 border-r-[#3D2E21]"
+                        className="book-card relative group p-6 rounded-xl border border-[#DCD7CA]/70 bg-[#FCFAF8] hover:border-[#8C6239] hover:bg-white shadow-xs hover:shadow-md transition-all duration-300 cursor-pointer text-right flex flex-col justify-between h-56 border-r-8 border-r-[#3D2E21]"
                       >
                         {/* Elegant Decorative Spine Line inside the book volume */}
                         <div className="absolute right-0 top-0 bottom-0 w-1 bg-gradient-to-r from-black/10 to-transparent" />
@@ -999,10 +1010,10 @@ export default function App() {
 
         {/* --- VIEW: 2. BILINGUAL TEXT READER & ALIGNMENT EDITOR --- */}
         {currentTab === 'reader' && selectedBook && (
-          <div className="flex flex-col gap-6">
+          <div className="reader-view flex flex-col gap-6">
             
             {/* Reader Header Block */}
-            <div className="flex flex-col md:flex-row md:items-center justify-between p-4 bg-[#F3EFE6]/50 border border-[#DCD7CA]/40 rounded-xl gap-4">
+            <div className="reader-toolbar flex flex-col md:flex-row md:items-center justify-between p-4 bg-[#F3EFE6]/50 border border-[#DCD7CA]/40 rounded-xl gap-4">
               <div className="space-y-1 text-right">
                 <span className="text-xs font-mono text-stone-400">مستند قيد القراءة</span>
                 <h2 className="text-xl font-bold font-amiri text-stone-900">{selectedBook.title}</h2>
@@ -1593,7 +1604,7 @@ export default function App() {
 
         {/* --- VIEW: 3. DICTIONARY LOOKUP (Lexicon Tab) --- */}
         {currentTab === 'dictionary' && (
-          <div className="space-y-6">
+          <div className="dictionary-view space-y-6">
             
             <div className="text-right space-y-2">
               <h2 className="text-2xl font-bold font-amiri text-stone-900">القاموس المعجمي المباشر (مزدوج: عربي ⇄ إنجليزي)</h2>
@@ -1719,7 +1730,7 @@ export default function App() {
         )}
 
 
-
+        </div>
       </main>
 
       {/* Footer Block */}
