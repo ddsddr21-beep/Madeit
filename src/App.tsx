@@ -1,1782 +1,1680 @@
-import { useState, useEffect, useRef, useMemo } from 'react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
+import customAppLogo from './assets/images/custom_app_logo_1790881200475.jpg';
 import { 
-  BookOpen, 
-  Plus, 
-  Trash2, 
-  Sparkles, 
-  RefreshCw, 
-  FileText, 
-  Check, 
-  X, 
-  Sliders, 
-  Eye, 
-  Info, 
-  Languages, 
-  ChevronRight, 
-  ArrowLeftRight, 
-  Columns, 
-  Rows, 
-  BookOpenCheck,
-  ChevronLeft,
-  ChevronDown,
-  HelpCircle,
-  Undo
-} from 'lucide-react';
-import { 
-  saveBook, 
-  getBook, 
-  getAllBooks, 
-  deleteBook, 
   Book, 
-  AlignedUnit 
+  AlignedUnit, 
+  SavedWord,
+  getAllBooks, 
+  saveBook, 
+  deleteBook, 
+  getAllSavedWords,
+  saveWordEntry,
+  deleteWordEntry,
+  initDB 
 } from './db/indexedDB';
 
-// BUNDLED PRE-ALIGNED SAMPLE BOOKS
-const SAMPLE_BOOKS: Omit<Book, 'createdAt' | 'lastReadAt'>[] = [
-  {
-    id: 'sample-1',
-    title: 'طوق الحمامة في الألفة والألاف (مقتطفات)',
-    author: 'ابن حزم الأندلسي',
-    arabicText: 'الحُبُّ - أَعَزَّكَ اللَّهُ - أَوَّلُهُ هَزْلٌ وَآخِرُهُ جِدٌّ. &دَقَّتْ مَعَانِيهِ لِجَلَالَتِهَا عَنْ أَنْ تُوصَفَ، فَلَا تُدْرَكُ حَقِيقَتُهَا إِلَّا بِالمُعَايَنَةِ. &وَلَيْسَ هُوَ بِمُنْكَرٍ فِي الدِّينِ، وَلَا بِمَحْظُورٍ فِي الشَّرِيعَةِ، إِذِ القُلُوبُ بِيَدِ اللهِ عَزَّ وَجَلَّ.',
-    englishText: 'Love - may God exalt you - begins in jest, but its end is full of seriousness. &Its meanings are too subtle, due to their majesty, to be described, and their reality cannot be grasped except by direct experience. &And it is not condemned in religion, nor is it forbidden in the sacred law, since hearts are in the hand of God, the Almighty.',
-    alignedRows: [
-      {
-        id: 'sample-1-row-0',
-        arabic: 'الحُبُّ - أَعَزَّكَ اللَّهُ - أَوَّلُهُ هَزْلٌ وَآخِرُهُ جِدٌّ.',
-        english: 'Love - may God exalt you - begins in jest, but its end is full of seriousness.'
-      },
-      {
-        id: 'sample-1-row-1',
-        arabic: 'دَقَّتْ مَعَانِيهِ لِجَلَالَتِهَا عَنْ أَنْ تُوصَفَ، فَلَا تُدْرَكُ حَقِيقَتُهَا إِلَّا بِالمُعَايَنَةِ.',
-        english: 'Its meanings are too subtle, due to their majesty, to be described, and their reality cannot be grasped except by direct experience.'
-      },
-      {
-        id: 'sample-1-row-2',
-        arabic: 'وَلَيْسَ هُوَ بِمُنْكَرٍ فِي الدِّينِ، وَلَا بِمَحْظُورٍ فِي الشَّرِيعَةِ، إِذِ القُلُوبُ بِيَدِ اللهِ عَزَّ وَجَلَّ.',
-        english: 'And it is not condemned in religion, nor is it forbidden in the sacred law, since hearts are in the hand of God, the Almighty.'
-      }
-    ]
-  },
-  {
-    id: 'sample-2',
-    title: 'حي بن يقظان (مقتطفات في الحكمة)',
-    author: 'ابن طفيل الأندلسي',
-    arabicText: 'لَقَدْ كَانَ سَلَفُنَا الصَّالِحُ يَطْلُبُونَ العِلْمَ لِيَعْمَلُوا بِهِ، وَلَا يَبْتَغُونَ بِهِ عَرَضًا مِنَ الدُّنْيَا. &وَكَانَ حَيُّ بْنُ يَقْظَانَ نَشَأَ فِي جَزِيرَةٍ نَائِيَةٍ مِنَ الجَزَائِرِ العَرَبِيَّةِ دُونَ أَبٍ وَلَا أُمٍّ. &فَنَظَرَ فِي مَظَاهِرِ الطَّبِيعَةِ وَالكَوْنِ بِعَقْلِهِ البَصِيرِ، فَعَرَفَ الخَالِقَ بِيَقِينٍ تَامٍّ دُونَ مُعَلِّمٍ بَشَرِيٍّ.',
-    englishText: 'Our righteous predecessors used to seek knowledge to practice it, and did not desire any worldly gain through it. &And Hayy ibn Yaqdhan grew up in a remote island among the Arabian islands, without a father or a mother. &So he contemplated the manifestations of nature and the universe with his insightful mind, thus knowing the Creator with absolute certainty without a human teacher.',
-    alignedRows: [
-      {
-        id: 'sample-2-row-0',
-        arabic: 'لَقَدْ كَانَ سَلَفُنَا الصَّالِحُ يَطْلُبُونَ العِلْمَ لِيَعْمَلُوا بِهِ، وَلَا يَبْتَغُونَ بِهِ عَرَضًا مِنَ الدُّنْيَا.',
-        english: 'Our righteous predecessors used to seek knowledge to practice it, and did not desire any worldly gain through it.'
-      },
-      {
-        id: 'sample-2-row-1',
-        arabic: 'وَكَانَ حَيُّ بْنُ يَقْظَانَ نَشَأَ فِي جَزِيرَةٍ نَائِيَةٍ مِنَ الجَزَائِرِ العَرَبِيَّةِ دُونَ أَبٍ وَلَا أُمٍّ.',
-        english: 'And Hayy ibn Yaqdhan grew up in a remote island among the Arabian islands, without a father or a mother.'
-      },
-      {
-        id: 'sample-2-row-2',
-        arabic: 'فَنَظَرَ فِي مَظَاهِرِ الطَّبِيعَةِ وَالكَوْنِ بِعَقْلِهِ البَصِيرِ، فَعَرَفَ الخَالِقَ بِيَقِينٍ تَامٍّ دُونَ مُعَلِّمٍ بَشَرِيٍّ.',
-        english: 'So he contemplated the manifestations of nature and the universe with his insightful mind, thus knowing the Creator with absolute certainty without a human teacher.'
-      }
-    ]
-  },
-  {
-    id: 'sample-3',
-    title: 'مقدمة ابن خلدون (العمران البشري والعدل)',
-    author: 'ابن خلدون',
-    arabicText: 'إِنَّ التَّارِيخَ فِي ظَاهِرِهِ لَا يَزِيدُ عَنْ أَخْبَارِ الأَيَّامِ وَالدُّوَلِ، وَفِي بَاطِنِهِ نَظَرٌ وَتَحْقِيقٌ. &وَالعُمْرَانُ البَشَرِيُّ يَحْتَاجُ إِلَى التَّعَاوُنِ بَيْنَ النَّاسِ لِتَحْقِيقِ الغِذَاءِ وَالدفءِ وَالسَّلَامِ. &وَالعَدْلُ هُوَ أَسَاسُ المُلْكِ، وَبِهِ تَسْتَقِيمُ أَحْوَالُ الرَّعِيَّةِ وَتَزْدَهِرُ الصِّنَاعَةُ وَالتِّجَارَةُ.',
-    englishText: 'Indeed, history on its surface is no more than stories of days and states, but in its depth, it is observation and verification. &And human civilization requires cooperation among people to achieve sustenance, warmth, and peace. &And justice is the foundation of governance, and by it the affairs of the subjects are straightened and industry and commerce flourish.',
-    alignedRows: [
-      {
-        id: 'sample-3-row-0',
-        arabic: 'إِنَّ التَّارِيخَ فِي ظَاهِرِهِ لَا يَزِيدُ عَنْ أَخْبَارِ الأَيَّامِ وَالدُّوَلِ، وَفِي بَاطِنِهِ نَظَرٌ وَتَحْقِيقٌ.',
-        english: 'Indeed, history on its surface is no more than stories of days and states, but in its depth, it is observation and verification.'
-      },
-      {
-        id: 'sample-3-row-1',
-        arabic: 'وَالعُمْرَانُ البَشَرِيُّ يَحْتَاجُ إِلَى التَّعَاوُنِ بَيْنَ النَّاسِ لِتَحْقِيقِ الغِذَاءِ وَالدفءِ وَالسَّلَامِ.',
-        english: 'And human civilization requires cooperation among people to achieve sustenance, warmth, and peace.'
-      },
-      {
-        id: 'sample-3-row-2',
-        arabic: 'وَالعَدْلُ هُوَ أَسَاسُ المُلْكِ، وَبِهِ تَسْتَقِيمُ أَحْوَالُ الرَّعِيَّةِ وَتَزْدَهِرُ الصِّنَاعَةُ وَالتِّجَارَةُ.',
-        english: 'And justice is the foundation of governance, and by it the affairs of the subjects are straightened and industry and commerce flourish.'
-      }
-    ]
-  }
-];
+const DEFAULT_BOOKS: Book[] = [];
+
+interface SelectedWordData {
+  word: string;
+  normalized?: string;
+  meanings: string[];
+  direction: 'ar-en' | 'en-ar';
+  loading: boolean;
+}
+
+type TabType = 'workspace' | 'library' | 'lexicon' | 'notebook';
+type ReaderLayoutMode = 'dual' | 'interleaved' | 'focus';
+type ReadingTheme = 'obsidian' | 'parchment' | 'emerald';
 
 export default function App() {
-  // Navigation / Tab States
-  const [currentTab, setCurrentTab] = useState<'library' | 'reader' | 'dictionary'>('library');
+  const [activeTab, setActiveTab] = useState<TabType>('workspace');
+  const [isReading, setIsReading] = useState(false);
   const [books, setBooks] = useState<Book[]>([]);
-  const [selectedBook, setSelectedBook] = useState<Book | null>(null);
+  const [currentBook, setCurrentBook] = useState<Book | null>(null);
+  const [activeRowId, setActiveRowId] = useState<string | null>(null);
+  const [layoutMode, setLayoutMode] = useState<ReaderLayoutMode>(() => {
+    return (localStorage.getItem('pr_layoutMode') as ReaderLayoutMode) || 'interleaved';
+  });
+  const [theme, setTheme] = useState<ReadingTheme>(() => {
+    return (localStorage.getItem('pr_theme') as ReadingTheme) || 'obsidian';
+  });
+  const [fontSize, setFontSize] = useState<number>(() => {
+    const saved = localStorage.getItem('pr_fontSize');
+    return saved ? parseInt(saved, 10) : 21;
+  });
+  const [activeReaderDrawer, setActiveReaderDrawer] = useState<'none' | 'typography' | 'toc' | 'layout'>('none');
+  const [showSearchInput, setShowSearchInput] = useState(false);
+  const [toastMessage, setToastMessage] = useState<string | null>(null);
   
-  // App views within Reader
-  const [readerMode, setReaderMode] = useState<'sideBySide' | 'arabicAbove' | 'arabicOnly' | 'englishOnly'>('arabicAbove');
-  const [syncScroll, setSyncScroll] = useState<boolean>(true);
-  const [isEditingAlignments, setIsEditingAlignments] = useState<boolean>(false);
+  // Library filters
+  const [searchFilter, setSearchFilter] = useState('');
 
-  // New Book Input Fields
+  // Reader in-book search
+  const [bookSearchQuery, setBookSearchQuery] = useState('');
+
+  // Selected word & floating lexicon card
+  const [selectedWord, setSelectedWord] = useState<SelectedWordData | null>(null);
+  const [savedWords, setSavedWords] = useState<SavedWord[]>([]);
+
+  // Standalone Lexicon Search Tab
+  const [lexiconQuery, setLexiconQuery] = useState('');
+  const [lexiconDirection, setLexiconDirection] = useState<'ar-en' | 'en-ar'>('ar-en');
+  const [lexiconResult, setLexiconResult] = useState<{ word: string; meanings: string[] } | null>(null);
+  const [lexiconLoading, setLexiconLoading] = useState(false);
+
+  // Text Workspace & Aligner Form
   const [newTitle, setNewTitle] = useState('');
   const [newAuthor, setNewAuthor] = useState('');
   const [newArabicText, setNewArabicText] = useState('');
   const [newEnglishText, setNewEnglishText] = useState('');
-  const [isAddingBook, setIsAddingBook] = useState(false);
+  const [isAligning, setIsAligning] = useState(false);
 
-  // Active book row alignment working state (for local updates before saving)
-  const [editRows, setEditRows] = useState<AlignedUnit[]>([]);
-  const [activeRowActionMenu, setActiveRowActionMenu] = useState<number | null>(null);
+  // Flashcards Study Mode
+  const [showFlashcards, setShowFlashcards] = useState(false);
+  const [studyCardIndex, setStudyCardIndex] = useState(0);
+  const [isFlipped, setIsFlipped] = useState(false);
 
-  // Local Dictionary States
-  const [searchTerm, setSearchTerm] = useState('');
-  const [directLexicalResult, setDirectLexicalResult] = useState<{ word: string; meanings: string[]; dir?: 'ar-en' | 'en-ar' } | null>(null);
-  const [isSearchingDirect, setIsSearchingDirect] = useState(false);
+  // Sync scroll & speech states
+  const [syncScroll, setSyncScroll] = useState<boolean>(() => {
+    return localStorage.getItem('pr_syncScroll') !== 'false';
+  });
+  const [isSpeaking, setIsSpeaking] = useState(false);
+  const [copyFeedback, setCopyFeedback] = useState(false);
 
-  // Clicked Word Popover / Dialog
-  const [clickedWord, setClickedWord] = useState<string | null>(null);
-  const [clickedWordLang, setClickedWordLang] = useState<'ar' | 'en'>('ar');
-  const [clickedWordLexicalMeanings, setClickedWordLexicalMeanings] = useState<string[] | null>(null);
-  const [clickedWordRowIndex, setClickedWordRowIndex] = useState<number | null>(null);
-  const [clickedWordRow, setClickedWordRow] = useState<AlignedUnit | null>(null);
-  const [isDictionaryLoading, setIsDictionaryLoading] = useState(false);
+  // Fullscreen, Paper Settings & Typography
+  const [isFullscreen, setIsFullscreen] = useState(false);
+  const [showSettings, setShowSettings] = useState(false);
+  const [arabicFont, setArabicFont] = useState<'Amiri' | 'IBM Plex Sans Arabic' | 'Scheherazade New'>(() => {
+    return (localStorage.getItem('pr_arabicFont') as any) || 'Amiri';
+  });
+  const [englishFont, setEnglishFont] = useState<'Lora' | 'Plus Jakarta Sans'>(() => {
+    return (localStorage.getItem('pr_englishFont') as any) || 'Lora';
+  });
+  const [lineHeight, setLineHeight] = useState<number>(() => {
+    const saved = localStorage.getItem('pr_lineHeight');
+    return saved ? parseFloat(saved) : 2.2;
+  });
 
-  // AI Context Helper State
-  const [isAiAvailable, setIsAiAvailable] = useState<boolean>(false);
-  const [aiContextResult, setAiContextResult] = useState<{ contextualMeaning: string; explanation: string } | null>(null);
-  const [isAiLoading, setIsAiLoading] = useState<boolean>(false);
-  const [aiError, setAiError] = useState<string | null>(null);
+  const toggleFullscreen = () => {
+    if (!document.fullscreenElement) {
+      document.documentElement.requestFullscreen?.().catch(() => {});
+      setIsFullscreen(true);
+    } else {
+      document.exitFullscreen?.().catch(() => {});
+      setIsFullscreen(false);
+    }
+  };
 
-  // Layout / Scroll Syncing Refs
-  const arabicScrollRef = useRef<HTMLDivElement>(null);
-  const englishScrollRef = useRef<HTMLDivElement>(null);
-  const activeScrollSource = useRef<'arabic' | 'english' | null>(null);
-
-  // Load books on mount
   useEffect(() => {
-    refreshBooks();
-    checkAiStatus();
+    const handleFsChange = () => {
+      setIsFullscreen(!!document.fullscreenElement);
+    };
+    document.addEventListener('fullscreenchange', handleFsChange);
+    return () => document.removeEventListener('fullscreenchange', handleFsChange);
   }, []);
 
-  const refreshBooks = async () => {
-    try {
-      const all = await getAllBooks();
-      setBooks(all);
-    } catch (e) {
-      console.error('Error loading books:', e);
+  const arPaneRef = useRef<HTMLDivElement>(null);
+  const enPaneRef = useRef<HTMLDivElement>(null);
+
+  // Synchronized scroll handler
+  const handleArScroll = () => {
+    if (!syncScroll || !arPaneRef.current || !enPaneRef.current) return;
+    const ar = arPaneRef.current;
+    const en = enPaneRef.current;
+    const maxAr = ar.scrollHeight - ar.clientHeight;
+    if (maxAr <= 0) return;
+    const ratio = ar.scrollTop / maxAr;
+    en.scrollTop = ratio * (en.scrollHeight - en.clientHeight);
+  };
+
+  const showToast = (msg: string) => {
+    setToastMessage(msg);
+    setTimeout(() => setToastMessage(null), 2500);
+  };
+
+  const handleCopyMeanings = (text: string) => {
+    navigator.clipboard.writeText(text);
+    setCopyFeedback(true);
+    setTimeout(() => setCopyFeedback(false), 2000);
+  };
+
+  // E-Reader Read Aloud / TTS function
+  const handleReadAloud = () => {
+    if (isSpeaking) {
+      window.speechSynthesis.cancel();
+      setIsSpeaking(false);
+      return;
+    }
+    
+    if (!currentBook || currentBook.alignedRows.length === 0) return;
+    const targetRow = currentBook.alignedRows.find(r => r.id === activeRowId) || currentBook.alignedRows[0];
+    if (!targetRow) return;
+
+    setActiveRowId(targetRow.id);
+
+    if (!('speechSynthesis' in window)) return;
+    window.speechSynthesis.cancel();
+
+    const arUtterance = new SpeechSynthesisUtterance(targetRow.arabic);
+    arUtterance.lang = 'ar-SA';
+    arUtterance.rate = 0.9;
+
+    const enUtterance = new SpeechSynthesisUtterance(targetRow.english);
+    enUtterance.lang = 'en-US';
+    enUtterance.rate = 0.95;
+
+    setIsSpeaking(true);
+
+    arUtterance.onend = () => {
+      window.speechSynthesis.speak(enUtterance);
+    };
+
+    enUtterance.onend = () => setIsSpeaking(false);
+    arUtterance.onerror = () => setIsSpeaking(false);
+    enUtterance.onerror = () => setIsSpeaking(false);
+
+    window.speechSynthesis.speak(arUtterance);
+    showToast('جارٍ القراءة الصوتية...');
+  };
+
+  // E-Reader Copy/Share active sentence
+  const handleShareOrCopy = () => {
+    if (!currentBook) return;
+    const targetRow = currentBook.alignedRows.find(r => r.id === activeRowId) || currentBook.alignedRows[0];
+    if (!targetRow) return;
+
+    const textToCopy = `${targetRow.arabic}\n\n${targetRow.english}\n\n[${currentBook.title}]`;
+    navigator.clipboard.writeText(textToCopy);
+    showToast('تم نسخ الفقرة وترجمتها للحافظة');
+  };
+
+  // E-Reader Jump to sentence
+  const handleJumpToSentence = (rowId: string) => {
+    setActiveRowId(rowId);
+    setActiveReaderDrawer('none');
+    const el = document.getElementById(`sentence-${rowId}`);
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
   };
 
-  const checkAiStatus = async () => {
+  // Delete a book locally
+  const handleDeleteBook = async (bookId: string) => {
     try {
-      const res = await fetch('/api/ai-status');
-      if (res.ok) {
-        const data = await res.json();
-        setIsAiAvailable(data.available);
+      await deleteBook(bookId);
+      setBooks(prev => {
+        const remaining = prev.filter(b => b.id !== bookId);
+        if (currentBook?.id === bookId) {
+          setCurrentBook(remaining.length > 0 ? remaining[0] : null);
+        }
+        return remaining;
+      });
+      showToast('تم حذف الكتاب من ذاكرة الهاتف المحلية');
+    } catch (err) {
+      console.error('Error deleting book:', err);
+    }
+  };
+
+  // Load books & saved vocabulary from phone's local storage (IndexedDB)
+  useEffect(() => {
+    async function init() {
+      try {
+        await initDB();
+        const storedBooks = await getAllBooks();
+        
+        // Purge old sample/demo books if present in local DB
+        const demoPrefixes = ['book-the-mother', 'book-pride', 'book-poet', 'book-prophet', 'book-oldman'];
+        const userBooks: Book[] = [];
+
+        for (const book of storedBooks) {
+          if (demoPrefixes.some(prefix => book.id.startsWith(prefix))) {
+            await deleteBook(book.id);
+          } else {
+            userBooks.push(book);
+          }
+        }
+
+        setBooks(userBooks);
+        setCurrentBook(userBooks.length > 0 ? userBooks[0] : null);
+
+        const words = await getAllSavedWords();
+        setSavedWords(words);
+      } catch (err) {
+        console.error('Failed to init DB:', err);
+        setBooks([]);
+        setCurrentBook(null);
       }
-    } catch (e) {
-      console.error('Failed to check AI status', e);
     }
+    init();
+  }, []);
+
+  // Sync settings with local storage for offline phone persistence
+  useEffect(() => { localStorage.setItem('pr_layoutMode', layoutMode); }, [layoutMode]);
+  useEffect(() => {
+    localStorage.setItem('pr_theme', theme);
+    document.body.className = `theme-${theme}`;
+  }, [theme]);
+  useEffect(() => { localStorage.setItem('pr_fontSize', fontSize.toString()); }, [fontSize]);
+  useEffect(() => { localStorage.setItem('pr_arabicFont', arabicFont); }, [arabicFont]);
+  useEffect(() => { localStorage.setItem('pr_englishFont', englishFont); }, [englishFont]);
+  useEffect(() => { localStorage.setItem('pr_lineHeight', lineHeight.toString()); }, [lineHeight]);
+  useEffect(() => { localStorage.setItem('pr_syncScroll', syncScroll.toString()); }, [syncScroll]);
+
+  // Audio Speech Synthesis
+  const speak = (text: string, lang: 'ar' | 'en') => {
+    if (!('speechSynthesis' in window)) return;
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = lang === 'ar' ? 'ar-SA' : 'en-US';
+    utterance.rate = 0.95;
+    setIsSpeaking(true);
+    utterance.onend = () => setIsSpeaking(false);
+    utterance.onerror = () => setIsSpeaking(false);
+    window.speechSynthesis.speak(utterance);
   };
 
-  // Helper to pre-load sample books if the list is empty
-  const loadSamples = async () => {
-    for (const sample of SAMPLE_BOOKS) {
-      const book: Book = {
-        ...sample,
-        createdAt: Date.now(),
-        lastReadAt: Date.now()
-      };
-      await saveBook(book);
-    }
-    await refreshBooks();
-  };
-
-  // Scrolling Synchronization Mechanism
-  const handleArabicScroll = () => {
-    if (!syncScroll || activeScrollSource.current !== 'arabic') return;
-    if (arabicScrollRef.current && englishScrollRef.current) {
-      englishScrollRef.current.scrollTop = arabicScrollRef.current.scrollTop;
-    }
-  };
-
-  const handleEnglishScroll = () => {
-    if (!syncScroll || activeScrollSource.current !== 'english') return;
-    if (arabicScrollRef.current && englishScrollRef.current) {
-      arabicScrollRef.current.scrollTop = englishScrollRef.current.scrollTop;
-    }
-  };
-
-  // Surface Form vs Normalization Helpers
-  const getSurfaceForm = (word: string): string => {
-    return word
+  // Word Click Handler
+  const handleWordClick = async (rawWord: string, direction: 'ar-en' | 'en-ar') => {
+    const cleanWord = rawWord
       .replace(/^[\s\p{P}«»“”()\[\]{}،.:؛!؟-]+/gu, '')
       .replace(/[\s\p{P}«»“”()\[\]{}،.:؛!؟-]+$/gu, '')
       .trim();
-  };
+    if (!cleanWord) return;
 
-  const cleanEnglishWord = (word: string): string => {
-    return word
-      .replace(/^[\s\p{P}«»“”"''`()\[\]{}،.:؛!؟\-_—–]+/gu, '')
-      .replace(/[\s\p{P}«»“”"''`()\[\]{}،.:؛!؟\-_—–]+$/gu, '')
-      .trim();
-  };
-
-  const normalizeEnglishWordForLookup = (word: string): string => {
-    return cleanEnglishWord(word).toLowerCase();
-  };
-
-  const stripDiacritics = (word: string): string => {
-    return word.replace(/[\u064B-\u0652\u0640]/g, '');
-  };
-
-  const cleanArabicWord = (word: string): string => {
-    const surface = getSurfaceForm(word);
-    return stripDiacritics(surface).toLowerCase();
-  };
-
-  const normalizeArabicWordForLookup = (word: string): string => {
-    let normalized = cleanArabicWord(word);
-    normalized = normalized.replace(/[أإآٱ]/g, 'ا');
-    normalized = normalized.replace(/ى/g, 'ي');
-    normalized = normalized.replace(/ة/g, 'ه');
-    normalized = normalized.replace(/ھ/g, 'ه');
-    return normalized;
-  };
-
-  // Lexical Cache Refs for instant lookup
-  const lexicalCacheRef = useRef<Map<string, string[]>>(new Map());
-  const enLexicalCacheRef = useRef<Map<string, string[]>>(new Map());
-
-  // Fetch 2-3 concise English lexical meanings from DrAbdulmalek dataset (Arabic -> English)
-  const fetchLexicalMeanings = async (surfaceWord: string): Promise<string[]> => {
-    if (!surfaceWord) return [];
-    const clean = cleanArabicWord(surfaceWord);
-    const norm = normalizeArabicWordForLookup(clean);
-    if (!norm) return [];
-
-    if (lexicalCacheRef.current.has(norm)) {
-      return lexicalCacheRef.current.get(norm)!;
-    }
+    setSelectedWord({
+      word: cleanWord,
+      meanings: [],
+      direction,
+      loading: true
+    });
 
     try {
-      const res = await fetch(`/api/lexicon/ar-en?word=${encodeURIComponent(surfaceWord)}`);
-      if (res.ok) {
-        const data = await res.json();
-        const meanings: string[] = data.meanings || [];
-        lexicalCacheRef.current.set(norm, meanings);
-        return meanings;
-      }
-    } catch (e) {
-      console.error('Failed to fetch from /api/lexicon/ar-en:', e);
-    }
-
-    // Client-side fallback to /dictionary/ar_en_lexicon.json
-    try {
-      const res = await fetch('/dictionary/ar_en_lexicon.json');
-      if (res.ok) {
-        const fullLexicon = await res.json();
-        const meanings = fullLexicon[surfaceWord] || fullLexicon[clean] || fullLexicon[norm] || [];
-        const top3 = meanings.slice(0, 3);
-        lexicalCacheRef.current.set(norm, top3);
-        return top3;
-      }
-    } catch (e) {
-      console.error('Fallback lexical lookup failed:', e);
-    }
-
-    lexicalCacheRef.current.set(norm, []);
-    return [];
-  };
-
-  // Fetch 1-3 concise Arabic lexical meanings from DrAbdulmalek dataset (English -> Arabic)
-  const fetchEnglishLexicalMeanings = async (surfaceWord: string): Promise<string[]> => {
-    if (!surfaceWord) return [];
-    const clean = cleanEnglishWord(surfaceWord);
-    const norm = normalizeEnglishWordForLookup(clean);
-    if (!norm) return [];
-
-    if (enLexicalCacheRef.current.has(norm)) {
-      return enLexicalCacheRef.current.get(norm)!;
-    }
-
-    try {
-      const res = await fetch(`/api/lexicon/en-ar?word=${encodeURIComponent(clean)}`);
-      if (res.ok) {
-        const data = await res.json();
-        const meanings: string[] = data.meanings || [];
-        enLexicalCacheRef.current.set(norm, meanings);
-        return meanings;
-      }
-    } catch (e) {
-      console.error('Failed to fetch from /api/lexicon/en-ar:', e);
-    }
-
-    // Client-side fallback to /dictionary/en_ar_lexicon.json
-    try {
-      const res = await fetch('/dictionary/en_ar_lexicon.json');
-      if (res.ok) {
-        const fullEnLexicon = await res.json();
-        const meanings = fullEnLexicon[norm] || fullEnLexicon[clean.toLowerCase()] || [];
-        const top3 = meanings.slice(0, 3);
-        enLexicalCacheRef.current.set(norm, top3);
-        return top3;
-      }
-    } catch (e) {
-      console.error('Fallback English lexical lookup failed:', e);
-    }
-
-    enLexicalCacheRef.current.set(norm, []);
-    return [];
-  };
-
-  // Click handler for Arabic words in Reader view
-  const handleWordClick = async (word: string, rowIndex: number, row: AlignedUnit) => {
-    const surfaceWord = getSurfaceForm(word);
-    if (!surfaceWord) return;
-
-    setClickedWord(surfaceWord);
-    setClickedWordLang('ar');
-    setClickedWordRowIndex(rowIndex);
-    setClickedWordRow(row);
-    setClickedWordLexicalMeanings(null);
-    setAiContextResult(null);
-    setAiError(null);
-    setIsDictionaryLoading(true);
-
-    // Instant local lexical dictionary lookup from DrAbdulmalek dataset (Arabic -> English)
-    const lexicalMeanings = await fetchLexicalMeanings(surfaceWord);
-    setClickedWordLexicalMeanings(lexicalMeanings);
-
-    setIsDictionaryLoading(false);
-  };
-
-  // Click handler for English words in Reader view
-  const handleEnglishWordClick = async (word: string, rowIndex: number, row: AlignedUnit) => {
-    const surfaceWord = cleanEnglishWord(word);
-    if (!surfaceWord) return;
-
-    setClickedWord(surfaceWord);
-    setClickedWordLang('en');
-    setClickedWordRowIndex(rowIndex);
-    setClickedWordRow(row);
-    setClickedWordLexicalMeanings(null);
-    setAiContextResult(null);
-    setAiError(null);
-    setIsDictionaryLoading(true);
-
-    // Instant local lexical dictionary lookup from DrAbdulmalek dataset (English -> Arabic)
-    const lexicalMeanings = await fetchEnglishLexicalMeanings(surfaceWord);
-    setClickedWordLexicalMeanings(lexicalMeanings);
-
-    setIsDictionaryLoading(false);
-  };
-
-  // AI Context Interpretation Call (Arabic words only)
-  const handleAiInterpret = async () => {
-    if (!selectedBook || !clickedWord || clickedWordRowIndex === null || !clickedWordRow || clickedWordLang !== 'ar') return;
-    
-    setIsAiLoading(true);
-    setAiError(null);
-    setAiContextResult(null);
-
-    // Get up to 3 sentences before and after
-    const rows = selectedBook.alignedRows;
-    const prevRows = rows.slice(Math.max(0, clickedWordRowIndex - 3), clickedWordRowIndex).map(r => r.arabic);
-    const nextRows = rows.slice(clickedWordRowIndex + 1, Math.min(rows.length, clickedWordRowIndex + 4)).map(r => r.arabic);
-
-    try {
-      const res = await fetch('/api/translate-context', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          word: clickedWord,
-          sentence: clickedWordRow.arabic,
-          prevSentences: prevRows,
-          nextSentences: nextRows,
-          parallelEnglish: clickedWordRow.english || undefined
-        })
+      const endpoint = direction === 'ar-en' ? '/api/lexicon/ar-en' : '/api/lexicon/en-ar';
+      const res = await fetch(`${endpoint}?word=${encodeURIComponent(cleanWord)}`);
+      const data = await res.json();
+      setSelectedWord({
+        word: cleanWord,
+        normalized: data.normalized || cleanWord,
+        meanings: data.meanings || [],
+        direction,
+        loading: false
       });
-
-      if (res.ok) {
-        const data = await res.json();
-        setAiContextResult(data);
-      } else {
-        const err = await res.json();
-        setAiError(err.error || 'فشل الاتصال بخدمة الذكاء الاصطناعي.');
-      }
-    } catch (e: any) {
-      setAiError('فشل الاتصال بالخادم الرئيسي.');
-    } finally {
-      setIsAiLoading(false);
+    } catch (err) {
+      console.error('Word lookup failed:', err);
+      setSelectedWord({
+        word: cleanWord,
+        meanings: [],
+        direction,
+        loading: false
+      });
     }
   };
 
-  // Helper to split sentence into individual interactive words (Arabic)
-  const renderInteractiveArabicText = (sentence: string, rowIndex: number, row: AlignedUnit) => {
-    if (!sentence) return <span className="text-stone-400 italic font-amiri text-lg">مساحة فارغة (محاذاة يدوية)</span>;
-    
-    const tokens = sentence.split(/(\s+)/);
-    
-    return (
-      <p className="font-amiri text-[25px] leading-[2.1] text-right text-stone-900 font-normal tracking-wide">
-        {tokens.map((token, i) => {
-          const isSpace = /\s+/.test(token);
-          if (isSpace) {
-            return token;
-          }
-          
-          const cleaned = cleanArabicWord(token);
-          if (!cleaned) {
-            return <span key={i} className="text-stone-500">{token}</span>;
-          }
-
-          const isCurrentlyClicked = clickedWord === getSurfaceForm(token) && clickedWordRowIndex === rowIndex && clickedWordLang === 'ar';
-
-          return (
-            <span
-              key={i}
-              onClick={() => handleWordClick(token, rowIndex, row)}
-              className={`cursor-pointer transition-all duration-150 rounded px-1.5 py-0.5 ${
-                isCurrentlyClicked 
-                  ? 'bg-[#8C6239] text-[#FAF8F5] font-semibold shadow-2xs' 
-                  : 'hover:bg-[#EBE7DD]/40 hover:text-[#3D2E21] focus:bg-[#EBE7DD]/40 focus:text-[#3D2E21]'
-              }`}
-            >
-              {token}
-            </span>
-          );
-        })}
-      </p>
-    );
+  // Toggle Save Word to Vocabulary
+  const handleToggleSaveWord = async (wordData: { word: string; meanings: string[]; direction: 'ar-en' | 'en-ar' }) => {
+    const existing = savedWords.find(w => w.word.toLowerCase() === wordData.word.toLowerCase());
+    if (existing) {
+      await deleteWordEntry(existing.id);
+      setSavedWords(prev => prev.filter(w => w.id !== existing.id));
+    } else {
+      const newEntry: SavedWord = {
+        id: `word-${Date.now()}-${Math.random().toString(36).substring(2, 7)}`,
+        word: wordData.word,
+        meanings: wordData.meanings,
+        direction: wordData.direction,
+        bookTitle: currentBook?.title,
+        savedAt: Date.now(),
+        mastered: false
+      };
+      await saveWordEntry(newEntry);
+      setSavedWords(prev => [newEntry, ...prev]);
+    }
   };
 
-  // Helper to split English sentence into individual interactive words (English)
-  const renderInteractiveEnglishText = (sentence: string, rowIndex: number, row: AlignedUnit) => {
-    if (!sentence) return <p className="text-stone-400 italic text-[14px]">Spacer (Empty align unit)</p>;
-    
-    const tokens = sentence.split(/(\s+)/);
-    
-    return (
-      <p className="font-sans text-[15.5px] leading-[1.8] text-left text-stone-600 font-normal">
-        {tokens.map((token, i) => {
-          const isSpace = /\s+/.test(token);
-          if (isSpace) {
-            return token;
-          }
-          
-          const clean = cleanEnglishWord(token);
-          if (!clean) {
-            return <span key={i} className="text-stone-400">{token}</span>;
-          }
-
-          const isCurrentlyClicked = clickedWord?.toLowerCase() === clean.toLowerCase() && clickedWordRowIndex === rowIndex && clickedWordLang === 'en';
-
-          return (
-            <span
-              key={i}
-              onClick={() => handleEnglishWordClick(token, rowIndex, row)}
-              className={`cursor-pointer transition-all duration-150 rounded px-1.5 py-0.5 inline-block ${
-                isCurrentlyClicked 
-                  ? 'bg-[#8C6239] text-[#FAF8F5] font-semibold shadow-2xs' 
-                  : 'hover:bg-[#EBE7DD]/40 hover:text-[#3D2E21] focus:bg-[#EBE7DD]/40 focus:text-[#3D2E21]'
-              }`}
-            >
-              {token}
-            </span>
-          );
-        })}
-      </p>
-    );
+  const isWordSaved = (w: string) => {
+    return savedWords.some(item => item.word.toLowerCase() === w.toLowerCase());
   };
 
-  // Import New Book
-  const handleCreateBook = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!newTitle.trim()) return;
+  // Filtered rows for in-book search
+  const filteredRows = useMemo(() => {
+    if (!currentBook) return [];
+    if (!bookSearchQuery.trim()) return currentBook.alignedRows;
+    const q = bookSearchQuery.trim().toLowerCase();
+    return currentBook.alignedRows.filter(r =>
+      r.arabic.toLowerCase().includes(q) || r.english.toLowerCase().includes(q)
+    );
+  }, [currentBook, bookSearchQuery]);
 
-    // Split texts by &
-    const arUnits = newArabicText.split('&')
-      .map(u => u.trim())
-      .filter(u => u.length > 0);
-      
-    const enUnits = newEnglishText.split('&')
-      .map(u => u.trim())
-      .filter(u => u.length > 0);
+  // Filtered books in library
+  const filteredBooks = useMemo(() => {
+    if (!searchFilter.trim()) return books;
+    const q = searchFilter.trim().toLowerCase();
+    return books.filter(b => b.title.toLowerCase().includes(q) || b.author.toLowerCase().includes(q));
+  }, [books, searchFilter]);
 
-    const alignedRows: AlignedUnit[] = [];
-    const maxLen = Math.max(arUnits.length, enUnits.length);
+  // Standalone Lexicon Live Search
+  useEffect(() => {
+    if (!lexiconQuery.trim()) {
+      setLexiconResult(null);
+      return;
+    }
+    const timer = setTimeout(async () => {
+      setLexiconLoading(true);
+      try {
+        const endpoint = lexiconDirection === 'ar-en' ? '/api/lexicon/ar-en' : '/api/lexicon/en-ar';
+        const res = await fetch(`${endpoint}?word=${encodeURIComponent(lexiconQuery.trim())}`);
+        const data = await res.json();
+        setLexiconResult({
+          word: data.word || lexiconQuery,
+          meanings: data.meanings || []
+        });
+      } catch (err) {
+        console.error('Search failed:', err);
+      } finally {
+        setLexiconLoading(false);
+      }
+    }, 200);
+
+    return () => clearTimeout(timer);
+  }, [lexiconQuery, lexiconDirection]);
+
+  // Parse sentence into interactive words
+  const parseInteractiveTokens = (sentence: string, direction: 'ar-en' | 'en-ar') => {
+    const tokens = sentence.split(/(\s+|[،.؛:!؟«»""''`()\[\]{}\-_—–]+)/);
+    return tokens.map((token, idx) => {
+      const isWord = /[^\s،.؛:!؟«»""''`()\[\]{}\-_—–]+/.test(token);
+      if (!isWord) return <span key={idx}>{token}</span>;
+
+      const isSelected = selectedWord?.word === token.replace(/^[^\w\u0621-\u064A]+|[^\w\u0621-\u064A]+$/g, '');
+
+      return (
+        <span
+          key={idx}
+          onClick={(e) => {
+            e.stopPropagation();
+            handleWordClick(token, direction);
+          }}
+          className={`word-link ${isSelected ? 'active-word' : ''}`}
+        >
+          {token}
+        </span>
+      );
+    });
+  };
+
+  // Add custom book with auto-alignment & open standalone reading screen
+  const handleAutoAlign = () => {
+    if (!newArabicText.trim() || !newEnglishText.trim()) return;
+    setIsAligning(true);
+
+    const arSentences = newArabicText
+      .split(/([.!\n؟]+)/)
+      .map(s => s.trim())
+      .filter(s => s.length > 2 && !/^[.!\n؟]+$/.test(s));
+
+    const enSentences = newEnglishText
+      .split(/([.!\n?]+)/)
+      .map(s => s.trim())
+      .filter(s => s.length > 2 && !/^[.!\n?]+$/.test(s));
+
+    const maxLen = Math.max(arSentences.length, enSentences.length);
+    const rows: AlignedUnit[] = [];
 
     for (let i = 0; i < maxLen; i++) {
-      alignedRows.push({
-        id: `row-${Date.now()}-${i}`,
-        arabic: arUnits[i] || '',
-        english: enUnits[i] || ''
+      rows.push({
+        id: `row-custom-${i + 1}`,
+        arabic: arSentences[i] || '',
+        english: enSentences[i] || ''
       });
     }
 
-    const newBook: Book = {
-      id: `book-${Date.now()}`,
-      title: newTitle.trim(),
-      author: newAuthor.trim() || undefined,
+    const createdBook: Book = {
+      id: `book-user-${Date.now()}`,
+      title: newTitle.trim() || 'كتاب مخصص — Parallel Reader',
+      author: newAuthor.trim() || 'مؤلف مخصص — Author',
       arabicText: newArabicText,
       englishText: newEnglishText,
-      alignedRows,
+      alignedRows: rows,
       createdAt: Date.now(),
-      lastReadAt: Date.now()
+      lastReadAt: Date.now(),
+      coverColor: 'from-amber-950/40 to-slate-900/80'
     };
 
-    await saveBook(newBook);
-    setNewTitle('');
-    setNewAuthor('');
-    setNewArabicText('');
-    setNewEnglishText('');
-    setIsAddingBook(false);
-    await refreshBooks();
-    
-    // Select the new book
-    setSelectedBook(newBook);
-    setEditRows(newBook.alignedRows);
-    setCurrentTab('reader');
-  };
-
-  const handleSelectBook = (book: Book) => {
-    // Update lastReadAt
-    const updatedBook = {
-      ...book,
-      lastReadAt: Date.now()
-    };
-    saveBook(updatedBook);
-    setSelectedBook(updatedBook);
-    setEditRows(updatedBook.alignedRows);
-    setClickedWord(null);
-    setClickedWordLexicalMeanings(null);
-    setAiContextResult(null);
-    setCurrentTab('reader');
-    refreshBooks();
-  };
-
-  const handleDeleteBook = async (id: string, e: React.MouseEvent) => {
-    e.stopPropagation();
-    if (confirm('هل أنت متأكد من رغبتك في حذف هذا الكتاب نهائياً؟')) {
-      await deleteBook(id);
-      if (selectedBook?.id === id) {
-        setSelectedBook(null);
-      }
-      refreshBooks();
-    }
-  };
-
-  // Manual Alignment editing handlers
-  const handleSaveAlignments = async () => {
-    if (!selectedBook) return;
-    const updated: Book = {
-      ...selectedBook,
-      alignedRows: editRows,
-      lastReadAt: Date.now()
-    };
-    await saveBook(updated);
-    setSelectedBook(updated);
-    setIsEditingAlignments(false);
-    refreshBooks();
-  };
-
-  const insertArabicSpacer = (index: number) => {
-    const arabicList = editRows.map(r => r.arabic);
-    const englishList = editRows.map(r => r.english);
-    
-    arabicList.splice(index, 0, ''); // insert spacer
-    
-    const newRows: AlignedUnit[] = [];
-    const maxLen = Math.max(arabicList.length, englishList.length);
-    for (let i = 0; i < maxLen; i++) {
-      newRows.push({
-        id: `edit-row-${Date.now()}-${i}`,
-        arabic: arabicList[i] || '',
-        english: englishList[i] || ''
-      });
-    }
-    setEditRows(newRows);
-  };
-
-  const insertEnglishSpacer = (index: number) => {
-    const arabicList = editRows.map(r => r.arabic);
-    const englishList = editRows.map(r => r.english);
-    
-    englishList.splice(index, 0, ''); // insert spacer
-    
-    const newRows: AlignedUnit[] = [];
-    const maxLen = Math.max(arabicList.length, englishList.length);
-    for (let i = 0; i < maxLen; i++) {
-      newRows.push({
-        id: `edit-row-${Date.now()}-${i}`,
-        arabic: arabicList[i] || '',
-        english: englishList[i] || ''
-      });
-    }
-    setEditRows(newRows);
-  };
-
-  const removeArabicSpacer = (index: number) => {
-    const arabicList = editRows.map(r => r.arabic);
-    const englishList = editRows.map(r => r.english);
-    
-    arabicList.splice(index, 1); // remove spacer/element
-    
-    const newRows: AlignedUnit[] = [];
-    const maxLen = Math.max(arabicList.length, englishList.length);
-    for (let i = 0; i < maxLen; i++) {
-      newRows.push({
-        id: `edit-row-${Date.now()}-${i}`,
-        arabic: arabicList[i] || '',
-        english: englishList[i] || ''
-      });
-    }
-    setEditRows(newRows);
-  };
-
-  const removeEnglishSpacer = (index: number) => {
-    const arabicList = editRows.map(r => r.arabic);
-    const englishList = editRows.map(r => r.english);
-    
-    englishList.splice(index, 1); // remove spacer/element
-    
-    const newRows: AlignedUnit[] = [];
-    const maxLen = Math.max(arabicList.length, englishList.length);
-    for (let i = 0; i < maxLen; i++) {
-      newRows.push({
-        id: `edit-row-${Date.now()}-${i}`,
-        arabic: arabicList[i] || '',
-        english: englishList[i] || ''
-      });
-    }
-    setEditRows(newRows);
-  };
-
-  const updateRowText = (index: number, type: 'arabic' | 'english', text: string) => {
-    const updated = [...editRows];
-    updated[index] = {
-      ...updated[index],
-      [type]: text
-    };
-    setEditRows(updated);
-  };
-
-  const addEmptyRow = () => {
-    setEditRows(prev => [
-      ...prev,
-      {
-        id: `new-row-${Date.now()}`,
-        arabic: '',
-        english: ''
-      }
-    ]);
-  };
-
-  const deleteRowCompletely = (index: number) => {
-    const updated = [...editRows];
-    updated.splice(index, 1);
-    setEditRows(updated);
-  };
-
-  // Direct Dictionary Lookup Search Tab
-  const handleDirectSearch = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!searchTerm.trim()) return;
-
-    setIsSearchingDirect(true);
-    setDirectLexicalResult(null);
-
-    const isEnglish = /^[a-zA-Z]/.test(searchTerm.trim());
-
-    if (isEnglish) {
-      const surfaceWord = cleanEnglishWord(searchTerm);
-      const meanings = await fetchEnglishLexicalMeanings(surfaceWord);
-      setDirectLexicalResult({
-        word: surfaceWord,
-        meanings: meanings || [],
-        dir: 'en-ar'
-      });
-    } else {
-      const surfaceWord = getSurfaceForm(searchTerm);
-      const meanings = await fetchLexicalMeanings(surfaceWord);
-      setDirectLexicalResult({
-        word: surfaceWord,
-        meanings: meanings || [],
-        dir: 'ar-en'
-      });
-    }
-
-    setIsSearchingDirect(false);
+    saveBook(createdBook).then(() => {
+      setBooks(prev => [createdBook, ...prev.filter(b => b.id !== createdBook.id)]);
+      setCurrentBook(createdBook);
+      setIsAligning(false);
+      setIsReading(true); // Open standalone reading screen!
+    });
   };
 
   return (
-    <div className="app-shell min-h-screen flex flex-col font-sans select-none bg-[#FAF8F5] overflow-x-hidden pb-16 md:pb-0">
-      
-      {/* 1. Header (Top Navigation Bar - 3-Zone Contract) */}
-      <header className="site-header border-b border-[#DCD7CA]/50 bg-[#FAF8F5]/95 backdrop-blur-md sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
-          
-          {/* Zone 1: Brand Title (One Single text wordmark with Scholarly Book icon) */}
-          <div className="flex items-center gap-2">
-            <BookOpen className="w-5 h-5 text-[#8C6239] shrink-0" />
-            <h1 className="text-lg sm:text-xl font-bold font-amiri tracking-wide text-[#3D2E21] select-none truncate max-w-[160px] xs:max-w-[220px] sm:max-w-none">
-              مِحراب القراءة الموازية
-            </h1>
-          </div>
-
-          {/* Zone 2: Navigation links */}
-          <nav className="hidden md:flex items-center gap-8 text-sm font-medium h-full pt-1">
-            <button 
-              onClick={() => { setCurrentTab('library'); setClickedWord(null); }}
-              className={`hover:text-[#8C6239] transition-all select-none pb-2 -mb-px cursor-pointer border-b-2 ${currentTab === 'library' ? 'text-[#8C6239] border-[#8C6239] font-bold' : 'text-[#8E867E] border-transparent font-normal'}`}
-            >
-              المكتبة اللغوية
-            </button>
-            {selectedBook && (
-              <button 
-                onClick={() => setCurrentTab('reader')}
-                className={`hover:text-[#8C6239] transition-all select-none pb-2 -mb-px cursor-pointer border-b-2 ${currentTab === 'reader' ? 'text-[#8C6239] border-[#8C6239] font-bold' : 'text-[#8E867E] border-transparent font-normal'}`}
-              >
-                قارئ النصوص
-              </button>
-            )}
-            <button 
-              onClick={() => { setCurrentTab('dictionary'); setClickedWord(null); }}
-              className={`hover:text-[#8C6239] transition-all select-none pb-2 -mb-px cursor-pointer border-b-2 ${currentTab === 'dictionary' ? 'text-[#8C6239] border-[#8C6239] font-bold' : 'text-[#8E867E] border-transparent font-normal'}`}
-            >
-              المعجم المحلي
-            </button>
-          </nav>
-
-          {/* Zone 3: Primary action button (Premium gold-embossed book button) */}
-          <div className="flex items-center gap-2">
-            <button
-              onClick={() => { setIsAddingBook(true); setClickedWord(null); }}
-              className="flex items-center gap-1.5 px-3 py-1.8 sm:px-4 sm:py-2 text-xs font-bold rounded-lg bg-[#3D2E21] hover:bg-[#4E3D2F] text-[#FAF8F5] border border-[#8C6239]/30 transition-all whitespace-nowrap cursor-pointer shadow-xs active:scale-98"
-            >
-              <Plus className="w-4 h-4 text-[#D1A153] shrink-0" />
-              <span className="hidden sm:inline">إضافة نص جديد</span>
-              <span className="sm:hidden text-[11px]">أضف نصاً</span>
-            </button>
-          </div>
-
-        </div>
-      </header>
-
-      {/* Main Content Viewports */}
-      <main className="app-main flex-1 w-full mx-auto p-4 sm:p-6 lg:p-8 flex flex-col gap-6 overflow-x-hidden">
-        <aside className="literary-rail hidden xl:flex" aria-label="هوية التطبيق">
-          <div className="rail-arch" aria-hidden="true"><BookOpen className="w-10 h-10" /></div>
-          <div className="rail-copy">
-            <span className="rail-kicker">القراءة جسر</span>
-            <strong>بين روحين</strong>
-            <span className="rail-english">Reading is a bridge<br />between two souls</span>
-          </div>
-          <div className="rail-divider" />
-          <div className="rail-footer">LITERATURE<br />CONNECTIONS</div>
-        </aside>
-        <div className="app-content">
-
-        {/* --- ADD BOOK OVERLAY PANEL / DIALOG --- */}
-        {isAddingBook && (
-          <div className="fixed inset-0 bg-stone-900/60 backdrop-blur-xs flex items-center justify-center p-4 z-50">
-            <div className="bg-[#FAF8F5] border border-stone-200 shadow-xl rounded-xl max-w-3xl w-full max-h-[90vh] overflow-hidden flex flex-col">
+    <>
+      {/* ================= STANDALONE READING SCREEN ================= */}
+      {/* When isReading is true, render the completely standalone, distraction-free reading folio with bottom settings bar */}
+      {isReading && currentBook ? (
+        <div className={`standalone-reader-screen ${isFullscreen ? 'fullscreen-mode' : ''}`}>
+          <div className="folder-reading-wrap">
+            <article className="paper-book-page">
               
-              <div className="p-4 border-b border-stone-200/80 flex items-center justify-between bg-stone-50">
-                <div className="flex items-center gap-2">
-                  <Plus className="w-5 h-5 text-amber-800" />
-                  <h3 className="text-lg font-bold text-stone-900">إضافة كتاب أو نص متوازٍ جديد</h3>
-                </div>
-                <button 
-                  onClick={() => setIsAddingBook(false)}
-                  className="p-1 rounded-md text-stone-400 hover:text-stone-600 hover:bg-stone-100"
-                >
-                  <X className="w-5 h-5" />
-                </button>
-              </div>
-
-              <form onSubmit={handleCreateBook} className="p-6 overflow-y-auto space-y-4 text-right">
-                
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  <div className="space-y-1">
-                    <label className="block text-sm font-semibold text-stone-700">عنوان الكتاب / النص</label>
-                    <input 
-                      type="text" 
-                      value={newTitle}
-                      onChange={e => setNewTitle(e.target.value)}
-                      placeholder="مثال: طوق الحمامة - الباب الأول"
-                      className="w-full px-3 py-2 border border-stone-300 rounded-lg text-sm bg-white focus:outline-hidden focus:border-amber-800"
-                      required
-                    />
-                  </div>
-                  <div className="space-y-1">
-                    <label className="block text-sm font-semibold text-stone-700">المؤلف (اختياري)</label>
-                    <input 
-                      type="text" 
-                      value={newAuthor}
-                      onChange={e => setNewAuthor(e.target.value)}
-                      placeholder="مثال: ابن حزم الأندلسي"
-                      className="w-full px-3 py-2 border border-stone-300 rounded-lg text-sm bg-white focus:outline-hidden focus:border-amber-800"
-                    />
-                  </div>
-                </div>
-
-                <div className="p-3 bg-amber-50 rounded-lg border border-amber-150 text-right flex items-start gap-3">
-                  <Info className="w-5 h-5 text-amber-800 shrink-0 mt-0.5" />
-                  <div className="text-xs text-amber-900 leading-relaxed space-y-1">
-                    <p className="font-bold text-sm">تنبيه لضمان صحة مطابقة الجملة موازاةً لجملتها:</p>
-                    <p>قم بتقسيم النصين لوحدات أو جمل بوضع الفاصل <strong className="text-amber-950 font-mono text-sm">"&"</strong> قبل كل جملة عربية وجملتها الإنجليزية المقابلة.</p>
-                    <p>على سبيل المثال: &الحب جميل. &الماء سر الحياة.</p>
-                  </div>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div className="space-y-1">
-                    <label className="block text-sm font-semibold text-stone-700">النص العربي (Arabic Text)</label>
-                    <textarea 
-                      value={newArabicText}
-                      onChange={e => setNewArabicText(e.target.value)}
-                      placeholder="مثال: &الحُبُّ أَوَّلُهُ هَزْلٌ وَآخِرُهُ جِدٌّ. &دَقَّتْ مَعَانِيهِ لِجَلَالَتِهَا."
-                      rows={8}
-                      dir="rtl"
-                      className="w-full p-3 border border-stone-300 rounded-lg text-base font-amiri bg-white focus:outline-hidden focus:border-amber-800"
-                      required
-                    ></textarea>
-                  </div>
-
-                  <div className="space-y-1">
-                    <label className="block text-sm font-semibold text-stone-700 text-left">النص الإنجليزي (English Text)</label>
-                    <textarea 
-                      value={newEnglishText}
-                      onChange={e => setNewEnglishText(e.target.value)}
-                      placeholder="Example: &Love begins in jest, but its end is full of seriousness. &Its meanings are too subtle due to majesty."
-                      rows={8}
-                      dir="ltr"
-                      className="w-full p-3 border border-stone-300 rounded-lg text-sm font-sans bg-white focus:outline-hidden focus:border-amber-800"
-                      required
-                    ></textarea>
-                  </div>
-                </div>
-
-                <div className="pt-4 border-t border-stone-200/80 flex items-center justify-start gap-3">
-                  <button
-                    type="submit"
-                    className="px-6 py-2 rounded-lg bg-amber-800 hover:bg-amber-900 text-white font-semibold text-sm shadow-sm cursor-pointer"
-                  >
-                    حفظ وإدراج بالمكتبة
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => setIsAddingBook(false)}
-                    className="px-4 py-2 rounded-lg border border-stone-300 text-stone-700 hover:bg-stone-50 text-sm cursor-pointer"
-                  >
-                    إلغاء
-                  </button>
-                </div>
-
-              </form>
-            </div>
-          </div>
-        )}
-
-        {/* --- VIEW: 1. LIBRARY (books catalog) --- */}
-        {currentTab === 'library' && (
-          <div className="library-view space-y-10">
-            
-            {/* Library Scholarly Header */}
-            <div className="library-hero p-8 sm:p-10 rounded-2xl bg-[#FCFAF6] border border-[#DCD7CA]/60 border-r-4 border-r-[#8C6239] text-right space-y-4 shadow-sm">
-              <span className="text-xs font-mono tracking-wider text-[#8E867E] uppercase">مكتبة الترجمة الرقمية</span>
-              <h2 className="text-3xl sm:text-4xl font-bold font-amiri text-[#3D2E21] tracking-wide">مِحراب القراءة الموازية</h2>
-              <p className="text-stone-600 text-base max-w-3xl leading-relaxed">
-                منصة قراءة علمية تفاعلية مصممة خصيصاً لتدارس ومقارنة عيون الأدب والفلسفة الكلاسيكية باللغتين العربية والإنجليزية جنباً إلى جنب، مع معجم محلي متكامل ومساعد سياقي ذكي.
-              </p>
-              
-              {books.length === 0 ? (
-                <div className="pt-2">
-                  <button
-                    onClick={loadSamples}
-                    className="px-5 py-2.5 rounded-lg bg-[#3D2E21] hover:bg-[#4E3D2F] text-[#FAF8F5] text-xs font-semibold tracking-wide transition-all flex items-center gap-2 cursor-pointer shadow-xs"
-                  >
-                    <Sparkles className="w-4 h-4 text-[#D1A153]" />
-                    <span>تحميل المقتطفات الأدبية النموذجية</span>
-                  </button>
-                </div>
-              ) : (
-                <div className="flex items-center gap-2 text-xs text-[#8E867E] font-mono pt-1">
-                  <span>المجلدات المتوفرة: {books.length} مجلدات</span>
-                  <span>·</span>
-                  <span>قاعدة البيانات: DrAbdulmalek Lexicon</span>
-                </div>
-              )}
-            </div>
-
-            {/* Books Shelf Grid */}
-            <div className="space-y-6">
-              <div className="flex items-center justify-between border-b border-[#DCD7CA]/40 pb-3">
-                <h3 className="text-sm font-bold font-mono tracking-wider text-[#8C6239] uppercase">فهرس المجلدات والأعمال الأدبية</h3>
-                {books.length > 0 && (
-                  <button
-                    onClick={() => setIsAddingBook(true)}
-                    className="text-xs text-[#3D2E21] hover:text-[#8C6239] font-bold flex items-center gap-1 cursor-pointer transition-colors"
-                  >
-                    <Plus className="w-4 h-4" />
-                    <span>إدراج كتاب جديد</span>
-                  </button>
-                )}
-              </div>
-
-              {books.length === 0 ? (
-                <div className="p-16 border border-dashed border-[#DCD7CA] rounded-2xl flex flex-col items-center justify-center text-center bg-[#FCFAF6]/60">
-                  <FileText className="w-12 h-12 text-[#8E867E]/60 mb-4" />
-                  <p className="text-[#3D2E21] font-bold text-lg mb-2">المكتبة الرقمية خالية الآن</p>
-                  <p className="text-stone-500 text-sm max-w-md leading-relaxed mb-6">
-                    ابدأ بإنشاء مجلدك المتوازي الخاص بوضع نصوصك وتقسيمها، أو قم فوراً بتحميل المقتطفات الجاهزة لتجربة منصة القراءة.
-                  </p>
-                  <div className="flex flex-col sm:flex-row gap-3">
-                    <button
-                      onClick={() => setIsAddingBook(true)}
-                      className="px-6 py-2.5 rounded-lg bg-[#3D2E21] hover:bg-[#4E3D2F] text-white font-semibold text-xs flex items-center justify-center gap-2 cursor-pointer shadow-xs transition-colors"
-                    >
-                      <Plus className="w-4 h-4" />
-                      <span>إدراج كتاب جديد</span>
-                    </button>
-                    <button
-                      onClick={loadSamples}
-                      className="px-5 py-2.5 rounded-lg border border-[#DCD7CA] hover:bg-stone-50 text-stone-700 font-semibold text-xs flex items-center justify-center gap-2 cursor-pointer transition-colors"
-                    >
-                      <Sparkles className="w-4 h-4 text-[#8C6239]" />
-                      <span>تنزيل المقتطفات الجاهزة</span>
-                    </button>
-                  </div>
-                </div>
-              ) : (
-                <div className="library-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                  {books.map(book => {
-                    const totalUnits = book.alignedRows.length;
-                    return (
-                      <div 
-                        key={book.id}
-                        onClick={() => handleSelectBook(book)}
-                        className="book-card relative group p-6 rounded-xl border border-[#DCD7CA]/70 bg-[#FCFAF8] hover:border-[#8C6239] hover:bg-white shadow-xs hover:shadow-md transition-all duration-300 cursor-pointer text-right flex flex-col justify-between h-56 border-r-8 border-r-[#3D2E21]"
-                      >
-                        {/* Elegant Decorative Spine Line inside the book volume */}
-                        <div className="absolute right-0 top-0 bottom-0 w-1 bg-gradient-to-r from-black/10 to-transparent" />
-                        
-                        <div className="space-y-3">
-                          {/* Title - Visual Hero of the book volume */}
-                          <h4 className="text-xl font-bold font-amiri text-[#3D2E21] leading-snug group-hover:text-[#8C6239] transition-colors line-clamp-2 pr-1">
-                            {book.title}
-                          </h4>
-                          
-                          {book.author && (
-                            <p className="text-stone-500 text-xs font-mono font-medium tracking-wide">
-                              المؤلف: {book.author}
-                            </p>
-                          )}
-                          
-                          {/* Unboxed inline metadata with simple dot separator */}
-                          <div className="flex items-center gap-2 text-[11px] text-[#8E867E] font-mono pt-1">
-                            <span>جمل متوازية: {totalUnits}</span>
-                            <span>·</span>
-                            <span>أضيف: {new Date(book.createdAt).toLocaleDateString('ar-EG')}</span>
-                          </div>
-                        </div>
-
-                        <div className="pt-4 border-t border-[#DCD7CA]/40 flex items-center justify-between">
-                          <span className="text-[#8C6239] group-hover:underline text-xs font-bold font-mono tracking-wider flex items-center gap-1">
-                            <span>تصفّح المجلد</span>
-                            <ChevronLeft className="w-3.5 h-3.5 transform group-hover:-translate-x-1 transition-transform duration-200" />
-                          </span>
-                          
-                          <button
-                            onClick={(e) => handleDeleteBook(book.id, e)}
-                            className="p-1.5 rounded-lg text-stone-400 hover:text-red-700 hover:bg-red-50/50 transition-colors"
-                            title="حذف هذا المجلد من الذاكرة المحلية"
-                          >
-                            <Trash2 className="w-4 h-4" />
-                          </button>
-                        </div>
-                      </div>
-                    );
-                  })}
-                </div>
-              )}
-            </div>
-
-          </div>
-        )}
-
-        {/* --- VIEW: 2. BILINGUAL TEXT READER & ALIGNMENT EDITOR --- */}
-        {currentTab === 'reader' && selectedBook && (
-          <div className="reader-view flex flex-col gap-6">
-            
-            {/* Reader Header Block */}
-            <div className="reader-toolbar flex flex-col md:flex-row md:items-center justify-between p-4 bg-[#F3EFE6]/50 border border-[#DCD7CA]/40 rounded-xl gap-4">
-              <div className="space-y-1 text-right">
-                <span className="text-xs font-mono text-stone-400">مستند قيد القراءة</span>
-                <h2 className="text-xl font-bold font-amiri text-stone-900">{selectedBook.title}</h2>
-                {selectedBook.author && <p className="text-stone-500 text-xs">بقلم: {selectedBook.author}</p>}
-              </div>
-
-              {/* Reader Modes & Alignment Switchers */}
-              <div className="flex flex-wrap items-center gap-3 justify-end w-full md:w-auto">
-                
-                {/* Segemented Filter Tabs for Display Mode */}
-                <div className="flex items-center gap-1 p-1 bg-[#FAF8F5] border border-[#DCD7CA]/70 rounded-lg text-xs font-medium w-full sm:w-auto justify-between sm:justify-start shadow-2xs">
-                  <button 
-                    onClick={() => { setReaderMode('sideBySide'); setIsEditingAlignments(false); }}
-                    className={`px-2.5 py-1.5 sm:px-3 sm:py-1.5 rounded-md transition-all flex items-center justify-center gap-1.5 cursor-pointer flex-1 sm:flex-none ${readerMode === 'sideBySide' && !isEditingAlignments ? 'bg-[#8C6239] text-white font-semibold' : 'text-[#8E867E] hover:text-[#3D2E21] hover:bg-[#FCFAF6]'}`}
-                    title="قراءة جنباً إلى جنب"
-                  >
-                    <Columns className="w-3.5 h-3.5" />
-                    <span className="hidden sm:inline whitespace-nowrap">جنباً إلى جنب</span>
-                  </button>
-                  <button 
-                    onClick={() => { setReaderMode('arabicAbove'); setIsEditingAlignments(false); }}
-                    className={`px-2.5 py-1.5 sm:px-3 sm:py-1.5 rounded-md transition-all flex items-center justify-center gap-1.5 cursor-pointer flex-1 sm:flex-none ${readerMode === 'arabicAbove' && !isEditingAlignments ? 'bg-[#8C6239] text-white font-semibold' : 'text-[#8E867E] hover:text-[#3D2E21] hover:bg-[#FCFAF6]'}`}
-                    title="قراءة العربية فوق الإنجليزية"
-                  >
-                    <Rows className="w-3.5 h-3.5" />
-                    <span className="hidden sm:inline whitespace-nowrap">العربية فوق الإنجليزية</span>
-                  </button>
-                  <button 
-                    onClick={() => { setReaderMode('arabicOnly'); setIsEditingAlignments(false); }}
-                    className={`px-2.5 py-1.5 sm:px-3 sm:py-1.5 rounded-md transition-all flex items-center justify-center gap-1.5 cursor-pointer flex-1 sm:flex-none ${readerMode === 'arabicOnly' && !isEditingAlignments ? 'bg-[#8C6239] text-white font-semibold' : 'text-[#8E867E] hover:text-[#3D2E21] hover:bg-[#FCFAF6]'}`}
-                    title="قراءة العربية فقط"
-                  >
-                    <span className="font-amiri font-bold text-xs">ع</span>
-                    <span className="hidden sm:inline whitespace-nowrap">العربية فقط</span>
-                  </button>
-                  <button 
-                    onClick={() => { setReaderMode('englishOnly'); setIsEditingAlignments(false); }}
-                    className={`px-2.5 py-1.5 sm:px-3 sm:py-1.5 rounded-md transition-all flex items-center justify-center gap-1.5 cursor-pointer flex-1 sm:flex-none ${readerMode === 'englishOnly' && !isEditingAlignments ? 'bg-[#8C6239] text-white font-semibold' : 'text-[#8E867E] hover:text-[#3D2E21] hover:bg-[#FCFAF6]'}`}
-                    title="قراءة الإنجليزية فقط"
-                  >
-                    <span className="font-bold text-[10px] sm:text-xs">EN</span>
-                    <span className="hidden sm:inline whitespace-nowrap">الإنجليزية فقط</span>
-                  </button>
-                </div>
-
-                {/* Alignment mode Toggle */}
+              {/* Paper Page Running Top Header */}
+              <div className="paper-page-header">
+                {/* Back / Close Folder Button */}
                 <button
                   onClick={() => {
-                    setIsEditingAlignments(!isEditingAlignments);
-                    setEditRows(selectedBook.alignedRows);
+                    if (isSpeaking) window.speechSynthesis.cancel();
+                    setIsReading(false);
                   }}
-                  className={`px-3 py-1.5 sm:px-3.5 sm:py-1.5 rounded-lg text-xs font-semibold flex items-center justify-center gap-1.5 cursor-pointer border transition-all w-full sm:w-auto ${
-                    isEditingAlignments 
-                      ? 'bg-[#F3EFE6] border-[#8C6239] text-[#8C6239] font-bold' 
-                      : 'border-[#DCD7CA] hover:bg-[#FCFAF6] text-[#8E867E] bg-[#FAF8F5]'
-                  }`}
+                  className="paper-action-btn back-btn"
+                  title="إغلاق الكتاب والعودة للتطبيق"
                 >
-                  <Sliders className="w-3.5 h-3.5" />
-                  <span>محاذاة يدوية كاملة</span>
+                  <i className="fa-solid fa-arrow-right"></i>
+                  <span>إغلاق الكتاب</span>
                 </button>
-              </div>
-            </div>
 
-            {/* Sync Scrolling controls when side-by-side active */}
-            {readerMode === 'sideBySide' && !isEditingAlignments && (
-              <div className="flex items-center justify-end px-2">
-                <label className="flex items-center gap-2 cursor-pointer text-xs font-medium text-[#8E867E] hover:text-[#3D2E21] transition-colors">
-                  <input 
-                    type="checkbox" 
-                    checked={syncScroll} 
-                    onChange={e => setSyncScroll(e.target.checked)}
-                    className="rounded-xs accent-[#8C6239] cursor-pointer"
-                  />
-                  <span>تفعيل مزامنة التمرير الرأسي بين العمودين</span>
-                </label>
-              </div>
-            )}
+                {/* Book & Author title in classical serif */}
+                <div className="paper-book-identity">
+                  <span className="paper-book-title">{currentBook.title}</span>
+                  {currentBook.author && (
+                    <>
+                      <span className="paper-identity-sep">·</span>
+                      <span className="paper-book-author">{currentBook.author}</span>
+                    </>
+                  )}
+                </div>
 
-            {/* --- CORE READER INTERFACE VIEWS --- */}
-            {!isEditingAlignments ? (
-              <div className="relative flex-1">
-                
-                 {/* Mode A: Side by Side (2-Columns book-page layout) */}
-                {readerMode === 'sideBySide' && (
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 h-[68vh] min-h-[500px]">
-                    
-                    {/* Arabic Column Book Page */}
-                    <div className="flex flex-col h-full bg-[#FCFAF8] border border-[#DCD7CA]/60 rounded-xl overflow-hidden shadow-2xs">
-                      <div className="px-5 py-3.5 bg-[#F5F2EB] border-b border-[#DCD7CA]/40 flex items-center justify-between">
-                        <span className="font-bold font-amiri text-lg text-[#3D2E21]">النص العربي الأصيل</span>
-                        <span className="text-[10px] font-mono text-[#8E867E]">الأصل</span>
-                      </div>
-                      
-                      <div 
-                        ref={arabicScrollRef}
-                        onScroll={handleArabicScroll}
-                        onMouseEnter={() => { activeScrollSource.current = 'arabic'; }}
-                        onMouseLeave={() => { activeScrollSource.current = null; }}
-                        className="flex-1 p-6 sm:p-8 overflow-y-auto space-y-6 dir-rtl select-text"
-                      >
-                        {selectedBook.alignedRows.map((row, index) => (
-                          <div 
-                            key={row.id} 
-                            className="pb-4 hover:bg-[#F3EFE6]/25 px-2 rounded-lg transition-colors duration-150 border-b border-[#DCD7CA]/15 last:border-0"
-                          >
-                            {renderInteractiveArabicText(row.arabic, index, row)}
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-
-                    {/* English Column Book Page */}
-                    <div className="flex flex-col h-full bg-[#FCFAF8] border border-[#DCD7CA]/60 rounded-xl overflow-hidden shadow-2xs">
-                      <div className="px-5 py-3.5 bg-[#F5F2EB] border-b border-[#DCD7CA]/40 flex items-center justify-between">
-                        <span className="font-semibold text-sm text-[#3D2E21]">الترجمة الإنجليزية</span>
-                        <span className="text-[10px] font-mono text-[#8E867E]">SUPPORTING TRANSLATION</span>
-                      </div>
-                      
-                      <div 
-                        ref={englishScrollRef}
-                        onScroll={handleEnglishScroll}
-                        onMouseEnter={() => { activeScrollSource.current = 'english'; }}
-                        onMouseLeave={() => { activeScrollSource.current = null; }}
-                        className="flex-1 p-6 sm:p-8 overflow-y-auto space-y-6 dir-ltr select-text"
-                      >
-                        {selectedBook.alignedRows.map((row, index) => (
-                          <div 
-                            key={row.id} 
-                            className="pb-4 hover:bg-[#F3EFE6]/25 px-2 rounded-lg transition-colors duration-150 min-h-[46px] flex items-center border-b border-[#DCD7CA]/15 last:border-0"
-                          >
-                            {renderInteractiveEnglishText(row.english, index, row)}
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-
-                  </div>
-                )}
-
-                {/* Mode B: Arabic Above English (Continuous Prose Aligned Flow - Default) */}
-                {readerMode === 'arabicAbove' && (
-                  <div className="bg-[#FCFAF8] border border-[#DCD7CA]/60 rounded-xl p-6 sm:p-10 space-y-8 max-h-[68vh] overflow-y-auto shadow-2xs select-text">
-                    {selectedBook.alignedRows.map((row, index) => (
-                      <div 
-                        key={row.id} 
-                        className="group relative pb-6 border-b border-[#DCD7CA]/25 last:border-0 last:pb-0"
-                      >
-                        {/* Quiet, unboxed index counter */}
-                        <div className="flex items-center gap-2 mb-2 text-[10px] font-mono text-[#8E867E]">
-                          <span>السطر {index + 1}</span>
-                        </div>
-
-                        {/* Arabic text - Primary visual hero */}
-                        <div className="text-right">
-                          {renderInteractiveArabicText(row.arabic, index, row)}
-                        </div>
-
-                        {/* English text - Supporting subtitle */}
-                        {row.english && (
-                          <div className="mt-3 pt-2.5 border-t border-dashed border-[#DCD7CA]/25 text-left dir-ltr">
-                            {renderInteractiveEnglishText(row.english, index, row)}
-                          </div>
-                        )}
-                      </div>
-                    ))}
-                  </div>
-                )}
-
-                {/* Mode C: Arabic Only (Continuous Prose) */}
-                {readerMode === 'arabicOnly' && (
-                  <div className="bg-[#FCFAF8] border border-[#DCD7CA]/60 rounded-xl p-6 sm:p-10 max-h-[68vh] overflow-y-auto space-y-6 text-right select-text shadow-2xs">
-                    {selectedBook.alignedRows.map((row, index) => (
-                      <div 
-                        key={row.id} 
-                        className="pb-4 border-b border-[#DCD7CA]/15 last:border-0 last:pb-0"
-                      >
-                        {renderInteractiveArabicText(row.arabic, index, row)}
-                      </div>
-                    ))}
-                  </div>
-                )}
-
-                {/* Mode D: English Only (Continuous Prose) */}
-                {readerMode === 'englishOnly' && (
-                  <div className="bg-[#FCFAF8] border border-[#DCD7CA]/60 rounded-xl p-6 sm:p-10 max-h-[68vh] overflow-y-auto space-y-6 text-left dir-ltr select-text shadow-2xs">
-                    {selectedBook.alignedRows.map((row, index) => (
-                      <div 
-                        key={row.id} 
-                        className="pb-4 border-b border-[#DCD7CA]/15 last:border-0 last:pb-0"
-                      >
-                        {renderInteractiveEnglishText(row.english, index, row)}
-                      </div>
-                    ))}
-                  </div>
-                )}
-
-                {/* --- REDESIGNED DICTIONARY EXPERIENCE (Fixed Sidebar on Desktop / Bottom Sheet on Mobile) --- */}
-                {clickedWord && (
-                  <>
-                    {/* Subtle click-outside scrim for mobile only to dismiss easily, on desktop we don't block clicks to allow instant word changes */}
-                    <div 
-                      className="block md:hidden fixed inset-0 bg-stone-900/15 backdrop-blur-3xs z-45" 
-                      onClick={() => { setClickedWord(null); setClickedWordLexicalMeanings(null); setAiContextResult(null); }}
+                {/* Top Controls & Search */}
+                <div className="paper-controls">
+                  {/* In-Book Search Input */}
+                  <div className="relative flex items-center">
+                    <input
+                      type="text"
+                      value={bookSearchQuery}
+                      onChange={(e) => setBookSearchQuery(e.target.value)}
+                      placeholder="بحث في الكتاب..."
+                      className="paper-search-input"
                     />
-                    
-                    <div className="fixed bottom-0 left-0 right-0 max-h-[85vh] rounded-t-3xl border-t border-[#DCD7CA]/80 bg-[#FAF8F5]/98 backdrop-blur-md shadow-2xl z-50 p-6 overflow-y-auto flex flex-col text-right animate-in slide-in-from-bottom duration-300
-                      md:bottom-0 md:left-0 md:right-auto md:top-0 md:h-screen md:max-h-screen md:w-[440px] md:rounded-none md:border-t-0 md:border-r md:border-[#DCD7CA]/75 md:shadow-3xl md:flex md:flex-col md:p-8 md:animate-in md:slide-in-from-left md:duration-300">
-                      
-                      {/* Pull Bar Handle for Mobile Bottom Sheet */}
-                      <div className="md:hidden flex items-center justify-center pb-3 -mt-2 shrink-0">
-                        <div className="w-12 h-1.5 rounded-full bg-stone-300/70" />
-                      </div>
-
-                      {/* Panel Header */}
-                      <div className="flex items-center justify-between border-b border-[#DCD7CA]/40 pb-4.5 mb-5 shrink-0">
-                        <span className="text-xs font-mono text-stone-400 font-medium">المعجم المساعد المباشر</span>
-                        
-                        <button 
-                          onClick={() => { setClickedWord(null); setClickedWordLexicalMeanings(null); setAiContextResult(null); }}
-                          className="p-1.5 text-stone-400 hover:text-stone-700 hover:bg-[#EBE7DD]/55 rounded-lg transition-colors cursor-pointer flex items-center gap-1.5"
-                          title="إغلاق اللوحة"
-                        >
-                          <span className="text-xs font-semibold font-mono hidden md:inline text-stone-500">إغلاق</span>
-                          <X className="w-5 h-5" />
-                        </button>
-                      </div>
-
-                      {/* Main Scrollable Content */}
-                      <div className="flex-1 overflow-y-auto space-y-6 pr-1 pl-1">
-                        
-                        {/* 1. الكلمة المحددة (Selected Word) */}
-                        <div className="space-y-2">
-                          <div className="flex items-center justify-between text-xs text-stone-500 font-mono">
-                            <span>{clickedWordLang === 'en' ? 'Selected English Word' : 'الكلمة العربية المختارة'}</span>
-                            <span>{clickedWordLang === 'en' ? 'EN' : 'عربي'}</span>
-                          </div>
-                          
-                          <div className="bg-[#F3EFE6]/70 px-5 py-4 rounded-xl border border-[#DCD7CA]/50 shadow-2xs text-center flex flex-col items-center justify-center gap-2">
-                            <h4 className={`text-3xl font-bold tracking-tight text-stone-900 ${
-                              clickedWordLang === 'en' ? 'font-sans dir-ltr' : 'font-amiri'
-                            }`}>
-                              {clickedWord}
-                            </h4>
-                          </div>
-                        </div>
-
-                        {/* 2. المعاني المعجمية (Lexical Meanings) */}
-                        <div className="space-y-3 pt-2 border-t border-[#DCD7CA]/30">
-                          <div className="flex items-center justify-between">
-                            <span className="text-xs font-bold text-amber-950 font-mono flex items-center gap-1.5">
-                              <BookOpenCheck className="w-4 h-4 text-amber-800" />
-                              {clickedWordLang === 'en' ? 'القاموس المعجمي (إنجليزي ← عربي)' : 'القاموس المعجمي (عربي ← إنجليزي)'}
-                            </span>
-                            <span className="text-[10px] text-stone-400 font-mono">DrAbdulmalek Dataset</span>
-                          </div>
-
-                          {clickedWordLexicalMeanings && clickedWordLexicalMeanings.length > 0 ? (
-                            <div className="bg-[#F3EFE6]/35 p-4 rounded-xl border border-[#DCD7CA]/35 space-y-2.5">
-                              <span className="text-[11px] text-stone-500 block font-mono">
-                                {clickedWordLang === 'en' ? 'المعاني العربية المتطابقة مختصرة:' : 'أبرز المعاني الإنجليزية المختصرة:'}
-                              </span>
-                              {clickedWordLang === 'en' ? (
-                                <div className="flex flex-col gap-1.5 dir-rtl text-right">
-                                  {clickedWordLexicalMeanings.map((meaning, idx) => (
-                                    <div 
-                                      key={idx} 
-                                      className="flex items-center gap-2 px-3.5 py-1.5 rounded-lg text-base font-bold bg-white text-stone-900 border border-[#DCD7CA]/30 font-amiri shadow-2xs"
-                                    >
-                                      <span className="text-xs font-mono text-amber-850 bg-[#EBE7DD]/40 w-5 h-5 rounded-full flex items-center justify-center shrink-0">{idx + 1}</span>
-                                      <span>{meaning}</span>
-                                    </div>
-                                  ))}
-                                </div>
-                              ) : (
-                                <div className="flex flex-col gap-1.5 dir-ltr text-left">
-                                  {clickedWordLexicalMeanings.map((meaning, idx) => (
-                                    <div 
-                                      key={idx} 
-                                      className="flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-bold bg-white text-stone-900 border border-[#DCD7CA]/30 font-sans shadow-2xs"
-                                    >
-                                      <span className="text-[10px] font-mono text-amber-850 bg-[#EBE7DD]/40 w-4 h-4 rounded-full flex items-center justify-center shrink-0">{idx + 1}</span>
-                                      <span>{meaning}</span>
-                                    </div>
-                                  ))}
-                                </div>
-                              )}
-                            </div>
-                          ) : isDictionaryLoading ? (
-                            <div className="p-4 text-center text-xs text-stone-400 animate-pulse bg-[#F3EFE6]/10 rounded-xl border border-[#DCD7CA]/20">
-                              جاري استرجاع معاني الكلمة من المعجم...
-                            </div>
-                          ) : (
-                            <div className="bg-[#F3EFE6]/15 p-4 rounded-xl border border-[#DCD7CA]/25 text-stone-500 text-xs text-center">
-                              لم يُعثر على مدخل مباشر لهذه الكلمة في المعجم المختصر.
-                            </div>
-                          )}
-                        </div>
-
-                        {/* 3. الترجمة السياقية بالذكاء الاصطناعي (AI Contextual Translation) (عربي فقط) */}
-                        {clickedWordLang === 'ar' && (
-                          <div className="space-y-3 pt-4 border-t border-[#DCD7CA]/30">
-                            <div className="flex items-center justify-between">
-                              <span className="text-xs font-bold text-amber-950 font-mono flex items-center gap-1.5">
-                                <Sparkles className="w-3.5 h-3.5 text-amber-800 animate-pulse" />
-                                الترجمة السياقية بالذكاء الاصطناعي
-                              </span>
-                            </div>
-
-                            {/* Shortened activation button if result not loaded yet */}
-                            {!isAiLoading && !aiContextResult && !aiError && isAiAvailable && (
-                              <button
-                                onClick={handleAiInterpret}
-                                className="w-full flex items-center justify-center gap-2 px-4 py-2.5 text-xs font-bold rounded-lg text-amber-900 bg-[#EBE7DD]/50 hover:bg-[#EBE7DD]/90 border border-[#DCD7CA]/65 transition-colors cursor-pointer"
-                              >
-                                <Sparkles className="w-4 h-4 text-amber-800" />
-                                <span>ترجمة سياقية ذكية ✨</span>
-                              </button>
-                            )}
-
-                            {isAiLoading && (
-                              <div className="p-5 space-y-2.5 animate-pulse text-center text-stone-500 bg-[#F3EFE6]/40 rounded-xl border border-[#DCD7CA]/30">
-                                <RefreshCw className="w-5 h-5 mx-auto animate-spin mb-1 text-amber-800" />
-                                <span className="text-xs font-medium">جاري تحليل سياق النص الحالي واستنتاج الترجمة...</span>
-                              </div>
-                            )}
-
-                            {aiContextResult && (
-                              <div className="bg-[#F3EFE6]/55 p-4.5 rounded-xl border border-[#DCD7CA]/40 space-y-3 text-right">
-                                <span className="text-[11px] text-amber-900 font-bold font-mono block">الترجمة السياقية المستخرجة:</span>
-                                <div className="bg-white/80 p-3 rounded-lg border border-[#DCD7CA]/20 text-center shadow-2xs">
-                                  <p className="text-xl font-bold text-amber-900 capitalize dir-ltr">
-                                    {aiContextResult.contextualMeaning}
-                                  </p>
-                                </div>
-                                
-                                {/* 4. الشرح (Explanation) */}
-                                {aiContextResult.explanation && (
-                                  <div className="space-y-1.5 pt-1">
-                                    <span className="text-[11px] text-stone-500 font-bold font-mono block">شرح وتحليل السياق المختار:</span>
-                                    <p className="text-xs text-stone-700 bg-white/50 p-3 rounded-lg border border-[#DCD7CA]/25 leading-relaxed">
-                                      {aiContextResult.explanation}
-                                    </p>
-                                  </div>
-                                )}
-                              </div>
-                            )}
-
-                            {aiError && (
-                              <p className="text-xs text-red-600 mt-1 bg-red-50/50 p-2.5 rounded-lg border border-red-200/60">{aiError}</p>
-                            )}
-                          </div>
-                        )}
-
-                      </div>
-
-                    </div>
-                  </>
-                )}
-
-              </div>
-            ) : (
-              
-              // --- MANUAL ALIGNMENT EDITOR WORKSPACE ---
-              <div className="bg-[#FAF8F4] border border-stone-200/80 rounded-xl p-4 sm:p-6 space-y-4">
-                
-                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-stone-200 pb-4 text-right">
-                  <div className="space-y-1">
-                    <h3 className="text-lg font-bold text-stone-900 flex items-center gap-2">
-                      <Sliders className="w-5 h-5 text-amber-800 animate-pulse" />
-                      <span>محرر المحاذاة والترتيب اليدوي الكامل</span>
-                    </h3>
-                    <p className="text-stone-500 text-xs">
-                      قم بضبط توازي الأسطر وإدراج خلايا فارغة ليتساوى العمودان تماماً.
-                    </p>
+                    {bookSearchQuery && (
+                      <button 
+                        onClick={() => setBookSearchQuery('')} 
+                        className="absolute left-2 top-1/2 -translate-y-1/2 opacity-60 hover:opacity-100"
+                        title="مسح البحث"
+                      >
+                        <i className="fa-solid fa-xmark text-xs"></i>
+                      </button>
+                    )}
                   </div>
 
-                  <div className="flex items-center gap-2 justify-end">
-                    <button
-                      onClick={handleSaveAlignments}
-                      className="px-4 py-2 rounded-lg bg-emerald-700 hover:bg-emerald-800 text-white font-semibold text-xs flex items-center gap-1 cursor-pointer transition-colors"
-                    >
-                      <Check className="w-4 h-4" />
-                      <span>حفظ التعديلات</span>
-                    </button>
-                    <button
-                      onClick={() => setIsEditingAlignments(false)}
-                      className="px-4 py-2 rounded-lg border border-stone-300 text-stone-700 hover:bg-stone-50 text-xs cursor-pointer transition-colors"
-                    >
-                      <span>إلغاء</span>
-                    </button>
+                  {/* Progress Badge */}
+                  <div className="paper-progress-badge hidden sm:inline-flex">
+                    {filteredRows.length > 0 ? (
+                      <span>
+                        فقرة {Math.max(1, filteredRows.findIndex(r => r.id === activeRowId) + 1)} من {filteredRows.length}
+                      </span>
+                    ) : (
+                      <span>0 فقرات</span>
+                    )}
                   </div>
-                </div>
 
-                <div className="p-3 bg-amber-50 rounded-lg border border-amber-100 text-right text-xs text-amber-900 leading-relaxed">
-                  <p className="font-bold">آلية الضبط اليدوي:</p>
-                  <p>إذا كانت الجملة العربية متقدمة على الإنجليزية بفقرة، قم بالضغط على زر <span className="font-bold">"إجراءات"</span> ثم اختر إدراج مساحات فارغة لدفع النص المقابل لأسفل ومقابلته بدقة.</p>
-                </div>
-
-                {/* Editor Alignment Rows */}
-                <div className="space-y-4 max-h-[50vh] overflow-y-auto p-1">
-                  {editRows.map((row, index) => (
-                    <div 
-                      key={row.id}
-                      className="p-4 bg-white border border-stone-200 rounded-lg space-y-3.5 hover:shadow-xs relative"
-                    >
-                      
-                      {/* Row Label & Actions */}
-                      <div className="flex items-center justify-between text-xs text-stone-500 border-b border-stone-100 pb-2.5">
-                        <div className="flex items-center gap-2">
-                          <span className="font-bold text-stone-800 bg-stone-100 px-2 py-0.5 rounded-md font-mono text-[11px]">
-                            {index + 1}
-                          </span>
-                          <span className="text-stone-400 font-mono">السطر اللغوي المتوازي</span>
-                        </div>
-                        
-                        <div className="flex items-center gap-2">
-                          {/* Trash button directly visible with tooltip */}
-                          <button
-                            type="button"
-                            onClick={() => deleteRowCompletely(index)}
-                            className="p-1.5 text-stone-400 hover:text-red-700 hover:bg-red-50 rounded-lg transition-colors cursor-pointer"
-                            title="حذف هذا السطر بالكامل"
-                          >
-                            <Trash2 className="w-4 h-4" />
-                          </button>
-
-                          {/* Elegant Actions Dropdown Menu */}
-                          <div className="relative">
-                            <button
-                              type="button"
-                              onClick={() => setActiveRowActionMenu(activeRowActionMenu === index ? null : index)}
-                              className={`px-3 py-1.5 text-xs font-semibold rounded-lg border flex items-center gap-1.5 transition-all cursor-pointer ${
-                                activeRowActionMenu === index 
-                                  ? 'bg-amber-800 text-white border-amber-800' 
-                                  : 'bg-stone-50 hover:bg-stone-100 border-stone-200 text-stone-700'
-                              }`}
-                            >
-                              <span>إجراءات</span>
-                              <ChevronDown className="w-3.5 h-3.5" />
-                            </button>
-
-                            {activeRowActionMenu === index && (
-                              <>
-                                {/* Backdrop overlay to close menu when tapping outside */}
-                                <div 
-                                  className="fixed inset-0 z-10" 
-                                  onClick={() => setActiveRowActionMenu(null)}
-                                />
-                                <div className="absolute left-0 mt-1.5 w-64 bg-white border border-stone-200 rounded-xl shadow-xl z-20 py-1.5 text-right animate-in fade-in slide-in-from-top-1 duration-100">
-                                  
-                                  <button
-                                    type="button"
-                                    onClick={() => {
-                                      insertArabicSpacer(index);
-                                      setActiveRowActionMenu(null);
-                                    }}
-                                    className="w-full text-right px-4 py-2 text-xs font-medium text-stone-700 hover:bg-amber-50 hover:text-amber-900 transition-colors flex items-center justify-between"
-                                  >
-                                    <span>إدراج مساحة فارغة عربية</span>
-                                    <span className="text-[10px] text-stone-400 bg-stone-100 px-1.5 py-0.5 rounded font-mono">+ Arabic spacer</span>
-                                  </button>
-
-                                  <button
-                                    type="button"
-                                    onClick={() => {
-                                      insertEnglishSpacer(index);
-                                      setActiveRowActionMenu(null);
-                                    }}
-                                    className="w-full text-right px-4 py-2 text-xs font-medium text-stone-700 hover:bg-amber-50 hover:text-amber-900 transition-colors flex items-center justify-between"
-                                  >
-                                    <span>إدراج مساحة فارغة إنجليزية</span>
-                                    <span className="text-[10px] text-stone-400 bg-stone-100 px-1.5 py-0.5 rounded font-mono">+ English spacer</span>
-                                  </button>
-
-                                  {row.arabic === '' && (
-                                    <button
-                                      type="button"
-                                      onClick={() => {
-                                        removeArabicSpacer(index);
-                                        setActiveRowActionMenu(null);
-                                      }}
-                                      className="w-full text-right px-4 py-2 text-xs font-semibold text-red-600 hover:bg-red-50 transition-colors"
-                                    >
-                                      حذف الفراغ العربي المختار
-                                    </button>
-                                  )}
-
-                                  {row.english === '' && (
-                                    <button
-                                      type="button"
-                                      onClick={() => {
-                                        removeEnglishSpacer(index);
-                                        setActiveRowActionMenu(null);
-                                      }}
-                                      className="w-full text-right px-4 py-2 text-xs font-semibold text-red-600 hover:bg-red-50 transition-colors"
-                                    >
-                                      حذف الفراغ الإنجليزي المختار
-                                    </button>
-                                  )}
-
-                                </div>
-                              </>
-                            )}
-                          </div>
-                        </div>
-                      </div>
-
-                      {/* Bilingual inputs with visual connector */}
-                      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 relative items-center">
-                        
-                        {/* Arabic text input */}
-                        <div className="space-y-1 bg-[#FCFAF8]/40 p-3 rounded-xl border border-stone-100 relative group/ar">
-                          <div className="flex items-center justify-between">
-                            <span className="text-[10px] font-bold text-stone-400 font-mono tracking-wider">النص العربي الأصيل</span>
-                            <span className="text-[10px] text-stone-300 font-mono">AR</span>
-                          </div>
-                          <textarea
-                            value={row.arabic}
-                            onChange={e => updateRowText(index, 'arabic', e.target.value)}
-                            rows={2}
-                            dir="rtl"
-                            placeholder="(مساحة فارغة - ستقابل النص المقابل)"
-                            className="w-full px-3 py-2 border border-stone-200 rounded-lg text-base font-amiri text-stone-900 bg-white/70 focus:bg-white focus:outline-none focus:border-amber-700 transition-colors resize-y shadow-2xs leading-relaxed"
-                          />
-                        </div>
-
-                        {/* Interactive Connector Node for desktop */}
-                        <div className="hidden md:flex absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 items-center justify-center z-10">
-                          <div className="w-8 h-8 rounded-full bg-stone-100 border border-stone-200/80 shadow-xs flex items-center justify-center text-amber-800">
-                            <ArrowLeftRight className="w-3.5 h-3.5" />
-                          </div>
-                        </div>
-
-                        {/* Interactive Connector Node for mobile */}
-                        <div className="flex md:hidden items-center justify-center py-1 -my-3 shrink-0 z-10">
-                          <div className="w-7 h-7 rounded-full bg-stone-100 border border-stone-200/80 shadow-xs flex items-center justify-center text-amber-800">
-                            <ChevronDown className="w-3.5 h-3.5" />
-                          </div>
-                        </div>
-
-                        {/* English text input */}
-                        <div className="space-y-1 bg-[#FCFAF8]/40 p-3 rounded-xl border border-stone-100 relative group/en">
-                          <div className="flex items-center justify-between">
-                            <span className="text-[10px] text-stone-300 font-mono">EN</span>
-                            <span className="text-[10px] font-bold text-stone-400 font-mono tracking-wider">ENGLISH TRANSLATION</span>
-                          </div>
-                          <textarea
-                            value={row.english}
-                            onChange={e => updateRowText(index, 'english', e.target.value)}
-                            rows={2}
-                            dir="ltr"
-                            placeholder="(Empty Spacer - will match Arabic text)"
-                            className="w-full px-3 py-2 border border-stone-200 rounded-lg text-sm font-sans text-stone-800 bg-white/70 focus:bg-white focus:outline-none focus:border-amber-700 transition-colors resize-y shadow-2xs leading-relaxed"
-                          />
-                        </div>
-
-                      </div>
-
-                    </div>
-                  ))}
-                </div>
-
-                {/* Add new rows manually */}
-                <div className="pt-2 flex flex-col sm:flex-row items-center justify-between gap-4">
+                  {/* Fullscreen Button */}
                   <button
-                    onClick={addEmptyRow}
-                    className="w-full sm:w-auto px-4 py-2.5 rounded-lg border-2 border-dashed border-stone-300 hover:border-amber-700/50 text-stone-700 hover:text-amber-900 font-semibold text-xs flex items-center justify-center gap-1.5 cursor-pointer transition-colors"
+                    onClick={toggleFullscreen}
+                    className={`paper-action-btn ${isFullscreen ? 'active' : ''}`}
+                    title={isFullscreen ? 'الخروج من ملء الشاشة' : 'ملء الشاشة'}
                   >
-                    <Plus className="w-4 h-4" />
-                    <span>إضافة سطر إضافي مخصص بالأسفل</span>
+                    <i className={`fa-solid ${isFullscreen ? 'fa-compress' : 'fa-expand'} text-sm`}></i>
+                    <span className="hidden md:inline">{isFullscreen ? 'تصغير' : 'ملء الشاشة'}</span>
                   </button>
-                  
-                  <div className="flex items-center gap-2 w-full sm:w-auto">
-                    <button
-                      onClick={handleSaveAlignments}
-                      className="w-full sm:w-auto px-5 py-2.5 rounded-lg bg-emerald-700 hover:bg-emerald-800 text-white font-bold text-xs shadow-sm cursor-pointer text-center transition-colors"
+                </div>
+              </div>
+
+              {/* Book Spine Center Crease (for Dual Facing Pages) */}
+              {layoutMode === 'dual' && <div className="paper-spine-crease" aria-hidden="true"></div>}
+
+              {/* Reading Content Canvas */}
+              <div className="paper-reading-canvas">
+                {/* DUAL MODE */}
+                {layoutMode === 'dual' && (
+                  <div className="paper-dual-spread">
+                    {/* Arabic Page (Right Page) */}
+                    <div 
+                      ref={arPaneRef}
+                      onScroll={handleArScroll}
+                      className="paper-page-column paper-page-ar"
                     >
-                      حفظ كافة التوازيات
-                    </button>
-                  </div>
-                </div>
-
-              </div>
-            )}
-
-          </div>
-        )}
-
-        {/* --- VIEW: 3. DICTIONARY LOOKUP (Lexicon Tab) --- */}
-        {currentTab === 'dictionary' && (
-          <div className="dictionary-view space-y-6">
-            
-            <div className="text-right space-y-2">
-              <h2 className="text-2xl font-bold font-amiri text-stone-900">القاموس المعجمي المباشر (مزدوج: عربي ⇄ إنجليزي)</h2>
-              <p className="text-stone-500 text-sm max-w-2xl leading-relaxed">
-                ابحث عن أي كلمة عربية أو إنجليزية (مثال: عين، عمل، كتاب، book, spring, peace, courage) للاطلاع الفوري على المعاني المعجمية المختصرة (1–3 معانٍ رئيسية).
-              </p>
-            </div>
-
-            {/* Direct search input bar */}
-            <form onSubmit={handleDirectSearch} className="max-w-xl mx-auto space-y-3">
-              <div className="relative">
-                <input 
-                  type="text"
-                  value={searchTerm}
-                  onChange={e => setSearchTerm(e.target.value)}
-                  placeholder="اكتب الكلمة هنا (عربية مثل: كتاب، عين أو إنجليزية مثل: book, eye)..."
-                  className="w-full pl-24 pr-4 py-3 border border-stone-300 rounded-xl text-base bg-white shadow-xs focus:outline-hidden focus:border-amber-800 focus:ring-1 focus:ring-amber-800"
-                  required
-                />
-                <button
-                  type="submit"
-                  className="absolute left-3 top-2.5 px-4 py-1.5 text-xs font-semibold rounded-lg bg-amber-800 hover:bg-amber-900 text-white transition-all cursor-pointer"
-                >
-                  بحث في المعجم
-                </button>
-              </div>
-            </form>
-
-            {/* Direct Search results */}
-            <div className="max-w-xl mx-auto space-y-4">
-              {isSearchingDirect ? (
-                <div className="p-8 text-center animate-pulse text-stone-500 space-y-2">
-                  <RefreshCw className="w-6 h-6 mx-auto animate-spin text-amber-800" />
-                  <span>جاري استرجاع معاني الكلمة من المعجم...</span>
-                </div>
-              ) : directLexicalResult && directLexicalResult.meanings.length > 0 ? (
-                <div className="space-y-4">
-                  
-                  {/* Lexical Result Card */}
-                  <div className="p-6 rounded-xl border border-amber-300 bg-[#FCFAF2] shadow-xs text-right space-y-4">
-                    <div className="flex items-center justify-between border-b border-amber-200/80 pb-3">
-                      <span className="text-xs text-amber-900 font-bold font-mono flex items-center gap-1.5">
-                        <BookOpenCheck className="w-4 h-4 text-amber-800" />
-                        {directLexicalResult.dir === 'en-ar' ? 'القاموس المعجمي (إنجليزي ← عربي)' : 'القاموس المعجمي (عربي ← إنجليزي)'}
-                      </span>
-                      <h3 className={`text-2xl font-bold bg-white px-3 py-1 rounded-lg border border-amber-200 text-stone-900 ${
-                        directLexicalResult.dir === 'en-ar' ? 'font-sans dir-ltr' : 'font-amiri'
-                      }`}>
-                        {directLexicalResult.word}
-                      </h3>
+                      {filteredRows.length === 0 ? (
+                        <p className="paper-empty-notice">لا توجد فقرات مطابقة للبحث</p>
+                      ) : (
+                        filteredRows.map((row) => (
+                          <div
+                            key={row.id}
+                            id={`sentence-${row.id}`}
+                            onClick={() => setActiveRowId(row.id)}
+                            onMouseEnter={() => setActiveRowId(row.id)}
+                            className={`paper-sentence-row paper-row-ar ${activeRowId === row.id ? 'active-row' : ''}`}
+                          >
+                            <p 
+                              className="text-ar"
+                              style={{ 
+                                fontFamily: `${arabicFont}, serif`, 
+                                fontSize: `${fontSize}px`, 
+                                lineHeight: lineHeight 
+                              }}
+                            >
+                              {parseInteractiveTokens(row.arabic, 'ar-en')}
+                            </p>
+                          </div>
+                        ))
+                      )}
                     </div>
 
-                    <div className="space-y-2">
-                      <span className="text-xs font-bold text-stone-500 font-mono">
-                        {directLexicalResult.dir === 'en-ar' ? 'أبرز 1–3 معانٍ عربية مختصرة:' : 'أبرز 2–3 معانٍ إنجليزية مختصرة:'}
-                      </span>
-                      {directLexicalResult.dir === 'en-ar' ? (
-                        <div className="flex flex-wrap gap-2 dir-rtl text-right pt-1">
-                          {directLexicalResult.meanings.map((m, idx) => (
-                            <span 
-                              key={idx} 
-                              className="inline-flex items-center px-3.5 py-1.5 rounded-lg text-base font-bold bg-white text-amber-950 border border-amber-300 shadow-2xs font-amiri"
-                            >
-                              <span className="text-xs font-mono text-amber-700 ml-2">{idx + 1}.</span>
-                              {m}
-                            </span>
-                          ))}
-                        </div>
+                    {/* English Page (Left Page) */}
+                    <div 
+                      ref={enPaneRef}
+                      className="paper-page-column paper-page-en"
+                    >
+                      {filteredRows.length === 0 ? (
+                        <p className="paper-empty-notice">No matching sentences found</p>
                       ) : (
-                        <div className="flex flex-wrap gap-2 dir-ltr text-left pt-1">
-                          {directLexicalResult.meanings.map((m, idx) => (
-                            <span 
-                              key={idx} 
-                              className="inline-flex items-center px-3.5 py-1.5 rounded-lg text-base font-bold bg-white text-amber-950 border border-amber-300 shadow-2xs font-sans"
+                        filteredRows.map((row) => (
+                          <div
+                            key={row.id}
+                            onClick={() => setActiveRowId(row.id)}
+                            onMouseEnter={() => setActiveRowId(row.id)}
+                            className={`paper-sentence-row paper-row-en ${activeRowId === row.id ? 'active-row' : ''}`}
+                          >
+                            <p 
+                              className="text-en" 
+                              style={{ 
+                                fontFamily: `${englishFont}, serif`, 
+                                fontSize: `${Math.round(fontSize * 0.84)}px`, 
+                                lineHeight: lineHeight 
+                              }}
                             >
-                              <span className="text-xs font-mono text-amber-600 mr-2">{idx + 1}.</span>
-                              {m}
-                            </span>
-                          ))}
-                        </div>
+                              {parseInteractiveTokens(row.english, 'en-ar')}
+                            </p>
+                          </div>
+                        ))
                       )}
                     </div>
                   </div>
+                )}
 
-                </div>
-              ) : searchTerm && directLexicalResult ? (
-                <div className="bg-stone-50 p-8 rounded-xl border border-stone-200 text-center space-y-1">
-                  <Info className="w-8 h-8 text-stone-400 mx-auto mb-2" />
-                  <p className="text-stone-600 font-semibold">لم نعثر على مدخل معجمي لـ "{searchTerm}"</p>
-                  <p className="text-stone-400 text-xs max-w-sm mx-auto leading-relaxed">
-                    تأكد من كتابة الكلمة بشكل صحيح (سواء بالعربية أو الإنجليزية) أو جرب صيغة مجردة.
-                  </p>
-                </div>
-              ) : null}
-            </div>
+                {/* INTERLEAVED MODE */}
+                {layoutMode === 'interleaved' && (
+                  <div className="paper-interleaved-spread">
+                    {filteredRows.map((row) => (
+                      <div
+                        key={row.id}
+                        id={`sentence-${row.id}`}
+                        onClick={() => setActiveRowId(row.id)}
+                        onMouseEnter={() => setActiveRowId(row.id)}
+                        className={`paper-interleaved-row ${activeRowId === row.id ? 'active-row' : ''}`}
+                      >
+                        <p 
+                          className="text-ar mb-1.5" 
+                          style={{ 
+                            fontFamily: `${arabicFont}, serif`, 
+                            fontSize: `${fontSize}px`, 
+                            lineHeight: lineHeight 
+                          }}
+                        >
+                          {parseInteractiveTokens(row.arabic, 'ar-en')}
+                        </p>
+                        <p 
+                          className="text-en" 
+                          style={{ 
+                            fontFamily: `${englishFont}, serif`, 
+                            fontSize: `${Math.round(fontSize * 0.84)}px`, 
+                            lineHeight: lineHeight 
+                          }}
+                        >
+                          {parseInteractiveTokens(row.english, 'en-ar')}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                )}
 
-            {/* Dataset Metadata Information Card */}
-            <div className="max-w-xl mx-auto bg-stone-100/70 rounded-xl p-4 border border-stone-200/80 text-xs text-stone-600 space-y-2">
-              <div className="flex items-center justify-between border-b border-stone-200 pb-2">
-                <span className="font-bold text-stone-800 flex items-center gap-1.5">
-                  <Info className="w-3.5 h-3.5 text-amber-800" />
-                  معلومات مصدر القاموس المعجمي (Metadata)
-                </span>
-                <span className="text-[10px] bg-stone-200 text-stone-700 px-2 py-0.5 rounded font-mono">Apache 2.0 / Open Access</span>
+                {/* FOCUS MODE */}
+                {layoutMode === 'focus' && (
+                  <div className="paper-focus-spread">
+                    {filteredRows.map((row) => (
+                      <div
+                        key={row.id}
+                        id={`sentence-${row.id}`}
+                        onClick={() => setActiveRowId(row.id)}
+                        className={`paper-focus-row group ${activeRowId === row.id ? 'active-row' : ''}`}
+                      >
+                        <p 
+                          className="text-ar mb-2" 
+                          style={{ 
+                            fontFamily: `${arabicFont}, serif`, 
+                            fontSize: `${fontSize + 1}px`, 
+                            lineHeight: lineHeight 
+                          }}
+                        >
+                          {parseInteractiveTokens(row.arabic, 'ar-en')}
+                        </p>
+                        <div className="opacity-40 group-hover:opacity-100 transition-opacity">
+                          <p 
+                            className="text-en" 
+                            style={{ 
+                              fontFamily: `${englishFont}, serif`, 
+                              fontSize: `${Math.round(fontSize * 0.84)}px` 
+                            }}
+                          >
+                            {row.english}
+                          </p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                )}
               </div>
-              <p className="leading-relaxed">
-                مستخرج ومُنقّح من قاعدة بيانات <span className="font-mono text-amber-900 font-semibold">DrAbdulmalek/arabic-dictionaries-master</span> على Hugging Face، ومخصص حصراً للبحث المعجمي الفوري المتبادل بين اللغتين (عربي ⇄ إنجليزي) بحد أقصى 3 معانٍ موجزة ومباشرة للمفردات.
-              </p>
-              <div className="flex items-center justify-between text-[11px] text-stone-500 pt-1 font-mono">
-                <span>المداخل المعجمية المنقحة: 98,000+ مدخل متبادل</span>
-                <a 
-                  href="https://huggingface.co/datasets/DrAbdulmalek/arabic-dictionaries-master" 
-                  target="_blank" 
-                  rel="noreferrer"
-                  className="text-amber-800 hover:underline"
+
+              {/* ================= BOTTOM SETTINGS & CONTROLS TOOLBAR ================= */}
+              {/* شريط الإعدادات والتحكم في الأسفل كما في القارئ الإلكتروني الحديث */}
+              <footer className="ereader-bottom-toolbar">
+                {/* 1. Theme Quick Selector */}
+                <div className="ereader-toolbar-group" title="تغيير لون ومظهر الورق">
+                  <button
+                    onClick={() => setTheme('parchment')}
+                    className={`theme-dot-btn theme-dot-parchment ${theme === 'parchment' ? 'active' : ''}`}
+                    title="ورق عتيق دافئ"
+                  />
+                  <button
+                    onClick={() => setTheme('obsidian')}
+                    className={`theme-dot-btn theme-dot-obsidian ${theme === 'obsidian' ? 'active' : ''}`}
+                    title="عقيق الليل الداكن"
+                  />
+                  <button
+                    onClick={() => setTheme('emerald')}
+                    className={`theme-dot-btn theme-dot-emerald ${theme === 'emerald' ? 'active' : ''}`}
+                    title="زمرد هادئ مريح للعين"
+                  />
+                </div>
+
+                {/* 2. Quick Font Size Resizer */}
+                <div className="ereader-toolbar-group bg-black/10 dark:bg-white/5 p-1 rounded-xl border border-black/5 dark:border-white/10" title="تعديل حجم الخط">
+                  <button
+                    onClick={() => setFontSize(prev => Math.max(14, prev - 2))}
+                    className="font-size-btn"
+                    title="تصغير الخط"
+                  >
+                    A-
+                  </button>
+                  <span className="text-xs font-mono font-bold px-1.5 min-w-[34px] text-center opacity-85">
+                    {fontSize}
+                  </span>
+                  <button
+                    onClick={() => setFontSize(prev => Math.min(32, prev + 2))}
+                    className="font-size-btn"
+                    title="تكبير الخط"
+                  >
+                    A+
+                  </button>
+                </div>
+
+                {/* 3. Layout Mode Quick Selector */}
+                <div className="ereader-toolbar-group hidden sm:flex bg-black/10 dark:bg-white/5 p-1 rounded-xl border border-black/5 dark:border-white/10">
+                  <button
+                    onClick={() => setLayoutMode('dual')}
+                    className={`paper-layout-btn px-2 py-1 text-xs gap-1.5 ${layoutMode === 'dual' ? 'active' : ''}`}
+                    title="صفحتان متقابلتان"
+                  >
+                    <i className="fa-solid fa-columns"></i>
+                    <span className="hidden md:inline">متقابل</span>
+                  </button>
+                  <button
+                    onClick={() => setLayoutMode('interleaved')}
+                    className={`paper-layout-btn px-2 py-1 text-xs gap-1.5 ${layoutMode === 'interleaved' ? 'active' : ''}`}
+                    title="متداخل سطر بسطر"
+                  >
+                    <i className="fa-solid fa-bars-staggered"></i>
+                    <span className="hidden md:inline">متداخل</span>
+                  </button>
+                  <button
+                    onClick={() => setLayoutMode('focus')}
+                    className={`paper-layout-btn px-2 py-1 text-xs gap-1.5 ${layoutMode === 'focus' ? 'active' : ''}`}
+                    title="نمط التركيز"
+                  >
+                    <i className="fa-solid fa-eye"></i>
+                    <span className="hidden md:inline">تركيز</span>
+                  </button>
+                </div>
+
+                {/* 4. Reading Progress Navigation Slider */}
+                <div className="ereader-progress-slider hidden lg:flex">
+                  <button
+                    onClick={() => {
+                      if (filteredRows.length === 0) return;
+                      const idx = filteredRows.findIndex(r => r.id === activeRowId);
+                      const targetIdx = idx > 0 ? idx - 1 : filteredRows.length - 1;
+                      handleJumpToSentence(filteredRows[targetIdx].id);
+                    }}
+                    className="font-size-btn"
+                    title="الفقرة السابقة"
+                  >
+                    <i className="fa-solid fa-chevron-right text-xs"></i>
+                  </button>
+                  <input
+                    type="range"
+                    min="0"
+                    max={Math.max(0, filteredRows.length - 1)}
+                    value={Math.max(0, filteredRows.findIndex(r => r.id === activeRowId))}
+                    onChange={(e) => {
+                      const idx = Number(e.target.value);
+                      if (filteredRows[idx]) handleJumpToSentence(filteredRows[idx].id);
+                    }}
+                    title="شريط التقديم والترجيع في الكتاب"
+                  />
+                  <button
+                    onClick={() => {
+                      if (filteredRows.length === 0) return;
+                      const idx = filteredRows.findIndex(r => r.id === activeRowId);
+                      const targetIdx = idx < filteredRows.length - 1 ? idx + 1 : 0;
+                      handleJumpToSentence(filteredRows[targetIdx].id);
+                    }}
+                    className="font-size-btn"
+                    title="الفقرة التالية"
+                  >
+                    <i className="fa-solid fa-chevron-left text-xs"></i>
+                  </button>
+                </div>
+
+                {/* 5. Read Aloud / Audio Button */}
+                <button
+                  onClick={handleReadAloud}
+                  className={`paper-action-btn ${isSpeaking ? 'active ring-2 ring-purple-400 animate-pulse' : ''}`}
+                  title={isSpeaking ? 'إيقاف القراءة الصوتية' : 'استماع للفقرة المحددة (نطق صوتي ثنائي اللغة)'}
                 >
-                  رابط المصدر على Hugging Face ↗
-                </a>
+                  <i className={`fa-solid ${isSpeaking ? 'fa-stop' : 'fa-volume-high'} text-sm`}></i>
+                  <span className="hidden md:inline">{isSpeaking ? 'إيقاف' : 'استماع'}</span>
+                </button>
+
+                {/* 6. Settings Drawer Trigger */}
+                <button
+                  onClick={() => setShowSettings(true)}
+                  className="paper-action-btn"
+                  title="فتح لوحة إعدادات الخطوط والتباعد والتزامن"
+                >
+                  <i className="fa-solid fa-sliders text-sm"></i>
+                  <span>الإعدادات</span>
+                </button>
+              </footer>
+
+            </article>
+          </div>
+        </div>
+      ) : (
+        /* ================= MAIN APPLICATION LAYOUT ================= */
+        <div className="app-container">
+          {/* Ambient background glow orbs */}
+          <div className="ambient-background">
+            <div className="ambient-orb orb-1"></div>
+            <div className="ambient-orb orb-2"></div>
+          </div>
+
+          {/* ================= HEADER ================= */}
+          <header className="header">
+            <div className="header-content">
+              
+              {/* Brand */}
+              <button 
+                onClick={() => setActiveTab('workspace')}
+                className="header-brand"
+              >
+                <img src={customAppLogo} alt="Logo" className="header-brand-logo-img" />
+                <div>
+                  <div className="header-brand-title">محراب القراءة المتوازية</div>
+                </div>
+              </button>
+
+              {/* Desktop Navigation */}
+              <nav className="header-nav">
+                <button
+                  onClick={() => setActiveTab('workspace')}
+                  className={`nav-item ${activeTab === 'workspace' ? 'active' : ''}`}
+                >
+                  <i className="fa-solid fa-pen-to-square"></i>
+                  <span>إعداد النصوص</span>
+                </button>
+
+                <button
+                  onClick={() => setActiveTab('library')}
+                  className={`nav-item ${activeTab === 'library' ? 'active' : ''}`}
+                >
+                  <i className="fa-solid fa-lines-leaning"></i>
+                  <span>المكتبة</span>
+                </button>
+
+                <button
+                  onClick={() => setActiveTab('lexicon')}
+                  className={`nav-item ${activeTab === 'lexicon' ? 'active' : ''}`}
+                >
+                  <i className="fa-solid fa-magnifying-glass"></i>
+                  <span>المعجم</span>
+                </button>
+
+                <button
+                  onClick={() => setActiveTab('notebook')}
+                  className={`nav-item ${activeTab === 'notebook' ? 'active' : ''}`}
+                >
+                  <i className="fa-solid fa-bookmark"></i>
+                  <span>المفردات ({savedWords.length})</span>
+                </button>
+              </nav>
+
+              {/* Header Actions */}
+              <div className="header-actions">
+                {/* Theme switcher */}
+                <div className="flex items-center gap-1 bg-black/30 p-1 rounded-xl border border-white/10">
+                  <button
+                    onClick={() => setTheme('obsidian')}
+                    title="نمط العقيق الأسود"
+                    className={`w-7 h-7 rounded-lg flex items-center justify-center transition-all ${
+                      theme === 'obsidian' ? 'bg-purple-600/40 text-purple-300' : 'text-slate-400 hover:text-white'
+                    }`}
+                  >
+                    <i className="fa-solid fa-moon text-xs"></i>
+                  </button>
+                  <button
+                    onClick={() => setTheme('parchment')}
+                    title="نمط المخطوطة العاجية"
+                    className={`w-7 h-7 rounded-lg flex items-center justify-center transition-all ${
+                      theme === 'parchment' ? 'bg-amber-800/40 text-amber-300' : 'text-slate-400 hover:text-amber-200'
+                    }`}
+                  >
+                    <i className="fa-solid fa-scroll text-xs"></i>
+                  </button>
+                  <button
+                    onClick={() => setTheme('emerald')}
+                    title="نمط الزمرد الأندلسي"
+                    className={`w-7 h-7 rounded-lg flex items-center justify-center transition-all ${
+                      theme === 'emerald' ? 'bg-emerald-800/40 text-emerald-300' : 'text-slate-400 hover:text-emerald-200'
+                    }`}
+                  >
+                    <i className="fa-solid fa-gem text-xs"></i>
+                  </button>
+                </div>
+              </div>
+
+            </div>
+          </header>
+
+          {/* ================= MAIN CONTENT ================= */}
+          <main className="main-content">
+
+            {/* --- VIEW 1: TEXT WORKSPACE & START WORK ("بدء العمل") --- */}
+            {activeTab === 'workspace' && (
+              <div className="view-enter max-w-5xl mx-auto space-y-6">
+                
+                {/* The Two Parallel Text Editors */}
+                <div className="alignment-grid">
+                  {/* Arabic Input */}
+                  <div className="alignment-editor">
+                    <div className="alignment-editor-header">
+                      <div className="flex items-center gap-2">
+                        <i className="fa-solid fa-font text-purple-400"></i>
+                        <h3 className="font-bold text-white text-sm">النص العربي</h3>
+                      </div>
+                      <button
+                        onClick={() => setNewArabicText('')}
+                        className="text-xs text-slate-400 hover:text-red-300"
+                        title="مسح"
+                      >
+                        <i className="fa-solid fa-xmark"></i>
+                      </button>
+                    </div>
+                    <textarea
+                      rows={12}
+                      value={newArabicText}
+                      onChange={(e) => setNewArabicText(e.target.value)}
+                      placeholder="الصق النص العربي هنا..."
+                      className="form-textarea w-full text-ar leading-relaxed"
+                    />
+                  </div>
+
+                  {/* English / Foreign Input */}
+                  <div className="alignment-preview">
+                    <div className="alignment-editor-header">
+                      <div className="flex items-center gap-2">
+                        <i className="fa-solid fa-language text-purple-400"></i>
+                        <h3 className="font-bold text-white text-sm">English Parallel Text</h3>
+                      </div>
+                      <button
+                        onClick={() => setNewEnglishText('')}
+                        className="text-xs text-slate-400 hover:text-red-300"
+                        title="Clear"
+                      >
+                        <i className="fa-solid fa-xmark"></i>
+                      </button>
+                    </div>
+                    <textarea
+                      rows={12}
+                      value={newEnglishText}
+                      onChange={(e) => setNewEnglishText(e.target.value)}
+                      placeholder="Paste parallel English text here..."
+                      className="form-textarea w-full text-en leading-relaxed"
+                    />
+                  </div>
+                </div>
+
+                {/* Book Metadata and Hero Start Button */}
+                <div className="workspace-card space-y-4">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                      <label className="form-label">العنوان</label>
+                      <input
+                        type="text"
+                        value={newTitle}
+                        onChange={(e) => setNewTitle(e.target.value)}
+                        placeholder="عنوان النص أو الكتاب..."
+                        className="form-input w-full"
+                      />
+                    </div>
+                    <div>
+                      <label className="form-label">المؤلف</label>
+                      <input
+                        type="text"
+                        value={newAuthor}
+                        onChange={(e) => setNewAuthor(e.target.value)}
+                        placeholder="اسم المؤلف أو المترجم..."
+                        className="form-input w-full"
+                      />
+                    </div>
+                  </div>
+
+                  {/* The Hero "بدء العمل" Button */}
+                  <div className="flex items-center justify-center pt-2">
+                    <button
+                      onClick={handleAutoAlign}
+                      disabled={!newArabicText.trim() || !newEnglishText.trim() || isAligning}
+                      className="btn-start-action"
+                    >
+                      <i className={`fa-solid ${isAligning ? 'fa-spinner fa-spin' : 'fa-play'}`}></i>
+                      <span>بدء العمل</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {/* --- VIEW 2: COMPREHENSIVE LEXICON EXPLORER --- */}
+            {activeTab === 'lexicon' && (
+              <div className="view-enter max-w-4xl mx-auto space-y-6">
+                <div>
+                  <h2 className="section-title">المعجم</h2>
+                </div>
+
+                {/* Search Box */}
+                <div className="library-controls flex-col items-stretch gap-3">
+                  <div className="flex items-center gap-3">
+                    <div className="relative flex-1">
+                      <input
+                        type="text"
+                        value={lexiconQuery}
+                        onChange={(e) => setLexiconQuery(e.target.value)}
+                        placeholder={lexiconDirection === 'ar-en' ? 'اكتب الكلمة بالعربية...' : 'Type English word...'}
+                        className="search-box w-full text-base py-3"
+                        autoFocus
+                      />
+                      {lexiconQuery && (
+                        <button 
+                          onClick={() => setLexiconQuery('')} 
+                          className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white"
+                          title="مسح"
+                        >
+                          <i className="fa-solid fa-xmark"></i>
+                        </button>
+                      )}
+                    </div>
+
+                    <button
+                      onClick={() => setLexiconDirection(prev => prev === 'ar-en' ? 'en-ar' : 'ar-en')}
+                      className="btn btn-secondary shrink-0"
+                    >
+                      <i className="fa-solid fa-right-left"></i>
+                      <span>{lexiconDirection === 'ar-en' ? 'عربي ➔ إنجليزي' : 'English ➔ Arabic'}</span>
+                    </button>
+                  </div>
+                </div>
+
+                {/* Search Result */}
+                {lexiconLoading ? (
+                  <div className="text-center py-12 text-slate-400">
+                    <i className="fa-solid fa-spinner fa-spin text-2xl mb-2 text-purple-400"></i>
+                    <p className="text-xs">جارٍ البحث...</p>
+                  </div>
+                ) : lexiconResult && lexiconResult.meanings.length > 0 ? (
+                  <div className="interleaved-card card-active p-6 space-y-4">
+                    <div className="flex items-start justify-between">
+                      <div>
+                        <h3 className="text-xl font-bold font-serif text-white mb-1">
+                          {lexiconResult.word}
+                        </h3>
+                      </div>
+
+                      <div className="flex items-center gap-2">
+                        <button
+                          onClick={() => speak(lexiconResult.word, lexiconDirection === 'ar-en' ? 'ar' : 'en')}
+                          className="btn btn-secondary py-1.5 px-3 text-xs"
+                          title="استمع للنطق"
+                        >
+                          <i className="fa-solid fa-volume-high"></i>
+                        </button>
+                        <button
+                          onClick={() => handleToggleSaveWord({
+                            word: lexiconResult.word,
+                            meanings: lexiconResult.meanings,
+                            direction: lexiconDirection
+                          })}
+                          className={`btn ${isWordSaved(lexiconResult.word) ? 'btn-primary' : 'btn-secondary'} py-1.5 px-3 text-xs`}
+                        >
+                          <i className={`fa-solid ${isWordSaved(lexiconResult.word) ? 'fa-check' : 'fa-bookmark'}`}></i>
+                          <span>{isWordSaved(lexiconResult.word) ? 'محفوظة' : 'حفظ'}</span>
+                        </button>
+                      </div>
+                    </div>
+
+                    <div className="pt-3 border-t border-white/10">
+                      <div className="flex flex-wrap gap-2">
+                        {lexiconResult.meanings.map((m, i) => (
+                          <span key={i} className="btn btn-secondary py-1 px-3 text-sm text-purple-200">
+                            {m}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                ) : lexiconQuery ? (
+                  <div className="text-center py-12 text-slate-400 interleaved-card">
+                    <p>لا توجد نتائج مطابقة</p>
+                  </div>
+                ) : null}
+
+              </div>
+            )}
+
+            {/* --- VIEW 3: VOCABULARY NOTEBOOK & FLASHCARDS --- */}
+            {activeTab === 'notebook' && (
+              <div className="view-enter max-w-4xl mx-auto space-y-6">
+                <div className="flex items-center justify-between flex-wrap gap-4">
+                  <div>
+                    <h2 className="section-title">المفردات ({savedWords.length})</h2>
+                  </div>
+
+                  {savedWords.length > 0 && (
+                    <button
+                      onClick={() => {
+                        setStudyCardIndex(0);
+                        setIsFlipped(false);
+                        setShowFlashcards(true);
+                      }}
+                      className="btn btn-primary"
+                    >
+                      <i className="fa-solid fa-graduation-cap"></i>
+                      <span>مراجعة البطاقات</span>
+                    </button>
+                  )}
+                </div>
+
+                {savedWords.length === 0 ? (
+                  <div className="interleaved-card text-center py-16">
+                    <i className="fa-solid fa-bookmark text-3xl text-slate-600 mb-2"></i>
+                    <p className="text-slate-400">لا توجد مفردات محفوظة</p>
+                  </div>
+                ) : (
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {savedWords.map((item) => (
+                      <div key={item.id} className="vocab-card">
+                        <div className="flex items-start justify-between mb-3">
+                          <div>
+                            <h4 className="text-xl font-bold font-serif text-white">{item.word}</h4>
+                          </div>
+
+                          <div className="flex items-center gap-1">
+                            <button
+                              onClick={() => speak(item.word, item.direction === 'ar-en' ? 'ar' : 'en')}
+                              className="btn btn-ghost py-1 px-2 text-xs"
+                              title="نطق"
+                            >
+                              <i className="fa-solid fa-volume-high"></i>
+                            </button>
+                            <button
+                              onClick={() => handleToggleSaveWord(item)}
+                              className="btn btn-ghost py-1 px-2 text-xs text-red-400 hover:text-red-300"
+                              title="حذف"
+                            >
+                              <i className="fa-solid fa-trash"></i>
+                            </button>
+                          </div>
+                        </div>
+
+                        <div className="pt-2 border-t border-white/5">
+                          <div className="flex flex-wrap gap-1.5">
+                            {item.meanings.map((m, i) => (
+                              <span key={i} className="btn btn-secondary py-0.5 px-2.5 text-xs text-purple-200">
+                                {m}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            )}
+
+            {/* --- VIEW 4: LIBRARY --- */}
+            {activeTab === 'library' && (
+              <div className="view-enter space-y-6">
+                <div className="flex items-center justify-between flex-wrap gap-4">
+                  <div>
+                    <h2 className="section-title">المكتبة ({books.length})</h2>
+                  </div>
+
+                  <button
+                    onClick={() => setActiveTab('workspace')}
+                    className="btn btn-primary"
+                  >
+                    <i className="fa-solid fa-plus"></i>
+                    <span>إعداد نص جديد</span>
+                  </button>
+                </div>
+
+                {/* Library Search */}
+                {books.length > 0 && (
+                  <div className="library-controls">
+                    <input
+                      type="text"
+                      value={searchFilter}
+                      onChange={(e) => setSearchFilter(e.target.value)}
+                      placeholder="ابحث في عناوين الكتب أو أسماء المؤلفين..."
+                      className="search-box"
+                    />
+                  </div>
+                )}
+
+                {/* Books Grid & Empty State */}
+                {filteredBooks.length === 0 ? (
+                  <div className="interleaved-card text-center py-16 space-y-4">
+                    <div className="w-16 h-16 rounded-full bg-purple-900/30 border border-purple-500/30 flex items-center justify-center mx-auto text-purple-300 text-2xl">
+                      <i className="fa-solid fa-book-open"></i>
+                    </div>
+                    <h3 className="text-lg font-bold text-white font-serif">المكتبة فارغة</h3>
+                    <p className="text-xs text-slate-400 max-w-md mx-auto">
+                      لم تقم بإنشاء أية كتب محلياً بعد.
+                    </p>
+                    <div className="pt-2">
+                      <button
+                        onClick={() => setActiveTab('workspace')}
+                        className="btn btn-primary px-6 py-2.5"
+                      >
+                        <i className="fa-solid fa-plus ml-1.5"></i>
+                        <span>إعداد نص جديد الآن</span>
+                      </button>
+                    </div>
+                  </div>
+                ) : (
+                  <div className="books-grid">
+                    {filteredBooks.map((book) => (
+                      <div
+                        key={book.id}
+                        onClick={() => {
+                          setCurrentBook(book);
+                          setIsReading(true);
+                        }}
+                        className="book-card cursor-pointer group"
+                      >
+                        <div className="book-cover relative">
+                          <div className="book-cover-content">
+                            <div className="book-cover-icon">
+                              <i className="fa-solid fa-book-open text-purple-400"></i>
+                            </div>
+                          </div>
+                          
+                          {/* Quick Delete Button */}
+                          <button
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              handleDeleteBook(book.id);
+                            }}
+                            className="absolute top-2 left-2 w-8 h-8 rounded-full bg-red-900/80 hover:bg-red-600 text-white flex items-center justify-center text-xs opacity-80 hover:opacity-100 transition-all shadow-md"
+                            title="حذف الكتاب من الجهاز"
+                          >
+                            <i className="fa-solid fa-trash-can"></i>
+                          </button>
+                        </div>
+
+                        <div className="book-info">
+                          <div className="book-title line-clamp-1">{book.title}</div>
+                          <div className="book-author line-clamp-1">{book.author}</div>
+                          <div className="book-meta mt-2">
+                            <i className="fa-solid fa-align-right text-xs"></i>
+                            <span>{book.alignedRows.length} فقرة مرتبطة</span>
+                          </div>
+
+                          <div className="flex items-center gap-2 mt-3">
+                            <button
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                setCurrentBook(book);
+                                setIsReading(true);
+                              }}
+                              className="btn btn-primary flex-1 py-1.5 text-xs flex items-center justify-center gap-1.5"
+                            >
+                              <i className="fa-solid fa-folder-open"></i>
+                              <span>فتح المجلد</span>
+                            </button>
+                            <button
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                handleDeleteBook(book.id);
+                              }}
+                              className="btn btn-secondary py-1.5 px-2.5 text-xs text-red-300 hover:text-red-100 hover:bg-red-900/40"
+                              title="حذف الكتاب"
+                            >
+                              <i className="fa-solid fa-trash"></i>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            )}
+
+          </main>
+
+          {/* ================= MOBILE BOTTOM NAVIGATION ================= */}
+          <nav className="mobile-bottom-nav">
+            <div className="mobile-nav-grid">
+              <button
+                onClick={() => setActiveTab('workspace')}
+                className={`mobile-nav-btn ${activeTab === 'workspace' ? 'active' : ''}`}
+              >
+                <i className="fa-solid fa-pen-to-square"></i>
+                <span>إعداد النصوص</span>
+              </button>
+
+              <button
+                onClick={() => setActiveTab('library')}
+                className={`mobile-nav-btn ${activeTab === 'library' ? 'active' : ''}`}
+              >
+                <i className="fa-solid fa-lines-leaning"></i>
+                <span>المكتبة</span>
+              </button>
+
+              <button
+                onClick={() => setActiveTab('lexicon')}
+                className={`mobile-nav-btn ${activeTab === 'lexicon' ? 'active' : ''}`}
+              >
+                <i className="fa-solid fa-magnifying-glass"></i>
+                <span>المعجم</span>
+              </button>
+
+              <button
+                onClick={() => setActiveTab('notebook')}
+                className={`mobile-nav-btn ${activeTab === 'notebook' ? 'active' : ''}`}
+              >
+                <i className="fa-solid fa-bookmark"></i>
+                <span>المفردات</span>
+              </button>
+            </div>
+          </nav>
+        </div>
+      )}
+
+      {/* ================= FLOATING SMART LEXICON CARD ================= */}
+      {selectedWord && (
+        <div className="smart-lexicon-floating">
+          <div className="flex items-center justify-between gap-3 mb-2">
+            <div className="flex items-center gap-2">
+              <h3 className="text-xl font-bold font-serif text-white">{selectedWord.word}</h3>
+              <button
+                onClick={() => speak(selectedWord.word, selectedWord.direction === 'ar-en' ? 'ar' : 'en')}
+                className={`btn btn-ghost py-1 px-2 text-purple-300 hover:text-white ${isSpeaking ? 'text-purple-400 animate-pulse' : ''}`}
+                title="استمع للنطق"
+              >
+                <i className="fa-solid fa-volume-high text-sm"></i>
+              </button>
+            </div>
+
+            <div className="flex items-center gap-1">
+              {selectedWord.meanings.length > 0 && (
+                <button
+                  onClick={() => handleCopyMeanings(selectedWord.meanings.join(', '))}
+                  className="btn btn-ghost py-1 px-2 text-xs text-purple-300 hover:text-white"
+                  title="نسخ"
+                >
+                  <i className={`fa-solid ${copyFeedback ? 'fa-check text-emerald-400' : 'fa-copy'}`}></i>
+                  {copyFeedback && <span className="text-xs mr-1 text-emerald-400 font-sans">تم</span>}
+                </button>
+              )}
+              <button
+                onClick={() => handleToggleSaveWord(selectedWord)}
+                className={`btn ${isWordSaved(selectedWord.word) ? 'btn-primary' : 'btn-secondary'} py-1 px-2.5 text-xs`}
+                title={isWordSaved(selectedWord.word) ? 'محفوظة' : 'حفظ'}
+              >
+                <i className={`fa-solid ${isWordSaved(selectedWord.word) ? 'fa-check' : 'fa-bookmark'}`}></i>
+              </button>
+              <button
+                onClick={() => setSelectedWord(null)}
+                className="btn btn-ghost py-1 px-2 text-slate-400 hover:text-white"
+                title="إغلاق"
+              >
+                <i className="fa-solid fa-xmark"></i>
+              </button>
+            </div>
+          </div>
+
+          <div className="pt-2 border-t border-white/10">
+            {selectedWord.loading ? (
+              <div className="flex items-center gap-2 text-xs text-slate-400 py-1">
+                <i className="fa-solid fa-spinner fa-spin text-purple-400"></i>
+                <span>جارٍ البحث...</span>
+              </div>
+            ) : selectedWord.meanings.length > 0 ? (
+              <div className="flex flex-wrap gap-2">
+                {selectedWord.meanings.map((m, idx) => (
+                  <span
+                    key={idx}
+                    className="btn btn-secondary py-1 px-3 text-sm text-purple-200"
+                  >
+                    {m}
+                  </span>
+                ))}
+              </div>
+            ) : (
+              <p className="text-xs text-slate-400 py-1">
+                لا توجد ترجمة مسجلة لهذه الكلمة
+              </p>
+            )}
+          </div>
+        </div>
+      )}
+
+      {/* ================= FLASHCARD STUDY MODAL ================= */}
+      {showFlashcards && savedWords.length > 0 && (
+        <div className="modal-overlay active">
+          <div className="modal-card">
+            <div className="modal-header">
+              <h2 className="text-base font-bold text-white">
+                بطاقة {studyCardIndex + 1} / {savedWords.length}
+              </h2>
+              <button onClick={() => setShowFlashcards(false)} className="modal-close">
+                <i className="fa-solid fa-xmark"></i>
+              </button>
+            </div>
+
+            <div className="modal-body space-y-4">
+              <div 
+                onClick={() => setIsFlipped(!isFlipped)}
+                className="interleaved-card card-active min-h-[180px] flex flex-col items-center justify-center text-center cursor-pointer select-none p-6"
+              >
+                {!isFlipped ? (
+                  <div className="space-y-2">
+                    <h3 className="text-2xl font-bold font-serif text-white">{savedWords[studyCardIndex]?.word}</h3>
+                    <p className="text-xs text-slate-400">{savedWords[studyCardIndex]?.bookTitle}</p>
+                  </div>
+                ) : (
+                  <div className="space-y-2">
+                    <div className="flex flex-wrap gap-2 justify-center">
+                      {savedWords[studyCardIndex]?.meanings.map((m, idx) => (
+                        <span key={idx} className="btn btn-secondary py-1 px-3 text-base text-violet-300">
+                          {m}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
               </div>
             </div>
 
+            <div className="modal-footer justify-between">
+              <button
+                onClick={() => speak(savedWords[studyCardIndex]?.word, savedWords[studyCardIndex]?.direction === 'ar-en' ? 'ar' : 'en')}
+                className="btn btn-secondary"
+                title="استمع للنطق"
+              >
+                <i className="fa-solid fa-volume-high"></i>
+              </button>
+
+              <div className="flex items-center gap-2">
+                <button
+                  onClick={() => {
+                    setIsFlipped(false);
+                    setStudyCardIndex(prev => (prev > 0 ? prev - 1 : savedWords.length - 1));
+                  }}
+                  className="btn btn-secondary"
+                >
+                  السابقة
+                </button>
+                <button
+                  onClick={() => {
+                    setIsFlipped(false);
+                    setStudyCardIndex(prev => (prev + 1) % savedWords.length);
+                  }}
+                  className="btn btn-primary"
+                >
+                  التالية
+                </button>
+              </div>
+            </div>
           </div>
-        )}
-
-
         </div>
-      </main>
+      )}
 
-      {/* Footer Block */}
-      <footer className="border-t border-stone-200 bg-stone-50 py-6 mt-12 mb-16 md:mb-0">
-        <div className="max-w-7xl mx-auto px-4 text-center text-xs text-stone-500 font-mono space-y-1">
-          <p>محراب القراءة الموازية — تطبيق قراءة تفاعلي علمي مفتوح المصدر يعمل محلياً بالكامل</p>
-          <p>© {new Date().getFullYear()} جميع الحقوق محفوظة لجمهور القراء والباحثين اللغويين</p>
+      {/* ================= READING SETTINGS MODAL ================= */}
+      {showSettings && (
+        <div className="modal-overlay active" onClick={() => setShowSettings(false)}>
+          <div className="modal-card max-w-lg" onClick={(e) => e.stopPropagation()}>
+            <div className="modal-header">
+              <div className="flex items-center gap-2">
+                <i className="fa-solid fa-sliders text-purple-400"></i>
+                <h2 className="text-base font-bold font-serif text-white">إعدادات القراءة</h2>
+              </div>
+              <button onClick={() => setShowSettings(false)} className="modal-close" title="إغلاق">
+                <i className="fa-solid fa-xmark"></i>
+              </button>
+            </div>
+
+            <div className="modal-body space-y-5">
+              
+              {/* Paper Theme */}
+              <div className="space-y-2">
+                <label className="form-label text-sm font-semibold">مظهر الورق</label>
+                <div className="grid grid-cols-3 gap-2">
+                  <button
+                    onClick={() => setTheme('parchment')}
+                    className={`btn text-xs py-2 px-3 border transition-all ${
+                      theme === 'parchment'
+                        ? 'border-amber-600 bg-amber-900/30 text-amber-200 ring-2 ring-amber-500/40'
+                        : 'border-white/10 bg-black/20 text-slate-300 hover:border-amber-500/40'
+                    }`}
+                  >
+                    <i className="fa-solid fa-scroll text-sm"></i>
+                    <span>ورق عتيق</span>
+                  </button>
+
+                  <button
+                    onClick={() => setTheme('obsidian')}
+                    className={`btn text-xs py-2 px-3 border transition-all ${
+                      theme === 'obsidian'
+                        ? 'border-purple-600 bg-purple-900/30 text-purple-200 ring-2 ring-purple-500/40'
+                        : 'border-white/10 bg-black/20 text-slate-300 hover:border-purple-500/40'
+                    }`}
+                  >
+                    <i className="fa-solid fa-moon text-sm"></i>
+                    <span>عقيق الليل</span>
+                  </button>
+
+                  <button
+                    onClick={() => setTheme('emerald')}
+                    className={`btn text-xs py-2 px-3 border transition-all ${
+                      theme === 'emerald'
+                        ? 'border-emerald-600 bg-emerald-900/30 text-emerald-200 ring-2 ring-emerald-500/40'
+                        : 'border-white/10 bg-black/20 text-slate-300 hover:border-emerald-500/40'
+                    }`}
+                  >
+                    <i className="fa-solid fa-gem text-sm"></i>
+                    <span>زمرد فاخر</span>
+                  </button>
+                </div>
+              </div>
+
+              {/* Font Size */}
+              <div className="space-y-2">
+                <div className="flex items-center justify-between">
+                  <label className="form-label text-sm font-semibold">حجم الخط</label>
+                  <span className="text-purple-300 font-mono text-sm">{fontSize}px</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <button 
+                    onClick={() => setFontSize(prev => Math.max(16, prev - 2))}
+                    className="btn btn-secondary py-1.5 px-3"
+                  >
+                    A-
+                  </button>
+                  <input
+                    type="range"
+                    min="16"
+                    max="28"
+                    step="1"
+                    value={fontSize}
+                    onChange={(e) => setFontSize(Number(e.target.value))}
+                    className="flex-1 accent-purple-500 cursor-pointer"
+                  />
+                  <button 
+                    onClick={() => setFontSize(prev => Math.min(28, prev + 2))}
+                    className="btn btn-secondary py-1.5 px-3"
+                  >
+                    A+
+                  </button>
+                </div>
+              </div>
+
+              {/* Arabic Font Family */}
+              <div className="space-y-2">
+                <label className="form-label text-sm font-semibold">الخط العربي</label>
+                <div className="grid grid-cols-3 gap-2">
+                  <button
+                    onClick={() => setArabicFont('Amiri')}
+                    className={`btn text-xs py-2 border transition-all ${
+                      arabicFont === 'Amiri'
+                        ? 'btn-primary'
+                        : 'btn-secondary text-slate-300'
+                    }`}
+                    style={{ fontFamily: 'Amiri, serif' }}
+                  >
+                    الأميري
+                  </button>
+                  <button
+                    onClick={() => setArabicFont('IBM Plex Sans Arabic')}
+                    className={`btn text-xs py-2 border transition-all ${
+                      arabicFont === 'IBM Plex Sans Arabic'
+                        ? 'btn-primary'
+                        : 'btn-secondary text-slate-300'
+                    }`}
+                    style={{ fontFamily: 'IBM Plex Sans Arabic, sans-serif' }}
+                  >
+                    المهند
+                  </button>
+                  <button
+                    onClick={() => setArabicFont('Scheherazade New')}
+                    className={`btn text-xs py-2 border transition-all ${
+                      arabicFont === 'Scheherazade New'
+                        ? 'btn-primary'
+                        : 'btn-secondary text-slate-300'
+                    }`}
+                    style={{ fontFamily: 'Scheherazade New, serif' }}
+                  >
+                    النسخ
+                  </button>
+                </div>
+              </div>
+
+              {/* Line Spacing */}
+              <div className="space-y-2">
+                <label className="form-label text-sm font-semibold">تباعد الأسطر</label>
+                <div className="grid grid-cols-3 gap-2">
+                  <button
+                    onClick={() => setLineHeight(1.8)}
+                    className={`btn text-xs py-2 ${lineHeight === 1.8 ? 'btn-primary' : 'btn-secondary'}`}
+                  >
+                    مريح (1.8)
+                  </button>
+                  <button
+                    onClick={() => setLineHeight(2.2)}
+                    className={`btn text-xs py-2 ${lineHeight === 2.2 ? 'btn-primary' : 'btn-secondary'}`}
+                  >
+                    متوازن (2.2)
+                  </button>
+                  <button
+                    onClick={() => setLineHeight(2.6)}
+                    className={`btn text-xs py-2 ${lineHeight === 2.6 ? 'btn-primary' : 'btn-secondary'}`}
+                  >
+                    فسيح (2.6)
+                  </button>
+                </div>
+              </div>
+
+              {/* Layout Mode */}
+              <div className="space-y-2">
+                <label className="form-label text-sm font-semibold">نمط العرض</label>
+                <div className="grid grid-cols-3 gap-2">
+                  <button
+                    onClick={() => setLayoutMode('dual')}
+                    className={`btn text-xs py-2 ${layoutMode === 'dual' ? 'btn-primary' : 'btn-secondary'}`}
+                  >
+                    <i className="fa-solid fa-columns"></i>
+                    <span>صفحتان</span>
+                  </button>
+                  <button
+                    onClick={() => setLayoutMode('interleaved')}
+                    className={`btn text-xs py-2 ${layoutMode === 'interleaved' ? 'btn-primary' : 'btn-secondary'}`}
+                  >
+                    <i className="fa-solid fa-bars-staggered"></i>
+                    <span>متداخل</span>
+                  </button>
+                  <button
+                    onClick={() => setLayoutMode('focus')}
+                    className={`btn text-xs py-2 ${layoutMode === 'focus' ? 'btn-primary' : 'btn-secondary'}`}
+                  >
+                    <i className="fa-solid fa-eye"></i>
+                    <span>التركيز</span>
+                  </button>
+                </div>
+              </div>
+
+              {/* Sync Scroll Toggle */}
+              <div className="flex items-center justify-between pt-2 border-t border-white/10">
+                <div className="font-semibold text-sm text-white">تزامن التمرير</div>
+                <button
+                  onClick={() => setSyncScroll(!syncScroll)}
+                  className={`btn py-1.5 px-3 text-xs ${syncScroll ? 'btn-primary' : 'btn-secondary'}`}
+                >
+                  <i className="fa-solid fa-arrows-up-down"></i>
+                  <span>{syncScroll ? 'مفعّل' : 'معطّل'}</span>
+                </button>
+              </div>
+
+            </div>
+
+            <div className="modal-footer">
+              <button onClick={() => setShowSettings(false)} className="btn btn-primary w-full">
+                حفظ وإغلاق
+              </button>
+            </div>
+          </div>
         </div>
-      </footer>
+      )}
 
-      {/* Mobile Bottom Navigation Bar */}
-      <div className="md:hidden fixed bottom-0 left-0 right-0 bg-[#FAF8F5]/96 backdrop-blur-md border-t border-[#DCD7CA]/60 h-16 z-40 flex items-center justify-around px-4 shadow-lg pb-safe">
-        <button
-          onClick={() => { setCurrentTab('library'); setClickedWord(null); }}
-          className={`flex flex-col items-center justify-center gap-1 cursor-pointer transition-colors w-16 h-full ${
-            currentTab === 'library' ? 'text-[#8C6239] font-bold' : 'text-[#8E867E]'
-          }`}
-        >
-          <BookOpen className="w-5 h-5" />
-          <span className="text-[10px] font-medium leading-none">المكتبة</span>
-        </button>
-
-        {selectedBook && (
-          <button
-            onClick={() => { setCurrentTab('reader'); setClickedWord(null); }}
-            className={`flex flex-col items-center justify-center gap-1 cursor-pointer transition-colors w-16 h-full ${
-              currentTab === 'reader' ? 'text-[#8C6239] font-bold' : 'text-[#8E867E]'
-            }`}
-          >
-            <FileText className="w-5 h-5" />
-            <span className="text-[10px] font-medium leading-none">القارئ</span>
-          </button>
-        )}
-
-        <button
-          onClick={() => { setCurrentTab('dictionary'); setClickedWord(null); }}
-          className={`flex flex-col items-center justify-center gap-1 cursor-pointer transition-colors w-16 h-full ${
-            currentTab === 'dictionary' ? 'text-[#8C6239] font-bold' : 'text-[#8E867E]'
-          }`}
-        >
-          <Languages className="w-5 h-5" />
-          <span className="text-[10px] font-medium leading-none">المعجم</span>
-        </button>
-
-      </div>
-
-    </div>
+    </>
   );
 }

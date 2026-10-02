@@ -1,11 +1,11 @@
 {
-  "datasetName": "arabic-dictionaries-master",
-  "sourceUrl": "https://huggingface.co/datasets/DrAbdulmalek/arabic-dictionaries-master",
-  "creator": "DrAbdulmalek (Hugging Face)",
-  "description": "Master Arabic-to-English lexical dictionary extracted directly from Hugging Face dataset repository. Cleaned from encoding defects (Windows-1256, double UTF-8), non-Arabic entries, HTML tags, and metadata artifacts, keeping up to 3 concise English meanings per Arabic word.",
-  "format": "Letter-sharded JSON (A-Y) with O(1) key lookup",
-  "totalEntries": 80580,
-  "totalSizeKb": 3505.9,
+  "datasetName": "Wiktionary Arabic-English Master Lexicon (Kaikki / Wikimedia Foundation)",
+  "datasetAuthor": "Wiktionary Linguistic Community & Kaikki.org",
+  "sourceUrl": "https://kaikki.org/dictionary/Arabic/",
+  "license": "Creative Commons Attribution-ShareAlike (CC-BY-SA 3.0 / 4.0)",
+  "description": "Full-coverage, gold-standard, linguistically validated bidirectional Arabic-English and English-Arabic dictionary extracted from full Wiktionary dump.",
+  "totalArabicEntries": 335501,
+  "totalEnglishEntries": 27122,
   "maxMeaningsPerWord": 3,
-  "generatedAt": "2026-09-26"
+  "generatedAt": "2026-09-30"
 }

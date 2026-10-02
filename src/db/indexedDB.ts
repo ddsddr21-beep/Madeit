@@ -1,83 +1,122 @@
 export interface AlignedUnit {
   id: string;
-  arabic: string; // Arabic sentence/phrase (can be empty string for spacers)
-  english: string; // English sentence/phrase (can be empty string for spacers)
+  arabic: string;
+  english: string;
 }
 
 export interface Book {
   id: string;
   title: string;
-  author?: string;
+  author: string;
   arabicText: string;
   englishText: string;
   alignedRows: AlignedUnit[];
   createdAt: number;
-  lastReadAt: number;
+  lastReadAt?: number;
+  coverColor?: string;
 }
 
-const DB_NAME = 'BilingualReaderDB';
-const DB_VERSION = 1;
-const STORE_NAME = 'books';
+export interface SavedWord {
+  id: string;
+  word: string;
+  normalized?: string;
+  meanings: string[];
+  direction: 'ar-en' | 'en-ar';
+  bookTitle?: string;
+  savedAt: number;
+  mastered?: boolean;
+}
 
-export function initDB(): Promise<IDBDatabase> {
+const DB_NAME = 'ParallelReaderDB';
+const DB_VERSION = 2;
+const BOOKS_STORE = 'books';
+const VOCAB_STORE = 'vocabulary';
+
+export function openDB(): Promise<IDBDatabase> {
   return new Promise((resolve, reject) => {
     const request = indexedDB.open(DB_NAME, DB_VERSION);
-    
-    request.onerror = () => reject(request.error);
-    request.onsuccess = () => resolve(request.result);
-    
-    request.onupgradeneeded = () => {
-      const db = request.result;
-      if (!db.objectStoreNames.contains(STORE_NAME)) {
-        db.createObjectStore(STORE_NAME, { keyPath: 'id' });
+
+    request.onupgradeneeded = (event) => {
+      const db = (event.target as IDBOpenDBRequest).result;
+      if (!db.objectStoreNames.contains(BOOKS_STORE)) {
+        db.createObjectStore(BOOKS_STORE, { keyPath: 'id' });
+      }
+      if (!db.objectStoreNames.contains(VOCAB_STORE)) {
+        const vocabStore = db.createObjectStore(VOCAB_STORE, { keyPath: 'id' });
+        vocabStore.createIndex('word', 'word', { unique: false });
+        vocabStore.createIndex('savedAt', 'savedAt', { unique: false });
       }
     };
+
+    request.onsuccess = () => resolve(request.result);
+    request.onerror = () => reject(request.error);
+  });
+}
+
+export async function initDB(): Promise<void> {
+  await openDB();
+}
+
+export async function getAllBooks(): Promise<Book[]> {
+  const db = await openDB();
+  return new Promise((resolve, reject) => {
+    const tx = db.transaction(BOOKS_STORE, 'readonly');
+    const store = tx.objectStore(BOOKS_STORE);
+    const request = store.getAll();
+    request.onsuccess = () => resolve(request.result || []);
+    request.onerror = () => reject(request.error);
   });
 }
 
 export async function saveBook(book: Book): Promise<void> {
-  const db = await initDB();
+  const db = await openDB();
   return new Promise((resolve, reject) => {
-    const transaction = db.transaction(STORE_NAME, 'readwrite');
-    const store = transaction.objectStore(STORE_NAME);
+    const tx = db.transaction(BOOKS_STORE, 'readwrite');
+    const store = tx.objectStore(BOOKS_STORE);
     const request = store.put(book);
     request.onsuccess = () => resolve();
     request.onerror = () => reject(request.error);
   });
 }
 
-export async function getBook(id: string): Promise<Book | undefined> {
-  const db = await initDB();
-  return new Promise((resolve, reject) => {
-    const transaction = db.transaction(STORE_NAME, 'readonly');
-    const store = transaction.objectStore(STORE_NAME);
-    const request = store.get(id);
-    request.onsuccess = () => resolve(request.result);
-    request.onerror = () => reject(request.error);
-  });
-}
-
-export async function getAllBooks(): Promise<Book[]> {
-  const db = await initDB();
-  return new Promise((resolve, reject) => {
-    const transaction = db.transaction(STORE_NAME, 'readonly');
-    const store = transaction.objectStore(STORE_NAME);
-    const request = store.getAll();
-    request.onsuccess = () => {
-      const books = request.result || [];
-      // Sort by last read descending
-      books.sort((a, b) => b.lastReadAt - a.lastReadAt);
-      resolve(books);
-    };
-    request.onerror = () => reject(request.error);
-  });
-}
-
 export async function deleteBook(id: string): Promise<void> {
-  const db = await initDB();
+  const db = await openDB();
   return new Promise((resolve, reject) => {
-    const transaction = db.transaction(STORE_NAME, 'readwrite');
-    const store = transaction.objectStore(STORE_NAME);
+    const tx = db.transaction(BOOKS_STORE, 'readwrite');
+    const store = tx.objectStore(BOOKS_STORE);
+    const request = store.delete(id);
+    request.onsuccess = () => resolve();
+    request.onerror = () => reject(request.error);
+  });
+}
+
+export async function getAllSavedWords(): Promise<SavedWord[]> {
+  const db = await openDB();
+  return new Promise((resolve, reject) => {
+    const tx = db.transaction(VOCAB_STORE, 'readonly');
+    const store = tx.objectStore(VOCAB_STORE);
+    const request = store.getAll();
+    request.onsuccess = () => resolve(request.result || []);
+    request.onerror = () => reject(request.error);
+  });
+}
+
+export async function saveWordEntry(entry: SavedWord): Promise<void> {
+  const db = await openDB();
+  return new Promise((resolve, reject) => {
+    const tx = db.transaction(VOCAB_STORE, 'readwrite');
+    const store = tx.objectStore(VOCAB_STORE);
+    const request = store.put(entry);
+    request.onsuccess = () => resolve();
+    request.onerror = () => reject(request.error);
+  });
+}
+
+export async function deleteWordEntry(id: string): Promise<void> {
+  const db = await openDB();
+  return new Promise((resolve, reject) => {
+    const tx = db.transaction(VOCAB_STORE, 'readwrite');
+    const store = tx.objectStore(VOCAB_STORE);
     const request = store.delete(id);
     request.onsuccess = () => resolve();
     request.onerror = () => reject(request.error);
