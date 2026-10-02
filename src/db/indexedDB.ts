@@ -23,8 +23,17 @@ export interface SavedWord {
   meanings: string[];
   direction: 'ar-en' | 'en-ar';
   bookTitle?: string;
+  contextSentence?: string;
+  notes?: string;
   savedAt: number;
   mastered?: boolean;
+  level?: number; // 0: New, 1: Learning, 2: Familiar, 3: Mastered
+  streak?: number; // Consecutive correct reviews
+  reviewCount?: number; // Total review count
+  lastReviewedAt?: number; // Timestamp of last review
+  nextReviewAt?: number; // Timestamp when next review is due
+  intervalDays?: number; // Current spaced interval in days
+  easinessFactor?: number; // SM-2 Easiness Factor (default 2.5)
 }
 
 const DB_NAME = 'ParallelReaderDB';
