@@ -85,7 +85,7 @@ export default function App() {
   const [vocabFilter, setVocabFilter] = useState<'all' | 'due' | 'learning' | 'mastered'>('all');
   const [vocabView, setVocabView] = useState<'grid' | 'list'>('grid');
   const [showReviewModal, setShowReviewModal] = useState(false);
-  const [reviewMode, setReviewMode] = useState<'flashcard' | 'quiz' | 'recall' | 'matching' | 'audio'>('flashcard');
+  const [reviewMode, setReviewMode] = useState<'flashcard' | 'quiz' | 'recall' | 'matching'>('flashcard');
   const [reviewQueue, setReviewQueue] = useState<SavedWord[]>([]);
   const [reviewIndex, setReviewIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
@@ -216,45 +216,6 @@ export default function App() {
     navigator.clipboard.writeText(text);
     setCopyFeedback(true);
     setTimeout(() => setCopyFeedback(false), 2000);
-  };
-
-  // E-Reader Read Aloud / TTS function
-  const handleReadAloud = () => {
-    if (isSpeaking) {
-      window.speechSynthesis.cancel();
-      setIsSpeaking(false);
-      return;
-    }
-    
-    if (!currentBook || currentBook.alignedRows.length === 0) return;
-    const targetRow = currentBook.alignedRows.find(r => r.id === activeRowId) || currentBook.alignedRows[0];
-    if (!targetRow) return;
-
-    setActiveRowId(targetRow.id);
-
-    if (!('speechSynthesis' in window)) return;
-    window.speechSynthesis.cancel();
-
-    const arUtterance = new SpeechSynthesisUtterance(targetRow.arabic);
-    arUtterance.lang = 'ar-SA';
-    arUtterance.rate = 0.9;
-
-    const enUtterance = new SpeechSynthesisUtterance(targetRow.english);
-    enUtterance.lang = 'en-US';
-    enUtterance.rate = 0.95;
-
-    setIsSpeaking(true);
-
-    arUtterance.onend = () => {
-      window.speechSynthesis.speak(enUtterance);
-    };
-
-    enUtterance.onend = () => setIsSpeaking(false);
-    arUtterance.onerror = () => setIsSpeaking(false);
-    enUtterance.onerror = () => setIsSpeaking(false);
-
-    window.speechSynthesis.speak(arUtterance);
-    showToast('جارٍ القراءة الصوتية...');
   };
 
   // E-Reader Copy/Share active sentence
@@ -809,9 +770,6 @@ export default function App() {
         if (reviewMode === 'flashcard') handleRateCurrentWord('hard');
       } else if (e.key === '3') {
         if (reviewMode === 'flashcard') handleRateCurrentWord('good');
-      } else if (e.key === 'p' || e.key === 'P' || e.key === 'ح') {
-        const curr = reviewQueue[reviewIndex];
-        if (curr) speak(curr.word, curr.direction === 'ar-en' ? 'ar' : 'en');
       } else if (e.key === 'Escape') {
         setShowReviewModal(false);
       }
@@ -822,7 +780,7 @@ export default function App() {
   }, [showReviewModal, reviewStats.completed, reviewMode, reviewIndex, reviewQueue]);
 
   // Start Review Session
-  const startReviewSession = (mode: 'flashcard' | 'quiz' | 'recall' | 'matching' | 'audio', targetWords?: SavedWord[]) => {
+  const startReviewSession = (mode: 'flashcard' | 'quiz' | 'recall' | 'matching', targetWords?: SavedWord[]) => {
     let list = targetWords ? [...targetWords] : (vocabFilter === 'due' ? [...dueWords] : [...savedWords]);
     if (list.length === 0) list = [...savedWords];
     if (list.length === 0) {
@@ -845,11 +803,8 @@ export default function App() {
     
     if (mode === 'matching') {
       setupMatchingGame(list);
-    } else if ((mode === 'quiz' || mode === 'audio') && list[0]) {
+    } else if (mode === 'quiz' && list[0]) {
       generateQuizOptions(list[0], savedWords);
-    }
-    if (mode === 'audio' && list[0]) {
-      speak(list[0].word, list[0].direction === 'ar-en' ? 'ar' : 'en');
     }
     setRecallInput('');
     setRecallChecked(false);
@@ -1687,17 +1642,7 @@ export default function App() {
                   <i className="fa-solid fa-chevron-left text-xs"></i>
                 </button>
 
-                {/* 4. Read Aloud / Speech Toggle */}
-                <button
-                  onClick={handleReadAloud}
-                  className={`paper-action-btn ${isSpeaking ? 'active ring-1 ring-amber-400' : ''}`}
-                  title={isSpeaking ? 'إيقاف القراءة الصوتية' : 'استماع للفقرة الحالية'}
-                >
-                  <i className={`fa-solid ${isSpeaking ? 'fa-stop text-amber-400' : 'fa-volume-high'} text-sm`}></i>
-                  <span className="hidden md:inline">{isSpeaking ? 'إيقاف' : 'استماع'}</span>
-                </button>
-
-                {/* 5. Settings & Layout Popover Drawer Trigger */}
+                {/* 4. Settings & Layout Popover Drawer Trigger */}
                 <button
                   onClick={() => setShowSettings(true)}
                   className="paper-action-btn"
@@ -2741,13 +2686,6 @@ export default function App() {
           <div className="flex items-center justify-between gap-3 mb-2.5">
             <div className="flex items-center gap-2">
               <h3 className="text-xl font-bold font-serif text-white">{selectedWord.word}</h3>
-              <button
-                onClick={() => speak(selectedWord.word, selectedWord.direction === 'ar-en' ? 'ar' : 'en')}
-                className={`btn btn-ghost py-1 px-2 text-purple-300 hover:text-white ${isSpeaking ? 'text-purple-400 animate-pulse' : ''}`}
-                title="استمع للنطق"
-              >
-                <i className="fa-solid fa-volume-high text-sm"></i>
-              </button>
             </div>
 
             <div className="flex items-center gap-1">
@@ -3176,19 +3114,6 @@ export default function App() {
                             </span>
                           ))}
                         </div>
-                        <button
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            speak(
-                              reviewQueue[reviewIndex]?.word,
-                              reviewQueue[reviewIndex]?.direction === 'ar-en' ? 'ar' : 'en'
-                            );
-                          }}
-                          className="btn btn-ghost py-1 px-3 text-xs text-purple-300 hover:text-white"
-                        >
-                          <i className="fa-solid fa-volume-high ml-1"></i>
-                          <span>استمع للنطق [P]</span>
-                        </button>
                       </div>
                     </div>
                   </div>
