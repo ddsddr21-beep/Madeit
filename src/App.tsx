@@ -1766,7 +1766,7 @@ export default function App() {
           </div>
 
           {/* ================= HEADER ================= */}
-          <header className="header">
+          <aside className="header sidebar-shell" aria-label="التنقل الرئيسي">
             <div className="header-content">
               
               {/* Brand */}
@@ -1850,7 +1850,7 @@ export default function App() {
               </div>
 
             </div>
-          </header>
+          </aside>
 
           {/* ================= MAIN CONTENT ================= */}
           <main className="main-content">
