@@ -2482,7 +2482,11 @@ export default function App() {
                               </div>
 
                               {/* Action buttons */}
-                              <div className="flex items-center gap-1 shrink-0">
+                              <details className="vocab-actions-menu">
+                                <summary title="إجراءات المفردة" aria-label="إجراءات المفردة">
+                                  <i className="fa-solid fa-ellipsis"></i>
+                                </summary>
+                                <div className="vocab-actions-popover">
                                 <button
                                   onClick={() => speak(item.word, item.direction === 'ar-en' ? 'ar' : 'en')}
                                   className="btn btn-ghost py-1 px-2 text-xs text-purple-300 hover:text-white"
@@ -2516,7 +2520,8 @@ export default function App() {
                                 >
                                   <i className="fa-solid fa-trash"></i>
                                 </button>
-                              </div>
+                                </div>
+                              </details>
                             </div>
 
                             {/* Meanings */}

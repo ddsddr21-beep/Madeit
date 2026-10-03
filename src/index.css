@@ -2539,3 +2539,36 @@ body {
   .review-modal-card .study-card-front, .review-modal-card .study-card-back { min-height: 300px; padding: 2rem 1rem; }
   .review-modal-card .study-flip-card { min-height: 300px; }
 }
+
+
+/* Final density pass: one visible action, text-first meanings, quiet metadata. */
+.vocab-actions-menu { position: relative; flex-shrink: 0; }
+.vocab-actions-menu summary { list-style: none; display: inline-flex; align-items: center; justify-content: center; width: 30px; height: 30px; border-radius: 6px; color: var(--editorial-muted); cursor: pointer; }
+.vocab-actions-menu summary::-webkit-details-marker { display: none; }
+.vocab-actions-menu summary:hover { color: var(--editorial-ivory); background: rgba(255,255,255,0.06); }
+.vocab-actions-popover { position: absolute; z-index: 15; top: calc(100% + 0.35rem); left: 0; min-width: 132px; display: flex; flex-direction: column; gap: 0.15rem; padding: 0.35rem; background: var(--editorial-surface-2); border: 1px solid var(--editorial-border); border-radius: 8px; box-shadow: 0 8px 20px rgba(0,0,0,0.22); }
+.vocab-actions-popover .btn { width: 100%; justify-content: flex-start; min-height: 30px; padding: 0.35rem 0.45rem; color: var(--editorial-muted); font-size: 0.72rem; }
+.vocab-actions-popover .btn:hover { color: var(--editorial-ivory); background: rgba(255,255,255,0.06); }
+.vocab-list.vocab-grid-mode .vocab-card .btn-secondary,
+.vocab-list.vocab-list-mode .vocab-card .btn-secondary { background: transparent; box-shadow: none; }
+.vocab-list .vocab-card .flex.flex-wrap.gap-1\.5 { display: block; }
+.vocab-list .vocab-card .flex.flex-wrap.gap-1\.5 > span { display: block; width: 100%; padding: 0.1rem 0; border: 0; background: transparent; color: #d5d2cc; font-size: 0.95rem; line-height: 1.65; text-align: right; }
+.vocab-list .vocab-card .flex.flex-wrap.gap-1\.5 > span:not(:first-child) { color: var(--editorial-muted); font-size: 0.78rem; }
+.vocab-list .vocab-card .text-\[11\.5px\] { background: transparent; border: 0; padding: 0.1rem 0; }
+.vocab-list .vocab-card .vocab-level-badge { border: 0; background: transparent; padding-inline: 0; font-size: 0.68rem; }
+.vocab-list .vocab-card .text-\[10px\] { border: 0; background: transparent; padding-inline: 0.25rem; font-size: 0.68rem; }
+.vocab-list.vocab-grid-mode .vocab-card { border-color: rgba(255,255,255,0.07); }
+.vocab-list.vocab-grid-mode .vocab-card:hover { box-shadow: none; transform: none; }
+
+.review-modal-card .study-card-back .flex.flex-wrap.gap-2 { display: block; width: 100%; margin-bottom: 1rem; }
+.review-modal-card .study-card-back .flex.flex-wrap.gap-2 > span { display: block; padding: 0.18rem 0; background: transparent; border: 0; color: #d8d5cf; font-size: 1.15rem; }
+.review-modal-card .study-card-back .btn-ghost { color: var(--editorial-muted); }
+.review-modal-card .modal-header .flex.items-center.gap-1 { background: transparent; border: 0; }
+.review-modal-card .modal-header .flex.items-center.gap-1 button { border-radius: 6px; color: var(--editorial-muted); }
+.review-modal-card .modal-header .flex.items-center.gap-1 button[class*="bg-purple"],
+.review-modal-card .modal-header .flex.items-center.gap-1 button[class*="bg-emerald"] { background: rgba(139,130,216,0.1) !important; color: var(--editorial-violet-light); }
+.review-modal-card .interleaved-card { background: transparent; border-color: var(--editorial-border); box-shadow: none; border-radius: 10px; }
+.review-modal-card .interleaved-card .btn-secondary { background: transparent; border: 0; padding-inline: 0.2rem; }
+.review-modal-card .study-card-front .text-xs,
+.review-modal-card .study-card-back .text-xs { color: var(--editorial-muted); }
+.review-modal-card .study-card-front .text-\[11px\] { color: var(--editorial-muted); }
