@@ -2167,3 +2167,156 @@ body {
   .paper-page-column { max-height: 43vh; }
   .ereader-progress-slider { display: none; }
 }
+
+
+/* ======================== EDITORIAL WORKSPACE SYSTEM ========================
+   Explicit hierarchy: one primary object, a quiet context rail, and restrained controls. */
+.page-title {
+  margin-top: 0.45rem;
+  color: var(--text-primary);
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  line-height: 1.15;
+}
+.page-lede {
+  max-width: 42rem;
+  margin-top: 0.55rem;
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  line-height: 1.8;
+}
+.eyebrow-label,
+.panel-label {
+  display: block;
+  color: var(--violet-light);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1.4;
+}
+.eyebrow-label { text-transform: uppercase; }
+.panel-label { color: var(--text-muted); letter-spacing: 0; margin-bottom: 0.2rem; }
+
+.workspace-layout,
+.library-layout,
+.lexicon-layout,
+.notebook-layout {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.workspace-layout {
+  display: grid;
+  grid-template-columns: 272px minmax(0, 1fr);
+  grid-template-areas:
+    "intro intro"
+    "context main";
+  gap: 1.5rem 2rem;
+  align-items: start;
+}
+.workspace-intro { grid-area: intro; display: flex; justify-content: space-between; align-items: end; gap: 1rem; padding-bottom: 0.75rem; border-bottom: 1px solid var(--glass-border); }
+.workspace-step { color: var(--text-muted); font-size: 0.78rem; white-space: nowrap; }
+.workspace-step span { color: var(--violet-light); font-weight: 700; margin-left: 0.35rem; }
+.workspace-main { grid-area: main; min-width: 0; }
+.workspace-context { grid-area: context; min-width: 0; align-self: stretch; }
+.context-heading { padding-bottom: 1rem; margin-bottom: 0.35rem; border-bottom: 1px solid var(--glass-border); }
+.context-heading h2 { margin-top: 0.35rem; color: var(--text-primary); font-family: var(--font-serif); font-size: 1.25rem; }
+.context-heading p { margin-top: 0.3rem; color: var(--text-muted); font-size: 0.78rem; line-height: 1.7; }
+.workspace-context .grid { gap: 0.75rem; }
+.workspace-context .form-label { font-size: 0.75rem; color: var(--text-muted); }
+.workspace-context .form-input { padding: 0.62rem 0.75rem; }
+.workspace-context > div:not(.context-heading) { border-color: var(--glass-border); background: transparent; }
+
+.library-layout {
+  display: grid;
+  grid-template-columns: 248px minmax(0, 1fr);
+  grid-template-areas:
+    "heading heading"
+    "context books";
+  gap: 1.5rem 2rem;
+  align-items: start;
+}
+.library-heading { grid-area: heading; padding-bottom: 0.75rem; border-bottom: 1px solid var(--glass-border); }
+.library-heading .section-title { margin-top: 0.35rem; }
+.library-heading .page-lede { margin-top: 0.35rem; }
+.library-context { grid-area: context; display: block; align-self: start; padding: 1rem; }
+.library-context .search-box { width: 100%; min-width: 0; margin-top: 0.65rem; }
+.library-book-list { grid-area: books; display: flex; flex-direction: column; gap: 0; min-width: 0; }
+.library-book-list .book-card { display: grid; grid-template-columns: 116px minmax(0, 1fr); gap: 1rem; align-items: center; width: 100%; padding: 0.8rem 0; border: 0; border-bottom: 1px solid var(--glass-border); border-radius: 0; background: transparent; box-shadow: none; }
+.library-book-list .book-card:hover { transform: none; background: rgba(255,255,255,0.025); border-right-color: transparent; }
+.library-book-list .book-card:first-child { grid-template-columns: 220px minmax(0, 1fr); padding: 0 0 1.25rem; margin-bottom: 0.45rem; }
+.library-book-list .book-card:first-child .book-cover { aspect-ratio: 16 / 10; }
+.library-book-list .book-cover { width: 100%; margin: 0; border-radius: 9px; }
+.library-book-list .book-info { padding: 0; }
+.library-book-list .book-title { font-size: 1.12rem; }
+.library-book-list .book-card:first-child .book-title { font-size: 1.55rem; }
+.library-book-list .book-meta { font-size: 0.72rem; }
+.library-book-list .book-card:not(:first-child) .book-meta { background: transparent; padding: 0; }
+.library-book-list .book-card:not(:first-child) .book-cover { aspect-ratio: 1.35 / 1; }
+.library-book-list .book-card:not(:first-child) .btn-primary { min-height: 32px; }
+
+.lexicon-layout {
+  display: grid;
+  grid-template-columns: 272px minmax(0, 1fr);
+  grid-template-areas:
+    "heading heading"
+    "search result";
+  gap: 1.5rem 2rem;
+  align-items: start;
+}
+.lexicon-heading { grid-area: heading; padding-bottom: 0.75rem; border-bottom: 1px solid var(--glass-border); }
+.lexicon-heading .section-title { margin-top: 0.35rem; }
+.lexicon-search-panel { grid-area: search; align-self: start; padding: 1rem; }
+.lexicon-search-panel .flex.items-center { flex-direction: column; align-items: stretch; }
+.lexicon-search-panel .search-box { min-width: 0; width: 100%; font-size: 1rem; padding-block: 0.85rem; }
+.lexicon-search-panel .btn { width: 100%; }
+.lexicon-result { grid-area: result; min-height: 230px; border-radius: 14px; padding: 2rem; }
+.lexicon-result h3 { font-size: clamp(2rem, 4vw, 3rem); line-height: 1.15; }
+.lexicon-result .btn-secondary { background: transparent; }
+
+.notebook-layout { display: grid; grid-template-columns: 220px minmax(0, 1fr); grid-template-areas: "header header" "tools summary" "tools filters" "tools list"; gap: 1.25rem 2rem; align-items: start; }
+.notebook-header { grid-area: header; padding-bottom: 0.75rem; border-bottom: 1px solid var(--glass-border); }
+.notebook-tools { grid-area: tools; display: block !important; padding: 1rem !important; border-radius: 12px !important; background: var(--bg-card) !important; border-color: var(--glass-border) !important; }
+.notebook-tools > div:first-child { padding-bottom: 0.75rem; margin-bottom: 0.75rem; border-bottom: 1px solid var(--glass-border); }
+.notebook-tools > div:last-child { flex-direction: column; align-items: stretch; }
+.notebook-tools button, .notebook-tools label { justify-content: flex-start; border: 0; background: transparent; padding: 0.5rem 0; }
+.notebook-summary { grid-area: summary; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.notebook-summary .interleaved-card { border-radius: 8px; padding: 0.8rem; background: transparent; border-color: var(--glass-border); box-shadow: none; }
+.notebook-filters { grid-area: filters; margin: 0; }
+.vocab-list { grid-area: list; display: flex; flex-direction: column; gap: 0; }
+.vocab-list .vocab-card { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 1rem; align-items: center; min-height: 0; padding: 1rem 0; border: 0; border-bottom: 1px solid var(--glass-border); border-radius: 0; background: transparent; box-shadow: none; }
+.vocab-list .vocab-card:hover { transform: none; box-shadow: none; background: rgba(255,255,255,0.025); }
+.vocab-list .vocab-card > div:first-child { min-width: 0; }
+.vocab-list .vocab-card > div:last-child { border-top: 0; margin-top: 0; padding-top: 0; }
+.vocab-list .vocab-card h4 { font-size: 1.12rem; }
+.vocab-list .vocab-card .btn-secondary { background: transparent; border: 0; padding-inline: 0.35rem; }
+
+@media (max-width: 860px) {
+  .workspace-layout, .library-layout, .lexicon-layout, .notebook-layout { display: flex; flex-direction: column; gap: 1.25rem; }
+  .workspace-intro, .library-heading, .lexicon-heading, .notebook-header { width: 100%; }
+  .workspace-main, .workspace-context, .library-context, .lexicon-search-panel, .lexicon-result, .notebook-tools, .notebook-summary, .notebook-filters, .vocab-list, .library-book-list { width: 100%; }
+  .workspace-context { order: 3; }
+  .library-context { order: 2; }
+  .library-book-list { order: 3; }
+  .lexicon-search-panel { order: 2; }
+  .lexicon-result { order: 3; }
+  .notebook-tools { order: 2; }
+  .notebook-summary { order: 3; }
+  .notebook-filters { order: 4; }
+  .vocab-list { order: 5; }
+}
+
+@media (max-width: 560px) {
+  .workspace-intro { align-items: flex-start; flex-direction: column; }
+  .page-title { font-size: 2rem; }
+  .library-book-list .book-card,
+  .library-book-list .book-card:first-child { grid-template-columns: 88px minmax(0, 1fr); gap: 0.75rem; padding: 0.75rem 0; margin-bottom: 0; }
+  .library-book-list .book-card:first-child .book-title { font-size: 1.15rem; }
+  .library-book-list .book-card:first-child .book-cover { aspect-ratio: 1 / 1; }
+  .vocab-list .vocab-card { grid-template-columns: 1fr; gap: 0.35rem; }
+  .vocab-list .vocab-card > div:last-child { justify-content: flex-start; }
+  .notebook-summary { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .lexicon-result { padding: 1.25rem; }
+}

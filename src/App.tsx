@@ -1857,10 +1857,18 @@ export default function App() {
 
             {/* --- VIEW 1: TEXT WORKSPACE & START WORK ("بدء العمل") --- */}
             {activeTab === 'workspace' && (
-              <div className="view-enter max-w-5xl mx-auto space-y-6">
+              <div className="view-enter workspace-layout">
+                <div className="workspace-intro">
+                  <div>
+                    <span className="eyebrow-label">مساحة العمل</span>
+                    <h1 className="page-title">ابدأ جلسة قراءة جديدة</h1>
+                    <p className="page-lede">أدخل النصين المتوازيين، ثم دع التطبيق يرتبهما في تجربة قراءة هادئة وواضحة.</p>
+                  </div>
+                  <span className="workspace-step"><span>01</span> إعداد النص</span>
+                </div>
                 
                 {/* The Two Parallel Text Editors */}
-                <div className="alignment-grid">
+                <div className="alignment-grid workspace-main">
                   {/* Arabic Input */}
                   <div className="alignment-editor">
                     <div className="alignment-editor-header">
@@ -1971,7 +1979,12 @@ export default function App() {
                 </div>
 
                 {/* Book Metadata, Custom Sentence Delimiter, and Hero Start Button */}
-                <div className="workspace-card space-y-4">
+                <div className="workspace-card workspace-context space-y-4">
+                  <div className="context-heading">
+                    <span className="eyebrow-label">تفاصيل الجلسة</span>
+                    <h2>معلومات النص</h2>
+                    <p>اختيارات اختيارية تساعدك على تنظيم الكتاب قبل بدء القراءة.</p>
+                  </div>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
                       <label className="form-label">العنوان</label>
@@ -2081,13 +2094,16 @@ export default function App() {
 
             {/* --- VIEW 2: COMPREHENSIVE LEXICON EXPLORER --- */}
             {activeTab === 'lexicon' && (
-              <div className="view-enter max-w-4xl mx-auto space-y-6">
-                <div>
+              <div className="view-enter lexicon-layout">
+                <div className="lexicon-heading">
+                  <span className="eyebrow-label">قاموسك السريع</span>
                   <h2 className="section-title">المعجم</h2>
+                  <p className="page-lede">ابحث عن كلمة واحدة، واحصل على معناها في سياق القراءة.</p>
                 </div>
 
                 {/* Search Box */}
-                <div className="library-controls flex-col items-stretch gap-3">
+                <div className="library-controls lexicon-search-panel flex-col items-stretch gap-3">
+                  <label className="panel-label">ابحث في المعجم</label>
                   <div className="flex items-center gap-3">
                     <div className="relative flex-1">
                       <input
@@ -2126,7 +2142,7 @@ export default function App() {
                     <p className="text-xs">جارٍ البحث...</p>
                   </div>
                 ) : lexiconResult && lexiconResult.meanings.length > 0 ? (
-                  <div className="interleaved-card card-active p-6 space-y-4">
+                  <div className="interleaved-card card-active lexicon-result p-6 space-y-4">
                     <div className="flex items-start justify-between">
                       <div>
                         <h3 className="text-xl font-bold font-serif text-white mb-1">
@@ -2167,7 +2183,7 @@ export default function App() {
                     </div>
                   </div>
                 ) : lexiconQuery ? (
-                  <div className="text-center py-12 text-slate-400 interleaved-card">
+                  <div className="text-center py-12 text-slate-400 interleaved-card lexicon-result">
                     <p>لا توجد نتائج مطابقة</p>
                   </div>
                 ) : null}
@@ -2177,9 +2193,9 @@ export default function App() {
 
             {/* --- VIEW 3: VOCABULARY NOTEBOOK & SPACED REPETITION REVIEW --- */}
             {activeTab === 'notebook' && (
-              <div className="view-enter max-w-4xl mx-auto space-y-6">
+              <div className="view-enter notebook-layout">
                 {/* Header & Quick Action */}
-                <div className="flex items-center justify-between flex-wrap gap-4">
+                <div className="flex items-center justify-between flex-wrap gap-4 notebook-header">
                   <div>
                     <h2 className="section-title">المفردات والبطاقات الذكية ({savedWords.length})</h2>
                     <p className="text-xs text-slate-400 mt-0.5">
@@ -2245,7 +2261,7 @@ export default function App() {
                 </div>
 
                 {/* Vocabulary Tools Bar */}
-                <div className="flex items-center justify-between flex-wrap gap-2 p-2.5 rounded-2xl bg-black/30 border border-white/10 text-xs text-slate-300">
+                <div className="flex items-center justify-between flex-wrap gap-2 p-2.5 rounded-2xl bg-black/30 border border-white/10 text-xs text-slate-300 notebook-tools">
                   <div className="flex items-center gap-2">
                     <i className="fa-solid fa-toolbox text-purple-400"></i>
                     <span className="font-semibold text-white">أدوات إدارة البطاقات:</span>
@@ -2297,7 +2313,7 @@ export default function App() {
 
                 {/* Vocabulary Review Stats Dashboard */}
                 {savedWords.length > 0 && (
-                  <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                  <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 notebook-summary">
                     <div className="interleaved-card p-3 text-center">
                       <div className="text-xs text-slate-400 mb-1">إجمالي المفردات</div>
                       <div className="text-xl font-bold font-serif text-white">{savedWords.length}</div>
@@ -2346,7 +2362,7 @@ export default function App() {
 
                 {/* Search & Filter Controls */}
                 {savedWords.length > 0 && (
-                  <div className="flex flex-col sm:flex-row items-center justify-between gap-3 library-controls p-3">
+                  <div className="flex flex-col sm:flex-row items-center justify-between gap-3 library-controls p-3 notebook-filters">
                     {/* Search Input */}
                     <div className="relative flex-1 w-full">
                       <input
@@ -2424,7 +2440,7 @@ export default function App() {
                   </div>
                 ) : (
                   /* Cards Grid */
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div className="vocab-list">
                     {filteredSavedWords.map((item) => {
                       const level = item.level ?? 0;
                       const isMastered = item.mastered || level >= 3;
@@ -2570,10 +2586,12 @@ export default function App() {
 
             {/* --- VIEW 4: LIBRARY --- */}
             {activeTab === 'library' && (
-              <div className="view-enter space-y-6">
-                <div className="flex items-center justify-between flex-wrap gap-4">
+              <div className="view-enter library-layout">
+                <div className="flex items-center justify-between flex-wrap gap-4 library-heading">
                   <div>
+                    <span className="eyebrow-label">مكتبتك</span>
                     <h2 className="section-title">المكتبة ({books.length})</h2>
+                    <p className="page-lede">اختر كتابًا لمتابعة القراءة، أو أنشئ مساحة جديدة للنصوص المتوازية.</p>
                   </div>
 
                   <button
@@ -2587,7 +2605,8 @@ export default function App() {
 
                 {/* Library Search */}
                 {books.length > 0 && (
-                  <div className="library-controls">
+                  <div className="library-controls library-context">
+                    <span className="panel-label">تصفية المكتبة</span>
                     <input
                       type="text"
                       value={searchFilter}
@@ -2619,7 +2638,7 @@ export default function App() {
                     </div>
                   </div>
                 ) : (
-                  <div className="books-grid">
+                  <div className="books-grid library-book-list">
                     {filteredBooks.map((book) => (
                       <div
                         key={book.id}
