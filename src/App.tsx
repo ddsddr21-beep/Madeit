@@ -1134,6 +1134,18 @@ export default function App() {
     return () => clearTimeout(timer);
   }, [lexiconQuery, lexiconDirection]);
 
+  // Helper for formatting last read relative date
+  const formatLastRead = (timestamp?: number) => {
+    if (!timestamp) return 'لم يُقرأ بعد';
+    const diffHours = Math.round((Date.now() - timestamp) / (1000 * 60 * 60));
+    if (diffHours < 1) return 'قبل قليل';
+    if (diffHours < 24) return `منذ ${diffHours} س`;
+    const diffDays = Math.round(diffHours / 24);
+    if (diffDays === 1) return 'أمس';
+    if (diffDays < 30) return `منذ ${diffDays} أيام`;
+    return new Date(timestamp).toLocaleDateString('ar-EG');
+  };
+
   // Helper for relative next review time badge
   const getRelativeNextReview = (nextReviewAt?: number) => {
     if (!nextReviewAt || nextReviewAt <= Date.now()) {
@@ -1624,90 +1636,25 @@ export default function App() {
               </div>
 
               {/* ================= BOTTOM SETTINGS & CONTROLS TOOLBAR ================= */}
-              {/* شريط الإعدادات والتحكم في الأسفل كما في القارئ الإلكتروني الحديث */}
+              {/* Essential, quiet reading toolbar */}
               <footer className="ereader-bottom-toolbar">
-                {/* 1. Theme Quick Selector */}
-                <div className="ereader-toolbar-group" title="تغيير لون ومظهر الورق">
-                  <button
-                    onClick={() => setTheme('parchment')}
-                    className={`theme-dot-btn theme-dot-parchment ${theme === 'parchment' ? 'active' : ''}`}
-                    title="ورق عتيق دافئ"
-                  />
-                  <button
-                    onClick={() => setTheme('obsidian')}
-                    className={`theme-dot-btn theme-dot-obsidian ${theme === 'obsidian' ? 'active' : ''}`}
-                    title="عقيق الليل الداكن"
-                  />
-                  <button
-                    onClick={() => setTheme('emerald')}
-                    className={`theme-dot-btn theme-dot-emerald ${theme === 'emerald' ? 'active' : ''}`}
-                    title="زمرد هادئ مريح للعين"
-                  />
-                </div>
+                {/* 1. Previous Sentence */}
+                <button
+                  onClick={() => {
+                    if (filteredRows.length === 0) return;
+                    const idx = filteredRows.findIndex(r => r.id === activeRowId);
+                    const targetIdx = idx > 0 ? idx - 1 : filteredRows.length - 1;
+                    handleJumpToSentence(filteredRows[targetIdx].id);
+                  }}
+                  className="paper-action-btn"
+                  title="الفقرة السابقة"
+                >
+                  <i className="fa-solid fa-chevron-right text-xs"></i>
+                  <span className="hidden sm:inline">السابق</span>
+                </button>
 
-                {/* 2. Quick Font Size Resizer */}
-                <div className="ereader-toolbar-group bg-black/10 dark:bg-white/5 p-1 rounded-xl border border-black/5 dark:border-white/10" title="تعديل حجم الخط">
-                  <button
-                    onClick={() => setFontSize(prev => Math.max(14, prev - 2))}
-                    className="font-size-btn"
-                    title="تصغير الخط"
-                  >
-                    A-
-                  </button>
-                  <span className="text-xs font-mono font-bold px-1.5 min-w-[34px] text-center opacity-85">
-                    {fontSize}
-                  </span>
-                  <button
-                    onClick={() => setFontSize(prev => Math.min(32, prev + 2))}
-                    className="font-size-btn"
-                    title="تكبير الخط"
-                  >
-                    A+
-                  </button>
-                </div>
-
-                {/* 3. Layout Mode Quick Selector */}
-                <div className="ereader-toolbar-group hidden sm:flex bg-black/10 dark:bg-white/5 p-1 rounded-xl border border-black/5 dark:border-white/10">
-                  <button
-                    onClick={() => setLayoutMode('dual')}
-                    className={`paper-layout-btn px-2 py-1 text-xs gap-1.5 ${layoutMode === 'dual' ? 'active' : ''}`}
-                    title="الوضع الأول: عرض النصين بجانب بعضهما"
-                  >
-                    <i className="fa-solid fa-columns"></i>
-                    <span className="hidden md:inline">بجانب بعضهما</span>
-                  </button>
-                  <button
-                    onClick={() => setLayoutMode('interleaved')}
-                    className={`paper-layout-btn px-2 py-1 text-xs gap-1.5 ${layoutMode === 'interleaved' ? 'active' : ''}`}
-                    title="الوضع الثاني: عرض كل جملة وبعدها الجملة المقابلة لها"
-                  >
-                    <i className="fa-solid fa-bars-staggered"></i>
-                    <span className="hidden md:inline">جملة بمقابلة</span>
-                  </button>
-                  <button
-                    onClick={() => setLayoutMode('focus')}
-                    className={`paper-layout-btn px-2 py-1 text-xs gap-1.5 ${layoutMode === 'focus' ? 'active' : ''}`}
-                    title="الوضع الثالث: عرض أحد النصين لوحده"
-                  >
-                    <i className="fa-solid fa-eye"></i>
-                    <span className="hidden md:inline">نص واحد</span>
-                  </button>
-                </div>
-
-                {/* 4. Reading Progress Navigation Slider */}
-                <div className="ereader-progress-slider hidden lg:flex">
-                  <button
-                    onClick={() => {
-                      if (filteredRows.length === 0) return;
-                      const idx = filteredRows.findIndex(r => r.id === activeRowId);
-                      const targetIdx = idx > 0 ? idx - 1 : filteredRows.length - 1;
-                      handleJumpToSentence(filteredRows[targetIdx].id);
-                    }}
-                    className="font-size-btn"
-                    title="الفقرة السابقة"
-                  >
-                    <i className="fa-solid fa-chevron-right text-xs"></i>
-                  </button>
+                {/* 2. Compact Reading Progress Navigation Slider */}
+                <div className="ereader-progress-slider flex-1 max-w-xs flex items-center gap-2">
                   <input
                     type="range"
                     min="0"
@@ -1718,36 +1665,43 @@ export default function App() {
                       if (filteredRows[idx]) handleJumpToSentence(filteredRows[idx].id);
                     }}
                     title="شريط التقديم والترجيع في الكتاب"
+                    className="w-full"
                   />
-                  <button
-                    onClick={() => {
-                      if (filteredRows.length === 0) return;
-                      const idx = filteredRows.findIndex(r => r.id === activeRowId);
-                      const targetIdx = idx < filteredRows.length - 1 ? idx + 1 : 0;
-                      handleJumpToSentence(filteredRows[targetIdx].id);
-                    }}
-                    className="font-size-btn"
-                    title="الفقرة التالية"
-                  >
-                    <i className="fa-solid fa-chevron-left text-xs"></i>
-                  </button>
+                  <span className="text-xs font-mono font-bold opacity-80 whitespace-nowrap">
+                    {filteredRows.length > 0 ? Math.max(1, filteredRows.findIndex(r => r.id === activeRowId) + 1) : 0} / {filteredRows.length}
+                  </span>
                 </div>
 
-                {/* 5. Read Aloud / Audio Button */}
+                {/* 3. Next Sentence */}
+                <button
+                  onClick={() => {
+                    if (filteredRows.length === 0) return;
+                    const idx = filteredRows.findIndex(r => r.id === activeRowId);
+                    const targetIdx = idx < filteredRows.length - 1 ? idx + 1 : 0;
+                    handleJumpToSentence(filteredRows[targetIdx].id);
+                  }}
+                  className="paper-action-btn"
+                  title="الفقرة التالية"
+                >
+                  <span className="hidden sm:inline">التالي</span>
+                  <i className="fa-solid fa-chevron-left text-xs"></i>
+                </button>
+
+                {/* 4. Read Aloud / Speech Toggle */}
                 <button
                   onClick={handleReadAloud}
-                  className={`paper-action-btn ${isSpeaking ? 'active ring-2 ring-purple-400 animate-pulse' : ''}`}
-                  title={isSpeaking ? 'إيقاف القراءة الصوتية' : 'استماع للفقرة المحددة (نطق صوتي ثنائي اللغة)'}
+                  className={`paper-action-btn ${isSpeaking ? 'active ring-1 ring-amber-400' : ''}`}
+                  title={isSpeaking ? 'إيقاف القراءة الصوتية' : 'استماع للفقرة الحالية'}
                 >
-                  <i className={`fa-solid ${isSpeaking ? 'fa-stop' : 'fa-volume-high'} text-sm`}></i>
+                  <i className={`fa-solid ${isSpeaking ? 'fa-stop text-amber-400' : 'fa-volume-high'} text-sm`}></i>
                   <span className="hidden md:inline">{isSpeaking ? 'إيقاف' : 'استماع'}</span>
                 </button>
 
-                {/* 6. Settings Drawer Trigger */}
+                {/* 5. Settings & Layout Popover Drawer Trigger */}
                 <button
                   onClick={() => setShowSettings(true)}
                   className="paper-action-btn"
-                  title="فتح لوحة إعدادات الخطوط والتباعد والتزامن"
+                  title="فتح لوحة إعدادات العرض والأنماط والخطوط"
                 >
                   <i className="fa-solid fa-sliders text-sm"></i>
                   <span>الإعدادات</span>
@@ -2658,7 +2612,7 @@ export default function App() {
                     </div>
                   </div>
                 ) : (
-                  <div className="books-grid library-book-list">
+                  <div className="library-book-grid">
                     {filteredBooks.map((book) => (
                       <div
                         key={book.id}
@@ -2666,57 +2620,69 @@ export default function App() {
                           setCurrentBook(book);
                           setIsReading(true);
                         }}
-                        className="book-card cursor-pointer group"
+                        className="book-card-editorial group cursor-pointer"
                       >
-                        <div className="book-cover relative">
-                          <div className="book-cover-content">
-                            <div className="book-cover-icon">
-                              <i className="fa-solid fa-book-open text-purple-400"></i>
-                            </div>
+                        {/* Vertical Book Cover (2:3 Aspect Ratio) */}
+                        <div className="book-cover-portrait">
+                          <div className="book-spine-spine" />
+                          <div className="book-cover-inner">
+                            <span className="book-cover-monogram">{book.title.slice(0, 1)}</span>
+                            <div className="book-cover-title line-clamp-2">{book.title}</div>
+                            <div className="book-cover-author line-clamp-1">{book.author || 'مؤلف مخصص'}</div>
                           </div>
-                          
-                          {/* Quick Delete Button */}
-                          <button
-                            onClick={(e) => {
-                              e.stopPropagation();
-                              handleDeleteBook(book.id);
-                            }}
-                            className="absolute top-2 left-2 w-8 h-8 rounded-full bg-red-900/80 hover:bg-red-600 text-white flex items-center justify-center text-xs opacity-80 hover:opacity-100 transition-all shadow-md"
-                            title="حذف الكتاب من الجهاز"
-                          >
-                            <i className="fa-solid fa-trash-can"></i>
-                          </button>
                         </div>
 
-                        <div className="book-info">
-                          <div className="book-title line-clamp-1">{book.title}</div>
-                          <div className="book-author line-clamp-1">{book.author}</div>
-                          <div className="book-meta mt-2">
-                            <i className="fa-solid fa-align-right text-xs"></i>
-                            <span>{book.alignedRows.length} فقرة مرتبطة</span>
+                        {/* Editorial Details */}
+                        <div className="book-editorial-details">
+                          <div className="flex items-start justify-between gap-2">
+                            <div className="min-w-0 flex-1">
+                              <h3 className="book-editorial-title line-clamp-1">{book.title}</h3>
+                              <p className="book-editorial-author line-clamp-1">{book.author || 'مؤلف غير محدد'}</p>
+                            </div>
+
+                            {/* Quiet Options Menu ⋯ */}
+                            <details className="book-options-menu" onClick={(e) => e.stopPropagation()}>
+                              <summary title="خيارات الكتاب" aria-label="خيارات الكتاب">
+                                <i className="fa-solid fa-ellipsis-vertical"></i>
+                              </summary>
+                              <div className="book-options-popover">
+                                <button
+                                  onClick={(e) => {
+                                    e.stopPropagation();
+                                    handleDeleteBook(book.id);
+                                  }}
+                                  className="btn btn-ghost text-red-300 hover:text-red-100 hover:bg-red-900/40 w-full text-right py-1.5 px-3 text-xs"
+                                >
+                                  <i className="fa-solid fa-trash-can ml-1.5 text-xs"></i>
+                                  <span>حذف الكتاب</span>
+                                </button>
+                              </div>
+                            </details>
                           </div>
 
-                          <div className="flex items-center gap-2 mt-3">
+                          {/* Reading Progress Indicator */}
+                          <div className="book-progress-wrapper mt-3">
+                            <div className="flex items-center justify-between text-[11px] text-slate-400 mb-1">
+                              <span>{book.alignedRows.length} فقرة</span>
+                              <span>{formatLastRead(book.lastReadAt)}</span>
+                            </div>
+                            <div className="book-progress-bar-bg">
+                              <div className="book-progress-bar-fill" style={{ width: '100%' }} />
+                            </div>
+                          </div>
+
+                          {/* Primary Action Button */}
+                          <div className="mt-3">
                             <button
                               onClick={(e) => {
                                 e.stopPropagation();
                                 setCurrentBook(book);
                                 setIsReading(true);
                               }}
-                              className="btn btn-primary flex-1 py-1.5 text-xs flex items-center justify-center gap-1.5"
+                              className="btn btn-primary w-full text-xs py-2 flex items-center justify-center gap-1.5"
                             >
-                              <i className="fa-solid fa-folder-open"></i>
-                              <span>فتح المجلد</span>
-                            </button>
-                            <button
-                              onClick={(e) => {
-                                e.stopPropagation();
-                                handleDeleteBook(book.id);
-                              }}
-                              className="btn btn-secondary py-1.5 px-2.5 text-xs text-red-300 hover:text-red-100 hover:bg-red-900/40"
-                              title="حذف الكتاب"
-                            >
-                              <i className="fa-solid fa-trash"></i>
+                              <i className="fa-solid fa-book-open text-xs"></i>
+                              <span>متابعة القراءة</span>
                             </button>
                           </div>
                         </div>
@@ -3616,6 +3582,48 @@ export default function App() {
 
             <div className="modal-body space-y-5">
               
+              {/* Layout Mode */}
+              <div className="space-y-2">
+                <label className="form-label text-sm font-semibold">نمط العرض والقراءة</label>
+                <div className="grid grid-cols-3 gap-2">
+                  <button
+                    onClick={() => setLayoutMode('dual')}
+                    className={`btn text-xs py-2 px-2 border transition-all ${
+                      layoutMode === 'dual'
+                        ? 'btn-primary'
+                        : 'btn-secondary text-slate-300'
+                    }`}
+                  >
+                    <i className="fa-solid fa-columns text-xs ml-1"></i>
+                    <span>بجانب بعضهما</span>
+                  </button>
+
+                  <button
+                    onClick={() => setLayoutMode('interleaved')}
+                    className={`btn text-xs py-2 px-2 border transition-all ${
+                      layoutMode === 'interleaved'
+                        ? 'btn-primary'
+                        : 'btn-secondary text-slate-300'
+                    }`}
+                  >
+                    <i className="fa-solid fa-bars-staggered text-xs ml-1"></i>
+                    <span>جملة بمقابلة</span>
+                  </button>
+
+                  <button
+                    onClick={() => setLayoutMode('focus')}
+                    className={`btn text-xs py-2 px-2 border transition-all ${
+                      layoutMode === 'focus'
+                        ? 'btn-primary'
+                        : 'btn-secondary text-slate-300'
+                    }`}
+                  >
+                    <i className="fa-solid fa-eye text-xs ml-1"></i>
+                    <span>نص واحد</span>
+                  </button>
+                </div>
+              </div>
+
               {/* Paper Theme */}
               <div className="space-y-2">
                 <label className="form-label text-sm font-semibold">مظهر الورق</label>
