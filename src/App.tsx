@@ -83,6 +83,7 @@ export default function App() {
   // Flashcards & Spaced Repetition Review State
   const [vocabSearch, setVocabSearch] = useState('');
   const [vocabFilter, setVocabFilter] = useState<'all' | 'due' | 'learning' | 'mastered'>('all');
+  const [vocabView, setVocabView] = useState<'grid' | 'list'>('grid');
   const [showReviewModal, setShowReviewModal] = useState(false);
   const [reviewMode, setReviewMode] = useState<'flashcard' | 'quiz' | 'recall' | 'matching' | 'audio'>('flashcard');
   const [reviewQueue, setReviewQueue] = useState<SavedWord[]>([]);
@@ -2412,6 +2413,20 @@ export default function App() {
                   </div>
                 )}
 
+                {savedWords.length > 0 && (
+                  <div className="vocab-view-toggle" aria-label="طريقة عرض المفردات">
+                    <span className="panel-label">طريقة العرض</span>
+                    <div className="inline-flex items-center gap-1">
+                      <button onClick={() => setVocabView('grid')} className={`view-toggle-btn ${vocabView === 'grid' ? 'active' : ''}`}>
+                        <i className="fa-solid fa-table-cells-large"></i><span>شبكة</span>
+                      </button>
+                      <button onClick={() => setVocabView('list')} className={`view-toggle-btn ${vocabView === 'list' ? 'active' : ''}`}>
+                        <i className="fa-solid fa-list"></i><span>قائمة</span>
+                      </button>
+                    </div>
+                  </div>
+                )}
+
                 {/* Empty State */}
                 {savedWords.length === 0 ? (
                   <div className="interleaved-card text-center py-16 space-y-4">
@@ -2440,7 +2455,7 @@ export default function App() {
                   </div>
                 ) : (
                   /* Cards Grid */
-                  <div className="vocab-list">
+                  <div className={`vocab-list ${vocabView === 'list' ? 'vocab-list-mode' : 'vocab-grid-mode'}`}>
                     {filteredSavedWords.map((item) => {
                       const level = item.level ?? 0;
                       const isMastered = item.mastered || level >= 3;
@@ -2921,8 +2936,8 @@ export default function App() {
 
       {/* ================= COMPREHENSIVE VOCABULARY REVIEW MODAL ================= */}
       {showReviewModal && reviewQueue.length > 0 && (
-        <div className="modal-overlay active" onClick={() => setShowReviewModal(false)}>
-          <div className="modal-card max-w-xl" onClick={(e) => e.stopPropagation()}>
+        <div className="modal-overlay active review-modal-overlay" onClick={() => setShowReviewModal(false)}>
+          <div className="modal-card max-w-xl review-modal-card" onClick={(e) => e.stopPropagation()}>
             {/* Modal Header */}
             <div className="modal-header">
               <div className="flex items-center gap-3">
@@ -3034,7 +3049,7 @@ export default function App() {
 
                   <div>
                     <h3 className="text-xl font-bold font-serif text-white mb-1">
-                      أحسنت! اكتملت جلسة المراجعة
+                      اكتملت المراجعة
                     </h3>
                     <p className="text-xs text-slate-400">
                       تم حفظ تقدمك وتحديث مواعيد المراجعة القادمة للمفردات بنجاح.
@@ -3212,10 +3227,10 @@ export default function App() {
                     <div className="text-xs text-center text-slate-400 flex items-center justify-center gap-1">
                       <span>قيّم مستوى تذكرك لتحديث جدول التكرار المتباعد:</span>
                     </div>
-                    <div className="grid grid-cols-3 gap-2">
+                    <div className="grid grid-cols-3 gap-2 review-rating-bar">
                       <button
                         onClick={() => handleRateCurrentWord('again')}
-                        className="btn bg-red-950/40 hover:bg-red-900/60 border border-red-500/40 text-red-200 py-2.5 text-xs flex flex-col items-center justify-center gap-0.5 relative group"
+                        className="btn review-rating-option review-rating-again bg-red-950/40 hover:bg-red-900/60 border border-red-500/40 text-red-200 py-2.5 text-xs flex flex-col items-center justify-center gap-0.5 relative group"
                       >
                         <span className="font-bold flex items-center gap-1">
                           <i className="fa-solid fa-xmark text-red-400"></i>
@@ -3226,7 +3241,7 @@ export default function App() {
 
                       <button
                         onClick={() => handleRateCurrentWord('hard')}
-                        className="btn bg-amber-950/40 hover:bg-amber-900/60 border border-amber-500/40 text-amber-200 py-2.5 text-xs flex flex-col items-center justify-center gap-0.5 relative group"
+                        className="btn review-rating-option review-rating-hard bg-amber-950/40 hover:bg-amber-900/60 border border-amber-500/40 text-amber-200 py-2.5 text-xs flex flex-col items-center justify-center gap-0.5 relative group"
                       >
                         <span className="font-bold flex items-center gap-1">
                           <i className="fa-solid fa-question text-amber-400"></i>
@@ -3237,7 +3252,7 @@ export default function App() {
 
                       <button
                         onClick={() => handleRateCurrentWord('good')}
-                        className="btn bg-emerald-950/40 hover:bg-emerald-900/60 border border-emerald-500/40 text-emerald-200 py-2.5 text-xs flex flex-col items-center justify-center gap-0.5 relative group"
+                        className="btn review-rating-option review-rating-good bg-emerald-950/40 hover:bg-emerald-900/60 border border-emerald-500/40 text-emerald-200 py-2.5 text-xs flex flex-col items-center justify-center gap-0.5 relative group"
                       >
                         <span className="font-bold flex items-center gap-1">
                           <i className="fa-solid fa-check text-emerald-400"></i>
