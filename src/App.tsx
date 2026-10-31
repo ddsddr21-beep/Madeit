@@ -138,7 +138,7 @@ export default function App() {
     return (localStorage.getItem('pr_layoutMode') as ReaderLayoutMode) || 'interleaved';
   });
   const [theme, setTheme] = useState<ReadingTheme>(() => {
-    return (localStorage.getItem('pr_theme') as ReadingTheme) || 'parchment';
+    return (localStorage.getItem('pr_theme') as ReadingTheme) || 'obsidian';
   });
   const [fontSize, setFontSize] = useState<number>(() => {
     const saved = localStorage.getItem('pr_fontSize');
