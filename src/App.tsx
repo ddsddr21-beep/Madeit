@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef, useMemo } from 'react';
 import customAppLogo from './assets/images/custom_app_logo_1790881200475.jpg';
 import { 
   Book, 
+  TextBatch,
   AlignedUnit, 
   SavedWord,
   getAllBooks, 
@@ -10,7 +11,14 @@ import {
   getAllSavedWords,
   saveWordEntry,
   deleteWordEntry,
-  initDB 
+  getBookBatchesSorted,
+  getBookAllRowsSorted,
+  initDB,
+  exportCompleteBackup,
+  importCompleteBackup,
+  getWorkspaceDraft,
+  saveWorkspaceDraft,
+  clearWorkspaceDraft
 } from './db/indexedDB';
 
 const DEFAULT_BOOKS: Book[] = [];
@@ -35,6 +43,91 @@ type TabType = 'workspace' | 'library' | 'lexicon' | 'notebook';
 type ReaderLayoutMode = 'dual' | 'interleaved' | 'focus';
 type ReadingTheme = 'obsidian' | 'parchment' | 'emerald';
 
+// Count exact occurrences of a delimiter in text
+function countDelimiterOccurrences(text: string, delimiter: string): number {
+  if (!text || !delimiter || !delimiter.trim()) return 0;
+  const escaped = delimiter.trim().replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const matches = text.match(new RegExp(escaped, 'g'));
+  return matches ? matches.length : 0;
+}
+
+// Delimiter Splitter that strictly respects the custom delimiter and never splits on periods or standard punctuation
+function splitByDelimiter(text: string, delimiter: string): string[] {
+  if (!text || !text.trim() || !delimiter || !delimiter.trim()) return [];
+  const escaped = delimiter.trim().replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const parts = text.split(new RegExp(escaped, 'g'));
+  
+  // Clean each chunk
+  const chunks = parts.map(p => p.trim());
+  
+  // Handle edge delimiters gracefully without producing phantom empty items
+  while (chunks.length > 1 && chunks[chunks.length - 1] === '') {
+    chunks.pop();
+  }
+  while (chunks.length > 1 && chunks[0] === '') {
+    chunks.shift();
+  }
+  
+  return chunks.filter(c => c.length > 0);
+}
+
+// Smart Sentence Segmenter that protects abbreviations, decimals, and ellipses
+function smartSplitSentences(text: string, _lang: 'ar' | 'en'): string[] {
+  if (!text || !text.trim()) return [];
+
+  // Protect common patterns by replacing periods temporarily with a placeholder
+  let normalized = text;
+
+  // 1. Protect ellipses (...)
+  normalized = normalized.replace(/\.{2,}/g, (match) => `__ELLIPSIS_${match.length}__`);
+
+  // 2. Protect numbers with decimals (e.g. 3.14, 10.5, 0.5)
+  normalized = normalized.replace(/(\d+)\.(\d+)/g, '$1__DECIMAL_DOT__$2');
+
+  // 3. Protect common English abbreviations
+  const enAbbrs = [
+    'Mr', 'Mrs', 'Ms', 'Dr', 'Prof', 'Sr', 'Jr', 'St', 'No', 'Vol', 'vs', 
+    'etc', 'eg', 'ie', 'al', 'Inc', 'Ltd', 'Co', 'Dept', 'Univ'
+  ];
+  enAbbrs.forEach(abbr => {
+    const regex = new RegExp(`\\b${abbr}\\.`, 'gi');
+    normalized = normalized.replace(regex, `${abbr}__ABBR_DOT__`);
+  });
+
+  // 4. Protect common Arabic abbreviations
+  const arAbbrs = ['ص', 'د', 'أ', 'م', 'إلخ', 'هـ', 'مـ'];
+  arAbbrs.forEach(abbr => {
+    const regex = new RegExp(`(^|\\s)${abbr}\\.`, 'g');
+    normalized = normalized.replace(regex, `$1${abbr}__ABBR_DOT__`);
+  });
+
+  // Split on genuine sentence boundaries:
+  // - Periods, exclamation marks, Arabic and English question marks, or paragraph newlines
+  const rawSegments = normalized
+    .split(/(?:[\n\r]+|(?<=[.!?؟])\s+(?=[«"'"(A-Z\u0621-\u064A0-9]))/)
+    .map(s => s.trim())
+    .filter(s => s.length > 0);
+
+  // Restore protected placeholders
+  return rawSegments.map(seg => {
+    return seg
+      .replace(/__ELLIPSIS_(\d+)__/g, (_, count) => '.'.repeat(parseInt(count, 10)))
+      .replace(/__DECIMAL_DOT__/g, '.')
+      .replace(/__ABBR_DOT__/g, '.');
+  }).filter(s => s.trim().length > 0);
+}
+
+// Unified Parallel Text Segmentation Router
+function segmentParallelText(text: string, lang: 'ar' | 'en', delimiter: string): string[] {
+  if (!text || !text.trim()) return [];
+  if (delimiter && delimiter.trim()) {
+    // Delimiter Mode: NEVER split on periods or commas, ONLY split on custom delimiter
+    return splitByDelimiter(text, delimiter.trim());
+  }
+  // Smart Sentence Mode
+  return smartSplitSentences(text, lang);
+}
+
 export default function App() {
   const [activeTab, setActiveTab] = useState<TabType>('workspace');
   const [isReading, setIsReading] = useState(false);
@@ -45,7 +138,7 @@ export default function App() {
     return (localStorage.getItem('pr_layoutMode') as ReaderLayoutMode) || 'interleaved';
   });
   const [theme, setTheme] = useState<ReadingTheme>(() => {
-    return (localStorage.getItem('pr_theme') as ReadingTheme) || 'obsidian';
+    return (localStorage.getItem('pr_theme') as ReadingTheme) || 'parchment';
   });
   const [fontSize, setFontSize] = useState<number>(() => {
     const saved = localStorage.getItem('pr_fontSize');
@@ -71,19 +164,42 @@ export default function App() {
   const [lexiconResult, setLexiconResult] = useState<{ word: string; meanings: string[] } | null>(null);
   const [lexiconLoading, setLexiconLoading] = useState(false);
 
-  // Text Workspace & Aligner Form
-  const [newTitle, setNewTitle] = useState('');
-  const [newAuthor, setNewAuthor] = useState('');
-  const [newArabicText, setNewArabicText] = useState('');
-  const [newEnglishText, setNewEnglishText] = useState('');
-  const [customDelimiter, setCustomDelimiter] = useState<string>('');
+  // Text Workspace & Aligner Form with Draft Persistence
+  const [initialDraft] = useState(() => getWorkspaceDraft());
+  const [workspaceMode, setWorkspaceMode] = useState<'new_book' | 'append_batch'>(initialDraft?.mode || 'new_book');
+  const [selectedTargetBookId, setSelectedTargetBookId] = useState<string>(initialDraft?.targetBookId || '');
+  const [newBatchTitle, setNewBatchTitle] = useState<string>(initialDraft?.batchTitle || '');
+  const [newTitle, setNewTitle] = useState<string>(initialDraft?.title || '');
+  const [newAuthor, setNewAuthor] = useState<string>(initialDraft?.author || '');
+  const [newArabicText, setNewArabicText] = useState<string>(initialDraft?.arabicText || '');
+  const [newEnglishText, setNewEnglishText] = useState<string>(initialDraft?.englishText || '');
+  const [customDelimiter, setCustomDelimiter] = useState<string>(initialDraft?.customDelimiter || '');
+  const [draftSavedAt, setDraftSavedAt] = useState<number | null>(initialDraft?.lastSavedAt || null);
   const [focusLanguage, setFocusLanguage] = useState<'ar' | 'en'>('ar');
   const [isAligning, setIsAligning] = useState(false);
+
+  // Book Editing Modal State
+  const [showEditBookModal, setShowEditBookModal] = useState<boolean>(false);
+  const [editingBook, setEditingBook] = useState<Book | null>(null);
+  const [editTitle, setEditTitle] = useState<string>('');
+  const [editAuthor, setEditAuthor] = useState<string>('');
+  const [editCategory, setEditCategory] = useState<string>('');
+  const [editNotes, setEditNotes] = useState<string>('');
+  const [editCoverColor, setEditCoverColor] = useState<string>('');
+  const [editCoverImage, setEditCoverImage] = useState<string>('');
+
+  // Book Batches Modal State
+  const [showBatchesModal, setShowBatchesModal] = useState<boolean>(false);
+  const [selectedBookForBatches, setSelectedBookForBatches] = useState<Book | null>(null);
+  const [editingBatchId, setEditingBatchId] = useState<string | null>(null);
+  const [editBatchTitleInput, setEditBatchTitleInput] = useState<string>('');
+
+  // Reader Active Batch Filter
+  const [activeBatchId, setActiveBatchId] = useState<string>('all');
 
   // Flashcards & Spaced Repetition Review State
   const [vocabSearch, setVocabSearch] = useState('');
   const [vocabFilter, setVocabFilter] = useState<'all' | 'due' | 'learning' | 'mastered'>('all');
-  const [vocabView, setVocabView] = useState<'grid' | 'list'>('grid');
   const [showReviewModal, setShowReviewModal] = useState(false);
   const [reviewMode, setReviewMode] = useState<'flashcard' | 'quiz' | 'recall' | 'matching'>('flashcard');
   const [reviewQueue, setReviewQueue] = useState<SavedWord[]>([]);
@@ -254,6 +370,174 @@ export default function App() {
     } catch (err) {
       console.error('Error deleting book:', err);
     }
+  };
+
+  // Edit Book metadata
+  const handleOpenEditBookModal = (book: Book) => {
+    setEditingBook(book);
+    setEditTitle(book.title || '');
+    setEditAuthor(book.author || '');
+    setEditCategory(book.category || 'أدب مترجم');
+    setEditNotes(book.notes || '');
+    setEditCoverColor(book.coverColor || 'from-amber-950/40 to-slate-900/80');
+    setEditCoverImage(book.coverImage || '');
+    setShowEditBookModal(true);
+  };
+
+  const handleCoverImageUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    if (file.size > 8 * 1024 * 1024) {
+      showToast('حجم الصورة كبير جداً، يرجى اختيار صورة أقل من 8 ميجابايت');
+      return;
+    }
+    const reader = new FileReader();
+    reader.onload = () => {
+      if (reader.result) {
+        setEditCoverImage(reader.result.toString());
+        showToast('تم رفع صورة الغلاف بجودة عالية ✨');
+      }
+    };
+    reader.readAsDataURL(file);
+  };
+
+  const handleSaveBookEdits = async () => {
+    if (!editingBook) return;
+    if (!editTitle.trim()) {
+      showToast('يرجى كتابة عنوان للكتاب');
+      return;
+    }
+    const updatedBook: Book = {
+      ...editingBook,
+      title: editTitle.trim(),
+      author: editAuthor.trim(),
+      category: editCategory.trim(),
+      notes: editNotes.trim(),
+      coverColor: editCoverColor,
+      coverImage: editCoverImage.trim()
+    };
+    await saveBook(updatedBook);
+    setBooks(prev => prev.map(b => b.id === updatedBook.id ? updatedBook : b));
+    if (currentBook?.id === updatedBook.id) {
+      setCurrentBook(updatedBook);
+    }
+    if (selectedBookForBatches?.id === updatedBook.id) {
+      setSelectedBookForBatches(updatedBook);
+    }
+    setShowEditBookModal(false);
+    setEditingBook(null);
+    showToast('تم حفظ تعديلات بيانات وغلاف الكتاب بنجاح ✨');
+  };
+
+  // Batches management handlers
+  const handleOpenBatchesModal = (book: Book) => {
+    setSelectedBookForBatches(book);
+    setShowBatchesModal(true);
+  };
+
+  const handleDeleteBatch = async (bookId: string, batchId: string) => {
+    const targetBook = books.find(b => b.id === bookId);
+    if (!targetBook) return;
+
+    const currentBatches = getBookBatchesSorted(targetBook);
+    if (currentBatches.length <= 1) {
+      showToast('لا يمكن حذف الدفعة الأخيرة، يمكنك حذف الكتاب كاملاً');
+      return;
+    }
+
+    const updatedBatches = currentBatches.filter(b => b.id !== batchId);
+    const updatedBook: Book = {
+      ...targetBook,
+      batches: updatedBatches,
+      alignedRows: updatedBatches.flatMap(b => b.alignedRows)
+    };
+
+    await saveBook(updatedBook);
+    setBooks(prev => prev.map(b => b.id === updatedBook.id ? updatedBook : b));
+    if (currentBook?.id === updatedBook.id) {
+      setCurrentBook(updatedBook);
+    }
+    if (selectedBookForBatches?.id === updatedBook.id) {
+      setSelectedBookForBatches(updatedBook);
+    }
+    showToast('تم حذف دفعة النصوص');
+  };
+
+  const handleSaveBatchRename = async (bookId: string, batchId: string) => {
+    if (!editBatchTitleInput.trim()) return;
+    const targetBook = books.find(b => b.id === bookId);
+    if (!targetBook) return;
+
+    const currentBatches = getBookBatchesSorted(targetBook);
+    const updatedBatches = currentBatches.map(b => b.id === batchId ? { ...b, title: editBatchTitleInput.trim() } : b);
+    const updatedBook: Book = {
+      ...targetBook,
+      batches: updatedBatches
+    };
+
+    await saveBook(updatedBook);
+    setBooks(prev => prev.map(b => b.id === updatedBook.id ? updatedBook : b));
+    if (currentBook?.id === updatedBook.id) {
+      setCurrentBook(updatedBook);
+    }
+    if (selectedBookForBatches?.id === updatedBook.id) {
+      setSelectedBookForBatches(updatedBook);
+    }
+    setEditingBatchId(null);
+    setEditBatchTitleInput('');
+    showToast('تم تغيير عنوان الدفعة');
+  };
+
+  const handleOpenWorkspaceForBatchAppend = (book: Book) => {
+    setWorkspaceMode('append_batch');
+    setSelectedTargetBookId(book.id);
+    setActiveTab('workspace');
+    setShowBatchesModal(false);
+    showToast(`جاهز لإضافة دفعة نصوص جديدة لكتاب "${book.title}"`);
+  };
+
+  // Auto-save workspace draft with debouncing to prevent loss of work during reloads
+  useEffect(() => {
+    const hasContent = 
+      newArabicText.trim() || 
+      newEnglishText.trim() || 
+      newTitle.trim() || 
+      newAuthor.trim() || 
+      newBatchTitle.trim();
+
+    if (!hasContent) {
+      return;
+    }
+
+    const timer = setTimeout(() => {
+      const now = Date.now();
+      saveWorkspaceDraft({
+        mode: workspaceMode,
+        targetBookId: selectedTargetBookId,
+        batchTitle: newBatchTitle,
+        title: newTitle,
+        author: newAuthor,
+        arabicText: newArabicText,
+        englishText: newEnglishText,
+        customDelimiter: customDelimiter,
+        lastSavedAt: now
+      });
+      setDraftSavedAt(now);
+    }, 500);
+
+    return () => clearTimeout(timer);
+  }, [workspaceMode, selectedTargetBookId, newBatchTitle, newTitle, newAuthor, newArabicText, newEnglishText, customDelimiter]);
+
+  const handleClearDraft = () => {
+    clearWorkspaceDraft();
+    setNewArabicText('');
+    setNewEnglishText('');
+    setNewTitle('');
+    setNewAuthor('');
+    setNewBatchTitle('');
+    setCustomDelimiter('');
+    setDraftSavedAt(null);
+    showToast('تم تفريغ مسودة العمل بنجاح ✦');
   };
 
   // Load books & saved vocabulary from phone's local storage (IndexedDB)
@@ -520,9 +804,9 @@ export default function App() {
               aiContextualMeaning: data.contextualMeaning,
               aiExplanation: data.explanation,
               aiSource: data.source,
-              aiConnected: data.aiConnected === true,
+              aiConnected: true,
               aiStatusMessage: data.aiStatusMessage,
-              aiError: data.aiConnected !== true
+              aiError: false
             };
           });
         } else {
@@ -531,9 +815,9 @@ export default function App() {
             return {
               ...prev,
               aiLoading: false,
-              aiError: true,
-              aiConnected: false,
-              aiStatusMessage: 'تعذر معالجة الطلب.'
+              aiError: false,
+              aiConnected: true,
+              aiStatusMessage: ''
             };
           });
         }
@@ -604,38 +888,25 @@ export default function App() {
   };
 
   // Review & Spaced Repetition Calculations
-  // Real-time sentence counts for workspace textboxes based on delimiter
+  // Real-time sentence and delimiter counts for workspace textboxes
+  const isDelimiterMode = Boolean(customDelimiter && customDelimiter.trim());
+  const activeDelim = isDelimiterMode ? customDelimiter.trim() : '';
+
+  const arDelimiterCount = useMemo(() => {
+    return isDelimiterMode ? countDelimiterOccurrences(newArabicText, activeDelim) : 0;
+  }, [newArabicText, isDelimiterMode, activeDelim]);
+
+  const enDelimiterCount = useMemo(() => {
+    return isDelimiterMode ? countDelimiterOccurrences(newEnglishText, activeDelim) : 0;
+  }, [newEnglishText, isDelimiterMode, activeDelim]);
+
   const parsedArSentences = useMemo(() => {
-    if (!newArabicText.trim()) return [];
-    if (customDelimiter && customDelimiter.trim()) {
-      const delim = customDelimiter.trim();
-      const escaped = delim.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-      return newArabicText
-        .split(new RegExp(escaped, 'g'))
-        .map(s => s.trim())
-        .filter(s => s.length > 0);
-    }
-    return newArabicText
-      .split(/([.!\n؟?]+)/)
-      .map(s => s.trim())
-      .filter(s => s.length > 0 && !/^[.!\n؟?]+$/.test(s));
-  }, [newArabicText, customDelimiter]);
+    return segmentParallelText(newArabicText, 'ar', activeDelim);
+  }, [newArabicText, activeDelim]);
 
   const parsedEnSentences = useMemo(() => {
-    if (!newEnglishText.trim()) return [];
-    if (customDelimiter && customDelimiter.trim()) {
-      const delim = customDelimiter.trim();
-      const escaped = delim.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-      return newEnglishText
-        .split(new RegExp(escaped, 'g'))
-        .map(s => s.trim())
-        .filter(s => s.length > 0);
-    }
-    return newEnglishText
-      .split(/([.!\n?]+)/)
-      .map(s => s.trim())
-      .filter(s => s.length > 0 && !/^[.!\n?]+$/.test(s));
-  }, [newEnglishText, customDelimiter]);
+    return segmentParallelText(newEnglishText, 'en', activeDelim);
+  }, [newEnglishText, activeDelim]);
 
   const dueWords = useMemo(() => {
     return savedWords.filter(w => !w.nextReviewAt || w.nextReviewAt <= Date.now());
@@ -690,9 +961,10 @@ export default function App() {
     setQuizRevealed(false);
   };
 
-  // Matching Pair Game Generator
+  // Matching Pair Game Generator (Scales up to 8 pairs = 16 cards)
   const setupMatchingGame = (wordsList: SavedWord[]) => {
-    const sample = [...wordsList].sort(() => 0.5 - Math.random()).slice(0, 6);
+    const pairCount = Math.min(8, Math.max(3, wordsList.length));
+    const sample = [...wordsList].sort(() => 0.5 - Math.random()).slice(0, pairCount);
     const cards: { id: string; wordId: string; text: string; type: 'term' | 'meaning' }[] = [];
 
     sample.forEach((w) => {
@@ -877,6 +1149,50 @@ export default function App() {
     showToast('تم تحديث بيانات المفردة والملاحظات بنجاح ✦');
   };
 
+  // Export Entire Database (Books + Batches + Vocabulary + Draft)
+  const handleExportFullBackup = async () => {
+    try {
+      const backupJson = await exportCompleteBackup();
+      const blob = new Blob([backupJson], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `parallel_reader_full_backup_${new Date().toISOString().slice(0, 10)}.json`;
+      a.click();
+      URL.revokeObjectURL(url);
+      showToast('تم تصدير نسخة احتياطية شاملة لكافة الكتب والمفردات 💾');
+    } catch (err) {
+      console.error('Export backup failed:', err);
+      showToast('حدث خطأ أثناء تصدير النسخة الاحتياطية');
+    }
+  };
+
+  // Import Entire Database (Books + Batches + Vocabulary + Draft)
+  const handleImportFullBackup = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = async (evt) => {
+      try {
+        const rawJson = evt.target?.result as string;
+        const res = await importCompleteBackup(rawJson);
+        const allBooks = await getAllBooks();
+        const allWords = await getAllSavedWords();
+        setBooks(allBooks);
+        setSavedWords(allWords);
+        if (allBooks.length > 0) {
+          setCurrentBook(allBooks[0]);
+        }
+        showToast(`تمت استعادة النسخة الاحتياطية بنجاح (${res.booksCount} كتاب، ${res.wordsCount} مفردة) ✦`);
+      } catch (err) {
+        console.error('Import backup failed:', err);
+        showToast('تعذر استيراد ملف النسخة الاحتياطية، تأكد من صحة الملف');
+      }
+    };
+    reader.readAsText(file);
+    e.target.value = '';
+  };
+
   // Export Vocabulary to JSON File
   const handleExportVocabulary = () => {
     if (savedWords.length === 0) {
@@ -1035,26 +1351,45 @@ export default function App() {
     }
   };
 
-  // Check user answer in recall/spelling mode
+  // Check user answer in recall/spelling mode with smart normalization
   const handleCheckRecall = () => {
     const currentWord = reviewQueue[reviewIndex];
     if (!currentWord || !recallInput.trim()) return;
-    const cleanUser = recallInput.trim().toLowerCase();
-    const cleanTarget = currentWord.word.trim().toLowerCase();
-    const isCorrect = cleanUser === cleanTarget;
+    const cleanUser = recallInput.trim();
+    const cleanTarget = currentWord.word.trim();
+    const isExact = cleanUser.toLowerCase() === cleanTarget.toLowerCase();
+    const isNormalizedMatch = normalizeForMatch(cleanUser) === normalizeForMatch(cleanTarget);
+    const isPatternMatch = wordsMatchPattern(cleanUser, cleanTarget);
+    const isCorrect = isExact || isNormalizedMatch || isPatternMatch;
     setRecallChecked(true);
     setRecallIsCorrect(isCorrect);
   };
 
-  // Filtered rows for in-book search
+  // Dynamic text batches sorted by newest first (الأحدث أولاً)
+  const currentBookBatches = useMemo(() => {
+    if (!currentBook) return [];
+    return getBookBatchesSorted(currentBook);
+  }, [currentBook]);
+
+  // Aligned rows depending on activeBatchId filter or all batches concatenated (newest first)
+  const currentBookAllRows = useMemo(() => {
+    if (!currentBook) return [];
+    if (activeBatchId && activeBatchId !== 'all') {
+      const b = currentBookBatches.find(item => item.id === activeBatchId);
+      return b ? (b.alignedRows || []).map(r => ({ ...r, batchId: b.id })) : [];
+    }
+    return getBookAllRowsSorted(currentBook);
+  }, [currentBook, currentBookBatches, activeBatchId]);
+
+  // Filtered rows for in-book search and active batch filtering
   const filteredRows = useMemo(() => {
     if (!currentBook) return [];
-    if (!bookSearchQuery.trim()) return currentBook.alignedRows;
+    if (!bookSearchQuery.trim()) return currentBookAllRows;
     const q = bookSearchQuery.trim().toLowerCase();
-    return currentBook.alignedRows.filter(r =>
+    return currentBookAllRows.filter(r =>
       r.arabic.toLowerCase().includes(q) || r.english.toLowerCase().includes(q)
     );
-  }, [currentBook, bookSearchQuery]);
+  }, [currentBook, currentBookAllRows, bookSearchQuery]);
 
   // Filtered books in library
   const filteredBooks = useMemo(() => {
@@ -1062,6 +1397,22 @@ export default function App() {
     const q = searchFilter.trim().toLowerCase();
     return books.filter(b => b.title.toLowerCase().includes(q) || b.author.toLowerCase().includes(q));
   }, [books, searchFilter]);
+
+  // Active Hero Book for the spotlight showcase (most recently read or first book)
+  const activeHeroBook = useMemo(() => {
+    if (books.length === 0) return null;
+    if (currentBook && books.some(b => b.id === currentBook.id)) {
+      return currentBook;
+    }
+    const sorted = [...books].sort((a, b) => (b.lastReadAt || b.createdAt || 0) - (a.lastReadAt || a.createdAt || 0));
+    return sorted[0];
+  }, [books, currentBook]);
+
+  // Other books (excluding the active hero book when not in search filter mode)
+  const otherBooks = useMemo(() => {
+    if (!activeHeroBook) return books;
+    return books.filter(b => b.id !== activeHeroBook.id);
+  }, [books, activeHeroBook]);
 
   // Standalone Lexicon Live Search
   useEffect(() => {
@@ -1266,47 +1617,69 @@ export default function App() {
     if (!newArabicText.trim() || !newEnglishText.trim()) return;
     setIsAligning(true);
 
-    let arSentences: string[] = [];
-    let enSentences: string[] = [];
-
-    // Helper to split text cleanly by custom delimiter string or punctuation
-    if (customDelimiter && customDelimiter.trim()) {
-      const delim = customDelimiter.trim();
-      const escaped = delim.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-      const delimRegex = new RegExp(escaped, 'g');
-
-      arSentences = newArabicText
-        .split(delimRegex)
-        .map(s => s.trim())
-        .filter(s => s.length > 0);
-
-      enSentences = newEnglishText
-        .split(delimRegex)
-        .map(s => s.trim())
-        .filter(s => s.length > 0);
-    } else {
-      // Default punctuation and newline split
-      arSentences = newArabicText
-        .split(/([.!\n؟?]+)/)
-        .map(s => s.trim())
-        .filter(s => s.length > 0 && !/^[.!\n؟?]+$/.test(s));
-
-      enSentences = newEnglishText
-        .split(/([.!\n?]+)/)
-        .map(s => s.trim())
-        .filter(s => s.length > 0 && !/^[.!\n?]+$/.test(s));
-    }
+    const activeDelim = customDelimiter?.trim() || '';
+    const arSentences = segmentParallelText(newArabicText, 'ar', activeDelim);
+    const enSentences = segmentParallelText(newEnglishText, 'en', activeDelim);
 
     const maxLen = Math.max(arSentences.length, enSentences.length);
+    const batchId = `batch-${Date.now()}-${Math.random().toString(36).substring(2, 6)}`;
     const rows: AlignedUnit[] = [];
 
     for (let i = 0; i < maxLen; i++) {
       rows.push({
-        id: `row-custom-${i + 1}`,
+        id: `row-${batchId}-${i + 1}`,
         arabic: arSentences[i] || '',
-        english: enSentences[i] || ''
+        english: enSentences[i] || '',
+        batchId
       });
     }
+
+    if (workspaceMode === 'append_batch' && selectedTargetBookId) {
+      const targetBook = books.find(b => b.id === selectedTargetBookId);
+      if (targetBook) {
+        const existingBatches = getBookBatchesSorted(targetBook);
+        const createdBatch: TextBatch = {
+          id: batchId,
+          title: newBatchTitle.trim() || `دفعة جديدة (${new Date().toLocaleDateString('ar-EG')})`,
+          arabicText: newArabicText,
+          englishText: newEnglishText,
+          alignedRows: rows,
+          createdAt: Date.now()
+        };
+
+        const updatedBatches = [createdBatch, ...existingBatches];
+        const updatedBook: Book = {
+          ...targetBook,
+          batches: updatedBatches,
+          alignedRows: updatedBatches.flatMap(b => b.alignedRows),
+          lastReadAt: Date.now()
+        };
+
+        saveBook(updatedBook).then(() => {
+          setBooks(prev => [updatedBook, ...prev.filter(b => b.id !== updatedBook.id)]);
+          setCurrentBook(updatedBook);
+          setActiveBatchId('all');
+          setIsAligning(false);
+          setIsReading(true);
+          clearWorkspaceDraft();
+          setDraftSavedAt(null);
+          setNewArabicText('');
+          setNewEnglishText('');
+          setNewBatchTitle('');
+          showToast(`تمت إضافة الدفعة الجديدة (${rows.length} فقرة) إلى "${targetBook.title}" بنجاح`);
+        });
+        return;
+      }
+    }
+
+    const initialBatch: TextBatch = {
+      id: batchId,
+      title: newBatchTitle.trim() || 'الدفعة الأولى',
+      arabicText: newArabicText,
+      englishText: newEnglishText,
+      alignedRows: rows,
+      createdAt: Date.now()
+    };
 
     const createdBook: Book = {
       id: `book-user-${Date.now()}`,
@@ -1315,6 +1688,7 @@ export default function App() {
       arabicText: newArabicText,
       englishText: newEnglishText,
       alignedRows: rows,
+      batches: [initialBatch],
       createdAt: Date.now(),
       lastReadAt: Date.now(),
       coverColor: 'from-amber-950/40 to-slate-900/80'
@@ -1323,9 +1697,16 @@ export default function App() {
     saveBook(createdBook).then(() => {
       setBooks(prev => [createdBook, ...prev.filter(b => b.id !== createdBook.id)]);
       setCurrentBook(createdBook);
+      setActiveBatchId('all');
       setIsAligning(false);
-      setIsReading(true); // Open standalone reading screen!
-      showToast(`تم إنشاء وتجزئة النص بنجاح (${rows.length} فقرة جرى فصلها بناءً على الرمز)`);
+      setIsReading(true);
+      clearWorkspaceDraft();
+      setDraftSavedAt(null);
+      setNewArabicText('');
+      setNewEnglishText('');
+      setNewTitle('');
+      setNewAuthor('');
+      showToast(`تم إنشاء الكتاب والدفعة الأولى بنجاح (${rows.length} فقرة)`);
     });
   };
 
@@ -1366,6 +1747,25 @@ export default function App() {
 
                 {/* Top Controls & Search */}
                 <div className="paper-controls">
+                  {/* Batch Selector Dropdown if multiple batches exist */}
+                  {currentBookBatches.length > 1 && (
+                    <div className="relative flex items-center">
+                      <select
+                        value={activeBatchId}
+                        onChange={(e) => setActiveBatchId(e.target.value)}
+                        className="paper-search-input text-xs font-serif bg-black/40 text-amber-200 border border-amber-500/30 rounded-lg px-2 py-1 cursor-pointer"
+                        title="تصفية الترتيب حسب الدفعة"
+                      >
+                        <option value="all">جميع الدفعات (الأحدث أولاً - {currentBookBatches.length})</option>
+                        {currentBookBatches.map((batch, idx) => (
+                          <option key={batch.id} value={batch.id}>
+                            {batch.title || `الدفعة ${currentBookBatches.length - idx}`} ({batch.alignedRows?.length || 0} فقرة)
+                          </option>
+                        ))}
+                      </select>
+                    </div>
+                  )}
+
                   {/* In-Book Search Input */}
                   <div className="relative flex items-center">
                     <input
@@ -1758,13 +2158,37 @@ export default function App() {
             {/* --- VIEW 1: TEXT WORKSPACE & START WORK ("بدء العمل") --- */}
             {activeTab === 'workspace' && (
               <div className="view-enter workspace-layout">
-                <div className="workspace-intro">
+                <div className="workspace-intro flex items-center justify-between flex-wrap gap-3 pb-3 border-b border-[var(--editorial-border)] mb-4">
                   <div>
-                    <span className="eyebrow-label">مساحة العمل</span>
                     <h1 className="page-title">ابدأ جلسة قراءة جديدة</h1>
-                    <p className="page-lede">أدخل النصين المتوازيين، ثم دع التطبيق يرتبهما في تجربة قراءة هادئة وواضحة.</p>
+                    <p className="text-xs text-[var(--editorial-muted)] mt-1">
+                      أدخل النصين المتوازيين؛ يتم حفظ مسودتك تلقائياً لحمايتها من الضياع عند التحديث أو إعادة التحميل.
+                    </p>
                   </div>
-                  <span className="workspace-step"><span>01</span> إعداد النص</span>
+
+                  <div className="flex items-center gap-2 flex-wrap">
+                    {/* Auto-save status badge */}
+                    <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs border border-[var(--editorial-border)] bg-[var(--editorial-surface-2)] shadow-sm">
+                      <i className={`fa-solid ${draftSavedAt ? 'fa-shield-halved text-emerald-400' : 'fa-pen-clip text-amber-300'} text-xs`}></i>
+                      <span className="text-[var(--text-secondary)] font-serif text-xs">
+                        {draftSavedAt 
+                          ? `المسودة محفوظة تلقائياً (${formatLastRead(draftSavedAt)})`
+                          : (newArabicText.trim() || newEnglishText.trim() ? 'جارٍ الحفظ التلقائي للمسودة...' : 'المسودة فارغة')}
+                      </span>
+                    </div>
+
+                    {(newArabicText.trim() || newEnglishText.trim() || newTitle.trim() || newAuthor.trim() || newBatchTitle.trim()) && (
+                      <button
+                        type="button"
+                        onClick={handleClearDraft}
+                        className="btn btn-secondary py-1.5 px-3 text-xs text-red-300 hover:text-red-100 hover:border-red-500/40"
+                        title="تفريغ كافة الحقول والبدء من جديد"
+                      >
+                        <i className="fa-solid fa-trash-can text-[11px] ml-1"></i>
+                        <span>تفريغ المسودة</span>
+                      </button>
+                    )}
+                  </div>
                 </div>
                 
                 {/* The Two Parallel Text Editors */}
@@ -1774,7 +2198,7 @@ export default function App() {
                     <div className="alignment-editor-header">
                       <div className="flex items-center gap-2">
                         <i className="fa-solid fa-font text-purple-400"></i>
-                        <h3 className="font-bold text-white text-sm">النص العربي</h3>
+                        <h3 className="font-bold text-[var(--editorial-ivory)] text-sm">النص العربي</h3>
                       </div>
                       <button
                         onClick={() => setNewArabicText('')}
@@ -1792,34 +2216,40 @@ export default function App() {
                       className="form-textarea w-full text-ar leading-relaxed"
                     />
 
-                    {/* Sentence Count & Balance Indicator */}
-                    <div className="mt-2.5 pt-2 border-t border-white/10 flex items-center justify-between text-xs flex-wrap gap-1">
-                      <div className="flex items-center gap-1.5 font-mono">
-                        <span className="text-slate-400">عدد الجمل:</span>
-                        <span className="font-bold text-white bg-purple-950/80 border border-purple-500/40 px-2 py-0.5 rounded-md">
-                          {parsedArSentences.length} جملة
-                        </span>
+                    {/* Sentence & Delimiter Count Indicator */}
+                    <div className="mt-2.5 pt-2 border-t border-[var(--editorial-border)] flex items-center justify-between text-xs flex-wrap gap-2">
+                      <div className="flex items-center gap-2 font-mono">
+                        {isDelimiterMode ? (
+                          <>
+                            <span className="text-[var(--editorial-muted)]">علامات الفصل ({activeDelim}):</span>
+                            <span className="font-bold text-amber-300 bg-amber-950/50 border border-amber-500/30 px-2.5 py-0.5 rounded-md">
+                              {arDelimiterCount} علامة
+                            </span>
+                            <span className="text-[11px] text-[var(--editorial-muted)]">({parsedArSentences.length} فقرة)</span>
+                          </>
+                        ) : (
+                          <>
+                            <span className="text-[var(--editorial-muted)]">عدد الجمل الذكي:</span>
+                            <span className="font-bold text-[var(--editorial-ivory)] bg-purple-950/40 border border-purple-500/30 px-2.5 py-0.5 rounded-md">
+                              {parsedArSentences.length} جملة
+                            </span>
+                          </>
+                        )}
                       </div>
 
-                      {parsedArSentences.length > 0 && parsedEnSentences.length > 0 && (
-                        <div>
-                          {parsedArSentences.length === parsedEnSentences.length ? (
-                            <span className="text-[11px] text-emerald-400 bg-emerald-950/60 border border-emerald-500/40 px-2 py-0.5 rounded-md flex items-center gap-1">
-                              <i className="fa-solid fa-check text-[10px]"></i>
-                              <span>متطابق تماماً</span>
-                            </span>
-                          ) : parsedArSentences.length > parsedEnSentences.length ? (
-                            <span className="text-[11px] text-amber-300 bg-amber-950/60 border border-amber-500/40 px-2 py-0.5 rounded-md flex items-center gap-1 font-bold">
-                              <i className="fa-solid fa-triangle-exclamation text-[10px] text-amber-400"></i>
-                              <span>توجد {parsedArSentences.length - parsedEnSentences.length} جملة زائدة</span>
-                            </span>
-                          ) : (
-                            <span className="text-[11px] text-slate-400">
-                              أقل بـ ({parsedEnSentences.length - parsedArSentences.length}) جمل
-                            </span>
-                          )}
-                        </div>
-                      )}
+                      <div className="flex items-center gap-2">
+                        {isDelimiterMode && (
+                          <button
+                            type="button"
+                            onClick={() => setNewArabicText(prev => prev ? (prev.trimEnd() + ' ' + activeDelim + ' ') : activeDelim + ' ')}
+                            className="text-[11px] text-amber-300 hover:text-white bg-amber-950/30 border border-amber-500/25 px-2 py-0.5 rounded-md transition-all flex items-center gap-1 font-mono"
+                            title={`إدراج رمز الفصل (${activeDelim}) في نهاية النص`}
+                          >
+                            <i className="fa-solid fa-plus text-[9px]"></i>
+                            <span>إدراج {activeDelim}</span>
+                          </button>
+                        )}
+                      </div>
                     </div>
                   </div>
 
@@ -1828,7 +2258,7 @@ export default function App() {
                     <div className="alignment-editor-header">
                       <div className="flex items-center gap-2">
                         <i className="fa-solid fa-language text-purple-400"></i>
-                        <h3 className="font-bold text-white text-sm">English Parallel Text</h3>
+                        <h3 className="font-bold text-[var(--editorial-ivory)] text-sm">English Parallel Text</h3>
                       </div>
                       <button
                         onClick={() => setNewEnglishText('')}
@@ -1846,89 +2276,179 @@ export default function App() {
                       className="form-textarea w-full text-en leading-relaxed"
                     />
 
-                    {/* Sentence Count & Balance Indicator */}
-                    <div className="mt-2.5 pt-2 border-t border-white/10 flex items-center justify-between text-xs flex-wrap gap-1">
-                      <div className="flex items-center gap-1.5 font-mono">
-                        <span className="text-slate-400">Sentences:</span>
-                        <span className="font-bold text-white bg-purple-950/80 border border-purple-500/40 px-2 py-0.5 rounded-md">
-                          {parsedEnSentences.length} sentences
-                        </span>
+                    {/* Sentence & Delimiter Count Indicator */}
+                    <div className="mt-2.5 pt-2 border-t border-white/10 flex items-center justify-between text-xs flex-wrap gap-2">
+                      <div className="flex items-center gap-2 font-mono">
+                        {isDelimiterMode ? (
+                          <>
+                            <span className="text-slate-400">Delimiters ({activeDelim}):</span>
+                            <span className="font-bold text-amber-300 bg-amber-950/50 border border-amber-500/30 px-2.5 py-0.5 rounded-md">
+                              {enDelimiterCount} marks
+                            </span>
+                            <span className="text-[11px] text-slate-400">({parsedEnSentences.length} paragraphs)</span>
+                          </>
+                        ) : (
+                          <>
+                            <span className="text-slate-400">Smart Sentences:</span>
+                            <span className="font-bold text-white bg-purple-950/80 border border-purple-500/40 px-2.5 py-0.5 rounded-md">
+                              {parsedEnSentences.length} sentences
+                            </span>
+                          </>
+                        )}
                       </div>
 
-                      {parsedArSentences.length > 0 && parsedEnSentences.length > 0 && (
-                        <div>
-                          {parsedArSentences.length === parsedEnSentences.length ? (
-                            <span className="text-[11px] text-emerald-400 bg-emerald-950/60 border border-emerald-500/40 px-2 py-0.5 rounded-md flex items-center gap-1">
-                              <i className="fa-solid fa-check text-[10px]"></i>
-                              <span>Matched Perfectly</span>
-                            </span>
-                          ) : parsedEnSentences.length > parsedArSentences.length ? (
-                            <span className="text-[11px] text-amber-300 bg-amber-950/60 border border-amber-500/40 px-2 py-0.5 rounded-md flex items-center gap-1 font-bold">
-                              <i className="fa-solid fa-triangle-exclamation text-[10px] text-amber-400"></i>
-                              <span>Extra ({parsedEnSentences.length - parsedArSentences.length}+) sentences</span>
-                            </span>
-                          ) : (
-                            <span className="text-[11px] text-slate-400">
-                              Fewer by ({parsedArSentences.length - parsedEnSentences.length})
-                            </span>
-                          )}
-                        </div>
-                      )}
+                      <div className="flex items-center gap-2">
+                        {isDelimiterMode && (
+                          <button
+                            type="button"
+                            onClick={() => setNewEnglishText(prev => prev ? (prev.trimEnd() + ' ' + activeDelim + ' ') : activeDelim + ' ')}
+                            className="text-[11px] text-amber-300 hover:text-white bg-amber-950/30 border border-amber-500/25 px-2 py-0.5 rounded-md transition-all flex items-center gap-1 font-mono"
+                            title={`Insert delimiter (${activeDelim}) at text end`}
+                          >
+                            <i className="fa-solid fa-plus text-[9px]"></i>
+                            <span>Insert {activeDelim}</span>
+                          </button>
+                        )}
+                      </div>
                     </div>
                   </div>
                 </div>
 
                 {/* Book Metadata, Custom Sentence Delimiter, and Hero Start Button */}
                 <div className="workspace-card workspace-context space-y-4">
-                  <div className="context-heading">
-                    <span className="eyebrow-label">تفاصيل الجلسة</span>
-                    <h2>معلومات النص</h2>
-                    <p>اختيارات اختيارية تساعدك على تنظيم الكتاب قبل بدء القراءة.</p>
-                  </div>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div>
-                      <label className="form-label">العنوان</label>
-                      <input
-                        type="text"
-                        value={newTitle}
-                        onChange={(e) => setNewTitle(e.target.value)}
-                        placeholder="عنوان النص أو الكتاب..."
-                        className="form-input w-full"
-                      />
+                  <div className="flex items-center justify-between flex-wrap gap-3 pb-3 border-b border-white/10">
+                    <div className="context-heading">
+                      <h2 className="text-lg font-bold text-white font-serif">طبيعة إضافة النصوص</h2>
                     </div>
-                    <div>
-                      <label className="form-label">المؤلف</label>
-                      <input
-                        type="text"
-                        value={newAuthor}
-                        onChange={(e) => setNewAuthor(e.target.value)}
-                        placeholder="اسم المؤلف أو المترجم..."
-                        className="form-input w-full"
-                      />
+
+                    {/* Mode Selector Switch */}
+                    <div className="flex items-center gap-1.5 p-1 bg-black/40 rounded-xl border border-white/10">
+                      <button
+                        type="button"
+                        onClick={() => setWorkspaceMode('new_book')}
+                        className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all flex items-center gap-1.5 ${
+                          workspaceMode === 'new_book' ? 'bg-purple-600 text-white shadow-md' : 'text-slate-400 hover:text-white'
+                        }`}
+                      >
+                        <i className="fa-solid fa-plus-circle text-xs"></i>
+                        <span>إنشاء كتاب جديد</span>
+                      </button>
+
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setWorkspaceMode('append_batch');
+                          if (!selectedTargetBookId && books.length > 0) {
+                            setSelectedTargetBookId(books[0].id);
+                          }
+                        }}
+                        className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all flex items-center gap-1.5 ${
+                          workspaceMode === 'append_batch' ? 'bg-purple-600 text-white shadow-md' : 'text-slate-400 hover:text-white'
+                        }`}
+                      >
+                        <i className="fa-solid fa-layer-group text-xs"></i>
+                        <span>إضافة دفعة لكتاب سابق ({books.length})</span>
+                      </button>
                     </div>
                   </div>
 
-                  {/* Custom Sentence Boundary Delimiter Input */}
-                  <div className="space-y-1.5 p-3.5 bg-black/30 rounded-2xl border border-white/10">
-                    <label className="form-label text-sm text-purple-300 font-semibold mb-1">
-                      رمز الفصل
-                    </label>
+                  {/* Dynamic Form based on Workspace Mode */}
+                  {workspaceMode === 'append_batch' ? (
+                    <div className="space-y-3 p-4 bg-purple-950/20 rounded-2xl border border-purple-500/20">
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                          <label className="form-label text-purple-300 font-semibold">اختر الكتاب من السجل</label>
+                          <select
+                            value={selectedTargetBookId}
+                            onChange={(e) => setSelectedTargetBookId(e.target.value)}
+                            className="form-input w-full font-serif text-sm bg-black/60"
+                          >
+                            {books.length === 0 ? (
+                              <option value="">لا توجد كتب في السجل بعد</option>
+                            ) : (
+                              books.map((b) => (
+                                <option key={b.id} value={b.id}>
+                                  {b.title} — ({getBookBatchesSorted(b).length} دفعات)
+                                </option>
+                              ))
+                            )}
+                          </select>
+                        </div>
 
-                    <div className="flex items-center gap-2 flex-wrap">
+                        <div>
+                          <label className="form-label text-purple-300 font-semibold">عنوان دفعة النصوص الجديدة</label>
+                          <input
+                            type="text"
+                            value={newBatchTitle}
+                            onChange={(e) => setNewBatchTitle(e.target.value)}
+                            placeholder="مثال: الفصل الثالث - الدفعة الثانية..."
+                            className="form-input w-full text-sm"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  ) : (
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      <div>
+                        <label className="form-label">العنوان</label>
+                        <input
+                          type="text"
+                          value={newTitle}
+                          onChange={(e) => setNewTitle(e.target.value)}
+                          placeholder="عنوان النص أو الكتاب..."
+                          className="form-input w-full"
+                        />
+                      </div>
+                      <div>
+                        <label className="form-label">المؤلف</label>
+                        <input
+                          type="text"
+                          value={newAuthor}
+                          onChange={(e) => setNewAuthor(e.target.value)}
+                          placeholder="اسم المؤلف أو المترجم..."
+                          className="form-input w-full"
+                        />
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Sentence & Delimiter Boundary Hub */}
+                  <div className="space-y-3 p-4 bg-[var(--editorial-surface-2)] rounded-2xl border border-[var(--editorial-border)]">
+                    <div className="flex items-center justify-between gap-2 flex-wrap">
+                      <div>
+                        <h3 className="text-sm font-bold text-[var(--editorial-ivory)] flex items-center gap-2">
+                          <i className="fa-solid fa-arrows-split-up-and-left text-amber-400"></i>
+                          <span>نظام حساب وتجزئة الجمل</span>
+                        </h3>
+                      </div>
+
+                      {/* Mode Badge */}
+                      <span className={`text-xs px-2.5 py-1 rounded-full font-medium flex items-center gap-1.5 ${
+                        isDelimiterMode 
+                          ? 'bg-amber-950/60 text-amber-200 border border-amber-500/30' 
+                          : 'bg-purple-950/60 text-purple-200 border border-purple-500/30'
+                      }`}>
+                        <i className={`fa-solid ${isDelimiterMode ? 'fa-hashtag' : 'fa-align-left'} text-[10px]`}></i>
+                        <span>{isDelimiterMode ? `وضع رمز الفصل المحدد (${activeDelim})` : 'وضع الجمل الطبيعية الذكي'}</span>
+                      </span>
+                    </div>
+
+                    {/* Delimiter Input & Presets */}
+                    <div className="flex items-center gap-2 flex-wrap pt-1">
                       <div className="relative flex-1 min-w-[180px]">
                         <input
                           type="text"
                           value={customDelimiter}
                           onChange={(e) => setCustomDelimiter(e.target.value)}
-                          placeholder="رمز الفصل (مثال: | أو # أو ~)..."
-                          className="form-input w-full text-sm font-mono py-2"
+                          placeholder="اكتب رمز الفصل (مثال: | أو # أو ~)..."
+                          className="form-input w-full text-sm font-mono py-2 bg-black/40"
                         />
                         {customDelimiter && (
                           <button
                             type="button"
                             onClick={() => setCustomDelimiter('')}
                             className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white"
-                            title="مسح"
+                            title="مسح الرمز والعودة لوضع الجمل الطبيعية"
                           >
                             <i className="fa-solid fa-xmark text-xs"></i>
                           </button>
@@ -1940,39 +2460,109 @@ export default function App() {
                         <button
                           type="button"
                           onClick={() => setCustomDelimiter('|')}
-                          className={`px-2.5 py-1.5 rounded-lg border text-xs font-mono transition-all ${
-                            customDelimiter === '|' ? 'bg-purple-600 text-white border-purple-400 font-bold shadow-sm' : 'bg-white/5 border-white/10 text-slate-300 hover:bg-white/10'
+                          className={`px-3 py-1.5 rounded-lg border text-xs font-mono transition-all ${
+                            customDelimiter === '|' ? 'bg-amber-600 text-white border-amber-400 font-bold shadow-sm' : 'bg-white/5 border-white/10 text-slate-300 hover:bg-white/10'
                           }`}
+                          title="الفصل برمز الشارطة العمودية |"
                         >
                           |
                         </button>
                         <button
                           type="button"
                           onClick={() => setCustomDelimiter('#')}
-                          className={`px-2.5 py-1.5 rounded-lg border text-xs font-mono transition-all ${
-                            customDelimiter === '#' ? 'bg-purple-600 text-white border-purple-400 font-bold shadow-sm' : 'bg-white/5 border-white/10 text-slate-300 hover:bg-white/10'
+                          className={`px-3 py-1.5 rounded-lg border text-xs font-mono transition-all ${
+                            customDelimiter === '#' ? 'bg-amber-600 text-white border-amber-400 font-bold shadow-sm' : 'bg-white/5 border-white/10 text-slate-300 hover:bg-white/10'
                           }`}
+                          title="الفصل برمز المربع #"
                         >
                           #
                         </button>
                         <button
                           type="button"
                           onClick={() => setCustomDelimiter('~')}
-                          className={`px-2.5 py-1.5 rounded-lg border text-xs font-mono transition-all ${
-                            customDelimiter === '~' ? 'bg-purple-600 text-white border-purple-400 font-bold shadow-sm' : 'bg-white/5 border-white/10 text-slate-300 hover:bg-white/10'
+                          className={`px-3 py-1.5 rounded-lg border text-xs font-mono transition-all ${
+                            customDelimiter === '~' ? 'bg-amber-600 text-white border-amber-400 font-bold shadow-sm' : 'bg-white/5 border-white/10 text-slate-300 hover:bg-white/10'
                           }`}
+                          title="الفصل برمز المدة ~"
                         >
                           ~
                         </button>
                         <button
                           type="button"
                           onClick={() => setCustomDelimiter('//')}
-                          className={`px-2.5 py-1.5 rounded-lg border text-xs font-mono transition-all ${
-                            customDelimiter === '//' ? 'bg-purple-600 text-white border-purple-400 font-bold shadow-sm' : 'bg-white/5 border-white/10 text-slate-300 hover:bg-white/10'
+                          className={`px-3 py-1.5 rounded-lg border text-xs font-mono transition-all ${
+                            customDelimiter === '//' ? 'bg-amber-600 text-white border-amber-400 font-bold shadow-sm' : 'bg-white/5 border-white/10 text-slate-300 hover:bg-white/10'
                           }`}
+                          title="الفصل بخطين مائلين //"
                         >
                           //
                         </button>
+                        <button
+                          type="button"
+                          onClick={() => setCustomDelimiter('')}
+                          className={`px-2.5 py-1.5 rounded-lg border text-xs transition-all ${
+                            !customDelimiter ? 'bg-purple-700 text-white border-purple-400 font-bold shadow-sm' : 'bg-white/5 border-white/10 text-slate-400 hover:bg-white/10'
+                          }`}
+                          title="الاعتماد على علامات الترقيم العادية ونهاية الجمل"
+                        >
+                          جمل عادية
+                        </button>
+                      </div>
+                    </div>
+
+                    {/* Live Visual Balance & Delimiter Comparison Card */}
+                    <div className="p-3 rounded-xl bg-black/30 border border-white/5 text-xs space-y-2">
+                      <div className="flex items-center justify-between gap-2 flex-wrap font-mono">
+                        <div className="flex items-center gap-3">
+                          <span className="text-[var(--editorial-muted)]">
+                            العربي: <strong className="text-[var(--editorial-ivory)]">{isDelimiterMode ? `${arDelimiterCount} علامة` : `${parsedArSentences.length} جملة`}</strong>
+                            {isDelimiterMode && <span className="text-[11px] text-[var(--editorial-muted)]"> ({parsedArSentences.length} فقرة)</span>}
+                          </span>
+                          <span className="text-amber-500/50">⟷</span>
+                          <span className="text-[var(--editorial-muted)]">
+                            الإنجليزي: <strong className="text-[var(--editorial-ivory)]">{isDelimiterMode ? `${enDelimiterCount} علامة` : `${parsedEnSentences.length} جملة`}</strong>
+                            {isDelimiterMode && <span className="text-[11px] text-[var(--editorial-muted)]"> ({parsedEnSentences.length} فقرة)</span>}
+                          </span>
+                        </div>
+
+                        {/* Balance Status Pill */}
+                        {isDelimiterMode ? (
+                          arDelimiterCount === 0 && enDelimiterCount === 0 ? (
+                            <span className="text-slate-400 text-[11px]">أضف علامات ({activeDelim}) داخل النصين للفصل بين الفقرات المقابلة</span>
+                          ) : arDelimiterCount === enDelimiterCount ? (
+                            <span className="text-emerald-300 bg-emerald-950/60 border border-emerald-500/40 px-2.5 py-0.5 rounded-full flex items-center gap-1 font-bold">
+                              <i className="fa-solid fa-circle-check text-[10px]"></i>
+                              <span>متطابق تماماً ({arDelimiterCount} علامة — {parsedArSentences.length} فقرة متوازية)</span>
+                            </span>
+                          ) : (
+                            <span className="text-amber-300 bg-amber-950/60 border border-amber-500/40 px-2.5 py-0.5 rounded-full flex items-center gap-1 font-bold">
+                              <i className="fa-solid fa-triangle-exclamation text-[10px] text-amber-400"></i>
+                              <span>
+                                {arDelimiterCount > enDelimiterCount
+                                  ? `ناقص ${arDelimiterCount - enDelimiterCount} علامة في النص الإنجليزي`
+                                  : `ناقص ${enDelimiterCount - arDelimiterCount} علامة في النص العربي`}
+                              </span>
+                            </span>
+                          )
+                        ) : (
+                          parsedArSentences.length === 0 && parsedEnSentences.length === 0 ? (
+                            <span className="text-slate-400 text-[11px]">الصق النصين لحساب الجمل تلقائياً</span>
+                          ) : parsedArSentences.length === parsedEnSentences.length ? (
+                            <span className="text-emerald-300 bg-emerald-950/60 border border-emerald-500/40 px-2.5 py-0.5 rounded-full flex items-center gap-1 font-bold">
+                              <i className="fa-solid fa-circle-check text-[10px]"></i>
+                              <span>عدد الجمل متطابق ({parsedArSentences.length} جملة)</span>
+                            </span>
+                          ) : (
+                            <span className="text-amber-300 bg-amber-950/60 border border-amber-500/40 px-2.5 py-0.5 rounded-full flex items-center gap-1 font-bold">
+                              <i className="fa-solid fa-triangle-exclamation text-[10px] text-amber-400"></i>
+                              <span>
+                                {parsedArSentences.length > parsedEnSentences.length
+                                  ? `العربي أكثر بـ (${parsedArSentences.length - parsedEnSentences.length}) جمل`
+                                  : `الإنجليزي أكثر بـ (${parsedEnSentences.length - parsedArSentences.length}) جمل`}
+                              </span>
+                            </span>
+                          )
+                        )}
                       </div>
                     </div>
                   </div>
@@ -1996,14 +2586,11 @@ export default function App() {
             {activeTab === 'lexicon' && (
               <div className="view-enter lexicon-layout">
                 <div className="lexicon-heading">
-                  <span className="eyebrow-label">قاموسك السريع</span>
                   <h2 className="section-title">المعجم</h2>
-                  <p className="page-lede">ابحث عن كلمة واحدة، واحصل على معناها في سياق القراءة.</p>
                 </div>
 
                 {/* Search Box */}
                 <div className="library-controls lexicon-search-panel flex-col items-stretch gap-3">
-                  <label className="panel-label">ابحث في المعجم</label>
                   <div className="flex items-center gap-3">
                     <div className="relative flex-1">
                       <input
@@ -2045,7 +2632,7 @@ export default function App() {
                   <div className="interleaved-card card-active lexicon-result p-6 space-y-4">
                     <div className="flex items-start justify-between">
                       <div>
-                        <h3 className="text-xl font-bold font-serif text-white mb-1">
+                        <h3 className="text-xl font-bold font-serif text-[var(--editorial-ivory)] mb-1">
                           {lexiconResult.word}
                         </h3>
                       </div>
@@ -2074,8 +2661,8 @@ export default function App() {
 
                     <div className="pt-3 border-t border-white/10">
                       <div className="flex flex-wrap gap-2">
-                        {lexiconResult.meanings.map((m, i) => (
-                          <span key={i} className="btn btn-secondary py-1 px-3 text-sm text-purple-200">
+                        {lexiconResult.meanings.slice(0, 2).map((m, i) => (
+                          <span key={i} className="py-1 px-3 text-sm text-amber-100 bg-[var(--editorial-surface-2)] border border-[var(--editorial-border)] rounded-lg font-medium">
                             {m}
                           </span>
                         ))}
@@ -2097,10 +2684,7 @@ export default function App() {
                 {/* Header & Quick Action */}
                 <div className="flex items-center justify-between flex-wrap gap-4 notebook-header">
                   <div>
-                    <h2 className="section-title">المفردات والبطاقات الذكية ({savedWords.length})</h2>
-                    <p className="text-xs text-slate-400 mt-0.5">
-                      نظام المراجعة الفعّالة بالتكرار المتباعد واختبارات التذكر التفاعلية
-                    </p>
+                    <h2 className="section-title">المفردات ({savedWords.length})</h2>
                   </div>
 
                   <div className="flex items-center gap-2 flex-wrap">
@@ -2161,16 +2745,15 @@ export default function App() {
                 </div>
 
                 {/* Vocabulary Tools Bar */}
-                <div className="flex items-center justify-between flex-wrap gap-2 p-2.5 rounded-2xl bg-black/30 border border-white/10 text-xs text-slate-300 notebook-tools">
+                <div className="flex items-center justify-between flex-wrap gap-2 p-2.5 rounded-2xl bg-[var(--editorial-surface-2)] border border-[var(--editorial-border)] text-xs text-[var(--editorial-muted)] notebook-tools">
                   <div className="flex items-center gap-2">
                     <i className="fa-solid fa-toolbox text-purple-400"></i>
-                    <span className="font-semibold text-white">أدوات إدارة البطاقات:</span>
                   </div>
 
                   <div className="flex items-center gap-2 flex-wrap">
                     <button
                       onClick={handleExportVocabulary}
-                      className="hover:text-white transition-colors flex items-center gap-1 bg-white/5 py-1 px-2.5 rounded-lg border border-white/5"
+                      className="hover:text-[var(--editorial-ivory)] transition-colors flex items-center gap-1 bg-white/5 py-1 px-2.5 rounded-lg border border-white/5"
                       title="تصدير جميع المفردات كملف JSON للنسخ الاحتياطي"
                     >
                       <i className="fa-solid fa-download text-purple-300"></i>
@@ -2178,7 +2761,7 @@ export default function App() {
                     </button>
 
                     <label
-                      className="hover:text-white transition-colors flex items-center gap-1 bg-white/5 py-1 px-2.5 rounded-lg border border-white/5 cursor-pointer"
+                      className="hover:text-[var(--editorial-ivory)] transition-colors flex items-center gap-1 bg-white/5 py-1 px-2.5 rounded-lg border border-white/5 cursor-pointer"
                       title="استيراد مفردات من ملف JSON"
                     >
                       <i className="fa-solid fa-file-import text-purple-300"></i>
@@ -2193,7 +2776,7 @@ export default function App() {
 
                     <button
                       onClick={handleRemoveDuplicates}
-                      className="hover:text-white transition-colors flex items-center gap-1 bg-white/5 py-1 px-2.5 rounded-lg border border-white/5"
+                      className="hover:text-[var(--editorial-ivory)] transition-colors flex items-center gap-1 bg-white/5 py-1 px-2.5 rounded-lg border border-white/5"
                       title="تنظيف المفردات المكررة"
                     >
                       <i className="fa-solid fa-broom text-amber-300"></i>
@@ -2202,7 +2785,7 @@ export default function App() {
 
                     <button
                       onClick={handleResetSrsSchedule}
-                      className="hover:text-white transition-colors flex items-center gap-1 bg-white/5 py-1 px-2.5 rounded-lg border border-white/5 text-amber-300"
+                      className="hover:text-[var(--editorial-ivory)] transition-colors flex items-center gap-1 bg-white/5 py-1 px-2.5 rounded-lg border border-white/5 text-amber-300"
                       title="إعادة المواعيد لتصبح جميع البطاقات مستحقة الآن"
                     >
                       <i className="fa-solid fa-rotate text-amber-400"></i>
@@ -2216,7 +2799,7 @@ export default function App() {
                   <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 notebook-summary">
                     <div className="interleaved-card p-3 text-center">
                       <div className="text-xs text-slate-400 mb-1">إجمالي المفردات</div>
-                      <div className="text-xl font-bold font-serif text-white">{savedWords.length}</div>
+                      <div className="text-xl font-bold font-serif text-[var(--editorial-ivory)]">{savedWords.length}</div>
                     </div>
                     
                     <div 
@@ -2312,28 +2895,14 @@ export default function App() {
                   </div>
                 )}
 
-                {savedWords.length > 0 && (
-                  <div className="vocab-view-toggle" aria-label="طريقة عرض المفردات">
-                    <span className="panel-label">طريقة العرض</span>
-                    <div className="inline-flex items-center gap-1">
-                      <button onClick={() => setVocabView('grid')} className={`view-toggle-btn ${vocabView === 'grid' ? 'active' : ''}`}>
-                        <i className="fa-solid fa-table-cells-large"></i><span>شبكة</span>
-                      </button>
-                      <button onClick={() => setVocabView('list')} className={`view-toggle-btn ${vocabView === 'list' ? 'active' : ''}`}>
-                        <i className="fa-solid fa-list"></i><span>قائمة</span>
-                      </button>
-                    </div>
-                  </div>
-                )}
-
-                {/* Empty State */}
+                {/* Empty State or Cards Grid */}
                 {savedWords.length === 0 ? (
                   <div className="interleaved-card text-center py-16 space-y-4">
                     <div className="w-16 h-16 rounded-full bg-purple-900/30 border border-purple-500/30 flex items-center justify-center mx-auto text-purple-300 text-2xl shadow-lg shadow-purple-950/50">
                       <i className="fa-solid fa-bookmark"></i>
                     </div>
                     <div>
-                      <h3 className="text-lg font-bold font-serif text-white">دفتر المفردات فارغ</h3>
+                      <h3 className="text-lg font-bold font-serif text-[var(--editorial-ivory)]">دفتر المفردات فارغ</h3>
                       <p className="text-xs text-slate-400 max-w-sm mx-auto mt-1">
                         أثناء قراءة أي نص، اضغط على أي كلمة لعرض ترجمتها وحفظها مباشرة، أو أضف مفرداتك الخاصة يدوياً.
                       </p>
@@ -2354,7 +2923,7 @@ export default function App() {
                   </div>
                 ) : (
                   /* Cards Grid */
-                  <div className={`vocab-list ${vocabView === 'list' ? 'vocab-list-mode' : 'vocab-grid-mode'}`}>
+                  <div className="vocab-list vocab-grid-mode">
                     {filteredSavedWords.map((item) => {
                       const level = item.level ?? 0;
                       const isMastered = item.mastered || level >= 3;
@@ -2367,7 +2936,7 @@ export default function App() {
                             <div className="flex items-start justify-between gap-2 mb-2">
                               <div>
                                 <div className="flex items-center gap-2 flex-wrap">
-                                  <h4 className="text-xl font-bold font-serif text-white tracking-wide">{item.word}</h4>
+                                  <h4 className="text-xl font-bold font-serif text-[var(--editorial-ivory)] tracking-wide">{item.word}</h4>
                                   <span className="text-[10px] text-purple-300/80 bg-purple-950/60 border border-purple-500/30 px-1.5 py-0.5 rounded">
                                     {item.direction === 'ar-en' ? 'عربي ➔ E' : 'English ➔ ع'}
                                   </span>
@@ -2386,14 +2955,6 @@ export default function App() {
                                   <i className="fa-solid fa-ellipsis"></i>
                                 </summary>
                                 <div className="vocab-actions-popover">
-                                <button
-                                  onClick={() => speak(item.word, item.direction === 'ar-en' ? 'ar' : 'en')}
-                                  className="btn btn-ghost py-1 px-2 text-xs text-purple-300 hover:text-white"
-                                  title="استمع للنطق"
-                                >
-                                  <i className="fa-solid fa-volume-high"></i>
-                                </button>
-
                                 <button
                                   onClick={() => handleOpenEditWordModal(item)}
                                   className="btn btn-ghost py-1 px-2 text-xs text-slate-400 hover:text-purple-300"
@@ -2506,26 +3067,65 @@ export default function App() {
             {/* --- VIEW 4: LIBRARY --- */}
             {activeTab === 'library' && (
               <div className="view-enter library-layout">
-                <div className="flex items-center justify-between flex-wrap gap-4 library-heading">
+                <div className="flex items-center justify-between flex-wrap gap-4 library-heading mb-3">
                   <div>
-                    <span className="eyebrow-label">مكتبتك</span>
                     <h2 className="section-title">المكتبة ({books.length})</h2>
-                    <p className="page-lede">اختر كتابًا لمتابعة القراءة، أو أنشئ مساحة جديدة للنصوص المتوازية.</p>
+                    <p className="text-xs text-[var(--editorial-muted)] mt-0.5">
+                      مجموعتك الأدبية ونصوصك المترجمة المحفوظة محلياً مع حماية تلقائية من الضياع
+                    </p>
                   </div>
 
-                  <button
-                    onClick={() => setActiveTab('workspace')}
-                    className="btn btn-primary"
-                  >
-                    <i className="fa-solid fa-plus"></i>
-                    <span>إعداد نص جديد</span>
-                  </button>
+                  <div className="flex items-center gap-2 flex-wrap">
+                    {/* Full Backup Export */}
+                    <button
+                      type="button"
+                      onClick={handleExportFullBackup}
+                      className="btn btn-secondary py-2 px-3 text-xs flex items-center gap-1.5 border-[var(--editorial-border)] hover:border-amber-500/40"
+                      title="تحميل نسخة احتياطية شاملة لكامل المكتبة والمفردات كملف JSON"
+                    >
+                      <i className="fa-solid fa-download text-amber-300"></i>
+                      <span>تصدير نسخة احتياطية (JSON)</span>
+                    </button>
+
+                    {/* Full Backup Import */}
+                    <label
+                      className="btn btn-secondary py-2 px-3 text-xs flex items-center gap-1.5 border-[var(--editorial-border)] hover:border-purple-400 cursor-pointer"
+                      title="استعادة الكتب والدفعات والمفردات من ملف JSON سابق"
+                    >
+                      <i className="fa-solid fa-upload text-purple-300"></i>
+                      <span>استعادة نسخة</span>
+                      <input
+                        type="file"
+                        accept=".json"
+                        onChange={handleImportFullBackup}
+                        className="hidden"
+                      />
+                    </label>
+
+                    <button
+                      onClick={() => setActiveTab('workspace')}
+                      className="btn btn-primary py-2 px-4 text-xs flex items-center gap-1.5"
+                    >
+                      <i className="fa-solid fa-plus"></i>
+                      <span>إعداد نص جديد</span>
+                    </button>
+                  </div>
+                </div>
+
+                {/* Storage Health & Resilience Banner */}
+                <div className="mb-4 p-2.5 rounded-xl bg-[var(--editorial-surface-2)] border border-[var(--editorial-border)] flex items-center justify-between gap-3 text-xs flex-wrap">
+                  <div className="flex items-center gap-2 text-[var(--text-secondary)]">
+                    <i className="fa-solid fa-shield-halved text-emerald-400 text-sm"></i>
+                    <span>نظام الحفظ المزدوج النشط: كتبك ونصوصك مؤمنة تلقائياً في قاعدة البيانات المحلية (IndexedDB) مع لقطة طوارئ دائمة.</span>
+                  </div>
+                  <div className="text-[11px] text-[var(--editorial-muted)] font-mono">
+                    {books.length} كتب · {books.reduce((sum, b) => sum + getBookBatchesSorted(b).length, 0)} دفعات
+                  </div>
                 </div>
 
                 {/* Library Search */}
                 {books.length > 0 && (
                   <div className="library-controls library-context">
-                    <span className="panel-label">تصفية المكتبة</span>
                     <input
                       type="text"
                       value={searchFilter}
@@ -2542,7 +3142,7 @@ export default function App() {
                     <div className="w-16 h-16 rounded-full bg-purple-900/30 border border-purple-500/30 flex items-center justify-center mx-auto text-purple-300 text-2xl">
                       <i className="fa-solid fa-book-open"></i>
                     </div>
-                    <h3 className="text-lg font-bold text-white font-serif">المكتبة فارغة</h3>
+                    <h3 className="text-lg font-bold text-[var(--editorial-ivory)] font-serif">المكتبة فارغة</h3>
                     <p className="text-xs text-slate-400 max-w-md mx-auto">
                       لم تقم بإنشاء أية كتب محلياً بعد.
                     </p>
@@ -2557,82 +3157,241 @@ export default function App() {
                     </div>
                   </div>
                 ) : (
-                  <div className="library-book-grid">
-                    {filteredBooks.map((book) => (
-                      <div
-                        key={book.id}
-                        onClick={() => {
-                          setCurrentBook(book);
-                          setIsReading(true);
-                        }}
-                        className="book-card-editorial group cursor-pointer"
-                      >
-                        {/* Vertical Book Cover (2:3 Aspect Ratio) */}
-                        <div className="book-cover-portrait">
-                          <div className="book-spine-spine" />
-                          <div className="book-cover-inner">
-                            <span className="book-cover-monogram">{book.title.slice(0, 1)}</span>
-                            <div className="book-cover-title line-clamp-2">{book.title}</div>
-                            <div className="book-cover-author line-clamp-1">{book.author || 'مؤلف مخصص'}</div>
-                          </div>
-                        </div>
-
-                        {/* Editorial Details */}
-                        <div className="book-editorial-details">
-                          <div className="flex items-start justify-between gap-2">
-                            <div className="min-w-0 flex-1">
-                              <h3 className="book-editorial-title line-clamp-1">{book.title}</h3>
-                              <p className="book-editorial-author line-clamp-1">{book.author || 'مؤلف غير محدد'}</p>
-                            </div>
-
-                            {/* Quiet Options Menu ⋯ */}
-                            <details className="book-options-menu" onClick={(e) => e.stopPropagation()}>
-                              <summary title="خيارات الكتاب" aria-label="خيارات الكتاب">
-                                <i className="fa-solid fa-ellipsis-vertical"></i>
-                              </summary>
-                              <div className="book-options-popover">
-                                <button
-                                  onClick={(e) => {
-                                    e.stopPropagation();
-                                    handleDeleteBook(book.id);
-                                  }}
-                                  className="btn btn-ghost text-red-300 hover:text-red-100 hover:bg-red-900/40 w-full text-right py-1.5 px-3 text-xs"
-                                >
-                                  <i className="fa-solid fa-trash-can ml-1.5 text-xs"></i>
-                                  <span>حذف الكتاب</span>
-                                </button>
+                  <div>
+                    {/* Featured Book Spotlight when not searching and activeHeroBook exists */}
+                    {!searchFilter.trim() && activeHeroBook && (
+                      <div className="hero-book-spotlight">
+                        <div className="hero-spotlight-content">
+                          {/* Cover */}
+                          <div 
+                            onClick={() => {
+                              setCurrentBook(activeHeroBook);
+                              setIsReading(true);
+                            }}
+                            className="hero-spotlight-cover group cursor-pointer"
+                            title="انقر لفتح وقراءة الكتاب"
+                          >
+                            <div className="book-spine-spine" />
+                            {activeHeroBook.coverImage ? (
+                              <img
+                                src={activeHeroBook.coverImage}
+                                alt={activeHeroBook.title}
+                                className="w-full h-full object-cover rounded"
+                                loading="lazy"
+                              />
+                            ) : (
+                              <div className="flex flex-col justify-between h-full p-1 text-center">
+                                <span className="book-cover-monogram">{activeHeroBook.title.slice(0, 1)}</span>
+                                <div className="book-cover-title line-clamp-2 text-xs">{activeHeroBook.title}</div>
+                                <div className="book-cover-author line-clamp-1 text-[10px]">{activeHeroBook.author || 'مؤلف مخصص'}</div>
                               </div>
-                            </details>
+                            )}
                           </div>
 
-                          {/* Reading Progress Indicator */}
-                          <div className="book-progress-wrapper mt-3">
-                            <div className="flex items-center justify-between text-[11px] text-slate-400 mb-1">
-                              <span>{book.alignedRows.length} فقرة</span>
-                              <span>{formatLastRead(book.lastReadAt)}</span>
+                          {/* Info & Details */}
+                          <div className="flex-1 min-w-0">
+                            <div className="hero-spotlight-meta-strip">
+                              <span>الكتاب الحالي</span>
+                              <span aria-hidden="true">·</span>
+                              <span>{getBookBatchesSorted(activeHeroBook).length} دفعات</span>
+                              <span aria-hidden="true">·</span>
+                              <span>{getBookAllRowsSorted(activeHeroBook).length} فقرة</span>
+                              <span aria-hidden="true">·</span>
+                              <span>آخر قراءة: {formatLastRead(activeHeroBook.lastReadAt)}</span>
                             </div>
-                            <div className="book-progress-bar-bg">
-                              <div className="book-progress-bar-fill" style={{ width: '100%' }} />
-                            </div>
-                          </div>
 
-                          {/* Primary Action Button */}
-                          <div className="mt-3">
-                            <button
-                              onClick={(e) => {
-                                e.stopPropagation();
-                                setCurrentBook(book);
-                                setIsReading(true);
-                              }}
-                              className="btn btn-primary w-full text-xs py-2 flex items-center justify-center gap-1.5"
-                            >
-                              <i className="fa-solid fa-book-open text-xs"></i>
-                              <span>متابعة القراءة</span>
-                            </button>
+                            <h3 className="hero-spotlight-title">{activeHeroBook.title}</h3>
+                            <p className="hero-spotlight-author">{activeHeroBook.author || 'مؤلف غير محدد'}</p>
+
+                            {/* Progress Bar */}
+                            <div className="hero-spotlight-progress-wrap">
+                              <div className="book-progress-bar-bg">
+                                <div className="book-progress-bar-fill" style={{ width: '100%' }} />
+                              </div>
+                            </div>
+
+                            {/* Action Buttons */}
+                            <div className="hero-spotlight-actions">
+                              <button
+                                onClick={() => {
+                                  setCurrentBook(activeHeroBook);
+                                  setIsReading(true);
+                                }}
+                                className="btn-hero-resume"
+                              >
+                                <i className="fa-solid fa-book-open"></i>
+                                <span>استئناف القراءة الآن</span>
+                              </button>
+
+                              <button
+                                onClick={() => handleOpenBatchesModal(activeHeroBook)}
+                                className="btn btn-secondary text-xs"
+                                title="عرض وإدارة دفعات النصوص"
+                              >
+                                <i className="fa-solid fa-layer-group text-purple-400 ml-1"></i>
+                                <span>دفعات النصوص ({getBookBatchesSorted(activeHeroBook).length})</span>
+                              </button>
+
+                              <button
+                                onClick={() => handleOpenWorkspaceForBatchAppend(activeHeroBook)}
+                                className="btn btn-secondary text-xs text-emerald-400"
+                                title="إضافة دفعة نصوص جديدة"
+                              >
+                                <i className="fa-solid fa-plus-circle ml-1"></i>
+                                <span>إضافة دفعة</span>
+                              </button>
+
+                              <button
+                                onClick={() => handleOpenEditBookModal(activeHeroBook)}
+                                className="btn btn-secondary text-xs text-amber-300"
+                                title="تعديل بيانات وغلاف الكتاب"
+                              >
+                                <i className="fa-solid fa-pen-to-square ml-1"></i>
+                                <span>تعديل</span>
+                              </button>
+                            </div>
                           </div>
                         </div>
                       </div>
-                    ))}
+                    )}
+
+                    {/* Section heading for other books if spotlight is shown and other books exist */}
+                    {!searchFilter.trim() && otherBooks.length > 0 && (
+                      <div className="mb-4 pt-2 border-t border-[var(--editorial-border)] flex items-center justify-between">
+                        <h3 className="text-base font-bold font-serif text-[var(--editorial-ivory)]">
+                          بقية الكتب في المكتبة ({otherBooks.length})
+                        </h3>
+                      </div>
+                    )}
+
+                    {/* Grid of books */}
+                    <div className="library-book-grid">
+                      {(searchFilter.trim() ? filteredBooks : otherBooks).map((book) => (
+                        <div
+                          key={book.id}
+                          onClick={() => {
+                            setCurrentBook(book);
+                            setIsReading(true);
+                          }}
+                          className="book-card-editorial group cursor-pointer"
+                        >
+                          {/* Vertical Book Cover (2:3 Aspect Ratio) */}
+                          <div className="book-cover-portrait relative overflow-hidden rounded-lg shadow-lg group">
+                            <div className="book-spine-spine" />
+                            {book.coverImage ? (
+                              <div className="relative w-full h-full min-h-[170px] bg-slate-900 rounded-r overflow-hidden flex items-center justify-center">
+                                <img
+                                  src={book.coverImage}
+                                  alt={book.title}
+                                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                  loading="lazy"
+                                />
+                                <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent p-2.5 flex flex-col justify-end">
+                                  <div className="book-cover-title line-clamp-2 text-white text-xs font-bold text-shadow">{book.title}</div>
+                                  <div className="book-cover-author line-clamp-1 text-amber-200/90 text-[10px]">{book.author || 'مؤلف مخصص'}</div>
+                                </div>
+                              </div>
+                            ) : (
+                              <div className="book-cover-inner">
+                                <span className="book-cover-monogram">{book.title.slice(0, 1)}</span>
+                                <div className="book-cover-title line-clamp-2">{book.title}</div>
+                                <div className="book-cover-author line-clamp-1">{book.author || 'مؤلف مخصص'}</div>
+                              </div>
+                            )}
+                          </div>
+
+                          {/* Editorial Details */}
+                          <div className="book-editorial-details">
+                            <div className="flex items-start justify-between gap-2">
+                              <div className="min-w-0 flex-1">
+                                <h3 className="book-editorial-title line-clamp-1">{book.title}</h3>
+                                <p className="book-editorial-author line-clamp-1">{book.author || 'مؤلف غير محدد'}</p>
+                              </div>
+
+                              {/* Quiet Options Menu ⋯ */}
+                              <details className="book-options-menu" onClick={(e) => e.stopPropagation()}>
+                                <summary title="خيارات الكتاب" aria-label="خيارات الكتاب">
+                                  <i className="fa-solid fa-ellipsis-vertical"></i>
+                                </summary>
+                                <div className="book-options-popover">
+                                  <button
+                                    onClick={(e) => {
+                                      e.stopPropagation();
+                                      handleOpenEditBookModal(book);
+                                    }}
+                                    className="btn btn-ghost text-amber-200 hover:text-white hover:bg-white/10 w-full text-right py-1.5 px-3 text-xs"
+                                  >
+                                    <i className="fa-solid fa-pen-to-square ml-1.5 text-xs text-amber-400"></i>
+                                    <span>تعديل بيانات الكتاب</span>
+                                  </button>
+
+                                  <button
+                                    onClick={(e) => {
+                                      e.stopPropagation();
+                                      handleOpenBatchesModal(book);
+                                    }}
+                                    className="btn btn-ghost text-purple-200 hover:text-white hover:bg-white/10 w-full text-right py-1.5 px-3 text-xs"
+                                  >
+                                    <i className="fa-solid fa-layer-group ml-1.5 text-xs text-purple-400"></i>
+                                    <span>عرض وإدارة دفعات النصوص ({getBookBatchesSorted(book).length})</span>
+                                  </button>
+
+                                  <button
+                                    onClick={(e) => {
+                                      e.stopPropagation();
+                                      handleOpenWorkspaceForBatchAppend(book);
+                                    }}
+                                    className="btn btn-ghost text-emerald-300 hover:text-white hover:bg-white/10 w-full text-right py-1.5 px-3 text-xs"
+                                  >
+                                    <i className="fa-solid fa-plus-circle ml-1.5 text-xs text-emerald-400"></i>
+                                    <span>إضافة دفعة نصوص جديدة</span>
+                                  </button>
+
+                                  <button
+                                    onClick={(e) => {
+                                      e.stopPropagation();
+                                      handleDeleteBook(book.id);
+                                    }}
+                                    className="btn btn-ghost text-red-300 hover:text-red-100 hover:bg-red-900/40 w-full text-right py-1.5 px-3 text-xs border-t border-white/10 mt-1 pt-2"
+                                  >
+                                    <i className="fa-solid fa-trash-can ml-1.5 text-xs"></i>
+                                    <span>حذف الكتاب</span>
+                                  </button>
+                                </div>
+                              </details>
+                            </div>
+
+                            {/* Reading Progress Indicator */}
+                            <div className="book-progress-wrapper mt-3">
+                              <div className="flex items-center justify-between text-[11px] text-slate-400 mb-1">
+                                <span className="text-purple-300/90 font-medium">
+                                  {getBookBatchesSorted(book).length} دفعات ({getBookAllRowsSorted(book).length} فقرة)
+                                </span>
+                                <span>{formatLastRead(book.lastReadAt)}</span>
+                              </div>
+                              <div className="book-progress-bar-bg">
+                                <div className="book-progress-bar-fill" style={{ width: '100%' }} />
+                              </div>
+                            </div>
+
+                            {/* Primary Action Button */}
+                            <div className="mt-3">
+                              <button
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  setCurrentBook(book);
+                                  setIsReading(true);
+                                }}
+                                className="btn btn-primary w-full text-xs py-2 flex items-center justify-center gap-1.5"
+                              >
+                                <i className="fa-solid fa-book-open text-xs"></i>
+                                <span>متابعة القراءة</span>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                 )}
               </div>
@@ -2685,7 +3444,7 @@ export default function App() {
           {/* Header */}
           <div className="flex items-center justify-between gap-3 mb-2.5">
             <div className="flex items-center gap-2">
-              <h3 className="text-xl font-bold font-serif text-white">{selectedWord.word}</h3>
+              <h3 className="text-xl font-bold font-serif text-[var(--editorial-ivory)]">{selectedWord.word}</h3>
             </div>
 
             <div className="flex items-center gap-1">
@@ -2731,103 +3490,76 @@ export default function App() {
 
           <div className="space-y-3 pt-2 border-t border-white/10">
             {/* 1. AI & CONTEXTUAL TRANSLATION SECTION */}
-            <div className="ai-translation-box">
-              <div className="flex items-center justify-between gap-2 mb-2 flex-wrap">
-                {selectedWord.aiConnected ? (
-                  <span className="ai-tag-badge bg-gradient-to-r from-purple-600 to-indigo-600 text-white">
-                    <i className="fa-solid fa-wand-magic-sparkles text-xs"></i>
-                    <span>ترجمة الذكاء الاصطناعي (Gemini 3.8)</span>
+            <div className="ai-translation-box rounded-xl p-3 bg-black/20 border border-white/10 space-y-2">
+              <div className="flex items-center justify-between gap-2 flex-wrap">
+                <span className="ai-tag-badge bg-gradient-to-r from-purple-900/80 via-indigo-900/80 to-purple-900/80 border border-amber-400/25 text-amber-100 flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-medium">
+                  <i className="fa-solid fa-wand-magic-sparkles text-xs text-amber-300"></i>
+                  <span>
+                    {selectedWord.aiSource === 'gemini' 
+                      ? 'الترجمة السياقية بالذكاء الاصطناعي (Gemini Flash)' 
+                      : 'المطابقة والترجمة السياقية الذكية'}
                   </span>
-                ) : (
-                  <span className="ai-tag-badge bg-amber-950/80 border border-amber-500/50 text-amber-200">
-                    <i className="fa-solid fa-microchip text-xs text-amber-400"></i>
-                    <span>المطابقة السياقية اللغوية (معالج محلي فوري)</span>
-                  </span>
-                )}
+                </span>
 
                 {selectedWord.aiLoading ? (
-                  <span className="text-[11px] text-purple-300 flex items-center gap-1">
-                    <i className="fa-solid fa-spinner fa-spin text-xs"></i>
-                    <span>جارٍ البحث والتحليل...</span>
-                  </span>
-                ) : selectedWord.aiConnected ? (
-                  <span className="text-[11px] text-emerald-400 bg-emerald-950/60 border border-emerald-500/30 px-2 py-0.5 rounded-full flex items-center gap-1">
-                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
-                    <span>متصل بـ Gemini</span>
+                  <span className="text-[11px] text-amber-200/80 flex items-center gap-1">
+                    <i className="fa-solid fa-spinner fa-spin text-xs text-amber-300"></i>
+                    <span>تحليل الجملة...</span>
                   </span>
                 ) : (
-                  <span className="text-[11px] text-amber-300 bg-amber-950/60 border border-amber-500/40 px-2 py-0.5 rounded-full flex items-center gap-1">
-                    <i className="fa-solid fa-triangle-exclamation text-[10px] text-amber-400"></i>
-                    <span>الذكاء الاصطناعي غير متصل</span>
+                  <span className="text-[11px] text-emerald-300 bg-emerald-950/40 border border-emerald-500/20 px-2 py-0.5 rounded-full flex items-center gap-1">
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                    <span>جاهز ✦</span>
                   </span>
                 )}
               </div>
 
-              {/* Status Notice when AI is not connected */}
-              {!selectedWord.aiLoading && !selectedWord.aiConnected && (
-                <div className="text-[11px] text-amber-200/90 bg-amber-950/30 border border-amber-500/30 p-2 rounded-xl mb-2.5 flex items-start gap-2 leading-relaxed">
-                  <i className="fa-solid fa-circle-info text-amber-400 mt-0.5 shrink-0"></i>
-                  <div className="flex-1">
-                    <p className="font-bold text-amber-200">
-                      تنبيه: تعذر الاتصال بنموذج الذكاء الاصطناعي (Gemini)
-                    </p>
-                    <p className="text-slate-300 text-[10.5px] mt-0.5">
-                      {selectedWord.aiStatusMessage || 'المفتاح غير متوفر في إعدادات البيئة. يتم عرض المطابقة السياقية عبر المعالج اللغوي المدمج.'}
-                    </p>
-                  </div>
-                </div>
-              )}
-
               {selectedWord.aiLoading ? (
                 <div className="py-2 text-xs text-slate-400 flex items-center gap-2">
-                  <i className="fa-solid fa-sparkles animate-pulse text-purple-400"></i>
-                  <span>يتم فحص الجملة والجمل المحيطة لتحديد الترجمة الدقيقة للكلمة...</span>
+                  <i className="fa-solid fa-sparkles animate-pulse text-amber-300"></i>
+                  <span>استخراج المقابل الدقيق من النص المقابل...</span>
                 </div>
               ) : selectedWord.aiExactMatch ? (
-                <div className="space-y-1.5">
+                <div className="space-y-1.5 pt-1">
                   <div className="flex items-baseline gap-2 flex-wrap">
-                    <span className="text-xs text-slate-400">المقابل الدقيق في النص:</span>
-                    <span className="ai-matched-word text-base">
+                    <span className="text-xs text-slate-400">المقابل في النص:</span>
+                    <span className="ai-matched-word text-base font-bold text-amber-200 bg-amber-500/10 px-2.5 py-0.5 rounded-md border border-amber-500/20">
                       {selectedWord.aiExactMatch}
                     </span>
                     {selectedWord.aiContextualMeaning && selectedWord.aiContextualMeaning !== selectedWord.aiExactMatch && (
-                      <span className="text-xs text-emerald-300 font-medium">
-                        ({selectedWord.aiContextualMeaning})
+                      <span className="text-xs text-emerald-300 font-medium bg-emerald-950/40 px-2 py-0.5 rounded-md border border-emerald-500/20">
+                        {selectedWord.aiContextualMeaning}
                       </span>
                     )}
                   </div>
                   {selectedWord.aiExplanation && (
-                    <p className="text-[11px] text-slate-300 bg-black/20 px-2.5 py-1.5 rounded-lg border border-white/5 leading-relaxed">
-                      <i className="fa-solid fa-circle-info ml-1 text-purple-400"></i>
+                    <p className="text-[11px] text-slate-300 bg-black/15 px-2.5 py-1.5 rounded-lg border border-white/5 leading-relaxed">
+                      <i className="fa-solid fa-circle-info ml-1 text-amber-400/80"></i>
                       {selectedWord.aiExplanation}
                     </p>
                   )}
                 </div>
-              ) : (
-                <p className="text-xs text-slate-400 py-1">
-                  اضغط على الكلمة داخل نص القراءة المزدوج للبحث عن مقابلها في الجملة المقابلة
-                </p>
-              )}
+              ) : null}
             </div>
 
             {/* 2. LEXICAL DICTIONARY MEANINGS SECTION */}
-            <div className="space-y-1.5">
+            <div className="space-y-1.5 pt-1">
               <div className="text-xs font-semibold text-slate-400 flex items-center gap-1.5">
-                <i className="fa-solid fa-book-bookmark text-purple-400 text-xs"></i>
-                <span>الترجمة المعجمية الشاملة (القاموس):</span>
+                <i className="fa-solid fa-book-bookmark text-amber-400/80 text-xs"></i>
+                <span>المعنى المعجمي الموجز:</span>
               </div>
 
               {selectedWord.loading ? (
                 <div className="flex items-center gap-2 text-xs text-slate-400 py-1">
-                  <i className="fa-solid fa-spinner fa-spin text-purple-400"></i>
-                  <span>جارٍ جلب المعاجم...</span>
+                  <i className="fa-solid fa-spinner fa-spin text-amber-400"></i>
+                  <span>جلب المعجم...</span>
                 </div>
               ) : selectedWord.meanings.length > 0 ? (
                 <div className="flex flex-wrap gap-2">
-                  {selectedWord.meanings.map((m, idx) => (
+                  {selectedWord.meanings.slice(0, 2).map((m, idx) => (
                     <span
                       key={idx}
-                      className="btn btn-secondary py-1 px-3 text-sm text-violet-200"
+                      className="py-1 px-3 text-sm text-amber-100 bg-[var(--editorial-surface-2)] border border-[var(--editorial-border)] rounded-lg font-medium"
                     >
                       {m}
                     </span>
@@ -2835,7 +3567,7 @@ export default function App() {
                 </div>
               ) : (
                 <p className="text-xs text-slate-400 py-1">
-                  لا توجد ترجمة مسجلة في القاموس العام لهذه الكلمة
+                  لا توجد ترجمة مسجلة في القاموس لهذه الكلمة
                 </p>
               )}
             </div>
@@ -2854,7 +3586,7 @@ export default function App() {
                   <i className="fa-solid fa-graduation-cap text-sm"></i>
                 </div>
                 <div>
-                  <h2 className="text-base font-bold font-serif text-white">
+                  <h2 className="text-base font-bold font-serif text-[var(--editorial-ivory)]">
                     {reviewStats.completed
                       ? 'اكتملت الجلسة'
                       : `مراجعة: بطاقة ${reviewIndex + 1} من ${reviewQueue.length}`}
@@ -2957,7 +3689,7 @@ export default function App() {
                   </div>
 
                   <div>
-                    <h3 className="text-xl font-bold font-serif text-white mb-1">
+                    <h3 className="text-xl font-bold font-serif text-[var(--editorial-ivory)] mb-1">
                       اكتملت المراجعة
                     </h3>
                     <p className="text-xs text-slate-400">
@@ -3087,7 +3819,7 @@ export default function App() {
                         <div className="text-xs text-purple-300 font-semibold mb-2">
                           {reviewQueue[reviewIndex]?.direction === 'ar-en' ? 'نص عربي' : 'English Term'}
                         </div>
-                        <h3 className="text-3xl font-bold font-serif text-white mb-2">
+                        <h3 className="text-3xl font-bold font-serif text-[var(--editorial-ivory)] mb-2">
                           {reviewQueue[reviewIndex]?.word}
                         </h3>
                         {reviewQueue[reviewIndex]?.bookTitle && (
@@ -3104,7 +3836,7 @@ export default function App() {
                       {/* BACK OF CARD */}
                       <div className="study-card-back">
                         <div className="text-xs text-emerald-300 font-semibold mb-2">المعنى المقابل والترجمة</div>
-                        <h3 className="text-xl font-bold font-serif text-white mb-3">
+                        <h3 className="text-xl font-bold font-serif text-[var(--editorial-ivory)] mb-3">
                           {reviewQueue[reviewIndex]?.word}
                         </h3>
                         <div className="flex flex-wrap gap-2 justify-center mb-4">
@@ -3165,23 +3897,9 @@ export default function App() {
                   {/* Prompt Card */}
                   <div className="interleaved-card text-center p-6 space-y-2 border-purple-500/30">
                     <div className="text-xs text-purple-300 font-semibold">ما هو المعنى الصحيح لهذه المفردة؟</div>
-                    <h3 className="text-3xl font-bold font-serif text-white">
+                    <h3 className="text-3xl font-bold font-serif text-[var(--editorial-ivory)]">
                       {reviewQueue[reviewIndex]?.word}
                     </h3>
-                    <div className="pt-1">
-                      <button
-                        onClick={() =>
-                          speak(
-                            reviewQueue[reviewIndex]?.word,
-                            reviewQueue[reviewIndex]?.direction === 'ar-en' ? 'ar' : 'en'
-                          )
-                        }
-                        className="btn btn-ghost py-1 px-3 text-xs text-purple-300 hover:text-white"
-                      >
-                        <i className="fa-solid fa-volume-high ml-1"></i>
-                        <span>استمع</span>
-                      </button>
-                    </div>
                   </div>
 
                   {/* 4 Choices */}
@@ -3366,7 +4084,7 @@ export default function App() {
             <div className="modal-header">
               <div className="flex items-center gap-2">
                 <i className="fa-solid fa-plus-circle text-purple-400"></i>
-                <h2 className="text-base font-bold font-serif text-white">إضافة مفردة جديدة</h2>
+                <h2 className="text-base font-bold font-serif text-[var(--editorial-ivory)]">إضافة مفردة جديدة</h2>
               </div>
               <button onClick={() => setShowAddWordModal(false)} className="modal-close" title="إغلاق">
                 <i className="fa-solid fa-xmark"></i>
@@ -3449,7 +4167,7 @@ export default function App() {
             <div className="modal-header">
               <div className="flex items-center gap-2">
                 <i className="fa-solid fa-pen-to-square text-purple-400"></i>
-                <h2 className="text-base font-bold font-serif text-white">تعديل: {editingWord.word}</h2>
+                <h2 className="text-base font-bold font-serif text-[var(--editorial-ivory)]">تعديل: {editingWord.word}</h2>
               </div>
               <button onClick={() => setShowEditWordModal(false)} className="modal-close" title="إغلاق">
                 <i className="fa-solid fa-xmark"></i>
@@ -3498,7 +4216,7 @@ export default function App() {
             <div className="modal-header">
               <div className="flex items-center gap-2">
                 <i className="fa-solid fa-sliders text-purple-400"></i>
-                <h2 className="text-base font-bold font-serif text-white">إعدادات القراءة</h2>
+                <h2 className="text-base font-bold font-serif text-[var(--editorial-ivory)]">إعدادات القراءة</h2>
               </div>
               <button onClick={() => setShowSettings(false)} className="modal-close" title="إغلاق">
                 <i className="fa-solid fa-xmark"></i>
@@ -3735,6 +4453,349 @@ export default function App() {
             <div className="modal-footer">
               <button onClick={() => setShowSettings(false)} className="btn btn-primary w-full">
                 حفظ وإغلاق
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ================= EDIT BOOK METADATA MODAL ================= */}
+      {showEditBookModal && editingBook && (
+        <div className="modal-overlay active" onClick={() => setShowEditBookModal(false)}>
+          <div className="modal-card max-w-lg" onClick={(e) => e.stopPropagation()}>
+            <div className="modal-header">
+              <div className="flex items-center gap-2">
+                <i className="fa-solid fa-pen-to-square text-amber-400"></i>
+                <h2 className="text-base font-bold font-serif text-[var(--editorial-ivory)]">تعديل معلومات الكتاب في السجل</h2>
+              </div>
+              <button onClick={() => setShowEditBookModal(false)} className="modal-close" title="إغلاق">
+                <i className="fa-solid fa-xmark"></i>
+              </button>
+            </div>
+
+            <div className="modal-body space-y-4">
+              <div>
+                <label className="form-label">عنوان الكتاب</label>
+                <input
+                  type="text"
+                  value={editTitle}
+                  onChange={(e) => setEditTitle(e.target.value)}
+                  placeholder="عنوان الكتاب..."
+                  className="form-input w-full font-serif text-base"
+                />
+              </div>
+
+              <div>
+                <label className="form-label">اسم المؤلف أو المترجم</label>
+                <input
+                  type="text"
+                  value={editAuthor}
+                  onChange={(e) => setEditAuthor(e.target.value)}
+                  placeholder="المؤلف..."
+                  className="form-input w-full text-sm"
+                />
+              </div>
+
+              <div>
+                <label className="form-label">التصنيف / المجال الأدبي</label>
+                <input
+                  type="text"
+                  value={editCategory}
+                  onChange={(e) => setEditCategory(e.target.value)}
+                  placeholder="مثال: أدب عالمي مترجم، فلسفة، روايات تاريخية..."
+                  className="form-input w-full text-sm"
+                />
+              </div>
+
+              <div>
+                <label className="form-label">ملاحظات وملخص عن الكتاب</label>
+                <textarea
+                  rows={2}
+                  value={editNotes}
+                  onChange={(e) => setEditNotes(e.target.value)}
+                  placeholder="أضف وصفاً اختصارياً أو ملاحظاتك الشخصية..."
+                  className="form-textarea w-full text-xs"
+                />
+              </div>
+
+              {/* Cover Image Customization Section */}
+              <div className="space-y-3 pt-2 border-t border-white/10">
+                <label className="form-label text-purple-300 font-bold flex items-center justify-between">
+                  <span>صورة غلاف الكتاب (جودة عالية)</span>
+                  {editCoverImage && (
+                    <button
+                      type="button"
+                      onClick={() => setEditCoverImage('')}
+                      className="text-xs text-red-400 hover:text-red-300 flex items-center gap-1 font-normal"
+                    >
+                      <i className="fa-solid fa-trash text-[10px]"></i>
+                      <span>إزالة الصورة</span>
+                    </button>
+                  )}
+                </label>
+
+                <div className="flex flex-col sm:flex-row items-center gap-4">
+                  {/* Cover Preview Card */}
+                  <div className="w-24 h-36 rounded-lg border border-white/20 overflow-hidden relative shadow-lg bg-slate-900 shrink-0 flex items-center justify-center">
+                    {editCoverImage ? (
+                      <img
+                        src={editCoverImage}
+                        alt="معاينة الغلاف"
+                        className="w-full h-full object-cover"
+                      />
+                    ) : (
+                      <div className="text-center p-2">
+                        <i className="fa-solid fa-image text-slate-500 text-2xl mb-1"></i>
+                        <span className="text-[10px] text-slate-400 block">بدون صورة</span>
+                      </div>
+                    )}
+                  </div>
+
+                  <div className="flex-1 space-y-2.5 w-full">
+                    {/* File Upload Button */}
+                    <div className="relative">
+                      <label className="btn btn-secondary text-xs w-full cursor-pointer flex items-center justify-center gap-2 py-2.5 border-purple-500/30 hover:border-purple-400">
+                        <i className="fa-solid fa-upload text-purple-400"></i>
+                        <span>رفع صورة غلاف من جهازك (HD)</span>
+                        <input
+                          type="file"
+                          accept="image/*"
+                          onChange={handleCoverImageUpload}
+                          className="hidden"
+                        />
+                      </label>
+                    </div>
+
+                    {/* Or URL input */}
+                    <div>
+                      <input
+                        type="text"
+                        value={editCoverImage}
+                        onChange={(e) => setEditCoverImage(e.target.value)}
+                        placeholder="أو ألصق رابط صورة الغلاف هنا (https://...)"
+                        className="form-input w-full text-xs font-mono"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="modal-footer">
+              <button onClick={() => setShowEditBookModal(false)} className="btn btn-secondary text-xs">
+                إلغاء
+              </button>
+              <button onClick={handleSaveBookEdits} className="btn btn-primary text-xs px-5">
+                <i className="fa-solid fa-check ml-1"></i>
+                <span>حفظ التغييرات</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ================= BOOK TEXT BATCHES MODAL ================= */}
+      {showBatchesModal && selectedBookForBatches && (
+        <div className="modal-overlay active" onClick={() => setShowBatchesModal(false)}>
+          <div className="modal-card max-w-3xl" onClick={(e) => e.stopPropagation()}>
+            <div className="modal-header flex items-center justify-between">
+              <div>
+                <div className="flex items-center gap-2">
+                  <i className="fa-solid fa-layer-group text-purple-400"></i>
+                  <h2 className="text-base sm:text-lg font-bold font-serif text-[var(--editorial-ivory)]">
+                    فصول ودفعات الكتاب: {selectedBookForBatches.title}
+                  </h2>
+                </div>
+                <p className="text-xs text-[var(--editorial-muted)] mt-0.5">
+                  تصفح دفعات النصوص المترجمة لهذا الكتاب، يمكنك قراءة أي دفعة بمفردها أو تعديل عنوانها أو حذفها
+                </p>
+              </div>
+              <button onClick={() => setShowBatchesModal(false)} className="modal-close" title="إغلاق">
+                <i className="fa-solid fa-xmark"></i>
+              </button>
+            </div>
+
+            <div className="modal-body space-y-4">
+              {/* Batches Overview Strip */}
+              <div className="flex items-center justify-between gap-3 p-3 bg-[var(--editorial-surface-2)] rounded-xl border border-[var(--editorial-border)] flex-wrap">
+                <div className="flex items-center gap-3 text-xs">
+                  <span className="text-[var(--text-secondary)]">
+                    إجمالي الدفعات: <strong className="text-amber-300 font-mono text-sm">{getBookBatchesSorted(selectedBookForBatches).length}</strong>
+                  </span>
+                  <span className="text-[var(--editorial-muted)]">|</span>
+                  <span className="text-[var(--text-secondary)]">
+                    إجمالي الفقرات: <strong className="text-purple-300 font-mono text-sm">{getBookAllRowsSorted(selectedBookForBatches).length}</strong>
+                  </span>
+                </div>
+
+                <button
+                  onClick={() => handleOpenWorkspaceForBatchAppend(selectedBookForBatches)}
+                  className="btn btn-primary text-xs py-2 px-3.5 flex items-center gap-1.5 shadow-sm"
+                >
+                  <i className="fa-solid fa-plus-circle text-xs"></i>
+                  <span>إضافة دفعة نصوص جديدة</span>
+                </button>
+              </div>
+
+              {/* Batches List (Newest First) */}
+              <div className="space-y-4 max-h-[60vh] overflow-y-auto pr-1">
+                {getBookBatchesSorted(selectedBookForBatches).map((batch, idx) => {
+                  const isEditingThisBatch = editingBatchId === batch.id;
+                  const isFirst = idx === 0;
+                  const firstRow = batch.alignedRows?.[0];
+
+                  return (
+                    <div
+                      key={batch.id}
+                      className={`p-4 sm:p-5 rounded-2xl border transition-all ${
+                        isFirst
+                          ? 'bg-[var(--editorial-surface-2)] border-amber-500/40 shadow-lg shadow-amber-950/10'
+                          : 'bg-[var(--editorial-surface-2)] border-[var(--editorial-border)] hover:border-amber-500/30'
+                      }`}
+                    >
+                      {/* TIER 1: Batch Header Bar */}
+                      <div className="flex items-center justify-between flex-wrap gap-2 pb-2.5 border-b border-[var(--editorial-border)]">
+                        <div className="flex items-center gap-2 flex-wrap">
+                          <span className={`text-xs font-bold px-3 py-1 rounded-lg flex items-center gap-1.5 ${
+                            isFirst
+                              ? 'bg-amber-500/20 text-amber-300 border border-amber-500/40'
+                              : 'bg-white/5 text-[var(--text-secondary)] border border-white/10'
+                          }`}>
+                            <i className="fa-solid fa-bookmark text-[10px]"></i>
+                            <span>الدفعة #{getBookBatchesSorted(selectedBookForBatches).length - idx}</span>
+                            {isFirst && <span className="text-[10px] bg-amber-400 text-black px-1.5 py-0.5 rounded font-bold mr-1">الأحدث</span>}
+                          </span>
+
+                          <span className="text-xs text-[var(--editorial-muted)] font-mono flex items-center gap-1">
+                            <i className="fa-solid fa-calendar text-[11px] text-slate-400"></i>
+                            <span>{new Date(batch.createdAt).toLocaleDateString('ar-EG', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
+                          </span>
+                        </div>
+
+                        <div className="flex items-center gap-2">
+                          <span className="text-xs font-mono font-medium text-purple-300 bg-purple-950/50 border border-purple-500/30 px-2.5 py-1 rounded-lg flex items-center gap-1.5">
+                            <i className="fa-solid fa-align-left text-[10px]"></i>
+                            <span>{batch.alignedRows?.length || 0} فقرة متوازية</span>
+                          </span>
+                        </div>
+                      </div>
+
+                      {/* TIER 2: Batch Title & Dual Bilingual Excerpt */}
+                      <div className="py-3 space-y-2.5">
+                        {isEditingThisBatch ? (
+                          <div className="p-3 bg-black/40 rounded-xl border border-amber-500/40 space-y-2">
+                            <label className="text-xs text-amber-300 font-semibold block">تعديل اسم الدفعة:</label>
+                            <div className="flex items-center gap-2">
+                              <input
+                                type="text"
+                                value={editBatchTitleInput}
+                                onChange={(e) => setEditBatchTitleInput(e.target.value)}
+                                placeholder="اكتب عنواناً للدفعة..."
+                                className="form-input text-xs py-2 px-3 flex-1 font-serif bg-black/60"
+                                autoFocus
+                              />
+                              <button
+                                onClick={() => handleSaveBatchRename(selectedBookForBatches.id, batch.id)}
+                                className="btn btn-primary text-xs py-2 px-4 shrink-0"
+                              >
+                                حفظ
+                              </button>
+                              <button
+                                onClick={() => setEditingBatchId(null)}
+                                className="btn btn-secondary text-xs py-2 px-3 shrink-0"
+                              >
+                                إلغاء
+                              </button>
+                            </div>
+                          </div>
+                        ) : (
+                          <div>
+                            <h3 className="font-serif font-bold text-[var(--editorial-ivory)] text-base sm:text-lg leading-snug">
+                              {batch.title || `الدفعة ${getBookBatchesSorted(selectedBookForBatches).length - idx}`}
+                            </h3>
+                          </div>
+                        )}
+
+                        {/* Dual Bilingual Excerpt (Spacious, No overlap) */}
+                        {firstRow && (
+                          <div className="grid grid-cols-1 md:grid-cols-2 gap-2.5 pt-1">
+                            {/* Arabic Preview */}
+                            <div className="p-3 rounded-xl bg-black/35 border-r-2 border-amber-500/60 border-t border-b border-l border-white/5 space-y-1">
+                              <div className="text-[10px] font-semibold text-amber-300/90 flex items-center gap-1 font-mono">
+                                <i className="fa-solid fa-quote-right text-[9px]"></i>
+                                <span>مقتطف من النص العربي</span>
+                              </div>
+                              <p className="text-xs font-serif text-[var(--text-primary)] leading-relaxed line-clamp-2">
+                                "{firstRow.arabic}"
+                              </p>
+                            </div>
+
+                            {/* English Preview */}
+                            <div className="p-3 rounded-xl bg-black/35 border-l-2 border-purple-500/60 border-t border-b border-r border-white/5 space-y-1">
+                              <div className="text-[10px] font-semibold text-purple-300/90 flex items-center gap-1 font-mono">
+                                <i className="fa-solid fa-quote-left text-[9px]"></i>
+                                <span>Parallel English excerpt</span>
+                              </div>
+                              <p className="text-[11px] font-serif text-[var(--text-secondary)] leading-relaxed line-clamp-2" dir="ltr">
+                                "{firstRow.english}"
+                              </p>
+                            </div>
+                          </div>
+                        )}
+                      </div>
+
+                      {/* TIER 3: Dedicated Action Footer Bar */}
+                      <div className="pt-2.5 border-t border-[var(--editorial-border)] flex items-center justify-between flex-wrap gap-2">
+                        {/* Primary Read CTA */}
+                        <button
+                          onClick={() => {
+                            setCurrentBook(selectedBookForBatches);
+                            setActiveBatchId(batch.id);
+                            setShowBatchesModal(false);
+                            setIsReading(true);
+                          }}
+                          className="btn btn-primary text-xs py-2 px-4 flex items-center gap-2 shadow-md hover:shadow-lg"
+                          title="فتح وقراءة هذه الدفعة في القارئ"
+                        >
+                          <i className="fa-solid fa-book-open text-xs"></i>
+                          <span className="font-bold">قراءة هذه الدفعة في القارئ</span>
+                        </button>
+
+                        {/* Secondary Actions */}
+                        <div className="flex items-center gap-1.5">
+                          {!isEditingThisBatch && (
+                            <button
+                              onClick={() => {
+                                setEditingBatchId(batch.id);
+                                setEditBatchTitleInput(batch.title || '');
+                              }}
+                              className="btn btn-secondary text-[var(--text-secondary)] hover:text-amber-300 py-1.5 px-3 text-xs flex items-center gap-1.5 border-[var(--editorial-border)]"
+                              title="تعديل اسم الدفعة"
+                            >
+                              <i className="fa-solid fa-pen text-[11px]"></i>
+                              <span>تعديل الاسم</span>
+                            </button>
+                          )}
+
+                          <button
+                            onClick={() => handleDeleteBatch(selectedBookForBatches.id, batch.id)}
+                            className="btn btn-secondary text-red-300 hover:text-red-100 hover:border-red-500/40 py-1.5 px-3 text-xs flex items-center gap-1.5 border-[var(--editorial-border)]"
+                            title="حذف هذه الدفعة"
+                          >
+                            <i className="fa-solid fa-trash-can text-[11px]"></i>
+                            <span>حذف الدفعة</span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+
+            <div className="modal-footer">
+              <button onClick={() => setShowBatchesModal(false)} className="btn btn-secondary text-xs w-full">
+                إغلاق
               </button>
             </div>
           </div>

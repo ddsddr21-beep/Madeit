@@ -1,11 +1,8 @@
 {
-  "datasetName": "Wiktionary Master Arabic-English Lexicon (Ultra Expanded)",
+  "datasetName": "Wiktionary Master Arabic-English Lexicon (Precision Calibrated)",
   "datasetAuthor": "Wiktionary Linguistic Community & Kaikki.org",
-  "sourceUrl": "https://kaikki.org/dictionary/Arabic/",
-  "license": "Creative Commons Attribution-ShareAlike (CC-BY-SA 3.0 / 4.0)",
-  "description": "Exhaustive, gold-standard, linguistically validated bidirectional Arabic-English dictionary with complete morphological inflection coverage.",
-  "totalArabicEntries": 912471,
-  "totalEnglishEntries": 27122,
-  "maxMeaningsPerWord": 3,
-  "generatedAt": "2026-09-30"
+  "description": "High-accuracy, curated bidirectional Arabic-English dictionary pruned to concise, contextual 1-2 meanings per term, free of lexicographical noise.",
+  "maxMeaningsPerWord": 2,
+  "calibration": "Pruned noise, grammatical glosses, and redundant morphological variants",
+  "generatedAt": "2026-10-31"
 }

@@ -2,31 +2,33 @@
 
 :root {
   /* Default Obsidian & Electric Violet Theme */
-  --bg-obsidian: #050608;
-  --bg-surface: #0F1216;
-  --bg-card: rgba(18, 22, 28, 0.7);
-  --bg-input: rgba(8, 10, 14, 0.8);
+  --bg-obsidian: #080a0d;
+  --bg-surface: #10141a;
+  --bg-card: rgba(18, 22, 28, 0.85);
+  --bg-input: rgba(10, 13, 18, 0.9);
   --violet-primary: #8B5CF6;
   --violet-light: #A78BFA;
   --violet-dark: #6D28D9;
   --violet-glow: rgba(139, 92, 246, 0.2);
-  --accent: #A78BFA;
+  --accent: #C7A66A;
   
-  /* Text - Refined Colors */
-  --text-primary: #F9FAFB;
-  --text-secondary: #D1D5DB;
-  --text-muted: #9CA3AF;
-  --text-accent: #C4B5FD; /* Vivid accent */
-  --text-highlight: #F59E0B; /* Amber for highlights */
+  /* Text - Rich Scholarly Editorial Colors */
+  --text-primary: #F5F1E8;        /* Warm Parchment Ivory */
+  --text-secondary: #D8D1C4;      /* Soft Champagne */
+  --text-muted: #9E978C;          /* Muted Sand Gray */
+  --text-accent: #C7A66A;         /* Literary Gold Accent */
+  --text-highlight: #E5A93C;      /* Warm Amber Highlight */
   
   /* Glassmorphism */
-  --glass-bg: rgba(22, 27, 34, 0.8);
-  --glass-border: rgba(139, 92, 246, 0.2);
+  --glass-bg: rgba(18, 22, 28, 0.85);
+  --glass-border: rgba(199, 166, 106, 0.18);
   
-  /* Fonts - Optimized for readability */
-  --font-serif: 'Scheherazade New', serif;
-  --font-sans: 'Plus Jakarta Sans', sans-serif;
-  --font-display: 'Amiri', serif;
+  /* Fonts - Amiri & Lora Classical Stack */
+  --font-serif: 'Amiri', 'Noto Serif Arabic', 'Aref Ruqaa', serif;
+  --font-sans: 'Amiri', 'Lora', serif;
+  --font-display: 'Amiri', 'Aref Ruqaa Ink', 'Aref Ruqaa', serif;
+  --font-arabic: 'Amiri', 'Noto Serif Arabic', serif;
+  --font-english: 'Lora', Georgia, serif;
 }
 
 /* Parchment / Classical Manuscript Theme */
@@ -94,12 +96,20 @@ body {
   font-family: var(--font-sans);
   background-color: var(--bg-obsidian);
   color: var(--text-primary);
-  line-height: 1.6;
-  letter-spacing: 0.15px;
+  line-height: 1.7;
+  letter-spacing: 0.1px;
   overflow-x: hidden;
   min-height: 100vh;
   transition: background-color 0.3s ease, color 0.3s ease;
   padding-bottom: env(safe-area-inset-bottom, 0);
+}
+
+h1, h2, h3, h4, h5, h6, .section-title, .header-brand-title, .font-serif {
+  font-family: var(--font-serif);
+}
+
+input, textarea, select, button {
+  font-family: var(--font-sans);
 }
 
 /* Ambient Background Effect */
@@ -230,12 +240,16 @@ body.theme-emerald .header {
 }
 
 .header-brand-title {
-  font-family: var(--font-serif);
-  font-size: 19px;
+  font-family: 'Aref Ruqaa Ink', 'Rakkas', 'Aref Ruqaa', 'Amiri', serif;
+  font-size: 22px;
   font-weight: 700;
   color: var(--text-primary);
-  letter-spacing: 0.3px;
-  line-height: 1.2;
+  background: linear-gradient(135deg, #F8F6F0 0%, #E2C997 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 2px 8px rgba(199, 166, 106, 0.2));
+  letter-spacing: 0.5px;
+  line-height: 1.25;
 }
 
 .header-brand-subtitle {
@@ -2322,9 +2336,67 @@ body {
 }
 
 
-/* ======================== DARK EDITORIAL SHELL ========================
+/* ======================== DARK & PARCHMENT EDITORIAL SHELL ========================
    Desktop navigation becomes a quiet RTL context rail; mobile keeps bottom navigation. */
 :root {
+  --editorial-bg: #FAF7F2;
+  --editorial-surface: #F3ECE0;
+  --editorial-surface-2: #EAE0D0;
+  --editorial-border: #D8C7AF;
+  --editorial-ivory: #2A2118;
+  --editorial-muted: #7A6C5D;
+  --editorial-violet: #8C5828;
+  --editorial-violet-light: #A86D36;
+  --editorial-gold: #965B20;
+  --bg-obsidian: var(--editorial-bg);
+  --bg-surface: var(--editorial-surface);
+  --bg-card: var(--editorial-surface-2);
+  --bg-input: #FCFBF7;
+  --violet-primary: var(--editorial-violet);
+  --violet-light: var(--editorial-violet-light);
+  --violet-glow: rgba(140, 88, 40, 0.12);
+  --text-primary: var(--editorial-ivory);
+  --text-secondary: #594B3C;
+  --text-muted: var(--editorial-muted);
+  --glass-bg: var(--editorial-surface-2);
+  --glass-border: var(--editorial-border);
+  --glass-border-violet: rgba(140, 88, 40, 0.35);
+  --glass-shadow: 0 4px 18px rgba(90, 60, 30, 0.06);
+}
+
+body.theme-parchment {
+  --editorial-bg: #FAF7F2;
+  --editorial-surface: #F3ECE0;
+  --editorial-surface-2: #EAE0D0;
+  --editorial-border: #D8C7AF;
+  --editorial-ivory: #2A2118;
+  --editorial-muted: #7A6C5D;
+  --editorial-violet: #8C5828;
+  --editorial-violet-light: #A86D36;
+  --editorial-gold: #965B20;
+  --bg-obsidian: #FAF7F2;
+  --bg-surface: #F3ECE0;
+  --bg-card: #EAE0D0;
+  --bg-input: #FCFBF7;
+  --violet-primary: #8C5828;
+  --violet-light: #A86D36;
+  --violet-glow: rgba(140, 88, 40, 0.12);
+  --text-primary: #2A2118;
+  --text-secondary: #594B3C;
+  --text-muted: #7A6C5D;
+  --glass-bg: #F3ECE0;
+  --glass-border: #D8C7AF;
+  --glass-border-violet: rgba(140, 88, 40, 0.35);
+  --glass-shadow: 0 4px 18px rgba(90, 60, 30, 0.06);
+  --paper-bg: #FAF7F2;
+  --paper-text: #2A2118;
+  --paper-btn-border: #D8C7AF;
+  --paper-btn-hover: #EAE0D0;
+  --paper-row-hover: rgba(140, 88, 40, 0.05);
+  --paper-row-active: rgba(140, 88, 40, 0.12);
+}
+
+body.theme-obsidian {
   --editorial-bg: #0b0d0f;
   --editorial-surface: #121518;
   --editorial-surface-2: #181c20;
@@ -2334,20 +2406,58 @@ body {
   --editorial-violet: #8b82d8;
   --editorial-violet-light: #aaa4ea;
   --editorial-gold: #c7a66a;
-  --bg-obsidian: var(--editorial-bg);
-  --bg-surface: var(--editorial-surface);
-  --bg-card: var(--editorial-surface-2);
+  --bg-obsidian: #0b0d0f;
+  --bg-surface: #121518;
+  --bg-card: #181c20;
   --bg-input: #0f1215;
-  --violet-primary: var(--editorial-violet);
-  --violet-light: var(--editorial-violet-light);
+  --violet-primary: #8b82d8;
+  --violet-light: #aaa4ea;
   --violet-glow: rgba(139, 130, 216, 0.08);
-  --text-primary: var(--editorial-ivory);
+  --text-primary: #f1efea;
   --text-secondary: #c5c5c2;
-  --text-muted: var(--editorial-muted);
-  --glass-bg: var(--editorial-surface-2);
-  --glass-border: var(--editorial-border);
+  --text-muted: #9b9fa6;
+  --glass-bg: #181c20;
+  --glass-border: #292e34;
   --glass-border-violet: rgba(139, 130, 216, 0.3);
   --glass-shadow: 0 8px 30px rgba(0, 0, 0, 0.18);
+  --paper-bg: #0b0d0f;
+  --paper-text: #f1efea;
+  --paper-btn-border: #292e34;
+  --paper-btn-hover: #181c20;
+  --paper-row-hover: rgba(255, 255, 255, 0.03);
+  --paper-row-active: rgba(139, 130, 216, 0.1);
+}
+
+body.theme-emerald {
+  --editorial-bg: #091712;
+  --editorial-surface: #102920;
+  --editorial-surface-2: #16362b;
+  --editorial-border: #1e4d3d;
+  --editorial-ivory: #f0fdf4;
+  --editorial-muted: #86efac;
+  --editorial-violet: #10b981;
+  --editorial-violet-light: #34d399;
+  --editorial-gold: #34d399;
+  --bg-obsidian: #091712;
+  --bg-surface: #102920;
+  --bg-card: #16362b;
+  --bg-input: #071c15;
+  --violet-primary: #10b981;
+  --violet-light: #34d399;
+  --violet-glow: rgba(16, 185, 129, 0.2);
+  --text-primary: #f0fdf4;
+  --text-secondary: #bbf7d0;
+  --text-muted: #86efac;
+  --glass-bg: #102920;
+  --glass-border: #1e4d3d;
+  --glass-border-violet: rgba(16, 185, 129, 0.35);
+  --glass-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  --paper-bg: #091712;
+  --paper-text: #f0fdf4;
+  --paper-btn-border: #1e4d3d;
+  --paper-btn-hover: #16362b;
+  --paper-row-hover: rgba(16, 185, 129, 0.05);
+  --paper-row-active: rgba(16, 185, 129, 0.14);
 }
 
 body {
@@ -2704,6 +2814,201 @@ body {
   border-radius: 2px;
 }
 
+/* ======================== HERO BOOK SPOTLIGHT CARD ======================== */
+.hero-book-spotlight {
+  width: 100%;
+  margin-bottom: 2.25rem;
+  padding: 1.75rem 2rem;
+  background: var(--editorial-surface);
+  border: 1.5px solid var(--editorial-border);
+  border-radius: 22px;
+  box-shadow: 0 10px 32px rgba(0, 0, 0, 0.08);
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Classical Manuscript Inner Hairline Frame */
+.hero-book-spotlight::before {
+  content: '';
+  position: absolute;
+  inset: 7px;
+  border: 1px solid rgba(199, 166, 106, 0.55);
+  border-radius: 15px;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+/* Delicate Manuscript Corner Rosettes */
+.hero-book-spotlight::after {
+  content: '';
+  position: absolute;
+  inset: 5px;
+  border-radius: 17px;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle 3px at 11px 11px, #C7A66A 100%, transparent 100%),
+    radial-gradient(circle 3px at calc(100% - 11px) 11px, #C7A66A 100%, transparent 100%),
+    radial-gradient(circle 3px at 11px calc(100% - 11px), #C7A66A 100%, transparent 100%),
+    radial-gradient(circle 3px at calc(100% - 11px) calc(100% - 11px), #C7A66A 100%, transparent 100%);
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+body.theme-parchment .hero-book-spotlight {
+  background: linear-gradient(140deg, #FDFBF7 0%, #F5ECE0 60%, #EFE4D2 100%);
+  border-color: #D8C7AF;
+  box-shadow: 0 10px 32px rgba(90, 60, 30, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+.hero-book-spotlight:hover {
+  border-color: #B87B40;
+  box-shadow: 0 14px 40px rgba(90, 60, 30, 0.12);
+}
+
+.hero-book-spotlight:hover::before {
+  border-color: rgba(184, 123, 64, 0.9);
+  box-shadow: 0 0 14px rgba(199, 166, 106, 0.22), inset 0 0 10px rgba(199, 166, 106, 0.08);
+}
+
+.hero-book-spotlight:hover::after {
+  opacity: 1;
+}
+
+.hero-spotlight-content {
+  display: grid;
+  grid-template-columns: 140px minmax(0, 1fr);
+  gap: 1.75rem;
+  align-items: center;
+}
+
+.hero-spotlight-cover {
+  aspect-ratio: 2 / 3;
+  width: 140px;
+  border-radius: 12px;
+  background: linear-gradient(145deg, #221C16, #14110E);
+  border: 1px solid var(--editorial-border);
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.85rem 0.75rem;
+}
+
+body.theme-parchment .hero-spotlight-cover {
+  background: linear-gradient(145deg, #EBE1D0, #DFD3BE);
+  box-shadow: 0 10px 24px rgba(70, 45, 20, 0.15);
+}
+
+.hero-spotlight-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.hero-spotlight-cover:hover img {
+  transform: scale(1.06);
+}
+
+.hero-spotlight-meta-strip {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  font-size: 0.82rem;
+  color: var(--editorial-gold);
+  margin-bottom: 0.45rem;
+  font-family: var(--font-serif);
+}
+
+.hero-spotlight-title {
+  font-family: 'Amiri', serif;
+  font-size: clamp(1.6rem, 3vw, 2.25rem);
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--editorial-ivory);
+  margin-bottom: 0.25rem;
+}
+
+.hero-spotlight-author {
+  font-family: 'Amiri', serif;
+  font-size: 1.1rem;
+  color: var(--editorial-muted);
+  margin-bottom: 0.85rem;
+}
+
+.hero-spotlight-progress-wrap {
+  margin-bottom: 1.25rem;
+  max-width: 480px;
+}
+
+.hero-spotlight-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.btn-hero-resume {
+  background: var(--editorial-violet);
+  color: #FFFFFF;
+  padding: 0.65rem 1.4rem;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  font-family: var(--font-serif);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  border: 0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+.btn-hero-resume:hover {
+  background: var(--editorial-violet-light);
+  transform: translateY(-2px);
+}
+
+body.theme-parchment .btn-hero-resume {
+  background: #8C5828;
+  color: #FFF;
+}
+body.theme-parchment .btn-hero-resume:hover {
+  background: #6D3F14;
+}
+
+@media (max-width: 680px) {
+  .hero-spotlight-content {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    text-align: center;
+  }
+  .hero-spotlight-cover {
+    margin: 0 auto;
+    width: 120px;
+  }
+  .hero-spotlight-meta-strip {
+    justify-content: center;
+  }
+  .hero-spotlight-progress-wrap {
+    margin-inline: auto;
+  }
+  .hero-spotlight-actions {
+    justify-content: center;
+  }
+}
+
 /* ======================== PORTRAIT 2:3 LIBRARY BOOK GRID ======================== */
 .library-book-grid {
   display: grid;
@@ -2714,31 +3019,81 @@ body {
 .book-card-editorial {
   display: grid;
   grid-template-columns: 100px minmax(0, 1fr);
-  gap: 1rem;
+  gap: 1.15rem;
   align-items: start;
-  padding: 1rem;
+  padding: 1.15rem;
   background: var(--editorial-surface);
-  border: 1px solid var(--editorial-border);
-  border-radius: 12px;
-  transition: border-color 0.2s ease, transform 0.2s ease;
+  border: 1.5px solid var(--editorial-border);
+  border-radius: 16px;
+  position: relative;
+  transition: border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+/* Delicate Manuscript Inner Hairline Border with curved corners */
+.book-card-editorial::before {
+  content: '';
+  position: absolute;
+  inset: 5px;
+  border: 1px solid rgba(199, 166, 106, 0.45);
+  border-radius: 11px;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+/* Delicate Manuscript Corner Florets / Rosettes */
+.book-card-editorial::after {
+  content: '';
+  position: absolute;
+  inset: 3px;
+  border-radius: 13px;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle 2.5px at 8px 8px, #C7A66A 100%, transparent 100%),
+    radial-gradient(circle 2.5px at calc(100% - 8px) 8px, #C7A66A 100%, transparent 100%),
+    radial-gradient(circle 2.5px at 8px calc(100% - 8px), #C7A66A 100%, transparent 100%),
+    radial-gradient(circle 2.5px at calc(100% - 8px) calc(100% - 8px), #C7A66A 100%, transparent 100%);
+  background-repeat: no-repeat;
+  opacity: 0.75;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
 .book-card-editorial:hover {
-  border-color: rgba(199, 166, 106, 0.35);
-  transform: translateY(-2px);
+  border-color: #B87B40;
+  transform: translateY(-4px) scale(1.015);
+  box-shadow: 0 12px 28px rgba(90, 60, 30, 0.12);
+}
+
+.book-card-editorial:hover::before {
+  border-color: rgba(184, 123, 64, 0.85);
+  box-shadow: 0 0 10px rgba(199, 166, 106, 0.22), inset 0 0 8px rgba(199, 166, 106, 0.08);
+}
+
+.book-card-editorial:hover::after {
+  opacity: 1;
+}
+
+.book-card-editorial .book-cover-portrait img {
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.book-card-editorial:hover .book-cover-portrait img {
+  transform: scale(1.08);
 }
 .book-cover-portrait {
   aspect-ratio: 2 / 3;
   width: 100px;
-  border-radius: 8px;
+  border-radius: 10px;
   background: linear-gradient(145deg, #1b2026, #121519);
-  border: 1px solid var(--editorial-border);
+  border: 1px solid rgba(199, 166, 106, 0.4);
   position: relative;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 0.75rem 0.65rem;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.25);
 }
 .book-spine-spine {
   position: absolute;
@@ -2746,7 +3101,8 @@ body {
   bottom: 0;
   right: 0;
   width: 5px;
-  background: rgba(199, 166, 106, 0.3);
+  background: linear-gradient(to bottom, #C7A66A, #8C5828, #C7A66A);
+  box-shadow: -1px 0 3px rgba(0, 0, 0, 0.15);
 }
 .book-cover-monogram {
   font-family: var(--font-serif);
@@ -2826,3 +3182,270 @@ body {
   .paper-dual-spread { grid-template-columns: 1fr; gap: 1.5rem; }
   .paper-dual-spread::before { display: none; }
 }
+
+/* ======================== WARM CLASSICAL MANUSCRIPT REFINEMENTS ======================== */
+body.theme-parchment {
+  background-color: #FAF7F2;
+  color: #2A2118;
+}
+
+/* Typography refinement: Amiri classical serif for Arabic, Lora for English */
+body.theme-parchment,
+body.theme-parchment .font-sans,
+body.theme-parchment input,
+body.theme-parchment textarea,
+body.theme-parchment select,
+body.theme-parchment button {
+  font-family: var(--font-arabic);
+}
+
+body.theme-parchment .text-en,
+body.theme-parchment [lang="en"] {
+  font-family: var(--font-english) !important;
+  line-height: 1.9;
+}
+
+body.theme-parchment .text-ar,
+body.theme-parchment [dir="rtl"] {
+  font-family: var(--font-arabic) !important;
+  line-height: 2.2;
+}
+
+/* Headings in rich antique ink */
+body.theme-parchment h1,
+body.theme-parchment h2,
+body.theme-parchment h3,
+body.theme-parchment h4,
+body.theme-parchment h5,
+body.theme-parchment h6,
+body.theme-parchment .section-title,
+body.theme-parchment .page-title,
+body.theme-parchment .header-brand-title,
+body.theme-parchment .hero-spotlight-title,
+body.theme-parchment .book-editorial-title {
+  color: #2A2118 !important;
+  font-family: var(--font-arabic) !important;
+}
+
+/* Cards & Surfaces: soft ivory & warm beige with limestone borders */
+body.theme-parchment .interleaved-card,
+body.theme-parchment .workspace-card,
+body.theme-parchment .alignment-editor,
+body.theme-parchment .alignment-preview,
+body.theme-parchment .library-controls,
+body.theme-parchment .notebook-tools,
+body.theme-parchment .notebook-summary .interleaved-card,
+body.theme-parchment .lexicon-result,
+body.theme-parchment .vocab-card {
+  background: #FDFBF7 !important;
+  border-color: #D8C7AF !important;
+  border-radius: 14px;
+  box-shadow: 0 4px 18px rgba(90, 60, 30, 0.05);
+}
+
+body.theme-parchment .vocab-card:hover {
+  border-color: #A86D36 !important;
+  box-shadow: 0 10px 24px rgba(90, 60, 30, 0.09);
+}
+
+/* Library Book Cards: Classical Warm Manuscript Decorative Frames */
+body.theme-parchment .book-card-editorial {
+  background: linear-gradient(135deg, #FDFBF7 0%, #F8F2E8 100%) !important;
+  border: 1.5px solid #D8C7AF !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 18px rgba(90, 60, 30, 0.05), inset 0 1px 0 rgba(255, 255, 255, 0.8) !important;
+}
+
+body.theme-parchment .book-card-editorial::before {
+  border-color: rgba(199, 166, 106, 0.55) !important;
+}
+
+body.theme-parchment .book-card-editorial:hover {
+  border-color: #B87B40 !important;
+  box-shadow: 0 12px 28px rgba(90, 60, 30, 0.12) !important;
+}
+
+body.theme-parchment .book-card-editorial:hover::before {
+  border-color: rgba(184, 123, 64, 0.9) !important;
+  box-shadow: 0 0 12px rgba(199, 166, 106, 0.25), inset 0 0 8px rgba(199, 166, 106, 0.08) !important;
+}
+
+/* Prominent Hero Book Spotlight Card */
+body.theme-parchment .hero-book-spotlight {
+  background: linear-gradient(140deg, #FDFBF7 0%, #F5ECE0 60%, #EFE4D2 100%) !important;
+  border: 1.5px solid #D8C7AF !important;
+  border-radius: 22px !important;
+  box-shadow: 0 10px 32px rgba(90, 60, 30, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.8) !important;
+}
+
+body.theme-parchment .hero-book-spotlight::before {
+  border-color: rgba(199, 166, 106, 0.6) !important;
+}
+
+body.theme-parchment .hero-book-spotlight:hover {
+  border-color: #B87B40 !important;
+  box-shadow: 0 14px 40px rgba(90, 60, 30, 0.12) !important;
+}
+
+body.theme-parchment .hero-book-spotlight:hover::before {
+  border-color: rgba(184, 123, 64, 0.95) !important;
+  box-shadow: 0 0 14px rgba(199, 166, 106, 0.22), inset 0 0 10px rgba(199, 166, 106, 0.08) !important;
+}
+
+body.theme-parchment .hero-spotlight-meta-strip {
+  color: #8C5828;
+}
+body.theme-parchment .hero-spotlight-author {
+  color: #6A5B4D;
+}
+
+/* Primary actions: antique bronze */
+body.theme-parchment .btn-primary,
+body.theme-parchment .btn-start-action,
+body.theme-parchment .btn-hero-resume {
+  background: #8C5828 !important;
+  color: #FFFDF9 !important;
+  border-color: transparent !important;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(140, 88, 40, 0.22) !important;
+}
+body.theme-parchment .btn-primary:hover,
+body.theme-parchment .btn-start-action:hover,
+body.theme-parchment .btn-hero-resume:hover {
+  background: #73451B !important;
+}
+
+body.theme-parchment .btn-secondary {
+  background: #F4EFE6 !important;
+  border-color: #D8C7AF !important;
+  color: #2A2118 !important;
+  border-radius: 10px;
+}
+body.theme-parchment .btn-secondary:hover {
+  background: #EAE0D0 !important;
+  border-color: #C2AB8F !important;
+}
+
+/* Form inputs & textareas */
+body.theme-parchment .form-input,
+body.theme-parchment .form-textarea,
+body.theme-parchment .search-box,
+body.theme-parchment select {
+  background: #FCFBF7 !important;
+  border-color: #D8C7AF !important;
+  color: #2A2118 !important;
+  border-radius: 10px;
+}
+body.theme-parchment .form-input:focus,
+body.theme-parchment .form-textarea:focus,
+body.theme-parchment .search-box:focus,
+body.theme-parchment select:focus {
+  border-color: #8C5828 !important;
+  box-shadow: 0 0 0 2px rgba(140, 88, 40, 0.15) !important;
+}
+
+/* Navigation & Sidebar in Parchment */
+body.theme-parchment .header {
+  background: #F8F3EA !important;
+  border-color: #D8C7AF !important;
+}
+body.theme-parchment .nav-item {
+  color: #6A5B4D;
+}
+body.theme-parchment .nav-item:hover {
+  color: #2A2118;
+  background: rgba(140, 88, 40, 0.08);
+}
+body.theme-parchment .nav-item.active {
+  color: #8C5828;
+  background: rgba(140, 88, 40, 0.12);
+}
+body.theme-parchment .nav-item.active i {
+  color: #8C5828;
+}
+
+/* Modals & Dialogs in Parchment */
+body.theme-parchment .modal-card {
+  background: #FDFBF7 !important;
+  border-color: #D8C7AF !important;
+  border-radius: 18px;
+  box-shadow: 0 16px 45px rgba(70, 45, 20, 0.14) !important;
+  color: #2A2118;
+}
+body.theme-parchment .modal-header,
+body.theme-parchment .modal-footer {
+  background: #F5ECE0 !important;
+  border-color: #D8C7AF !important;
+}
+body.theme-parchment .modal-close {
+  background: rgba(140, 88, 40, 0.08) !important;
+  border-color: #D8C7AF !important;
+  color: #2A2118 !important;
+}
+body.theme-parchment .modal-close:hover {
+  background: #8C5828 !important;
+  color: #FFF !important;
+}
+
+/* Study Flip Cards in Parchment */
+body.theme-parchment .study-card-front {
+  background: linear-gradient(145deg, #FDFBF7, #F4EFE6) !important;
+  border: 1px solid #D8C7AF !important;
+  border-top: 3px solid #8C5828 !important;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(70, 45, 20, 0.07);
+}
+body.theme-parchment .study-card-back {
+  background: linear-gradient(145deg, #FDFBF7, #EDE4D3) !important;
+  border: 1px solid #D8C7AF !important;
+  border-top: 3px solid #965B20 !important;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(70, 45, 20, 0.07);
+}
+body.theme-parchment .review-quiz-option {
+  background: #F4EFE6 !important;
+  border-color: #D8C7AF !important;
+  color: #2A2118 !important;
+  border-radius: 10px;
+}
+body.theme-parchment .review-quiz-option:hover:not(:disabled) {
+  background: #EAE0D0 !important;
+  border-color: #8C5828 !important;
+}
+
+/* Reader Folio in Parchment */
+body.theme-parchment .standalone-reader-screen {
+  background: #FAF7F2 !important;
+  color: #2A2118;
+}
+body.theme-parchment .paper-book-page {
+  background: #FAF7F2 !important;
+}
+body.theme-parchment .paper-page-header {
+  background: rgba(250, 247, 242, 0.95) !important;
+  border-bottom-color: #D8C7AF !important;
+}
+body.theme-parchment .paper-action-btn {
+  color: #2A2118 !important;
+  border-color: #D8C7AF !important;
+  border-radius: 8px;
+}
+body.theme-parchment .paper-action-btn:hover {
+  background: #EAE0D0 !important;
+}
+body.theme-parchment .ereader-bottom-toolbar {
+  background: rgba(250, 247, 242, 0.96) !important;
+  border-top-color: #D8C7AF !important;
+  box-shadow: 0 -6px 20px rgba(90, 60, 30, 0.06);
+}
+body.theme-parchment .smart-lexicon-floating {
+  background: #FDFBF7 !important;
+  border-color: #D8C7AF !important;
+  border-radius: 16px;
+  box-shadow: 0 16px 40px rgba(70, 45, 20, 0.14) !important;
+  color: #2A2118;
+}
+body.theme-parchment .smart-lexicon-floating h3 {
+  color: #2A2118 !important;
+}
+
