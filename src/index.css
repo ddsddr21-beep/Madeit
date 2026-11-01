@@ -4452,3 +4452,134 @@ body { color: var(--studio-ink); }
   .library-heading > div:first-child > p,
   .hero-spotlight-meta-strip span:nth-child(even) { display: none !important; }
 }
+
+
+/* =====================================================================
+   SCI-FI CONTROL GLOW — primary actions only
+   ===================================================================== */
+:root {
+  --neon-cyan: #5ee7ff;
+  --neon-violet: #9b8cff;
+  --neon-lime: #c9f36b;
+  --neon-cyan-soft: rgba(94, 231, 255, .22);
+  --neon-violet-soft: rgba(155, 140, 255, .2);
+}
+
+/* Shared glow language for the main controls. */
+.btn-primary,
+.btn-start-action,
+.btn-hero-resume,
+.mobile-nav-btn.active {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+.btn-primary::before,
+.btn-start-action::before,
+.btn-hero-resume::before {
+  content: '';
+  position: absolute;
+  inset: 1px;
+  z-index: -1;
+  border-radius: inherit;
+  background: linear-gradient(115deg, transparent 0 25%, rgba(255,255,255,.42) 42%, transparent 58% 100%);
+  transform: translateX(-130%);
+  transition: transform .65s cubic-bezier(.2,.7,.2,1);
+}
+.btn-primary:hover::before,
+.btn-start-action:hover::before,
+.btn-hero-resume:hover::before { transform: translateX(130%); }
+
+.btn-primary,
+.btn-start-action {
+  border-color: rgba(255,255,255,.46) !important;
+  box-shadow:
+    0 0 0 1px rgba(94,231,255,.25),
+    0 0 14px var(--neon-cyan-soft),
+    0 0 34px rgba(255,118,95,.18),
+    inset 0 1px 0 rgba(255,255,255,.34) !important;
+  text-shadow: 0 1px 0 rgba(255,255,255,.22);
+  transition: transform .2s ease, box-shadow .25s ease, filter .25s ease !important;
+}
+.btn-primary:hover,
+.btn-start-action:hover {
+  filter: saturate(1.18) brightness(1.08);
+  box-shadow:
+    0 0 0 2px rgba(94,231,255,.34),
+    0 0 20px rgba(94,231,255,.42),
+    0 0 46px rgba(255,118,95,.28),
+    inset 0 1px 0 rgba(255,255,255,.5) !important;
+}
+.btn-primary:active,
+.btn-start-action:active {
+  transform: translateY(1px) scale(.98) !important;
+  box-shadow:
+    0 0 0 1px rgba(94,231,255,.32),
+    0 0 12px rgba(94,231,255,.3),
+    inset 0 2px 8px rgba(0,0,0,.2) !important;
+}
+.btn-primary:focus-visible,
+.btn-start-action:focus-visible {
+  outline: 2px solid var(--neon-cyan) !important;
+  outline-offset: 4px;
+  box-shadow: 0 0 0 5px rgba(94,231,255,.18), 0 0 28px var(--neon-cyan-soft) !important;
+}
+.btn-primary:disabled,
+.btn-start-action:disabled { box-shadow: none !important; filter: saturate(.3); }
+
+/* The central execute button gets a stronger reactor-like halo. */
+.btn-start-action {
+  border-color: var(--neon-cyan) !important;
+  box-shadow:
+    0 0 0 2px rgba(94,231,255,.18),
+    0 0 16px rgba(94,231,255,.45),
+    0 0 42px rgba(255,118,95,.28),
+    inset 0 1px 0 rgba(255,255,255,.5) !important;
+}
+.btn-start-action::after {
+  color: var(--neon-cyan) !important;
+  border: 1px solid rgba(94,231,255,.5);
+  box-shadow: 0 0 10px rgba(94,231,255,.22);
+}
+.btn-start-action:hover {
+  box-shadow:
+    0 0 0 3px rgba(94,231,255,.25),
+    0 0 24px rgba(94,231,255,.62),
+    0 0 60px rgba(255,118,95,.38),
+    inset 0 1px 0 rgba(255,255,255,.6) !important;
+}
+
+/* Quiet glow for secondary command controls, without overpowering primary actions. */
+.workspace-context .btn-secondary,
+.workspace-intro .btn-secondary,
+.library-layout .btn-secondary,
+.notebook-layout .btn-secondary {
+  transition: border-color .2s ease, color .2s ease, box-shadow .2s ease, background .2s ease !important;
+}
+.workspace-context .btn-secondary:hover,
+.workspace-intro .btn-secondary:hover,
+.library-layout .btn-secondary:hover,
+.notebook-layout .btn-secondary:hover {
+  border-color: rgba(155,140,255,.68) !important;
+  color: var(--studio-ink) !important;
+  box-shadow: 0 0 0 1px var(--neon-violet-soft), 0 0 16px var(--neon-violet-soft) !important;
+}
+
+/* Active navigation and mobile actions receive a restrained signal ring. */
+.nav-item.active {
+  box-shadow: 0 0 0 1px rgba(94,231,255,.46), 0 0 18px rgba(94,231,255,.22) !important;
+}
+.mobile-nav-btn.active {
+  text-shadow: 0 0 10px var(--neon-cyan-soft);
+}
+.mobile-nav-btn.active i { filter: drop-shadow(0 0 7px var(--neon-cyan)); }
+
+/* Respect reduced motion while preserving the glow. */
+@media (prefers-reduced-motion: reduce) {
+  .btn-primary::before,
+  .btn-start-action::before,
+  .btn-hero-resume::before { transition: none; display: none; }
+  .btn-primary,
+  .btn-start-action,
+  .btn-hero-resume { transition: none !important; }
+}
