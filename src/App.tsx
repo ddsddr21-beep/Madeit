@@ -41,7 +41,7 @@ interface SelectedWordData {
 
 type TabType = 'workspace' | 'library' | 'lexicon' | 'notebook';
 type ReaderLayoutMode = 'dual' | 'interleaved' | 'focus';
-type ReadingTheme = 'obsidian' | 'parchment' | 'emerald';
+type ReadingTheme = 'obsidian' | 'parchment' | 'emerald' | 'matrix';
 
 // Count exact occurrences of a delimiter in text
 function countDelimiterOccurrences(text: string, delimiter: string): number {
@@ -2145,6 +2145,15 @@ export default function App() {
                     }`}
                   >
                     <i className="fa-solid fa-gem text-xs"></i>
+                  </button>
+                  <button
+                    onClick={() => setTheme('matrix')}
+                    title="Matrix Mode"
+                    className={`w-7 h-7 rounded-lg flex items-center justify-center transition-all ${
+                      theme === 'matrix' ? 'bg-lime-500/30 text-lime-300' : 'text-slate-400 hover:text-lime-200'
+                    }`}
+                  >
+                    <i className="fa-solid fa-terminal text-xs"></i>
                   </button>
                 </div>
               </div>
@@ -4288,6 +4297,17 @@ export default function App() {
                   >
                     <i className="fa-solid fa-gem text-sm"></i>
                     <span>زمرد فاخر</span>
+                  </button>
+                  <button
+                    onClick={() => setTheme('matrix')}
+                    className={`btn text-xs py-2 px-3 border transition-all ${
+                      theme === 'matrix'
+                        ? 'border-lime-500 bg-lime-950/40 text-lime-200 ring-2 ring-lime-400/40'
+                        : 'border-white/10 bg-black/20 text-slate-300 hover:border-lime-400/40'
+                    }`}
+                  >
+                    <i className="fa-solid fa-terminal text-sm"></i>
+                    <span>Matrix</span>
                   </button>
                 </div>
               </div>
