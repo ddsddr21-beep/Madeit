@@ -2161,9 +2161,6 @@ export default function App() {
                 <div className="workspace-intro flex items-center justify-between flex-wrap gap-3 pb-3 border-b border-[var(--editorial-border)] mb-4">
                   <div>
                     <h1 className="page-title">ابدأ جلسة قراءة جديدة</h1>
-                    <p className="text-xs text-[var(--editorial-muted)] mt-1">
-                      أدخل النصين المتوازيين؛ يتم حفظ مسودتك تلقائياً لحمايتها من الضياع عند التحديث أو إعادة التحميل.
-                    </p>
                   </div>
 
                   <div className="flex items-center gap-2 flex-wrap">
@@ -2172,8 +2169,8 @@ export default function App() {
                       <i className={`fa-solid ${draftSavedAt ? 'fa-shield-halved text-emerald-400' : 'fa-pen-clip text-amber-300'} text-xs`}></i>
                       <span className="text-[var(--text-secondary)] font-serif text-xs">
                         {draftSavedAt 
-                          ? `المسودة محفوظة تلقائياً (${formatLastRead(draftSavedAt)})`
-                          : (newArabicText.trim() || newEnglishText.trim() ? 'جارٍ الحفظ التلقائي للمسودة...' : 'المسودة فارغة')}
+                          ? 'المسودة محفوظة'
+                          : (newArabicText.trim() || newEnglishText.trim() ? 'جارٍ الحفظ...' : 'مسودة فارغة')}
                       </span>
                     </div>
 
@@ -2258,7 +2255,7 @@ export default function App() {
                     <div className="alignment-editor-header">
                       <div className="flex items-center gap-2">
                         <i className="fa-solid fa-language text-purple-400"></i>
-                        <h3 className="font-bold text-[var(--editorial-ivory)] text-sm">English Parallel Text</h3>
+                        <h3 className="font-bold text-[var(--editorial-ivory)] text-sm">النص الإنجليزي</h3>
                       </div>
                       <button
                         onClick={() => setNewEnglishText('')}
@@ -2289,7 +2286,7 @@ export default function App() {
                           </>
                         ) : (
                           <>
-                            <span className="text-slate-400">Smart Sentences:</span>
+                      <span className="text-slate-400">الجمل:</span>
                             <span className="font-bold text-white bg-purple-950/80 border border-purple-500/40 px-2.5 py-0.5 rounded-md">
                               {parsedEnSentences.length} sentences
                             </span>
@@ -2318,7 +2315,7 @@ export default function App() {
                 <div className="workspace-card workspace-context space-y-4">
                   <div className="flex items-center justify-between flex-wrap gap-3 pb-3 border-b border-white/10">
                     <div className="context-heading">
-                      <h2 className="text-lg font-bold text-white font-serif">طبيعة إضافة النصوص</h2>
+                      <h2 className="text-lg font-bold text-white font-serif">إضافة النص</h2>
                     </div>
 
                     {/* Mode Selector Switch */}
@@ -2418,7 +2415,7 @@ export default function App() {
                       <div>
                         <h3 className="text-sm font-bold text-[var(--editorial-ivory)] flex items-center gap-2">
                           <i className="fa-solid fa-arrows-split-up-and-left text-amber-400"></i>
-                          <span>نظام حساب وتجزئة الجمل</span>
+                          <span>تجزئة النص</span>
                         </h3>
                       </div>
 
@@ -2546,7 +2543,7 @@ export default function App() {
                           )
                         ) : (
                           parsedArSentences.length === 0 && parsedEnSentences.length === 0 ? (
-                            <span className="text-slate-400 text-[11px]">الصق النصين لحساب الجمل تلقائياً</span>
+                          <span className="text-slate-400 text-[11px]">أدخل النصين</span>
                           ) : parsedArSentences.length === parsedEnSentences.length ? (
                             <span className="text-emerald-300 bg-emerald-950/60 border border-emerald-500/40 px-2.5 py-0.5 rounded-full flex items-center gap-1 font-bold">
                               <i className="fa-solid fa-circle-check text-[10px]"></i>
@@ -2626,7 +2623,6 @@ export default function App() {
                 {lexiconLoading ? (
                   <div className="text-center py-12 text-slate-400">
                     <i className="fa-solid fa-spinner fa-spin text-2xl mb-2 text-purple-400"></i>
-                    <p className="text-xs">جارٍ البحث...</p>
                   </div>
                 ) : lexiconResult && lexiconResult.meanings.length > 0 ? (
                   <div className="interleaved-card card-active lexicon-result p-6 space-y-4">
@@ -2671,7 +2667,7 @@ export default function App() {
                   </div>
                 ) : lexiconQuery ? (
                   <div className="text-center py-12 text-slate-400 interleaved-card lexicon-result">
-                    <p>لا توجد نتائج مطابقة</p>
+                    <p>لا توجد نتائج</p>
                   </div>
                 ) : null}
 
@@ -2903,9 +2899,6 @@ export default function App() {
                     </div>
                     <div>
                       <h3 className="text-lg font-bold font-serif text-[var(--editorial-ivory)]">دفتر المفردات فارغ</h3>
-                      <p className="text-xs text-slate-400 max-w-sm mx-auto mt-1">
-                        أثناء قراءة أي نص، اضغط على أي كلمة لعرض ترجمتها وحفظها مباشرة، أو أضف مفرداتك الخاصة يدوياً.
-                      </p>
                     </div>
                     <div className="pt-2">
                       <button
@@ -2919,7 +2912,7 @@ export default function App() {
                   </div>
                 ) : filteredSavedWords.length === 0 ? (
                   <div className="interleaved-card text-center py-12">
-                    <p className="text-slate-400 text-sm">لا توجد نتائج مطابقة للفلتر المحدد</p>
+                    <p className="text-slate-400 text-sm">لا توجد نتائج</p>
                   </div>
                 ) : (
                   /* Cards Grid */
@@ -3070,9 +3063,6 @@ export default function App() {
                 <div className="flex items-center justify-between flex-wrap gap-4 library-heading mb-3">
                   <div>
                     <h2 className="section-title">المكتبة ({books.length})</h2>
-                    <p className="text-xs text-[var(--editorial-muted)] mt-0.5">
-                      مجموعتك الأدبية ونصوصك المترجمة المحفوظة محلياً مع حماية تلقائية من الضياع
-                    </p>
                   </div>
 
                   <div className="flex items-center gap-2 flex-wrap">
@@ -3116,7 +3106,7 @@ export default function App() {
                 <div className="mb-4 p-2.5 rounded-xl bg-[var(--editorial-surface-2)] border border-[var(--editorial-border)] flex items-center justify-between gap-3 text-xs flex-wrap">
                   <div className="flex items-center gap-2 text-[var(--text-secondary)]">
                     <i className="fa-solid fa-shield-halved text-emerald-400 text-sm"></i>
-                    <span>نظام الحفظ المزدوج النشط: كتبك ونصوصك مؤمنة تلقائياً في قاعدة البيانات المحلية (IndexedDB) مع لقطة طوارئ دائمة.</span>
+                    <span>الحفظ المحلي مفعّل</span>
                   </div>
                   <div className="text-[11px] text-[var(--editorial-muted)] font-mono">
                     {books.length} كتب · {books.reduce((sum, b) => sum + getBookBatchesSorted(b).length, 0)} دفعات
@@ -3692,9 +3682,6 @@ export default function App() {
                     <h3 className="text-xl font-bold font-serif text-[var(--editorial-ivory)] mb-1">
                       اكتملت المراجعة
                     </h3>
-                    <p className="text-xs text-slate-400">
-                      تم حفظ تقدمك وتحديث مواعيد المراجعة القادمة للمفردات بنجاح.
-                    </p>
                   </div>
 
                   {/* Stats Grid */}
@@ -3724,7 +3711,6 @@ export default function App() {
                             <i className="fa-solid fa-brain text-purple-400"></i>
                             <span>مؤشر استقرار الذاكرة SM-2:</span>
                           </div>
-                          <div className="text-[11px] text-slate-400 mt-0.5">نسبة الفاعلية والاستدعاء الذهني لحفظ المفردات</div>
                         </div>
                         <div className="text-2xl font-bold font-serif text-emerald-300">
                           {accuracy}%
@@ -3755,9 +3741,6 @@ export default function App() {
                 /* MODE: MATCHING PAIRS GAME */
                 <div className="space-y-4">
                   <div className="text-center space-y-1 mb-2">
-                    <p className="text-xs text-emerald-300 font-semibold">
-                      اضغط على الكلمة ثم اضغط على معناها المناسب لمطابقتهما:
-                    </p>
                     <p className="text-[11px] text-slate-400">
                       تم مطابقة {matchedCardIds.length / 2} من {matchingCards.length / 2} أزواج
                     </p>
@@ -4414,24 +4397,21 @@ export default function App() {
                     className={`btn text-xs py-2.5 px-2 flex flex-col gap-1 items-center justify-center ${layoutMode === 'dual' ? 'btn-primary' : 'btn-secondary'}`}
                   >
                     <i className="fa-solid fa-columns text-sm"></i>
-                    <span className="font-bold">1. النصان بجانب بعضهما</span>
-                    <span className="text-[10px] opacity-70">صفحتان متقابلتان</span>
+                    <span className="font-bold">النصان بجانب بعضهما</span>
                   </button>
                   <button
                     onClick={() => setLayoutMode('interleaved')}
                     className={`btn text-xs py-2.5 px-2 flex flex-col gap-1 items-center justify-center ${layoutMode === 'interleaved' ? 'btn-primary' : 'btn-secondary'}`}
                   >
                     <i className="fa-solid fa-bars-staggered text-sm"></i>
-                    <span className="font-bold">2. جملة ثم المقابلة</span>
-                    <span className="text-[10px] opacity-70">عرض سطر بسطر</span>
+                    <span className="font-bold">جملة ثم المقابلة</span>
                   </button>
                   <button
                     onClick={() => setLayoutMode('focus')}
                     className={`btn text-xs py-2.5 px-2 flex flex-col gap-1 items-center justify-center ${layoutMode === 'focus' ? 'btn-primary' : 'btn-secondary'}`}
                   >
                     <i className="fa-solid fa-eye text-sm"></i>
-                    <span className="font-bold">3. أحد النصين لوحده</span>
-                    <span className="text-[10px] opacity-70">نص منفرد</span>
+                    <span className="font-bold">نص منفرد</span>
                   </button>
                 </div>
               </div>
@@ -4556,7 +4536,7 @@ export default function App() {
                     <div className="relative">
                       <label className="btn btn-secondary text-xs w-full cursor-pointer flex items-center justify-center gap-2 py-2.5 border-purple-500/30 hover:border-purple-400">
                         <i className="fa-solid fa-upload text-purple-400"></i>
-                        <span>رفع صورة غلاف من جهازك (HD)</span>
+                        <span>رفع صورة الغلاف</span>
                         <input
                           type="file"
                           accept="image/*"
@@ -4572,7 +4552,7 @@ export default function App() {
                         type="text"
                         value={editCoverImage}
                         onChange={(e) => setEditCoverImage(e.target.value)}
-                        placeholder="أو ألصق رابط صورة الغلاف هنا (https://...)"
+                        placeholder="رابط صورة الغلاف"
                         className="form-input w-full text-xs font-mono"
                       />
                     </div>
