@@ -7,10 +7,20 @@ import { GoogleGenAI, Type } from '@google/genai';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+let cachedApiKeyInvalid = false;
+let lastTestedApiKey = '';
+
 function getGeminiClient(): GoogleGenAI | null {
   const apiKey = process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY || process.env.API_KEY;
   const cleanKey = (apiKey || '').trim();
   if (!cleanKey || cleanKey === 'undefined' || cleanKey === 'null') {
+    return null;
+  }
+  if (cleanKey !== lastTestedApiKey) {
+    lastTestedApiKey = cleanKey;
+    cachedApiKeyInvalid = false;
+  }
+  if (cachedApiKeyInvalid) {
     return null;
   }
   try {
@@ -22,8 +32,7 @@ function getGeminiClient(): GoogleGenAI | null {
         }
       }
     });
-  } catch (err) {
-    console.error('[Gemini Client Init Error]:', err);
+  } catch (_err) {
     return null;
   }
 }
@@ -499,20 +508,78 @@ async function startServer() {
     return 0;
   }
 
-  // Advanced Disambiguated Contextual Alignment in Target Sentence (Guaranteed real token in target text)
+  // Advanced Disambiguated Contextual Alignment in Target Sentence (N-Grams + Morphological Stemming + Confidence Metric)
   function findContextualMatchInTarget(
     word: string, 
     direction: 'ar-en' | 'en-ar', 
     sourceSentence: string,
     targetSentence: string,
     lexiconMeanings: string[]
-  ): { exactMatchedWord: string; contextualMeaning: string; explanation: string } {
+  ): { exactMatchedWord: string; contextualMeaning: string; explanation: string; confidenceScore: number; confidenceLabel: string } {
     if (!targetSentence || !targetSentence.trim()) {
+      const fallback = lexiconMeanings[0] || word;
       return {
-        exactMatchedWord: lexicalMeanings[0] || word,
-        contextualMeaning: lexicalMeanings[0] || word,
-        explanation: 'الترجمة المعجمية العامة.'
+        exactMatchedWord: fallback,
+        contextualMeaning: fallback,
+        explanation: 'الترجمة المعجمية العامة.',
+        confidenceScore: lexiconMeanings.length > 0 ? 70 : 50,
+        confidenceLabel: lexiconMeanings.length > 0 ? 'مطابقة معجمية تقريبية' : 'توقع تقريبي'
       };
+    }
+
+    type Candidate = {
+      token: string;
+      meaning: string;
+      score: number;
+      confidence: number;
+      reason: string;
+    };
+
+    const candidates: Candidate[] = [];
+
+    // --- A. N-Gram Compound Phrase Extraction ---
+    if (sourceSentence) {
+      const sourceTokens = sourceSentence.split(/[\s\p{P}«»“”()\[\]{}،.:؛!؟\-_—–]+/u).filter(Boolean);
+      const cleanTargetText = targetSentence.toLowerCase();
+
+      const srcIdx = sourceTokens.findIndex(t => 
+        direction === 'ar-en' 
+          ? normalizeArabic(t) === normalizeArabic(word) || normalizeArabic(t).includes(normalizeArabic(word))
+          : normalizeEnglish(t) === normalizeEnglish(word)
+      );
+
+      if (srcIdx >= 0) {
+        const nGrams: string[] = [];
+        for (let len = 4; len >= 2; len--) {
+          for (let start = Math.max(0, srcIdx - len + 1); start <= Math.min(srcIdx, sourceTokens.length - len); start++) {
+            const phrase = sourceTokens.slice(start, start + len).join(' ');
+            if (phrase) nGrams.push(phrase);
+          }
+        }
+
+        for (const phrase of nGrams) {
+          const dictRes = direction === 'ar-en' ? lookupArabic(phrase) : lookupEnglish(phrase);
+          if (dictRes && dictRes.meanings.length > 0) {
+            for (const meaning of dictRes.meanings) {
+              const cleanMeaning = direction === 'ar-en' ? normalizeEnglish(meaning) : normalizeArabic(meaning);
+              if (cleanMeaning && cleanTargetText.includes(cleanMeaning)) {
+                const regex = new RegExp(cleanMeaning.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i');
+                const match = targetSentence.match(regex);
+                const matchedStr = match ? match[0] : meaning;
+
+                candidates.push({
+                  token: matchedStr,
+                  meaning: meaning,
+                  score: 400,
+                  confidence: 96,
+                  reason: `مطابقة تعبير اصطلاحي مركب: "${phrase}" -> "${matchedStr}".`
+                });
+                break;
+              }
+            }
+          }
+        }
+      }
     }
 
     if (direction === 'ar-en') {
@@ -522,15 +589,6 @@ async function startServer() {
       const wordIdx = arTokens.findIndex(t => normalizeArabic(t).includes(cleanWord) || cleanWord.includes(normalizeArabic(t)));
       const relPosSource = wordIdx >= 0 && arTokens.length > 0 ? wordIdx / arTokens.length : 0.5;
 
-      type Candidate = {
-        token: string;
-        meaning: string;
-        score: number;
-        reason: string;
-      };
-
-      const candidates: Candidate[] = [];
-
       for (let j = 0; j < enTokens.length; j++) {
         const token = enTokens[j];
         const cleanTok = normalizeEnglish(token);
@@ -539,22 +597,27 @@ async function startServer() {
         const isStopword = ENGLISH_STOPWORDS.has(cleanTok);
         const relPosTarget = j / enTokens.length;
         const posDistance = Math.abs(relPosSource - relPosTarget);
-        const posPenalty = 1.0 - posDistance * 0.4;
+        const posPenalty = 1.0 - posDistance * 0.35;
 
-        // 1. Phonetic / Transliteration Match (Top Priority for Names & Special Terms)
+        // 1. Phonetic Match
         if (!isStopword) {
           const phonSim = phoneticSimilarity(word, token);
           if (phonSim > 0.85) {
+            const conf = Math.round(92 * phonSim * posPenalty);
             candidates.push({
               token,
               meaning: token,
               score: 300 * phonSim * posPenalty,
+              confidence: conf,
               reason: 'مطابقة اسم علم / مصطلح معرب مباشر في النص المقابل.'
             });
           }
         }
 
-        // 2. Lexical Meaning Match
+        // 2. Lexical & Morphological Match
+        const tokLookup = lookupEnglish(token);
+        const stemmedTok = tokLookup.normalized || cleanTok;
+
         for (let mIdx = 0; mIdx < lexiconMeanings.length; mIdx++) {
           const meaning = lexiconMeanings[mIdx];
           const cleanMeaning = normalizeEnglish(meaning);
@@ -562,56 +625,44 @@ async function startServer() {
 
           if (isStopword && cleanMeaning !== cleanTok) continue;
 
-          if (cleanTok === cleanMeaning) {
-            const rankScore = mIdx === 0 ? 220 : 170;
+          if (cleanTok === cleanMeaning || stemmedTok === cleanMeaning) {
+            const rankScore = mIdx === 0 ? 250 : 190;
+            const conf = Math.round((mIdx === 0 ? 95 : 88) * posPenalty);
             candidates.push({
               token,
               meaning,
               score: rankScore * posPenalty,
-              reason: 'مطابقة معجمية دقيقة مع الكلمة الموجودة في النص المقابل.'
+              confidence: conf,
+              reason: 'مطابقة معجمية وصرفية دقيقة مع الكلمة الموجودة في النص المقابل.'
             });
           } else if (cleanTok.length >= 3 && cleanMeaning.length >= 3) {
-            if (cleanTok.startsWith(cleanMeaning) || cleanMeaning.startsWith(cleanTok)) {
-              const rankScore = mIdx === 0 ? 150 : 110;
+            if (cleanTok.startsWith(cleanMeaning) || cleanMeaning.startsWith(cleanTok) || stemmedTok.startsWith(cleanMeaning)) {
+              const rankScore = mIdx === 0 ? 170 : 130;
+              const conf = Math.round((mIdx === 0 ? 82 : 75) * posPenalty);
               candidates.push({
                 token,
                 meaning,
                 score: rankScore * posPenalty,
-                reason: 'مطابقة جذر لغوي مع الكلمة الموجودة في النص المقابل.'
+                confidence: conf,
+                reason: 'مطابقة جذر لغوي مع تصريف الكلمة في النص المقابل.'
               });
             }
           }
         }
 
-        // 3. Positional Candidate Fallback for Non-Stopwords
+        // 3. Positional Fallback
         if (!isStopword && cleanTok.length >= 3) {
           const positionScore = 80 * (1.0 - posDistance);
+          const conf = Math.round(68 * (1.0 - posDistance * 0.5));
           candidates.push({
             token,
             meaning: token,
             score: positionScore,
-            reason: 'مطابقة موقعية سياقية داخل النص المقابل (المعالج المحرك المحلي).'
+            confidence: conf,
+            reason: 'مطابقة موقعية سياقية داخل النص المقابل.'
           });
         }
       }
-
-      candidates.sort((a, b) => b.score - a.score);
-
-      if (candidates.length > 0) {
-        return {
-          exactMatchedWord: candidates[0].token,
-          contextualMeaning: candidates[0].meaning,
-          explanation: candidates[0].reason
-        };
-      }
-
-      const nonStopTokens = enTokens.filter(t => !ENGLISH_STOPWORDS.has(normalizeEnglish(t)));
-      const chosenToken = nonStopTokens[0] || enTokens[0] || lexicalMeanings[0] || word;
-      return {
-        exactMatchedWord: chosenToken,
-        contextualMeaning: chosenToken,
-        explanation: 'مطابقة موقعية داخل النص المقابل.'
-      };
     } else {
       // English -> Arabic direction
       const arTokens = targetSentence.split(/[\s\p{P}«»“”()\[\]{}،.:؛!؟\-_—–]+/u).filter(Boolean);
@@ -620,15 +671,6 @@ async function startServer() {
       const wordIdx = enTokens.findIndex(t => normalizeEnglish(t) === cleanWord);
       const relPosSource = wordIdx >= 0 && enTokens.length > 0 ? wordIdx / enTokens.length : 0.5;
 
-      type Candidate = {
-        token: string;
-        meaning: string;
-        score: number;
-        reason: string;
-      };
-
-      const candidates: Candidate[] = [];
-
       for (let j = 0; j < arTokens.length; j++) {
         const token = arTokens[j];
         const normTok = normalizeArabic(token);
@@ -636,81 +678,110 @@ async function startServer() {
 
         const relPosTarget = j / arTokens.length;
         const posDistance = Math.abs(relPosSource - relPosTarget);
-        const posPenalty = 1.0 - posDistance * 0.4;
+        const posPenalty = 1.0 - posDistance * 0.35;
 
-        // 1. Phonetic Match
+        // Phonetic Match
         const phonSim = phoneticSimilarity(token, word);
         if (phonSim > 0.85) {
+          const conf = Math.round(92 * phonSim * posPenalty);
           candidates.push({
             token,
             meaning: token,
             score: 300 * phonSim * posPenalty,
+            confidence: conf,
             reason: 'مطابقة اسم علم / مصطلح معرب مباشر في النص المقابل.'
           });
         }
 
-        // 2. Lexical Meaning Match
+        // Lexical & Morphological Match
+        const tokArLookup = lookupArabic(token);
+        const stemmedArTok = tokArLookup.root || tokArLookup.normalized || normTok;
+
         for (let mIdx = 0; mIdx < lexiconMeanings.length; mIdx++) {
           const meaning = lexiconMeanings[mIdx];
           const normMeaning = normalizeArabic(meaning);
           if (!normMeaning) continue;
 
-          if (normTok === normMeaning) {
-            const rankScore = mIdx === 0 ? 220 : 170;
+          if (normTok === normMeaning || stemmedArTok === normMeaning || normalizeArabic(tokArLookup.word) === normMeaning) {
+            const rankScore = mIdx === 0 ? 250 : 190;
+            const conf = Math.round((mIdx === 0 ? 95 : 88) * posPenalty);
             candidates.push({
               token,
               meaning,
               score: rankScore * posPenalty,
-              reason: 'مطابقة معجمية دقيقة مع الكلمة الموجودة في النص المقابل.'
+              confidence: conf,
+              reason: 'مطابقة معجمية وصرفية دقيقة مع الكلمة الموجودة في النص المقابل.'
             });
-          } else if (normTok.length >= 3 && (normTok.includes(normMeaning) || normMeaning.includes(normTok))) {
-            const rankScore = mIdx === 0 ? 150 : 110;
+          } else if (normTok.length >= 3 && (normTok.includes(normMeaning) || normMeaning.includes(normTok) || stemmedArTok.includes(normMeaning))) {
+            const rankScore = mIdx === 0 ? 170 : 130;
+            const conf = Math.round((mIdx === 0 ? 82 : 75) * posPenalty);
             candidates.push({
               token,
               meaning,
               score: rankScore * posPenalty,
-              reason: 'مطابقة لغوية مع كلمة موجودة في النص المقابل.'
+              confidence: conf,
+              reason: 'مطابقة لغوية مع تصريف أو زوائد الكلمة في النص المقابل.'
             });
           }
         }
 
-        // 3. Positional Candidate Fallback
+        // Positional Fallback
         if (normTok.length >= 3) {
           const positionScore = 80 * (1.0 - posDistance);
+          const conf = Math.round(68 * (1.0 - posDistance * 0.5));
           candidates.push({
             token,
             meaning: token,
             score: positionScore,
-            reason: 'مطابقة موقعية سياقية داخل النص المقابل (المعالج المحلي).'
+            confidence: conf,
+            reason: 'مطابقة موقعية سياقية داخل النص المقابل.'
           });
         }
       }
+    }
 
-      candidates.sort((a, b) => b.score - a.score);
+    candidates.sort((a, b) => b.score - a.score);
 
-      if (candidates.length > 0) {
-        return {
-          exactMatchedWord: candidates[0].token,
-          contextualMeaning: candidates[0].meaning,
-          explanation: candidates[0].reason
-        };
-      }
+    if (candidates.length > 0) {
+      const top = candidates[0];
+      const confScore = Math.min(99, Math.max(50, Math.round(top.confidence)));
+      let confLabel = 'مطابقة سياقية جيدة';
+      if (confScore >= 88) confLabel = 'مطابقة فائقة الدقة ✦';
+      else if (confScore < 68) confLabel = 'مطابقة تقريبية معجمية';
 
-      const chosenToken = arTokens[0] || lexicalMeanings[0] || word;
       return {
-        exactMatchedWord: chosenToken,
-        contextualMeaning: chosenToken,
-        explanation: 'مطابقة موقعية داخل النص المقابل.'
+        exactMatchedWord: top.token,
+        contextualMeaning: top.meaning,
+        explanation: top.reason,
+        confidenceScore: confScore,
+        confidenceLabel: confLabel
       };
     }
+
+    const fallbackChoice = lexiconMeanings[0] || word;
+    return {
+      exactMatchedWord: fallbackChoice,
+      contextualMeaning: fallbackChoice,
+      explanation: 'مطابقة موقعية تقريبية داخل النص المقابل.',
+      confidenceScore: 60,
+      confidenceLabel: 'مطابقة تقريبية معجمية'
+    };
   }
 
   // AI Status Check Endpoint
   app.get('/api/ai/status', (_req, res) => {
-    const client = getGeminiClient();
+    const rawKey = (process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY || process.env.API_KEY || '').trim();
+    const hasKey = !!rawKey && rawKey !== 'undefined' && rawKey !== 'null';
+    const client = hasKey && !cachedApiKeyInvalid ? getGeminiClient() : null;
+
     res.json({
       aiAvailable: true,
       mode: client ? 'cloud' : 'local',
+      apiKeyConfigured: hasKey,
+      apiKeyValid: !cachedApiKeyInvalid,
+      apiKeyNotice: cachedApiKeyInvalid
+        ? 'مفتاح API الحالي غير صالح. يرجى التحقق من المفتاح في قائمة Settings > Secrets.'
+        : (!hasKey ? 'لتفعيل ذكاء Gemini السحابي، يمكنك ضبط مفتاح API في Settings > Secrets.' : null),
       model: client ? 'gemini-3.8-flash' : 'contextual-aligner-v2',
       status: 'connected',
       message: client
@@ -732,8 +803,9 @@ async function startServer() {
     const targetSentence = targetContext?.current || '';
 
     const geminiClient = getGeminiClient();
+    let apiKeyIssue = cachedApiKeyInvalid;
 
-    if (geminiClient) {
+    if (geminiClient && !cachedApiKeyInvalid) {
       try {
         const sourceLang = direction === 'ar-en' ? 'Arabic' : 'English';
         const targetLang = direction === 'ar-en' ? 'English' : 'Arabic';
@@ -789,7 +861,19 @@ Return strictly valid JSON matching the schema.`;
               break;
             }
           } catch (modelErr: any) {
-            console.warn(`[Gemini ${mName} call failed]:`, modelErr?.message);
+            const errMsg = String(modelErr?.message || modelErr || '');
+            if (
+              errMsg.includes('API_KEY_INVALID') ||
+              errMsg.includes('API key not valid') ||
+              errMsg.includes('INVALID_ARGUMENT') ||
+              modelErr?.status === 400 ||
+              modelErr?.status === 403
+            ) {
+              cachedApiKeyInvalid = true;
+              apiKeyIssue = true;
+              // Stop attempting other models with an invalid key
+              break;
+            }
           }
         }
 
@@ -799,14 +883,16 @@ Return strictly valid JSON matching the schema.`;
             exactMatchedWord: aiResult.exactMatchedWord,
             contextualMeaning: aiResult.contextualMeaning || aiResult.exactMatchedWord,
             explanation: aiResult.explanation || 'تم التحليل والمطابقة السياقية بواسطة الذكاء الاصطناعي (Gemini).',
+            confidenceScore: 98,
+            confidenceLabel: 'مطابقة فائقة بالذكاء الاصطناعي (Gemini) ✦',
             status: 'success',
             source: 'gemini',
             aiConnected: true,
             aiStatusMessage: 'تمت الترجمة والمطابقة بنجاح بواسطة الذكاء الاصطناعي (Gemini Flash).'
           });
         }
-      } catch (aiErr: any) {
-        console.warn('[Gemini call failed, seamlessly falling back to local contextual engine]:', aiErr?.message);
+      } catch (_aiErr: any) {
+        // Fall back cleanly to the local contextual engine
       }
     }
 
@@ -817,10 +903,17 @@ Return strictly valid JSON matching the schema.`;
       exactMatchedWord: contextualMatch.exactMatchedWord,
       contextualMeaning: contextualMatch.contextualMeaning,
       explanation: contextualMatch.explanation,
+      confidenceScore: contextualMatch.confidenceScore,
+      confidenceLabel: contextualMatch.confidenceLabel,
       status: 'success',
       source: 'local_engine',
       aiConnected: true,
-      aiStatusMessage: 'تمت المحاذاة والترجمة السياقية بدقة عالية عبر المحرك اللغوي المدمج.'
+      apiKeyNotice: apiKeyIssue
+        ? 'مفتاح API غير صالح. يمكنك ضبط مفتاح صحيح في Settings > Secrets.'
+        : null,
+      aiStatusMessage: apiKeyIssue
+        ? 'تمت المحاذاة بنجاح عبر المحرك الذكي المدمج (لتفعيل Gemini، تحقق من المفتاح في Settings > Secrets).'
+        : 'تمت المحاذاة والترجمة السياقية بدقة عالية عبر المحرك اللغوي المدمج.'
     });
   });
 

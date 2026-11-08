@@ -660,6 +660,23 @@ body.theme-emerald .standalone-reader-screen {
   --paper-input-bg: rgba(0, 0, 0, 0.35);
 }
 
+body.theme-matrix .standalone-reader-screen {
+  --paper-bg: #000000;
+  --paper-text: #F1F5F9;
+  --paper-subtext: #94A3B8;
+  --paper-border: rgba(59, 130, 246, 0.25);
+  --paper-header-border: rgba(255, 255, 255, 0.1);
+  --paper-bar-bg: rgba(0, 0, 0, 0.98);
+  --paper-spine: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.02) 25%, rgba(255, 255, 255, 0.08) 50%, rgba(255, 255, 255, 0.02) 75%, transparent 100%);
+  --paper-row-hover: rgba(59, 130, 246, 0.08);
+  --paper-row-active: rgba(59, 130, 246, 0.22);
+  --paper-row-accent: #3B82F6;
+  --paper-btn-bg: rgba(255, 255, 255, 0.06);
+  --paper-btn-hover: rgba(59, 130, 246, 0.28);
+  --paper-btn-border: rgba(255, 255, 255, 0.12);
+  --paper-input-bg: rgba(15, 23, 42, 0.7);
+}
+
 /* Fullscreen Folio Layout */
 .folder-reading-wrap {
   flex: 1;
@@ -696,6 +713,7 @@ body.theme-emerald .standalone-reader-screen {
   z-index: 30;
   min-height: 52px;
   flex-shrink: 0;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.25s ease;
 }
 
 .paper-book-identity {
@@ -761,6 +779,57 @@ body.theme-emerald .standalone-reader-screen {
   z-index: 50;
   gap: 1rem;
   box-shadow: 0 -8px 30px rgba(0, 0, 0, 0.15);
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.25s ease;
+}
+
+/* Zen Fullscreen Mode: Distraction-free reading with controls hidden until deliberate tap */
+.standalone-reader-screen.fullscreen-mode.controls-hidden .paper-page-header {
+  transform: translateY(-100%) !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+.standalone-reader-screen.fullscreen-mode.controls-hidden .ereader-bottom-toolbar {
+  transform: translateY(100%) !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+.standalone-reader-screen.fullscreen-mode.controls-hidden .paper-reading-canvas {
+  margin-bottom: 0 !important;
+}
+
+/* Subtle Floating Pill to indicate & reveal controls in Zen Fullscreen */
+.fullscreen-reveal-pill {
+  position: fixed;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 900;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.45rem 1.15rem;
+  border-radius: 9999px;
+  background: rgba(15, 17, 23, 0.78);
+  color: #EDF2F7;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(14px);
+  font-size: 11.5px;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.45);
+  opacity: 0.55;
+  transition: opacity 0.25s ease, transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), background 0.2s ease, border-color 0.2s ease;
+}
+
+.fullscreen-reveal-pill:hover {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-2px);
+  background: rgba(15, 17, 23, 0.95);
+  border-color: rgba(199, 125, 255, 0.6);
+  color: #FFFFFF;
 }
 
 .ereader-toolbar-group {
@@ -793,6 +862,7 @@ body.theme-emerald .standalone-reader-screen {
 .theme-dot-parchment { background: #F5EFEB; border: 1px solid #8C5828; }
 .theme-dot-obsidian { background: #0F1117; border: 1px solid rgba(255,255,255,0.4); }
 .theme-dot-emerald { background: #071510; border: 1px solid #10B981; }
+.theme-dot-matrix { background: #000000; border: 1px solid #3B82F6; }
 
 /* Font size stepper button */
 .font-size-btn {
@@ -1226,12 +1296,22 @@ body.theme-emerald .paper-book-page {
 
 .paper-row-ar.active-row {
   background: var(--paper-row-active);
-  border-right-color: var(--paper-row-accent);
+  border-right: 3px solid var(--paper-row-accent);
 }
 
 .paper-row-en.active-row {
   background: var(--paper-row-active);
-  border-left-color: var(--paper-row-accent);
+  border-left: 3px solid var(--paper-row-accent);
+}
+
+.paper-interleaved-row.active-row {
+  background: var(--paper-row-active);
+  border-right: 3px solid var(--paper-row-accent);
+}
+
+.paper-focus-row.active-row {
+  background: var(--paper-row-active);
+  border-right: 3px solid var(--paper-row-accent);
 }
 
 .paper-empty-notice {
@@ -1264,10 +1344,6 @@ body.theme-emerald .paper-book-page {
   background: var(--paper-row-hover);
 }
 
-.paper-interleaved-row.active-row {
-  background: var(--paper-row-active);
-  border-right-color: var(--paper-row-accent);
-}
 
 /* Focus Mode */
 .paper-focus-spread {
@@ -2524,14 +2600,86 @@ body {
 .paper-action-btn:hover { background: rgba(255,255,255,0.04); transform: none; }
 .paper-layout-btn.active { background: rgba(139,130,216,0.1); color: var(--editorial-violet-light); box-shadow: none; }
 .ereader-bottom-toolbar { background: rgba(18,21,24,0.96); border-top-color: var(--editorial-border); box-shadow: 0 -8px 20px rgba(0,0,0,0.14); backdrop-filter: none; }
-.text-ar { color: #e9e5dc; max-width: 42rem; margin-inline: auto; }
-.text-en { color: #c6c8c6; max-width: 42rem; margin-inline: auto; }
+.text-ar { color: var(--text-primary); max-width: 42rem; margin-inline: auto; }
+.text-en { color: var(--text-secondary); max-width: 42rem; margin-inline: auto; }
 .paper-sentence-row, .paper-interleaved-row, .paper-focus-row { border-radius: 6px; }
 .word-link { border-bottom-color: rgba(199,166,106,0.7); }
 .word-link:hover, .word-link:active { background: var(--editorial-gold); color: #17130c; }
 .word-link.active-word, .word-link.active-word.selected-primary { background: var(--editorial-violet); box-shadow: none; }
-.smart-lexicon-floating { right: 1.5rem; left: auto; bottom: 5rem; transform: none; width: min(300px, 28vw); max-width: 300px; padding: 1rem; background: var(--editorial-surface-2); border: 1px solid var(--editorial-border); border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.3); backdrop-filter: none; animation: none; }
-.smart-lexicon-floating h3 { color: var(--editorial-ivory); font-size: 1.7rem; }
+
+/* Word Underline Preference in Reader */
+.standalone-reader-screen.no-word-underlines .word-link,
+.no-word-underlines .word-link {
+  border-bottom: transparent 1.5px solid !important;
+  border-bottom-color: transparent !important;
+  text-decoration: none !important;
+}
+
+.standalone-reader-screen.no-word-underlines .word-link:hover,
+.no-word-underlines .word-link:hover {
+  background: rgba(168, 85, 247, 0.18) !important;
+  border-radius: 4px;
+}
+
+.standalone-reader-screen.no-word-underlines .word-link.active-word,
+.no-word-underlines .word-link.active-word {
+  border-bottom: 2px solid var(--violet-primary, #9D4EDD) !important;
+}
+
+/* Floating Translation & Lexicon Backdrop */
+.smart-lexicon-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 9998;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  animation: fadeInBackdrop 0.18s ease-out;
+}
+
+@keyframes fadeInBackdrop {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Floating Translation & Lexicon Card - Guaranteed Visible & Elevated */
+.smart-lexicon-floating {
+  position: fixed !important;
+  z-index: 10000 !important;
+  bottom: 5.5rem !important;
+  left: 50% !important;
+  right: auto !important;
+  transform: translateX(-50%) !important;
+  width: min(600px, 92vw) !important;
+  max-width: 600px !important;
+  max-height: 80vh !important;
+  overflow-y: auto !important;
+  padding: 1.25rem 1.4rem !important;
+  background: #171c24 !important;
+  border: 1px solid rgba(168, 85, 247, 0.45) !important;
+  border-radius: 18px !important;
+  box-shadow: 0 20px 65px rgba(0, 0, 0, 0.85), 0 0 35px rgba(168, 85, 247, 0.25) !important;
+  backdrop-filter: blur(24px) !important;
+  -webkit-backdrop-filter: blur(24px) !important;
+  pointer-events: auto !important;
+  animation: slideUpFloating 0.22s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.smart-lexicon-floating h3 {
+  color: var(--editorial-ivory, #FFF);
+  font-size: 1.45rem;
+}
+
+@keyframes slideUpFloating {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 15px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
 
 /* Small indicator styles: warm gold is reserved for reading progress and status. */
 .book-meta, .vocab-level-badge { color: var(--editorial-gold); background: rgba(199,166,106,0.1); border-color: rgba(199,166,106,0.25); }
@@ -2554,7 +2702,17 @@ body {
   .header-actions { width: auto; margin-top: 0; padding: 0; border: 0; }
   .header-actions > div { width: auto; }
   .main-content { margin-right: 0; padding: 1.5rem 0.85rem 6.5rem; }
-  .smart-lexicon-floating { right: 0; left: 0; bottom: calc(3.8rem + env(safe-area-inset-bottom, 0)); width: 100%; max-width: none; border-radius: 12px 12px 0 0; }
+  .smart-lexicon-floating {
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    transform: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    border-radius: 20px 20px 0 0 !important;
+    padding: 1.25rem 1.25rem calc(1.75rem + env(safe-area-inset-bottom, 0)) !important;
+    box-shadow: 0 -12px 50px rgba(0, 0, 0, 0.88), 0 0 35px rgba(168, 85, 247, 0.3) !important;
+  }
 }
 
 
@@ -3449,6 +3607,18 @@ body.theme-parchment .smart-lexicon-floating h3 {
   color: #2A2118 !important;
 }
 
+body.theme-emerald .smart-lexicon-floating {
+  background: #0d211a !important;
+  border-color: rgba(52, 211, 153, 0.45) !important;
+  color: #EDFDF6 !important;
+}
+
+body.theme-matrix .smart-lexicon-floating {
+  background: #06150d !important;
+  border-color: rgba(57, 255, 136, 0.45) !important;
+  color: #EDFDF6 !important;
+}
+
 
 
 /* =====================================================================
@@ -3599,7 +3769,7 @@ body::before { display: none; }
 .page-title { font-size: clamp(26px, 3vw, 38px); }
 .section-subtitle { color: var(--studio-ink-muted); }
 
-.library-controls, .workspace-card, .alignment-editor, .alignment-preview, .interleaved-card, .vocab-card, .book-card-editorial, .hero-book-spotlight, .smart-lexicon-floating, .modal-card {
+.library-controls, .workspace-card, .alignment-editor, .alignment-preview, .interleaved-card, .vocab-card, .book-card-editorial, .hero-book-spotlight, .modal-card {
   background: var(--studio-surface) !important; border: 1px solid var(--studio-border) !important; box-shadow: none !important; backdrop-filter: none !important;
 }
 .library-controls, .workspace-card, .interleaved-card, .vocab-card, .hero-book-spotlight { border-radius: var(--studio-radius); }
@@ -3818,7 +3988,7 @@ body { color: var(--studio-ink); }
 .main-content > * { width: min(1240px, 100%); max-width: none; margin-inline: auto; }
 
 /* Shared surfaces: flatter, tighter and deliberately square-ish. */
-.library-controls, .workspace-card, .alignment-editor, .alignment-preview, .interleaved-card, .vocab-card, .book-card-editorial, .hero-book-spotlight, .smart-lexicon-floating, .modal-card {
+.library-controls, .workspace-card, .alignment-editor, .alignment-preview, .interleaved-card, .vocab-card, .book-card-editorial, .hero-book-spotlight, .modal-card {
   background: var(--studio-surface) !important; border: 1px solid var(--studio-border) !important; border-radius: var(--ink-radius) !important; box-shadow: none !important; backdrop-filter: none !important;
 }
 .section-title, .page-title { color: var(--studio-ink); text-shadow: none; letter-spacing: -.035em; }
@@ -4623,6 +4793,21 @@ body.theme-matrix {
   --glass-shadow: 0 0 28px rgba(0, 255, 112, .08);
   --row-active-bg: var(--studio-accent-wash);
   --row-active-border: var(--studio-accent);
+  --editorial-bg: #050b09;
+  --editorial-surface: #081510;
+  --editorial-surface-2: #0d2117;
+  --editorial-border: #1d5b3a;
+  --editorial-ivory: #d9ffe7;
+  --editorial-muted: #579273;
+  --editorial-violet: #39ff88;
+  --editorial-violet-light: #6affaa;
+  --editorial-gold: #d6f56b;
+  --paper-bg: #050b09;
+  --paper-text: #d9ffe7;
+  --paper-btn-border: #1d5b3a;
+  --paper-btn-hover: #0d2117;
+  --paper-row-hover: rgba(57, 255, 136, 0.05);
+  --paper-row-active: rgba(57, 255, 136, 0.15);
   background-color: var(--studio-bg);
   background-image:
     linear-gradient(rgba(57,255,136,.035) 1px, transparent 1px),
@@ -4701,3 +4886,279 @@ body.theme-matrix .modal-overlay { background: rgba(0, 8, 4, .82) !important; }
 @media (prefers-reduced-motion: reduce) {
   body.theme-matrix::after { display: none; }
 }
+
+/* =====================================================================
+   LINE CLAMP & TEXT OVERFLOW UTILITIES
+   ===================================================================== */
+.line-clamp-1 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+}
+
+/* =====================================================================
+   CLEAN BATCH CARDS (No overlapping text, pristine typography)
+   ===================================================================== */
+.batch-card-editorial {
+  background: var(--editorial-surface);
+  border: 1px solid var(--editorial-border);
+  border-radius: 16px;
+  padding: 1.15rem;
+  transition: all 0.25s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.batch-card-editorial:hover {
+  border-color: var(--editorial-violet-light);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.batch-card-editorial.is-newest {
+  border-color: rgba(229, 169, 60, 0.45);
+  box-shadow: 0 4px 20px rgba(229, 169, 60, 0.08);
+}
+
+.batch-excerpt-box {
+  background: var(--editorial-surface-2);
+  border: 1px solid var(--editorial-border);
+  border-radius: 12px;
+  padding: 0.85rem 1rem;
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.batch-excerpt-box.ar {
+  border-right: 3px solid rgba(229, 169, 60, 0.8);
+}
+
+.batch-excerpt-box.en {
+  border-left: 3px solid rgba(139, 92, 246, 0.8);
+}
+
+body.theme-matrix .batch-excerpt-box {
+  background: var(--studio-surface-raised);
+  border-color: var(--studio-border);
+}
+
+body.theme-matrix .batch-excerpt-box.ar {
+  border-right-color: var(--studio-accent);
+}
+
+body.theme-matrix .batch-excerpt-box.en {
+  border-left-color: var(--studio-accent-strong);
+}
+
+/* Manuscript Chapter Divider inside Reader */
+.batch-chapter-divider {
+  margin: 2.25rem 0 1.5rem;
+  text-align: center;
+  position: relative;
+}
+
+.batch-chapter-divider::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: var(--editorial-border);
+  z-index: 0;
+}
+
+.batch-chapter-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.45rem 1.25rem;
+  background: var(--editorial-surface);
+  border: 1px solid var(--editorial-border);
+  border-radius: 9999px;
+  font-family: var(--font-serif);
+  font-size: 0.85rem;
+  color: var(--editorial-gold);
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+}
+
+/* =====================================================================
+   CLASSICAL ARABIC ORNAMENTS & ILLUMINATED MANUSCRIPT DESIGNS
+   ===================================================================== */
+
+/* Arabesque Calligraphic Section Divider */
+.arabesque-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  margin: 1.75rem 0;
+  width: 100%;
+  color: var(--editorial-gold, #C7A66A);
+}
+
+.arabesque-divider::before,
+.arabesque-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, var(--editorial-gold, #C7A66A) 50%, transparent 100%);
+  opacity: 0.55;
+}
+
+.arabesque-symbol {
+  font-family: 'Amiri', 'Aref Ruqaa', serif;
+  font-size: 1.15rem;
+  letter-spacing: 0.3em;
+  color: var(--editorial-gold, #C7A66A);
+  text-shadow: 0 0 12px rgba(199, 166, 106, 0.35);
+  user-select: none;
+  opacity: 0.9;
+}
+
+/* Illuminated Header Crest */
+.illuminated-crest {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: 'Aref Ruqaa Ink', 'Aref Ruqaa', 'Amiri', serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--editorial-gold, #C7A66A);
+  text-transform: uppercase;
+  margin-bottom: 0.35rem;
+}
+
+.illuminated-crest::before,
+.illuminated-crest::after {
+  content: '✤';
+  font-size: 0.7rem;
+  opacity: 0.8;
+}
+
+/* Illuminated Section Title Frame */
+.illuminated-title-box {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  border-right: 3px solid var(--editorial-gold, #C7A66A);
+  background: linear-gradient(90deg, rgba(199, 166, 106, 0.08) 0%, transparent 100%);
+  border-radius: 0 12px 12px 0;
+  margin-bottom: 1.25rem;
+}
+
+body.theme-parchment .illuminated-title-box {
+  background: linear-gradient(90deg, rgba(140, 88, 40, 0.09) 0%, transparent 100%);
+  border-right-color: #8C5828;
+}
+
+body.theme-emerald .illuminated-title-box {
+  background: linear-gradient(90deg, rgba(16, 185, 129, 0.12) 0%, transparent 100%);
+  border-right-color: #10B981;
+}
+
+body.theme-matrix .illuminated-title-box {
+  background: linear-gradient(90deg, rgba(57, 255, 136, 0.12) 0%, transparent 100%);
+  border-right-color: #39FF88;
+}
+
+/* Classical Gilded Card Motif */
+.gilded-frame-card {
+  position: relative;
+  background: var(--editorial-surface, #121518);
+  border: 1px solid var(--editorial-border, #292E34);
+  border-radius: 18px;
+  padding: 1.5rem;
+  transition: all 0.28s ease;
+}
+
+.gilded-frame-card::before {
+  content: '';
+  position: absolute;
+  inset: 6px;
+  border: 1px solid rgba(199, 166, 106, 0.4);
+  border-radius: 13px;
+  pointer-events: none;
+  box-sizing: border-box;
+  transition: all 0.28s ease;
+}
+
+.gilded-frame-card:hover {
+  border-color: var(--editorial-gold, #C7A66A);
+  box-shadow: 0 10px 32px rgba(0, 0, 0, 0.28), 0 0 20px rgba(199, 166, 106, 0.12);
+  transform: translateY(-2px);
+}
+
+.gilded-frame-card:hover::before {
+  border-color: rgba(199, 166, 106, 0.85);
+  box-shadow: inset 0 0 8px rgba(199, 166, 106, 0.12);
+}
+
+/* Paper Grain & Vignette Overlay for Parchment Theme */
+body.theme-parchment .paper-book-page::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 2;
+  box-shadow: inset 0 0 90px rgba(120, 80, 30, 0.08);
+  background: radial-gradient(circle at 50% 50%, transparent 70%, rgba(140, 88, 40, 0.06) 100%);
+}
+
+/* Calligraphic Book Stamp Badge */
+.book-calligraphy-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(199, 166, 106, 0.12);
+  border: 1px solid rgba(199, 166, 106, 0.4);
+  color: var(--editorial-gold, #C7A66A);
+  font-family: 'Amiri', serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+  flex-shrink: 0;
+}
+
+/* Gold Text Shimmer */
+.gold-shimmer-text {
+  background: linear-gradient(135deg, #F8F6F0 0%, #D4AF37 50%, #E2C997 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 1px 4px rgba(199, 166, 106, 0.25));
+}
+
+body.theme-parchment .gold-shimmer-text {
+  background: linear-gradient(135deg, #5C3814 0%, #8C5828 50%, #B87B40 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 1px 2px rgba(140, 88, 40, 0.2));
+}
+
+

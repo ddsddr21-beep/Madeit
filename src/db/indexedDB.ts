@@ -26,6 +26,7 @@ export interface Book {
   alignedRows: AlignedUnit[];
   createdAt: number;
   lastReadAt?: number;
+  lastReadRowId?: string;
   coverColor?: string;
   coverImage?: string;
   batches?: TextBatch[];
@@ -150,7 +151,16 @@ function syncBooksSnapshot(books: Book[]): void {
   try {
     localStorage.setItem(STORAGE_KEYS.BOOKS_SNAPSHOT, JSON.stringify(books));
   } catch (err) {
-    console.warn('Could not update books localStorage snapshot:', err);
+    try {
+      // If quota exceeded due to large base64 images, strip heavy coverImages in localStorage snapshot
+      const lightweightBooks = books.map(b => ({
+        ...b,
+        coverImage: b.coverImage && b.coverImage.startsWith('data:image') && b.coverImage.length > 5000 ? undefined : b.coverImage
+      }));
+      localStorage.setItem(STORAGE_KEYS.BOOKS_SNAPSHOT, JSON.stringify(lightweightBooks));
+    } catch (e2) {
+      console.warn('Could not update books localStorage snapshot even after stripping images:', e2);
+    }
   }
 }
 
